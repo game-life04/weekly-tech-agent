@@ -377,7 +377,8 @@ sources:
       - { name: 极客公园, url: 'https://www.geekpark.net/rss', weight: 0.4, max_items: 1, only_related: true, naive_offset: 8 }
       - { name: 少数派, url: 'https://sspai.com/feed', weight: 0.4, max_items: 1, only_related: true, naive_offset: 8 }
       - { name: Solidot, url: 'https://www.solidot.org/index.rss', weight: 0.45, max_items: 2, only_related: true, naive_offset: 8 }
-      - { name: 阮一峰周刊, url: 'https://www.ruanyifeng.com/blog/atom.xml', weight: 0.6, max_items: 1, max_age_hours: 72, title_match: 科技爱好者周刊, naive_offset: 8 }
+      # 用作者自己的 FeedBurner 地址：ruanyifeng.com 对 GitHub Actions 的出口地址返回 403
+      - { name: 阮一峰周刊, url: 'https://feeds.feedburner.com/ruanyifeng', weight: 0.6, max_items: 1, max_age_hours: 72, title_match: 科技爱好者周刊, naive_offset: 8 }
       # —— 中文开源社区（放在开源圈栏目）——
       - { name: 开源中国, url: 'https://www.oschina.net/news/rss', section: opensource, weight: 0.45, max_items: 3, naive_offset: 8 }
       - { name: HelloGitHub 月刊, url: 'https://hellogithub.com/rss', section: opensource, weight: 0.6, max_items: 1, max_age_hours: 96, naive_offset: 8 }
