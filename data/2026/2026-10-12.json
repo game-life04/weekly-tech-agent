@@ -1,17 +1,17 @@
 {
  "date": "2026-10-12",
- "generated_at": "2026-10-12T01:53:08Z",
+ "generated_at": "2026-10-12T02:02:03Z",
  "llm": null,
- "candidates": 439,
+ "candidates": 440,
  "sources": [
   {
    "name": "hackernews",
    "title": "Hacker News",
    "group": "Hacker News",
    "ok": true,
-   "count": 48,
+   "count": 49,
    "error": "",
-   "seconds": 0.6
+   "seconds": 3.6
   },
   {
    "name": "rss:OpenAI",
@@ -20,7 +20,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Anthropic",
@@ -56,7 +56,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "name": "rss:Google DeepMind",
@@ -83,7 +83,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "rss:Mistral AI",
@@ -92,7 +92,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "name": "rss:Hugging Face 博客",
@@ -101,7 +101,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "rss:Microsoft Research",
@@ -110,7 +110,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.6
+   "seconds": 0.8
   },
   {
    "name": "rss:Apple 机器学习研究",
@@ -119,7 +119,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:NVIDIA 博客",
@@ -128,7 +128,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:vLLM 博客",
@@ -137,7 +137,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Ollama 博客",
@@ -155,7 +155,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Simon Willison",
@@ -164,7 +164,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Lilian Weng",
@@ -173,7 +173,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "name": "rss:Ahead of AI",
@@ -191,7 +191,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "rss:Import AI",
@@ -200,7 +200,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Latent Space",
@@ -209,7 +209,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:MIT 科技评论",
@@ -245,7 +245,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:The Verge",
@@ -254,7 +254,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "name": "rss:新智元",
@@ -263,7 +263,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 2.4
+   "seconds": 2.8
   },
   {
    "name": "rss:InfoQ 中文",
@@ -272,7 +272,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 1.3
+   "seconds": 1.5
   },
   {
    "name": "rss:雷峰网",
@@ -281,7 +281,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 5.8
+   "seconds": 33.7
   },
   {
    "name": "rss:智东西",
@@ -290,7 +290,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 2.2
+   "seconds": 2.5
   },
   {
    "name": "rss:IT之家",
@@ -299,7 +299,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 0.9
+   "seconds": 1.2
   },
   {
    "name": "rss:36氪",
@@ -308,7 +308,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.3
+   "seconds": 1.5
   },
   {
    "name": "rss:爱范儿",
@@ -317,7 +317,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.0
+   "seconds": 1.4
   },
   {
    "name": "rss:极客公园",
@@ -326,7 +326,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 1.7
+   "seconds": 2.0
   },
   {
    "name": "rss:少数派",
@@ -350,10 +350,10 @@
    "name": "rss:阮一峰周刊",
    "title": "阮一峰周刊",
    "group": "RSS 订阅",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "HttpError: HTTP 403：https://www.ruanyifeng.com/blog/atom.xml",
-   "seconds": 0.1
+   "error": "",
+   "seconds": 0.4
   },
   {
    "name": "rss:开源中国",
@@ -362,7 +362,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 2.5
+   "seconds": 3.0
   },
   {
    "name": "rss:HelloGitHub 月刊",
@@ -371,7 +371,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.7
+   "seconds": 1.0
   },
   {
    "name": "qbitai",
@@ -380,7 +380,7 @@
    "ok": true,
    "count": 5,
    "error": "",
-   "seconds": 2.1
+   "seconds": 1.9
   },
   {
    "name": "github_trending",
@@ -398,7 +398,7 @@
    "ok": true,
    "count": 275,
    "error": "",
-   "seconds": 20.8
+   "seconds": 20.6
   },
   {
    "name": "github_releases",
@@ -407,7 +407,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 19.3
+   "seconds": 19.0
   },
   {
    "name": "hot_models:huggingface",
@@ -434,7 +434,7 @@
    "ok": true,
    "count": 34,
    "error": "",
-   "seconds": 20.6
+   "seconds": 18.9
   }
  ],
  "items": [
@@ -446,17 +446,17 @@
    "via": "Hacker News",
    "published": "2026-10-11T20:20:52Z",
    "summary": "",
-   "heat": 0.889,
+   "heat": 0.892,
    "weight": 0.6,
    "metrics": {
-    "points": 250.0,
-    "comments": 402.0
+    "points": 255.0,
+    "comments": 411.0
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50047422"
    },
    "id": "94f18cf931b3",
-   "score": 8.09,
+   "score": 8.1,
    "title_zh": "",
    "summary_zh": "",
    "tags": [],
@@ -501,7 +501,7 @@
    "metrics": {
     "points": 321.0,
     "comments": 150.0,
-    "stars": 756.0
+    "stars": 757.0
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50031614",
@@ -526,10 +526,10 @@
    "via": "Hacker News",
    "published": "2026-10-11T02:02:38Z",
    "summary": "",
-   "heat": 0.82,
+   "heat": 0.822,
    "weight": 0.6,
    "metrics": {
-    "points": 163.0,
+    "points": 165.0,
     "comments": 113.0
    },
    "extra": {
@@ -616,7 +616,7 @@
    "metrics": {},
    "extra": {},
    "id": "aaa81e7ae0a7",
-   "score": 5.97,
+   "score": 5.96,
    "title_zh": "",
    "summary_zh": "",
    "tags": [],
@@ -635,7 +635,7 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 25599.0,
-    "stars": 107523.0
+    "stars": 107965.0
    },
    "extra": {
     "language": "TypeScript"
@@ -682,7 +682,7 @@
    "heat": 0.978,
    "weight": 0.5,
    "metrics": {
-    "stars": 21671.0
+    "stars": 21678.0
    },
    "extra": {
     "language": "C++",
@@ -704,17 +704,17 @@
    "via": "GitHub 新项目",
    "published": "",
    "summary": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
-   "heat": 0.963,
+   "heat": 0.964,
    "weight": 0.5,
    "metrics": {
-    "stars": 3441.0
+    "stars": 3468.0
    },
    "extra": {
     "language": "JavaScript",
     "age_days": 3
    },
    "id": "f02960115775",
-   "score": 7.31,
+   "score": 7.32,
    "title_zh": "",
    "summary_zh": "",
    "tags": [],
@@ -733,7 +733,7 @@
    "weight": 0.5,
    "metrics": {
     "likes": 1386.0,
-    "downloads": 83903.0
+    "downloads": 83907.0
    },
    "extra": {},
    "id": "4d0128fccaf8",
@@ -756,7 +756,7 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 1225.0,
-    "stars": 58828.0
+    "stars": 58841.0
    },
    "extra": {
     "language": "Python"
@@ -781,7 +781,7 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 1104.0,
-    "stars": 60400.0
+    "stars": 60406.0
    },
    "extra": {
     "language": "Python"
@@ -806,7 +806,7 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 1083.0,
-    "stars": 50447.0
+    "stars": 50463.0
    },
    "extra": {
     "language": "HTML"
@@ -936,10 +936,10 @@
    "via": "Hugging Face 热门论文",
    "published": "2026-10-07T00:00:00Z",
    "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed prompt supplies exact strings for four to twelve text regions, paired with structured references for…",
-   "heat": 0.884,
+   "heat": 0.885,
    "weight": 0.6,
    "metrics": {
-    "upvotes": 154.0
+    "upvotes": 155.0
    },
    "extra": {
     "links": [
@@ -950,7 +950,7 @@
     ]
    },
    "id": "efbb2001404b",
-   "score": 6.56,
+   "score": 6.57,
    "title_zh": "",
    "summary_zh": "",
    "tags": [],
