@@ -1,11 +1,11 @@
 {
  "date": "2026-10-12",
- "generated_at": "2026-10-12T06:15:03Z",
+ "generated_at": "2026-10-12T06:36:07Z",
  "llm": {
   "provider": "智谱",
   "model": "glm-4.7-flash"
  },
- "candidates": 437,
+ "candidates": 436,
  "sources": [
   {
    "name": "hackernews",
@@ -14,7 +14,7 @@
    "ok": true,
    "count": 46,
    "error": "",
-   "seconds": 3.2
+   "seconds": 0.8
   },
   {
    "name": "rss:OpenAI",
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Anthropic",
@@ -41,7 +41,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "name": "rss:Meta AI",
@@ -50,7 +50,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "name": "rss:xAI",
@@ -59,7 +59,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "name": "rss:Google DeepMind",
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "rss:Mistral AI",
@@ -113,7 +113,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 1.1
+   "seconds": 0.6
   },
   {
    "name": "rss:Apple 机器学习研究",
@@ -122,7 +122,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:NVIDIA 博客",
@@ -131,7 +131,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:vLLM 博客",
@@ -194,7 +194,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "name": "rss:Import AI",
@@ -203,7 +203,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Latent Space",
@@ -212,7 +212,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:MIT 科技评论",
@@ -230,7 +230,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "rss:The Decoder",
@@ -239,7 +239,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.1
+   "seconds": 1.2
   },
   {
    "name": "rss:TechCrunch",
@@ -266,7 +266,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 2.4
+   "seconds": 2.5
   },
   {
    "name": "rss:InfoQ 中文",
@@ -275,7 +275,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 1.4
+   "seconds": 1.2
   },
   {
    "name": "rss:雷峰网",
@@ -284,7 +284,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 45.7
+   "seconds": 3.5
   },
   {
    "name": "rss:智东西",
@@ -293,7 +293,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 2.6
+   "seconds": 2.1
   },
   {
    "name": "rss:IT之家",
@@ -302,7 +302,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 1.8
+   "seconds": 1.5
   },
   {
    "name": "rss:36氪",
@@ -311,7 +311,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.8
+   "seconds": 1.4
   },
   {
    "name": "rss:爱范儿",
@@ -320,7 +320,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.5
+   "seconds": 1.3
   },
   {
    "name": "rss:极客公园",
@@ -329,7 +329,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 2.2
+   "seconds": 1.6
   },
   {
    "name": "rss:少数派",
@@ -338,7 +338,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 1.3
+   "seconds": 1.1
   },
   {
    "name": "rss:Solidot",
@@ -347,7 +347,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 1.4
+   "seconds": 1.1
   },
   {
    "name": "rss:阮一峰周刊",
@@ -356,7 +356,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "name": "rss:开源中国",
@@ -365,7 +365,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 5.5
+   "seconds": 2.5
   },
   {
    "name": "rss:HelloGitHub 月刊",
@@ -374,7 +374,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 1.0
+   "seconds": 0.9
   },
   {
    "name": "qbitai",
@@ -383,7 +383,7 @@
    "ok": true,
    "count": 5,
    "error": "",
-   "seconds": 2.1
+   "seconds": 2.0
   },
   {
    "name": "github_trending",
@@ -392,16 +392,16 @@
    "ok": true,
    "count": 33,
    "error": "",
-   "seconds": 9.5
+   "seconds": 10.2
   },
   {
    "name": "github_new",
    "title": "GitHub 新项目",
    "group": "GitHub 新项目",
    "ok": true,
-   "count": 275,
+   "count": 274,
    "error": "",
-   "seconds": 20.5
+   "seconds": 22.8
   },
   {
    "name": "github_releases",
@@ -410,7 +410,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 17.7
+   "seconds": 18.5
   },
   {
    "name": "hot_models:huggingface",
@@ -428,7 +428,7 @@
    "ok": true,
    "count": 8,
    "error": "",
-   "seconds": 1.4
+   "seconds": 4.0
   },
   {
    "name": "papers",
@@ -437,7 +437,7 @@
    "ok": true,
    "count": 34,
    "error": "",
-   "seconds": 21.0
+   "seconds": 18.5
   }
  ],
  "items": [
@@ -449,21 +449,24 @@
    "via": "Hacker News",
    "published": "2026-10-11T20:20:52Z",
    "summary": "",
-   "heat": 0.957,
+   "heat": 0.961,
    "weight": 0.6,
    "metrics": {
-    "points": 383.0,
-    "comments": 540.0
+    "points": 392.0,
+    "comments": 549.0
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50047422",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "94f18cf931b3",
    "score": 8.13,
-   "title_zh": "",
+   "title_zh": "LLM 能力共识的差距正在扩大",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -478,17 +481,20 @@
    "heat": 0.985,
    "weight": 0.6,
    "metrics": {
-    "points": 454.0,
+    "points": 455.0,
     "comments": 102.0
    },
    "extra": {
-    "discussion": "https://news.ycombinator.com/item?id=50037949"
+    "discussion": "https://news.ycombinator.com/item?id=50037949",
+    "llm_done": true
    },
    "id": "d121c872efc5",
-   "score": 8.0,
-   "title_zh": "",
+   "score": 7.99,
+   "title_zh": "构建你自己的决策模型",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -505,18 +511,22 @@
    "metrics": {
     "points": 323.0,
     "comments": 150.0,
-    "stars": 781.0
+    "stars": 783.0
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50031614",
     "language": "TypeScript",
-    "age_days": 1
+    "age_days": 1,
+    "llm_done": true
    },
    "id": "193acb926bb9",
-   "score": 7.52,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "score": 7.51,
+   "title_zh": "Talorys – Cloudflare 免费层上的自托管个人 AI 智能体",
+   "summary_zh": "在 Cloudflare 账户中部署个人 AI 智能体，支持聊天、记忆、任务和提醒，无需遥测数据。",
+   "tags": [
+    "智能体",
+    "开源工具"
+   ],
    "also_in": [
     "GitHub 新项目"
    ],
@@ -564,13 +574,17 @@
     "comments": 137.0
    },
    "extra": {
-    "discussion": "https://news.ycombinator.com/item?id=50039092"
+    "discussion": "https://news.ycombinator.com/item?id=50039092",
+    "llm_done": true
    },
    "id": "379d34a56ae8",
-   "score": 7.35,
-   "title_zh": "",
+   "score": 7.34,
+   "title_zh": "500B tokens 后：让 AI 智能体反编译第一人称射击游戏",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "智能体",
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -597,6 +611,33 @@
     "智谱",
     "模型发布",
     "推理速度"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
+   "url": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-10-10T11:40:00Z",
+   "summary": "DeepSeek 的省钱杀手锏，为何成了致命盲区？ 作者丨 高允毅 编辑丨岑 峰 同一个问题问 DeepSeek 两次，只是多敲了几个空格，给出的答案居然一个像“天才”，一个像“智障”。 9月底，字节团队的最新论文 《Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression》 ，直接点名了 DeepSeek V4 系列模型的 “神鬼二象性 ”问题。 图注：论文链接 https://arxiv.org/pdf/2609.36322 这本质上是底层算法偷懒导致的“周期性失忆”， 分块 KV Cache 压缩技术 把长上下文切块压缩处理，这就带来一个问题： “位置决定命运” 。如果你的核心词不巧落在了切块交界的“信息盲区”里，那模型只能胡言乱语。 想象一下，如果让大模型审阅几十页合同，而关键条款刚好卡在“信息盲区”，模型直接无视这条信息，给出相反的结论。而这个错误可能是你不小心加了点空白字符，模型直接翻了车，你还根本不知道问题出在哪。 而这种“神鬼二象性”的先天短板，绝非 DeepSeek 一家独有。在…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "3f49c72314f9",
+   "score": 6.83,
+   "title_zh": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
+   "summary_zh": "字节团队发现 DeepSeek V4 模型存在“神鬼二象性”问题，因分块 KV Cache 压缩导致位置敏感，关键信息可能被忽略。",
+   "tags": [
+    "模型发布",
+    "Bug",
+    "行业动态"
    ],
    "also_in": [],
    "merged_ids": []
@@ -629,33 +670,6 @@
    "merged_ids": []
   },
   {
-   "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-   "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-   "source": "rss",
-   "section": "news",
-   "via": "The Decoder",
-   "published": "2026-10-11T15:39:26Z",
-   "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The article AI agent teams waste massive tokens for barely measurable quality gains, research finds appeared first on The Decoder .",
-   "heat": 0.5,
-   "weight": 0.5,
-   "metrics": {},
-   "extra": {
-    "llm_score": 7.0,
-    "llm_done": true
-   },
-   "id": "f43207a3e429",
-   "score": 6.45,
-   "title_zh": "AI agent teams waste massive tokens for barely measurable q…",
-   "summary_zh": "AI agent团队仅小幅提升质量，但成本高达5.1倍。",
-   "tags": [
-    "智能体",
-    "评测",
-    "推理加速"
-   ],
-   "also_in": [],
-   "merged_ids": []
-  },
-  {
    "title": "morluto/rea",
    "url": "https://github.com/morluto/rea",
    "source": "github_trending",
@@ -667,17 +681,21 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 25599.0,
-    "stars": 117515.0
+    "stars": 118510.0
    },
    "extra": {
     "language": "TypeScript",
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "710f7fe65ffc",
    "score": 8.52,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "使用智能体从应用行为到原生二进制文件进行逆向工程。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -689,21 +707,25 @@
    "via": "GitHub 新项目",
    "published": "",
    "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-   "heat": 0.979,
+   "heat": 0.98,
    "weight": 0.5,
    "metrics": {
-    "stars": 21931.0
+    "stars": 21950.0
    },
    "extra": {
     "language": "C++",
     "age_days": 17,
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "2a80b8806cb5",
    "score": 8.36,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "在消费级硬件上运行 Qwen3.8-Flash-Next，支持本地 OpenAI/Anthropic API。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -719,17 +741,21 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 501.0,
-    "stars": 167538.0
+    "stars": 167539.0
    },
    "extra": {
     "language": "Python",
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "443ea9329e44",
    "score": 8.07,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "支持文本、视觉、音频和多模态模型推理与训练的模型定义框架。",
+   "tags": [
+    "开源工具",
+    "框架"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -745,17 +771,51 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 1225.0,
-    "stars": 59148.0
+    "stars": 59179.0
    },
    "extra": {
     "language": "Python",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "c26bc22c2c10",
    "score": 7.7,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "完全本地化的 ElevenLabs 开源替代品，支持 646 种语言的语音克隆和视频配音。",
+   "tags": [
+    "开源工具",
+    "语音"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "heat": 0.873,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1083.0,
+    "stars": 50954.0
+   },
+   "extra": {
+    "language": "HTML",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a85ad9dc3cf9",
+   "score": 7.67,
+   "title_zh": "",
+   "summary_zh": "为 Claude Code、GitHub Copilot 等工具提供 44 种类型的编辑图表设计。",
+   "tags": [
+    "开源工具",
+    "工具"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -770,18 +830,48 @@
    "heat": 0.931,
    "weight": 0.5,
    "metrics": {
-    "stars": 22659.0
+    "stars": 22661.0
    },
    "extra": {
     "language": "Python",
     "age_days": 25,
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "1bf569717c78",
    "score": 7.66,
    "title_zh": "",
    "summary_zh": "",
    "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "open-webui/open-webui v0.12.0",
+   "url": "https://github.com/open-webui/open-webui/releases/tag/v0.12.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-10T21:13:24Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "### Added - ☎️ **Realtime voice calls.** Administrators can now switch Call mode in the Voice calls section of Audio settings from Standard to Realtime, so Voice mode talks through an OpenAI Realtime voice model (gpt-realtime-2.1-mini with the Marin voice by default) that handles small talk itself and hands real questions and tasks to the chat's selected model, with its conversation history and tools, before speaking the answer while the full reply appears in the chat. Approvals and questions from tools still have to be answered in the chat, calls need the Allow Call permission and end after an hour, models can set their own Realtime Voice in the model editor, and the settings can also be given with the \"AUDIO_REALTIME_ENABLED\", \"AUDIO_REALTIME_OPENAI_API_BASE_URL\", \"AUDIO_REALTIME_OPENAI_API_KEY\", \"AUDIO_REALTIME_MODEL\", \"AUDIO_REALTIME_VOICE\", \"AUDIO_REALTIME_TRANSCRIPTION_MODEL\" and \"REALTIME_CALL_PROMPT_TEMPLATE\" environment variables. [Commit](https://github.com/open-webui/open-webui/commit/093bfce2b6bd128731bae8075110898ae22a76e9), [Commit](https://github.com/open-webui/open-webui/commit/fa4c7fe5e8b5a26bcb9e4597d311a6b16aaf796a), [#5894](https://github.com/open-webui/open-webui/issues/5894) - 🕺 **Animated avatars in Realtime voice calls.** A model can now show a 3D character instead of the voice orb during Realtime calls: in the model editor, upload a rigged VRM avatar of up to 25 MiB, preview it, optionally give it VRMA clips of up to 10 MiB for its idle, listening an…",
+    "level": "minor",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "b34747c8bb84",
+   "score": 7.43,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "语音",
+    "版本发布"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -803,64 +893,10 @@
     "llm_done": true
    },
    "id": "6f170dbb4022",
-   "score": 7.22,
+   "score": 7.21,
    "title_zh": "",
    "summary_zh": "",
    "tags": [],
-   "also_in": [],
-   "merged_ids": []
-  },
-  {
-   "title": "Qwen/Qwen3.8-Flash-Next",
-   "url": "https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next",
-   "source": "hot_models",
-   "section": "opensource",
-   "via": "魔搭 ModelScope 热门模型",
-   "published": "",
-   "summary": "图文理解模型",
-   "heat": 0.952,
-   "weight": 0.5,
-   "metrics": {
-    "likes": 1388.0,
-    "downloads": 84027.0
-   },
-   "extra": {
-    "llm_score": 7.0
-   },
-   "id": "4d0128fccaf8",
-   "score": 7.1,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
-   "also_in": [],
-   "merged_ids": []
-  },
-  {
-   "title": "hugohe3/ppt-master",
-   "url": "https://github.com/hugohe3/ppt-master",
-   "source": "github_trending",
-   "section": "opensource",
-   "via": "GitHub Trending",
-   "published": "",
-   "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-   "heat": 0.875,
-   "weight": 0.6,
-   "metrics": {
-    "stars_today": 1104.0,
-    "stars": 60569.0
-   },
-   "extra": {
-    "language": "Python",
-    "llm_score": 7.0,
-    "llm_done": true
-   },
-   "id": "9182d7f93c0f",
-   "score": 7.07,
-   "title_zh": "",
-   "summary_zh": "AI将文档或主题转化为原生PPT，支持图表、动画和自定义模板。",
-   "tags": [
-    "开源工具"
-   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -888,6 +924,76 @@
    "tags": [
     "论文",
     "模型蒸馏"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+   "url": "https://arxiv.org/abs/2610.05608",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-04T00:00:00Z",
+   "summary": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-resolution model raises the output resolution to Full-HD (1920times1080). Building on the video generation capabilities of Kandinsky 5.0, Kandinsky 6.0 Video employs a dual-stream CrossDiT architectur…",
+   "heat": 0.9,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 169.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/kandinskylab/kandinsky-6"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8ce7d45a007e",
+   "score": 7.37,
+   "title_zh": "Kandinsky 6.0 Video：同步视频与音频生成模型",
+   "summary_zh": "Kandinsky 6.0 Video 是一组用于同步文本到音频视频生成的扩散模型，包含 3B 和 29B 参数版本，支持 5 秒视频和 44 kHz 音频生成。",
+   "tags": [
+    "模型发布",
+    "视频生成",
+    "音频生成"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Long-WAM: Scaling the Context of World-Action Models",
+   "url": "https://arxiv.org/abs/2610.10528",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-07T00:00:00Z",
+   "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action…",
+   "heat": 0.819,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 106.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/NVlabs/LongLive"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5061b414bccc",
+   "score": 7.29,
+   "title_zh": "Long-WAM：扩展世界-动作模型的上下文",
+   "summary_zh": "Long-WAM 是一个在实时控制约束下扩展因果世界-动作模型上下文的框架，发现更长历史在预训练自回归视频基础上效果更好。",
+   "tags": [
+    "论文",
+    "机器人",
+    "上下文扩展"
    ],
    "also_in": [],
    "merged_ids": []
@@ -937,10 +1043,10 @@
    "via": "arXiv · 智能体",
    "published": "2026-10-06T17:13:53Z",
    "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This report defines the personal agent in five questions and three horizons. It reads how Muse is built fro…",
-   "heat": 0.814,
+   "heat": 0.815,
    "weight": 0.8,
    "metrics": {
-    "upvotes": 103.0
+    "upvotes": 104.0
    },
    "extra": {
     "links": [
@@ -964,72 +1070,6 @@
     "Hugging Face 热门论文",
     "arXiv · 高效推理"
    ],
-   "merged_ids": []
-  },
-  {
-   "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
-   "url": "https://arxiv.org/abs/2610.07767",
-   "source": "papers",
-   "section": "papers",
-   "via": "arXiv · 高效推理",
-   "published": "2026-10-06T05:03:47Z",
-   "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly reducing the discrepancy between the two quantized execution paths. In this work, we propose TRACE (Train-Rollout Quantization Alignment via Compact GuidancE), an FP4 quantization framework for RL traini…",
-   "heat": 0.794,
-   "weight": 0.8,
-   "metrics": {
-    "upvotes": 92.0
-   },
-   "extra": {
-    "llm_score": 7.0,
-    "llm_done": true
-   },
-   "id": "8e4d1914cd19",
-   "score": 6.85,
-   "title_zh": "TRACE：面向MoE语言模型的FP4强化学习量化训练",
-   "summary_zh": "提出TRACE框架，通过紧凑引导实现训练与推理路径的FP4量化对齐。",
-   "tags": [
-    "论文",
-    "高效推理",
-    "量化"
-   ],
-   "also_in": [
-    "Hugging Face 热门论文"
-   ],
-   "merged_ids": []
-  },
-  {
-   "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
-   "url": "https://arxiv.org/abs/2610.09823",
-   "source": "papers",
-   "section": "papers",
-   "via": "Hugging Face 热门论文",
-   "published": "2026-10-07T00:00:00Z",
-   "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed prompt supplies exact strings for four to twelve text regions, paired with structured references for…",
-   "heat": 0.899,
-   "weight": 0.6,
-   "metrics": {
-    "upvotes": 168.0
-   },
-   "extra": {
-    "links": [
-     [
-      "代码",
-      "https://github.com/LINs-lab/UltraText_Bench"
-     ]
-    ],
-    "llm_score": 7.0,
-    "llm_done": true
-   },
-   "id": "efbb2001404b",
-   "score": 6.85,
-   "title_zh": "UltraText Bench：图像生成中视觉文本渲染的全面双语评测",
-   "summary_zh": "引入UltraText Bench，评估图像生成模型在密集视觉文本渲染上的表现。",
-   "tags": [
-    "论文",
-    "评测",
-    "图像生成"
-   ],
-   "also_in": [],
    "merged_ids": []
   }
  ]
