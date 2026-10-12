@@ -124,9 +124,9 @@ def test_a_busy_service_is_waited_for_and_not_mistaken_for_an_empty_quota(post, 
     assert client.chat("s", "u", 50) == "ok"
     assert waits == [12.0, 24.0] and not client.providers[0].down  # 提示里有“限额”二字，但这只是忙
 
-    overloaded = '{"error":{"code":"1305","message":"当前API请求过多，请稍后重试。"}}'
+    overloaded = '{"error":{"code":"1305","message":"该模型当前访问量过大，请您稍后再试"}}'
     post["replies"] = [FakeResponse(status=429, text=overloaded)] * 3
-    with pytest.raises(LLMError, match="请求过多"):  # 日志里要能看到对方给的原因
+    with pytest.raises(LLMError, match="访问量过大"):  # 日志里要能看到对方给的原因
         client.chat("s", "u", 50)
     assert not client.providers[0].down
 

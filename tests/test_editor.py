@@ -43,6 +43,8 @@ def test_ungrounded_flags_names_and_figures_missing_from_the_source():
     assert (
         editor.ungrounded("GPT-6 支持 3500 行", "with GPT" + chr(0x2011) + "6, a 3,500-Line demo") == []
     )  # 连字符、千分位
+    assert editor.ungrounded("open-webui v0.12.0 发布", "open-webui/open-webui v0.12.0 Minor release") == []  # 版本号
+    assert editor.ungrounded("升级到 0.13.1", "v0.12.0") == ["0.13.1"]
     assert editor.ungrounded("基于 GPT-5，共 100 项", "GPT-5.6 has 1000 items") == [
         "100",
         "GPT-5",
@@ -199,3 +201,9 @@ def test_weekly_overview(make_item):
     assert editor.weekly_overview(items, FakeClient([LLMError("boom")])) == ""
     assert editor.weekly_overview(items, FakeClient([{"overview": ["不是字符串"]}])) == ""
     assert editor.weekly_overview([], FakeClient([])) == ""
+
+    # 模型没按要求输出 JSON，直接回了一段话（智谱实际出现过）：去掉它自己加的小标题后照用
+    paragraph = "本周最值得关注的是 Qwen3 发布，阿里发布新模型，开源社区反应热烈，相关工具和评测也在陆续跟进。"
+    assert editor.weekly_overview(items, FakeClient(["本周看点：" + paragraph])) == paragraph
+    assert editor.weekly_overview(items, FakeClient(["抱歉，我无法完成。"])) == ""  # 太短，不像一段看点
+    assert editor.weekly_overview(items, FakeClient(['{"overview": "半截'])) == ""  # 坏掉的 JSON 不猜

@@ -31,7 +31,7 @@ _THINK = re.compile(r"<think>.*?</think>", re.DOTALL)
 _FILTERED = re.compile(r"1301|content[_ ]filter|sensitive|敏感|不安全|违规", re.IGNORECASE)
 _NO_QUOTA = re.compile(r"1113|insufficient|balance|quota|billing|余额|欠费|额度|限额|使用上限", re.IGNORECASE)
 # 智谱的并发过高、频率过高、请求过多：过一会儿就好，不是额度用完（它们的提示里也有“增加限额”这样的字眼）
-_BUSY = re.compile(r"\b130[235]\b|请求过多|并发数过高|频率过高")
+_BUSY = re.compile(r"\b130[235]\b|访问量过大|请求过多|并发数过高|频率过高")
 _NO_MODEL = re.compile(
     r"model.{0,40}(not exist|not found|does not exist|decommission|deprecat)"
     r"|模型不存在|(模型|API).{0,40}(不存在|已下线)",

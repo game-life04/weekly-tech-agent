@@ -31,6 +31,7 @@ SUMMARY_BATCH = 10
 SCORE_RESERVE = 6  # 打分阶段要给后面的写摘要和本周看点留下这么多次请求
 EVIDENCE_MIN = 60  # 资料不足这么多字的条目不写摘要
 TITLE_LIMIT, SUMMARY_LIMIT, OVERVIEW_LIMIT = 60, 120, 400
+OVERVIEW_MIN = 40  # 不是 JSON 的回复至少要有这么长，才当作一段“本周看点”来用
 # 这些来源的标题、简介由任何人随意填写；其余来源（订阅、版本发布）的文字出自发布方
 OPEN_SOURCES = frozenset({"hackernews", "github_trending", "github_new", "hot_models", "papers"})
 
@@ -81,7 +82,8 @@ _MD_LINK = re.compile(r"!?\[([^\]]*)\]\([^)]*\)")
 _URL = re.compile(r"(?:https?://|www\.)[^\s)）]+", re.IGNORECASE)
 _EMPHASIS = re.compile(r"\*\*|`")  # 只去掉成对强调最常见的两种记号；下划线、# 等是名称的一部分，留给页面转义
 _LATIN = re.compile(r"[A-Za-z][A-Za-z0-9.+-]*")
-_FIGURE = re.compile(r"\d+(?:\.\d+)?%?")
+_FIGURE = re.compile(r"\d+(?:\.\d+)*%?")  # 版本号 0.12.0 算一个整体，不拆成 0.12 和 0
+_OVERVIEW_LABEL = re.compile(r"^\s*本周看点\s*[:：]\s*")  # 模型爱在开头自己加上这个小标题
 _THOUSANDS = re.compile(r"(?<=\d),(?=\d{3})")
 _ROW = re.compile(r"\{[^{}]*\}")
 # 这些通用说法即使资料里没有原词，也不算“编出来的”
@@ -377,7 +379,11 @@ def weekly_overview(items: list[Item], client: LLMClient) -> str:
     ]
     try:
         reply = client.chat(OVERVIEW_PROMPT, json.dumps({"items": rows}, ensure_ascii=False), max_tokens=1000)
-        overview = plain(parse_json(reply).get("overview"), OVERVIEW_LIMIT)
+        if "{" not in reply and "}" not in reply and len(reply.strip()) >= OVERVIEW_MIN:
+            written: object = reply  # 模型有时不按要求输出 JSON，直接回了一段话：就用这段话
+        else:
+            written = parse_json(reply).get("overview")
+        overview = _OVERVIEW_LABEL.sub("", plain(written, OVERVIEW_LIMIT + 10))[:OVERVIEW_LIMIT]
     except (LLMError, ValueError) as exc:
         log.warning("生成本周看点失败：%s", clean_text(str(exc), 200))
         return ""
