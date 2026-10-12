@@ -14,10 +14,12 @@ LONG_TEXT = (
 def test_parse_json_tolerates_wrapping():
     assert editor.parse_json('```json\n{"items": []}\n```') == {"items": []}
     assert editor.parse_json('好的，结果如下：{"a": 1} 希望有帮助') == {"a": 1}
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="共 7 字，开头：没有 JSON"):  # 日志里能看出模型回了什么
         editor.parse_json("没有 JSON")
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="没有完整的 JSON 对象"):
         editor.parse_json('{"a": ')
+    with pytest.raises(ValueError, match="不是合法的 JSON"):
+        editor.parse_json('{"a": 1,, }')
     cut_off = '{"items": [{"i": 0, "score": 7}, {"i": 1, "score": 3}, {"i": 2, "sc'
     assert editor.parse_json(cut_off) == {"items": [{"i": 0, "score": 7}, {"i": 1, "score": 3}]}  # 被截断：救回完整的行
 
@@ -108,13 +110,28 @@ def test_open_submission_sources_never_share_a_batch_with_publishers(make_item):
 
 def test_score_stops_after_repeated_failures_and_when_budget_runs_out(make_item):
     items = [make_item(title=f"t{i}", url=f"https://a.com/{i}") for i in range(editor.SCORE_BATCH * 4)]
-    client = FakeClient([LLMError("HTTP 500"), "这不是 JSON", {"items": []}])
+    client = FakeClient([LLMError("HTTP 500"), "这不是 JSON", LLMError("HTTP 500"), {"items": []}])
     assert editor.score(items, client) == 0
-    assert len(client.calls) == 2  # 失败两批就停
+    assert len(client.calls) == 3  # 接连失败两批就停；最后补做时再失败一批，彻底收工
 
     tight = FakeClient([lambda sent: {"items": []}], max_requests=1)
     editor.score(items, tight)
     assert len(tight.calls) == 1  # 请求次数用完也停
+
+
+def test_batches_that_failed_are_retried_in_halves_at_the_end(make_item):
+    items = [make_item(title=f"t{i}", url=f"https://a.com/{i}") for i in range(editor.SUMMARY_BATCH * 2 + 3)]
+    good = lambda sent: {"items": [{"i": r["i"], "title_zh": "标题", "summary_zh": ""} for r in sent["items"]]}  # noqa: E731
+    client = FakeClient([LLMError("HTTP 429：当前API请求过多"), good])
+    assert editor.summarize(items, client) == len(items)  # 第一批一时失败，最后补上了
+    half = editor.SUMMARY_BATCH // 2
+    assert [len(call["items"]) for call in client.calls] == [editor.SUMMARY_BATCH, editor.SUMMARY_BATCH, 3, half, half]
+
+    # 接连失败两批之后，没轮到的批次也留到最后补做（整批，不用拆）
+    items = [make_item(title=f"n{i}", url=f"https://b.com/{i}") for i in range(editor.SUMMARY_BATCH * 3)]
+    client = FakeClient([LLMError("HTTP 500"), "不是 JSON", good])
+    assert editor.summarize(items, client) == len(items)
+    assert [len(call["items"]) for call in client.calls] == [10, 10, half, half, half, half, 10]
 
 
 def test_summarize_writes_chinese_and_guards_against_invention(make_item):

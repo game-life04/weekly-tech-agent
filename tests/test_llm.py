@@ -115,6 +115,22 @@ def test_rate_limit_is_retried_but_a_long_wait_means_quota_is_gone(post):
     assert client.providers[0].down
 
 
+def test_a_busy_service_is_waited_for_and_not_mistaken_for_an_empty_quota(post, monkeypatch):
+    waits = []
+    monkeypatch.setattr(llm.time, "sleep", waits.append)
+    busy = '{"error":{"code":"1302","message":"您当前使用该API的并发数过高，请降低并发，或联系客服增加限额。"}}'
+    post["replies"] = [FakeResponse(status=429, text=busy), FakeResponse(status=429, text=busy), FakeResponse()]
+    client = LLMClient([provider()])
+    assert client.chat("s", "u", 50) == "ok"
+    assert waits == [12.0, 24.0] and not client.providers[0].down  # 提示里有“限额”二字，但这只是忙
+
+    overloaded = '{"error":{"code":"1305","message":"当前API请求过多，请稍后重试。"}}'
+    post["replies"] = [FakeResponse(status=429, text=overloaded)] * 3
+    with pytest.raises(LLMError, match="请求过多"):  # 日志里要能看到对方给的原因
+        client.chat("s", "u", 50)
+    assert not client.providers[0].down
+
+
 def test_content_filter_is_reported_as_filtered(post):
     post["replies"] = [FakeResponse(status=400, text='{"error":{"code":"1301","message":"内容可能包含敏感信息"}}')]
     with pytest.raises(Filtered):

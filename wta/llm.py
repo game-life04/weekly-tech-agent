@@ -30,6 +30,8 @@ log = logging.getLogger(__name__)
 _THINK = re.compile(r"<think>.*?</think>", re.DOTALL)
 _FILTERED = re.compile(r"1301|content[_ ]filter|sensitive|敏感|不安全|违规", re.IGNORECASE)
 _NO_QUOTA = re.compile(r"1113|insufficient|balance|quota|billing|余额|欠费|额度|限额|使用上限", re.IGNORECASE)
+# 智谱的并发过高、频率过高、请求过多：过一会儿就好，不是额度用完（它们的提示里也有“增加限额”这样的字眼）
+_BUSY = re.compile(r"\b130[235]\b|请求过多|并发数过高|频率过高")
 _NO_MODEL = re.compile(
     r"model.{0,40}(not exist|not found|does not exist|decommission|deprecat)"
     r"|模型不存在|(模型|API).{0,40}(不存在|已下线)",
@@ -164,10 +166,11 @@ class LLMClient:
                     raise ProviderDown(f"HTTP {status}：{text}")
                 if status == 429:
                     retry_after = response.headers.get("Retry-After", "")
-                    wait = float(retry_after) if retry_after.isdigit() else wait
-                    if _NO_QUOTA.search(text) or wait > 60:
+                    # 对方没说要等多久就多等一会儿：免费服务在白天会一阵阵地过载，几秒钟缓不过来
+                    wait = float(retry_after) if retry_after.isdigit() else 12.0 * attempt
+                    if wait > 60 or (_NO_QUOTA.search(text) and not _BUSY.search(text)):
                         raise ProviderDown(f"HTTP 429：{text}")
-                    last_error = "HTTP 429"
+                    last_error = f"HTTP 429：{text}"
                 elif status in (400, 422) and _FILTERED.search(text):
                     raise Filtered(text)
                 elif status in (400, 422) and (use_json_mode or use_extra):
@@ -194,6 +197,8 @@ class LLMClient:
         reply = _THINK.sub("", content).strip() if isinstance(content, str) else ""
         if not reply:  # 多半是输出长度被“思考”占满了；原样重发还是一样的结果
             raise LLMError(f"模型返回了空内容（finish_reason={choice.get('finish_reason')}）")
+        if choice.get("finish_reason") == "length":
+            log.info("模型的回复达到了长度上限，后半截被截掉了")
         return reply
 
 

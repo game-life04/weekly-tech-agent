@@ -189,9 +189,10 @@ def parse_json(text: str) -> dict[str, Any]:
     整体解析不了时（比如回复被截断），把里面每一个完整的 {...} 单独解析，
     能救回几行算几行，放进 {"items": [...]} 里返回。
     """
+    shown = f"（共 {len(text)} 字，开头：{clean_text(text, 60)}）"  # 写进日志，方便看出模型到底回了什么
     start, end = text.find("{"), text.rfind("}")
     if start == -1 or end <= start:
-        raise ValueError("回复里没有 JSON 对象")
+        raise ValueError(f"回复里没有完整的 JSON 对象{shown}")
     try:
         data = json.loads(text[start : end + 1], strict=False)
     except ValueError:
@@ -202,7 +203,7 @@ def parse_json(text: str) -> dict[str, Any]:
             except ValueError:
                 continue
         if not rows:
-            raise
+            raise ValueError(f"回复不是合法的 JSON{shown}") from None
         data = {"items": rows}
     if not isinstance(data, dict):
         raise ValueError("JSON 的最外层不是对象")
@@ -275,14 +276,41 @@ class _Run:
         self.reserve = reserve  # 要给后面的阶段留下多少次请求
         self.depth = depth  # 被内容审核拦下时，最多对半拆几层去定位
         self.done = self.failures = 0
+        self.pending: list[tuple[list[Item], bool]] = []  # 没处理成的批次，以及它是不是试过但失败了
+        self.last_chance = False  # 已经在补做了：再失败就收工，不再记到 pending 里
+
+    @property
+    def out_of_budget(self) -> bool:
+        return self.client.exhausted or self.client.requests_made >= self.client.max_requests - self.reserve
 
     @property
     def stopped(self) -> bool:
-        used_up = self.client.requests_made >= self.client.max_requests - self.reserve
-        return self.client.exhausted or used_up or self.failures >= 2  # 接连失败多半是服务故障
+        # 接连失败两批多半是服务故障；补做的时候只要再失败一批就停
+        return self.out_of_budget or self.failures >= (1 if self.last_chance else 2)
+
+    def process(self, batches: list[list[Item]]) -> None:
+        """处理所有批次；没处理成的最后再补做一次。
+
+        免费的服务在白天常有一阵阵的过载，过一会儿多半就好了。失败过的批次补做时对半拆开：
+        请求小一些更容易成功，回复被截断的可能也更小。
+        """
+        for items in batches:
+            self.batch(items, self.depth)
+        pending, self.pending = self.pending, []
+        if not pending or self.out_of_budget:
+            return
+        log.info("大模型：有 %d 批没处理成，再试一次", len(pending))
+        self.failures, self.last_chance = 0, True
+        for items, failed in pending:
+            middle = (len(items) + 1) // 2 if failed else len(items)
+            for part in (items[:middle], items[middle:]):
+                if part:
+                    self.batch(part, self.depth)
 
     def batch(self, items: list[Item], depth: int) -> None:
         if self.stopped:
+            if not self.out_of_budget and not self.last_chance:
+                self.pending.append((items, False))  # 因为前面接连失败没轮到的，留到最后补做
             return
         user = json.dumps({"items": [self.make_row(i, item) for i, item in enumerate(items)]}, ensure_ascii=False)
         try:
@@ -303,6 +331,8 @@ class _Run:
             return
         except (LLMError, ValueError) as exc:
             self.failures += 1
+            if not self.last_chance:
+                self.pending.append((items, True))
             log.warning("大模型处理一批内容（%d 条）失败：%s", len(items), clean_text(str(exc), 200))
             return
         self.failures = 0
@@ -324,8 +354,7 @@ def score(items: list[Item], client: LLMClient) -> int:
     todo.sort(key=lambda item: bool(item.extra.get("needs_review")))
     reserve = min(SCORE_RESERVE, client.max_requests // 2)
     run = _Run(client, SCORE_PROMPT, _score_row, _apply_score, 25, reserve, depth=1)
-    for batch in _batches(todo, SCORE_BATCH):
-        run.batch(batch, run.depth)
+    run.process(_batches(todo, SCORE_BATCH))
     log.info("大模型打分：%d/%d 条", run.done, len(todo))
     return run.done
 
@@ -334,8 +363,7 @@ def summarize(items: list[Item], client: LLMClient) -> int:
     """给入选内容写中文标题和摘要，返回写成的条数。被内容审核拦下的条目会标上 filtered。"""
     todo = [item for item in items if not item.extra.get("llm_done") and not item.extra.get("filtered")]
     run = _Run(client, SUMMARY_PROMPT, _summary_row, _apply_summary, 220, reserve=0, depth=8)
-    for batch in _batches(todo, SUMMARY_BATCH):
-        run.batch(batch, run.depth)
+    run.process(_batches(todo, SUMMARY_BATCH))
     log.info("大模型写中文标题和摘要：%d/%d 条", run.done, len(todo))
     return run.done
 
