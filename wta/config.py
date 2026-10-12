@@ -1,0 +1,53 @@
+"""读取 config.yaml，没写的项用默认值补齐。"""
+
+from __future__ import annotations
+
+import copy
+from pathlib import Path
+from typing import Any
+
+import yaml
+
+DEFAULTS: dict[str, Any] = {
+    "utc_offset_hours": 8,  # 日期按北京时间算
+    "sections": {
+        "news": {"title": "AI 动态", "emoji": "🗞️", "daily": 8, "weekly": 12},
+        "opensource": {"title": "开源圈", "emoji": "🛠️", "daily": 8, "weekly": 12},
+        "papers": {"title": "前沿论文", "emoji": "📄", "daily": 5, "weekly": 10},
+    },
+    "select": {"per_source_cap": 2, "caps": {}},
+    "dedupe": {"remember_days": 120, "title_similarity": 0.92},
+    "keywords": {"exact": [], "any_case": [], "exclude": [], "domains": []},
+    "sources": {},
+    "llm": {
+        "enabled": True,
+        "max_requests": 30,
+        "max_seconds": 480,
+        "max_candidates": 150,
+        "review_min_score": 7,
+        "drop_filtered": True,
+        "providers": [],
+    },
+}
+
+
+def _merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
+    """递归合并：override 里写了的覆盖 base，没写的保留默认值。"""
+    for key, value in override.items():
+        if value is None and isinstance(base.get(key), dict):
+            continue  # 只写了键名、下面留空：当作没写，沿用默认值
+        if isinstance(value, dict) and isinstance(base.get(key), dict):
+            _merge(base[key], value)
+        else:
+            base[key] = value
+    return base
+
+
+def load_config(path: Path) -> dict[str, Any]:
+    config = copy.deepcopy(DEFAULTS)
+    if path.is_file():
+        loaded = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        if not isinstance(loaded, dict):
+            raise ValueError(f"{path} 的最外层必须是键值对")
+        _merge(config, loaded)
+    return config

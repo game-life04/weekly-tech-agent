@@ -1,0 +1,9 @@
+# 版本全部钉死（包括间接依赖），由 Dependabot 每月提 PR 更新。
+# 这样不会在某个包刚发布了有问题的新版本时，被每天的定时任务自动装上。
+requests==2.34.2
+PyYAML==6.0.3
+# requests 的依赖
+certifi==2026.7.22
+charset-normalizer==3.5.2
+idna==3.20
+urllib3==2.8.0

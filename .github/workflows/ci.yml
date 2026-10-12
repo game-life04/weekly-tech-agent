@@ -1,0 +1,51 @@
+# 代码检查和测试。用 pull_request（不是 pull_request_target），令牌只读，不引用任何密钥，
+# 所以来自 Fork 的 PR 也能安全地跑。测试全部使用假数据，不访问网络，也不调用大模型。
+# 机器人每天的内容提交不会触发这里：用工作流自带令牌推送的提交，GitHub 不会再启动别的工作流。
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false # 检出之后不再需要令牌
+          fetch-depth: 2 # 下面要和上一个提交比较
+
+      - name: 生成的数据不应该出现在 PR 里
+        if: github.event_name == 'pull_request'
+        run: |
+          changed=$(git diff --name-only HEAD^1 HEAD -- data)
+          if [ -n "$changed" ]; then
+            echo "::error::这个 PR 改动了 data/ 下的文件。它们由定时任务生成，请用 git restore 还原后再提交。"
+            echo "$changed"
+            exit 1
+          fi
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -r requirements-dev.txt
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: python -m pytest
+      # 页面必须能只凭已提交的数据重新生成，不需要网络和密钥
+      - run: python -m wta render

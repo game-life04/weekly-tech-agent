@@ -1,0 +1,417 @@
+# 每周科技收集 Agent 的配置。改这里不用改代码。
+# 没写的项用代码里的默认值：全局的见 wta/config.py，各来源的见 wta/sources/ 下对应文件的开头。
+# 注意：整段删掉一个来源等于关掉它。改完请运行 python -m pytest，其中有一项专门检查这个文件。
+
+utc_offset_hours: 8 # 日期按北京时间算
+
+# 三个栏目，以及日报、周报里每个栏目最多放几条
+sections:
+  news: { title: AI 动态, emoji: 🗞️, daily: 8, weekly: 12 }
+  opensource: { title: 开源圈, emoji: 🛠️, daily: 8, weekly: 12 }
+  papers: { title: 前沿论文, emoji: 📄, daily: 5, weekly: 10 }
+
+select:
+  per_source_cap: 2 # 同一个来源在一个栏目里一天最多几条，避免刷屏
+  caps: # 个别来源单独放宽（按页面上显示的来源名）
+    Hacker News: 4
+    GitHub Trending: 4
+    GitHub 版本发布: 3
+    Hugging Face 热门论文: 3
+    Hugging Face 热门模型: 1
+    魔搭 ModelScope 热门模型: 1
+
+dedupe:
+  remember_days: 120 # 登过的内容多少天内不再重复出现（长期在榜的仓库和模型靠它不反复登）
+  title_similarity: 0.92
+
+# ---------------------------------------------------------------------------
+# 关键词：判断一条内容是否和 AI / 大模型有关。每一条都是正则片段，
+# 两侧自动要求不是英文字母或数字（所以 AI 不会命中 said）。这份词表会过时，隔段时间看一眼。
+keywords:
+  exact: # 区分大小写的缩写
+    - 'AIs?'
+    - 'A\.I\.'
+    - 'GenAI'
+    - 'AIGC'
+    - 'AGI'
+    - 'ASI'
+    - 'xAI'
+    - 'LLMs?'
+    - 'SLMs?'
+    - 'VLMs?'
+    - 'GPT-?\d[\w.\-]*'
+    - 'GPTs?'
+    - 'RAG'
+    - 'MCP'
+    - 'LoRA'
+    - 'ML'
+    - 'MLX'
+    - 'MLOps'
+    - 'TTS'
+    - 'ASR'
+    - 'NLP'
+    - 'RLHF'
+    - 'GGUF'
+    - 'vLLM'
+    - 'SOTA'
+    - 'Cursor'
+    - 'GLM'
+    - 'Kimi'
+  any_case: # 不区分大小写的词和短语
+    # 概念
+    - 'artificial intelligence'
+    - 'machine[ -]learning'
+    - 'deep[ -]learning'
+    - 'reinforcement learning'
+    - 'neural net(?:work)?s?'
+    - 'language models?'
+    - 'foundation models?'
+    - 'world models?'
+    - 'decision models?'
+    - 'open[- ]weights?'
+    - 'diffusion'
+    - 'autoregressive'
+    - 'generative'
+    - 'multimodal'
+    - 'chatbots?'
+    - 'agentic'
+    - 'agents?'
+    - 'sub-?agents?'
+    - 'multi-?agent'
+    - '(?:frontier|local|reasoning|open|oss|open[- ]source) models?'
+    - 'model weights'
+    - 'fine-?tun(?:e|ed|es|ing)'
+    - 'pre-?train(?:ed|ing)?'
+    - 'backprop(?:agation)?'
+    - 'prompts?'
+    - 'prompting'
+    - 'embeddings?'
+    - 'vector (?:db|database|search)s?'
+    - 'tokenizers?'
+    - 'context windows?'
+    - 'hallucinat\w+'
+    - 'vibe[- ]?cod(?:e|ed|er|ers|ing)'
+    - 'super ?intelligen(?:ce|t)'
+    - 'text[- ]to[- ](?:speech|image|video|sql)'
+    - 'speech[- ]to[- ]text'
+    - 'speech recognition'
+    - 'voice cloning'
+    - 'computer vision'
+    - 'transformers? (?:model|architecture)s?'
+    - 'attention is all you need'
+    - 'inference (?:engine|server|speed|cost)s?'
+    # 公司和实验室
+    - 'openai'
+    - 'anthropic'
+    - 'deepmind'
+    - 'hugging ?face'
+    - 'mistral'
+    - 'deepseek'
+    - 'cohere'
+    - 'perplexity'
+    - 'stability ai'
+    - 'cerebras'
+    - 'groq'
+    - 'zhipu'
+    - 'moonshot ai'
+    - 'modelscope'
+    # 模型和产品
+    - 'chatgpt'
+    - 'claude'
+    - 'gemini'
+    - 'gemma'
+    - 'llama(?:\.cpp|[- ]?\d[\w.]*)?'
+    - 'ollama'
+    - 'qwen'
+    - '(?:opus|sonnet|haiku) \d[\w.]*'
+    - 'grok'
+    - 'copilot'
+    - 'codex'
+    - 'windsurf'
+    - 'openclaw'
+    - 'midjourney'
+    - 'stable diffusion'
+    - 'sora'
+    - 'whisper'
+    - 'alphafold'
+    - 'notebooklm'
+    - 'lm studio'
+    - 'apple intelligence'
+    # 工具
+    - 'pytorch'
+    - 'tensorflow'
+    - 'langchain'
+    - 'llama-?index'
+    - 'model context protocol'
+    - 'onnx'
+    - 'tensorrt'
+    - 'open ?webui'
+    # 中文
+    - '大模型'
+    - '人工智能'
+    - '智能体'
+    - '多模态'
+    - '机器学习'
+    - '深度学习'
+    - '神经网络'
+    - '具身智能'
+    - '生成式'
+    - '语言模型'
+    - '世界模型'
+    - '扩散模型'
+    - '强化学习'
+    - '提示词'
+    - '开源模型'
+    - '微调'
+    - '向量数据库'
+    - '知识库'
+    - '算力'
+    - '语音合成'
+    - '语音识别'
+    - '文生图'
+    - '文生视频'
+    - '通义'
+    - '千问'
+    - '文心'
+    - '豆包'
+    - '混元'
+    - '智谱'
+    - '月之暗面'
+    - '讯飞星火'
+    - '昇腾'
+    - '魔搭'
+    - '可灵'
+    - '英伟达'
+  exclude: # 同形异义的短语，命中后只屏蔽它自己那几个字
+    - 'claude (?:shannon|debussy|monet|l.vi-strauss|chappe|lorrain)'
+    - 'jean-claude'
+    - 'gemini (?:protocol|capsules?|space|program|missions?|exchange|spacecraft)'
+    - 'project gemini'
+    - 'gpt (?:partition|disk|table|header)s?'
+    - '(?:mouse|text|terminal|blinking|database|sql) cursors?'
+    - 'cursors? (?:position|blink|movement|theme)s?'
+    - 'codex (?:sinaiticus|gigas|seraphinianus|leicester)'
+    - 'mistral (?:wind|class)'
+    - 'whisper (?:network|campaign)s?'
+    - '(?:command|shell|bash|zsh|password|login) prompts?'
+    - 'prompt (?:payment|delivery|response)s?'
+    - 'anthropic principle'
+    - 'llama (?:farm|wool|trek)s?'
+    - 'diffusion of innovations?'
+    - 'user[- ]agents?'
+    - 'agent orange'
+    - '(?:nerve|chemical|contrast|blowing|free|double|secret|special|federal|masked|border|patrol|fbi|ice|cia|dhs|irs|police|undercover|travel|estate|insurance|sales|talent|literary|customs|immigration|ticket|booking|leasing) agents?'
+    - 'agents? of (?:change|chaos)'
+  domains: # 这些网站的内容即使标题里没有关键词也算相关
+    - openai.com
+    - anthropic.com
+    - claude.com
+    - claude.ai
+    - deepmind.google
+    - mistral.ai
+    - x.ai
+    - ai.meta.com
+    - ai.google.dev
+    - deepseek.com
+    - ollama.com
+    - lmstudio.ai
+    - openrouter.ai
+    - machinelearning.apple.com
+    - pytorch.org
+    - cohere.com
+    - huggingface.co
+
+# ---------------------------------------------------------------------------
+# 来源。enabled: false 就是关掉。每个来源的说明写在 wta/sources/ 下对应文件的开头。
+sources:
+  hackernews:
+    enabled: true
+    hours: 48 # 看最近多少小时的帖子
+    min_points: 20 # 低于这个分数的不看
+    review_points: 250 # 标题里没有关键词但分数很高的，交给大模型判断是否相关
+    weight: 0.6
+
+  qbitai:
+    enabled: true
+    max_items: 5
+    weight: 0.55
+
+  github_trending:
+    enabled: true
+    weight: 0.6
+
+  github_new:
+    enabled: true
+    days: 30
+    min_stars: 100
+    weight: 0.5
+
+  github_releases:
+    enabled: true
+    days: 3
+    weight: 0.7
+    repos: # 仓库名都核对过（很多项目改过名、换过组织）
+      # 推理与部署
+      - ggml-org/llama.cpp
+      - ollama/ollama
+      - vllm-project/vllm
+      - sgl-project/sglang
+      - mudler/LocalAI
+      - xorbitsai/inference
+      - BerriAI/litellm
+      - open-webui/open-webui
+      # 训练与微调
+      - huggingface/transformers
+      - huggingface/peft
+      - { repo: unslothai/unsloth, tag_regex: '^v\d', trust_flag_only: true }
+      - hiyouga/LlamaFactory
+      # 智能体与应用框架
+      - { repo: langchain-ai/langchain, tag_regex: '^langchain==\d' }
+      - { repo: langchain-ai/langgraph, tag_regex: '^\d' }
+      - run-llama/llama_index
+      - openai/openai-agents-python
+      - google/adk-python
+      - langgenius/dify
+      - modelcontextprotocol/modelcontextprotocol
+      # 编程助手
+      - anthropics/claude-code
+      - { repo: openai/codex, tag_regex: '^rust-v\d' }
+      - google-gemini/gemini-cli
+      - anomalyco/opencode
+      - OpenHands/OpenHands
+      - { repo: QwenLM/qwen-code, tag_regex: '^v\d' }
+      # 检索与文档
+      - infiniflow/ragflow
+      - microsoft/graphrag
+      - { repo: milvus-io/milvus, tag_regex: '^v\d' }
+      - opendatalab/MinerU
+      # 评测与观测
+      - open-compass/opencompass
+      - EleutherAI/lm-evaluation-harness
+      - langfuse/langfuse
+      # 官方 SDK 与国内项目
+      - openai/openai-python
+      - anthropics/anthropic-sdk-python
+      - PaddlePaddle/PaddleOCR
+      - modelscope/modelscope
+      - { repo: modelscope/FunASR, tag_regex: '^v\d' }
+
+  hot_models:
+    enabled: true
+    max_items: 8
+    weight: 0.5
+
+  papers:
+    enabled: true
+    days: 7 # 回看几天
+    categories: [cs.CL, cs.AI, cs.LG, eess.AS]
+    popular: { top: 15, min_upvotes: 20, weight: 0.6 }
+    gate_upvotes: 5 # 关注方向线：点赞达到这个数，或者放出了代码，才考虑
+    watch_weight: 0.8
+    themes: # 关注方向：标题里出现这些短语的论文（连字符和空格等价，单复数由 arXiv 处理）
+      context:
+        title: 长上下文与检索
+        phrases: [long context, context window, context compression, prompt compression, token compression,
+                  retrieval augmented, RAG, GraphRAG, agentic retrieval, reranking, long-term memory, agent memory,
+                  context engineering]
+      agents:
+        title: 智能体
+        phrases: [LLM agent, LLM agents, AI agent, AI agents, agentic, multi-agent, coding agent, coding agents,
+                  computer use, tool calling, tool use, function calling, model context protocol, agent harness,
+                  deep research, GUI agent, GUI agents, web agent, web agents]
+      speech:
+        title: 语音
+        phrases: [text to speech, TTS, speech synthesis, speech recognition, ASR, voice cloning, voice conversion,
+                  spoken dialogue, speech language model, speech language models, full duplex, speech to speech,
+                  audio language model, audio language models, speech codec, voice agent, voice agents]
+      efficiency:
+        title: 高效推理
+        phrases: [quantization, speculative decoding, KV cache, efficient inference, inference acceleration,
+                  model compression, token pruning, on-device, LLM serving, knowledge distillation,
+                  small language model, small language models, early exit]
+
+  rss:
+    enabled: true
+    max_age_hours: 48
+    feeds:
+      # —— 实验室和公司的官方博客 ——
+      - { name: OpenAI, url: 'https://openai.com/news/rss.xml', weight: 0.9, max_items: 3 }
+      # Anthropic、Meta AI、xAI 没有官方订阅源，这三个是社区根据官网整理的（Olshansk/rss-feeds）
+      - { name: Anthropic, url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml', weight: 0.9, max_items: 3, no_summary: true }
+      - { name: Anthropic 研究, url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml', weight: 0.85, max_items: 2, no_summary: true }
+      - { name: Meta AI, url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml', weight: 0.8, max_items: 1, no_summary: true }
+      - { name: xAI, url: 'https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml', weight: 0.75, max_items: 1, no_summary: true }
+      - { name: Google DeepMind, url: 'https://deepmind.google/blog/rss.xml', weight: 0.85, max_items: 2 }
+      - { name: Google AI, url: 'https://blog.google/innovation-and-ai/technology/ai/rss/', weight: 0.75, max_items: 2 }
+      - { name: Google Research, url: 'https://research.google/blog/rss/', weight: 0.75, max_items: 2, no_summary: true }
+      - { name: Mistral AI, url: 'https://mistral.ai/news/rss', weight: 0.85, max_items: 2 }
+      - { name: Hugging Face 博客, url: 'https://huggingface.co/blog/feed.xml', weight: 0.65, max_items: 2 }
+      - { name: Microsoft Research, url: 'https://www.microsoft.com/en-us/research/feed/', weight: 0.7, max_items: 1 }
+      - { name: Apple 机器学习研究, url: 'https://machinelearning.apple.com/rss.xml', weight: 0.65, max_items: 1 }
+      - { name: NVIDIA 博客, url: 'https://blogs.nvidia.com/blog/category/generative-ai/feed/', weight: 0.6, max_items: 1 }
+      # —— 开源项目的博客（放在开源圈栏目）——
+      - { name: vLLM 博客, url: 'https://vllm.ai/blog/rss.xml', section: opensource, weight: 0.7, max_items: 1 }
+      - { name: Ollama 博客, url: 'https://ollama.com/blog/rss.xml', section: opensource, weight: 0.7, max_items: 1 }
+      - { name: LangChain 博客, url: 'https://www.langchain.com/blog/rss.xml', section: opensource, weight: 0.6, max_items: 1 }
+      # —— 作者博客和通讯（更新慢，时间窗放宽）——
+      - { name: Simon Willison, url: 'https://simonwillison.net/atom/entries/', weight: 0.7, max_items: 1 }
+      - { name: Lilian Weng, url: 'https://lilianweng.github.io/index.xml', weight: 0.8, max_items: 1, max_age_hours: 96 }
+      - { name: Ahead of AI, url: 'https://magazine.sebastianraschka.com/feed', weight: 0.7, max_items: 1, max_age_hours: 96 }
+      - { name: Interconnects, url: 'https://www.interconnects.ai/feed', weight: 0.65, max_items: 1 }
+      - { name: Import AI, url: 'https://jack-clark.net/feed/', weight: 0.65, max_items: 1, max_age_hours: 96 }
+      - { name: Latent Space, url: 'https://www.latent.space/feed', weight: 0.55, max_items: 1 }
+      # —— 英文媒体的 AI 频道 ——
+      - { name: MIT 科技评论, url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed', weight: 0.55, max_items: 1 }
+      - { name: Ars Technica, url: 'https://arstechnica.com/ai/feed/', weight: 0.5, max_items: 2 }
+      - { name: The Decoder, url: 'https://the-decoder.com/feed/', weight: 0.5, max_items: 2 }
+      - { name: TechCrunch, url: 'https://techcrunch.com/category/artificial-intelligence/feed/', weight: 0.45, max_items: 2 }
+      - { name: The Verge, url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', weight: 0.45, max_items: 2 }
+      # —— 中文媒体（综合类媒体只取和 AI 相关的条目）——
+      - { name: 新智元, url: 'https://www.aiera.com.cn/feed', weight: 0.55, max_items: 4, naive_offset: 8 }
+      - { name: InfoQ 中文, url: 'https://www.infoq.cn/feed', weight: 0.5, max_items: 4, only_related: true, force_offset: 8, no_summary: true }
+      - { name: 雷峰网, url: 'https://www.leiphone.com/feed', weight: 0.5, max_items: 3, only_related: true, naive_offset: 8 }
+      - { name: 智东西, url: 'https://zhidx.com/rss', weight: 0.45, max_items: 2, only_related: true, naive_offset: 8 }
+      - { name: IT之家, url: 'https://www.ithome.com/rss/', weight: 0.4, max_items: 3, only_related: true, naive_offset: 8 }
+      - { name: 36氪, url: 'https://www.36kr.com/feed', weight: 0.4, max_items: 2, only_related: true, naive_offset: 8 }
+      - { name: 爱范儿, url: 'https://www.ifanr.com/feed', weight: 0.4, max_items: 2, only_related: true, naive_offset: 8 }
+      - { name: 极客公园, url: 'https://www.geekpark.net/rss', weight: 0.4, max_items: 1, only_related: true, naive_offset: 8 }
+      - { name: 少数派, url: 'https://sspai.com/feed', weight: 0.4, max_items: 1, only_related: true, naive_offset: 8 }
+      - { name: Solidot, url: 'https://www.solidot.org/index.rss', weight: 0.45, max_items: 2, only_related: true, naive_offset: 8 }
+      - { name: 阮一峰周刊, url: 'https://www.ruanyifeng.com/blog/atom.xml', weight: 0.6, max_items: 1, max_age_hours: 72, title_match: 科技爱好者周刊, naive_offset: 8 }
+      # —— 中文开源社区（放在开源圈栏目）——
+      - { name: 开源中国, url: 'https://www.oschina.net/news/rss', section: opensource, weight: 0.45, max_items: 3, naive_offset: 8 }
+      - { name: HelloGitHub 月刊, url: 'https://hellogithub.com/rss', section: opensource, weight: 0.6, max_items: 1, max_age_hours: 96, naive_offset: 8 }
+
+# ---------------------------------------------------------------------------
+# 大模型：给候选内容打分，写中文标题和一句话摘要。没有配置密钥时自动跳过，
+# 日报照常生成，只是标题保持原文。密钥放在仓库的 Actions Secrets 里，不要写进这个文件。
+llm:
+  enabled: true
+  max_requests: 30 # 每次运行最多发多少次请求（含重试）；正常一天用 10 次左右
+  max_seconds: 480 # 大模型阶段总共最多用多少秒，到点就停
+  max_candidates: 150 # 最多把多少条候选交给大模型打分
+  review_min_score: 7 # 带“待判断”标记的内容，大模型打分达到这个数才保留
+  drop_filtered: true # 被服务商的内容审核拦下的条目，直接不登
+  providers: # 从上往下，用第一个配置了密钥的；它出故障时自动换下一个
+    - name: 智谱
+      key_env: ZHIPU_API_KEY
+      base_url: 'https://open.bigmodel.cn/api/paas/v4'
+      model: glm-4.7-flash
+      json_mode: true
+      extra: { thinking: { type: disabled } } # 关掉“思考”，否则输出长度会被思考过程占满
+      interval: 3 # 两次请求之间至少隔几秒
+    - name: Gemini
+      key_env: GEMINI_API_KEY
+      base_url: 'https://generativelanguage.googleapis.com/v1beta/openai'
+      model: gemini-3.5-flash-lite
+      json_mode: false
+      extra: { reasoning_effort: minimal } # 3 系列关不掉“思考”，minimal 是最低一档
+      interval: 7
+    - name: DeepSeek
+      key_env: DEEPSEEK_API_KEY
+      base_url: 'https://api.deepseek.com'
+      model: deepseek-flash
+      json_mode: true
+      extra: { thinking: { type: disabled } }
+      interval: 1
+    # 其他兼容 OpenAI 接口的服务：设置环境变量 LLM_API_KEY、LLM_BASE_URL、LLM_MODEL 即可，优先于上面的列表

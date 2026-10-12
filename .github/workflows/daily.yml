@@ -1,0 +1,114 @@
+# 每天抓取一次，生成日报、周报和 README，并把生成的文件提交回仓库。
+name: Daily digest
+
+on:
+  schedule:
+    # cron 用的是 UTC，北京时间 = UTC + 8。
+    # GitHub 的定时任务经常晚到两三个小时（实测最坏十几个小时），所以主任务放在凌晨，
+    # 上午再设一个兜底：当天的日报已经存在时，它什么都不做。
+    - cron: "17 19 * * *" # 北京时间 03:17
+    - cron: "17 1 * * *" # 北京时间 09:17
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: 当天日报已经存在时，也重新抓取并刷新
+        type: boolean
+        default: true
+
+# 默认只读；需要写权限的任务在下面单独声明
+permissions:
+  contents: read
+
+# 同一时间只允许一个任务在跑，后来的排队，不打断正在提交的任务
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    name: Collect and publish
+    # 只能从分支运行：从标签触发的话，最后没法把结果推回去
+    if: github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30 # 程序自己的时间预算是抓取 12 分钟 + 大模型 8 分钟
+    permissions:
+      contents: write # 把生成的文件提交回仓库
+    steps:
+      # 动作固定到完整的提交哈希（行尾注明版本），由 Dependabot 每月提 PR 更新
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # 检出分支当前最新的提交，而不是触发时的那个：排队的任务和“重新运行”
+          # 才能看到别的任务刚提交的当天日报，从而跳过，不会重复抓取再冲突
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Collect, rank and write today's issue
+        env:
+          # 提高 GitHub 接口的调用额度；程序只把它发给 api.github.com
+          GITHUB_TOKEN: ${{ github.token }}
+          # 大模型密钥都是可选的：一个都没配（包括别人 Fork 之后）也能正常出日报，只是标题保持原文
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          REFRESH: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh }}
+        run: |
+          # 日期由程序按“实际运行时的北京时间”决定，不依赖 cron 的触发时间
+          if [ "$REFRESH" = "true" ]; then
+            python -m wta run
+          else
+            python -m wta run --if-missing
+          fi
+
+      - name: Commit generated files
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 只提交生成的内容，不用 "git add ."
+          for path in README.md data daily weekly; do
+            if [ -e "$path" ]; then git add -A -- "$path"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "没有需要提交的变化。"
+            exit 0
+          fi
+          # 不用 TZ=Asia/Shanghai：缺少时区数据库的系统会悄悄按 UTC 算
+          git commit --quiet -m "chore(daily): $(date -u -d '+8 hours' +%F)"
+
+          # 任务运行期间可能有人推送过：把这一个提交变基到最新代码上再推，最多试 5 次
+          for attempt in 1 2 3 4 5; do
+            if output=$(git push origin "HEAD:$BRANCH" 2>&1); then
+              echo "第 $attempt 次推送成功。"
+              exit 0
+            fi
+            echo "$output"
+            if echo "$output" | grep -Eq "GH006|GH013|protected branch|rule violations"; then
+              echo "::error::分支受保护，机器人不能直接推送。见 README 的“部署与交接”一节。"
+              exit 1
+            fi
+            echo "推送被拒绝（第 $attempt 次），拉取最新代码后重试。"
+            git fetch --quiet origin "$BRANCH"
+            if ! git rebase --quiet "origin/$BRANCH"; then
+              git rebase --abort || true
+              echo "::error::生成的文件和新提交有冲突，需要人工处理。"
+              exit 1
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "::error::连续 5 次推送失败。"
+          exit 1
