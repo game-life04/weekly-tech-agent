@@ -1,0 +1,961 @@
+{
+ "date": "2026-10-12",
+ "generated_at": "2026-10-12T01:53:08Z",
+ "llm": null,
+ "candidates": 439,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 48,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 5.8
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": false,
+   "count": 0,
+   "error": "HttpError: HTTP 403：https://www.ruanyifeng.com/blog/atom.xml",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 33,
+   "error": "",
+   "seconds": 9.1
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 275,
+   "error": "",
+   "seconds": 20.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 19.3
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 20.6
+  }
+ ],
+ "items": [
+  {
+   "title": "The gap in shared understanding of LLM capability is widening",
+   "url": "https://twitter.com/karpathy/status/2109361546505966046",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-11T20:20:52Z",
+   "summary": "",
+   "heat": 0.889,
+   "weight": 0.6,
+   "metrics": {
+    "points": 250.0,
+    "comments": 402.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50047422"
+   },
+   "id": "94f18cf931b3",
+   "score": 8.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Build your own decision model",
+   "url": "https://nishtahir.com/build-your-own-decision-model/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-10T22:50:10Z",
+   "summary": "",
+   "heat": 0.984,
+   "weight": 0.6,
+   "metrics": {
+    "points": 452.0,
+    "comments": 102.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50037949"
+   },
+   "id": "d121c872efc5",
+   "score": 8.07,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "url": "https://github.com/rociiu/talorys",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-10T10:52:09Z",
+   "summary": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+   "heat": 0.929,
+   "weight": 0.6,
+   "metrics": {
+    "points": 321.0,
+    "comments": 150.0,
+    "stars": 756.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50031614",
+    "language": "TypeScript",
+    "age_days": 1
+   },
+   "id": "193acb926bb9",
+   "score": 7.58,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "GitHub 新项目"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+   "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-11T02:02:38Z",
+   "summary": "",
+   "heat": 0.82,
+   "weight": 0.6,
+   "metrics": {
+    "points": 163.0,
+    "comments": 113.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50039092"
+   },
+   "id": "379d34a56ae8",
+   "score": 7.32,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude突然白送500刀！",
+   "url": "https://aiera.com.cn/2026/10/12/other/admin/118229/claude%e7%aa%81%e7%84%b6%e7%99%bd%e9%80%81500%e5%88%80%ef%bc%81/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-10-12T00:09:19Z",
+   "summary": "Claude「重度粉」狂喜！ 今天，Anthropic开发者账号悄无声息地发布了一条重磅公告——",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {},
+   "id": "4222548098e6",
+   "score": 6.35,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "离谱，Claude半年封杀1140万账号！申诉后仅4.2万翻案",
+   "url": "https://aiera.com.cn/2026/10/12/other/admin/118215/%e7%a6%bb%e8%b0%b1%ef%bc%8cclaude%e5%8d%8a%e5%b9%b4%e5%b0%81%e6%9d%801140%e4%b8%87%e8%b4%a6%e5%8f%b7%ef%bc%81%e7%94%b3%e8%af%89%e5%90%8e%e4%bb%854-2%e4%b8%87%e7%bf%bb%e6%a1%88/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-10-12T00:07:59Z",
+   "summary": "太离谱了家人们！ 最近Claude疯狂大面积封号，AI圈的开发者们直接集体破防，直呼「天塌了」。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {},
+   "id": "9ab172cf1584",
+   "score": 6.35,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+   "url": "https://www.qbitai.com/2026/10/502644.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-11T09:04:31Z",
+   "summary": "一套生成论文初稿的多智能体工作流",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {},
+   "id": "57d2455e0b7c",
+   "score": 5.97,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "何恺明团队发布多模态Harness框架",
+   "url": "https://www.qbitai.com/2026/10/502628.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-11T08:59:06Z",
+   "summary": "多模态模型的视觉原生Harness，来了！",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {},
+   "id": "aaa81e7ae0a7",
+   "score": 5.97,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 25599.0,
+    "stars": 107523.0
+   },
+   "extra": {
+    "language": "TypeScript"
+   },
+   "id": "710f7fe65ffc",
+   "score": 7.8,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "xorbitsai/inference v4.0.0",
+   "url": "https://github.com/xorbitsai/inference/releases/tag/v4.0.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-10T01:53:01Z",
+   "summary": "主版本更新",
+   "heat": 0.9,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# What's new in 4.0.0 (2026-10-10) ## Highlights Xinference 4.0 brings Xavier to more inference engines, enables heterogeneous prefill/decode deployments across engines and hardware, and lets you reconfigure running models without reloading their weights. - **Xavier across vLLM, SGLang, and MLX.** Xavier now supports all three engines, extending prefix KV cache sharing across compatible replicas. Reuse previously computed context across requests and replicas to avoid repeated prefill work. - **Cross-engine and cross-hardware P/D separation.** Run prefill and decode with different inference engines, including vLLM ↔ SGLang and bidirectional NVIDIA ↔ Apple silicon deployments. Choose engines and hardware independently for each role through Xinference’s unified serving interface. - **Reload engines without reloading model weights.** Opt-in GPU weight caching lets vLLM and SGLang retain weights while rebuilding the inference engine. Adjust supported concurrency, context, memory, and CUDA graph settings while preserving the model UID. - **Distributed vLLM V1 inference.** Combine tensor and pipeline parallelism across Xinference workers through the xoscar executor, with improved pipeline scheduling and failure handling. - **One-command installation and service management.** Install and start Xinference on Linux, macOS, and Windows in an isolated Python environment. Optional system services support background operation and automatic startup, with rollback for failed managed service…",
+    "level": "major"
+   },
+   "id": "6f170dbb4022",
+   "score": 7.6,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Niko1221/Strata",
+   "url": "https://github.com/Niko1221/Strata",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+   "heat": 0.978,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 21671.0
+   },
+   "extra": {
+    "language": "C++",
+    "age_days": 17
+   },
+   "id": "2a80b8806cb5",
+   "score": 7.39,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+   "heat": 0.963,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3441.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 3
+   },
+   "id": "f02960115775",
+   "score": 7.31,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Qwen/Qwen3.8-Flash-Next",
+   "url": "https://www.modelscope.cn/models/Qwen/Qwen3.8-Flash-Next",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "魔搭 ModelScope 热门模型",
+   "published": "",
+   "summary": "图文理解模型",
+   "heat": 0.952,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 1386.0,
+    "downloads": 83903.0
+   },
+   "extra": {},
+   "id": "4d0128fccaf8",
+   "score": 7.26,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "heat": 0.888,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1225.0,
+    "stars": 58828.0
+   },
+   "extra": {
+    "language": "Python"
+   },
+   "id": "c26bc22c2c10",
+   "score": 7.24,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "heat": 0.875,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1104.0,
+    "stars": 60400.0
+   },
+   "extra": {
+    "language": "Python"
+   },
+   "id": "9182d7f93c0f",
+   "score": 7.17,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "heat": 0.873,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1083.0,
+    "stars": 50447.0
+   },
+   "extra": {
+    "language": "HTML"
+   },
+   "id": "a85ad9dc3cf9",
+   "score": 7.17,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+   "url": "https://arxiv.org/abs/2610.08215",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-06T12:08:45Z",
+   "summary": "Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought to evaluate this ability, but they primarily evaluate tasks whose rules are provided in the instructions or already familiar to pretrained models, making it difficult to distinguish learning from interactions from reasoning with existing knowledge. To address this, we introduce Learn2Play Bench, a benchmark of newly designed text-based games, w…",
+   "heat": 0.862,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 136.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/liushiliushi/Learn2Play-Bench"
+     ]
+    ]
+   },
+   "id": "c1598c78d2e8",
+   "score": 7.0,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+   "url": "https://arxiv.org/abs/2610.08699",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-06T17:13:53Z",
+   "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This report defines the personal agent in five questions and three horizons. It reads how Muse is built fro…",
+   "heat": 0.81,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 101.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/nano-muse/nanoMuse"
+     ]
+    ]
+   },
+   "id": "a6c5ba31e9ed",
+   "score": 6.76,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hugging Face 热门论文",
+    "arXiv · 高效推理"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+   "url": "https://arxiv.org/abs/2610.08448",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-06T00:00:00Z",
+   "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generation, strict 1:1 groups already cover most student-generated tokens despite substantial vocabulary mismatch. On responses sampled from the students before distillation, the shared vocabulary retains n…",
+   "heat": 0.937,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 209.0
+   },
+   "extra": {},
+   "id": "233cca311480",
+   "score": 6.73,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+   "url": "https://arxiv.org/abs/2610.07767",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-06T05:03:47Z",
+   "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly reducing the discrepancy between the two quantized execution paths. In this work, we propose TRACE (Train-Rollout Quantization Alignment via Compact GuidancE), an FP4 quantization framework for RL traini…",
+   "heat": 0.794,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 92.0
+   },
+   "extra": {},
+   "id": "8e4d1914cd19",
+   "score": 6.63,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+   "url": "https://arxiv.org/abs/2610.09823",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-07T00:00:00Z",
+   "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed prompt supplies exact strings for four to twelve text regions, paired with structured references for…",
+   "heat": 0.884,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 154.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/LINs-lab/UltraText_Bench"
+     ]
+    ]
+   },
+   "id": "efbb2001404b",
+   "score": 6.56,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ]
+}
