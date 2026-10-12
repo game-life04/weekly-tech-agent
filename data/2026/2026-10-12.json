@@ -1,6 +1,6 @@
 {
  "date": "2026-10-12",
- "generated_at": "2026-10-12T06:36:07Z",
+ "generated_at": "2026-10-12T06:45:19Z",
  "llm": {
   "provider": "智谱",
   "model": "glm-4.7-flash"
@@ -23,7 +23,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "rss:Anthropic",
@@ -32,7 +32,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Anthropic 研究",
@@ -50,7 +50,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "name": "rss:xAI",
@@ -68,7 +68,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "name": "rss:Google AI",
@@ -77,7 +77,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "rss:Google Research",
@@ -86,7 +86,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.8
   },
   {
    "name": "rss:Mistral AI",
@@ -95,7 +95,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Hugging Face 博客",
@@ -104,7 +104,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Microsoft Research",
@@ -122,7 +122,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.6
   },
   {
    "name": "rss:NVIDIA 博客",
@@ -140,7 +140,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "name": "rss:Ollama 博客",
@@ -149,7 +149,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "rss:LangChain 博客",
@@ -158,7 +158,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "name": "rss:Simon Willison",
@@ -167,7 +167,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "name": "rss:Lilian Weng",
@@ -185,7 +185,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "name": "rss:Interconnects",
@@ -194,7 +194,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 3.8
   },
   {
    "name": "rss:Import AI",
@@ -203,7 +203,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "rss:Latent Space",
@@ -212,7 +212,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "rss:MIT 科技评论",
@@ -221,7 +221,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:Ars Technica",
@@ -230,7 +230,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.5
   },
   {
    "name": "rss:The Decoder",
@@ -239,7 +239,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.2
+   "seconds": 1.3
   },
   {
    "name": "rss:TechCrunch",
@@ -248,7 +248,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "rss:The Verge",
@@ -266,7 +266,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 2.5
+   "seconds": 2.6
   },
   {
    "name": "rss:InfoQ 中文",
@@ -275,7 +275,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 1.2
+   "seconds": 1.6
   },
   {
    "name": "rss:雷峰网",
@@ -284,7 +284,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 3.5
+   "seconds": 26.2
   },
   {
    "name": "rss:智东西",
@@ -293,7 +293,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 2.1
+   "seconds": 2.6
   },
   {
    "name": "rss:IT之家",
@@ -302,7 +302,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 1.5
+   "seconds": 2.1
   },
   {
    "name": "rss:36氪",
@@ -311,7 +311,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.4
+   "seconds": 1.6
   },
   {
    "name": "rss:爱范儿",
@@ -320,7 +320,7 @@
    "ok": true,
    "count": 2,
    "error": "",
-   "seconds": 1.3
+   "seconds": 1.0
   },
   {
    "name": "rss:极客公园",
@@ -329,7 +329,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 1.6
+   "seconds": 2.1
   },
   {
    "name": "rss:少数派",
@@ -338,7 +338,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 1.1
+   "seconds": 1.2
   },
   {
    "name": "rss:Solidot",
@@ -347,7 +347,7 @@
    "ok": true,
    "count": 1,
    "error": "",
-   "seconds": 1.1
+   "seconds": 5.2
   },
   {
    "name": "rss:阮一峰周刊",
@@ -356,7 +356,7 @@
    "ok": true,
    "count": 0,
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.7
   },
   {
    "name": "rss:开源中国",
@@ -365,7 +365,7 @@
    "ok": true,
    "count": 3,
    "error": "",
-   "seconds": 2.5
+   "seconds": 3.1
   },
   {
    "name": "rss:HelloGitHub 月刊",
@@ -383,7 +383,7 @@
    "ok": true,
    "count": 5,
    "error": "",
-   "seconds": 2.0
+   "seconds": 1.5
   },
   {
    "name": "github_trending",
@@ -392,7 +392,7 @@
    "ok": true,
    "count": 33,
    "error": "",
-   "seconds": 10.2
+   "seconds": 9.6
   },
   {
    "name": "github_new",
@@ -401,7 +401,7 @@
    "ok": true,
    "count": 274,
    "error": "",
-   "seconds": 22.8
+   "seconds": 21.0
   },
   {
    "name": "github_releases",
@@ -410,7 +410,7 @@
    "ok": true,
    "count": 4,
    "error": "",
-   "seconds": 18.5
+   "seconds": 21.6
   },
   {
    "name": "hot_models:huggingface",
@@ -419,7 +419,7 @@
    "ok": true,
    "count": 8,
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "hot_models:modelscope",
@@ -428,7 +428,7 @@
    "ok": true,
    "count": 8,
    "error": "",
-   "seconds": 4.0
+   "seconds": 1.4
   },
   {
    "name": "papers",
@@ -437,7 +437,7 @@
    "ok": true,
    "count": 34,
    "error": "",
-   "seconds": 18.5
+   "seconds": 19.3
   }
  ],
  "items": [
@@ -449,11 +449,11 @@
    "via": "Hacker News",
    "published": "2026-10-11T20:20:52Z",
    "summary": "",
-   "heat": 0.961,
+   "heat": 0.963,
    "weight": 0.6,
    "metrics": {
-    "points": 392.0,
-    "comments": 549.0
+    "points": 397.0,
+    "comments": 556.0
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50047422",
@@ -511,7 +511,7 @@
    "metrics": {
     "points": 323.0,
     "comments": 150.0,
-    "stars": 783.0
+    "stars": 785.0
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50031614",
@@ -567,10 +567,10 @@
    "via": "Hacker News",
    "published": "2026-10-11T02:02:38Z",
    "summary": "",
-   "heat": 0.844,
+   "heat": 0.845,
    "weight": 0.6,
    "metrics": {
-    "points": 189.0,
+    "points": 190.0,
     "comments": 137.0
    },
    "extra": {
@@ -578,7 +578,7 @@
     "llm_done": true
    },
    "id": "379d34a56ae8",
-   "score": 7.34,
+   "score": 7.35,
    "title_zh": "500B tokens 后：让 AI 智能体反编译第一人称射击游戏",
    "summary_zh": "",
    "tags": [
@@ -604,13 +604,40 @@
     "llm_done": true
    },
    "id": "005b54aa0ab1",
-   "score": 7.32,
+   "score": 7.31,
    "title_zh": "智谱新模型，490 tokens/s！",
    "summary_zh": "",
    "tags": [
     "智谱",
     "模型发布",
     "推理速度"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "陶哲轩博客爆上热搜！25万数学博士临绝境，必须放缓AI",
+   "url": "https://aiera.com.cn/2026/10/12/other/admin/118197/%e9%99%b6%e5%93%b2%e8%bd%a9%e5%8d%9a%e5%ae%a2%e7%88%86%e4%b8%8a%e7%83%ad%e6%90%9c%ef%bc%8125%e4%b8%87%e6%95%b0%e5%ad%a6%e5%8d%9a%e5%a3%ab%e4%b8%b4%e7%bb%9d%e5%a2%83%ef%bc%8c%e5%bf%85%e9%a1%bb%e6%94%be/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-10-12T00:06:23Z",
+   "summary": "点开菲尔兹奖得主陶哲轩的博客的评论区，你会感到一种前所未有的震撼——当今世界最顶尖的一批数学家、物理学家、AI圈大佬们齐聚于此，各抒己见，吵得好不激烈。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "fb3ee2e702c2",
+   "score": 7.29,
+   "title_zh": "陶哲轩博客爆上热搜！25万数学博士临绝境，必须放缓AI",
+   "summary_zh": "菲尔兹奖得主陶哲轩的博客评论区汇聚了顶尖数学家、物理学家和AI大佬，引发激烈讨论。",
+   "tags": [
+    "行业动态",
+    "AI伦理",
+    "学术圈"
    ],
    "also_in": [],
    "merged_ids": []
@@ -643,33 +670,6 @@
    "merged_ids": []
   },
   {
-   "title": "刚刚，AI圈爆出王炸！实现「万物共脑」，连大脑带具身越狱到现实",
-   "url": "https://aiera.com.cn/2026/10/12/other/admin/118175/%e5%88%9a%e5%88%9a%ef%bc%8cai%e5%9c%88%e7%88%86%e5%87%ba%e7%8e%8b%e7%82%b8%ef%bc%81%e5%ae%9e%e7%8e%b0%e3%80%8c%e4%b8%87%e7%89%a9%e5%85%b1%e8%84%91%e3%80%8d%ef%bc%8c%e8%bf%9e%e5%a4%a7%e8%84%91%e5%b8%a6/",
-   "source": "rss",
-   "section": "news",
-   "via": "新智元",
-   "published": "2026-10-12T00:04:53Z",
-   "summary": "物理AI正在成为人工智能产业最受关注的方向之一。 而让AI走出屏幕，则需要三样东西。一颗足够可靠的大脑，一套能组织它持续工作的执行系统，以及一个能连接物理设备的身体。模型能力不…",
-   "heat": 0.55,
-   "weight": 0.55,
-   "metrics": {},
-   "extra": {
-    "llm_score": 7.0,
-    "llm_done": true
-   },
-   "id": "3a9a8bc3165b",
-   "score": 6.69,
-   "title_zh": "刚刚，AI圈爆出王炸！实现「万物共脑」，连大脑带具身越狱到现实",
-   "summary_zh": "物理AI需要可靠大脑、执行系统和物理身体。",
-   "tags": [
-    "物理AI",
-    "具身智能",
-    "行业动态"
-   ],
-   "also_in": [],
-   "merged_ids": []
-  },
-  {
    "title": "morluto/rea",
    "url": "https://github.com/morluto/rea",
    "source": "github_trending",
@@ -681,7 +681,7 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 25599.0,
-    "stars": 118510.0
+    "stars": 118971.0
    },
    "extra": {
     "language": "TypeScript",
@@ -710,7 +710,7 @@
    "heat": 0.98,
    "weight": 0.5,
    "metrics": {
-    "stars": 21950.0
+    "stars": 21955.0
    },
    "extra": {
     "language": "C++",
@@ -771,7 +771,7 @@
    "weight": 0.6,
    "metrics": {
     "stars_today": 1225.0,
-    "stars": 59179.0
+    "stars": 59198.0
    },
    "extra": {
     "language": "Python",
@@ -790,31 +790,31 @@
    "merged_ids": []
   },
   {
-   "title": "cathrynlavery/diagram-design",
-   "url": "https://github.com/cathrynlavery/diagram-design",
+   "title": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
    "source": "github_trending",
    "section": "opensource",
    "via": "GitHub Trending",
    "published": "",
-   "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-   "heat": 0.873,
+   "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "heat": 0.875,
    "weight": 0.6,
    "metrics": {
-    "stars_today": 1083.0,
-    "stars": 50954.0
+    "stars_today": 1104.0,
+    "stars": 60595.0
    },
    "extra": {
-    "language": "HTML",
+    "language": "Python",
     "llm_score": 8.0,
     "llm_done": true
    },
-   "id": "a85ad9dc3cf9",
+   "id": "9182d7f93c0f",
    "score": 7.67,
    "title_zh": "",
-   "summary_zh": "为 Claude Code、GitHub Copilot 等工具提供 44 种类型的编辑图表设计。",
+   "summary_zh": "AI可将文档或主题生成原生PPT，支持图表、动画和自定义模板。",
    "tags": [
     "开源工具",
-    "工具"
+    "办公自动化"
    ],
    "also_in": [],
    "merged_ids": []
@@ -830,7 +830,7 @@
    "heat": 0.931,
    "weight": 0.5,
    "metrics": {
-    "stars": 22661.0
+    "stars": 22662.0
    },
    "extra": {
     "language": "Python",
