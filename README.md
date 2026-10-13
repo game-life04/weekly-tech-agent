@@ -92,7 +92,7 @@
   → 提交回仓库
 ```
 
-整个流程由 GitHub Actions 每天定时运行（[.github/workflows/daily.yml](.github/workflows/daily.yml)），不需要服务器。GitHub 的定时任务经常晚到两三个小时，所以日报出现的时间不固定，一般在北京时间早上。
+整个流程由 GitHub Actions 每天定时运行（[.github/workflows/daily.yml](.github/workflows/daily.yml)），不需要服务器。GitHub 的定时任务经常晚到两三个小时，有时干脆不触发，所以一天设了三次（北京时间 03:17、05:47、09:17）：先跑到的那次负责抓取和出刊，后面的不重新抓取，只补上大模型之前没写成的中文摘要。日报出现的时间因此不固定，一般在北京时间早上。
 
 ### 在本地运行
 

@@ -22,6 +22,7 @@ from typing import Any
 
 from ..dates import to_iso
 from ..feeds import safe_xml
+from ..http import HttpError
 from ..models import Item
 from ..textutil import clean_text, log_scale
 from .base import Context
@@ -45,14 +46,24 @@ _last_arxiv_call = 0.0
 
 
 def hf_daily_papers(ctx: Context, days: int) -> dict[str, dict[str, Any]]:
-    """最近 days 天的 Daily Papers，返回 {arXiv 编号: 论文}。周末和没有论文的日子接口返回空列表。"""
+    """最近 days 天的 Daily Papers，返回 {arXiv 编号: 论文}。
+
+    周末和没有论文的日子接口返回空列表；当天的榜单还没开放时返回 400，这一天直接跳过。
+    """
     papers: dict[str, dict[str, Any]] = {}
     today = ctx.now.date()
     for offset in range(days):
         day = (today - timedelta(days=offset)).isoformat()
         page = 0
         while True:
-            rows = ctx.http.get_json(HF_DAILY, params={"date": day, "limit": 100, "p": page})
+            try:
+                rows = ctx.http.get_json(HF_DAILY, params={"date": day, "limit": 100, "p": page})
+            except HttpError as exc:
+                # 当天的榜单还没开放时，接口对这个日期返回 400（"date" must be less than or equal to ...）。
+                # 这只会发生在最新的那一天；更早的日期出 400 是真的出了问题
+                if exc.status != 400 or offset:
+                    raise
+                break
             if not isinstance(rows, list):
                 raise RuntimeError(f"Daily Papers 返回的格式不对：{str(rows)[:120]}")
             for row in rows:

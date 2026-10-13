@@ -95,6 +95,61 @@ def _edit(pool: list[Item], config: dict[str, Any], client: LLMClient | None, no
     return selected
 
 
+def _llm_label(items: list[Item], client: LLMClient | None, existing: dict[str, Any] | None) -> dict[str, str] | None:
+    """页面上的“由 AI 生成”以实际发生的事为准：有哪家服务真的回复过、入选内容里真的有中文。"""
+    if not any(item.title_zh or item.summary_zh for item in items):
+        return None
+    answered = client.answered if client else []
+    if not answered:
+        return (existing or {}).get("llm")  # 这次没用上，但入选内容里有之前写好的中文
+    names = "、".join(dict.fromkeys(p.name for p in answered))
+    return {"provider": names, "model": "、".join(dict.fromkeys(p.model for p in answered))}
+
+
+def _write_overview(root: Path, config: dict[str, Any], day: date, client: LLMClient | None) -> None:
+    """重写“本周看点”，并记下它是哪一天写的；没写成就保留原来的。"""
+    if not client or client.exhausted:
+        return
+    monday = week_range(day)[0]
+    try:
+        picked, _ = weekly_pick(week_payloads(root, monday), config)
+        overview = editor.weekly_overview(picked, client)
+    except Exception:  # 和打分、写摘要一样：大模型出任何意外都不影响出刊
+        log.exception("生成本周看点出错，本次跳过")
+        overview = ""
+    if overview:
+        note = load_week_note(root, week_id(monday))
+        save_week_note(root, week_id(monday), {**note, "overview": overview, "as_of": day.isoformat()})
+
+
+def _fill_in(root: Path, config: dict[str, Any], day: date, today: date, existing: dict[str, Any], no_llm: bool) -> int:
+    """这一天的日报已经有了：不重新抓取，只把之前没写成的中文和本周看点补上。
+
+    大模型在白天常常过载，一次运行里总有几条写不成。定时任务一天触发几次，
+    第一次负责出刊，后面几次走到这里：没什么可补的时候什么都不做。
+    """
+    items = store.items_of(existing)
+    todo = [item for item in items if not item.extra.get("llm_done") and not item.extra.get("filtered")]
+    stale = load_week_note(root, week_id(week_range(day)[0])).get("as_of") != day.isoformat()
+    client = build_client(config, os.environ) if config["llm"]["enabled"] and not no_llm else None
+    if client is None or not (todo or stale):
+        log.info("%s 的日报已经有了，跳过（去掉 --if-missing 可以强制刷新）", day)
+        return 0
+    log.info("%s 的日报已经有了，不重新抓取：还有 %d 条没写中文%s", day, len(todo), "，本周看点待更新" if stale else "")
+    if todo:
+        try:
+            editor.summarize(items, client)
+        except Exception:
+            log.exception("大模型写摘要出错，保持原样")
+        items = [item for item in items if _keep(item, config)]  # 这次才被内容审核拦下的，撤掉
+        payload = {**existing, "llm": _llm_label(items, client, existing), "items": [item.to_dict() for item in items]}
+        store.save_day(root, day, payload)
+    _write_overview(root, config, day, client)
+    for warning in publish(root, config, day, today) if day == today else publish_all(root, config, today):
+        log.warning(warning)
+    return 0
+
+
 def cmd_run(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int:
     now = datetime.now(UTC)
     today = local_date(now, config["utc_offset_hours"])
@@ -104,8 +159,7 @@ def cmd_run(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int
         return 2
     existing = store.load_day(root, day)
     if args.if_missing and existing is not None and existing.get("items"):
-        log.info("%s 的日报已经有了，跳过（去掉 --if-missing 可以强制刷新）", day)
-        return 0
+        return _fill_in(root, config, day, today, existing, args.no_llm)
     ctx = _context(config, now)
 
     candidates, report = collect(config, ctx)
@@ -123,15 +177,7 @@ def cmd_run(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int
         log.info("没有可用的大模型（未配置密钥或已关闭），只按规则选稿，标题保持原文")
     selected = _edit(pool, config, client, now)
 
-    # 页面上的“由 AI 生成”以实际发生的事为准：有哪家服务真的回复过、入选内容里真的有中文
-    llm = None
-    if any(item.title_zh or item.summary_zh for item in selected):
-        answered = client.answered if client else []
-        if answered:
-            names = "、".join(dict.fromkeys(p.name for p in answered))
-            llm = {"provider": names, "model": "、".join(dict.fromkeys(p.model for p in answered))}
-        else:
-            llm = (existing or {}).get("llm")  # 这次没用上，但入选内容里有之前写好的中文
+    llm = _llm_label(selected, client, existing)
     payload = {
         "date": day.isoformat(),
         "generated_at": to_iso(now),
@@ -143,17 +189,7 @@ def cmd_run(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int
     store.save_day(root, day, payload)
     log.info("%s：候选 %d 条，入选 %d 条", day, len(pool), len(selected))
 
-    if client and not client.exhausted:
-        monday = week_range(day)[0]
-        try:
-            picked, _ = weekly_pick(week_payloads(root, monday), config)
-            overview = editor.weekly_overview(picked, client)
-        except Exception:  # 和打分、写摘要一样：大模型出任何意外都不影响出刊
-            log.exception("生成本周看点出错，本次跳过")
-            overview = ""
-        if overview:
-            note = load_week_note(root, week_id(monday))
-            save_week_note(root, week_id(monday), {**note, "overview": overview})
+    _write_overview(root, config, day, client)
 
     # 补的是过去某一天时，后面几天的“上一期”链接也要跟着变，干脆全部重排
     warnings = publish(root, config, day, today) if day == today else publish_all(root, config, today)
@@ -212,7 +248,11 @@ def main(argv: list[str] | None = None) -> int:
         help="把这次抓到的内容记到这个日期，格式 2026-10-11（调试用；抓到的是现在的内容，不能补抓历史）",
     )
     run.add_argument("--no-llm", action="store_true", help="不调用大模型，只按规则选稿")
-    run.add_argument("--if-missing", action="store_true", help="这一天已经有内容就什么都不做（定时任务用）")
+    run.add_argument(
+        "--if-missing",
+        action="store_true",
+        help="这一天已经有内容就不重新抓取，只补上还没写成的中文和本周看点（定时任务用）",
+    )
     run.set_defaults(handler=cmd_run)
 
     render = commands.add_parser("render", help="不抓取，用已有数据重新生成所有页面")

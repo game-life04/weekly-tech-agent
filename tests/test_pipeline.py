@@ -11,7 +11,7 @@ from fakes import FakeClient
 
 from wta import cli, collect, store
 from wta.dates import to_iso
-from wta.llm import Filtered
+from wta.llm import Filtered, LLMError
 from wta.models import Item
 
 
@@ -317,6 +317,30 @@ def test_if_missing_retries_an_empty_issue(repo):
     sources["good"] = fake_source("good", "Good", [row(1)])
     assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 上一次是空的：兜底任务要补
     assert len(store.load_day(root, date(2026, 10, 10))["items"]) == 1
+
+
+def test_if_missing_fills_in_chinese_an_earlier_run_could_not_write(with_llm):
+    root, sources, install = with_llm
+    sources["good"] = fake_source("good", "Good", [row(1, summary=LONG), row(2, summary=LONG)])
+    install(FakeClient([lambda sent: LLMError("HTTP 429：该模型当前访问量过大")]))
+    assert run(root, "run", "--date", "2026-10-10") == 0  # 第一次：大模型一直过载，日报照出，只是没有中文
+    first = store.load_day(root, date(2026, 10, 10))
+    assert first["llm"] is None and not any(i["title_zh"] for i in first["items"])
+
+    sources["good"] = fake_source("good", "Good", error="不应该再抓取")
+    client = install(FakeClient([llm_replies(lambda title: 6)]))
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 后面的定时任务：只补中文
+    filled = store.load_day(root, date(2026, 10, 10))
+    assert [i["title"] for i in filled["items"]] == [i["title"] for i in first["items"]]  # 内容和顺序不变
+    assert all(i["title_zh"].startswith("中文：") for i in filled["items"])
+    assert filled["llm"] == {"provider": "假服务", "model": "fake-1"}
+    assert filled["generated_at"] == first["generated_at"]
+    assert "中文：Item 1 about LLM" in (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
+    assert "## 本周看点" in (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
+    assert len(client.calls) == 2  # 摘要一次、本周看点一次；不重新打分
+
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 都补齐了：什么都不做
+    assert len(client.calls) == 2
 
 
 def test_published_memory_reaches_back_exactly_remember_days(repo):

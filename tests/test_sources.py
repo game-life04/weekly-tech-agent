@@ -525,3 +525,18 @@ def test_hf_daily_papers_follows_pages_until_a_short_one():
     ctx = context({papers.HF_DAILY: daily})
     assert len(papers.hf_daily_papers(ctx, days=1)) == 107
     assert [c["params"]["p"] for c in ctx.http.calls] == [0, 1]
+
+
+def test_hf_daily_papers_skips_today_when_its_list_is_not_open_yet():
+    def daily(url, params):
+        if params["date"] == "2026-10-11":  # 测试里的“今天”：榜单还没开放
+            return HttpError('HTTP 400："date" must be less than or equal to "2026-10-10T00:00:00.000Z"', 400)
+        return [hf_row("2610.00001", "Yesterday's paper", 9)] if params["date"] == "2026-10-10" else []
+
+    assert list(papers.hf_daily_papers(context({papers.HF_DAILY: daily}), days=3)) == ["2610.00001"]
+
+    def older_day_rejected(url, params):
+        return HttpError("HTTP 400", 400) if params["date"] == "2026-10-10" else []
+
+    with pytest.raises(HttpError):  # 更早的日期出 400 不是“还没开放”，照常报错
+        papers.hf_daily_papers(context({papers.HF_DAILY: older_day_rejected}), days=3)
