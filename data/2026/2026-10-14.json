@@ -1,0 +1,1064 @@
+{
+ "date": "2026-10-14",
+ "generated_at": "2026-10-13T23:16:24Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 477,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 72,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 44,
+   "error": "",
+   "seconds": 9.8
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 288,
+   "error": "",
+   "seconds": 21.3
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 19.2
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 33,
+   "error": "",
+   "seconds": 21.8
+  }
+ ],
+ "items": [
+  {
+   "title": "Redesigning source control at Anthropic",
+   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-13T15:49:56Z",
+   "summary": "",
+   "heat": 0.985,
+   "weight": 0.6,
+   "metrics": {
+    "points": 454.0,
+    "comments": 452.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50073633",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "c8aa0926c12a",
+   "score": 8.21,
+   "title_zh": "Anthropic 重构源代码控制系统",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "GLM-Legal",
+   "url": "https://z.ai/blog/glm-legal",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-12T16:11:45Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 663.0,
+    "comments": 358.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50058507",
+    "llm_done": true
+   },
+   "id": "07fd80ca31c5",
+   "score": 8.08,
+   "title_zh": "GLM-Legal",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+   "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-13T15:25:50Z",
+   "summary": "",
+   "heat": 0.868,
+   "weight": 0.6,
+   "metrics": {
+    "points": 220.0,
+    "comments": 139.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50073221",
+    "llm_done": true
+   },
+   "id": "e71c2afb8299",
+   "score": 7.93,
+   "title_zh": "发帖后网站被 AI 机器人流量淹没",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+   "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-13T12:26:36Z",
+   "summary": "",
+   "heat": 0.865,
+   "weight": 0.6,
+   "metrics": {
+    "points": 216.0,
+    "comments": 91.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50070593",
+    "llm_done": true
+   },
+   "id": "c207af8abd05",
+   "score": 7.84,
+   "title_zh": "基于闲置 Apple Silicon 设备的动态分布式虚拟 GPU 云",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Higgsfield takes AI video from 1 minute to over 10",
+   "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-13T12:00:00Z",
+   "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ab961506aed2",
+   "score": 7.76,
+   "title_zh": "Higgsfield 推出 GPT-6 等模型，支持超长视频生成",
+   "summary_zh": "Higgsfield 利用 GPT-6 Astra、GPT-Image-2.5 和 GPT-Live，将 AI 视频生成时长从 1 分钟延长至 10 分钟以上。",
+   "tags": [
+    "模型发布",
+    "视频生成"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+   "url": "https://www.qbitai.com/2026/10/503109.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-13T20:55:15Z",
+   "summary": "面壁开源MiniCPM-V 4.7",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "88b939e118e6",
+   "score": 7.33,
+   "title_zh": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "移动端",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
+   "url": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article",
+   "source": "rss",
+   "section": "news",
+   "via": "InfoQ 中文",
+   "published": "2026-10-13T10:32:43Z",
+   "summary": "",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "268c81cd0d5f",
+   "score": 7.07,
+   "title_zh": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+   "url": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
+   "source": "rss",
+   "section": "news",
+   "via": "InfoQ 中文",
+   "published": "2026-10-13T09:41:43Z",
+   "summary": "",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "7fbd311301bb",
+   "score": 7.06,
+   "title_zh": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+   "summary_zh": "",
+   "tags": [
+    "智能体",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+   "heat": 1.0,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 8117.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 5,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "f02960115775",
+   "score": 7.8,
+   "title_zh": "",
+   "summary_zh": "创建真实机器和复杂系统交互式等距插图的智能体技能，生成带 WebGL 着色器和 3D 效果的 SVG。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "heat": 0.75,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 404.0,
+    "stars": 130530.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "64a343a22627",
+   "score": 7.42,
+   "title_zh": "",
+   "summary_zh": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "heat": 0.659,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 195.0,
+    "stars": 46601.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8d082296f54e",
+   "score": 7.24,
+   "title_zh": "",
+   "summary_zh": "基于 Claude Code 的 AI 求职框架，在本地运行，评估职位、定制简历、撰写求职信。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+   "heat": 0.921,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1591.0,
+    "stars": 60199.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1b22a6d89d63",
+   "score": 7.16,
+   "title_zh": "",
+   "summary_zh": "从终端、应用、IDE 或手机免费使用 Claude Code、Codex、VSCode、Pi 和 OpenCode。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "open-webui/open-webui",
+   "url": "https://github.com/open-webui/open-webui",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+   "heat": 0.879,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1138.0,
+    "stars": 155575.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6a56380a1868",
+   "score": 7.08,
+   "title_zh": "",
+   "summary_zh": "支持 Ollama 和 OpenAI API 的用户友好型 AI 界面。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google/embeddinggemma-2",
+   "url": "https://huggingface.co/google/embeddinggemma-2",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "向量表示模型，许可证 apache-2.0",
+   "heat": 0.916,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 2099.0,
+    "downloads": 124930.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/google/embeddinggemma-2"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ce91740bf8d0",
+   "score": 7.03,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布"
+   ],
+   "also_in": [
+    "魔搭 ModelScope 热门模型"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "mhtsec/ARTEX",
+   "url": "https://github.com/mhtsec/ARTEX",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+   "heat": 0.91,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3870.0
+   },
+   "extra": {
+    "language": "Go",
+    "age_days": 5,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "15f579bbc87c",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "拾趣 Magpie：macOS 划词 AI 工具",
+   "url": "https://www.oschina.net/news/503004",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-10-13T11:31:28Z",
+   "summary": "macOS 划词 AI 工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian、预填日历，结果直接落地。图片、视频与扫描文档中的文字，框选亦可识别——处理在原地完成，无需迁入对话窗口。 https://gitee.com/anziguoer/Magpie https://github.com/demo007x/Magpie...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "0434178535fe",
+   "score": 6.92,
+   "title_zh": "",
+   "summary_zh": "Magpie 是一款 macOS 划词 AI 工具，支持翻译、解释、总结，并能直接写入 Obsidian 或预填日历。",
+   "tags": [
+    "开源工具",
+    "macOS"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+   "url": "https://arxiv.org/abs/2610.13361",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-09T10:35:27Z",
+   "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benchmark for agent software engineering spanning three stages of the agent development lifecycle: Creation of a complete agent from a natural-language requirement, Editing of production agent codebases,…",
+   "heat": 0.93,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 201.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a849a64deeff",
+   "score": 7.79,
+   "title_zh": "AgentSWE: 编码智能体能构建你真正想要的智能体吗？",
+   "summary_zh": "AgentSWE 是一个评估智能体软件工程的基准，涵盖从自然语言需求到生产代码库编辑的三个阶段。",
+   "tags": [
+    "智能体",
+    "评测",
+    "论文"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+   "url": "https://arxiv.org/abs/2609.39601",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-09-30T00:00:00Z",
+   "summary": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding foundation model that generates points and boxes as quantized coordinates in a shared vocabulary. Training combines multimodal and spatial pretraining, supervised fine-tuning, and reinforc…",
+   "heat": 0.965,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 246.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/groundingpi/GroundingPI"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "6d7365fa21a3",
+   "score": 7.46,
+   "title_zh": "GroundingPI: 具备视觉原语的物理智能基础模型",
+   "summary_zh": "GroundingPI 是一个 4B 的基础模型，通过生成共享词汇中的量化坐标点框，提升视觉定位能力。",
+   "tags": [
+    "视觉",
+    "模型",
+    "论文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+   "url": "https://arxiv.org/abs/2610.13527",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-09T12:48:41Z",
+   "summary": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertical, and distance axes. Although we identify these axes by differentiating spatial-answer scores with respect to object-token activations, S-Space is intrinsic rather than induced by specific data or prompts, remaining readable under non-spatial questions. We show that S-Space functions as an intern…",
+   "heat": 0.983,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 272.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/mirros-lab/s-space"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "189d925e793d",
+   "score": 7.06,
+   "title_zh": "S-Space: 多模态语言模型中的空间工作空间探索",
+   "summary_zh": "S-Space 是多模态语言模型中一种线性表示子空间，用于编码物体的连续坐标。",
+   "tags": [
+    "多模态",
+    "模型",
+    "论文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+   "url": "https://arxiv.org/abs/2610.13166",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-09T07:55:55Z",
+   "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon trajectories capture these agentic behavioral patterns and their connections within a single problem-solving process, providing richer experience for sustained autonomous work. However, environment synt…",
+   "heat": 0.858,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 133.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c4b5f1d61adc",
+   "score": 7.04,
+   "title_zh": "面向长期终端智能的智能体数据扩展",
+   "summary_zh": "研究如何通过高质量的长轨迹数据提升智能体在复杂任务中的持续自主工作能力。",
+   "tags": [
+    "智能体",
+    "数据",
+    "论文"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+   "url": "https://arxiv.org/abs/2610.12572",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-08T00:00:00Z",
+   "summary": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training. We show that NFT-style objectives contain a hidden forward--reverse consistency force that joint positive--negative training cancels only partially, and that EMA stabilizes training through restoration rather than off-policy rollouts. We introduce Diffusion…",
+   "heat": 0.962,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 242.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/vanzll/DiffusionART"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "b12ef126ac92",
+   "score": 6.95,
+   "title_zh": "DiffusionART: 高效、稳定且可扩展的扩散模型强化",
+   "summary_zh": "DiffusionART 提出了一种结合正向和反向一致性力的训练方法，提升扩散模型的强化学习效率。",
+   "tags": [
+    "扩散模型",
+    "强化学习",
+    "论文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ]
+}

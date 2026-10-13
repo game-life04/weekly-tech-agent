@@ -8,60 +8,60 @@
 
 <!-- wta:latest:start -->
 
-## 最新一期 · 2026-10-13（周二）
+## 最新一期 · 2026-10-14（周三）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
-> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-13.md)
+> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-14.md)
 
 ### 🗞️ AI 动态
 
-**1. [AI 编码代理生成更多代码，但未产出更多软件](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/)**<br><sub>Hacker News · 308 分 · 268 评论 · #行业动态 · 原题：AI coding agents generate more code, but not more software · [讨论](https://news.ycombinator.com/item?id=50059523)</sub>
+**1. [Anthropic 重构源代码控制系统](https://www.anthropic.com/engineering/redesigning-source-control)**<br><sub>Hacker News · 454 分 · 452 评论 · #行业动态 · 原题：Redesigning source control at Anthropic · [讨论](https://news.ycombinator.com/item?id=50073633)</sub>
 
-**2. [AI模型可能无需数据中心即可自我复制](https://www.anthropic.com/research/self-replicating-ai)**<br><sub>Anthropic 研究 · 77 分 · 95 评论 · 同时见于 Hacker News · 原题：AI models may be capable of self-replicating without access to a datacenter · [讨论](https://news.ycombinator.com/item?id=50061603)</sub>
+**2. [GLM-Legal](https://z.ai/blog/glm-legal)**<br><sub>Hacker News · 663 分 · 358 评论 · #行业动态 · [讨论](https://news.ycombinator.com/item?id=50058507)</sub>
 
-**3. [AI 是工具，用好它需要技能](https://yyhh.org/blog/2026/10/ai-is-a-tool/)**<br><sub>Hacker News · 222 分 · 200 评论 · #行业动态 · 原题：AI is a tool and using it well takes skill · [讨论](https://news.ycombinator.com/item?id=50063427)</sub>
+**3. [发帖后网站被 AI 机器人流量淹没](https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic)**<br><sub>Hacker News · 220 分 · 139 评论 · #行业动态 · 原题：I posted to HN, and then my website was flooded with AI bot traffic · [讨论](https://news.ycombinator.com/item?id=50073221)</sub>
 
-**4. [Rich Hickey：'AI' 不是工具](https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e)**<br><sub>Hacker News · 213 分 · 104 评论 · #行业动态 · 原题：'AI' Is Not a Tool by Rich Hickey · [讨论](https://news.ycombinator.com/item?id=50060269)</sub>
+**4. [基于闲置 Apple Silicon 设备的动态分布式虚拟 GPU 云](https://machinelearning.apple.com/research/distributed-gpu-cloud)**<br><sub>Hacker News · 216 分 · 91 评论 · #行业动态 · 原题：A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices · [讨论](https://news.ycombinator.com/item?id=50070593)</sub>
 
-**5. [模拟学生学习以提升AI辅导效果](https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/)**<br>StudentSim通过模拟学生与辅导工具的互动来评估和改进AI辅导工具，覆盖下棋、写作和数学等学科。<br><sub>Microsoft Research · #AI辅导 #模拟学习 · 原题：Simulating student learning for better AI tutoring</sub>
+**5. [Higgsfield 推出 GPT-6 等模型，支持超长视频生成](https://openai.com/index/higgsfield-longer-videos-voice)**<br>Higgsfield 利用 GPT-6 Astra、GPT-Image-2.5 和 GPT-Live，将 AI 视频生成时长从 1 分钟延长至 10 分钟以上。<br><sub>OpenAI · #模型发布 #视频生成 · 原题：Higgsfield takes AI video from 1 minute to over 10</sub>
 
-**6. [研究机构称 Anthropic IPO 是投资者轻信的空前考验](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html)**<br><sub>Hacker News · 238 分 · 208 评论 · #行业动态 · 原题：Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity' · [讨论](https://news.ycombinator.com/item?id=50051583)</sub>
+**6. [iPhone断网跑35B多模态！国产开源新模型，只占3G内存](https://www.qbitai.com/2026/10/503109.html)**<br>面壁开源MiniCPM-V 4.7<br><sub>量子位 · #模型发布 #移动端 #多模态</sub>
 
-**7. [Anthropic如何协调Claude智能体](https://www.latent.space/p/claude-dynamic-workflows)**<br>Anthropic借鉴Unix和Linux经验，展示智能体如何在不让开发者过载的情况下处理更大项目。<br><sub>Latent Space · #智能体 #Anthropic · 原题：How Anthropic’s Dynamic Workflows Coordinate Claude Agents</sub>
+**7. [Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)**<br><sub>InfoQ 中文 · #模型发布 #行业动态</sub>
 
-**8. [Meta新模型Muse Wonder Full跻身AI顶尖](https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/)**<br>Meta的Muse Wonder模型在十个基准测试中有六个排名前三，代理任务提升显著，但任务成本几乎翻三倍。<br><sub>The Decoder · #模型发布 #Meta · 原题：Meta's new frontier model Muse Wonder Full breaks into the AI top tier</sub>
+**8. [Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构](https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article)**<br><sub>InfoQ 中文 · #智能体 #行业动态</sub>
 
 ### 🛠️ 开源圈
 
-**1. [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)**<br>VoxCPM2：无分词器的多语言语音生成、创意语音设计和逼真克隆。<br><sub>GitHub Trending · 今日 +290 ★ · 39.2k ★ · #开源工具</sub>
+**1. [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)**<br>创建真实机器和复杂系统交互式等距插图的智能体技能，生成带 WebGL 着色器和 3D 效果的 SVG。<br><sub>GitHub 新项目 · 8.1k ★ · #开源工具</sub>
 
-**2. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)**<br>为 Claude Code 等工具提供 44 种编辑类图表设计，HTML + SVG 自包含。<br><sub>GitHub Trending · 今日 +2.1k ★ · 52.6k ★ · #开源工具 #图表设计</sub>
+**2. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**<br>利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。<br><sub>GitHub Trending · 今日 +404 ★ · 130.5k ★ · #开源工具</sub>
 
-**3. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)**<br>dsh 插件无需登录即可免费使用 DeepSeek V4.1 Flash 和 Kimi K3 等前沿模型。<br><sub>GitHub 新项目 · 12k ★ · #开源工具 #免费模型</sub>
+**3. [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)**<br>基于 Claude Code 的 AI 求职框架，在本地运行，评估职位、定制简历、撰写求职信。<br><sub>GitHub Trending · 今日 +195 ★ · 46.6k ★ · #开源工具</sub>
 
-**4. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)**<br>首个开源代理视频制作系统，包含 12 条生产管线和 700+ 技能文件。<br><sub>GitHub Trending · 今日 +635 ★ · 67.6k ★ · #开源工具 #视频制作</sub>
+**4. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)**<br>从终端、应用、IDE 或手机免费使用 Claude Code、Codex、VSCode、Pi 和 OpenCode。<br><sub>GitHub Trending · 今日 +1.6k ★ · 60.2k ★ · #开源工具</sub>
 
-**5. [yetone/magpie](https://github.com/yetone/magpie)**<br>为每个智能体提供模型选择，支持在菜单栏切换 DeepSeek 和 Kimi。<br><sub>GitHub 新项目 · 10.4k ★ · #开源工具 #智能体</sub>
+**5. [open-webui/open-webui](https://github.com/open-webui/open-webui)**<br>支持 Ollama 和 OpenAI API 的用户友好型 AI 界面。<br><sub>GitHub Trending · 今日 +1.1k ★ · 155.6k ★ · #开源工具</sub>
 
-**6. [Linus 把 Claude Code 写的内核补丁推送到个人仓库](https://www.oschina.net/news/502978/linus-torvalds-used-claude-code)**<br>Linus Torvalds在Linux仓库中推送了一个由Claude Code辅助完成的内核补丁分支，展示了AI编程助手的实际应用。<br><sub>开源中国 · #开源 #Linus #Claude Code</sub>
+**6. [google/embeddinggemma-2](https://huggingface.co/google/embeddinggemma-2)**<br>向量表示模型，许可证 apache-2.0<br><sub>Hugging Face 热门模型 · 2.1k 喜欢 · 124.9k 下载 · 同时见于 魔搭 ModelScope 热门模型 · #模型发布 · [国内镜像](https://hf-mirror.com/google/embeddinggemma-2)</sub>
 
-**7. [mksglu/context-mode](https://github.com/mksglu/context-mode)**<br>优化 AI 编程代理上下文窗口，工具输出沙箱化并支持 17 个平台路由。<br><sub>GitHub Trending · 今日 +246 ★ · 27.3k ★ · #开源工具 #推理加速</sub>
+**7. [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX)**<br>AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目<br><sub>GitHub 新项目 · 3.9k ★</sub>
 
-**8. [Improve TTFT for Multi-Turn Agentic Workloads with Bi-Directional KV Transfer in vLLM](https://vllm.ai/blog/2026-10-12-bidirectional-kvxfer-multiturn-agentic-workload)**<br>vLLM的双向KV传输技术允许预填充节点重用解码节点的计算结果，减少冗余计算，将长多轮提示的TTFT降低最多3.3倍。<br><sub>vLLM 博客 · #推理加速 #vLLM</sub>
+**8. [拾趣 Magpie：macOS 划词 AI 工具](https://www.oschina.net/news/503004)**<br>Magpie 是一款 macOS 划词 AI 工具，支持翻译、解释、总结，并能直接写入 Obsidian 或预填日历。<br><sub>开源中国 · #开源工具 #macOS</sub>
 
 ### 📄 前沿论文
 
-**1. [RATED: 基于执行动态的可靠智能体工具检索](https://arxiv.org/abs/2610.13889)**<br>提出RATED框架，结合语义匹配与动态可靠性调整，提升智能体工具检索的可靠性。<br><sub>arXiv · 智能体 · #智能体 #论文 · 原题：RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics</sub>
+**1. [AgentSWE: 编码智能体能构建你真正想要的智能体吗？](https://arxiv.org/abs/2610.13361)**<br>AgentSWE 是一个评估智能体软件工程的基准，涵盖从自然语言需求到生产代码库编辑的三个阶段。<br><sub>arXiv · 智能体 · 201 赞 · 同时见于 Hugging Face 热门论文 · #智能体 #评测 #论文 · 原题：AgentSWE: Can Coding Agents Build the Agent You Actually Want?</sub>
 
-**2. [SmolWAM: 边缘设备上的潜在世界-动作模型](https://arxiv.org/abs/2610.13740)**<br>SmolWAM通过精简模型结构，在边缘设备上实现高效的机器人操作推理。<br><sub>arXiv · 高效推理 · #论文 #机器人 · 原题：SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices</sub>
+**2. [GroundingPI: 具备视觉原语的物理智能基础模型](https://arxiv.org/abs/2609.39601)**<br>GroundingPI 是一个 4B 的基础模型，通过生成共享词汇中的量化坐标点框，提升视觉定位能力。<br><sub>Hugging Face 热门论文 · 246 赞 · #视觉 #模型 #论文 · 原题：GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives · [代码](https://github.com/groundingpi/GroundingPI)</sub>
 
-**3. [zip2zip++: 推理时最小化质量损失的Token压缩](https://arxiv.org/abs/2610.13605)**<br>通过改进压缩层和LZW编解码器，在减少Token数量的同时降低对模型质量的影响。<br><sub>arXiv · 长上下文与检索 · #论文 #长上下文 · 原题：zip2zip++: Towards Inference-Time Token Compression with Minimal Quality Loss</sub>
+**3. [S-Space: 多模态语言模型中的空间工作空间探索](https://arxiv.org/abs/2610.13527)**<br>S-Space 是多模态语言模型中一种线性表示子空间，用于编码物体的连续坐标。<br><sub>Hugging Face 热门论文 · 272 赞 · #多模态 #模型 #论文 · 原题：S-Space: Exploring Spatial Workspace in Multimodal Language Models · [代码](https://github.com/mirros-lab/s-space)</sub>
 
-**4. [MC-EvoBench: 审计Minecraft智能体的自我改进](https://arxiv.org/abs/2610.13829)**<br>构建MC-EvoBench基准，评估智能体在Minecraft中的经验驱动自我改进能力。<br><sub>arXiv · 智能体 · #智能体 #评测 · 原题：MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents</sub>
+**4. [面向长期终端智能的智能体数据扩展](https://arxiv.org/abs/2610.13166)**<br>研究如何通过高质量的长轨迹数据提升智能体在复杂任务中的持续自主工作能力。<br><sub>arXiv · 智能体 · 133 赞 · 同时见于 Hugging Face 热门论文 · #智能体 #数据 #论文 · 原题：Scaling Agentic Data for Long-Horizon Terminal Intelligence</sub>
 
-**5. [Oído: 无神经加速器的5美元微控制器开放词汇语音识别](https://arxiv.org/abs/2610.13447)**<br>在ESP32-S3上运行13M参数的Conformer-CTC模型，实现开放词汇语音识别。<br><sub>arXiv · 语音 · #论文 #语音 · 原题：Oído: Open-Vocabulary Speech Recognition on a <span>$</span>5 Microcontroller without a Neural Accelerator</sub>
+**5. [DiffusionART: 高效、稳定且可扩展的扩散模型强化](https://arxiv.org/abs/2610.12572)**<br>DiffusionART 提出了一种结合正向和反向一致性力的训练方法，提升扩散模型的强化学习效率。<br><sub>Hugging Face 热门论文 · 242 赞 · #扩散模型 #强化学习 #论文 · 原题：DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models · [代码](https://github.com/vanzll/DiffusionART)</sub>
 
-<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 58、RSS 订阅 42（40 个源）、量子位 5、GitHub Trending 34、GitHub 新项目 276、GitHub 版本发布 4、热门模型 16（2 个源）、论文 20。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-13 09:20（北京时间）自动生成。</sub>
+<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 72、RSS 订阅 51（40 个源）、量子位 5、GitHub Trending 44、GitHub 新项目 288、GitHub 版本发布 4、热门模型 16（2 个源）、论文 33。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-14 07:16（北京时间）自动生成。</sub>
 
 <!-- wta:latest:end -->
 
