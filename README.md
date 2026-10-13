@@ -35,17 +35,17 @@
 
 **1. [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)**<br>VoxCPM2：无分词器的多语言语音生成、创意语音设计和逼真克隆。<br><sub>GitHub Trending · 今日 +290 ★ · 39.2k ★ · #开源工具</sub>
 
-**2. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)**<br>Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.<br><sub>GitHub Trending · 今日 +2.1k ★ · 52.6k ★</sub>
+**2. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)**<br>为 Claude Code 等工具提供 44 种编辑类图表设计，HTML + SVG 自包含。<br><sub>GitHub Trending · 今日 +2.1k ★ · 52.6k ★ · #开源工具 #图表设计</sub>
 
-**3. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)**<br>在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there…<br><sub>GitHub 新项目 · 12k ★</sub>
+**3. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)**<br>dsh 插件无需登录即可免费使用 DeepSeek V4.1 Flash 和 Kimi K3 等前沿模型。<br><sub>GitHub 新项目 · 12k ★ · #开源工具 #免费模型</sub>
 
-**4. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)**<br>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video produ…<br><sub>GitHub Trending · 今日 +635 ★ · 67.6k ★</sub>
+**4. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)**<br>首个开源代理视频制作系统，包含 12 条生产管线和 700+ 技能文件。<br><sub>GitHub Trending · 今日 +635 ★ · 67.6k ★ · #开源工具 #视频制作</sub>
 
-**5. [yetone/magpie](https://github.com/yetone/magpie)**<br>Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.<br><sub>GitHub 新项目 · 10.4k ★</sub>
+**5. [yetone/magpie](https://github.com/yetone/magpie)**<br>为每个智能体提供模型选择，支持在菜单栏切换 DeepSeek 和 Kimi。<br><sub>GitHub 新项目 · 10.4k ★ · #开源工具 #智能体</sub>
 
 **6. [Linus 把 Claude Code 写的内核补丁推送到个人仓库](https://www.oschina.net/news/502978/linus-torvalds-used-claude-code)**<br>Linus Torvalds在Linux仓库中推送了一个由Claude Code辅助完成的内核补丁分支，展示了AI编程助手的实际应用。<br><sub>开源中国 · #开源 #Linus #Claude Code</sub>
 
-**7. [mksglu/context-mode](https://github.com/mksglu/context-mode)**<br>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.<br><sub>GitHub Trending · 今日 +246 ★ · 27.3k ★</sub>
+**7. [mksglu/context-mode](https://github.com/mksglu/context-mode)**<br>优化 AI 编程代理上下文窗口，工具输出沙箱化并支持 17 个平台路由。<br><sub>GitHub Trending · 今日 +246 ★ · 27.3k ★ · #开源工具 #推理加速</sub>
 
 **8. [Improve TTFT for Multi-Turn Agentic Workloads with Bi-Directional KV Transfer in vLLM](https://vllm.ai/blog/2026-10-12-bidirectional-kvxfer-multiturn-agentic-workload)**<br>vLLM的双向KV传输技术允许预填充节点重用解码节点的计算结果，减少冗余计算，将长多轮提示的TTFT降低最多3.3倍。<br><sub>vLLM 博客 · #推理加速 #vLLM</sub>
 

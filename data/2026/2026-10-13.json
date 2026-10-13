@@ -706,13 +706,17 @@
    },
    "extra": {
     "language": "HTML",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "a85ad9dc3cf9",
    "score": 7.83,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "为 Claude Code 等工具提供 44 种编辑类图表设计，HTML + SVG 自包含。",
+   "tags": [
+    "开源工具",
+    "图表设计"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -732,13 +736,17 @@
    "extra": {
     "language": "JavaScript",
     "age_days": 18,
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "963ab1940f2f",
    "score": 7.58,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "dsh 插件无需登录即可免费使用 DeepSeek V4.1 Flash 和 Kimi K3 等前沿模型。",
+   "tags": [
+    "开源工具",
+    "免费模型"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -758,13 +766,17 @@
    },
    "extra": {
     "language": "Python",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "aef8e4df5250",
    "score": 7.53,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "首个开源代理视频制作系统，包含 12 条生产管线和 700+ 技能文件。",
+   "tags": [
+    "开源工具",
+    "视频制作"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -784,13 +796,17 @@
    "extra": {
     "language": "Go",
     "age_days": 19,
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "1569642c5401",
    "score": 7.52,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "为每个智能体提供模型选择，支持在菜单栏切换 DeepSeek 和 Kimi。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -837,13 +853,17 @@
    },
    "extra": {
     "language": "TypeScript",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "3c5996df3e8c",
    "score": 7.3,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "优化 AI 编程代理上下文窗口，工具输出沙箱化并支持 17 个平台路由。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
