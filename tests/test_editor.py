@@ -191,6 +191,42 @@ def test_summarize_uses_extra_evidence_when_present(make_item):
     assert client.calls[0]["items"][0]["text"].startswith("v2.0.0 adds a streaming API")
 
 
+HIGGSFIELD = {  # 真实出过的错：原题只说 Higgsfield 把视频做长了，简介里说它用了 OpenAI 的 GPT-6 Astra
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "via": "OpenAI",
+    "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5.",
+}
+
+
+def test_a_title_may_not_borrow_names_from_the_summary(make_item):
+    story = make_item(**HIGGSFIELD)
+    reply = {
+        "i": 0,
+        "title_zh": "Higgsfield 推出 GPT-6 等模型，支持超长视频生成",  # 把使用者写成了发布者
+        "summary_zh": "Higgsfield 利用 GPT-6 Astra 和 GPT-Image-2.5，把 AI 视频从 1 分钟延长到 10 分钟以上。",
+    }
+    assert editor.summarize([story], FakeClient([{"items": [reply]}])) == 1
+    assert story.title_zh == ""  # 页面上改为显示原标题
+    assert story.summary_zh.startswith("Higgsfield 利用 GPT-6 Astra")  # 摘要可以依据简介来写
+
+
+def test_recheck_applies_newer_rules_to_text_written_earlier(make_item):
+    old = make_item(
+        **HIGGSFIELD,
+        title_zh="Higgsfield 推出 GPT-6",
+        summary_zh="Higgsfield 利用 GPT-6 Astra 做长视频",
+        extra={"llm_done": True},
+    )
+    fine = make_item(
+        title="OpenAI releases X", url="https://a.com/2", title_zh="OpenAI 发布 X", extra={"llm_done": True}
+    )
+    assert editor.recheck([old, fine]) == 1
+    assert (old.title_zh, old.summary_zh) == ("", "Higgsfield 利用 GPT-6 Astra 做长视频")
+    assert "llm_done" not in old.extra  # 下一次写摘要时会重写这一条
+    assert fine.title_zh == "OpenAI 发布 X" and fine.extra["llm_done"]
+    assert editor.recheck([old, fine]) == 0
+
+
 def test_weekly_overview(make_item):
     items = [make_item(title="Qwen3 released", title_zh="Qwen3 发布", summary_zh="阿里发布新模型", score=8.0)]
     assert (

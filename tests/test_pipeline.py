@@ -343,6 +343,33 @@ def test_if_missing_fills_in_chinese_an_earlier_run_could_not_write(with_llm):
     assert len(client.calls) == 2
 
 
+def test_if_missing_repairs_chinese_that_newer_checks_reject(with_llm):
+    root, sources, install = with_llm
+    sources["good"] = fake_source("good", "Good", [row(1, summary=LONG), row(2, summary=LONG)])
+    install(FakeClient([llm_replies(lambda title: 6)]))
+    assert run(root, "run", "--date", "2026-10-10") == 0
+    path = root / "data/2026/2026-10-10.json"
+
+    def publish_bad_title(index):  # 模拟检查规则改进之前登出去的内容：中文标题里有原标题没有的名称
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        payload["items"][index]["title_zh"] = payload["items"][index]["title"] + "，推出 GPT-9"
+        path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+
+    publish_bad_title(0)
+    sources["good"] = fake_source("good", "Good", error="不应该再抓取")
+    client = install(FakeClient([llm_replies(lambda title: 6)]))
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0
+    fixed = store.load_day(root, date(2026, 10, 10))["items"]
+    assert fixed[0]["title_zh"] == "中文：" + fixed[0]["title"]  # 按新规则重写了
+    assert "GPT-9" not in (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
+    assert len(client.calls) == 2 and len(client.calls[0]["items"]) == 1  # 只重写那一条，再重写本周看点
+
+    publish_bad_title(1)
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing", "--no-llm") == 0  # 没有大模型可用时
+    assert store.load_day(root, date(2026, 10, 10))["items"][1]["title_zh"] == ""  # 也要撤下来，宁可显示原标题
+    assert "GPT-9" not in (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
+
+
 def test_published_memory_reaches_back_exactly_remember_days(repo):
     root, sources = repo
     (root / "config.yaml").write_text(
