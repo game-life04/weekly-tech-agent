@@ -1,0 +1,1062 @@
+{
+ "date": "2026-10-15",
+ "generated_at": "2026-10-14T22:18:08Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 498,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 74,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 6.4
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 46,
+   "error": "",
+   "seconds": 10.0
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 292,
+   "error": "",
+   "seconds": 20.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 18.5
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 35,
+   "error": "",
+   "seconds": 24.7
+  }
+ ],
+ "items": [
+  {
+   "title": "Gemini 4 Argon",
+   "url": "https://deepmind.google/models/gemini/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-13T16:03:16Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1430.0,
+    "comments": 1021.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50073879",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "b4606c998906",
+   "score": 8.64,
+   "title_zh": "Gemini 4 Argon",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google AI",
+   "published": "2026-10-13T16:00:00Z",
+   "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "77ad3f7fc3bd",
+   "score": 8.32,
+   "title_zh": "Gemini 4 Argon: Built to solve your hardest problems",
+   "summary_zh": "Google AI 发布了最新的前沿模型 Gemini 4 Argon，面向开发者、企业和消费者。",
+   "tags": [
+    "模型发布"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-14T17:45:23Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 781.0,
+    "comments": 381.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50091788",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "3ef98b9b51a3",
+   "score": 8.27,
+   "title_zh": "AI黑客攻击报告归咎于监控失败",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+   "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-14T18:32:52Z",
+   "summary": "",
+   "heat": 0.868,
+   "weight": 0.6,
+   "metrics": {
+    "points": 220.0,
+    "comments": 171.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50092664",
+    "llm_done": true
+   },
+   "id": "89afa2cf8a13",
+   "score": 8.03,
+   "title_zh": "银行试图转嫁刚承销的AI数据中心债务",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "We turned EmbeddingGemma 2 into a speech-to-text model",
+   "url": "https://eg2.haku.sh/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-13T11:27:14Z",
+   "summary": "",
+   "heat": 0.974,
+   "weight": 0.6,
+   "metrics": {
+    "points": 425.0,
+    "comments": 94.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50069971",
+    "llm_done": true
+   },
+   "id": "36af00926e86",
+   "score": 7.88,
+   "title_zh": "将 EmbeddingGemma 2 转化为语音转文本模型",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "语音"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Amp puts AI agents to work beyond code with OpenAI models",
+   "url": "https://openai.com/index/amp-beyond-coding",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-14T12:00:00Z",
+   "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "937149fa915e",
+   "score": 7.77,
+   "title_zh": "Amp puts AI agents to work beyond code with OpenAI models",
+   "summary_zh": "Amp 利用 OpenAI 的 GPT-6 Astra、Ultrafast 等模型，让 AI 智能体在代码之外执行任务。",
+   "tags": [
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SentinelOne cuts malware analysis from weeks to hours",
+   "url": "https://openai.com/index/sentinelone",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-14T12:00:00Z",
+   "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "b5c231daf9ad",
+   "score": 7.77,
+   "title_zh": "SentinelOne cuts malware analysis from weeks to hours",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+   "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-14T18:07:37Z",
+   "summary": "For the first time, researchers have tracked down an uncontrolled fleet of Chinese AI agents in the wild and communicated with them via a web mailbox. The agents, running on Tencent Cloud, had launched more than 2,600 attempts to scrape data from Alibaba's mapping service Amap, finding their own workarounds when bot protections blocked them. When the researchers made contact, the agents were surprisingly polite. The article Researchers tracked down a rogue fleet of Chinese AI agents in the wild…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "07c2b57c410c",
+   "score": 7.75,
+   "title_zh": "Researchers tracked down a rogue fleet of Chinese AI agents…",
+   "summary_zh": "研究人员追踪并联系了在野外失控运行的 2600 多个中国 AI 智能体，它们曾试图抓取阿里地图数据。",
+   "tags": [
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ifixai-ai/iFixAi",
+   "url": "https://github.com/ifixai-ai/iFixAi",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+   "heat": 0.958,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 2143.0,
+    "stars": 27280.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "52746e5c7c55",
+   "score": 7.24,
+   "title_zh": "",
+   "summary_zh": "iFixAi 是一个用于独立审计AI智能体的开源工具，能在120秒内回答智能体是否按预期工作。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+   "heat": 0.871,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1070.0,
+    "stars": 29328.0
+   },
+   "extra": {
+    "language": "Go",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5f9f17ebb367",
+   "score": 7.06,
+   "title_zh": "",
+   "summary_zh": "pentagi 是一个完全自主的AI智能体系统，能够执行复杂的渗透测试任务。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Adaptive Verification Without a Confidence Head",
+   "url": "https://vllm.ai/blog/2026-10-14-adaptive-verification-online-estimator",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-14T00:00:00Z",
+   "summary": "An online-fitted acceptance estimator that lets every draft-model speculator use Adaptive Verification, by predicting the target's acceptance probability from the drafter's own logits and refitting continuously during serving.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3ce7431e79af",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "vLLM 提出了一种在线拟合接受估计器，让每个草稿模型投机器都能使用自适应验证。",
+   "tags": [
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "onehumanbeing/esp32-iphone-agent",
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "heat": 0.893,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2063.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 3,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1119c57199d4",
+   "score": 6.99,
+   "title_zh": "",
+   "summary_zh": "该项目利用 ESP32 让AI模型控制真实iPhone，无需Mac或越狱。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "heat": 0.862,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 7633.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 14,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1940e2af85b8",
+   "score": 6.92,
+   "title_zh": "",
+   "summary_zh": "universal-modder 是一个让 Claude 代码能够修改PC游戏的工具集。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context",
+   "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-10-14T17:39:26Z",
+   "summary": "Long-running agents degrade as context piles up. Learn how offloading, summarization, skills, subagents, and memory keep your agent's context window focused.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a14135079c32",
+   "score": 6.87,
+   "title_zh": "",
+   "summary_zh": "LangChain 讨论了如何通过卸载、总结、技能和子代理来管理智能体的上下文窗口。",
+   "tags": [
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Run AI agents safely with Ollama and Fly.io",
+   "url": "https://ollama.com/blog/fly-io-sprites",
+   "source": "rss",
+   "section": "opensource",
+   "via": "Ollama 博客",
+   "published": "2026-10-13T00:00:00Z",
+   "summary": "AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "09e74c5dd086",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "Ollama 与 Fly.io 合作，让 AI 智能体可以在 Fly.io 的云计算机中安全使用 Ollama 的云模型。",
+   "tags": [
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图文理解模型，许可证 apache-2.0",
+   "heat": 0.783,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 595.0,
+    "downloads": 4157.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/openbmb/MiniCPM-V-4.7-35B-A3B"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "53960ac24d7b",
+   "score": 6.77,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+   "url": "https://arxiv.org/abs/2610.17953",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-13T08:36:20Z",
+   "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework for incentivizing proactive reflection in agents. Specifically, Agent-Reflex comprises three stages. First, Environment Reflection Skill Discovery (RSD) injects grounded tool-feedback perturbations i…",
+   "heat": 0.922,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 192.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/RUC-NLPIR/Agent-Reflex"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "6d99b1aa826c",
+   "score": 8.07,
+   "title_zh": "Agent-Reflex",
+   "summary_zh": "Agent-Reflex 是一个训练框架，旨在激励智能体进行主动反思。",
+   "tags": [
+    "论文",
+    "智能体"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Jeva: System One Models from First Principles",
+   "url": "https://arxiv.org/abs/2610.18773",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-13T00:00:00Z",
+   "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Reordering alternatives should not change the decision; (iii) option-scalable: Growing candidate sets should not require redefining the output space; (iv) cacheable: Request-independent computation ove…",
+   "heat": 0.973,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 257.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/LiQiiiii/Jeva"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "2ffbcf1b3dc3",
+   "score": 7.28,
+   "title_zh": "Jeva: System One Models from First Principles",
+   "summary_zh": "提出 System One 模型，强调四个结构要求：null-aware、permutation-invariant、option-scalable 和 cacheable。",
+   "tags": [
+    "论文",
+    "模型设计",
+    "决策模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+   "url": "https://arxiv.org/abs/2610.11765",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-08T00:00:00Z",
+   "summary": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinking modes may still emit reasoning, while long traces may contain filler rather than genuine inference. We instead normalize each response into a pre-answer trace and final answer, and evaluate it at t…",
+   "heat": 0.947,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 222.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/thinking-inertia/code"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "59a8bfdd773e",
+   "score": 6.89,
+   "title_zh": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+   "summary_zh": "研究 LLMs 在被要求停止思考时的行为，提出更可靠的 no-thinking 测量方法。",
+   "tags": [
+    "论文",
+    "LLM",
+    "推理行为"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+   "url": "https://arxiv.org/abs/2610.09823",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-07T00:00:00Z",
+   "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene categories and three difficulty levels, split equally between English and Chinese. Each human-reviewed prompt supplies exact strings for four to twelve text regions, paired with structured references for…",
+   "heat": 0.921,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 191.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/LINs-lab/UltraText_Bench"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "efbb2001404b",
+   "score": 6.81,
+   "title_zh": "UltraText Bench: A Comprehensive Bilingual Benchmark for Ev…",
+   "summary_zh": "介绍 UltraText Bench，一个用于评估图像生成中视觉文本渲染的双语基准测试。",
+   "tags": [
+    "论文",
+    "基准测试",
+    "图像生成"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+   "url": "https://arxiv.org/abs/2610.18356",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-13T13:23:24Z",
+   "summary": "City-scale 3D grounding is commonly formulated as candidate ranking, which requires precomputed instance proposals and becomes inefficient in large outdoor scenes. We propose Urbex, an agentic vision-language framework that instead casts grounding as active spatial search. Urbex represents a city-scale 3D scene as an interactive multi-view environment, allowing a VLM agent to query landmarks, zoom into local regions, render oblique views, and commit a grounded bounding box. We optimize this tool-use policy with reinforcement learning on CityRefer, using smooth localization rewards and lightwe…",
+   "heat": 0.824,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 109.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/AMAP-ML/Urbex"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "82cf4fc20c9f",
+   "score": 6.71,
+   "title_zh": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+   "summary_zh": "提出 Urbex，一种用于城市级 3D 场景的智能体空间定位框架。",
+   "tags": [
+    "论文",
+    "智能体",
+    "3D 场景"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ]
+}

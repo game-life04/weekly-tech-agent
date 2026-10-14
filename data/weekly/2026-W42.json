@@ -1,4 +1,4 @@
 {
- "overview": "本周看点包括 Higgsfield 将 AI 视频时长延长至 10 分钟以上，以及 AgentSWE 等基准测试评估智能体能力。开源项目如 calesthio/OpenMontage 和 debpalash/VoiceStudio 也在推动视频制作与语音克隆的本地化发展。",
- "as_of": "2026-10-14"
+ "overview": "Google 发布了前沿模型 Gemini 4 Argon，Amp 利用 OpenAI 模型让 AI 智能体在代码外执行任务，开源社区涌现出多模态语音生成、视频制作及本地模型访问工具。这些进展共同体现了 AI 模型能力向多模态、多任务及本地化部署的深化趋势。",
+ "as_of": "2026-10-15"
 }

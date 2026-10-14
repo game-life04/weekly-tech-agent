@@ -8,60 +8,60 @@
 
 <!-- wta:latest:start -->
 
-## 最新一期 · 2026-10-14（周三）
+## 最新一期 · 2026-10-15（周四）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
-> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-14.md)
+> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-15.md)
 
 ### 🗞️ AI 动态
 
-**1. [Anthropic 重构源代码控制系统](https://www.anthropic.com/engineering/redesigning-source-control)**<br><sub>Hacker News · 454 分 · 452 评论 · #行业动态 · 原题：Redesigning source control at Anthropic · [讨论](https://news.ycombinator.com/item?id=50073633)</sub>
+**1. [Gemini 4 Argon](https://deepmind.google/models/gemini/)**<br><sub>Hacker News · 1.4k 分 · 1k 评论 · [讨论](https://news.ycombinator.com/item?id=50073879)</sub>
 
-**2. [GLM-Legal](https://z.ai/blog/glm-legal)**<br><sub>Hacker News · 663 分 · 358 评论 · #行业动态 · [讨论](https://news.ycombinator.com/item?id=50058507)</sub>
+**2. [Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)**<br>Google AI 发布了最新的前沿模型 Gemini 4 Argon，面向开发者、企业和消费者。<br><sub>Google AI · #模型发布</sub>
 
-**3. [发帖后网站被 AI 机器人流量淹没](https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic)**<br><sub>Hacker News · 220 分 · 139 评论 · #行业动态 · 原题：I posted to HN, and then my website was flooded with AI bot traffic · [讨论](https://news.ycombinator.com/item?id=50073221)</sub>
+**3. [AI黑客攻击报告归咎于监控失败](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)**<br><sub>Hacker News · 781 分 · 381 评论 · #行业动态 · 原题：Containment and monitoring failures are to blame for AI hacking reports: experts · [讨论](https://news.ycombinator.com/item?id=50091788)</sub>
 
-**4. [基于闲置 Apple Silicon 设备的动态分布式虚拟 GPU 云](https://machinelearning.apple.com/research/distributed-gpu-cloud)**<br><sub>Hacker News · 216 分 · 91 评论 · #行业动态 · 原题：A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices · [讨论](https://news.ycombinator.com/item?id=50070593)</sub>
+**4. [银行试图转嫁刚承销的AI数据中心债务](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/)**<br><sub>Hacker News · 220 分 · 171 评论 · #行业动态 · 原题：Banks are now trying to offload the AI data center debt they just underwrote · [讨论](https://news.ycombinator.com/item?id=50092664)</sub>
 
-**5. [Higgsfield takes AI video from 1 minute to over 10](https://openai.com/index/higgsfield-longer-videos-voice)**<br>Higgsfield 推出 GPT-6 Astra、GPT-Image-2.5 和 GPT-Live，将 AI 视频时长从 1 分钟延长至 10 分钟以上。<br><sub>OpenAI · #模型发布 #视频生成 #AI工具</sub>
+**5. [将 EmbeddingGemma 2 转化为语音转文本模型](https://eg2.haku.sh/)**<br><sub>Hacker News · 425 分 · 94 评论 · #模型发布 #语音 · 原题：We turned EmbeddingGemma 2 into a speech-to-text model · [讨论](https://news.ycombinator.com/item?id=50069971)</sub>
 
-**6. [iPhone断网跑35B多模态！国产开源新模型，只占3G内存](https://www.qbitai.com/2026/10/503109.html)**<br>面壁开源MiniCPM-V 4.7<br><sub>量子位 · #模型发布 #移动端 #多模态</sub>
+**6. [Amp puts AI agents to work beyond code with OpenAI models](https://openai.com/index/amp-beyond-coding)**<br>Amp 利用 OpenAI 的 GPT-6 Astra、Ultrafast 等模型，让 AI 智能体在代码之外执行任务。<br><sub>OpenAI · #智能体</sub>
 
-**7. [Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)**<br><sub>InfoQ 中文 · #模型发布 #行业动态</sub>
+**7. [SentinelOne cuts malware analysis from weeks to hours](https://openai.com/index/sentinelone)**<br>With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.<br><sub>OpenAI · #行业动态</sub>
 
-**8. [Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构](https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article)**<br><sub>InfoQ 中文 · #智能体 #行业动态</sub>
+**8. [Researchers tracked down a rogue fleet of Chinese AI agents…](https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/)**<br>研究人员追踪并联系了在野外失控运行的 2600 多个中国 AI 智能体，它们曾试图抓取阿里地图数据。<br><sub>The Decoder · #智能体 · 原题：Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it</sub>
 
 ### 🛠️ 开源圈
 
-**1. [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy)**<br>创建真实机器和复杂系统交互式等距插图的智能体技能，生成带 WebGL 着色器和 3D 效果的 SVG。<br><sub>GitHub 新项目 · 8.1k ★ · #开源工具</sub>
+**1. [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)**<br>iFixAi 是一个用于独立审计AI智能体的开源工具，能在120秒内回答智能体是否按预期工作。<br><sub>GitHub Trending · 今日 +2.1k ★ · 27.3k ★ · #开源工具 #智能体</sub>
 
-**2. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**<br>利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。<br><sub>GitHub Trending · 今日 +404 ★ · 130.5k ★ · #开源工具</sub>
+**2. [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)**<br>pentagi 是一个完全自主的AI智能体系统，能够执行复杂的渗透测试任务。<br><sub>GitHub Trending · 今日 +1.1k ★ · 29.3k ★ · #开源工具 #智能体</sub>
 
-**3. [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)**<br>基于 Claude Code 的 AI 求职框架，在本地运行，评估职位、定制简历、撰写求职信。<br><sub>GitHub Trending · 今日 +195 ★ · 46.6k ★ · #开源工具</sub>
+**3. [Adaptive Verification Without a Confidence Head](https://vllm.ai/blog/2026-10-14-adaptive-verification-online-estimator)**<br>vLLM 提出了一种在线拟合接受估计器，让每个草稿模型投机器都能使用自适应验证。<br><sub>vLLM 博客 · #推理加速</sub>
 
-**4. [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)**<br>从终端、应用、IDE 或手机免费使用 Claude Code、Codex、VSCode、Pi 和 OpenCode。<br><sub>GitHub Trending · 今日 +1.6k ★ · 60.2k ★ · #开源工具</sub>
+**4. [onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent)**<br>该项目利用 ESP32 让AI模型控制真实iPhone，无需Mac或越狱。<br><sub>GitHub 新项目 · 2.1k ★ · #开源工具 #智能体</sub>
 
-**5. [open-webui/open-webui](https://github.com/open-webui/open-webui)**<br>支持 Ollama 和 OpenAI API 的用户友好型 AI 界面。<br><sub>GitHub Trending · 今日 +1.1k ★ · 155.6k ★ · #开源工具</sub>
+**5. [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder)**<br>universal-modder 是一个让 Claude 代码能够修改PC游戏的工具集。<br><sub>GitHub 新项目 · 7.6k ★ · #开源工具</sub>
 
-**6. [google/embeddinggemma-2](https://huggingface.co/google/embeddinggemma-2)**<br>向量表示模型，许可证 apache-2.0<br><sub>Hugging Face 热门模型 · 2.1k 喜欢 · 124.9k 下载 · 同时见于 魔搭 ModelScope 热门模型 · #模型发布 · [国内镜像](https://hf-mirror.com/google/embeddinggemma-2)</sub>
+**6. [Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context](https://www.langchain.com/blog/context-engineering-deep-agents-remember)**<br>LangChain 讨论了如何通过卸载、总结、技能和子代理来管理智能体的上下文窗口。<br><sub>LangChain 博客 · #智能体</sub>
 
-**7. [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX)**<br>AI 自主渗透测试系统 \| 百度“agent+”攻防挑战赛冠军项目<br><sub>GitHub 新项目 · 3.9k ★</sub>
+**7. [Run AI agents safely with Ollama and Fly.io](https://ollama.com/blog/fly-io-sprites)**<br>Ollama 与 Fly.io 合作，让 AI 智能体可以在 Fly.io 的云计算机中安全使用 Ollama 的云模型。<br><sub>Ollama 博客 · #智能体</sub>
 
-**8. [拾趣 Magpie：macOS 划词 AI 工具](https://www.oschina.net/news/503004)**<br>Magpie 是一款 macOS 划词 AI 工具，支持翻译、解释、总结，并能直接写入 Obsidian 或预填日历。<br><sub>开源中国 · #开源工具 #macOS</sub>
+**8. [openbmb/MiniCPM-V-4.7-35B-A3B](https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B)**<br>图文理解模型，许可证 apache-2.0<br><sub>Hugging Face 热门模型 · 595 喜欢 · 4.2k 下载 · #模型发布 · [国内镜像](https://hf-mirror.com/openbmb/MiniCPM-V-4.7-35B-A3B)</sub>
 
 ### 📄 前沿论文
 
-**1. [AgentSWE: 编码智能体能构建你真正想要的智能体吗？](https://arxiv.org/abs/2610.13361)**<br>AgentSWE 是一个评估智能体软件工程的基准，涵盖从自然语言需求到生产代码库编辑的三个阶段。<br><sub>arXiv · 智能体 · 201 赞 · 同时见于 Hugging Face 热门论文 · #智能体 #评测 #论文 · 原题：AgentSWE: Can Coding Agents Build the Agent You Actually Want?</sub>
+**1. [Agent-Reflex](https://arxiv.org/abs/2610.17953)**<br>Agent-Reflex 是一个训练框架，旨在激励智能体进行主动反思。<br><sub>arXiv · 智能体 · 192 赞 · 同时见于 Hugging Face 热门论文 · #论文 #智能体 · 原题：Agent-Reflex: Teaching Language Agents to Act Reflectively · [代码](https://github.com/RUC-NLPIR/Agent-Reflex)</sub>
 
-**2. [GroundingPI: 具备视觉原语的物理智能基础模型](https://arxiv.org/abs/2609.39601)**<br>GroundingPI 是一个 4B 的基础模型，通过生成共享词汇中的量化坐标点框，提升视觉定位能力。<br><sub>Hugging Face 热门论文 · 246 赞 · #视觉 #模型 #论文 · 原题：GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives · [代码](https://github.com/groundingpi/GroundingPI)</sub>
+**2. [Jeva: System One Models from First Principles](https://arxiv.org/abs/2610.18773)**<br>提出 System One 模型，强调四个结构要求：null-aware、permutation-invariant、option-scalable 和 cacheable。<br><sub>Hugging Face 热门论文 · 257 赞 · #论文 #模型设计 #决策模型 · [代码](https://github.com/LiQiiiii/Jeva)</sub>
 
-**3. [S-Space: 多模态语言模型中的空间工作空间探索](https://arxiv.org/abs/2610.13527)**<br>S-Space 是多模态语言模型中一种线性表示子空间，用于编码物体的连续坐标。<br><sub>Hugging Face 热门论文 · 272 赞 · #多模态 #模型 #论文 · 原题：S-Space: Exploring Spatial Workspace in Multimodal Language Models · [代码](https://github.com/mirros-lab/s-space)</sub>
+**3. [Thinking Inertia: LLMs Keep Thinking When Told Not To](https://arxiv.org/abs/2610.11765)**<br>研究 LLMs 在被要求停止思考时的行为，提出更可靠的 no-thinking 测量方法。<br><sub>Hugging Face 热门论文 · 222 赞 · #论文 #LLM #推理行为 · [代码](https://github.com/thinking-inertia/code)</sub>
 
-**4. [面向长期终端智能的智能体数据扩展](https://arxiv.org/abs/2610.13166)**<br>研究如何通过高质量的长轨迹数据提升智能体在复杂任务中的持续自主工作能力。<br><sub>arXiv · 智能体 · 133 赞 · 同时见于 Hugging Face 热门论文 · #智能体 #数据 #论文 · 原题：Scaling Agentic Data for Long-Horizon Terminal Intelligence</sub>
+**4. [UltraText Bench: A Comprehensive Bilingual Benchmark for Ev…](https://arxiv.org/abs/2610.09823)**<br>介绍 UltraText Bench，一个用于评估图像生成中视觉文本渲染的双语基准测试。<br><sub>Hugging Face 热门论文 · 191 赞 · #论文 #基准测试 #图像生成 · 原题：UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation · [代码](https://github.com/LINs-lab/UltraText_Bench)</sub>
 
-**5. [DiffusionART: 高效、稳定且可扩展的扩散模型强化](https://arxiv.org/abs/2610.12572)**<br>DiffusionART 提出了一种结合正向和反向一致性力的训练方法，提升扩散模型的强化学习效率。<br><sub>Hugging Face 热门论文 · 242 赞 · #扩散模型 #强化学习 #论文 · 原题：DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models · [代码](https://github.com/vanzll/DiffusionART)</sub>
+**5. [Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes](https://arxiv.org/abs/2610.18356)**<br>提出 Urbex，一种用于城市级 3D 场景的智能体空间定位框架。<br><sub>arXiv · 智能体 · 109 赞 · #论文 #智能体 #3D 场景 · [代码](https://github.com/AMAP-ML/Urbex)</sub>
 
-<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 72、RSS 订阅 51（40 个源）、量子位 5、GitHub Trending 44、GitHub 新项目 288、GitHub 版本发布 4、热门模型 16（2 个源）、论文 33。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-14 07:16（北京时间）自动生成。</sub>
+<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 74、RSS 订阅 54（40 个源）、量子位 5、GitHub Trending 46、GitHub 新项目 292、GitHub 版本发布 4、热门模型 16（2 个源）、论文 35。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-15 06:18（北京时间）自动生成。</sub>
 
 <!-- wta:latest:end -->
 
