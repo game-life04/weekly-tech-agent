@@ -571,11 +571,12 @@
    },
    "id": "ab961506aed2",
    "score": 7.76,
-   "title_zh": "Higgsfield 推出 GPT-6 等模型，支持超长视频生成",
-   "summary_zh": "Higgsfield 利用 GPT-6 Astra、GPT-Image-2.5 和 GPT-Live，将 AI 视频生成时长从 1 分钟延长至 10 分钟以上。",
+   "title_zh": "",
+   "summary_zh": "Higgsfield 推出 GPT-6 Astra、GPT-Image-2.5 和 GPT-Live，将 AI 视频时长从 1 分钟延长至 10 分钟以上。",
    "tags": [
     "模型发布",
-    "视频生成"
+    "视频生成",
+    "AI工具"
    ],
    "also_in": [],
    "merged_ids": []

@@ -1,4 +1,4 @@
 {
- "overview": "Higgsfield 推出 GPT-6 等模型，将 AI 视频生成时长从 1 分钟延长至 10 分钟以上；AgentSWE 评估编码智能体构建能力；开源项目涌现，如 VoxCPM2 支持多语言语音生成、dsh 插件无需登录即可使用 DeepSeek V4.1 Flash。趋势：多模态能力持续突破，开源生态丰富，AI 编程与智能体应用加速落地。",
+ "overview": "本周看点包括 Higgsfield 将 AI 视频时长延长至 10 分钟以上，以及 AgentSWE 等基准测试评估智能体能力。开源项目如 calesthio/OpenMontage 和 debpalash/VoiceStudio 也在推动视频制作与语音克隆的本地化发展。",
  "as_of": "2026-10-14"
 }
