@@ -221,8 +221,8 @@ def test_recheck_applies_newer_rules_to_text_written_earlier(make_item):
         title="OpenAI releases X", url="https://a.com/2", title_zh="OpenAI 发布 X", extra={"llm_done": True}
     )
     assert editor.recheck([old, fine]) == 1
-    assert (old.title_zh, old.summary_zh) == ("", "Higgsfield 利用 GPT-6 Astra 做长视频")
-    assert "llm_done" not in old.extra  # 下一次写摘要时会重写这一条
+    assert (old.title_zh, old.summary_zh) == ("", "Higgsfield 利用 GPT-6 Astra 做长视频")  # 只撤不合格的标题
+    assert old.extra["llm_done"]  # 不重写：重写可能把原本正确的摘要也写错
     assert fine.title_zh == "OpenAI 发布 X" and fine.extra["llm_done"]
     assert editor.recheck([old, fine]) == 0
 

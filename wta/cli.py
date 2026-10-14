@@ -129,25 +129,24 @@ def _fill_in(root: Path, config: dict[str, Any], day: date, today: date, existin
     第一次负责出刊，后面几次走到这里：没什么可补的时候什么都不做。
     """
     items = store.items_of(existing)
-    redone = editor.recheck(items)  # 检查规则改进以后，已经写好的中文也按新规则复查一遍
+    withdrawn = editor.recheck(items)  # 检查规则改进以后，已经登出的中文也按新规则复查，不合格的撤下
     todo = [item for item in items if not item.extra.get("llm_done") and not item.extra.get("filtered")]
     stale = load_week_note(root, week_id(week_range(day)[0])).get("as_of") != day.isoformat()
     client = build_client(config, os.environ) if config["llm"]["enabled"] and not no_llm else None
-    if not redone and (client is None or not (todo or stale)):
+    if not withdrawn and (client is None or not (todo or stale)):
         log.info("%s 的日报已经有了，跳过（去掉 --if-missing 可以强制刷新）", day)
         return 0
     log.info("%s 的日报已经有了，不重新抓取：还有 %d 条没写中文%s", day, len(todo), "，本周看点待更新" if stale else "")
-    if todo:
-        if client:
-            try:
-                editor.summarize(items, client)
-            except Exception:
-                log.exception("大模型写摘要出错，保持原样")
-            items = [item for item in items if _keep(item, config)]  # 这次才被内容审核拦下的，撤掉
-        # 没有大模型也要保存：复查时清掉的中文不能再登出去，宁可显示原文
+    if client and todo:
+        try:
+            editor.summarize(items, client)
+        except Exception:
+            log.exception("大模型写摘要出错，保持原样")
+        items = [item for item in items if _keep(item, config)]  # 这次才被内容审核拦下的，撤掉
+    if (client and todo) or withdrawn:  # 没有大模型也要保存：复查撤下的中文不能再登出去
         payload = {**existing, "llm": _llm_label(items, client, existing), "items": [item.to_dict() for item in items]}
         store.save_day(root, day, payload)
-    _write_overview(root, config, day, client)
+    _write_overview(root, config, day, client)  # 有撤下的内容时也要重写：旧的本周看点可能引用了它
     for warning in publish(root, config, day, today) if day == today else publish_all(root, config, today):
         log.warning(warning)
     return 0

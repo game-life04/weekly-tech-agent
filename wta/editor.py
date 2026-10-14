@@ -378,18 +378,19 @@ def score(items: list[Item], client: LLMClient) -> int:
 
 
 def recheck(items: list[Item]) -> int:
-    """按现在的规则复查已经写好的中文：不合格的清掉，下一次写摘要时重写。返回清掉了几条。
+    """按现在的规则复查已经写好的中文，不合格的撤下（页面改为显示原文）。返回撤下了几条。
 
     检查规则改进以后，已经登出去的内容也会跟着改正，不用手动修改数据。
+    只撤不重写：整条重写可能把原本正确的部分也写错。10-14 实际出过：标题不合格，
+    整条重写以后，原本正确的摘要“Higgsfield 利用 GPT-6 Astra……”变成了“Higgsfield 推出 GPT-6 Astra……”。
     """
-    redone = 0
+    withdrawn = 0
     for item in items:
         kept = _checked(item, item.title_zh, item.summary_zh)
         if kept != (item.title_zh, item.summary_zh):
             item.title_zh, item.summary_zh = kept
-            item.extra.pop("llm_done", None)
-            redone += 1
-    return redone
+            withdrawn += 1
+    return withdrawn
 
 
 def summarize(items: list[Item], client: LLMClient) -> int:
