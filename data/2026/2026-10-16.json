@@ -1,0 +1,1086 @@
+{
+ "date": "2026-10-16",
+ "generated_at": "2026-10-15T22:17:08Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 503,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 72,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.5
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 54,
+   "error": "",
+   "seconds": 9.7
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 297,
+   "error": "",
+   "seconds": 20.9
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 7,
+   "error": "",
+   "seconds": 18.5
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 35,
+   "error": "",
+   "seconds": 24.6
+  }
+ ],
+ "items": [
+  {
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-15T19:00:00Z",
+   "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "edb461273095",
+   "score": 8.44,
+   "title_zh": "GPT-Rosalind 学术计划",
+   "summary_zh": "OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 的赞助访问权限。",
+   "tags": [
+    "模型发布",
+    "学术研究",
+    "生命科学"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-10-15T16:08:03Z",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "cbc7643dde66",
+   "score": 8.25,
+   "title_zh": "Google Antigravity 加速抗菌肽搜索",
+   "summary_zh": "Google Antigravity 用于科学领域，加速寻找新型抗菌肽。",
+   "tags": [
+    "工具发布",
+    "生物科技",
+    "加速搜索"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Steam Client is now faster than Epic's new vibe coded launcher",
+   "url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:03:19Z",
+   "summary": "",
+   "heat": 0.884,
+   "weight": 0.6,
+   "metrics": {
+    "points": 243.0,
+    "comments": 250.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50105635",
+    "excerpt_tried": true,
+    "evidence": "Yesterday, Epic Games announced and launched in preview its new vibe-coded launcher. The main marketing pitch was a jab at Steam’s slow loading speed compared to the new Epic launcher. Well,… this is such a good day to be a sweeney hater.. not even 24h later lmao https://t.co/hjf5Q9NV3C pic.twitter.com/XXLcIqYTT7 On basic test systems, Valve’s client boot time dropped to 5.23 seconds, beating Epic’s new launcher and neutralizing its primary performance claim. While Epic Games Launcher V2 remains, a massive step forward compared to its notoriously sluggish legacy build, Valve demonstrated how quickly it can react to competitive benchmarks. Epic may have “vibe coded” a faster client, but Valve proved that targeted optimization on a decades-old ecosystem can still beat out AI speedruns. But…",
+    "llm_done": true
+   },
+   "id": "8daebafc7d3c",
+   "score": 8.05,
+   "title_zh": "Steam 客户端启动速度击败 Epic 新版启动器",
+   "summary_zh": "Epic Games 发布新版启动器，主打比 Steam 更快的加载速度。Valve 的测试显示，Steam 客户端启动时间降至 5.23 秒，击败了 Epic 的新版启动器。",
+   "tags": [
+    "行业动态",
+    "性能对比"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic's Scion is heavily inspired by Mononoke",
+   "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-14T20:30:54Z",
+   "summary": "",
+   "heat": 0.97,
+   "weight": 0.6,
+   "metrics": {
+    "points": 414.0,
+    "comments": 154.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50094694",
+    "excerpt_tried": true,
+    "evidence": "Update 2026-10-15: I wrote a followup to answer questions and concerns. Discuss on Hacker News or Lobsters. Here is Anthropic describing (archive link) yesterday how their new version control system, Scion, uses a concept called “derived data” to make operations like blames more efficient: How Anthropic describes Scion’s derived data. Here is me, back in 2022, describing in my Oxide candidate materials how the Mononoke source control server I helped build uses a concept called “derived data” to make operations like blames more efficient: Here is Anthropic describing ( archive link ) yesterday how their new version control system, Scion, uses a concept called “derived data” to make operations like blames more efficient: I think the level of imitation goes well beyond having similar insight…",
+    "llm_done": true
+   },
+   "id": "c2ac821d2fe0",
+   "score": 8.03,
+   "title_zh": "Anthropic 的 Scion 受 Mononoke 启发",
+   "summary_zh": "Anthropic 描述了其新版本控制系统 Scion 如何使用“派生数据”概念来提高 blame 等操作的效率。",
+   "tags": [
+    "工具",
+    "版本控制"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Why We're Banning AI",
+   "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-15T18:32:29Z",
+   "summary": "",
+   "heat": 0.862,
+   "weight": 0.6,
+   "metrics": {
+    "points": 211.0,
+    "comments": 165.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50108131",
+    "excerpt_tried": true,
+    "evidence": "We urgently need to protect human thought and creativity. Our magazine is committing itself to remaining handmade. Ensure every publication you support does the same. Iam proud to say that as part of our new union contract , Current Affairs recently adopted one of the strictest anti-AI policies in the publishing industry. No text that is AI-generated may be published in our magazine. No AI-generated art may be used as a Current Affairs illustration. When you read Current Affairs, you are going to be reading the thoughts of a human, and seeing the results of human artistry. We’re adopting this policy because we want to directly challenge the slopification of media. Newsrooms across the country are rushing to embrace AI and replace actual writers, public opinion be damned. The CEO of Busine…",
+    "llm_done": true
+   },
+   "id": "6391e71c19da",
+   "score": 8.0,
+   "title_zh": "我们为何禁止使用 AI",
+   "summary_zh": "Current Affairs 杂志在新的工会合同中采用了行业内最严格的反 AI 政策，承诺所有出版物均为手工制作。",
+   "tags": [
+    "行业动态",
+    "AI 政策"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "More on Anthropic's Scion ripping off Mononoke",
+   "url": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-15T17:05:19Z",
+   "summary": "",
+   "heat": 0.861,
+   "weight": 0.6,
+   "metrics": {
+    "points": 210.0,
+    "comments": 65.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50106738",
+    "excerpt_tried": true,
+    "evidence": "Update: Nick G. from Anthropic has responded on Hacker News, and sufficient attribution has been added to Anthropic’s blog post. I stand by my posts as of the time I wrote them. Discuss on Hacker News. In response to yesterday’s post about Anthropic’s Scion ripping off Mononoke, I received a number of questions and concerns. Here’s a followup to answer the big ones. This was a ripoff. My post yesterday was trying to be as charitable as possible given what I knew, and in particular that the similarity to Mononoke was mostly unintentional and the lack of credit was the result of not doing due diligence. However, after publishing the post I privately received confirmation that Scion intentionally and blatantly ripped off Mononoke, and in particular that there was overlap in personnel. There…",
+    "llm_done": true
+   },
+   "id": "aeae028f810a",
+   "score": 7.96,
+   "title_zh": "Anthropic 的 Scion 抄袭 Mononoke 的更多细节",
+   "summary_zh": "针对关于 Scion 抄袭 Mononoke 的质疑，作者回应称这确实是一次抄袭，并解释了相似之处主要是无意的。",
+   "tags": [
+    "争议",
+    "版本控制"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Proof-based general-purpose computing with Magnetar",
+   "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+   "source": "rss",
+   "section": "news",
+   "via": "Microsoft Research",
+   "published": "2026-10-15T16:00:00Z",
+   "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security. The post Proof-based general-purpose computing with Magnetar appeared first on Microsoft Research .",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "7a7cb0dd2966",
+   "score": 7.77,
+   "title_zh": "Magnetar 基于证明的通用计算",
+   "summary_zh": "Magnetar 支持标准编程语言，提供显著速度提升和抗量子攻击的安全性，将零知识证明引入主流。",
+   "tags": [
+    "工具发布",
+    "通用计算",
+    "零知识证明"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+   "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-15T18:34:32Z",
+   "summary": "Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra. The article Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "57092eff9d50",
+   "score": 7.76,
+   "title_zh": "Muse Spark Open：Meta 开放权重模型",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "多模态",
+    "开源模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "heat": 0.874,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1091.0,
+    "stars": 50390.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "9bda2e5da9e8",
+   "score": 8.27,
+   "title_zh": "",
+   "summary_zh": "将任何 AI 智能体转化为 AI 科学家。包含 177 个可用的验证技能和 100 多个科学数据库。",
+   "tags": [
+    "开源工具",
+    "科学",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "heat": 0.865,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1015.0,
+    "stars": 280283.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "3eb178ba4cd7",
+   "score": 7.65,
+   "title_zh": "",
+   "summary_zh": "智能体性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发功能。",
+   "tags": [
+    "开源工具",
+    "性能优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Day 0 support for Muse Spark Open on vLLM",
+   "url": "https://vllm.ai/blog/2026-10-15-muse-spark-open",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "Day-0 vLLM support for Muse Spark Open: 816B MoE, 1M context, multimodal inputs, DSpark speculative decoding, NVIDIA and AMD serving, initial TPU support, and LoRA RL.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a5faf2a6945f",
+   "score": 7.62,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "模型支持"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "zhuyansen/new-term-radar",
+   "url": "https://github.com/zhuyansen/new-term-radar",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+   "heat": 0.798,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1022.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 3,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "79efa9852f45",
+   "score": 7.4,
+   "title_zh": "",
+   "summary_zh": "每日 AI 新术语雷达，捕捉 X、Hugging Face、GitHub 和 sitemaps 上新模型、产品和仓库的名称。",
+   "tags": [
+    "开源工具",
+    "AI 趋势"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ggml-org/llama.cpp v0.7.0",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-15T17:13:19Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## Overview llama.cpp v0.7.0 adds the LiliCorr speculative decoding technique and MTP for GLM5-Next, a new GPU cache for MoE experts kept in host memory (`--moe-cache-mib`, up to ~2.2x decode speedup when experts are offloaded), and a large batch of new models: K2 Horizon (dense and MoVA), Prism Bonsai 2 27B, EmbeddingGemma-2 (text+vision+audio), the LiquidAI d1/d1-omni and vLLM decision 2/d3 decision models, pplx-decider, MiniCPM-V 4.7, Nemotron Super 3.5 VL / Nemotron Bolt and maion-coder. The server gets a refactored chat session API (`common_chat_session`, part-based formatted output), much better slot and prompt-cache restore behavior, decision-model support for the new architectures and a new default port (9931), the web UI gains a full models manager, and ggml is updated to v0.27.0. ### Highlights - New GPU cache for host-memory MoE experts (`--moe-cache-mib`): experts run on the GPU from an LRU cache, up to 2.2x faster decode [#29887](https://github.com/ggml-org/llama.cpp/pull/29887) - The expert cache is now shared across multiple GPUs [#30112](https://github.com/ggml-org/llama.cpp/pull/30112) - LiliCorr speculative decoding: candidate selection with a small draft transformer on top of DFlash [#30506](https://github.com/ggml-org/llama.cpp/pull/30506) - GLM5-Next: MTP speculative decoding with an optimized sparse attention path [#29928](https://github.com/ggml-org/llama.cpp/pull/29928) - K2 Horizon support in both dense and MoVA variants: conversion, tokenizer, chat…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "440a10808f0c",
+   "score": 7.08,
+   "title_zh": "",
+   "summary_zh": "llama.cpp v0.7.0 新增 LiliCorr 推测解码、MoE 专家 GPU 缓存及大量新模型支持。",
+   "tags": [
+    "开源工具",
+    "模型发布",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "heat": 0.855,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 937.0,
+    "stars": 93397.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4c626f164107",
+   "score": 7.03,
+   "title_zh": "",
+   "summary_zh": "Orca 是用于管理并行智能体集群的 ADE，支持在桌面、移动和远程运行时运行任何编码智能体。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "集群管理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "heat": 0.828,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 759.0,
+    "stars": 53061.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "740be60563d1",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "CLI-Anything 致力于让所有软件原生支持智能体。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "CLI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LosaLosSantos/aurelio-finance",
+   "url": "https://github.com/LosaLosSantos/aurelio-finance",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+   "heat": 0.813,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3440.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 9,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "670e9d374378",
+   "score": 6.83,
+   "title_zh": "",
+   "summary_zh": "开源个人理财应用，内置 AI 财务顾问，可在本地电脑上追踪净资产、投资、ETF、现金和债务。",
+   "tags": [
+    "开源工具",
+    "金融",
+    "个人理财"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+   "url": "https://arxiv.org/abs/2610.20344",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-14T15:24:39Z",
+   "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark that evaluates long-horizon harness engineering directly. In Stage 1, a build model operating inside a fixed builder harness receives an interface-only contract skeleton and a development document tha…",
+   "heat": 0.796,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 93.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/YuyaoGe/doc2harness"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "261929a08247",
+   "score": 7.86,
+   "title_zh": "Doc2Harness：评估编码智能体长周期工具编排",
+   "summary_zh": "提出 Doc2Harness 两阶段基准，直接评估智能体在长周期任务中的工具编排能力。",
+   "tags": [
+    "论文",
+    "智能体",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Player-1: Learning to Play from Synthetic Experience",
+   "url": "https://arxiv.org/abs/2610.20584",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-14T00:00:00Z",
+   "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Player-1, a post-training framework for learning game control beyond demonstrations through synthetic…",
+   "heat": 0.948,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 223.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/TencentARC/Player-1"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d691f24c2a55",
+   "score": 7.83,
+   "title_zh": "Player-1：从合成经验中学习玩游戏",
+   "summary_zh": "提出 Player-1 后训练框架，通过合成经验学习游戏控制，解决演示数据覆盖不足问题。",
+   "tags": [
+    "论文",
+    "智能体",
+    "游戏"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+   "url": "https://arxiv.org/abs/2610.14224",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-09T18:34:25Z",
+   "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-…",
+   "heat": 0.788,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 89.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/google-research/harness2"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5528c0b1bf54",
+   "score": 7.43,
+   "title_zh": "Harness^2：开放世界递归智能体编排",
+   "summary_zh": "提出 Harness^2 插件框架，解决开放世界中递归自我改进缺乏验证器和泛化难的问题。",
+   "tags": [
+    "论文",
+    "智能体",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+   "url": "https://arxiv.org/abs/2610.12242",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-08T00:00:00Z",
+   "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving token-level routed inference poses significant challenges to existing systems. Built on single-LLM assumptions, current systems suffer from severe step desynchronization and frequent batch admission…",
+   "heat": 0.868,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 141.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/thu-nics/TokenRouter"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "33af85ccb537",
+   "score": 7.31,
+   "title_zh": "TokenRouter：高效 LLM Token 级路由服务系统",
+   "summary_zh": "提出 TokenRouter，解决现有系统在 token 级路由推理时步不同步和批准入频繁的问题。",
+   "tags": [
+    "论文",
+    "推理加速",
+    "模型服务"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation",
+   "url": "https://arxiv.org/abs/2610.13521",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-09T00:00:00Z",
+   "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) by routing domain-specific data to specialized teachers, integrating their capabilities through dense token-level supervision on student-generated trajectories. However, domain routing only distinguishes the supervision sources for different domains; updates from all domains still act on shared parameters. When teachers differ substantially in response style and domain expertise, supervision that is effective in isolation may still lead to persistent gradient conflicts and capability degradation during joint opti…",
+   "heat": 0.956,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 233.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e63612d88eae",
+   "score": 6.9,
+   "title_zh": "跨教师监督：多教师在线策略蒸馏",
+   "summary_zh": "提出跨教师监督机制，缓解多教师在线策略蒸馏中因响应风格差异导致的梯度冲突。",
+   "tags": [
+    "论文",
+    "模型蒸馏",
+    "多教师"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ]
+}

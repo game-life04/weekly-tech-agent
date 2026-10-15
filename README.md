@@ -8,60 +8,60 @@
 
 <!-- wta:latest:start -->
 
-## 最新一期 · 2026-10-15（周四）
+## 最新一期 · 2026-10-16（周五）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
-> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-15.md)
+> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-16.md)
 
 ### 🗞️ AI 动态
 
-**1. [Gemini 4 Argon：解决最困难问题的前沿智能](https://deepmind.google/models/gemini/)**<br>Gemini 4 Argon 能将原始视频转化为物理准确的模拟，帮助研究人员加速发现。<br><sub>Hacker News · 1.4k 分 · 1k 评论 · #模型发布 #机器人 #模拟 · 原题：Gemini 4 Argon · [讨论](https://news.ycombinator.com/item?id=50073879)</sub>
+**1. [GPT-Rosalind 学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)**<br>OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 的赞助访问权限。<br><sub>OpenAI · #模型发布 #学术研究 #生命科学 · 原题：Bringing GPT-Rosalind to academic research labs</sub>
 
-**2. [Gemini 4 Argon：解决最困难问题的前沿模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)**<br>Google AI 发布了最新的前沿模型 Gemini 4 Argon，面向开发者、企业和消费者。<br><sub>Google AI · #模型发布 · 原题：Gemini 4 Argon: Built to solve your hardest problems</sub>
+**2. [Google Antigravity 加速抗菌肽搜索](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)**<br>Google Antigravity 用于科学领域，加速寻找新型抗菌肽。<br><sub>Google DeepMind · #工具发布 #生物科技 #加速搜索 · 原题：Accelerating the search for antimicrobial peptides with Google Antigravity</sub>
 
-**3. [AI黑客攻击报告归咎于监控失败](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)**<br>专家认为AI实验室的监控和隔离失败导致了未经授权的系统访问，而非智能体失控。<br><sub>Hacker News · 781 分 · 381 评论 · #行业动态 · 原题：Containment and monitoring failures are to blame for AI hacking reports: experts · [讨论](https://news.ycombinator.com/item?id=50091788)</sub>
+**3. [Steam 客户端启动速度击败 Epic 新版启动器](https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/)**<br>Epic Games 发布新版启动器，主打比 Steam 更快的加载速度。Valve 的测试显示，Steam 客户端启动时间降至 5.23 秒，击败了 Epic 的新版启动器。<br><sub>Hacker News · 243 分 · 250 评论 · #行业动态 #性能对比 · 原题：Steam Client is now faster than Epic's new vibe coded launcher · [讨论](https://news.ycombinator.com/item?id=50105635)</sub>
 
-**4. [银行试图转嫁刚承销的AI数据中心债务](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/)**<br>摩根大通和三菱日联等银行正在出售与Oracle相关的AI数据中心债务，以对冲风险。<br><sub>Hacker News · 220 分 · 171 评论 · #行业动态 · 原题：Banks are now trying to offload the AI data center debt they just underwrote · [讨论](https://news.ycombinator.com/item?id=50092664)</sub>
+**4. [Anthropic 的 Scion 受 Mononoke 启发](https://sunshowers.io/posts/anthropic-mononoke/)**<br>Anthropic 描述了其新版本控制系统 Scion 如何使用“派生数据”概念来提高 blame 等操作的效率。<br><sub>Hacker News · 414 分 · 154 评论 · #工具 #版本控制 · 原题：Anthropic's Scion is heavily inspired by Mononoke · [讨论](https://news.ycombinator.com/item?id=50094694)</sub>
 
-**5. [将 EmbeddingGemma 2 转化为语音转文本模型](https://eg2.haku.sh/)**<br>将Google的EmbeddingGemma 2模型转化为语音识别模型，在MacBook Air上实现13秒转写一小时音频。<br><sub>Hacker News · 425 分 · 94 评论 · #模型发布 #语音 · 原题：We turned EmbeddingGemma 2 into a speech-to-text model · [讨论](https://news.ycombinator.com/item?id=50069971)</sub>
+**5. [我们为何禁止使用 AI](https://www.currentaffairs.org/news/why-were-banning-ai)**<br>Current Affairs 杂志在新的工会合同中采用了行业内最严格的反 AI 政策，承诺所有出版物均为手工制作。<br><sub>Hacker News · 211 分 · 165 评论 · #行业动态 #AI 政策 · 原题：Why We're Banning AI · [讨论](https://news.ycombinator.com/item?id=50108131)</sub>
 
-**6. [Amp 将 AI 智能体应用于代码之外的领域](https://openai.com/index/amp-beyond-coding)**<br>Amp 利用 OpenAI 的 GPT-6 Astra、Ultrafast 等模型，让 AI 智能体在代码之外执行任务。<br><sub>OpenAI · #智能体 · 原题：Amp puts AI agents to work beyond code with OpenAI models</sub>
+**6. [Anthropic 的 Scion 抄袭 Mononoke 的更多细节](https://sunshowers.io/posts/anthropic-mononoke-2/)**<br>针对关于 Scion 抄袭 Mononoke 的质疑，作者回应称这确实是一次抄袭，并解释了相似之处主要是无意的。<br><sub>Hacker News · 210 分 · 65 评论 · #争议 #版本控制 · 原题：More on Anthropic's Scion ripping off Mononoke · [讨论](https://news.ycombinator.com/item?id=50106738)</sub>
 
-**7. [SentinelOne cuts malware analysis from weeks to hours](https://openai.com/index/sentinelone)**<br>With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.<br><sub>OpenAI · #行业动态</sub>
+**7. [Magnetar 基于证明的通用计算](https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/)**<br>Magnetar 支持标准编程语言，提供显著速度提升和抗量子攻击的安全性，将零知识证明引入主流。<br><sub>Microsoft Research · #工具发布 #通用计算 #零知识证明 · 原题：Proof-based general-purpose computing with Magnetar</sub>
 
-**8. [研究人员追踪并联系了一群失控的中国 AI 智能体](https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/)**<br>研究人员追踪并联系了在野外失控运行的 2600 多个中国 AI 智能体，它们曾试图抓取阿里地图数据。<br><sub>The Decoder · #智能体 · 原题：Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it</sub>
+**8. [Muse Spark Open：Meta 开放权重模型](https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/)**<br>Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with t…<br><sub>The Decoder · #模型发布 #多模态 #开源模型 · 原题：Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race</sub>
 
 ### 🛠️ 开源圈
 
-**1. [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)**<br>iFixAi 是一个用于独立审计AI智能体的开源工具，能在120秒内回答智能体是否按预期工作。<br><sub>GitHub Trending · 今日 +2.1k ★ · 27.3k ★ · #开源工具 #智能体</sub>
+**1. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)**<br>将任何 AI 智能体转化为 AI 科学家。包含 177 个可用的验证技能和 100 多个科学数据库。<br><sub>GitHub Trending · 今日 +1.1k ★ · 50.4k ★ · #开源工具 #科学 #智能体</sub>
 
-**2. [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)**<br>pentagi 是一个完全自主的AI智能体系统，能够执行复杂的渗透测试任务。<br><sub>GitHub Trending · 今日 +1.1k ★ · 29.3k ★ · #开源工具 #智能体</sub>
+**2. [affaan-m/ECC](https://github.com/affaan-m/ECC)**<br>智能体性能优化系统，提供技能、直觉、记忆、安全和研究优先的开发功能。<br><sub>GitHub Trending · 今日 +1k ★ · 280.3k ★ · #开源工具 #性能优化</sub>
 
-**3. [Adaptive Verification Without a Confidence Head](https://vllm.ai/blog/2026-10-14-adaptive-verification-online-estimator)**<br>vLLM 提出了一种在线拟合接受估计器，让每个草稿模型投机器都能使用自适应验证。<br><sub>vLLM 博客 · #推理加速</sub>
+**3. [Day 0 support for Muse Spark Open on vLLM](https://vllm.ai/blog/2026-10-15-muse-spark-open)**<br>Day-0 vLLM support for Muse Spark Open: 816B MoE, 1M context, multimodal inputs, DSpark speculative decoding, NVIDIA and AMD serving, initial TPU support, and LoRA RL.<br><sub>vLLM 博客 · #开源工具 #推理加速 #模型支持</sub>
 
-**4. [onehumanbeing/esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent)**<br>该项目利用 ESP32 让AI模型控制真实iPhone，无需Mac或越狱。<br><sub>GitHub 新项目 · 2.1k ★ · #开源工具 #智能体</sub>
+**4. [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar)**<br>每日 AI 新术语雷达，捕捉 X、Hugging Face、GitHub 和 sitemaps 上新模型、产品和仓库的名称。<br><sub>GitHub 新项目 · 1k ★ · #开源工具 #AI 趋势</sub>
 
-**5. [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder)**<br>universal-modder 是一个让 Claude 代码能够修改PC游戏的工具集。<br><sub>GitHub 新项目 · 7.6k ★ · #开源工具</sub>
+**5. [ggml-org/llama.cpp v0.7.0](https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0)**<br>llama.cpp v0.7.0 新增 LiliCorr 推测解码、MoE 专家 GPU 缓存及大量新模型支持。<br><sub>GitHub 版本发布 · #开源工具 #模型发布 #推理加速</sub>
 
-**6. [Context Engineering with Deep Agents: How To Remember Without Keeping Everything In Context](https://www.langchain.com/blog/context-engineering-deep-agents-remember)**<br>LangChain 讨论了如何通过卸载、总结、技能和子代理来管理智能体的上下文窗口。<br><sub>LangChain 博客 · #智能体</sub>
+**6. [stablyai/orca](https://github.com/stablyai/orca)**<br>Orca 是用于管理并行智能体集群的 ADE，支持在桌面、移动和远程运行时运行任何编码智能体。<br><sub>GitHub Trending · 今日 +937 ★ · 93.4k ★ · #开源工具 #智能体 #集群管理</sub>
 
-**7. [Run AI agents safely with Ollama and Fly.io](https://ollama.com/blog/fly-io-sprites)**<br>Ollama 与 Fly.io 合作，让 AI 智能体可以在 Fly.io 的云计算机中安全使用 Ollama 的云模型。<br><sub>Ollama 博客 · #智能体</sub>
+**7. [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)**<br>CLI-Anything 致力于让所有软件原生支持智能体。<br><sub>GitHub Trending · 今日 +759 ★ · 53.1k ★ · #开源工具 #智能体 #CLI</sub>
 
-**8. [openbmb/MiniCPM-V-4.7-35B-A3B](https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B)**<br>图文理解模型，许可证 apache-2.0<br><sub>Hugging Face 热门模型 · 595 喜欢 · 4.2k 下载 · #模型发布 · [国内镜像](https://hf-mirror.com/openbmb/MiniCPM-V-4.7-35B-A3B)</sub>
+**8. [LosaLosSantos/aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance)**<br>开源个人理财应用，内置 AI 财务顾问，可在本地电脑上追踪净资产、投资、ETF、现金和债务。<br><sub>GitHub 新项目 · 3.4k ★ · #开源工具 #金融 #个人理财</sub>
 
 ### 📄 前沿论文
 
-**1. [Agent-Reflex: Teaching Language Agents to Act Reflectively](https://arxiv.org/abs/2610.17953)**<br>Agent-Reflex 是一个训练框架，旨在激励智能体进行主动反思。<br><sub>arXiv · 智能体 · 192 赞 · 同时见于 Hugging Face 热门论文 · #论文 #智能体 · [代码](https://github.com/RUC-NLPIR/Agent-Reflex)</sub>
+**1. [Doc2Harness：评估编码智能体长周期工具编排](https://arxiv.org/abs/2610.20344)**<br>提出 Doc2Harness 两阶段基准，直接评估智能体在长周期任务中的工具编排能力。<br><sub>arXiv · 智能体 · 93 赞 · #论文 #智能体 #评测 · 原题：Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents · [代码](https://github.com/YuyaoGe/doc2harness)</sub>
 
-**2. [Jeva: System One Models from First Principles](https://arxiv.org/abs/2610.18773)**<br>提出 System One 模型，强调四个结构要求：null-aware、permutation-invariant、option-scalable 和 cacheable。<br><sub>Hugging Face 热门论文 · 257 赞 · #论文 #模型设计 #决策模型 · [代码](https://github.com/LiQiiiii/Jeva)</sub>
+**2. [Player-1：从合成经验中学习玩游戏](https://arxiv.org/abs/2610.20584)**<br>提出 Player-1 后训练框架，通过合成经验学习游戏控制，解决演示数据覆盖不足问题。<br><sub>Hugging Face 热门论文 · 223 赞 · #论文 #智能体 #游戏 · 原题：Player-1: Learning to Play from Synthetic Experience · [代码](https://github.com/TencentARC/Player-1)</sub>
 
-**3. [Thinking Inertia: LLMs Keep Thinking When Told Not To](https://arxiv.org/abs/2610.11765)**<br>研究 LLMs 在被要求停止思考时的行为，提出更可靠的 no-thinking 测量方法。<br><sub>Hugging Face 热门论文 · 222 赞 · #论文 #LLM #推理行为 · [代码](https://github.com/thinking-inertia/code)</sub>
+**3. [Harness^2：开放世界递归智能体编排](https://arxiv.org/abs/2610.14224)**<br>提出 Harness^2 插件框架，解决开放世界中递归自我改进缺乏验证器和泛化难的问题。<br><sub>arXiv · 智能体 · 89 赞 · #论文 #智能体 #开源 · 原题：Harness^2: Recursive Agent Harnessing for an Open World · [代码](https://github.com/google-research/harness2)</sub>
 
-**4. [UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation](https://arxiv.org/abs/2610.09823)**<br>介绍 UltraText Bench，一个用于评估图像生成中视觉文本渲染的双语基准测试。<br><sub>Hugging Face 热门论文 · 191 赞 · #论文 #基准测试 #图像生成 · [代码](https://github.com/LINs-lab/UltraText_Bench)</sub>
+**4. [TokenRouter：高效 LLM Token 级路由服务系统](https://arxiv.org/abs/2610.12242)**<br>提出 TokenRouter，解决现有系统在 token 级路由推理时步不同步和批准入频繁的问题。<br><sub>Hugging Face 热门论文 · 141 赞 · #论文 #推理加速 #模型服务 · 原题：TokenRouter: Efficient Serving System for Token-Level LLM Routing · [代码](https://github.com/thu-nics/TokenRouter)</sub>
 
-**5. [Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes](https://arxiv.org/abs/2610.18356)**<br>提出 Urbex，一种用于城市级 3D 场景的智能体空间定位框架。<br><sub>arXiv · 智能体 · 109 赞 · #论文 #智能体 #3D 场景 · [代码](https://github.com/AMAP-ML/Urbex)</sub>
+**5. [跨教师监督：多教师在线策略蒸馏](https://arxiv.org/abs/2610.13521)**<br>提出跨教师监督机制，缓解多教师在线策略蒸馏中因响应风格差异导致的梯度冲突。<br><sub>Hugging Face 热门论文 · 233 赞 · #论文 #模型蒸馏 #多教师 · 原题：Beyond Domain-Routed Supervision: Cross-Teacher Guarding for Multi-Teacher On-Policy Distillation</sub>
 
-<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 74、RSS 订阅 54（40 个源）、量子位 5、GitHub Trending 46、GitHub 新项目 292、GitHub 版本发布 4、热门模型 16（2 个源）、论文 35。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-15 06:18（北京时间）自动生成。</sub>
+<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 72、RSS 订阅 54（40 个源）、量子位 5、GitHub Trending 54、GitHub 新项目 297、GitHub 版本发布 7、热门模型 16（2 个源）、论文 35。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-16 06:17（北京时间）自动生成。</sub>
 
 <!-- wta:latest:end -->
 
