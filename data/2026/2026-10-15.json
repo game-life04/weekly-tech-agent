@@ -462,7 +462,7 @@
    },
    "id": "b4606c998906",
    "score": 8.64,
-   "title_zh": "Gemini 4 Argon",
+   "title_zh": "",
    "summary_zh": "",
    "tags": [],
    "also_in": [],
@@ -485,7 +485,7 @@
    },
    "id": "77ad3f7fc3bd",
    "score": 8.32,
-   "title_zh": "Gemini 4 Argon: Built to solve your hardest problems",
+   "title_zh": "Gemini 4 Argon：解决最困难问题的前沿模型",
    "summary_zh": "Google AI 发布了最新的前沿模型 Gemini 4 Argon，面向开发者、企业和消费者。",
    "tags": [
     "模型发布"
@@ -596,7 +596,7 @@
    },
    "id": "937149fa915e",
    "score": 7.77,
-   "title_zh": "Amp puts AI agents to work beyond code with OpenAI models",
+   "title_zh": "Amp 将 AI 智能体应用于代码之外的领域",
    "summary_zh": "Amp 利用 OpenAI 的 GPT-6 Astra、Ultrafast 等模型，让 AI 智能体在代码之外执行任务。",
    "tags": [
     "智能体"
@@ -621,7 +621,7 @@
    },
    "id": "b5c231daf9ad",
    "score": 7.77,
-   "title_zh": "SentinelOne cuts malware analysis from weeks to hours",
+   "title_zh": "",
    "summary_zh": "",
    "tags": [
     "行业动态"
@@ -646,7 +646,7 @@
    },
    "id": "07c2b57c410c",
    "score": 7.75,
-   "title_zh": "Researchers tracked down a rogue fleet of Chinese AI agents…",
+   "title_zh": "研究人员追踪并联系了一群失控的中国 AI 智能体",
    "summary_zh": "研究人员追踪并联系了在野外失控运行的 2600 多个中国 AI 智能体，它们曾试图抓取阿里地图数据。",
    "tags": [
     "智能体"
@@ -907,7 +907,7 @@
    },
    "id": "6d99b1aa826c",
    "score": 8.07,
-   "title_zh": "Agent-Reflex",
+   "title_zh": "",
    "summary_zh": "Agent-Reflex 是一个训练框架，旨在激励智能体进行主动反思。",
    "tags": [
     "论文",
@@ -943,7 +943,7 @@
    },
    "id": "2ffbcf1b3dc3",
    "score": 7.28,
-   "title_zh": "Jeva: System One Models from First Principles",
+   "title_zh": "",
    "summary_zh": "提出 System One 模型，强调四个结构要求：null-aware、permutation-invariant、option-scalable 和 cacheable。",
    "tags": [
     "论文",
@@ -978,7 +978,7 @@
    },
    "id": "59a8bfdd773e",
    "score": 6.89,
-   "title_zh": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+   "title_zh": "",
    "summary_zh": "研究 LLMs 在被要求停止思考时的行为，提出更可靠的 no-thinking 测量方法。",
    "tags": [
     "论文",
@@ -1013,7 +1013,7 @@
    },
    "id": "efbb2001404b",
    "score": 6.81,
-   "title_zh": "UltraText Bench: A Comprehensive Bilingual Benchmark for Ev…",
+   "title_zh": "",
    "summary_zh": "介绍 UltraText Bench，一个用于评估图像生成中视觉文本渲染的双语基准测试。",
    "tags": [
     "论文",
@@ -1048,7 +1048,7 @@
    },
    "id": "82cf4fc20c9f",
    "score": 6.71,
-   "title_zh": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+   "title_zh": "",
    "summary_zh": "提出 Urbex，一种用于城市级 3D 场景的智能体空间定位框架。",
    "tags": [
     "论文",

@@ -1,4 +1,4 @@
 {
- "overview": "Google 发布了前沿模型 Gemini 4 Argon，Amp 利用 OpenAI 模型让 AI 智能体在代码外执行任务，开源社区涌现出多模态语音生成、视频制作及本地模型访问工具。这些进展共同体现了 AI 模型能力向多模态、多任务及本地化部署的深化趋势。",
+ "overview": "Google发布Gemini 4 Argon，Amp利用GPT-6等模型拓展AI智能体应用，开源社区涌现VoxCPM2、VoiceStudio等工具，共同推动AI从代码生成向多模态、自主化及本地化发展。",
  "as_of": "2026-10-15"
 }
