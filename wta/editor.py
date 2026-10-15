@@ -31,6 +31,8 @@ SUMMARY_BATCH = 10
 SCORE_RESERVE = 6  # 打分阶段要给后面的写摘要和本周看点留下这么多次请求
 EVIDENCE_MIN = 60  # 资料不足这么多字的条目不写摘要
 TITLE_LIMIT, SUMMARY_LIMIT, OVERVIEW_LIMIT = 60, 120, 400
+PAPER_SUMMARY_LIMIT = 200  # 论文的摘要写两三句（问题、方法、结果），比别的条目长一些
+EVIDENCE_CHARS, PAPER_EVIDENCE_CHARS = 600, 1500  # 写摘要时给模型看多少原文；论文给完整一些的摘要
 OVERVIEW_MIN = 40  # 不是 JSON 的回复至少要有这么长，才当作一段“本周看点”来用
 # 这些来源的标题、简介由任何人随意填写；其余来源（订阅、版本发布）的文字出自发布方
 OPEN_SOURCES = frozenset({"hackernews", "github_trending", "github_new", "hot_models", "papers"})
@@ -58,9 +60,12 @@ SUMMARY_PROMPT = f"""你是一份中文 AI 科技日报的编辑，读者是关�
 {_DATA_NOTE}
 
 对每一条内容：
-1. title_zh：通顺的中文标题，不超过 30 个字。模型名、产品名、公司名、人名保留原文写法。
-   原标题已经是中文的，原样照抄。section 为 opensource 的条目（仓库、模型、版本）标题就是名字，title_zh 留空字符串。
+1. title_zh：通顺的中文标题，不超过 30 个字。模型名、产品名、公司名、人名保留原文写法，其余部分译成中文，
+   不能原样照抄英文标题。“名称: 副标题”格式的标题（论文常见）名称保留原文、副标题译成中文，
+   例如“Foo: Learning to Plan with Tools”译成“Foo：学习借助工具做规划”。原标题已经是中文的，原样照抄。
+   section 为 opensource 的条目（仓库、模型、版本）标题就是名字，title_zh 留空字符串。
 2. summary_zh：一到两句中文，不超过 80 个字，说清楚“这是什么、为什么值得看”。
+   section 为 papers 的条目（论文）写两到三句，不超过 150 个字：研究什么问题、用了什么方法、得到什么结果。
    只能依据 text 字段来写；text 里没有的数字、结论、评价、公司名和模型名一律不要写。
    谁发布、谁使用、谁研究要和 text 一致：“A 用了 B 的模型”不能写成“A 推出了 B”。
    名称、数字和单位照抄原文的写法，不要换算成万、亿或百分比。
@@ -246,7 +251,7 @@ def _summary_row(index: int, item: Item) -> dict[str, Any]:
     row = _row(index, item)
     text = evidence_of(item)
     if len(text) >= EVIDENCE_MIN:
-        row["text"] = clean_text(text, 600)
+        row["text"] = clean_text(text, PAPER_EVIDENCE_CHARS if item.section == "papers" else EVIDENCE_CHARS)
     return row
 
 
@@ -277,7 +282,8 @@ def _checked(item: Item, title_zh: str, summary_zh: str) -> tuple[str, str]:
 def _apply_summary(item: Item, row: dict[str, Any]) -> bool:
     text = evidence_of(item)
     title_zh = "" if item.section == "opensource" else plain(row.get("title_zh"), TITLE_LIMIT)
-    summary_zh = plain(row.get("summary_zh"), SUMMARY_LIMIT) if len(text) >= EVIDENCE_MIN else ""
+    limit = PAPER_SUMMARY_LIMIT if item.section == "papers" else SUMMARY_LIMIT
+    summary_zh = plain(row.get("summary_zh"), limit) if len(text) >= EVIDENCE_MIN else ""
     title_zh, summary_zh = _checked(item, title_zh, summary_zh)
     # 只补空着的：重写一条时，已经写好并核对过的部分保持不变。
     # 10-14 实际出过：只有标题不合格，整条重写以后，原本正确的摘要也被改错了
@@ -402,7 +408,7 @@ def recheck(items: list[Item]) -> int:
 def summarize(items: list[Item], client: LLMClient) -> int:
     """给入选内容写中文标题和摘要，返回写成的条数。被内容审核拦下的条目会标上 filtered。"""
     todo = [item for item in items if not item.extra.get("llm_done") and not item.extra.get("filtered")]
-    run = _Run(client, SUMMARY_PROMPT, _summary_row, _apply_summary, 220, reserve=0, depth=8)
+    run = _Run(client, SUMMARY_PROMPT, _summary_row, _apply_summary, 300, reserve=0, depth=8)
     run.process(_batches(todo, SUMMARY_BATCH))
     log.info("大模型写中文标题和摘要：%d/%d 条", run.done, len(todo))
     return run.done

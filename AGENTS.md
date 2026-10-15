@@ -14,5 +14,5 @@
 
 - Python 3.11+，依赖只有 requests 和 PyYAML。新增依赖要有充分理由。
 - 注释和文档字符串用中文，写清楚“为什么”；标识符用英文。
-- 外部来的文字（标题、简介、大模型的输出）一律当作不可信内容：进页面前经过 `render.md_escape` / `render.md_url`，大模型的输出经过 `editor.plain` 和 `editor.ungrounded`。
+- 外部来的文字（标题、简介、`wta/excerpt.py` 取的原文摘录、大模型的输出）一律当作不可信内容：进页面前经过 `render.md_escape` / `render.md_url`，大模型的输出经过 `editor.plain` 和 `editor.ungrounded`。
 - 任何一个来源失败、大模型失败，都不能让当天的日报出不来。

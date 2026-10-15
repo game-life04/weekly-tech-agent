@@ -16,7 +16,7 @@ from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any
 
-from . import editor, store
+from . import editor, excerpt, store
 from .collect import collect
 from .config import load_config
 from .dates import local_date, local_time, parse_time, to_iso, week_id, week_range
@@ -67,7 +67,9 @@ def _shortlist(pool: list[Item], config: dict[str, Any]) -> list[Item]:
     return kept[: config["llm"]["max_candidates"]]
 
 
-def _edit(pool: list[Item], config: dict[str, Any], client: LLMClient | None, now: datetime) -> list[Item]:
+def _edit(
+    pool: list[Item], config: dict[str, Any], client: LLMClient | None, now: datetime, http: Http | None = None
+) -> list[Item]:
     """打分 → 按名额选稿 → 给入选的写中文。任何一步出错都退回到“只按规则选稿”。"""
     quotas = {s: config["sections"][s]["daily"] for s in SECTIONS}
     cap, caps = config["select"]["per_source_cap"], config["select"]["caps"]
@@ -83,6 +85,7 @@ def _edit(pool: list[Item], config: dict[str, Any], client: LLMClient | None, no
     if client:
         for _ in range(2):  # 写摘要时才被审核拦下的条目要去掉；去掉后用后面的候选补一次位
             try:
+                excerpt.enrich(selected, http)  # 缺简介的 AI 动态到原文网页里取一段，好写摘要
                 editor.summarize(selected, client)  # 已经写过的会跳过，第二轮只请求补进来的
             except Exception:
                 log.exception("大模型写摘要出错，标题保持原文")
@@ -130,10 +133,16 @@ def _fill_in(root: Path, config: dict[str, Any], day: date, today: date, existin
     """
     items = store.items_of(existing)
     withdrawn = editor.recheck(items)  # 检查规则改进以后，已经登出的中文也按新规则复查，不合格的撤下
+    client = build_client(config, os.environ) if config["llm"]["enabled"] and not no_llm else None
+    tried = 0
+    if client:
+        try:
+            tried = excerpt.enrich(items)  # 缺简介的 AI 动态到原文网页里取一段；每条只试一次
+        except Exception:
+            log.exception("取原文摘录出错，跳过")
     todo = [item for item in items if not item.extra.get("llm_done") and not item.extra.get("filtered")]
     stale = load_week_note(root, week_id(week_range(day)[0])).get("as_of") != day.isoformat()
-    client = build_client(config, os.environ) if config["llm"]["enabled"] and not no_llm else None
-    if not withdrawn and (client is None or not (todo or stale)):
+    if not (withdrawn or tried) and (client is None or not (todo or stale)):
         log.info("%s 的日报已经有了，跳过（去掉 --if-missing 可以强制刷新）", day)
         return 0
     log.info("%s 的日报已经有了，不重新抓取：还有 %d 条没写中文%s", day, len(todo), "，本周看点待更新" if stale else "")
@@ -143,7 +152,8 @@ def _fill_in(root: Path, config: dict[str, Any], day: date, today: date, existin
         except Exception:
             log.exception("大模型写摘要出错，保持原样")
         items = [item for item in items if _keep(item, config)]  # 这次才被内容审核拦下的，撤掉
-    if (client and todo) or withdrawn:  # 没有大模型也要保存：复查撤下的中文不能再登出去
+    # 没有大模型也要保存：复查撤下的中文不能再登出去；试过的摘录也要记下，免得下次再请求同一个网页
+    if (client and todo) or withdrawn or tried:
         payload = {**existing, "llm": _llm_label(items, client, existing), "items": [item.to_dict() for item in items]}
         store.save_day(root, day, payload)
     _write_overview(root, config, day, client)  # 有撤下的内容时也要重写：旧的本周看点可能引用了它
@@ -179,7 +189,7 @@ def cmd_run(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int
     client = build_client(config, ctx.env) if config["llm"]["enabled"] and not args.no_llm else None
     if client is None:
         log.info("没有可用的大模型（未配置密钥或已关闭），只按规则选稿，标题保持原文")
-    selected = _edit(pool, config, client, now)
+    selected = _edit(pool, config, client, now, ctx.http)
 
     llm = _llm_label(selected, client, existing)
     payload = {

@@ -230,6 +230,21 @@ def test_recheck_applies_newer_rules_to_text_written_earlier(make_item):
     assert editor.recheck([old, fine, copied]) == 0
 
 
+def test_papers_get_a_longer_summary_from_more_of_the_abstract(make_item):
+    abstract = "We study how agents learn from experience in unfamiliar environments. " * 30  # 约 2100 字
+    paper = make_item(
+        title="Learn2Play Bench", url="https://arxiv.org/abs/2610.08215", section="papers", summary=abstract
+    )
+    news = make_item(title="Some news about agents", url="https://a.com/n", summary=abstract)
+    long_summary = "研究智能体在陌生环境中能否从经验中学习。" * 7  # 140 字：问题、方法、结果
+    client = FakeClient([{"items": [{"i": 0, "summary_zh": long_summary}, {"i": 1, "summary_zh": long_summary}]}])
+    assert editor.summarize([paper, news], client) == 2
+    assert paper.summary_zh == long_summary  # 论文不截到 120 字
+    assert len(news.summary_zh) == editor.SUMMARY_LIMIT  # 其他条目照旧
+    sent = {row["section"]: row["text"] for row in client.calls[0]["items"]}
+    assert len(sent["papers"]) > 1000 and len(sent["news"]) <= editor.EVIDENCE_CHARS + 1
+
+
 def test_untranslated_text_is_not_accepted(make_item):
     paper = make_item(title="Thinking Inertia: LLMs Keep Thinking When Told Not To", summary=LONG_TEXT)
     reply = {"i": 0, "title_zh": "Thinking Inertia: LLMs Keep Thinking When Told Not To", "summary_zh": LONG_TEXT}

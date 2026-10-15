@@ -9,7 +9,7 @@ from types import SimpleNamespace
 import pytest
 from fakes import FakeClient
 
-from wta import cli, collect, store
+from wta import cli, collect, excerpt, store
 from wta.dates import to_iso
 from wta.llm import Filtered, LLMError
 from wta.models import Item
@@ -57,6 +57,7 @@ def repo(tmp_path, monkeypatch):
     }
     monkeypatch.setattr(collect, "SOURCES", sources)
     monkeypatch.setattr(cli, "SOURCES", sources)
+    monkeypatch.setattr(excerpt, "fetch", lambda http, url: "")  # 测试不访问网络：原文网页一律取不到
     for name in ("GITHUB_STEP_SUMMARY", "GITHUB_ACTIONS"):  # 在 CI 里跑测试时，别往真实的运行小结里写假日报
         monkeypatch.delenv(name, raising=False)
     return tmp_path, sources
@@ -377,6 +378,62 @@ def test_if_missing_repairs_chinese_that_newer_checks_reject(with_llm):
     assert run(root, "run", "--date", "2026-10-10", "--if-missing", "--no-llm") == 0  # 没有大模型可用时
     assert store.load_day(root, date(2026, 10, 10))["items"][1]["title_zh"] == ""  # 也要撤下来，宁可显示原标题
     assert "GPT-9" not in (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
+
+
+ARTICLE = "The article explains how the new agent framework works and what it was tested on, in some detail."
+
+
+def summary_from_text(sent):
+    """假大模型：只有给了原文（text 字段）才写摘要。"""
+    rows = sent["items"]
+    if "i" not in rows[0]:
+        return {"overview": "本周看点是智能体。"}
+    return {
+        "items": [
+            {
+                "i": r["i"],
+                "score": 6,
+                "title_zh": f"中文：{r['title']}",
+                "summary_zh": "依据原文写的摘要" if "text" in r else "",
+            }
+            for r in rows
+        ]
+    }
+
+
+def test_news_without_a_description_is_summarised_from_the_article(with_llm, monkeypatch):
+    root, sources, install = with_llm
+    sources["good"] = fake_source("good", "Good", [row(1), row(2, url="https://twitter.com/someone/status/1")])
+    fetched = []
+    monkeypatch.setattr(excerpt, "fetch", lambda http, url: fetched.append(url) or ARTICLE)
+    install(FakeClient([summary_from_text]))
+    assert run(root, "run", "--date", "2026-10-10") == 0
+
+    items = {i["url"]: i for i in store.load_day(root, date(2026, 10, 10))["items"]}
+    assert fetched == ["https://example.com/news/1"]  # 要登录的网站不去取
+    assert items["https://example.com/news/1"]["summary_zh"] == "依据原文写的摘要"
+    assert items["https://example.com/news/1"]["extra"]["evidence"] == ARTICLE  # 存下来，复查摘要时要用
+    assert items["https://twitter.com/someone/status/1"]["summary_zh"] == ""
+    daily = (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
+    assert "依据原文写的摘要" in daily and ARTICLE not in daily  # 摘录只给大模型看，不登在页面上
+
+
+def test_later_runs_add_summaries_to_an_issue_published_without_them(with_llm, monkeypatch):
+    root, sources, install = with_llm
+    sources["good"] = fake_source("good", "Good", [row(1), row(2, url="https://twitter.com/someone/status/1")])
+    assert run(root, "run", "--date", "2026-10-10", "--no-llm") == 0  # 出刊时没用上大模型
+
+    monkeypatch.setattr(excerpt, "fetch", lambda http, url: ARTICLE)
+    sources["good"] = fake_source("good", "Good", error="不应该再抓取")
+    client = install(FakeClient([summary_from_text]))
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0
+    items = {i["url"]: i for i in store.load_day(root, date(2026, 10, 10))["items"]}
+    assert items["https://example.com/news/1"]["summary_zh"] == "依据原文写的摘要"
+    assert all(i["title_zh"].startswith("中文：") for i in items.values())
+    assert len(client.calls) == 2  # 写摘要一次、本周看点一次
+
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 都处理过了：什么都不做
+    assert len(client.calls) == 2
 
 
 def test_published_memory_reaches_back_exactly_remember_days(repo):
