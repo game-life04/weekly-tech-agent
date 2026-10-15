@@ -343,7 +343,7 @@ def test_if_missing_fills_in_chinese_an_earlier_run_could_not_write(with_llm):
     assert len(client.calls) == 2
 
 
-def test_if_missing_withdraws_chinese_that_newer_checks_reject(with_llm):
+def test_if_missing_repairs_chinese_that_newer_checks_reject(with_llm):
     root, sources, install = with_llm
     sources["good"] = fake_source("good", "Good", [row(1, summary=LONG), row(2, summary=LONG)])
     install(FakeClient([llm_replies(lambda title: 6)]))
@@ -355,14 +355,23 @@ def test_if_missing_withdraws_chinese_that_newer_checks_reject(with_llm):
         payload["items"][index]["title_zh"] = payload["items"][index]["title"] + "，推出 GPT-9"
         path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
 
+    def rewrite(sent):  # 补写时模型连摘要也换了一句：不应该被采用
+        rows = sent["items"]
+        if "i" not in rows[0]:
+            return {"overview": "本周看点是智能体。"}
+        return {
+            "items": [{"i": r["i"], "title_zh": f"新标题：{r['title']}", "summary_zh": "改写过的摘要"} for r in rows]
+        }
+
     publish_bad_title(0)
     sources["good"] = fake_source("good", "Good", error="不应该再抓取")
-    client = install(FakeClient([llm_replies(lambda title: 6)]))
+    client = install(FakeClient([rewrite]))
     assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0
     fixed = store.load_day(root, date(2026, 10, 10))["items"]
-    assert fixed[0]["title_zh"] == "" and fixed[0]["summary_zh"] == "一句话中文摘要"  # 只撤标题，摘要保留
+    assert fixed[0]["title_zh"] == "新标题：" + fixed[0]["title"]  # 撤下的标题补写了
+    assert fixed[0]["summary_zh"] == "一句话中文摘要"  # 核对过的摘要没有被换掉
     assert "GPT-9" not in (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
-    assert len(client.calls) == 1 and "i" not in client.calls[0]["items"][0]  # 不重写那一条，只重写本周看点
+    assert len(client.calls) == 2 and len(client.calls[0]["items"]) == 1  # 只补写那一条，再重写本周看点
 
     publish_bad_title(1)
     assert run(root, "run", "--date", "2026-10-10", "--if-missing", "--no-llm") == 0  # 没有大模型可用时

@@ -220,11 +220,34 @@ def test_recheck_applies_newer_rules_to_text_written_earlier(make_item):
     fine = make_item(
         title="OpenAI releases X", url="https://a.com/2", title_zh="OpenAI 发布 X", extra={"llm_done": True}
     )
-    assert editor.recheck([old, fine]) == 1
+    copied = make_item(title="Thinking Inertia", url="https://a.com/3", title_zh="Thinking Inertia", extra={})
+    copied.extra["llm_done"] = True
+    assert editor.recheck([old, fine, copied]) == 2
     assert (old.title_zh, old.summary_zh) == ("", "Higgsfield 利用 GPT-6 Astra 做长视频")  # 只撤不合格的标题
-    assert old.extra["llm_done"]  # 不重写：重写可能把原本正确的摘要也写错
+    assert copied.title_zh == ""  # 照抄的英文等于没翻译
+    assert "llm_done" not in old.extra and "llm_done" not in copied.extra  # 再补写一次
     assert fine.title_zh == "OpenAI 发布 X" and fine.extra["llm_done"]
-    assert editor.recheck([old, fine]) == 0
+    assert editor.recheck([old, fine, copied]) == 0
+
+
+def test_untranslated_text_is_not_accepted(make_item):
+    paper = make_item(title="Thinking Inertia: LLMs Keep Thinking When Told Not To", summary=LONG_TEXT)
+    reply = {"i": 0, "title_zh": "Thinking Inertia: LLMs Keep Thinking When Told Not To", "summary_zh": LONG_TEXT}
+    assert editor.summarize([paper], FakeClient([{"items": [reply]}])) == 0
+    assert (paper.title_zh, paper.summary_zh) == ("", "")  # 页面上直接显示原文，不重复显示一遍英文
+
+
+def test_a_second_attempt_only_fills_what_is_missing(make_item):
+    story = make_item(**HIGGSFIELD, summary_zh="Higgsfield 利用 GPT-6 Astra 做长视频", tags=["视频生成"])
+    reply = {
+        "i": 0,
+        "title_zh": "Higgsfield 把 AI 视频从 1 分钟做到 10 分钟以上",
+        "summary_zh": "Higgsfield 推出 GPT-6 Astra",  # 10-14 重写时真的这样改错过
+        "tags": ["别的标签"],
+    }
+    assert editor.summarize([story], FakeClient([{"items": [reply]}])) == 1
+    assert story.title_zh == "Higgsfield 把 AI 视频从 1 分钟做到 10 分钟以上"  # 只补空着的标题
+    assert story.summary_zh == "Higgsfield 利用 GPT-6 Astra 做长视频" and story.tags == ["视频生成"]  # 其余不动
 
 
 def test_weekly_overview(make_item):

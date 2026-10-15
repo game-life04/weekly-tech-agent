@@ -58,8 +58,7 @@ SUMMARY_PROMPT = f"""你是一份中文 AI 科技日报的编辑，读者是关�
 {_DATA_NOTE}
 
 对每一条内容：
-1. title_zh：把原标题翻译成通顺的中文，不超过 30 个字，意思和原标题一致。
-   不要加入原标题里没有的名称、数字和说法，这些可以写进 summary_zh。模型名、产品名、公司名、人名保留原文写法。
+1. title_zh：通顺的中文标题，不超过 30 个字。模型名、产品名、公司名、人名保留原文写法。
    原标题已经是中文的，原样照抄。section 为 opensource 的条目（仓库、模型、版本）标题就是名字，title_zh 留空字符串。
 2. summary_zh：一到两句中文，不超过 80 个字，说清楚“这是什么、为什么值得看”。
    只能依据 text 字段来写；text 里没有的数字、结论、评价、公司名和模型名一律不要写。
@@ -86,6 +85,7 @@ _URL = re.compile(r"(?:https?://|www\.)[^\s)）]+", re.IGNORECASE)
 _EMPHASIS = re.compile(r"\*\*|`")  # 只去掉成对强调最常见的两种记号；下划线、# 等是名称的一部分，留给页面转义
 _LATIN = re.compile(r"[A-Za-z][A-Za-z0-9.+-]*")
 _FIGURE = re.compile(r"\d+(?:\.\d+)*%?")  # 版本号 0.12.0 算一个整体，不拆成 0.12 和 0
+_CJK = re.compile(f"[{chr(0x3400)}-{chr(0x9FFF)}]")  # 汉字（基本区和扩展 A 区）
 _OVERVIEW_LABEL = re.compile(r"^\s*本周看点\s*[:：]\s*")  # 模型爱在开头自己加上这个小标题
 _THOUSANDS = re.compile(r"(?<=\d),(?=\d{3})")
 _ROW = re.compile(r"\{[^{}]*\}")
@@ -251,7 +251,7 @@ def _summary_row(index: int, item: Item) -> dict[str, Any]:
 
 
 def _checked(item: Item, title_zh: str, summary_zh: str) -> tuple[str, str]:
-    """去掉出现了“资料里没有的名称或数字”的中文标题和摘要。
+    """去掉没翻译成中文的、或者出现了“资料里没有的名称或数字”的中文标题和摘要。
 
     标题是原标题的翻译，只拿原标题（和来源名）来比对：把简介里的名称搬进标题，
     很容易把“谁做了什么”写错。实际出过的例子：原题说 Higgsfield 用 OpenAI 的 GPT-6 做长视频，
@@ -263,6 +263,9 @@ def _checked(item: Item, title_zh: str, summary_zh: str) -> tuple[str, str]:
     )
     kept = []
     for name, where, value, facts in checks:
+        if value and not _CJK.search(value):  # 原样照抄的英文：等于没翻译（10-15 一天出了 10 条）
+            log.info("不采用模型写的%s（没有翻译成中文）：%s", name, item.title[:60])
+            value = ""
         invented = ungrounded(value, facts)
         if invented:
             log.info("不采用模型写的%s（出现了%s里没有的 %s）：%s", name, where, "、".join(invented), item.title[:60])
@@ -276,11 +279,13 @@ def _apply_summary(item: Item, row: dict[str, Any]) -> bool:
     title_zh = "" if item.section == "opensource" else plain(row.get("title_zh"), TITLE_LIMIT)
     summary_zh = plain(row.get("summary_zh"), SUMMARY_LIMIT) if len(text) >= EVIDENCE_MIN else ""
     title_zh, summary_zh = _checked(item, title_zh, summary_zh)
-    item.title_zh, item.summary_zh = title_zh, summary_zh
+    # 只补空着的：重写一条时，已经写好并核对过的部分保持不变。
+    # 10-14 实际出过：只有标题不合格，整条重写以后，原本正确的摘要也被改错了
+    item.title_zh, item.summary_zh = item.title_zh or title_zh, item.summary_zh or summary_zh
     tags = row.get("tags") if isinstance(row.get("tags"), list) else []
-    item.tags = [tag for raw in tags[:3] if (tag := plain(raw, 12))]
+    item.tags = item.tags or [tag for raw in tags[:3] if (tag := plain(raw, 12))]
     item.extra["llm_done"] = True  # 处理过了；当天重跑时不再重复请求
-    return bool(title_zh or summary_zh)
+    return bool(item.title_zh or item.summary_zh)
 
 
 class _Run:
@@ -378,17 +383,18 @@ def score(items: list[Item], client: LLMClient) -> int:
 
 
 def recheck(items: list[Item]) -> int:
-    """按现在的规则复查已经写好的中文，不合格的撤下（页面改为显示原文）。返回撤下了几条。
+    """按现在的规则复查已经写好的中文：不合格的撤下（页面改为显示原文），再给一次补写的机会。
 
-    检查规则改进以后，已经登出去的内容也会跟着改正，不用手动修改数据。
-    只撤不重写：整条重写可能把原本正确的部分也写错。10-14 实际出过：标题不合格，
-    整条重写以后，原本正确的摘要“Higgsfield 利用 GPT-6 Astra……”变成了“Higgsfield 推出 GPT-6 Astra……”。
+    返回撤下了几条。检查规则改进以后，已经登出去的内容也会跟着改正，不用手动修改数据。
+    补写只补撤下的部分，其余已经核对过的不动（见 _apply_summary）；补写的结果再不合格，
+    这一部分就一直显示原文，不会反复重试。
     """
     withdrawn = 0
     for item in items:
         kept = _checked(item, item.title_zh, item.summary_zh)
         if kept != (item.title_zh, item.summary_zh):
             item.title_zh, item.summary_zh = kept
+            item.extra.pop("llm_done", None)
             withdrawn += 1
     return withdrawn
 
