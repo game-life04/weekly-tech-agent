@@ -458,13 +458,19 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50073879",
     "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Our next era of frontier intelligence Our next era of frontier intelligence, built to solve your hardest problems Researchers, engineers, and security specialists are pairing with Argon to push the boundaries of science, math, robotics and cyber defense. Argon is helping researchers at Google and the scientific community accelerate their path to discovery and real-world impact. Argon autonomously turns raw video to a physics-accurate simulation, estimating depth and physical boundaries, and writing the exact simulation code required to replicate those real-world environments. Argon ties for #1 on CWE-Bench (68%) for vulnerability remediation, is our most resilient model against indirect prompt injections, and is expanding to hundreds of additional Fairwind Program partners today. Across G…",
     "llm_done": true
    },
    "id": "b4606c998906",
    "score": 8.64,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Gemini 4 Argon：解决最困难问题的前沿智能",
+   "summary_zh": "Gemini 4 Argon 能将原始视频转化为物理准确的模拟，帮助研究人员加速发现。",
+   "tags": [
+    "模型发布",
+    "机器人",
+    "模拟"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -510,12 +516,14 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50091788",
     "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Cyber experts say AI labs’ containment and monitoring failures — not agents with minds of their own — are to blame for recent alarming hacking reports. CISOs should vet their AI vendors and tighten security basics as safeguards. Since July, US frontier AI labs and other AI leaders have revealed a string of incidents in which their models accessed external computer systems without authorization, events popularly described as AI agents “going rogue.” The most well-known and studied of these incidents is OpenAI’s hack into Hugging Face, which OpenAI initially characterized as “an unprecedented cyber incident, involving state-of-the-art cyber capabilities,” and later said was due to “misaligned behavior,” or behavior its creators did not intend. Following news of the Hugging Face incident, An…",
     "llm_done": true
    },
    "id": "3ef98b9b51a3",
    "score": 8.27,
    "title_zh": "AI黑客攻击报告归咎于监控失败",
-   "summary_zh": "",
+   "summary_zh": "专家认为AI实验室的监控和隔离失败导致了未经授权的系统访问，而非智能体失控。",
    "tags": [
     "行业动态"
    ],
@@ -538,12 +546,14 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50092664",
+    "excerpt_tried": true,
+    "evidence": "Banks including JPMorgan and MUFG are shopping AI data center debt tied to Oracle as credit default swaps spike and bond order books thin out. JPMorgan and MUFG are part of the group that has spent more than six months trying to distribute $38 billion in construction debt tied to a Texas and Wisconsin data center project leased to Oracle. JPMorgan, Morgan Stanley, SMBC and MUFG are quietly shopping pieces of the AI debt pile they helped build, a sign the lenders closest to the money have started hedging their own bet. Six months ago, banks were racing each other to underwrite data center loans tied to Oracle, Meta and the rest of the AI buildout. Now some of the same banks are trying to get that debt off their books. JPMorgan, Morgan Stanley, SMBC and MUFG have been exploring significant…",
     "llm_done": true
    },
    "id": "89afa2cf8a13",
    "score": 8.03,
    "title_zh": "银行试图转嫁刚承销的AI数据中心债务",
-   "summary_zh": "",
+   "summary_zh": "摩根大通和三菱日联等银行正在出售与Oracle相关的AI数据中心债务，以对冲风险。",
    "tags": [
     "行业动态"
    ],
@@ -566,12 +576,14 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50069971",
+    "excerpt_tried": true,
+    "evidence": "Google's EmbeddingGemma 2, turned into a speech-to-text model. An hour of audio in about 13 seconds on a base MacBook Air, entirely on device. Free Mac app. Google's EmbeddingGemma 2 is an embedding model. We turned it into a speech-to-text model: an hour of audio in about 13 seconds on a base MacBook Air , entirely on device. EmbeddingGemma 2 is a multimodal embedding model: text, images, audio and video in one shared space. Say a word out loud and its audio lands close to the written word. So we tried reading words straight out of that space. Only the reader is trained: under two hours on 8×H100, on openly licensed English speech. The base model was never trained for speech-to-text. × real time: seconds of audio per second of processing. Rows 1–2: our tests on the same base M3 MacBook A…",
     "llm_done": true
    },
    "id": "36af00926e86",
    "score": 7.88,
    "title_zh": "将 EmbeddingGemma 2 转化为语音转文本模型",
-   "summary_zh": "",
+   "summary_zh": "将Google的EmbeddingGemma 2模型转化为语音识别模型，在MacBook Air上实现13秒转写一小时音频。",
    "tags": [
     "模型发布",
     "语音"
