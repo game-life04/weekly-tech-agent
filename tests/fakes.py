@@ -68,6 +68,7 @@ class FakeClient:
     def __init__(self, replies, max_requests=20):
         self.replies = list(replies)
         self.calls: list[dict] = []
+        self.systems: list[str] = []  # 每次请求用的系统提示词
         self.max_requests = max_requests
         self.provider = SimpleNamespace(name="假服务", model="fake-1")
 
@@ -86,6 +87,7 @@ class FakeClient:
     def chat(self, system, user, max_tokens):
         sent = json.loads(user)
         self.calls.append(sent)
+        self.systems.append(system)
         reply = self.replies[0] if callable(self.replies[0]) else self.replies.pop(0)
         if callable(reply):
             reply = reply(sent)

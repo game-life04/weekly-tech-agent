@@ -45,6 +45,9 @@ def test_ungrounded_flags_names_and_figures_missing_from_the_source():
     )  # 连字符、千分位
     assert editor.ungrounded("open-webui v0.12.0 发布", "open-webui/open-webui v0.12.0 Minor release") == []  # 版本号
     assert editor.ungrounded("升级到 0.13.1", "v0.12.0") == ["0.13.1"]
+    muse = "a new open-weight model with 816 billion parameters, 1.5M downloads and a 1M context; 816B MoE"
+    assert editor.ungrounded("8160 亿参数，下载 150 万次，100 万上下文", muse) == []  # 换算成亿、万：算对了不算编造
+    assert editor.ungrounded("8100 亿参数", muse) == ["8100"]  # 算错了照样拦下
     assert editor.ungrounded("基于 GPT-5，共 100 项", "GPT-5.6 has 1000 items") == [
         "100",
         "GPT-5",
@@ -230,18 +233,19 @@ def test_recheck_applies_newer_rules_to_text_written_earlier(make_item):
     assert editor.recheck([old, fine, copied]) == 0
 
 
-def test_papers_get_a_longer_summary_from_more_of_the_abstract(make_item):
+def test_papers_get_their_own_prompt_and_a_longer_summary(make_item):
     abstract = "We study how agents learn from experience in unfamiliar environments. " * 30  # 约 2100 字
     paper = make_item(
         title="Learn2Play Bench", url="https://arxiv.org/abs/2610.08215", section="papers", summary=abstract
     )
     news = make_item(title="Some news about agents", url="https://a.com/n", summary=abstract)
     long_summary = "研究智能体在陌生环境中能否从经验中学习。" * 7  # 140 字：问题、方法、结果
-    client = FakeClient([{"items": [{"i": 0, "summary_zh": long_summary}, {"i": 1, "summary_zh": long_summary}]}])
+    client = FakeClient([lambda sent: {"items": [{"i": r["i"], "summary_zh": long_summary} for r in sent["items"]]}])
     assert editor.summarize([paper, news], client) == 2
     assert paper.summary_zh == long_summary  # 论文不截到 120 字
     assert len(news.summary_zh) == editor.SUMMARY_LIMIT  # 其他条目照旧
-    sent = {row["section"]: row["text"] for row in client.calls[0]["items"]}
+    assert client.systems == [editor.SUMMARY_PROMPT, editor.PAPER_PROMPT]  # 论文单独一批，用论文导读的提示词
+    sent = {row["section"]: row["text"] for call in client.calls for row in call["items"]}
     assert len(sent["papers"]) > 1000 and len(sent["news"]) <= editor.EVIDENCE_CHARS + 1
 
 

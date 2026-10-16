@@ -139,6 +139,17 @@ def test_bad_items_are_dropped(repo):
     assert [i["title"] for i in store.load_day(root, date(2026, 10, 10))["items"]] == ["Item 1 about LLM"]
 
 
+def test_papers_keep_more_of_their_abstract(repo):
+    root, sources = repo
+    long_text = "word " * 600  # 约 3000 字
+    sources["good"] = fake_source(
+        "good", "Good", [row(1, summary=long_text), row(2, section="papers", summary=long_text)]
+    )
+    assert run(root, "run", "--date", "2026-10-10") == 0
+    lengths = {i["section"]: len(i["summary"]) for i in store.load_day(root, date(2026, 10, 10))["items"]}
+    assert lengths == {"news": 600, "papers": 1500}  # 论文要写问题、方法、结果，摘要留得长一些
+
+
 def test_render_rebuilds_pages_from_data(repo):
     root, _ = repo
     run(root, "run", "--date", "2026-10-10")

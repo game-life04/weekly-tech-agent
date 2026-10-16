@@ -25,7 +25,7 @@ TOTAL_SECONDS = 12 * 60.0  # 全部来源合计的上限；超过后剩下的单
 def _tidy(item: Item, name: str, title: str) -> Item | None:
     """统一清洗来源返回的内容，把各字段规范成后面流程要求的类型；不合格的丢掉并说明原因。"""
     item.title = clean_text(item.title, 300)
-    item.summary = clean_text(item.summary, 600)
+    item.summary = clean_text(item.summary, 1500 if item.section == "papers" else 600)  # 论文要写问题、方法、结果
     item.url = clean_text(item.url)
     problem = ""
     if not item.title:

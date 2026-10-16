@@ -65,12 +65,27 @@ SUMMARY_PROMPT = f"""你是一份中文 AI 科技日报的编辑，读者是关�
    例如“Foo: Learning to Plan with Tools”译成“Foo：学习借助工具做规划”。原标题已经是中文的，原样照抄。
    section 为 opensource 的条目（仓库、模型、版本）标题就是名字，title_zh 留空字符串。
 2. summary_zh：一到两句中文，不超过 80 个字，说清楚“这是什么、为什么值得看”。
-   section 为 papers 的条目（论文）写两到三句，不超过 150 个字：研究什么问题、用了什么方法、得到什么结果。
    只能依据 text 字段来写；text 里没有的数字、结论、评价、公司名和模型名一律不要写。
    谁发布、谁使用、谁研究要和 text 一致：“A 用了 B 的模型”不能写成“A 推出了 B”。
    名称、数字和单位照抄原文的写法，不要换算成万、亿或百分比。
    没有 text 字段的条目，summary_zh 留空字符串。
 3. tags：1~3 个中文短标签，例如 模型发布、开源工具、智能体、论文、语音、推理加速、评测、行业动态。
+
+只输出一个 JSON 对象，格式为
+{{"items": [{{"i": 0, "title_zh": "...", "summary_zh": "...", "tags": ["..."]}}]}}。
+每条输入都要有对应的输出，i 与输入一致。不要输出其他任何文字。"""
+
+# 论文单独用一个提示词：混在通用提示词里加一句“论文写两三句”，模型照样只写一句（10-16 实测）
+PAPER_PROMPT = f"""你是一份中文 AI 科技日报的论文导读编辑，读者是关注人工智能和大模型的中国大学生。
+{_DATA_NOTE}
+
+每一条都是一篇论文，text 是论文摘要。对每一条：
+1. title_zh：把论文标题译成中文，不超过 30 个字，不能原样照抄英文。“名称: 副标题”格式的标题名称保留原文、
+   副标题译成中文，例如“Foo: Learning to Plan with Tools”译成“Foo：学习借助工具做规划”。
+2. summary_zh：两到三句中文，100 到 150 个字，依次写清楚：这篇论文要解决什么问题；用了什么方法；得到了什么结果。
+   只能依据 text 来写；text 里没有的数字、结论、评价、机构名和模型名一律不要写。
+   名称、数字和单位照抄原文的写法，不要换算成万、亿或百分比。
+3. tags：1~3 个中文短标签，例如 智能体、评测、推理加速、多模态、强化学习、语音。
 
 只输出一个 JSON 对象，格式为
 {{"items": [{{"i": 0, "title_zh": "...", "summary_zh": "...", "tags": ["..."]}}]}}。
@@ -93,6 +108,9 @@ _FIGURE = re.compile(r"\d+(?:\.\d+)*%?")  # 版本号 0.12.0 算一个整体，�
 _CJK = re.compile(f"[{chr(0x3400)}-{chr(0x9FFF)}]")  # 汉字（基本区和扩展 A 区）
 _OVERVIEW_LABEL = re.compile(r"^\s*本周看点\s*[:：]\s*")  # 模型爱在开头自己加上这个小标题
 _THOUSANDS = re.compile(r"(?<=\d),(?=\d{3})")
+# “816 billion”“816B”“1M”这类英文数量：模型常换算成“8160 亿”“100 万”，算出来对就不算编造（10-16 实际出过）
+_SCALE = re.compile(r"(\d+(?:\.\d+)?)\s*(billion|million|bn|[bm])(?![a-z])", re.IGNORECASE)
+_TO_CHINESE_UNIT = {"billion": 10, "bn": 10, "b": 10, "million": 100, "m": 100}  # 换算成“亿”“万”要乘的倍数
 _ROW = re.compile(r"\{[^{}]*\}")
 # 这些通用说法即使资料里没有原词，也不算“编出来的”
 _COMMON_TERMS = frozenset(
@@ -173,13 +191,22 @@ def _appears(term: str, known: str) -> bool:
     return re.search(re.escape(term) + r"(?![0-9]|\.[0-9])", known) is not None
 
 
+def _scaled(evidence: str) -> str:
+    """资料里英文数量换算成“亿”“万”以后的数字，例如 816 billion → 8160，1.5M → 150。"""
+    figures = []
+    for number, unit in _SCALE.findall(_THOUSANDS.sub("", evidence)):
+        value = round(float(number) * _TO_CHINESE_UNIT[unit.lower()], 6)
+        figures.append(f"{value:g}")
+    return " ".join(figures)
+
+
 def ungrounded(text: str, evidence: str) -> list[str]:
     """找出 text 里“资料中没有出现过”的英文名称和数字；空列表表示没发现问题。
 
     检查范围有限：带大写字母或数字的英文词（Claude、GPT-5、Qwen3-8B），
     以及三位以上、带小数点或百分号的数字。中文写的名称和论断、一两位的小数字查不了。
     """
-    known = _fold(evidence)
+    known = f"{_fold(evidence)} {_scaled(evidence)}"
     missing: list[str] = []
     for word in _LATIN.findall(unicodedata.normalize("NFKC", text).translate(DASHES)):
         word = word.rstrip(".+-")
@@ -408,10 +435,17 @@ def recheck(items: list[Item]) -> int:
 def summarize(items: list[Item], client: LLMClient) -> int:
     """给入选内容写中文标题和摘要，返回写成的条数。被内容审核拦下的条目会标上 filtered。"""
     todo = [item for item in items if not item.extra.get("llm_done") and not item.extra.get("filtered")]
-    run = _Run(client, SUMMARY_PROMPT, _summary_row, _apply_summary, 300, reserve=0, depth=8)
-    run.process(_batches(todo, SUMMARY_BATCH))
-    log.info("大模型写中文标题和摘要：%d/%d 条", run.done, len(todo))
-    return run.done
+    done = 0
+    for prompt, group in (
+        (SUMMARY_PROMPT, [item for item in todo if item.section != "papers"]),
+        (PAPER_PROMPT, [item for item in todo if item.section == "papers"]),
+    ):
+        if group:
+            run = _Run(client, prompt, _summary_row, _apply_summary, 300, reserve=0, depth=8)
+            run.process(_batches(group, SUMMARY_BATCH))
+            done += run.done
+    log.info("大模型写中文标题和摘要：%d/%d 条", done, len(todo))
+    return done
 
 
 def weekly_overview(items: list[Item], client: LLMClient) -> str:

@@ -41,6 +41,12 @@ def test_similar_titles():
     assert not similar_titles("v1.2.3", "v1.2.4", 0.92)  # 短标题只认完全相同
     assert not similar_titles("Meta releases Llama 3.1 today", "Meta releases Llama 3.2 today", 0.92)  # 数字不同
     assert not similar_titles("", "", 0.92)
+    # 一个标题正好是另一个冒号前的部分（10-15 同一期出现了两次）
+    assert similar_titles("Gemini 4 Argon", "Gemini 4 Argon: Built to solve your hardest problems", 0.92)
+    assert similar_titles("Gemini 4 Argon — built to solve your hardest problems", "Gemini 4 Argon", 0.92)
+    assert not similar_titles("GPT-6", "GPT-6: what we know so far", 0.92)  # 太短的不算
+    assert not similar_titles("Gemini 4 Argon: pricing", "Gemini 4 Argon: hands-on review", 0.92)  # 只是同一个开头
+    assert not similar_titles("Open models are winning", "Open models are winning the race", 0.92)  # 没有分隔符
 
 
 def test_same_url_keeps_higher_weight_and_merges(make_item):

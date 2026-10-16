@@ -20,6 +20,7 @@ _GITHUB_REPO = re.compile(r"^/([^/]+)/([^/]+?)(?:\.git)?/?$")
 _MODELSCOPE_MODEL = re.compile(r"^/models/([^/]+)/([^/]+)/?$")
 _NOT_WORD = re.compile(r"[^0-9a-z一-鿿]+")
 _DIGITS = re.compile(r"\d+")
+_HEAD = re.compile(r"\s*[:：]\s*|\s+[–—|-]\s+")  # 标题和副标题之间的分隔符
 
 
 def canonical_url(url: str) -> str:
@@ -61,6 +62,12 @@ def _normalize_title(title: str) -> str:
     return _NOT_WORD.sub("", title.lower())
 
 
+def _head(title: str) -> str | None:
+    """标题里冒号、破折号、竖线前面的部分（规范化以后）；标题里没有这些分隔符时返回 None。"""
+    parts = _HEAD.split(title, maxsplit=1)
+    return _normalize_title(parts[0]) if len(parts) == 2 else None
+
+
 def similar_titles(a: str, b: str, threshold: float) -> bool:
     """两个标题是否基本相同。
 
@@ -70,6 +77,9 @@ def similar_titles(a: str, b: str, threshold: float) -> bool:
     na, nb = _normalize_title(a), _normalize_title(b)
     if not na or not nb:
         return False
+    # 一个标题正好是另一个冒号前的部分：“Gemini 4 Argon”和“Gemini 4 Argon: Built to solve…”（10-15 同一期出现了两次）
+    if min(len(na), len(nb)) >= 12 and (na == _head(b) or nb == _head(a)):
+        return True
     if min(len(na), len(nb)) < 12:
         return na == nb
     if _DIGITS.findall(na) != _DIGITS.findall(nb):
