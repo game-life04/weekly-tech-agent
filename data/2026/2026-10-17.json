@@ -1,0 +1,1077 @@
+{
+ "date": "2026-10-17",
+ "generated_at": "2026-10-16T22:05:16Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 461,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 58,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.0
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 48,
+   "error": "",
+   "seconds": 10.0
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 293,
+   "error": "",
+   "seconds": 21.4
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 19.4
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 77.8
+  }
+ ],
+ "items": [
+  {
+   "title": "Muse Spark Open",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-15T17:47:39Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 899.0,
+    "comments": 465.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50107379",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5 Ultra Mac Studios. Muse Spark Open is available today and brings leading agentic capabilities to your desktop for the first time on Apple M5 Ultra Mac Studios. Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date. Muse Spark Open is a natively multimodal model with 816B total parameters (42B active) and a 1M-token context window. Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning. We believe the future is for everyone , and that includes the freedom to run advanced models wherever, including at home. Muse Spark Open is the first model in…",
+    "llm_done": true
+   },
+   "id": "0149b73b0a22",
+   "score": 8.65,
+   "title_zh": "",
+   "summary_zh": "Muse Spark Open 是目前最强大的美国开源模型，支持 816B 参数和 1M 上下文窗口，专为编码和智能体工作设计。",
+   "tags": [
+    "模型发布",
+    "开源",
+    "Apple"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-16T17:08:38Z",
+   "summary": "",
+   "heat": 0.932,
+   "weight": 0.6,
+   "metrics": {
+    "points": 328.0,
+    "comments": 292.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50121179",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "The US Benchmark Map places AI benchmarks across the American economy, measuring which parts of the labor force are covered by unsaturated, public, agentic benchmarks. AI benchmarks have multiplied in recent years, but coverage of economically valuable work remains limited. To measure this, we compiled relevant benchmarks to measure their coverage of American jobs. This Benchmark Map is our first step toward building a comprehensive, continuously updated resource for understanding AI capabilities across the economy. Each tile represents one of the 923 O*NET occupations making up the US labor force, grouped into 22 job families. Occupations are shaded according to the share of their tasks which are represented in our initial list of AI benchmarks. A single benchmark prompt can be mapped to…",
+    "llm_done": true
+   },
+   "id": "cb48f5d3cd53",
+   "score": 8.13,
+   "title_zh": "美国基准地图：AI 测试覆盖了 90% 的工作时间吗？",
+   "summary_zh": "新发布的基准地图评估了 AI 测试对美国经济各行业的覆盖情况，发现目前覆盖的经济价值工作仍然有限。",
+   "tags": [
+    "评测",
+    "行业动态",
+    "基准测试"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-10-16T00:00:00Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "We’re on a journey to advance and democratize artificial intelligence through open source and open science. Beam by Reflection is out on Hugging Face! It is the first model from the new US lab, Reflection, and it’s open! It's a mixture-of-experts (MoEs) model with 501B parameters (23B active per token), supports text as input, has a context window of 1M tokens , and is released under the Apache 2.0 license. Beam is focused on coding and agentic use cases. It is for teams that want a frontier-scale model on their own hardware, infrastructure, or cloud, and want to customize it to their own use cases. Beam ships with its own dedicated open source Rust based harness that delivers the best performance from the model. Beam has a native transformers implementation, as well as downstream librari…",
+    "llm_done": true
+   },
+   "id": "e0cc4bc86ef7",
+   "score": 8.06,
+   "title_zh": "Beam：501B 参数开源模型",
+   "summary_zh": "Reflection 实验室发布首个开源模型 Beam，支持文本输入和百万级上下文窗口。",
+   "tags": [
+    "模型发布",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-10-16T18:11:34Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Pooja Rao, Research Scientist, Petar Sirkovic, Software Engineer, and Annalisa Pawlosky, Research Scientist, Google We are bringing AI agents to the wet-lab bench at Google Research to navigate complex biological landscapes. By grounding agents in physical lab robotics, we can run fast closed-loop molecular design cycles where agents learn how to learn, ultimately discovering single-digit nanomolar protein binders for cancer targets. Frontier AI systems have the potential to transform biology research and drug discovery by intelligently navigating vast combinatorial search spaces (e.g., a single 100-amino-acid protein spans at least 20 100 possible sequences) calling for dynamic multi-candidate exploration. Our long-term research vision is that AI agents will not only ideate and analyze,…",
+    "llm_done": true
+   },
+   "id": "98c95c02f930",
+   "score": 7.96,
+   "title_zh": "将 AI 智能体落地生物实验室",
+   "summary_zh": "Google 研究将 AI 智能体与物理实验室机器人结合，实现快速闭环分子设计。",
+   "tags": [
+    "行业动态",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic assigned highest junk credit rating in June",
+   "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-16T18:11:42Z",
+   "summary": "",
+   "heat": 0.82,
+   "weight": 0.6,
+   "metrics": {
+    "points": 163.0,
+    "comments": 44.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50122112",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "e2492a6cfc77",
+   "score": 7.79,
+   "title_zh": "Anthropic 获得最高垃圾信用评级",
+   "summary_zh": "",
+   "tags": [
+    "行业动态",
+    "Anthropic"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "source": "rss",
+   "section": "news",
+   "via": "Apple 机器学习研究",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "MLX on Mac with Apple silicon lets AI researchers and developers experiment locally with the latest models and methods in a private environment. The open-source array framework leverages the unified memory architecture of Apple silicon, enabling anyone to run new inference and fine-tuning methods on their own hardware and explore other AI techniques. In a previous post, we highlighted the advantages of the M5 architecture and its GPU Neural Accelerators.",
+   "heat": 0.881,
+   "weight": 0.65,
+   "metrics": {
+    "points": 238.0,
+    "comments": 107.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50118320",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "7887ad53cbca",
+   "score": 7.75,
+   "title_zh": "在 Mac Studio 上使用 MLX 和 RDMA 进行分布式推理",
+   "summary_zh": "MLX 框架利用 Apple 统一内存架构，让研究人员在本地硬件上运行大模型。",
+   "tags": [
+    "推理加速",
+    "开源工具"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-16T14:18:44Z",
+   "summary": "",
+   "heat": 0.828,
+   "weight": 0.6,
+   "metrics": {
+    "points": 171.0,
+    "comments": 75.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50118688",
+    "excerpt_tried": true,
+    "evidence": "StarSkirmish: where LLMs write code to play StarCraft. The StarSkirmish Bench evaluates how strong of a StarCraft bot can each LLM write given 1 hour of wall clock time. v0.2 updates StarSkirmish Bench v0.1 with flagship models from OpenAI, Anthropic, Google and Meta, each running in its lab's 1st party CLI harness. An LLM’s score reflects its win rate against a roster of competitive human written bots and demo bots. 1 hour runs, in its 1st party CLI harness. Scores are average win rates (0–100) of each model's 5 runs against a roster of competitive human written bots. Gemini 4 Argon runs at high , the highest reasoning effort available to it; every other model runs at max . GPT-6 Astra is the top scoring StarSkirmish Bench v0.2 LLM, a clear step ahead of GPT-6.1 Sol in second. Gemini 4 A…",
+    "llm_done": true
+   },
+   "id": "1cbaf29662bc",
+   "score": 7.73,
+   "title_zh": "Show HN：Gemini 4 Argon 玩星际争霸",
+   "summary_zh": "StarSkirmish 基准测试评估了 LLM 编写星际争霸机器人的能力，Gemini 4 Argon 在测试中表现出色。",
+   "tags": [
+    "游戏",
+    "评测",
+    "Gemini"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "推翻一切！Nick Cammarata 万字长文宣告，AI 不是黑箱，99% 神经元清晰可见",
+   "url": "https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-10-16T11:33:00Z",
+   "summary": "亲手推翻自己十年前的结论，可解释性大佬 Nick Cammarata 这次读懂 AI 脑回路。 作者丨高允毅 编辑丨岑 峰 “大模型把猫和汽车分为一类，不是弱智。” 在 AI 可解释性领域，有一个十年的经典案例，是 InceptionV1 模型里编号 4e:55 的神经元 。这个神经元在看到“猫脸”和“汽车车头”时，都会被强烈激活。这意味着， 整个神经网络的底层逻辑是不可解释的 。 于是整整十年，整个领域都沿着 “拆” 的思路往前走：既然网络是一团乱麻的黑盒，那就发明工具把它拆开。稀疏自编码器（SAE）分解、特征字典、特征解缠…… 都是先把纠缠的特征拆成一个个独立的、人类能懂的单元，再去理解。 就在昨天， OpenAI早期机制可解释性研究的科学家，也是当年将该案例推向经典的《Zoom In》的共同作者，Nick Cammarata ，亲自推翻了自己当年所下的结论。 “这个神经元根本不认识猫，也不认识车。它检测的是V 字几何形状，不管是狐狸的尖脸、喷射的火焰，都会激活它的正极；而它的负极，是圆形的东西。” 他直言，这个误判的根源，或许是当年的观测工具太低级。 2023 年他在 Open…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "f35951ab67a4",
+   "score": 7.69,
+   "title_zh": "AI 不是黑箱，99% 神经元清晰可见",
+   "summary_zh": "可解释性专家 Nick Cammarata 推翻十年前结论，称神经元检测的是几何形状而非物体。",
+   "tags": [
+    "可解释性",
+    "论文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "xerj-org/xerj",
+   "url": "https://github.com/xerj-org/xerj",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+   "heat": 0.925,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1647.0,
+    "stars": 6856.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5f56448dcadd",
+   "score": 7.77,
+   "title_zh": "",
+   "summary_zh": "XERJ 通过自动索引功能，使用比 grep 少 40 倍的 token 来搜索代码、文档和日志，兼容 Elasticsearch。",
+   "tags": [
+    "开源工具",
+    "搜索",
+    "RAG"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "heat": 0.918,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1552.0,
+    "stars": 40438.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d7a57887bcc2",
+   "score": 7.76,
+   "title_zh": "",
+   "summary_zh": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
+   "tags": [
+    "开源工具",
+    "插件",
+    "Anthropic"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "feder-cr/git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Git designed for AI agents.",
+   "heat": 0.952,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1053.0
+   },
+   "extra": {
+    "language": "Go",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "be6b6bebd377",
+   "score": 7.1,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "An agentic skills framework & software development methodology that works.",
+   "heat": 0.859,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 973.0,
+    "stars": 300630.0
+   },
+   "extra": {
+    "language": "Shell",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "cfd2851c47d6",
+   "score": 7.04,
+   "title_zh": "",
+   "summary_zh": "superpowers 是一个智能体技能框架和软件开发方法论。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "开发框架"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Scaling Kimi K3 on AMD Instinct MI355X: Matching NVIDIA HGX B300 Throughput per GPU on AgentX",
+   "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-16T00:00:00Z",
+   "summary": "Inside the Kimi K3 optimization effort: understanding the bottlenecks and the decisions that made inference faster",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ed42a44ae308",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "vLLM 团队分享了在 AMD Instinct MI355X 上优化 Kimi K3 推理速度的经验。",
+   "tags": [
+    "推理加速",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Reflection's Beam is freely available on Ollama for a limited time",
+   "url": "https://ollama.com/blog/reflection-beam",
+   "source": "rss",
+   "section": "opensource",
+   "via": "Ollama 博客",
+   "published": "2026-10-16T00:00:00Z",
+   "summary": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d2d14a6788ac",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "Reflection 的 Beam 模型在 Ollama 上限时免费提供，支持软件工程和智能体任务。",
+   "tags": [
+    "模型发布",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "huggingface/transformers v5.20.0",
+   "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-15T18:05:36Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# Release v5.20.0 ## New Model additions ### Muse Spark Open Muse Spark Open is a multimodal mixture-of-experts model from Meta that takes text, images, audio, and video as input and generates text. It has 816B total parameters (42B active per token) and a context window of up to 1,048,576 tokens shared across modalities. It is trained for agentic coding tasks such as multi-file editing, debugging, and tool use. Checkpoints are available in BF16 and NVFP4 formats. **Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/muse_spark) | [Blog Post](http://hf.co/blog/meta-muse-spark-open) * Add Muse Spark Open (#49644) by @guarin in [#49644](https://github.com/huggingface/transformers/pull/49644) ### Ling 3.0 Ling 3.0 Flash is a hybrid Mixture-of-Experts language model from InclusionAI. Its decoder groups five Kimi Delta Attention (KDA) layers with one Multi-head Latent Attention (MLA) layer. The MLA blocks use interleaved rotary embeddings and a head-wise output gate, and the feed-forward blocks combine routed and shared experts. It is natively supported in Transformers as `BailingHybridForCausalLM`, so it loads without `trust_remote_code=True`. **Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/bailing_hybrid) * [Model] Add native Ling 3.0 Flash support (#49446) by @icavan in [#49446](https://github.com/huggingface/transformers/pull/49446) ### Kolibri1 Kolibri 1 is Aleph Alpha's mixture-of-experts reasoning model,…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "df6eac6e2ba5",
+   "score": 6.87,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The open source coding agent.",
+   "heat": 0.773,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 485.0,
+    "stars": 214328.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c402ec7378f7",
+   "score": 6.87,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+   "url": "https://arxiv.org/abs/2610.22200",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's computer-use system, remain largely closed, limiting systematic study of their design. We introduce Open Generalist CUA (OpenGCUA), an ongoing project to develop and open the full stack for GCUAs with the community. This report presents the first release of OpenGCUA. Code execution is a key feature of our agent design: it lets intermediate results determine subsequent operations and enables models to apply their existing programming capabilities directly to computer interaction. We also propose harness-to-model decision transfer, moving selected observations and task-state decisions from fixed harness rules to the model. On OSWorld-v2, our full configuration improves task scores across all eight evaluated models, including GPT-6 Astra and Claude Opus 5, raising mean partial score by +19.6 points and reducing reported steps per task by an average of 53.0% relative to batched GUI-only execution. We release our implementation and prompts, evaluation trajectories from all eight models, and preliminary versions of a real-device harness and a cross-device SDK. The harness addr…",
+   "heat": 0.979,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 266.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Tongyi-MAI/OpenGCUA"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ac9d0bbaa352",
+   "score": 7.89,
+   "title_zh": "OpenGCUA：通用计算机使用全栈开源",
+   "summary_zh": "OpenGCUA 旨在构建一个通用的计算机使用智能体全栈开源项目。它通过代码执行和决策转移机制，在 OSWorld-v2 评测中显著提升了多个模型的任务得分。",
+   "tags": [
+    "智能体",
+    "计算机使用",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+   "url": "https://arxiv.org/abs/2610.21601",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other. We investigate whether agreement between early and late teacher policy shifts can guide selective transfer. We introduce Waypoint-guided On-Policy Distillation (Waypoint-OPD), which uses an intermediate teacher checkpoint from the same RL run to compare early and late shifts in relative action preferences at student-visited prefixes. We gate the endpoint shift according to the directional agreement between the early and late shifts, suppressing it when they point in opposing directions. Compared with endpoint-only transfer, our method requires only one additional frozen-teacher scoring pass. Using RL-trained Qwen3-4B teachers, we evaluate our method with Qwen3-8B, Qwen3-14B, and Qwen3-30B-A3B as student models in mathematical and code reasoning. In all six domain--student settings, Waypoint-OPD achieves the highest domain-average score among the compared distillation methods. Ablations with the Qwen3-8B student show that removing or shuffling gates reduces mathematical reasoning performance. These results support the use of directional agreement between early and…",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 451.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/hhhbxloveai/WaypointOPD"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e98523e4fe63",
+   "score": 7.33,
+   "title_zh": "Waypoint-OPD：通过门控策略蒸馏转移RL诱导的策略变化",
+   "summary_zh": "Waypoint-OPD 提出利用早期和晚期教师策略变化的相对一致性来指导选择性转移。该方法在数学和代码推理任务中，相比仅使用端点转移的方法表现更优。",
+   "tags": [
+    "强化学习",
+    "策略蒸馏",
+    "知识蒸馏"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+   "url": "https://arxiv.org/abs/2610.20571",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-14T00:00:00Z",
+   "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot requests with explicit location, camera, and event-time references. Before generation, it retrieves relevant evidence from a scene memory of registered static geometry and an event memory of dynamic observations indexed by scene, event, and time. After generation, ATAS reconstructs and registers the clip. It updates memory only when review and state checks accept the observation, while film delivery remains independent of memory admission. Across four video generators, ATAS improves all reported cross-shot consistency measures and achieves the highest aggregate benchmark score for each backbone. It also outperforms the compared agents and 3D-guided methods on target-image spatial revisit, leads three event-recapture criteria, and receives the highest human ratings on all six criteria. The video results and code are available on our project page: https://lhmd.top/atas/.",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 340.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/ziplab/ATAS"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ac306084fe59",
+   "score": 7.21,
+   "title_zh": "Any Time, Any Space：基于世界状态的智能体视频生成框架",
+   "summary_zh": "ATAS 框架通过显式引用位置、相机和事件时间，将剧本转化为具有时空一致性的镜头请求。它在多个视频生成器和基准测试中，显著提高了跨镜头的一致性。",
+   "tags": [
+    "视频生成",
+    "智能体",
+    "一致性"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+   "url": "https://arxiv.org/abs/2610.14448",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-10T01:24:03Z",
+   "summary": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this \\emph{KV concentration} and find that KV cache quantization delivers substantially greater acceleration than weight-only and weight-activation quantization in our matched-workload comparisons. However, INT4 KV rollout can degrade learning even with token-level truncated importance sampling (TIS). We propose \\emph{KV4-RL}, which combines calibration-free INT4 KV quantization with selective INT8 protection of attention sinks and recent context. Protecting a bounded number of positions reduces sampler mismatch while retaining most of the speedup from INT4. Across 400 iterations of Qwen3-8B-Base GRPO training, KV4-RL achieves $1.80\\times$ cumulative rollout speedup and $1.27\\times$ cumulative full-iteration speedup over BF16 rollout, reaching $1.97\\times$ rollout speedup over the final 50 iterations. Under a common BF16 evaluator, its final six-benchmark mean accuracy is within 0.5 percentage points of BF16-rollout training for both Qwen3-4B-Base and Qwen3-8B-Base.",
+   "heat": 0.633,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 36.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "60ff838470a0",
+   "score": 6.5,
+   "title_zh": "KV4-RL：解锁 RLVR 的 INT4 KV 缓存量化加速",
+   "summary_zh": "KV4-RL 结合无校准 INT4 量化和选择性 INT8 保护，解决了 INT4 推理可能降低学习效果的问题。在 Qwen3-8B-Base GRPO 训练中，它实现了显著的加速。",
+   "tags": [
+    "高效推理",
+    "强化学习",
+    "量化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding",
+   "url": "https://arxiv.org/abs/2610.12939",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-09T03:38:26Z",
+   "summary": "Decoder hidden states from different layers of large language models (LLMs) often encode complementary information. However, existing speculative decoding methods typically rely on a small set of target-model layers chosen using fixed, position-based heuristics. Selecting an optimal subset of layers is inherently a combinatorial problem, making exhaustive evaluation infeasible even for moderately deep models. In this work, we present a principled framework for multi-layer hidden-state selection for speculative decoding based on two complementary criteria: informativeness, measured through matrix-entropy analysis, and diversity, quantified using centered kernel alignment (CKA). We investigate layer-wise Shannon entropy, aggregate entropy under hidden-state concatenation, and pairwise CKA dynamics across depth, revealing distinct geometric and informational compartments within decoder representations. Motivated by these findings, we propose entropy and CKA-based layer selection algorithms that favor hidden-state sets that are both highly informative and minimally redundant. As part of this framework, we introduce token-entropy filtering, which removes hidden states associated with low predictive-entropy tokens, thereby improving the quality of layer-selection statistics. In EAGLE3-style speculative decoding, our selected sets outperform fixed baseline choices, including the default $[2, N//2, N-3]$ rule, while providing a clearer explanation of why some defaults can remain com…",
+   "heat": 0.506,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 17.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "55036cd910cc",
+   "score": 5.63,
+   "title_zh": "分析 LLM 隐藏状态的信息与几何特性以实现推测解码",
+   "summary_zh": "该研究提出基于信息量和多样性的多层隐藏状态选择框架，用于推测解码。通过熵和 CKA 算法，选出的层集在 EAGLE3 风格的推测解码中优于固定基线。",
+   "tags": [
+    "高效推理",
+    "推测解码",
+    "LLM"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ]
+}
