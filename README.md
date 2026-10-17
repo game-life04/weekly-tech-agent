@@ -8,60 +8,60 @@
 
 <!-- wta:latest:start -->
 
-## 最新一期 · 2026-10-17（周六）
+## 最新一期 · 2026-10-18（周日）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
-> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-17.md)
+> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-18.md)
 
 ### 🗞️ AI 动态
 
-**1. [Muse Spark Open](https://research.meta.ai/blog/muse-spark-open)**<br>Muse Spark Open 是目前最强大的美国开源模型，支持 816B 参数和 1M 上下文窗口，专为编码和智能体工作设计。<br><sub>Hacker News · 899 分 · 465 评论 · #模型发布 #开源 #Apple · [讨论](https://news.ycombinator.com/item?id=50107379)</sub>
+**1. [DeepSeek-V4.1-Flash-1017 更新](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)**<br>DeepSeek-V4.1-Flash-1017 推理、编码和智能体任务性能提升，执行时间更短。<br><sub>Hacker News · 591 分 · 526 评论 · 886 喜欢 · 1.8k 下载 · 同时见于 Hugging Face 热门模型、魔搭 ModelScope 热门模型 · #模型发布 #开源 · 原题：DeepSeek-v4.1-Flash-1017 · [讨论](https://news.ycombinator.com/item?id=50129045) · [国内镜像](https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017)</sub>
 
-**2. [美国基准地图：AI 测试覆盖了 90% 的工作时间吗？](https://www.mercor.com/research/labor-index/benchmark-map/)**<br>新发布的基准地图评估了 AI 测试对美国经济各行业的覆盖情况，发现目前覆盖的经济价值工作仍然有限。<br><sub>Hacker News · 328 分 · 292 评论 · #评测 #行业动态 #基准测试 · 原题：90% of US working hours are spent on tasks not covered well by AI benchmarks · [讨论](https://news.ycombinator.com/item?id=50121179)</sub>
+**2. [DeepSeek: DeepSeek v4.1 Flash 1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017)**<br>DeepSeek v4.1 Flash 1017 专为编码、终端和智能体任务设计，压缩 KV 缓存显著降低成本。<br><sub>Hacker News · 511 分 · 5 评论 · #模型发布 #推理加速 · [讨论](https://news.ycombinator.com/item?id=50129121)</sub>
 
-**3. [Beam：501B 参数开源模型](https://huggingface.co/blog/reflection-beam)**<br>Reflection 实验室发布首个开源模型 Beam，支持文本输入和百万级上下文窗口。<br><sub>Hugging Face 博客 · #模型发布 #开源 · 原题：Welcome Beam: a 501B open model you can own, customize, and scale</sub>
+**3. [从记忆中发明 Transformer](https://alexwang.ai/posts/associative-memory/)**<br>本文探讨大型语言模型如何通过线性映射和 MLP 存储大量信息。<br><sub>Hacker News · 460 分 · 107 评论 · #论文 #技术解析 · 原题：You could have invented transformers from memory · [讨论](https://news.ycombinator.com/item?id=50122878)</sub>
 
-**4. [将 AI 智能体落地生物实验室](https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/)**<br>Google 研究将 AI 智能体与物理实验室机器人结合，实现快速闭环分子设计。<br><sub>Google Research · #行业动态 #智能体 · 原题：Grounding AI agents in biological reality: Building blocks for autonomous wet labs</sub>
+**4. [Claude半小时解开密码学悬案，学界集体走偏20年](https://www.qbitai.com/2026/10/503910.html)**<br>Claude不到半小时查明了五条NIST标准椭圆曲线的种子生成方式，解决了困扰业界二十多年的密码学谜题。<br><sub>量子位 · #模型发布 #密码学 #推理</sub>
 
-**5. [Anthropic 获得最高垃圾信用评级](https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d)**<br><sub>Hacker News · 163 分 · 44 评论 · #行业动态 #Anthropic · 原题：Anthropic assigned highest junk credit rating in June · [讨论](https://news.ycombinator.com/item?id=50122112)</sub>
+**5. [Anthropic的Claude在不到30分钟内破解了25年前的NSA密码学谜题](https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/)**<br>Claude发现NIST标准曲线的种子来自C语言库中的伪随机数生成器，降低了内置后门的可能。<br><sub>The Decoder · #模型发布 #密码学 #推理 · 原题：Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes</sub>
 
-**6. [在 Mac Studio 上使用 MLX 和 RDMA 进行分布式推理](https://machinelearning.apple.com/research/mlx-distributed-inference)**<br>MLX 框架利用 Apple 统一内存架构，让研究人员在本地硬件上运行大模型。<br><sub>Apple 机器学习研究 · 238 分 · 107 评论 · 同时见于 Hacker News · #推理加速 #开源工具 · 原题：Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio · [讨论](https://news.ycombinator.com/item?id=50118320)</sub>
+**6. [Llmspeed：本地 LLM 速度体验](https://llmspeed.dev/)**<br>Llmspeed 工具可在购买硬件前模拟本地 LLM 的运行速度。<br><sub>Hacker News · 223 分 · 75 评论 · #开源工具 #评测 · 原题：Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware · [讨论](https://news.ycombinator.com/item?id=50127979)</sub>
 
-**7. [Show HN：Gemini 4 Argon 玩星际争霸](https://starskirmish.com/bench/v0-2/)**<br>StarSkirmish 基准测试评估了 LLM 编写星际争霸机器人的能力，Gemini 4 Argon 在测试中表现出色。<br><sub>Hacker News · 171 分 · 75 评论 · #游戏 #评测 #Gemini · 原题：Show HN: Gemini 4 Argon plays StarCraft · [讨论](https://news.ycombinator.com/item?id=50118688)</sub>
+**7. [DeepSeek新模型性能提升，许愿式编程时代降临](https://zhidx.com/p/601905.html)**<br>DeepSeek V4.1-Flash-1017模型在多项基准测试中取得提升，并开放了自研搜索引擎API。<br><sub>智东西 · #模型发布 #开源工具 #编程 · 原题：梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临</sub>
 
-**8. [AI 不是黑箱，99% 神经元清晰可见](https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html)**<br>可解释性专家 Nick Cammarata 推翻十年前结论，称神经元检测的是几何形状而非物体。<br><sub>雷峰网 · #可解释性 #论文 · 原题：推翻一切！Nick Cammarata 万字长文宣告，AI 不是黑箱，99% 神经元清晰可见</sub>
+**8. [Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline](https://huggingface.co/blog/nvidia/scaling-indic-pretraining)**<br>NVIDIA和AI4Bharat发布了涵盖22种印度语言的2.8万亿token预训练数据集和开放数据生成管道。<br><sub>Hugging Face 博客 · #数据集 #开源 #多语言</sub>
 
 ### 🛠️ 开源圈
 
-**1. [xerj-org/xerj](https://github.com/xerj-org/xerj)**<br>XERJ 通过自动索引功能，使用比 grep 少 40 倍的 token 来搜索代码、文档和日志，兼容 Elasticsearch。<br><sub>GitHub Trending · 今日 +1.6k ★ · 6.9k ★ · #开源工具 #搜索 #RAG</sub>
+**1. [deepseek-ai/DeepSeek-V4.1-Flash](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash)**<br>图文理解模型<br><sub>魔搭 ModelScope 热门模型 · 680 喜欢 · 55.5k 下载</sub>
 
-**2. [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)**<br>Anthropic 官方维护的高质量 Claude Code 插件目录。<br><sub>GitHub Trending · 今日 +1.6k ★ · 40.4k ★ · #开源工具 #插件 #Anthropic</sub>
+**2. [anthropics/claude-code](https://github.com/anthropics/claude-code)**<br>Claude Code 是一个终端中的智能体编码工具，通过自然语言命令帮助用户编写代码。<br><sub>GitHub Trending · 今日 +168 ★ · 151.6k ★ · #开源工具 #智能体</sub>
 
-**3. [feder-cr/git-ai](https://github.com/feder-cr/git-ai)**<br>Git designed for AI agents.<br><sub>GitHub 新项目 · 1.1k ★</sub>
+**3. [thesysdev/openui](https://github.com/thesysdev/openui)**<br>The Open Standard for Generative UI<br><sub>GitHub Trending · 今日 +190 ★ · 11.6k ★</sub>
 
-**4. [obra/superpowers](https://github.com/obra/superpowers)**<br>superpowers 是一个智能体技能框架和软件开发方法论。<br><sub>GitHub Trending · 今日 +973 ★ · 300.6k ★ · #开源工具 #智能体 #开发框架</sub>
+**4. [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)**<br>《Hands-On Large Language Models》官方代码仓库。<br><sub>GitHub Trending · 今日 +128 ★ · 29.7k ★ · #开源工具 #教程</sub>
 
-**5. [Scaling Kimi K3 on AMD Instinct MI355X: Matching NVIDIA HGX B300 Throughput per GPU on AgentX](https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x)**<br>vLLM 团队分享了在 AMD Instinct MI355X 上优化 Kimi K3 推理速度的经验。<br><sub>vLLM 博客 · #推理加速 #开源工具</sub>
+**5. [anujasid/blender-ai-mcp-addon](https://github.com/anujasid/blender-ai-mcp-addon)**<br>Blender 的 AI 助手和 MCP 服务器，支持多智能体工作流。<br><sub>GitHub 新项目 · 589 ★ · #开源工具 #3D</sub>
 
-**6. [Reflection's Beam is freely available on Ollama for a limited time](https://ollama.com/blog/reflection-beam)**<br>Reflection 的 Beam 模型在 Ollama 上限时免费提供，支持软件工程和智能体任务。<br><sub>Ollama 博客 · #模型发布 #开源</sub>
+**6. [Hyper Optimizing Kimi K3 in vLLM: Moving Fast and Responsibly](https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel)**<br>vLLM通过代理辅助的CuTe DSL优化加速了Kimi K3在NVIDIA GB300上的解码速度。<br><sub>vLLM 博客 · #开源工具 #推理加速 #优化</sub>
 
-**7. [huggingface/transformers v5.20.0](https://github.com/huggingface/transformers/releases/tag/v5.20.0)**<br>次版本更新<br><sub>GitHub 版本发布 · #模型发布 #开源工具</sub>
+**7. [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator)**<br>OpenCreator 是一个开源 AI 创作者工作区，支持视频翻译、配音和社交媒体内容创作。<br><sub>GitHub Trending · 今日 +198 ★ · 13.6k ★ · #开源工具 #视频</sub>
 
-**8. [anomalyco/opencode](https://github.com/anomalyco/opencode)**<br>The open source coding agent.<br><sub>GitHub Trending · 今日 +485 ★ · 214.3k ★</sub>
+**8. [meta-models/Muse-Spark-Open-816B-A42B](https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)**<br>图文理解模型，许可证 other<br><sub>Hugging Face 热门模型 · 500 喜欢 · 1.6k 下载 · 同时见于 魔搭 ModelScope 热门模型 · [国内镜像](https://hf-mirror.com/meta-models/Muse-Spark-Open-816B-A42B)</sub>
 
 ### 📄 前沿论文
 
-**1. [OpenGCUA：通用计算机使用全栈开源](https://arxiv.org/abs/2610.22200)**<br>OpenGCUA 旨在构建一个通用的计算机使用智能体全栈开源项目。它通过代码执行和决策转移机制，在 OSWorld-v2 评测中显著提升了多个模型的任务得分。<br><sub>Hugging Face 热门论文 · 266 赞 · #智能体 #计算机使用 #开源 · 原题：OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use · [代码](https://github.com/Tongyi-MAI/OpenGCUA)</sub>
+**1. [OmniCompass：全模态视频理解基准](https://arxiv.org/abs/2610.18829)**<br>现有视频理解基准评估维度不全，难以系统诊断全模态视频理解能力。论文提出OmniCompass基准，包含两个评估轨道和三种互补任务，涵盖820个视频和720个实例。实验表明开源模型仍落后于专有模型。<br><sub>Hugging Face 热门论文 · 576 赞 · #多模态 #评测 #视频理解 · 原题：OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding · [代码](https://github.com/PolyU-VCLab/OmniCompass)</sub>
 
-**2. [Waypoint-OPD：通过门控策略蒸馏转移RL诱导的策略变化](https://arxiv.org/abs/2610.21601)**<br>Waypoint-OPD 提出利用早期和晚期教师策略变化的相对一致性来指导选择性转移。该方法在数学和代码推理任务中，相比仅使用端点转移的方法表现更优。<br><sub>Hugging Face 热门论文 · 451 赞 · #强化学习 #策略蒸馏 #知识蒸馏 · 原题：Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation · [代码](https://github.com/hhhbxloveai/WaypointOPD)</sub>
+**2. [MAI-Gym：跨移动与计算机环境的GUI智能体评测与RL训练平台](https://arxiv.org/abs/2610.20939)**<br>GUI智能体训练面临交互环境成本高和真实任务稀缺的挑战。论文介绍MAI-Gym平台，统一了评测、数据收集和在线RL训练，支持20,000个并行环境实例。训练的MAI-Gym-9B模型在移动和计算机任务上达到SOTA性能。<br><sub>arXiv · 智能体 · 153 赞 · #智能体 #强化学习 #评测 · 原题：MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments · [代码](https://github.com/Tongyi-MAI/MAI-Gym)</sub>
 
-**3. [Any Time, Any Space：基于世界状态的智能体视频生成框架](https://arxiv.org/abs/2610.20571)**<br>ATAS 框架通过显式引用位置、相机和事件时间，将剧本转化为具有时空一致性的镜头请求。它在多个视频生成器和基准测试中，显著提高了跨镜头的一致性。<br><sub>Hugging Face 热门论文 · 340 赞 · #视频生成 #智能体 #一致性 · 原题：Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation · [代码](https://github.com/ziplab/ATAS)</sub>
+**3. [自进化智能体框架](https://arxiv.org/abs/2610.18813)**<br>智能体软件架构的迭代更新能提升性能。论文提出自进化框架，通过反馈驱动机制持续优化提示、记忆和工作流，并分离更新目标与提议机制。分析表明该方法在特定假设下能提供泛化界和保留界。<br><sub>arXiv · 智能体 · 196 赞 · #智能体 #强化学习 #优化 · 原题：Self-Evolving Agent Harness · [代码](https://github.com/zgcagi/Harness-RSI)</sub>
 
-**4. [KV4-RL：解锁 RLVR 的 INT4 KV 缓存量化加速](https://arxiv.org/abs/2610.14448)**<br>KV4-RL 结合无校准 INT4 量化和选择性 INT8 保护，解决了 INT4 推理可能降低学习效果的问题。在 Qwen3-8B-Base GRPO 训练中，它实现了显著的加速。<br><sub>arXiv · 高效推理 · 36 赞 · #高效推理 #强化学习 #量化 · 原题：KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization</sub>
+**4. [FDE-Gym：AI交付的最后一公里](https://arxiv.org/abs/2610.22350)**<br>现有基准任务定义明确，但现实交付需处理模糊需求和未说明约束。论文提出FDE-Gym基准，包含95个端到端交付任务。实验发现模型在发现未说明约束时性能显著下降，这是主要瓶颈。<br><sub>Hugging Face 热门论文 · 282 赞 · #智能体 #评测 #交付 · 原题：FDE-Gym: The Last Mile of AI Delivery · [代码](https://github.com/deeplethe/fde-gym)</sub>
 
-**5. [分析 LLM 隐藏状态的信息与几何特性以实现推测解码](https://arxiv.org/abs/2610.12939)**<br>该研究提出基于信息量和多样性的多层隐藏状态选择框架，用于推测解码。通过熵和 CKA 算法，选出的层集在 EAGLE3 风格的推测解码中优于固定基线。<br><sub>arXiv · 高效推理 · 17 赞 · #高效推理 #推测解码 #LLM · 原题：Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding</sub>
+**5. [联合子空间稀疏注意力用于高效长上下文解码](https://arxiv.org/abs/2610.19026)**<br>稀疏注意力能减少长上下文LLM解码的KV缓存流量，但现有方法粒度粗糙。论文提出联合子空间稀疏注意力（JSSA），通过学习共享低维查询-键子空间提升选择质量，并开发无gather的索引注意力内核。在128K上下文下，JSSA比全KV注意力吞吐量提升6.43倍。<br><sub>arXiv · 长上下文与检索 · 13 赞 · #长上下文 #推理加速 #注意力机制 · 原题：Joint Subspace Sparse Attention for Efficient Long-Context Decoding · [代码](https://github.com/jiwonsong-dev/JSSA)</sub>
 
-<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 58、RSS 订阅 54（40 个源）、量子位 5、GitHub Trending 48、GitHub 新项目 293、GitHub 版本发布 5、热门模型 16（2 个源）、论文 27。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-17 06:05（北京时间）自动生成。</sub>
+<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 38、RSS 订阅 48（40 个源）、量子位 5、GitHub Trending 42、GitHub 新项目 294、GitHub 版本发布 5、热门模型 16（2 个源）、论文 34。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-18 05:28（北京时间）自动生成。</sub>
 
 <!-- wta:latest:end -->
 

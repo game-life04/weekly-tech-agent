@@ -1,4 +1,4 @@
 {
- "overview": "Muse Spark Open 发布，成为最强开源模型；Google 推出 Gemini 4 Argon，将视频转化为物理模拟。两者均体现了模型在长上下文、多模态及科学计算领域的突破，推动 AI 从通用对话向专业应用深化。",
- "as_of": "2026-10-17"
+ "overview": "本周开源模型与智能体技术持续突破，DeepSeek v4.1 Flash 1017 和 Muse Spark Open 等模型在编码与智能体任务上性能提升，同时 Agent-Reflex、OpenGCUA 等研究聚焦于智能体的反思能力与长周期工具编排，推动 AI 智能体向更自主、更高效的通用化方向发展。",
+ "as_of": "2026-10-18"
 }

@@ -1,0 +1,1104 @@
+{
+ "date": "2026-10-18",
+ "generated_at": "2026-10-17T21:28:03Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 434,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 38,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 5.6
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 42,
+   "error": "",
+   "seconds": 9.6
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 294,
+   "error": "",
+   "seconds": 21.1
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 18.1
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 21.8
+  }
+ ],
+ "items": [
+  {
+   "title": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-17T08:21:25Z",
+   "summary": "图文理解模型，许可证 mit",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 591.0,
+    "comments": 526.0,
+    "likes": 886.0,
+    "downloads": 1819.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50129045",
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+     ]
+    ],
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "We’re on a journey to advance and democratize artificial intelligence through open source and open science. DeepSeek-V4.1-Flash-1017 is a minor update to DeepSeek-V4.1-Flash , delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks. Alongside these gains, the model reduces task execution time and output length, enabling users to complete tasks faster and at lower cost and advancing the performance–cost Pareto frontier across multiple agent harnesses. † denotes the text-only subset of HLE. We use the Claude Code harness for Terminal-Bench 4.0 and the Mini-SWE-V2 harness for DeepSWE v1.1. This release does not include a Jinja-format chat template. The encoding folder contains a self-contained Python reference implementation ( encoding.py ) with tes…",
+    "llm_done": true
+   },
+   "id": "8b553ca25e96",
+   "score": 8.78,
+   "title_zh": "DeepSeek-V4.1-Flash-1017 更新",
+   "summary_zh": "DeepSeek-V4.1-Flash-1017 推理、编码和智能体任务性能提升，执行时间更短。",
+   "tags": [
+    "模型发布",
+    "开源"
+   ],
+   "also_in": [
+    "Hugging Face 热门模型",
+    "魔搭 ModelScope 热门模型"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+   "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-17T08:37:46Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 511.0,
+    "comments": 5.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50129121",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. It is suited for coding, terminal, and computer-use agents, along with long-horizon tasks that must run to completion across many steps and long-context analysis. Compressed KV caching cuts cache memory to roughly a quarter of the previous Flash generation, significantly reducing costs on agentic workloads. DeepSeek positions it as the cost-efficient tier of the V4.1 family and reports that it exceeds V4 Pro Opens in new tab on performance, speed, and task completion time. Different companies host the same model. OpenRouter routes your request to one of them based on the routing mode you pick — Balanced (price + speed), Nitro (fastest), or Floor (…",
+    "llm_done": true
+   },
+   "id": "df7f3ef335bb",
+   "score": 8.78,
+   "title_zh": "",
+   "summary_zh": "DeepSeek v4.1 Flash 1017 专为编码、终端和智能体任务设计，压缩 KV 缓存显著降低成本。",
+   "tags": [
+    "模型发布",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "You could have invented transformers from memory",
+   "url": "https://alexwang.ai/posts/associative-memory/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-16T19:01:17Z",
+   "summary": "",
+   "heat": 0.987,
+   "weight": 0.6,
+   "metrics": {
+    "points": 460.0,
+    "comments": 107.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50122878",
+    "needs_review": true,
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Every layer is a memory store Large language models today can recall obscure facts from every corner of the world. Most recently, I was running late for a friend’s board game night, so I asked Astra to remind me the rules to Dune: Imperium. It gladly narrated them to me as I drove over and helped me remember the rules well enough for me to play again. We’re so used to asking models about anything that we take their vast knowledge for granted. How do models remember so much information? And how much can they store? In this post, I’ll go through an intuitive way to look at linear maps, MLPs, and self-attention as different kinds of memory stores. From this intuition we can derive some heuristics for how much memory each layer can store. The key property that characterizes a “good” memory st…",
+    "llm_done": true
+   },
+   "id": "90b929133cf8",
+   "score": 8.64,
+   "title_zh": "从记忆中发明 Transformer",
+   "summary_zh": "本文探讨大型语言模型如何通过线性映射和 MLP 存储大量信息。",
+   "tags": [
+    "论文",
+    "技术解析"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+   "url": "https://www.qbitai.com/2026/10/503910.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-17T12:06:51Z",
+   "summary": "谜底指向时间",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "谜底指向时间 刚刚，据Anthropic披露，Claude用 不到半小时 ，查明了五条NIST标准椭圆曲线的种子生成方式。 这串业界用了二十多年的数字，一度被写进密码学标准，但最初是怎么选出来的，一直没人能说清。 人们甚至找到了当事人，线索指向一句 “给Bob和Jerry加薪” 的口令哈希运算。 它能让接收方检查，一份数据是否由声称的签署者签发，以及签署后有没有被修改。2000年，它被美国国家标准与技术研究院NIST纳入FIPS 186-2数字签名标准。 使用这套算法之前，还得先选定一些公共数学参数，包括曲线P-192、P-224、P-256、P-384和P-521。 可以把种子理解为生成曲线参数的起始材料：拿到种子，按照标准规定的步骤运算，就能检查后面的参数是否对得上。 就连当年提供种子的Jerry Solinas也已经记忆模糊，只大致记得，他们曾把一句可能是加薪的玩笑口令转换成数字，再加了计数器。 于是这二十多年来，大家都在往这个方向猜，密码学工程师Filippo Valsorda还发布了 悬赏令 ，高调邀请大家寻找这五组种子的前身。 按照Anthropic的描述，员工在把问题交给内部研究模型时，并没有告知这条加薪口令的线索。 Claude于是自行猜测，这些数字也许来自 90年代C语言库 里的伪随机数生成器。 因为这类程序生成的数字看似杂乱，背后却遵循固定规律。只要认出规律，就有机会倒推出生成过程。 随后Claude写了一个 扫描程序 ，把公开种子里的二进制数字一位位挪着检查，测试了34种生成器与输出截取方式的组合。 结果发现，四组种子分别拆成五个32位整数后，这20个整数的最高位， 居然全是0 。 lrand48内部保存着一个48位整数，每调用一次，它就把这个整数乘上固定常数，再加上另一个常数，最后只保留结果的低48位，作为下一轮状态。 负责初始化的函数叫srand…",
+    "llm_done": true
+   },
+   "id": "df841427410b",
+   "score": 7.86,
+   "title_zh": "Claude半小时解开密码学悬案，学界集体走偏20年",
+   "summary_zh": "Claude不到半小时查明了五条NIST标准椭圆曲线的种子生成方式，解决了困扰业界二十多年的密码学谜题。",
+   "tags": [
+    "模型发布",
+    "密码学",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+   "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-17T14:42:56Z",
+   "summary": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the seeds came from \"lrand48,\" a simple C random number generator, making deliberate backdoors far less likely. The article Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 mi…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "ea40b1e0e99e",
+   "score": 7.73,
+   "title_zh": "Anthropic的Claude在不到30分钟内破解了25年前的NSA密码学谜题",
+   "summary_zh": "Claude发现NIST标准曲线的种子来自C语言库中的伪随机数生成器，降低了内置后门的可能。",
+   "tags": [
+    "模型发布",
+    "密码学",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+   "url": "https://llmspeed.dev/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-17T04:36:53Z",
+   "summary": "",
+   "heat": 0.871,
+   "weight": 0.6,
+   "metrics": {
+    "points": 223.0,
+    "comments": 75.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50127979",
+    "excerpt_tried": true,
+    "evidence": "Pick hardware and a model, and feel the real speed of a local LLM before you buy. Simulates tokens/sec and time-to-first-token from verified benchmarks for GPUs, Macs, and more. Estimates for a short prompt on a single device. Measured numbers come from community benchmarks (r/LocalLLaMA, localscore.ai and more); others are derived from similar setups or projected from specs. Open source on GitHub .",
+    "llm_done": true
+   },
+   "id": "1e487892ae4a",
+   "score": 7.72,
+   "title_zh": "Llmspeed：本地 LLM 速度体验",
+   "summary_zh": "Llmspeed 工具可在购买硬件前模拟本地 LLM 的运行速度。",
+   "tags": [
+    "开源工具",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临",
+   "url": "https://zhidx.com/p/601905.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-10-17T10:03:11Z",
+   "summary": "智东西 作者 | 杨京丽 编辑 | 李水青 智东西10月17日报道，刚刚，DeepSeek V4.1 Flash更新至 V4.1-Flash-1017版本 ，官方网页端、App与API已同步更新至新模型，模型权重也已在HuggingFace和ModelScope开放下载。DeepSeek还向公众开放自研搜索引擎的 Search（搜索）与Fetch（抓取）API ，两个接口均定价为 5元/千次 。 此次更新距离该模型发布仅过去一个多月。9月10日， DeepSeek正式推出V4.1-Flash ，在性能上超越了DeepSeek-V4-Pro。 开源地址： HuggingFace: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 ModelScope: https://modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017 模型更新主要围绕 性能、任务执行效率和完整项目开发能力 展开。DeepSeek称，相比上一版本，新模型在多项基准测试中取得提升，同时缩短…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "186fdbb6848f",
+   "score": 7.52,
+   "title_zh": "DeepSeek新模型性能提升，许愿式编程时代降临",
+   "summary_zh": "DeepSeek V4.1-Flash-1017模型在多项基准测试中取得提升，并开放了自研搜索引擎API。",
+   "tags": [
+    "模型发布",
+    "开源工具",
+    "编程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+   "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-10-16T01:44:47Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by NVIDIA on Hugging Face Native-script data for 22 languages, romanized data for twelve, and a reusable GPU-accelerated pipeline for translation, quality assessment, and repair. Authors: AI4Bharat — Mohammed Safi Ur Rahman Khan, Mitesh Khapra, Anoop Kunchukuttan. NVIDIA — Niket Agarwal, Raviraj Joshi, Anusha Kamath, Markus Kliegl, Yev Meyer, Sriharsha Niverty, Kiran Praveen, Utkarsh Vaidya. We're excited to introduce Nemotron-pretraining-Indic-v1 approximately 2.8 trillion tokens across 22 Indian languages , releasing soon alongside the open, GPU-accelerated data generation pipeline used to create it. These are the 22 languages listed in India's Constitution: the first languages for 97% of Indians, or nearly 1.2 billion citizens at the 2011 Census. Developed by NVIDIA with II…",
+    "llm_done": true
+   },
+   "id": "af14d0aa7e59",
+   "score": 7.31,
+   "title_zh": "",
+   "summary_zh": "NVIDIA和AI4Bharat发布了涵盖22种印度语言的2.8万亿token预训练数据集和开放数据生成管道。",
+   "tags": [
+    "数据集",
+    "开源",
+    "多语言"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "url": "https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "魔搭 ModelScope 热门模型",
+   "published": "",
+   "summary": "图文理解模型",
+   "heat": 0.858,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 680.0,
+    "downloads": 55547.0
+   },
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "79d85ad500eb",
+   "score": 8.12,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "heat": 0.641,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 168.0,
+    "stars": 151642.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "020aa1c48a7d",
+   "score": 7.8,
+   "title_zh": "",
+   "summary_zh": "Claude Code 是一个终端中的智能体编码工具，通过自然语言命令帮助用户编写代码。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "thesysdev/openui",
+   "url": "https://github.com/thesysdev/openui",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The Open Standard for Generative UI",
+   "heat": 0.656,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 190.0,
+    "stars": 11562.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ae427be50ce5",
+   "score": 7.23,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "HandsOnLLM/Hands-On-Large-Language-Models",
+   "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+   "heat": 0.607,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 128.0,
+    "stars": 29744.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5d39b29f2ce5",
+   "score": 7.13,
+   "title_zh": "",
+   "summary_zh": "《Hands-On Large Language Models》官方代码仓库。",
+   "tags": [
+    "开源工具",
+    "教程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anujasid/blender-ai-mcp-addon",
+   "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
+   "heat": 0.872,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 589.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "835b8e1e1351",
+   "score": 6.94,
+   "title_zh": "",
+   "summary_zh": "Blender 的 AI 助手和 MCP 服务器，支持多智能体工作流。",
+   "tags": [
+    "开源工具",
+    "3D"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Hyper Optimizing Kimi K3 in vLLM: Moving Fast and Responsibly",
+   "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-16T00:00:00Z",
+   "summary": "How agent-assisted CuTe DSL optimizations accelerate Kimi K3 decode on NVIDIA GB300, and how scoped changes, correctness tests, and reproducible benchmarks help ship them responsibly.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "80bc90fe0bb5",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "vLLM通过代理辅助的CuTe DSL优化加速了Kimi K3在NVIDIA GB300上的解码速度。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "krillinai/OpenCreator",
+   "url": "https://github.com/krillinai/OpenCreator",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
+   "heat": 0.661,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 198.0,
+    "stars": 13621.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "b027e796535f",
+   "score": 6.64,
+   "title_zh": "",
+   "summary_zh": "OpenCreator 是一个开源 AI 创作者工作区，支持视频翻译、配音和社交媒体内容创作。",
+   "tags": [
+    "开源工具",
+    "视频"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "meta-models/Muse-Spark-Open-816B-A42B",
+   "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图文理解模型，许可证 other",
+   "heat": 0.768,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 500.0,
+    "downloads": 1600.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/meta-models/Muse-Spark-Open-816B-A42B"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "6085ef351233",
+   "score": 6.34,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "魔搭 ModelScope 热门模型"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+   "url": "https://arxiv.org/abs/2610.18829",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-13T00:00:00Z",
+   "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understanding. OmniCompass defines two evaluation tracks: OmniCompass-VL assesses vision-language models on tasks requiring visual evidence, while OmniCompass-AV assesses omni-modal models on tasks requiring joint audio-visual evidence. Each track includes three complementary tasks: temporal grounding (TG), spatial grounding (SG), and question answering (QA), assessing when a referenced target appears, where it is, and what happens. QA covers five perception and three reasoning categories in OmniCompass-VL, and three perception and two reasoning categories in OmniCompass-AV. OmniCompass-VL contains 820 videos and 2,460 instances across domains and three duration types: short, medium, and long. A narrative- and audio-rich subset forms OmniCompass-AV with 240 videos and 720 instances. Each instance is evaluated under two paired settings: text-only and text+image, specifying the same target through text and visual-language guidance. All instances are manually annotated with multi-round quality verification. Evaluations of 50 MLLMs show that open-source models still lag behind proprietary counter…",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 576.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/PolyU-VCLab/OmniCompass"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "38b4bdab67fe",
+   "score": 7.67,
+   "title_zh": "OmniCompass：全模态视频理解基准",
+   "summary_zh": "现有视频理解基准评估维度不全，难以系统诊断全模态视频理解能力。论文提出OmniCompass基准，包含两个评估轨道和三种互补任务，涵盖820个视频和720个实例。实验表明开源模型仍落后于专有模型。",
+   "tags": [
+    "多模态",
+    "评测",
+    "视频理解"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+   "url": "https://arxiv.org/abs/2610.20939",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-14T21:06:01Z",
+   "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL training across mobile, computer, and web environments. Through a shared rollout pipeline, MAI-Gym ensures consistent agent behavior across evaluation and training, supports ten established benchmarks, and scales to 20,000 parallel environment instances. Beyond scalable infrastructure, MAI-Gym enables automated synthesis of diverse GUI applications and challenging tasks, including resettable mocked apps and coherent cross-app worlds with execution-validated task verifiers. Using MAI-Gym, we train MAI-Gym-9B, a unified 9B agent for mobile and computer use, achieving state-of-the-art performance among open GUI agents under 10B parameters: 78.4% on MobileWorld and 76.2% on OSWorld-Verified. Importantly, RL in a mocked train-ticketing app transfers to its real-world counterpart, improving task success on a phys- ical phone from 28.8% to 48.1%. We release the framework, synthesis skills, mocked apps, 2,000 verified tasks, and the model checkpoint to support repro- ducible research and further advances in scalable GUI agent training.",
+   "heat": 0.883,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 153.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Tongyi-MAI/MAI-Gym"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3fdde7c257bf",
+   "score": 7.21,
+   "title_zh": "MAI-Gym：跨移动与计算机环境的GUI智能体评测与RL训练平台",
+   "summary_zh": "GUI智能体训练面临交互环境成本高和真实任务稀缺的挑战。论文介绍MAI-Gym平台，统一了评测、数据收集和在线RL训练，支持20,000个并行环境实例。训练的MAI-Gym-9B模型在移动和计算机任务上达到SOTA性能。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Self-Evolving Agent Harness",
+   "url": "https://arxiv.org/abs/2610.18813",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-13T17:48:49Z",
+   "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through evolutionary optimization and examine its reliability through continual PAC-learning. Under explicit assumptions, the analysis yields an expected generalization bound, a retention bound conditional on historical regression budgets, and a high-probability admission rule using fresh, independent validation data. We examine how persistent harness revisions affect knowledge sharing and organizational workflows, with implications for scientific reliability, physical safety, and institutional accountability. Cases from prior work illustrate model--harness co-design, distributed execution, and plugin reuse. Reliable deployment requires continual validation as task distributions and evaluators change, with independent safeguards for learning, runtime privileges, and consequential actions. We provide a comprehensive 66-page discussion of related work, theory, algorithms, evaluation, applications, and the broader impact of Harness RSI, together with continuously updated code and supplementary mat…",
+   "heat": 0.926,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 196.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/zgcagi/Harness-RSI"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "56b180964d65",
+   "score": 7.2,
+   "title_zh": "自进化智能体框架",
+   "summary_zh": "智能体软件架构的迭代更新能提升性能。论文提出自进化框架，通过反馈驱动机制持续优化提示、记忆和工作流，并分离更新目标与提议机制。分析表明该方法在特定假设下能提供泛化界和保留界。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "FDE-Gym: The Last Mile of AI Delivery",
+   "url": "https://arxiv.org/abs/2610.22350",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated customer environments with scripted stakeholders and modifiable customer systems, agents interact with stakeholders and operate on production-like systems to deliver working solutions. FDE-Gym scores a delivery by how much it improves the customer's own success metric, normalized between 0 (unchanged system) and 1 (reference solution), with penalties for stakeholder interactions (messages, trial runs, and waiting time). An online platform lets humans practice FDE skills under the same grading criteria. We evaluate 13 model configurations from seven providers. In the realistic setting, where unstated constraints must be discovered, the best configuration achieves a mean FDE-Gym score of 0.56 and resolves only 14 of the 95 tasks (a score of at least 0.8 with no incident). Discovering unstated constraints is the primary bottleneck: performance drops sharply when models must uncover them without explicit guidance. Yet information discovery alone does not account for the gap: even on the 23…",
+   "heat": 0.989,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 282.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/deeplethe/fde-gym"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "dc19a790056b",
+   "score": 7.19,
+   "title_zh": "FDE-Gym：AI交付的最后一公里",
+   "summary_zh": "现有基准任务定义明确，但现实交付需处理模糊需求和未说明约束。论文提出FDE-Gym基准，包含95个端到端交付任务。实验发现模型在发现未说明约束时性能显著下降，这是主要瓶颈。",
+   "tags": [
+    "智能体",
+    "评测",
+    "交付"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
+   "url": "https://arxiv.org/abs/2610.19026",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-13T18:18:47Z",
+   "summary": "Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely operate at coarse granularity. Token-level selection offers finer control, yet presents two challenges: low-dimensional scoring may lose query--key structure needed for accurate ranking, while gathering scattered selected tokens can offset the resulting latency benefit. We introduce Joint Subspace Sparse Attention (JSSA) to address both challenges. For selection quality, JSSA learns a shared low-dimensional query--key subspace by minimizing token-score preservation error. We upper-bound the resulting non-convex objective with a tractable marginal objective that admits a closed-form spectral solution; direct refinement of the exact objective provides no measurable improvement in the tested settings. For execution efficiency, we develop a gather-free token-level indexed-attention kernel that supports distinct per-KV-head selections under the standard grouped-query attention (GQA) KV-cache layout. Across standard GQA, hybrid sliding-window/global attention, and Multi-head Latent Attention (MLA) models, JSSA consistently remains close to full-KV accuracy while avoiding the substantial generation-length inflation and architecture-dependent failures observed with competing methods. On an NVIDIA B200 GPU, JSSA achieves up to $6.43\\times$ the decoding throughput of full-KV attention at 128K context. JSSA achieves reasoning accuracy comparable to model-native DSA with…",
+   "heat": 0.462,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 13.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/jiwonsong-dev/JSSA"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "e91ce7b70889",
+   "score": 5.68,
+   "title_zh": "联合子空间稀疏注意力用于高效长上下文解码",
+   "summary_zh": "稀疏注意力能减少长上下文LLM解码的KV缓存流量，但现有方法粒度粗糙。论文提出联合子空间稀疏注意力（JSSA），通过学习共享低维查询-键子空间提升选择质量，并开发无gather的索引注意力内核。在128K上下文下，JSSA比全KV注意力吞吐量提升6.43倍。",
+   "tags": [
+    "长上下文",
+    "推理加速",
+    "注意力机制"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ]
+}
