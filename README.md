@@ -8,60 +8,60 @@
 
 <!-- wta:latest:start -->
 
-## 最新一期 · 2026-10-18（周日）
+## 最新一期 · 2026-10-19（周一）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
-> [本周周报](weekly/2026-W42.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-18.md)
+> [本周周报](weekly/2026-W43.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-19.md)
 
 ### 🗞️ AI 动态
 
-**1. [DeepSeek-V4.1-Flash-1017 更新](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)**<br>DeepSeek-V4.1-Flash-1017 推理、编码和智能体任务性能提升，执行时间更短。<br><sub>Hacker News · 591 分 · 526 评论 · 886 喜欢 · 1.8k 下载 · 同时见于 Hugging Face 热门模型、魔搭 ModelScope 热门模型 · #模型发布 #开源 · 原题：DeepSeek-v4.1-Flash-1017 · [讨论](https://news.ycombinator.com/item?id=50129045) · [国内镜像](https://hf-mirror.com/deepseek-ai/DeepSeek-V4.1-Flash-1017)</sub>
+**1. [Sphinx：在代码发布前测试你的 AI](https://sphinx-six-theta.vercel.app/)**<br>Sphinx 是一个 Git hook，在 AI 代码发布前询问开发者关于代码功能的理解，防止盲目信任。<br><sub>Hacker News · 233 分 · 76 评论 · #工具 #AI 辅助开发 #安全 · 原题：Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping · [讨论](https://news.ycombinator.com/item?id=50137950)</sub>
 
-**2. [DeepSeek: DeepSeek v4.1 Flash 1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017)**<br>DeepSeek v4.1 Flash 1017 专为编码、终端和智能体任务设计，压缩 KV 缓存显著降低成本。<br><sub>Hacker News · 511 分 · 5 评论 · #模型发布 #推理加速 · [讨论](https://news.ycombinator.com/item?id=50129121)</sub>
+**2. [Anthropic 提议的安全法案门槛较高](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model)**<br>Anthropic 提议的 AI 安全法案仅在造成 50 人死亡或 10 亿美元损失时才启动。<br><sub>Hacker News · 147 分 · 160 评论 · #政策 #AI 安全 #行业动态 · 原题：Anthropic's proposed AI safety bill only kicks in if 50 deaths or <span>$</span>1B in damages · [讨论](https://news.ycombinator.com/item?id=50141429)</sub>
 
-**3. [从记忆中发明 Transformer](https://alexwang.ai/posts/associative-memory/)**<br>本文探讨大型语言模型如何通过线性映射和 MLP 存储大量信息。<br><sub>Hacker News · 460 分 · 107 评论 · #论文 #技术解析 · 原题：You could have invented transformers from memory · [讨论](https://news.ycombinator.com/item?id=50122878)</sub>
+**3. [DeepSeek 推出搜索和抓取 API](https://api-docs.deepseek.com/guides/search/)**<br>DeepSeek 提供 Search API 和 Fetch API，让智能体和 RAG 应用能访问实时网络内容。<br><sub>Hacker News · 502 分 · 245 评论 · #API #DeepSeek #RAG · 原题：DeepSeek search and fetch – <span>$</span>0.75 per 1000 successful requests · [讨论](https://news.ycombinator.com/item?id=50138531)</sub>
 
-**4. [Claude半小时解开密码学悬案，学界集体走偏20年](https://www.qbitai.com/2026/10/503910.html)**<br>Claude不到半小时查明了五条NIST标准椭圆曲线的种子生成方式，解决了困扰业界二十多年的密码学谜题。<br><sub>量子位 · #模型发布 #密码学 #推理</sub>
+**4. [网站对 AI 智能体日益不友好](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)**<br>OpenAI、Meta、Google 等公司推动 AI 智能体，但主流网站正限制其访问。<br><sub>Hacker News · 129 分 · 121 评论 · #行业动态 #智能体 #生态 · 原题：Websites are closing their doors to AI agents · [讨论](https://news.ycombinator.com/item?id=50141657)</sub>
 
-**5. [Anthropic的Claude在不到30分钟内破解了25年前的NSA密码学谜题](https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/)**<br>Claude发现NIST标准曲线的种子来自C语言库中的伪随机数生成器，降低了内置后门的可能。<br><sub>The Decoder · #模型发布 #密码学 #推理 · 原题：Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes</sub>
+**5. [VAST开源实时世界模型EdenLive：单卡720P超24FPS](https://www.qbitai.com/2026/10/504136.html)**<br>VAST发布EdenLive，在单张消费级显卡上实现720P超24FPS的实时画面生成。<br><sub>量子位 · #模型发布 #实时渲染 #开源 · 原题：VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS</sub>
 
-**6. [Llmspeed：本地 LLM 速度体验](https://llmspeed.dev/)**<br>Llmspeed 工具可在购买硬件前模拟本地 LLM 的运行速度。<br><sub>Hacker News · 223 分 · 75 评论 · #开源工具 #评测 · 原题：Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware · [讨论](https://news.ycombinator.com/item?id=50127979)</sub>
+**6. [DeepSeek新模型发布，超级性价比斩杀一切](https://www.qbitai.com/2026/10/504067.html)**<br>DeepSeek发布V4.1-Flash-1017新模型，在Agent任务中性能提升且成本降低。<br><sub>量子位 · #模型发布 #Agent #性价比 · 原题：突发！DeepSeek新模型发布，超级性价比斩杀一切</sub>
 
-**7. [DeepSeek新模型性能提升，许愿式编程时代降临](https://zhidx.com/p/601905.html)**<br>DeepSeek V4.1-Flash-1017模型在多项基准测试中取得提升，并开放了自研搜索引擎API。<br><sub>智东西 · #模型发布 #开源工具 #编程 · 原题：梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临</sub>
+**7. [Meta shakes up the frontiers, open and closed](https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open)**<br>Meta发布Muse Spark Open，成为目前最强的美国开源模型。<br><sub>Interconnects · #模型发布 #开源 #Meta</sub>
 
-**8. [Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline](https://huggingface.co/blog/nvidia/scaling-indic-pretraining)**<br>NVIDIA和AI4Bharat发布了涵盖22种印度语言的2.8万亿token预训练数据集和开放数据生成管道。<br><sub>Hugging Face 博客 · #数据集 #开源 #多语言</sub>
+**8. [DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早…](http://www.geekpark.net/news/372512)**<br>DeepSeek V4.1 Flash 新版本上线，许愿式编程一键成真。<br><sub>极客公园 · #模型发布 #编程 #极客早知道 · 原题：DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道</sub>
 
 ### 🛠️ 开源圈
 
-**1. [deepseek-ai/DeepSeek-V4.1-Flash](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash)**<br>图文理解模型<br><sub>魔搭 ModelScope 热门模型 · 680 喜欢 · 55.5k 下载</sub>
+**1. [vllm-project/vllm v0.32.0](https://github.com/vllm-project/vllm/releases/tag/v0.32.0)**<br>vLLM v0.32.0发布，新增结构化决策和通用解析器。<br><sub>GitHub 版本发布 · #开源工具 #推理加速 #vLLM</sub>
 
-**2. [anthropics/claude-code](https://github.com/anthropics/claude-code)**<br>Claude Code 是一个终端中的智能体编码工具，通过自然语言命令帮助用户编写代码。<br><sub>GitHub Trending · 今日 +168 ★ · 151.6k ★ · #开源工具 #智能体</sub>
+**2. [ruvnet/ruflo](https://github.com/ruvnet/ruflo)**<br>Ruflo 是一个智能体框架，支持多智能体协作、自适应记忆和向量 RAG 集成。<br><sub>GitHub Trending · 今日 +502 ★ · 76.5k ★ · #开源 #智能体 #框架</sub>
 
-**3. [thesysdev/openui](https://github.com/thesysdev/openui)**<br>The Open Standard for Generative UI<br><sub>GitHub Trending · 今日 +190 ★ · 11.6k ★</sub>
+**3. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)**<br>OmniRoute 是一个免费的 MIT AI 网关，支持 375 个提供商和 1400+ 模型，可减少 token 消耗。<br><sub>GitHub Trending · 今日 +411 ★ · 78.1k ★ · #开源 #网关 #工具</sub>
 
-**4. [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)**<br>《Hands-On Large Language Models》官方代码仓库。<br><sub>GitHub Trending · 今日 +128 ★ · 29.7k ★ · #开源工具 #教程</sub>
+**4. [zai-org/ZCode](https://github.com/zai-org/ZCode)**<br>ZCode 是 Z.ai 的强大、智能且可扩展的编码智能体框架。<br><sub>GitHub 新项目 · 7.9k ★ · #开源 #智能体 #框架</sub>
 
-**5. [anujasid/blender-ai-mcp-addon](https://github.com/anujasid/blender-ai-mcp-addon)**<br>Blender 的 AI 助手和 MCP 服务器，支持多智能体工作流。<br><sub>GitHub 新项目 · 589 ★ · #开源工具 #3D</sub>
+**5. [rtk-ai/rtk](https://github.com/rtk-ai/rtk)**<br>RTK 是一个 Rust CLI 代理，可减少 60-90% 的 LLM token 消耗。<br><sub>GitHub Trending · 今日 +160 ★ · 83.9k ★ · #开源 #工具 #推理加速</sub>
 
-**6. [Hyper Optimizing Kimi K3 in vLLM: Moving Fast and Responsibly](https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel)**<br>vLLM通过代理辅助的CuTe DSL优化加速了Kimi K3在NVIDIA GB300上的解码速度。<br><sub>vLLM 博客 · #开源工具 #推理加速 #优化</sub>
+**6. [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)**<br>Coucou 是一个 Mac 和 iPhone 上的小助手，用于监控和批准 AI 编码智能体的操作。<br><sub>GitHub 新项目 · 5.5k ★ · #开源 #工具 #监控</sub>
 
-**7. [krillinai/OpenCreator](https://github.com/krillinai/OpenCreator)**<br>OpenCreator 是一个开源 AI 创作者工作区，支持视频翻译、配音和社交媒体内容创作。<br><sub>GitHub Trending · 今日 +198 ★ · 13.6k ★ · #开源工具 #视频</sub>
+**7. [Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5)**<br>图生视频模型，许可证 other<br><sub>Hugging Face 热门模型 · 8.4k 喜欢 · 2M 下载 · #模型发布 #视频生成 #Lightricks · [国内镜像](https://hf-mirror.com/Lightricks/LTX-2.5)</sub>
 
-**8. [meta-models/Muse-Spark-Open-816B-A42B](https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)**<br>图文理解模型，许可证 other<br><sub>Hugging Face 热门模型 · 500 喜欢 · 1.6k 下载 · 同时见于 魔搭 ModelScope 热门模型 · [国内镜像](https://hf-mirror.com/meta-models/Muse-Spark-Open-816B-A42B)</sub>
+**8. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)**<br>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…<br><sub>GitHub Trending · 今日 +592 ★ · 128.4k ★ · #开源工具 #知识图谱 #代码分析</sub>
 
 ### 📄 前沿论文
 
-**1. [OmniCompass：全模态视频理解基准](https://arxiv.org/abs/2610.18829)**<br>现有视频理解基准评估维度不全，难以系统诊断全模态视频理解能力。论文提出OmniCompass基准，包含两个评估轨道和三种互补任务，涵盖820个视频和720个实例。实验表明开源模型仍落后于专有模型。<br><sub>Hugging Face 热门论文 · 576 赞 · #多模态 #评测 #视频理解 · 原题：OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding · [代码](https://github.com/PolyU-VCLab/OmniCompass)</sub>
+**1. [Tev：利用密集进度奖励扩展长时域智能体环境](https://arxiv.org/abs/2610.18868)**<br>针对开源模型在长时域任务中因缺乏训练数据和奖励稀疏而表现不佳的问题，论文提出了Tev-Gym数据集和基于进度潜力奖励塑形的训练方法。该方法在Agents' Last Exam计算与数学科学领域取得了显著提升，在Pass\@5指标上匹配了GPT-6 Astra和Claude Opus 5。<br><sub>arXiv · 智能体 · 112 赞 · #智能体 #长上下文 #奖励机制 · 原题：Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards</sub>
 
-**2. [MAI-Gym：跨移动与计算机环境的GUI智能体评测与RL训练平台](https://arxiv.org/abs/2610.20939)**<br>GUI智能体训练面临交互环境成本高和真实任务稀缺的挑战。论文介绍MAI-Gym平台，统一了评测、数据收集和在线RL训练，支持20,000个并行环境实例。训练的MAI-Gym-9B模型在移动和计算机任务上达到SOTA性能。<br><sub>arXiv · 智能体 · 153 赞 · #智能体 #强化学习 #评测 · 原题：MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments · [代码](https://github.com/Tongyi-MAI/MAI-Gym)</sub>
+**2. [感知、保持与学习：多模态智能体记忆的演进](https://arxiv.org/abs/2610.19366)**<br>论文构建了一个围绕多模态信息形成与表征以及记忆管理适应性的双轴分析框架。该框架将记忆管理分为静态、动态和自演进三个层级，并综合了设计模式与原则，旨在解决多模态智能体在复杂异构数据中持续获取有用信息的挑战。<br><sub>arXiv · 长上下文与检索 · 50 赞 · #多模态 #智能体 #记忆机制 · 原题：Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory · [代码](https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-evolution)</sub>
 
-**3. [自进化智能体框架](https://arxiv.org/abs/2610.18813)**<br>智能体软件架构的迭代更新能提升性能。论文提出自进化框架，通过反馈驱动机制持续优化提示、记忆和工作流，并分离更新目标与提议机制。分析表明该方法在特定假设下能提供泛化界和保留界。<br><sub>arXiv · 智能体 · 196 赞 · #智能体 #强化学习 #优化 · 原题：Self-Evolving Agent Harness · [代码](https://github.com/zgcagi/Harness-RSI)</sub>
+**3. [历史重演：线性注意力中的长上下文能力释放](https://arxiv.org/abs/2610.15715)**<br>针对线性注意力模型在处理长上下文时固定大小状态难以兼顾持续计算与信息保存的难题，论文提出了NoteBank稀疏情景记忆接口。该接口通过原生前向计算进行证据回放，在百万级Token下显著提升了Gated DeltaNet的检索准确率，且计算开销极低。<br><sub>arXiv · 长上下文与检索 · 10 赞 · #长上下文 #线性注意力 #推理加速 · 原题：History Replays Itself: Unleashing Long-Context Capability in Linear Attention</sub>
 
-**4. [FDE-Gym：AI交付的最后一公里](https://arxiv.org/abs/2610.22350)**<br>现有基准任务定义明确，但现实交付需处理模糊需求和未说明约束。论文提出FDE-Gym基准，包含95个端到端交付任务。实验发现模型在发现未说明约束时性能显著下降，这是主要瓶颈。<br><sub>Hugging Face 热门论文 · 282 赞 · #智能体 #评测 #交付 · 原题：FDE-Gym: The Last Mile of AI Delivery · [代码](https://github.com/deeplethe/fde-gym)</sub>
+**4. [MultiAlloc：KV缓存量化的预算感知精度分配](https://arxiv.org/abs/2610.18642)**<br>论文提出MultiAlloc框架，旨在解决在固定KV缓存内存预算下如何将有限的量化资源分配给异构精度保持策略的问题。该框架通过轻量级离线分析层敏感性和Token重要性，自适应地在逐层精度增强和逐Token保持之间分配资源，从而在推理和长上下文基准测试中持续优于现有方法。<br><sub>arXiv · 高效推理 · #高效推理 #KV缓存 #量化 · 原题：MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization</sub>
 
-**5. [联合子空间稀疏注意力用于高效长上下文解码](https://arxiv.org/abs/2610.19026)**<br>稀疏注意力能减少长上下文LLM解码的KV缓存流量，但现有方法粒度粗糙。论文提出联合子空间稀疏注意力（JSSA），通过学习共享低维查询-键子空间提升选择质量，并开发无gather的索引注意力内核。在128K上下文下，JSSA比全KV注意力吞吐量提升6.43倍。<br><sub>arXiv · 长上下文与检索 · 13 赞 · #长上下文 #推理加速 #注意力机制 · 原题：Joint Subspace Sparse Attention for Efficient Long-Context Decoding · [代码](https://github.com/jiwonsong-dev/JSSA)</sub>
+**5. [LatentRemedy：多智能体系统中非前缀KV缓存重用的高效补救](https://arxiv.org/abs/2610.18014)**<br>针对多智能体系统中因任务冲突直接重用非前缀KV缓存导致性能严重下降的问题，论文提出了LatentRemedy方法。该方法通过少量任务条件化潜变量Token帮助目标智能体利用共享上下文，在保持首字延迟接近直接重用的同时，显著优于现有的缓存重用基线。<br><sub>arXiv · 高效推理 · #多智能体 #KV缓存 #推理效率 · 原题：LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems</sub>
 
-<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 38、RSS 订阅 48（40 个源）、量子位 5、GitHub Trending 42、GitHub 新项目 294、GitHub 版本发布 5、热门模型 16（2 个源）、论文 34。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-18 05:28（北京时间）自动生成。</sub>
+<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 39、RSS 订阅 32（40 个源）、量子位 5、GitHub Trending 44、GitHub 新项目 294、GitHub 版本发布 2、热门模型 16（2 个源）、论文 31。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-19 05:30（北京时间）自动生成。</sub>
 
 <!-- wta:latest:end -->
 
