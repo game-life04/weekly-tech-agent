@@ -17,40 +17,38 @@
 ✨ [开放原子开源俱乐部一周合并 29 个 PR、提交 82 次](https://osd.openatom.club/)<br>
 ✨ [pwn.hust.college 一周合并 10 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
 ✨ [hust-mirrors 一周合并 4 个 PR](https://github.com/hust-open-atom-club/hust-mirrors)<br>
-✨ [nginx-oci-mirror 一周合并 3 个 PR](https://github.com/hust-open-atom-club/nginx-oci-mirror)<br>
-✨ [俱乐部新建 nginx-oci-mirror 仓库](https://github.com/hust-open-atom-club/nginx-oci-mirror)
+✨ [新仓库 nginx-oci-mirror 一周合并 3 个 PR](https://github.com/hust-open-atom-club/nginx-oci-mirror)<br>
+✨ [俱乐部新建 AtomGit-Mobile4Android 仓库](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)
 
 **政策动向**<br>
-✨ [国务院常务会议听取人工智能进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
+✨ [李强主持召开国务院常务会议 听取“人工智能+”行动进展情况汇报等](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
 
 **国内动态**<br>
-✨ [智谱发布GLM新模型](https://www.qbitai.com/2026/10/502649.html)<br>
-✨ [字节发现DeepSeek模型位置敏感Bug](https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html)<br>
-✨ [面壁开源MiniCPM-V 4.7多模态模型](https://www.qbitai.com/2026/10/503109.html)<br>
-✨ [DeepSeek更新V4.1 Flash模型](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
+✨ [华为AI靠RSI通关25款游戏！操作次数比人类少56%](https://www.qbitai.com/2026/10/502654.html)<br>
+✨ [智谱新模型，490 tokens/s！](https://www.qbitai.com/2026/10/502649.html)<br>
+✨ [iPhone断网跑35B多模态！国产开源新模型，只占3G内存](https://www.qbitai.com/2026/10/503109.html)<br>
+✨ [AI 不是黑箱，99% 神经元清晰可见](https://www.leiphone.com/category/yanxishe/Vr0JmbkUeZV5D9Qz.html)<br>
+✨ [DeepSeek-V4.1-Flash-1017 更新](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)<br>
+✨ [DeepSeek新模型性能提升，许愿式编程时代降临](https://zhidx.com/p/601905.html)
 
 **海外动态**<br>
-✨ [Meta发布Muse模型](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)<br>
-✨ [Anthropic披露Claude动态工作流架构](https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article)<br>
-✨ [Google发布Gemini 4 Argon](https://deepmind.google/models/gemini/)<br>
-✨ [OpenAI推出Rosalind学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
-✨ [Google Antigravity加速抗菌肽搜索](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)<br>
-✨ [Google研究将AI智能体落地生物实验室](https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/)
+✨ [Gemini 4 Argon：解决最困难问题的前沿智能](https://deepmind.google/models/gemini/)<br>
+✨ [AI黑客攻击报告归咎于监控失败](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)<br>
+✨ [Muse Spark Open](https://research.meta.ai/blog/muse-spark-open)<br>
+✨ [GPT-Rosalind 学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
+✨ [Google Antigravity 加速抗菌肽搜索](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)<br>
+✨ [从记忆中发明 Transformer](https://alexwang.ai/posts/associative-memory/)
 
 **开源项目**<br>
-✨ [rea：用智能体做逆向工程](https://github.com/morluto/rea)<br>
-✨ [Strata：在消费级硬件运行Qwen3.8-Flash-Next](https://github.com/Niko1221/Strata)<br>
-✨ [Muse Spark Open 发布](https://research.meta.ai/blog/muse-spark-open)<br>
-✨ [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+✨ [morluto/rea](https://github.com/morluto/rea)<br>
+✨ [Niko1221/Strata](https://github.com/Niko1221/Strata)<br>
+✨ [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)<br>
+✨ [deepseek-ai/DeepSeek-V4.1-Flash](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash)
 
 **学术前沿**<br>
-✨ [Agent-Reflex：训练智能体主动反思](https://arxiv.org/abs/2610.17953)<br>
-✨ [OpenGCUA：通用计算机使用全栈开源](https://arxiv.org/abs/2610.22200)<br>
-✨ [LLM如何通过线性映射存储信息](https://alexwang.ai/posts/associative-memory/)
-
-**产业纵横**<br>
-✨ [AI黑客攻击归因于监控失败](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)<br>
-✨ [AI基准覆盖美国90%工作时间](https://www.mercor.com/research/labor-index/benchmark-map/)
+✨ [Agent-Reflex: Teaching Language Agents to Act Reflectively](https://arxiv.org/abs/2610.17953)<br>
+✨ [Doc2Harness：评估编码智能体长周期工具编排](https://arxiv.org/abs/2610.20344)<br>
+✨ [OpenGCUA：通用计算机使用全栈开源](https://arxiv.org/abs/2610.22200)
 
 **活动预告**<br>
 ✨ [WWW 2027 论文截稿](https://www2027.thewebconf.org/)<br>
