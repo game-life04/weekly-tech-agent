@@ -461,15 +461,23 @@ def test_a_changed_prompt_rewrites_the_issue_once(week):
         "Story 1 about Qwen4": {"cat": "overseas", "headline": "阿里巴巴发布Qwen4模型", "body": "阿里巴巴发布 Qwen4。"}
     }
     first = build(root, config, FakeClient([kx_reply(replies)]))
-    save_week_note(root, "2026-W41", {"kuaixun": {**first, "prompt": "old"}})
+    old_written = {key: {**value, "v": "old"} for key, value in first["written"].items()}
+    save_week_note(root, "2026-W41", {"kuaixun": {**first, "prompt": "old", "written": old_written}})
     tuesday = date(2026, 10, 13)
     assert kuaixun.due(root, tuesday, llm_ready=True) == MONDAY
     assert kuaixun.due(root, tuesday, llm_ready=False) is None
     kept = build(root, config)  # 没有大模型：沿用旧写法，也不改指纹，等有大模型时再重写
-    assert kept["written"] == first["written"] and kept["prompt"] == "old"
+    assert kept["written"] == old_written and kept["prompt"] == "old"
+
+    busy = build(root, config, FakeClient([LLMError("HTTP 429")] * 10))  # 重写时赶上过载：旧写法顶着，记作待补
+    assert by_cat(busy)["overseas"][0]["headline"] == "阿里巴巴发布Qwen4模型"
+    assert busy["pending"] == 5 and busy["prompt"] == kuaixun.PROMPT_VERSION and busy["tries"] == 1
+    assert busy["written"] == old_written
+
     client = FakeClient([kx_reply(replies)])
     again = build(root, config, client)
     assert len(client.calls) == 1 and again["prompt"] == kuaixun.PROMPT_VERSION and again["tries"] == 1
+    assert all(value["v"] == kuaixun.PROMPT_VERSION for value in again["written"].values())
 
 
 def test_shortlist_keeps_room_for_chinese_news():

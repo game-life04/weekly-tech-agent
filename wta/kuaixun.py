@@ -253,6 +253,7 @@ class _Writer:
         same = row.get("same")
         if isinstance(same, int) and not isinstance(same, bool) and 0 <= same < position:
             written["same"] = self.batch[same].id
+        written["v"] = PROMPT_VERSION  # 按哪一版提示词写的
         item.extra["kx"] = written
         return bool(written["headline"] or written["body"])
 
@@ -412,7 +413,8 @@ def build(
 ) -> dict[str, Any]:
     """生成 monday 这一周的快讯（返回要存进周记录的数据，不写文件）。
 
-    reuse 为真时，上一次大模型已经写好的条目直接沿用，只补没写成的；提示词改过、而且这次有大模型可用时全部重写。
+    reuse 为真时，上一次大模型已经写好的条目直接沿用，只补没写成的；提示词改过、而且这次有大模型可用时全部重写，
+    重写没成功的条目先用旧的写法顶着，记作待补。
     """
     settings, offset = config["kuaixun"], config["utc_offset_hours"]
     sunday = monday + timedelta(days=6)
@@ -433,12 +435,12 @@ def build(
     payloads = week_payloads(root, monday)
     candidates = shortlist(pool_of(payloads), settings["candidates"], int(settings.get("chinese_news", 0)))
     candidates += policies or []
-    fresh = previous.get("prompt") == PROMPT_VERSION
-    rewrite = not reuse or (client is not None and not fresh)  # 没有大模型时宁可沿用旧写法，也不退回日报的文字
-    cache = {} if rewrite else previous.get("written") or {}
-    for item in candidates:  # 上次已经写好的直接沿用
-        if isinstance(cache.get(item.id), dict):
-            item.extra["kx"] = cache[item.id]
+    old, old_version = previous.get("written") or {}, previous.get("prompt", "")
+    fresh = old_version == PROMPT_VERSION
+    for item in candidates:  # 上次已经写好的直接沿用；没有大模型时，旧提示词写的也照用
+        cached = old.get(item.id)
+        if isinstance(cached, dict) and reuse and (client is None or cached.get("v", old_version) == PROMPT_VERSION):
+            item.extra["kx"] = cached
     waiting = [item for item in candidates if "kx" not in item.extra]
     attempted = client is not None and not client.exhausted and bool(waiting)  # 真的要请求时才算补了一次
     if client is not None and attempted:
@@ -447,6 +449,10 @@ def build(
             write(candidates, client)
         except Exception:
             log.exception("大模型写快讯出错，用日报里的中文标题和摘要")
+    # 按新提示词没写成的，先用旧的写法顶着、记作待补，不退回日报的文字（10-19 晚高峰重写时 68 条全部失败）
+    for item in candidates:
+        if "kx" not in item.extra and isinstance(old.get(item.id), dict):
+            item.extra["kx"], item.extra["kx_stale"] = old[item.id], True
 
     caps = settings["caps"]
     chosen = assemble(candidates, caps, monday, sunday, offset, settings.get("companies"), settings.get("sites"))
@@ -467,11 +473,15 @@ def build(
         "end": sunday.isoformat(),
         "generated_at": to_iso(now),
         "models": list(dict.fromkeys(name for name in models if name)),
-        "prompt": PROMPT_VERSION if fresh or rewrite else previous.get("prompt", ""),
-        "tries": (0 if rewrite else int(previous.get("tries", 0))) + attempted,
-        "pending": sum("kx" not in item.extra and not item.extra.get("filtered") for item in candidates),
+        "prompt": PROMPT_VERSION if fresh or attempted else old_version,
+        "tries": (int(previous.get("tries", 0)) if fresh else 0) + attempted,
+        "pending": sum(
+            ("kx" not in item.extra or bool(item.extra.get("kx_stale"))) and not item.extra.get("filtered")
+            for item in candidates
+        ),
         "club_period": club_period,
         "sources": report,
         "entries": entries,
-        "written": {item.id: item.extra["kx"] for item in candidates if "kx" in item.extra},
+        # 每条记下是按哪一版提示词写的（早期的数据没有这一项，就是上一期整体的版本）
+        "written": {item.id: {"v": old_version, **item.extra["kx"]} for item in candidates if "kx" in item.extra},
     }
