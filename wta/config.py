@@ -22,6 +22,7 @@ DEFAULTS: dict[str, Any] = {
     "kuaixun": {
         "enabled": True,
         "candidates": {"news": 30, "opensource": 20, "papers": 8},
+        "chinese_news": 12,
         "caps": {
             "club": 5,
             "policy": 3,
@@ -41,6 +42,7 @@ DEFAULTS: dict[str, Any] = {
             "release_repos": 8,
         },
         "policy": {"keywords": [], "exclude": []},
+        "companies": {"domestic": [], "overseas": []},
         "events": {"subjects": ["AI"], "ranks": ["A", "B"], "days": 45},
     },
     "llm": {

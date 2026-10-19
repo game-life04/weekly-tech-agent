@@ -333,7 +333,7 @@ def test_model_sorts_rewrites_and_drops_duplicates(week):
             "body": "10月6日，Qwen4 支持 1M 上下文。",
         },
         "通义千问发布 Qwen4": {"cat": "domestic", "headline": "通义千问发布Qwen4", "body": "同一件事。", "same": 0},
-        "Story 3 about Qwen4": {"cat": "opensource", "headline": "Qwen4 开源 GPT-9 版本", "body": "It is open."},
+        "Story 3 about Qwen4": {"cat": "overseas", "headline": "Qwen4 开源 GPT-9 版本", "body": "It is open."},
         "Story 4 about Qwen4": {"cat": "papers", "headline": "Qwen4 技术报告", "body": "论文介绍了 Qwen4。"},
         "国务院关于人工智能的意见": {
             "cat": "domestic",
@@ -357,7 +357,7 @@ def test_model_sorts_rewrites_and_drops_duplicates(week):
             "ai": True,
         }
     ]  # 第 2 条和第 1 条是同一件事，不登
-    opensource = cats["opensource"][0]
+    opensource = cats["opensource"][0]  # 开源圈的条目只能留在开源项目，大模型给的 overseas 不算
     assert opensource["headline"] == "第 3 条的中文标题"  # 写出了资料里没有的 GPT-9：退回日报的中文标题
     assert opensource["body"] == "第 3 条的中文摘要。"  # 正文没写成中文：退回日报的摘要
     assert cats["papers"][0]["headline"] == "Qwen4 技术报告"
@@ -416,10 +416,71 @@ def test_due(week):
     save_week_note(root, "2026-W41", {"kuaixun": issue})
     assert kuaixun.due(root, tuesday, llm_ready=False) is None
     assert kuaixun.due(root, tuesday, llm_ready=True) == MONDAY  # 有大模型了：补写
-    save_week_note(root, "2026-W41", {"kuaixun": {**issue, "tries": kuaixun.MAX_TRIES}})
+    current = kuaixun.PROMPT_VERSION
+    save_week_note(root, "2026-W41", {"kuaixun": {**issue, "tries": kuaixun.MAX_TRIES, "prompt": current}})
     assert kuaixun.due(root, tuesday, llm_ready=True) is None  # 补过几次了，不再试
 
-    stale = {**issue, "pending": 0, "club_period": {"start": "2026-10-04", "end": "2026-10-10"}}
+    stale = {**issue, "pending": 0, "prompt": current, "club_period": {"start": "2026-10-04", "end": "2026-10-10"}}
     save_week_note(root, "2026-W41", {"kuaixun": stale})
     assert kuaixun.due(root, monday, llm_ready=False) == MONDAY  # 周一：俱乐部统计还差一天，再取一次
     assert kuaixun.due(root, tuesday, llm_ready=False) is None  # 过了周一就不再追
+
+
+def test_assemble_drops_repeats_and_fixes_company_sections():
+    def written(n, cat, headline, score):
+        item = story(n, score=score)
+        item.extra["kx"] = {"cat": cat, "headline": headline, "body": "正文。"}
+        return item
+
+    items = [
+        written(1, "overseas", "Google 发布 Gemini 4 Argon", 9),
+        written(2, "overseas", "Google AI 发布 Gemini 4 Argon 模型", 8),  # 同一件事，另一个来源
+        written(3, "domestic", "OpenAI 推出 Rosalind 学术计划", 7),  # 大模型把 OpenAI 分进了国内
+        written(4, "opensource", "DeepSeek 开源 V4.1 Flash", 6),  # AI 动态里公司开源的模型进国内动态
+        written(5, "overseas", "OpenAI 发布 GPT-6", 5),
+        written(6, "overseas", "OpenAI 发布 GPT-6 mini", 4),  # 只差一个词：不算同一件事
+    ]
+    companies = {"domestic": ["DeepSeek"], "overseas": ["OpenAI", "Google"]}
+    chosen = kuaixun.assemble(items, {"domestic": 5, "overseas": 5, "opensource": 5}, MONDAY, SUNDAY, 8, companies)
+    assert [entry["headline"] for entry in chosen["overseas"]] == [
+        "Google 发布 Gemini 4 Argon",
+        "OpenAI 推出 Rosalind 学术计划",
+        "OpenAI 发布 GPT-6",
+        "OpenAI 发布 GPT-6 mini",
+    ]
+    assert [(entry["headline"], entry["cat"]) for entry in chosen["domestic"]] == [
+        ("DeepSeek 开源 V4.1 Flash", "domestic")
+    ]
+    assert chosen["opensource"] == []
+
+
+def test_a_changed_prompt_rewrites_the_issue_once(week):
+    root, config, _ = week
+    replies = {
+        "Story 1 about Qwen4": {"cat": "overseas", "headline": "阿里巴巴发布Qwen4模型", "body": "阿里巴巴发布 Qwen4。"}
+    }
+    first = build(root, config, FakeClient([kx_reply(replies)]))
+    save_week_note(root, "2026-W41", {"kuaixun": {**first, "prompt": "old"}})
+    tuesday = date(2026, 10, 13)
+    assert kuaixun.due(root, tuesday, llm_ready=True) == MONDAY
+    assert kuaixun.due(root, tuesday, llm_ready=False) is None
+    kept = build(root, config)  # 没有大模型：沿用旧写法，也不改指纹，等有大模型时再重写
+    assert kept["written"] == first["written"] and kept["prompt"] == "old"
+    client = FakeClient([kx_reply(replies)])
+    again = build(root, config, client)
+    assert len(client.calls) == 1 and again["prompt"] == kuaixun.PROMPT_VERSION and again["tries"] == 1
+
+
+def test_shortlist_keeps_room_for_chinese_news():
+    pool = [story(n, score=10 - n) for n in range(1, 5)]
+    pool += [story(n, score=1, title=f"国产模型第 {n} 条") for n in range(5, 8)]
+    pool.append(story(9, section="papers", score=5))
+    picked = kuaixun.shortlist(pool, {"news": 2, "papers": 1}, chinese=2)
+    assert [item.title for item in picked] == [
+        "Story 1 about Qwen4",
+        "Story 2 about Qwen4",
+        "Story 9 about Qwen4",
+        "国产模型第 5 条",
+        "国产模型第 6 条",
+    ]
+    assert len(kuaixun.shortlist(pool, {"news": 2})) == 2  # 不另外取

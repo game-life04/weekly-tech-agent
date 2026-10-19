@@ -388,6 +388,7 @@ sources:
 kuaixun:
   enabled: true
   candidates: { news: 30, opensource: 20, papers: 8 } # 从一周的日报里各取综合分最高的多少条交给大模型
+  chinese_news: 12 # 中文媒体的 AI 动态另外再取几条（国内动态主要靠它们，按综合分排不进前面）
   caps: # 每个栏目最多登几条
     club: 5
     policy: 3
@@ -408,6 +409,13 @@ kuaixun:
     keywords: [人工智能, 大模型, 智能体, 算力, 开源, 软件, 数据要素, 数据产业, 公共数据, 数字经济, 数字中国,
                信息化, 网络安全, 集成电路, 芯片, 机器人, 新质生产力, 科技创新, 人才培养]
     exclude: [会见, 会谈, 通话, 考察, 出席, 贺信, 致信, 回信] # 会见、考察这类时政活动不收
+  companies: # 标题以这些名字开头的，按名单分到国内动态或海外动态（大模型常把 OpenAI 分进国内）
+    domestic: [DeepSeek, 深度求索, 阿里巴巴, 阿里云, 阿里, 通义, 千问, 腾讯, 混元, 百度, 文心, 字节跳动, 字节, 豆包, 火山引擎,
+               华为, 智谱, 月之暗面, Kimi, MiniMax, 阶跃星辰, 小米, 京东, 美团, 快手, 可灵, 商汤, 科大讯飞, 讯飞, 蚂蚁, 百灵,
+               昆仑万维, 面壁智能, 零一万物, 百川, 清华, 北大, 北京大学, 浙江大学, 上海人工智能实验室, 中国科学院, 中科院, 魔搭]
+    overseas: [OpenAI, Google, 谷歌, DeepMind, Gemini, Meta, Anthropic, Claude, Microsoft, 微软, NVIDIA, 英伟达, Apple, 苹果,
+               Amazon, 亚马逊, AWS, xAI, Mistral, Hugging Face, IBM, Intel, 英特尔, AMD, 斯坦福, Stanford, MIT, 伯克利,
+               Cohere, Perplexity, Cursor]
   events: # 活动预告：接下来 days 天内截稿的 CCF 推荐会议（数据来自 ccfddl）
     subjects: [AI, CG, HI, MX] # 人工智能、图形学与多媒体、人机交互、交叉/综合/新兴
     ranks: [A, B]
