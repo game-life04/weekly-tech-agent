@@ -3,7 +3,7 @@
   "week": "2026-W42",
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "generated_at": "2026-10-19T10:12:03Z",
+  "generated_at": "2026-10-19T10:19:01Z",
   "models": [
    "glm-4.7-flash"
   ],
@@ -133,17 +133,6 @@
     "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "via": "Hacker News",
     "id": "8b553ca25e96",
-    "ai": true
-   },
-   {
-    "cat": "domestic",
-    "headline": "DeepSeek开放V4.1-Flash-1017模型",
-    "when": "10月17日",
-    "date": "2026-10-17",
-    "body": "DeepSeek V4.1-Flash-1017模型在多项基准测试中取得提升，权重已开放下载。",
-    "url": "https://zhidx.com/p/601905.html",
-    "via": "智东西",
-    "id": "186fdbb6848f",
     "ai": true
    },
    {

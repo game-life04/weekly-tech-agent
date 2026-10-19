@@ -439,6 +439,7 @@ def test_assemble_drops_repeats_and_fixes_company_sections():
         written(4, "opensource", "DeepSeek 开源 V4.1 Flash", 6),  # AI 动态里公司开源的模型进国内动态
         written(5, "overseas", "OpenAI 发布 GPT-6", 5),
         written(6, "overseas", "OpenAI 发布 GPT-6 mini", 4),  # 只差一个词：不算同一件事
+        written(7, "domestic", "DeepSeek 开放 V4.1-Flash-1017 模型", 3),  # 和第 4 条是同一件事
     ]
     companies = {"domestic": ["DeepSeek"], "overseas": ["OpenAI", "Google"]}
     chosen = kuaixun.assemble(items, {"domestic": 5, "overseas": 5, "opensource": 5}, MONDAY, SUNDAY, 8, companies)

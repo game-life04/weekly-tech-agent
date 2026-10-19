@@ -10,7 +10,7 @@
 
 ## 每周快讯 · 10.12–10.18
 
-> 上周 AI 与开源要闻 **29** 条，5 分钟速读。<br>
+> 上周 AI 与开源要闻 **28** 条，5 分钟速读。<br>
 > [阅读全文](weekly/2026-W42.md) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
@@ -27,8 +27,7 @@
 ✨ [智谱发布GLM新模型](https://www.qbitai.com/2026/10/502649.html)<br>
 ✨ [字节发现DeepSeek模型位置敏感Bug](https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html)<br>
 ✨ [面壁开源MiniCPM-V 4.7多模态模型](https://www.qbitai.com/2026/10/503109.html)<br>
-✨ [DeepSeek更新V4.1 Flash模型](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)<br>
-✨ [DeepSeek开放V4.1-Flash-1017模型](https://zhidx.com/p/601905.html)
+✨ [DeepSeek更新V4.1 Flash模型](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
 
 **海外动态**<br>
 ✨ [Meta发布Muse模型](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)<br>

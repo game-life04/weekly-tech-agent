@@ -260,21 +260,27 @@ def entry_of(item: Item, cat: str, monday: date, sunday: date, offset: float) ->
     }
 
 
-def names(headline: str) -> frozenset[str]:
+def _words(headline: str) -> list[str]:
     """标题里的英文名称和数字（不分大小写），例如“DeepSeek 发布 V4.1 Flash”→ deepseek、v4.1、flash。"""
     words = (word.rstrip(".+-").casefold() for word in _NAME.findall(unicodedata.normalize("NFKC", headline)))
-    return frozenset(word for word in words if word and word not in _GENERIC)
+    return [word for word in words if word and word not in _GENERIC]
 
 
-def same_story(a: frozenset[str], b: frozenset[str]) -> bool:
-    """两条标题是不是讲同一件事：一条里的名称和数字（至少三个）全都出现在另一条里。
+def same_story(a: str, b: str) -> bool:
+    """两条标题是不是讲同一件事。大模型给的 same 字段靠不住（glm-4.7-flash 第一期一条都没标），
+    同一件事又常常从几个来源进来。满足下面任意一条就算：
 
-    大模型给的 same 字段靠不住（glm-4.7-flash 第一期一条都没标），同一件事又常常从几个来源进来，
-    例如 Hacker News 和 Google 博客各有一条 Gemini 4 Argon。至少三个才算，免得“OpenAI 发布 GPT-6”
-    和“OpenAI 发布 GPT-6 mini”这种只差一个词的被当成一件事。
+    - 一条里的名称和数字（至少三个）全都出现在另一条里：Hacker News 和 Google 博客各有一条 Gemini 4 Argon；
+    - 去掉空格和连字符以后，一条的英文部分（至少 12 个字符）整个出现在另一条里：
+      “DeepSeek 更新 V4.1 Flash”和“DeepSeek 开放 V4.1-Flash-1017”（第一期实际出现过）。
+    门槛定得高一些，免得“OpenAI 发布 GPT-6”和“OpenAI 发布 GPT-6 mini”这种只差一个词的被当成一件事。
     """
-    small, large = sorted((a, b), key=len)
-    return len(small) >= 3 and small <= large
+    words_a, words_b = _words(a), _words(b)
+    small, large = sorted((set(words_a), set(words_b)), key=len)
+    if len(small) >= 3 and small <= large:
+        return True
+    short, long = sorted(("".join(words_a).replace("-", ""), "".join(words_b).replace("-", "")), key=len)
+    return len(short) >= 12 and short in long
 
 
 def _subject(headline: str, companies: Mapping[str, list[str]]) -> str:
@@ -301,7 +307,7 @@ def assemble(
       把 DeepSeek 发布的模型放进开源项目（第一期实际出现过）。开源圈的条目不动，它们多是早就有的项目。
     """
     chosen: dict[str, list[dict[str, Any]]] = {name: [] for name, _ in KX_SECTIONS}
-    taken: list[frozenset[str]] = []
+    taken: list[str] = []  # 已经登的标题
     for item in sorted(candidates, key=lambda item: item.score, reverse=True):
         written = item.extra.get("kx") or {}
         cat = written.get("cat") if written.get("cat") in _allowed(item) else guess(item)  # 旧数据也按现在的规则
@@ -312,10 +318,9 @@ def assemble(
             continue
         if cat in ("domestic", "overseas") or (cat == "opensource" and item.section == "news"):
             cat = entry["cat"] = _subject(entry["headline"], companies or {}) or cat
-        key = names(entry["headline"])
-        if len(chosen[cat]) >= int(caps.get(cat, 0)) or any(same_story(key, other) for other in taken):
+        if len(chosen[cat]) >= int(caps.get(cat, 0)) or any(same_story(entry["headline"], h) for h in taken):
             continue
-        taken.append(key)
+        taken.append(entry["headline"])
         chosen[cat].append(entry)
     for rows in chosen.values():
         rows.sort(key=lambda entry: entry["date"])
