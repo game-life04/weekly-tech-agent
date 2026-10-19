@@ -10,107 +10,102 @@
 
 ## 每周快讯 · 10.12–10.18
 
-> 上周 AI 与开源要闻 **28** 条，5 分钟速读。<br>
+> 上周 AI 与开源要闻 **25** 条，5 分钟速读。<br>
 > [阅读全文](weekly/2026-W42.md) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
-✨ [开放原子开源俱乐部一周合并 29 个 PR、提交 82 次](https://osd.openatom.club/)<br>
-✨ [pwn.hust.college 一周合并 10 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
+✨ [开放原子开源俱乐部一周合并 34 个 PR、提交 75 次](https://osd.openatom.club/)<br>
+✨ [pwn.hust.college 一周合并 13 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
+✨ [hust-mail-cli 一周合并 4 个 PR](https://github.com/hust-open-atom-club/hust-mail-cli)<br>
 ✨ [hust-mirrors 一周合并 4 个 PR](https://github.com/hust-open-atom-club/hust-mirrors)<br>
-✨ [新仓库 nginx-oci-mirror 一周合并 3 个 PR](https://github.com/hust-open-atom-club/nginx-oci-mirror)<br>
-✨ [俱乐部新建 AtomGit-Mobile4Android 仓库](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)
+✨ [俱乐部新建 nginx-oci-mirror 仓库](https://github.com/hust-open-atom-club/nginx-oci-mirror)
 
 **政策动向**<br>
 ✨ [国务院常务会议听取人工智能进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
 
 **国内动态**<br>
 ✨ [智谱发布GLM新模型](https://www.qbitai.com/2026/10/502649.html)<br>
-✨ [字节发现DeepSeek模型位置敏感Bug](https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html)<br>
 ✨ [面壁开源MiniCPM-V 4.7多模态模型](https://www.qbitai.com/2026/10/503109.html)<br>
-✨ [DeepSeek更新V4.1 Flash模型](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
+✨ [DeepSeek-V4.1-Flash-1017 推理性能提升](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
 
 **海外动态**<br>
-✨ [Meta发布Muse模型](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)<br>
-✨ [Google发布Gemini 4 Argon](https://deepmind.google/models/gemini/)<br>
-✨ [Muse Spark Open 发布](https://research.meta.ai/blog/muse-spark-open)<br>
-✨ [OpenAI推出Rosalind学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
-✨ [Google Antigravity加速抗菌肽搜索](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)<br>
-✨ [Google研究将AI智能体落地生物实验室](https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/)
+✨ [Meta发布Muse新模型](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)<br>
+✨ [Anthropic披露Claude动态工作流架构](https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article)<br>
+✨ [Gemini 4 Argon：解决最困难问题的前沿智能](https://deepmind.google/models/gemini/)<br>
+✨ [Muse Spark Open 开源](https://research.meta.ai/blog/muse-spark-open)<br>
+✨ [OpenAI 推出 Rosalind 学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
+✨ [Google DeepMind 发布 Antigravity 科学工具](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)
 
 **开源项目**<br>
 ✨ [rea：用智能体做逆向工程](https://github.com/morluto/rea)<br>
-✨ [Strata：在消费级硬件运行Qwen3.8-Flash-Next](https://github.com/Niko1221/Strata)<br>
-✨ [huggingface/transformers](https://github.com/huggingface/transformers)<br>
-✨ [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+✨ [Strata：在消费级硬件上运行Qwen3.8-Flash-Next](https://github.com/Niko1221/Strata)<br>
+✨ [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)<br>
+✨ [deepseek-ai/DeepSeek-V4.1-Flash](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash)
 
 **学术前沿**<br>
 ✨ [Agent-Reflex：训练智能体主动反思](https://arxiv.org/abs/2610.17953)<br>
-✨ [OpenGCUA：通用计算机使用全栈开源](https://arxiv.org/abs/2610.22200)<br>
-✨ [LLM如何通过线性映射存储信息](https://alexwang.ai/posts/associative-memory/)
-
-**产业纵横**<br>
-✨ [AI黑客攻击归因于监控失败](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)<br>
-✨ [AI基准覆盖美国90%工作时间](https://www.mercor.com/research/labor-index/benchmark-map/)
+✨ [大型语言模型如何通过线性映射存储信息](https://alexwang.ai/posts/associative-memory/)<br>
+✨ [Google 研究将 AI 智能体落地生物实验室](https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/)
 
 **活动预告**<br>
 ✨ [WWW 2027 论文截稿](https://www2027.thewebconf.org/)<br>
 ✨ [RECOMB 2027 论文截稿](https://recomb.org/recomb2027/)<br>
 ✨ [CVPR 2027 论文截稿](https://cvpr.thecvf.com/Conferences/2027)
 
-## 最新日报 · 2026-10-19（周一）
+## 最新日报 · 2026-10-20（周二）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
-> [往期日报](daily/README.md) · [每周快讯](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-19.md)
+> [往期日报](daily/README.md) · [每周快讯](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-20.md)
 
 ### 🗞️ AI 动态
 
-**1. [Sphinx：在代码发布前测试你的 AI](https://sphinx-six-theta.vercel.app/)**<br>Sphinx 是一个 Git hook，在 AI 代码发布前询问开发者关于代码功能的理解，防止盲目信任。<br><sub>Hacker News · 233 分 · 76 评论 · #工具 #AI 辅助开发 #安全 · 原题：Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping · [讨论](https://news.ycombinator.com/item?id=50137950)</sub>
+**1. [Hybrid Reasoning Agents：在潜在空间思考，通过文本行动](https://arxiv.org/abs/2610.18861)**<br>HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。<br><sub>Hacker News · 501 分 · 235 评论 · #智能体 #论文 · 原题：Hybrid Reasoning Agents: LLM agents that think in latent space, act through text · [讨论](https://news.ycombinator.com/item?id=50145337)</sub>
 
-**2. [Anthropic 提议的安全法案门槛较高](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model)**<br>Anthropic 提议的 AI 安全法案仅在造成 50 人死亡或 10 亿美元损失时才启动。<br><sub>Hacker News · 147 分 · 160 评论 · #政策 #AI 安全 #行业动态 · 原题：Anthropic's proposed AI safety bill only kicks in if 50 deaths or <span>$</span>1B in damages · [讨论](https://news.ycombinator.com/item?id=50141429)</sub>
+**2. [Timestral：Mistral 的时间序列基础模型](https://mistral.ai/news/timestral/)**<br>Timestral 是 Mistral 发布的时间序列基础模型，在 209M 参数下实现最先进的概率预测。<br><sub>Hacker News · 518 分 · 97 评论 · #模型发布 #时间序列 · 原题：Timestral: Mistral's time-series foundation models · [讨论](https://news.ycombinator.com/item?id=50150434)</sub>
 
-**3. [DeepSeek 推出搜索和抓取 API](https://api-docs.deepseek.com/guides/search/)**<br>DeepSeek 提供 Search API 和 Fetch API，让智能体和 RAG 应用能访问实时网络内容。<br><sub>Hacker News · 502 分 · 245 评论 · #API #DeepSeek #RAG · 原题：DeepSeek search and fetch – <span>$</span>0.75 per 1000 successful requests · [讨论](https://news.ycombinator.com/item?id=50138531)</sub>
+**3. [Mercury 3：大规模扩散模型](https://www.inceptionlabs.ai/blog/introducing-mercury-3)**<br>Mercury 3 是目前最强大的扩散 LLM，在 1000+ tokens/秒的速度下超越 GPT-6 Luna 和 Claude Haiku 5.5。<br><sub>Hacker News · 205 分 · 80 评论 · #模型发布 #扩散模型 · 原题：Mercury 3: Diffusion at scale · [讨论](https://news.ycombinator.com/item?id=50155245)</sub>
 
-**4. [网站对 AI 智能体日益不友好](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)**<br>OpenAI、Meta、Google 等公司推动 AI 智能体，但主流网站正限制其访问。<br><sub>Hacker News · 129 分 · 121 评论 · #行业动态 #智能体 #生态 · 原题：Websites are closing their doors to AI agents · [讨论](https://news.ycombinator.com/item?id=50141657)</sub>
+**4. [OpenAI 提升低资源编程语言代码能力](https://openai.com/index/low-resource-programming-languages)**<br>OpenAI 改进了 ChatGPT 在低资源编程语言上的表现，新增了针对软件工程、SQLite 和 COBOL 迁移的评估。<br><sub>OpenAI · #模型发布 #编程 #评测 · 原题：Advancing Coding in Low-Resource Programming Languages</sub>
 
-**5. [VAST开源实时世界模型EdenLive：单卡720P超24FPS](https://www.qbitai.com/2026/10/504136.html)**<br>VAST发布EdenLive，在单张消费级显卡上实现720P超24FPS的实时画面生成。<br><sub>量子位 · #模型发布 #实时渲染 #开源 · 原题：VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS</sub>
+**5. [如果不运行自己的 LLM 代理，如何知道发生了什么？](https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/)**<br><sub>Hacker News · 292 分 · 203 评论 · #行业动态 · 原题：If you don't run your own LLM proxy, how do you know whats going on? · [讨论](https://news.ycombinator.com/item?id=50145507)</sub>
 
-**6. [DeepSeek新模型发布，超级性价比斩杀一切](https://www.qbitai.com/2026/10/504067.html)**<br>DeepSeek发布V4.1-Flash-1017新模型，在Agent任务中性能提升且成本降低。<br><sub>量子位 · #模型发布 #Agent #性价比 · 原题：突发！DeepSeek新模型发布，超级性价比斩杀一切</sub>
+**6. [微软称 AI 智能体如同内部威胁](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/)**<br>微软警告企业需密切监控员工使用的智能体，因为前沿模型无法被完全信任。<br><sub>TechCrunch · #行业动态 #智能体 #安全 · 原题：Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’</sub>
 
-**7. [Meta shakes up the frontiers, open and closed](https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open)**<br>Meta发布Muse Spark Open，成为目前最强的美国开源模型。<br><sub>Interconnects · #模型发布 #开源 #Meta</sub>
+**7. [MiniMax M3.1 Flash 发布](https://zhidx.com/p/602354.html)**<br>MiniMax 发布 M3.1 Flash，定位为 Coding/Agent 优化轻量级模型，价格大幅降低。<br><sub>智东西 · #模型发布 #开源工具 #智能体 · 原题：正面硬刚DeepSeek！MiniMax M3.1 Flash发布，输出卷到200+TPS，价格砍到1/2</sub>
 
-**8. [DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早…](http://www.geekpark.net/news/372512)**<br>DeepSeek V4.1 Flash 新版本上线，许愿式编程一键成真。<br><sub>极客公园 · #模型发布 #编程 #极客早知道 · 原题：DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道</sub>
+**8. [TorchNeuron 让在 AWS Trainium 上运行 HF 模型更简单](https://huggingface.co/blog/hf-torchneuron)**<br>TorchNeuron 为 PyTorch 提供了 Trainium 原生后端，支持 eager mode、torch.compile 和分布式 API。<br><sub>Hugging Face 博客 · #开源工具 #推理加速 #AWS · 原题：TorchNeuron: running HF models on AWS Trainium is easier than ever</sub>
 
 ### 🛠️ 开源圈
 
-**1. [vllm-project/vllm v0.32.0](https://github.com/vllm-project/vllm/releases/tag/v0.32.0)**<br>vLLM v0.32.0发布，新增结构化决策和通用解析器。<br><sub>GitHub 版本发布 · #开源工具 #推理加速 #vLLM</sub>
+**1. [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)**<br>ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面，是全球最快的本地推理引擎。<br><sub>GitHub Trending · 今日 +1k ★ · 139.7k ★ · #开源工具 #扩散模型</sub>
 
-**2. [ruvnet/ruflo](https://github.com/ruvnet/ruflo)**<br>Ruflo 是一个智能体框架，支持多智能体协作、自适应记忆和向量 RAG 集成。<br><sub>GitHub Trending · 今日 +502 ★ · 76.5k ★ · #开源 #智能体 #框架</sub>
+**2. [alchaincyf/huashu-motion](https://github.com/alchaincyf/huashu-motion)**<br>huashu-motion 是一个开源项目，能让 Agent 一键直出会作曲、能指着画面修改的商业级产品宣传片。<br><sub>GitHub 新项目 · 902 ★ · #开源工具 #智能体</sub>
 
-**3. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)**<br>OmniRoute 是一个免费的 MIT AI 网关，支持 375 个提供商和 1400+ 模型，可减少 token 消耗。<br><sub>GitHub Trending · 今日 +411 ★ · 78.1k ★ · #开源 #网关 #工具</sub>
+**3. [Achieving near-zero-downtime scaling in Elastic Expert Parallelism](https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime)**<br>通过异步准备和 NIXL EP 技术，vLLM 实现了弹性专家并行的近零停机扩展。<br><sub>vLLM 博客 · #开源工具 #推理加速 #分布式</sub>
 
-**4. [zai-org/ZCode](https://github.com/zai-org/ZCode)**<br>ZCode 是 Z.ai 的强大、智能且可扩展的编码智能体框架。<br><sub>GitHub 新项目 · 7.9k ★ · #开源 #智能体 #框架</sub>
+**4. [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)**<br>ai-memory 解决了 Agent 编码 CLI 的长期记忆问题，并促进不同 Agent 供应商之间的交接。<br><sub>GitHub Trending · 今日 +666 ★ · 11.3k ★ · #开源工具 #智能体</sub>
 
-**5. [rtk-ai/rtk](https://github.com/rtk-ai/rtk)**<br>RTK 是一个 Rust CLI 代理，可减少 60-90% 的 LLM token 消耗。<br><sub>GitHub Trending · 今日 +160 ★ · 83.9k ★ · #开源 #工具 #推理加速</sub>
+**5. [google/artemis](https://github.com/google/artemis)**<br>ARTEMIS 能自动化端到端工作流，在 AndroidWorld 基准测试中达到 99%+ 的成功率。<br><sub>GitHub Trending · 今日 +526 ★ · 13k ★ · #开源工具 #自动化</sub>
 
-**6. [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)**<br>Coucou 是一个 Mac 和 iPhone 上的小助手，用于监控和批准 AI 编码智能体的操作。<br><sub>GitHub 新项目 · 5.5k ★ · #开源 #工具 #监控</sub>
+**6. [How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith](https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith)**<br>Numan 利用 LangGraph 和 LangSmith 构建了 AI 健康教练，包含分类评估、模拟对话和安全门控。<br><sub>LangChain 博客 · #开源工具 #智能体 #评测</sub>
 
-**7. [Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5)**<br>图生视频模型，许可证 other<br><sub>Hugging Face 热门模型 · 8.4k 喜欢 · 2M 下载 · #模型发布 #视频生成 #Lightricks · [国内镜像](https://hf-mirror.com/Lightricks/LTX-2.5)</sub>
+**7. [koala73/worldmonitor](https://github.com/koala73/worldmonitor)**<br>worldmonitor 是一个 AI 驱动的实时全球情报仪表盘，提供新闻聚合、地缘政治监控和基础设施跟踪。<br><sub>GitHub Trending · 今日 +143 ★ · 88.8k ★ · #开源工具 #监控</sub>
 
-**8. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)**<br>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…<br><sub>GitHub Trending · 今日 +592 ★ · 128.4k ★ · #开源工具 #知识图谱 #代码分析</sub>
+**8. [OpenHands/OpenHands v1.28.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.28.0)**<br>OpenHands 发布 v1.28.0 版本，新增了 Bahasa Indonesia 语言支持、对话模态请求密钥等功能。<br><sub>GitHub 版本发布 · #开源工具 #版本发布 #智能体</sub>
 
 ### 📄 前沿论文
 
-**1. [Tev：利用密集进度奖励扩展长时域智能体环境](https://arxiv.org/abs/2610.18868)**<br>针对开源模型在长时域任务中因缺乏训练数据和奖励稀疏而表现不佳的问题，论文提出了Tev-Gym数据集和基于进度潜力奖励塑形的训练方法。该方法在Agents' Last Exam计算与数学科学领域取得了显著提升，在Pass\@5指标上匹配了GPT-6 Astra和Claude Opus 5。<br><sub>arXiv · 智能体 · 112 赞 · #智能体 #长上下文 #奖励机制 · 原题：Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards</sub>
+**1. [GPT-6-Astra：具身智能的新突破](https://arxiv.org/abs/2610.22471)**<br>GPT-6-Astra 在机器人操作和导航任务中表现出色，挑战了传统专用模型范式。通过统一协议和上下文学习，它在多个基准测试中取得了前所未有的性能。<br><sub>Hugging Face 热门论文 · 236 赞 · #具身智能 #机器人 #大模型 · 原题：Has GPT-6-Astra Achieved Embodied Intelligence? · [代码](https://github.com/OpenSenseNova/SenseNova-RoboRSI)</sub>
 
-**2. [感知、保持与学习：多模态智能体记忆的演进](https://arxiv.org/abs/2610.19366)**<br>论文构建了一个围绕多模态信息形成与表征以及记忆管理适应性的双轴分析框架。该框架将记忆管理分为静态、动态和自演进三个层级，并综合了设计模式与原则，旨在解决多模态智能体在复杂异构数据中持续获取有用信息的挑战。<br><sub>arXiv · 长上下文与检索 · 50 赞 · #多模态 #智能体 #记忆机制 · 原题：Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory · [代码](https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-evolution)</sub>
+**2. [DLite：无历史记录的推测解码](https://arxiv.org/abs/2610.23787)**<br>DLite 针对智能体工作负载中历史上下文导致的接受长度下降和系统开销问题，提出了一种无历史记录的推测解码框架。实验表明，它在通用、长上下文和智能体工作负载上实现了 2-6 的接受长度，并优于最先进方法。<br><sub>arXiv · 高效推理 · 20 赞 · #推理加速 #智能体 #大模型 · 原题：DLite: History-free Speculative Decoding for Agentic AI · [代码](https://github.com/SJTU-DAI-Sys/DLite)</sub>
 
-**3. [历史重演：线性注意力中的长上下文能力释放](https://arxiv.org/abs/2610.15715)**<br>针对线性注意力模型在处理长上下文时固定大小状态难以兼顾持续计算与信息保存的难题，论文提出了NoteBank稀疏情景记忆接口。该接口通过原生前向计算进行证据回放，在百万级Token下显著提升了Gated DeltaNet的检索准确率，且计算开销极低。<br><sub>arXiv · 长上下文与检索 · 10 赞 · #长上下文 #线性注意力 #推理加速 · 原题：History Replays Itself: Unleashing Long-Context Capability in Linear Attention</sub>
+**3. [Into the Unknown：开放科学问题的智能体评测](https://arxiv.org/abs/2610.19159)**<br>Into the Unknown 基准测试评估智能体在开放科学问题上的研究能力，要求其基于论文和方向撰写后续论文。实验发现，尽管智能体能生成看似合理的论文，但无一满足领域科学家的标准。<br><sub>arXiv · 智能体 · 130 赞 · #智能体 #评测 #科学 · 原题：Into the Unknown: Benchmarking AI agents on open scientific research problems · [代码](https://github.com/prometheus-eval/into-the-unknown)</sub>
 
-**4. [MultiAlloc：KV缓存量化的预算感知精度分配](https://arxiv.org/abs/2610.18642)**<br>论文提出MultiAlloc框架，旨在解决在固定KV缓存内存预算下如何将有限的量化资源分配给异构精度保持策略的问题。该框架通过轻量级离线分析层敏感性和Token重要性，自适应地在逐层精度增强和逐Token保持之间分配资源，从而在推理和长上下文基准测试中持续优于现有方法。<br><sub>arXiv · 高效推理 · #高效推理 #KV缓存 #量化 · 原题：MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization</sub>
+**4. [RoTA-Bench：通过交互式投影对齐评估3D空间推理](https://arxiv.org/abs/2610.17665)**<br>RoTA-Bench 通过交互式 3D 到 2D 投影对齐任务，评估视觉语言模型将 2D 观察转化为支持精确动作的 3D 理解能力。实验发现，模型在任务完成率和精细控制方面与人类存在显著差距。<br><sub>Hugging Face 热门论文 · 196 赞 · #3D推理 #多模态 #评测 · 原题：RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment · [代码](https://github.com/MAC-AutoML/RoTA-Bench)</sub>
 
-**5. [LatentRemedy：多智能体系统中非前缀KV缓存重用的高效补救](https://arxiv.org/abs/2610.18014)**<br>针对多智能体系统中因任务冲突直接重用非前缀KV缓存导致性能严重下降的问题，论文提出了LatentRemedy方法。该方法通过少量任务条件化潜变量Token帮助目标智能体利用共享上下文，在保持首字延迟接近直接重用的同时，显著优于现有的缓存重用基线。<br><sub>arXiv · 高效推理 · #多智能体 #KV缓存 #推理效率 · 原题：LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems</sub>
+**5. [VocalGrad：评估音频语言模型的声学感知](https://arxiv.org/abs/2610.23745)**<br>VocalGrad 专门评估大音频语言模型对低级声学变化的感知能力，将其定义为时间变化方向的二分类问题。结果显示，当前最先进的 LALMs 在声学感知上与人类 annotators 存在巨大差距。<br><sub>arXiv · 语音 · #语音 #声学感知 #评测 · 原题：VocalGrad: Evaluating Acoustic Perception in Audio Language Models</sub>
 
-<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 39、RSS 订阅 32（40 个源）、量子位 5、GitHub Trending 44、GitHub 新项目 294、GitHub 版本发布 2、热门模型 16（2 个源）、论文 31。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-19 05:30（北京时间）自动生成。</sub>
+<sub>中文标题和摘要由 AI 生成（glm-4.7-flash），可能有误，请以原文为准。 本期候选来自：Hacker News 51、RSS 订阅 41（40 个源）、量子位 5、GitHub Trending 36、GitHub 新项目 299、GitHub 版本发布 2、热门模型 16（2 个源）、论文 31。 由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-20 06:54（北京时间）自动生成。</sub>
 
 <!-- wta:latest:end -->
 

@@ -1,0 +1,1081 @@
+{
+ "date": "2026-10-20",
+ "generated_at": "2026-10-19T22:54:20Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 429,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 7.8
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.7
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 36,
+   "error": "",
+   "seconds": 9.9
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 299,
+   "error": "",
+   "seconds": 22.0
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 20.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 31,
+   "error": "",
+   "seconds": 24.7
+  }
+ ],
+ "items": [
+  {
+   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+   "url": "https://arxiv.org/abs/2610.18861",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-18T20:48:14Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 501.0,
+    "comments": 235.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50145337",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturally, a lightweight HybridLink enables seamless transitions between text and latent modes, while the agent's continuous working memory preserves lossless hybrid context across multiple turns. These designs preserve tool-integrated agentic capabilities while making latent thoughts directly inspectable.…",
+    "llm_done": true
+   },
+   "id": "c16920b58ce6",
+   "score": 8.67,
+   "title_zh": "Hybrid Reasoning Agents：在潜在空间思考，通过文本行动",
+   "summary_zh": "HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。",
+   "tags": [
+    "智能体",
+    "论文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Timestral: Mistral's time-series foundation models",
+   "url": "https://mistral.ai/news/timestral/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-19T09:59:32Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 518.0,
+    "comments": 97.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50150434",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready. Timestral, Mistral’s first family of time-series foundation models, delivers state-of-the-art probabilistic, multivariate forecasts with just 209M parameters, outperforming larger models on key benchmarks while supporting past and future covariates. Available in four sizes (5M to 209M parameters), it balances accuracy and efficiency, running efficiently on CPUs and excelling in zero-shot forecasting for diverse domains. The model combines synthetic pre-training, covariate-aware attention, and long-context learning, with fine-tuning options for domain adaptation via Mistral Forge. Today, we’re releasing Timestral, our first family of time-series foundation models. Our largest model, a…",
+    "llm_done": true
+   },
+   "id": "4fadeb9d2d91",
+   "score": 8.18,
+   "title_zh": "Timestral：Mistral 的时间序列基础模型",
+   "summary_zh": "Timestral 是 Mistral 发布的时间序列基础模型，在 209M 参数下实现最先进的概率预测。",
+   "tags": [
+    "模型发布",
+    "时间序列"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Mercury 3: Diffusion at scale",
+   "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-19T17:27:11Z",
+   "summary": "",
+   "heat": 0.857,
+   "weight": 0.6,
+   "metrics": {
+    "points": 205.0,
+    "comments": 80.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50155245",
+    "excerpt_tried": true,
+    "evidence": "Mercury 3 is the most capable diffusion LLM released to date. It outperforms GPT-6 Luna and Claude Haiku 5.5 while running 4–8x faster at 1,000+ tokens per second. Today we’re introducing Mercury 3, the most capable diffusion-based LLM released to date. Across a range of benchmarks, Mercury 3 outperforms GPT-6 Luna and Claude Haiku 5.5, while running 4–8x faster at 1,000+ tokens per second. Mercury 3 demonstrates that text diffusion scales. It’s more than 40x larger than Mercury 1 and is vastly more intelligent, but just as fast. Early-access partners already use Mercury 3 for voice and chat support, real-time tutoring, data engineering, and web navigation: Quality: On par or better than frontier speed-optimized models like GPT-6 Luna and Claude Haiku 5.5. Speed: 1,068 tokens per second o…",
+    "llm_done": true
+   },
+   "id": "52e21579ecf8",
+   "score": 7.93,
+   "title_zh": "Mercury 3：大规模扩散模型",
+   "summary_zh": "Mercury 3 是目前最强大的扩散 LLM，在 1000+ tokens/秒的速度下超越 GPT-6 Luna 和 Claude Haiku 5.5。",
+   "tags": [
+    "模型发布",
+    "扩散模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Advancing Coding in Low-Resource Programming Languages",
+   "url": "https://openai.com/index/low-resource-programming-languages",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-19T12:00:00Z",
+   "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "58981fce4d79",
+   "score": 7.76,
+   "title_zh": "OpenAI 提升低资源编程语言代码能力",
+   "summary_zh": "OpenAI 改进了 ChatGPT 在低资源编程语言上的表现，新增了针对软件工程、SQLite 和 COBOL 迁移的评估。",
+   "tags": [
+    "模型发布",
+    "编程",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+   "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-18T21:09:12Z",
+   "summary": "",
+   "heat": 0.914,
+   "weight": 0.6,
+   "metrics": {
+    "points": 292.0,
+    "comments": 203.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50145507",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "e582c22d9e30",
+   "score": 7.75,
+   "title_zh": "如果不运行自己的 LLM 代理，如何知道发生了什么？",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+   "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+   "source": "rss",
+   "section": "news",
+   "via": "TechCrunch",
+   "published": "2026-10-19T22:04:28Z",
+   "summary": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5ffc15bbb718",
+   "score": 7.03,
+   "title_zh": "微软称 AI 智能体如同内部威胁",
+   "summary_zh": "微软警告企业需密切监控员工使用的智能体，因为前沿模型无法被完全信任。",
+   "tags": [
+    "行业动态",
+    "智能体",
+    "安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "正面硬刚DeepSeek！MiniMax M3.1 Flash发布，输出卷到200+TPS，价格砍到1/2",
+   "url": "https://zhidx.com/p/602354.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-10-19T15:05:20Z",
+   "summary": "智东西 作者 | 王涵 编辑 | 漠影 火爆AI圈的匿名模型Space Bunny，终于被认领了！ 智东西10月19日报道，刚刚，MiniMax 正式发布 M3.1 Flash ，定位为 Coding/Agent优化轻量级模型 ，拥有100万token上下文。 几乎前后脚，10月17日，DeepSeek V4.1 Flash-1017上线。（ 梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临 ） 根据M3.1 Flash的基准测试成绩，该模型在Agentic任务、编程、Computer Use及网络安全能力等方面实现了大幅提升， 与DeepSeek V4.1 Flash-1017基本追平 。 价格上也进一步 打穿了“斩杀线” 。M3.1 Flash的输入价格为 每百万Token 1元 ，输出价格为 每百万Token 4元 ，缓存读取价格为每百万Token 0.1元。据MiniMax团队发布信息，在Agentic类任务中，该模型的综合使用成本较前代模型 降低了70% 。 DeepSeek V4.1 Flash-1017定价为闲时输入（缓存命中）每百万Token 0…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "609bde941ef6",
+   "score": 6.95,
+   "title_zh": "MiniMax M3.1 Flash 发布",
+   "summary_zh": "MiniMax 发布 M3.1 Flash，定位为 Coding/Agent 优化轻量级模型，价格大幅降低。",
+   "tags": [
+    "模型发布",
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+   "url": "https://huggingface.co/blog/hf-torchneuron",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-10-19T00:00:00Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "We’re on a journey to advance and democratize artificial intelligence through open source and open science. TorchNeuron provides a new native backend for PyTorch on AWS Trainium. Transformers, Diffusers and Kernels natively support it, making it easier than ever to run models on Trainium and to share them on the HF hub. TorchNeuron is a PyTorch plugin that brings a new backend for Trainium enabling support for eager mode, torch.compile and native distributed APIs like FSDP and TP. Read the Pytorch blog to learn more about TorchNeuron. Starting Oct. 20, 2026, TorchNeuron will be available as a public beta. Researchers and developers will be able to install it with pip install torch-neuronx . To date, the Hugging Face experience on AWS Trainium and Inferentia — AI chips designed respectivel…",
+    "llm_done": true
+   },
+   "id": "15a29b00da92",
+   "score": 6.85,
+   "title_zh": "TorchNeuron 让在 AWS Trainium 上运行 HF 模型更简单",
+   "summary_zh": "TorchNeuron 为 PyTorch 提供了 Trainium 原生后端，支持 eager mode、torch.compile 和分布式 API。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "AWS"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "heat": 0.864,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1011.0,
+    "stars": 139661.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "eb66b4e95522",
+   "score": 7.65,
+   "title_zh": "",
+   "summary_zh": "ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面，是全球最快的本地推理引擎。",
+   "tags": [
+    "开源工具",
+    "扩散模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "alchaincyf/huashu-motion",
+   "url": "https://github.com/alchaincyf/huashu-motion",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+   "heat": 0.931,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 902.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4128833aa912",
+   "score": 7.06,
+   "title_zh": "",
+   "summary_zh": "huashu-motion 是一个开源项目，能让 Agent 一键直出会作曲、能指着画面修改的商业级产品宣传片。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Achieving near-zero-downtime scaling in Elastic Expert Parallelism",
+   "url": "https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-19T00:00:00Z",
+   "summary": "How asynchronous preparation and NIXL EP enabled near-zero-downtime Elastic EP scaling in vLLM.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ade6481ff22a",
+   "score": 7.01,
+   "title_zh": "",
+   "summary_zh": "通过异步准备和 NIXL EP 技术，vLLM 实现了弹性专家并行的近零停机扩展。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "分布式"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "heat": 0.812,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 666.0,
+    "stars": 11282.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "662d54180e16",
+   "score": 6.94,
+   "title_zh": "",
+   "summary_zh": "ai-memory 解决了 Agent 编码 CLI 的长期记忆问题，并促进不同 Agent 供应商之间的交接。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google/artemis",
+   "url": "https://github.com/google/artemis",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code. It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+   "heat": 0.783,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 526.0,
+    "stars": 12969.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6d0f8d617791",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "ARTEMIS 能自动化端到端工作流，在 AndroidWorld 基准测试中达到 99%+ 的成功率。",
+   "tags": [
+    "开源工具",
+    "自动化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith",
+   "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-10-19T16:44:34Z",
+   "summary": "How Numan built Nu, an AI health coach, on LangGraph and LangSmith with per-category evals, simulated conversations, and safety gates on a regulatory line.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d7f6c5393b16",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "Numan 利用 LangGraph 和 LangSmith 构建了 AI 健康教练，包含分类评估、模拟对话和安全门控。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "koala73/worldmonitor",
+   "url": "https://github.com/koala73/worldmonitor",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+   "heat": 0.621,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 143.0,
+    "stars": 88848.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1181d4d8646a",
+   "score": 6.56,
+   "title_zh": "",
+   "summary_zh": "worldmonitor 是一个 AI 驱动的实时全球情报仪表盘，提供新闻聚合、地缘政治监控和基础设施跟踪。",
+   "tags": [
+    "开源工具",
+    "监控"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenHands/OpenHands v1.28.0",
+   "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.28.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-19T14:29:10Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## 1.28.0 (2026-10-19) ## What's Changed ### Features * feat(verify-openhands): executable known bugs and a repeatable fix proof by @enyst in https://github.com/OpenHands/OpenHands/pull/18348 * feat(i18n): add Bahasa Indonesia (id) locale by @analisaperlengkapan in https://github.com/OpenHands/OpenHands/pull/18067 * feat: add close control to Getting started checklist by @DevinVinson in https://github.com/OpenHands/OpenHands/pull/18185 * feat(secrets): let the agent request a secret through an in-conversation modal by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18408 * feat(verify-openhands): adopt the shared known-bug contract by @enyst in https://github.com/OpenHands/OpenHands/pull/18355 * feat(chat): smooth, reading-pace streaming with word fade-in by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18491 * feat(secrets): ask for requested secrets inline in the chat by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18575 * feat(automations): hide templates that overlap built-in integrations on self-hosted instances (OHE-3611) by @hieptl in https://github.com/OpenHands/OpenHands/pull/18565 ### Bug Fixes * fix(lint): use semantic colors for Git Sync feedback by @enyst in https://github.com/OpenHands/OpenHands/pull/18346 * fix(themes): make backend connection feedback readable by @enyst in https://github.com/OpenHands/OpenHands/pull/18321 * fix(themes): use readable validation and service errors by @enyst in https://github.com/OpenHands/O…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "97f56d302fe7",
+   "score": 6.45,
+   "title_zh": "",
+   "summary_zh": "OpenHands 发布 v1.28.0 版本，新增了 Bahasa Indonesia 语言支持、对话模态请求密钥等功能。",
+   "tags": [
+    "开源工具",
+    "版本发布",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+   "url": "https://arxiv.org/abs/2610.22471",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across 12 representative benchmarks spanning tabletop manipulation, humanoids, mobile platforms, and dexterous hands. Under a unified protocol that allows in-context learning (ICL) from training-set demonstrations and substantially increases the number of execution steps, GPT-6-Astra achieves unprecedented performance (Fig. 1). Future research may focus on improving 1) the generality of ICL 2) cost and execution time, 3) physical-state verification, 4) recovery from irreversible failures, and 5) long-horizon preservation of progress. Second, we study the agentic harness for embodied control. We identify that close-loop coordination between a high-level \"System 2\" reasoner (i.e., GPT-6-Astra) and a low-level \"System 1\" controller (e.g., π0.5) is costly but effective. Third, we examine GPT-6-Astra on real-world deployment. Our experiments on 8 robot configurations reveal substantial gaps: 1) robot demonstrations required for ICL are expensive to collect, and 2) it is implausible to trade longer execution for higher success rates with physical constraints. Fourth, we envision the next genera…",
+   "heat": 0.958,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 236.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/OpenSenseNova/SenseNova-RoboRSI"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "21ce41f5011b",
+   "score": 7.58,
+   "title_zh": "GPT-6-Astra：具身智能的新突破",
+   "summary_zh": "GPT-6-Astra 在机器人操作和导航任务中表现出色，挑战了传统专用模型范式。通过统一协议和上下文学习，它在多个基准测试中取得了前所未有的性能。",
+   "tags": [
+    "具身智能",
+    "机器人",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DLite: History-free Speculative Decoding for Agentic AI",
+   "url": "https://arxiv.org/abs/2610.23787",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-16T17:18:54Z",
+   "summary": "Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuously evolving contexts and frequent multi-turn interactions. Under such workloads, we observe that existing draft models suffer from up to an 80% degradation in acceptance length, while maintaining their historical KV cache introduces substantial system overhead. In this paper, we identify the growing historical context as a common source of both problems and introduce DLite, a history-free speculative decoding framework for agentic AI. DLite directly reuses contextual hidden states from the target model and performs local speculative prediction without explicitly maintaining the historical context, transforming an increasingly complex modeling problem into local simple prediction problem. A lightweight sequential head further restores intra-block causal dependencies with low overhead. To effectively train this heterogeneous history-free architecture, we introduce a tailored two-stage training strategy. Experiments on general-purpose, long-context and agentic workloads show that DLite achieves 2-6 acceptance length and outperforms the state-of-the-art speculative decoding method, DSpark, up to 70%.",
+   "heat": 0.533,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 20.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/SJTU-DAI-Sys/DLite"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a76893f97d65",
+   "score": 7.09,
+   "title_zh": "DLite：无历史记录的推测解码",
+   "summary_zh": "DLite 针对智能体工作负载中历史上下文导致的接受长度下降和系统开销问题，提出了一种无历史记录的推测解码框架。实验表明，它在通用、长上下文和智能体工作负载上实现了 2-6 的接受长度，并优于最先进方法。",
+   "tags": [
+    "推理加速",
+    "智能体",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+   "url": "https://arxiv.org/abs/2610.19159",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-13T20:25:59Z",
+   "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with the necessary conditions a submission must meet. While assessing the quality of a follow-up paper is challenging in general, using these conditions to form a rubric makes evaluation more tractable for research problems that have no reference answer. We have nine frontier agents write 15 follow-ups each, spanning quantum computing, plasma physics, computational chemistry, materials science, and scientific machine learning domains. None of the 135 submissions satisfies all the conditions, and 114 fail our integrity check, most often because the paper claims work that was never done or reports numbers that contradict the recorded evidence. Overall, agents readily produce papers that look like follow-ups, but none meets the standard of the domain scientist, leaving substantial headroom. Our code and data are publicly available.",
+   "heat": 0.854,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 130.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/prometheus-eval/into-the-unknown"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "2cfbdd1f1491",
+   "score": 6.96,
+   "title_zh": "Into the Unknown：开放科学问题的智能体评测",
+   "summary_zh": "Into the Unknown 基准测试评估智能体在开放科学问题上的研究能力，要求其基于论文和方向撰写后续论文。实验发现，尽管智能体能生成看似合理的论文，但无一满足领域科学家的标准。",
+   "tags": [
+    "智能体",
+    "评测",
+    "科学"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+   "url": "https://arxiv.org/abs/2610.17665",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-14T00:00:00Z",
+   "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses successive rotations to recover the target projection within a limited action budget. Our automated pipeline constructs silhouette-preserving 3D objects from 2D icons and uses reversible initialization to guarantee solvability, yielding 674 tasks and a stratified 100-task test set. Empirically, we find that (i) a substantial human-model gap persists: GPT-5.6-Sol succeeds on only 17% of tasks, whereas 20 undergraduate participants collectively complete the test set four times with a 100% success rate; (ii) image-space and pose-space progress can diverge: at matched states, the model more often improves silhouette overlap while worsening pose alignment than humans (19.4% vs. 10.9%); and (iii) fine-grained control is sensitive to interaction history: removing it leaves 96.8% of the model's actions at a coarse 30-degree step size and sharply reduces observed task success. These findings highlight the challenge of converting visual evidence into precise 3D control, beyond recognizing or matching individual images.",
+   "heat": 0.926,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 196.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/MAC-AutoML/RoTA-Bench"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5ad7c46a32ce",
+   "score": 6.87,
+   "title_zh": "RoTA-Bench：通过交互式投影对齐评估3D空间推理",
+   "summary_zh": "RoTA-Bench 通过交互式 3D 到 2D 投影对齐任务，评估视觉语言模型将 2D 观察转化为支持精确动作的 3D 理解能力。实验发现，模型在任务完成率和精细控制方面与人类存在显著差距。",
+   "tags": [
+    "3D推理",
+    "多模态",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "VocalGrad: Evaluating Acoustic Perception in Audio Language Models",
+   "url": "https://arxiv.org/abs/2610.23745",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-10-16T16:54:35Z",
+   "summary": "Recent large audio language models (LALMs) have extended their capabilities beyond lexical speech understanding to tasks requiring paralinguistic and non-linguistic audio understanding, such as emotion recognition. However, these models still struggle to reliably utilize acoustic information, particularly when it co-occurs with spoken linguistic content. Existing benchmarks do not clearly distinguish acoustic perception from higher-level reasoning, making it difficult to identify the source of these failures. To address this issue, we introduce VocalGrad, a benchmark designed to evaluate LALMs' ability to perceive low-level acoustic variations. VocalGrad formulates this problem as a simple binary classification of temporal change direction, enabling evaluation largely independent of higher-level reasoning or semantic understanding. Our benchmark results reveal a substantial gap in acoustic perception between human annotators and state-of-the-art LALMs: while human annotators achieve high accuracy, LALMs perform at near-chance levels. We further conduct linear probing to identify structural bottlenecks in these models. Our analysis reveals two distinct failure modes: for some categories, task-relevant information is preserved in internal representations but not utilized by the language model head; for others, the information becomes progressively less linearly decodable across model layers. Overall, our results reveal substantial limitations of LALMs in modeling acoustic vari…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "cb4fbd31a8be",
+   "score": 6.02,
+   "title_zh": "VocalGrad：评估音频语言模型的声学感知",
+   "summary_zh": "VocalGrad 专门评估大音频语言模型对低级声学变化的感知能力，将其定义为时间变化方向的二分类问题。结果显示，当前最先进的 LALMs 在声学感知上与人类 annotators 存在巨大差距。",
+   "tags": [
+    "语音",
+    "声学感知",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ]
+}
