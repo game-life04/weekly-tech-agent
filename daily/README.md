@@ -1,6 +1,6 @@
 # 往期日报
 
-[返回首页](../README.md) · [往期周报](../weekly/README.md)
+[返回首页](../README.md) · [每周快讯](../weekly/README.md)
 
 ## 2026 年 10 月
 

@@ -1,4 +1,4 @@
-"""把数据排成 Markdown：日报、周报、README 里的“最新一期”和往期目录。
+"""把数据排成页面：日报、每周快讯（Markdown 和公众号排版用的 HTML）、README 里的“最新一期”和往期目录。
 
 GitHub 会直接渲染仓库里的 Markdown，所以这些文件就是读者看到的页面。
 这里的函数只生成文字、不读写文件，方便测试；写文件在 publish.py 里。
@@ -6,16 +6,16 @@ GitHub 会直接渲染仓库里的 Markdown，所以这些文件就是读者看�
 
 from __future__ import annotations
 
+import html
 import posixpath
 import re
-from datetime import date, timedelta
+from datetime import date
 from typing import Any
 from urllib.parse import quote
 
 from . import REPO_URL
-from .dates import local_time, parse_time, week_id, weekday_name
-from .models import SECTIONS, Item
-from .rank import select
+from .dates import date_span, local_time, parse_time, weekday_name
+from .models import KX_SECTIONS, SECTIONS, Item
 from .store import items_of
 from .textutil import clean_text
 
@@ -44,6 +44,10 @@ def daily_path(day: date) -> str:
 
 def weekly_path(week: str) -> str:
     return f"weekly/{week}.md"
+
+
+def weekly_html_path(week: str) -> str:
+    return f"weekly/{week}.html"
 
 
 def _relative(from_dir: str, target: str) -> str:
@@ -176,7 +180,7 @@ def _footer(payload: dict[str, Any], config: dict[str, Any], ai_text: bool, mode
 def render_daily(day: date, payload: dict[str, Any], config: dict[str, Any], previous: date | None) -> str:
     items = items_of(payload)
     here = posixpath.dirname(daily_path(day))
-    nav = [f"[本周周报]({_relative(here, weekly_path(week_id(day)))})"]
+    nav = [f"[每周快讯]({_relative(here, 'weekly/README.md')})"]
     if previous:
         nav.append(f"[上一期]({_relative(here, daily_path(previous))})")
     nav.append(f"[往期目录]({_relative(here, 'daily/README.md')})")
@@ -190,53 +194,23 @@ def render_daily(day: date, payload: dict[str, Any], config: dict[str, Any], pre
     return "\n\n".join(blocks) + "\n"
 
 
-def weekly_pick(payloads: dict[date, dict[str, Any]], config: dict[str, Any]) -> tuple[list[Item], int]:
-    """从一周的日报里按综合分挑出周报内容。返回（入选内容，本周收录总数）。"""
-    pool = [item for day in sorted(payloads) for item in items_of(payloads[day])]
-    quotas = {s: config["sections"][s]["weekly"] for s in SECTIONS}
-    caps = {name: cap * 2 for name, cap in config["select"]["caps"].items()}  # 一周的量，上限放宽一倍
-    return select(pool, quotas, config["select"]["per_source_cap"] * 2, caps), len(pool)
-
-
-def render_weekly(
-    monday: date, payloads: dict[date, dict[str, Any]], config: dict[str, Any], today: date, overview: str = ""
+def render_latest_block(
+    day: date | None, payload: dict[str, Any], config: dict[str, Any], kx: dict[str, Any] | None = None
 ) -> str:
-    sunday = monday + timedelta(days=6)
-    year, week, _ = monday.isocalendar()
-    picked, total = weekly_pick(payloads, config)
-    days = " · ".join(f"[{weekday_name(d)} {d:%m-%d}]({_relative('weekly', daily_path(d))})" for d in sorted(payloads))
-    state = "本周内容已收齐。" if today >= sunday else "本周还没结束，内容每天更新。"
-    blocks = [
-        f"# AI 周报 · {year} 年第 {week} 周（{monday:%m-%d} ~ {sunday:%m-%d}）",
-        f"> 本周日报共收录 **{total}** 条，这里按综合分精选 **{len(picked)}** 条。{state}<br>\n"
-        f"> 每日日报：{days}<br>\n> [往期周报](README.md)",
-    ]
-    if overview.strip():
-        blocks += ["## 本周看点", md_escape(overview, 1200)]
-    blocks.append(render_sections(picked, config))
-    ordered = [payloads[day] for day in sorted(payloads)]
-    generated = {"generated_at": ordered[-1].get("generated_at")} if ordered else {}
-    # 周报的内容来自一周里的每一天，AI 标注也按整周算，不能只看最后一天
-    ai_text = bool(overview.strip()) or _has_ai_text(picked)
-    blocks += ["---", _footer(generated, config, ai_text, _models(ordered))]
-    return "\n\n".join(blocks) + "\n"
-
-
-def render_latest_block(day: date, payload: dict[str, Any], config: dict[str, Any]) -> str:
-    """README 里“最新一期”这一段（含首尾标记）。"""
-    items = items_of(payload)
-    nav = (
-        f"[本周周报]({weekly_path(week_id(day))}) · [往期日报](daily/README.md) · [往期周报](weekly/README.md)"
-        f" · [单独打开这一期]({daily_path(day)})"
-    )
-    blocks = [
-        LATEST_START,
-        f"## 最新一期 · {day.isoformat()}（{weekday_name(day)}）",
-        f"> 收录 **{len(items)}** 条：{_counts(items, config)}<br>\n> {nav}",
-        render_sections(items, config, level=3),
-        _footer(payload, config, _has_ai_text(items), _models([payload])),
-        LATEST_END,
-    ]
+    """README 里“最新一期”这一段（含首尾标记）：最新一期快讯的速览，加上最新一期日报。"""
+    blocks = [LATEST_START]
+    if kx:
+        blocks += _kx_readme(kx)
+    if day is not None:
+        items = items_of(payload)
+        nav = f"[往期日报](daily/README.md) · [每周快讯](weekly/README.md) · [单独打开这一期]({daily_path(day)})"
+        blocks += [
+            f"## 最新日报 · {day.isoformat()}（{weekday_name(day)}）",
+            f"> 收录 **{len(items)}** 条：{_counts(items, config)}<br>\n> {nav}",
+            render_sections(items, config, level=3),
+            _footer(payload, config, _has_ai_text(items), _models([payload])),
+        ]
+    blocks.append(LATEST_END)
     return "\n\n".join(blocks)
 
 
@@ -257,7 +231,7 @@ def replace_latest_block(readme: str, block: str) -> str:
 
 def render_daily_index(days: list[tuple[date, int]]) -> str:
     """daily/README.md：按月份倒序列出所有日报。days 是（日期，条数）。"""
-    lines = ["# 往期日报", "", "[返回首页](../README.md) · [往期周报](../weekly/README.md)"]
+    lines = ["# 往期日报", "", "[返回首页](../README.md) · [每周快讯](../weekly/README.md)"]
     month = None
     for day, count in sorted(days, reverse=True):
         if (day.year, day.month) != month:
@@ -267,13 +241,214 @@ def render_daily_index(days: list[tuple[date, int]]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_weekly_index(weeks: list[tuple[date, int]]) -> str:
-    """weekly/README.md：倒序列出所有周报。weeks 是（周一日期，本周收录条数）。"""
-    lines = ["# 往期周报", "", "[返回首页](../README.md) · [往期日报](../daily/README.md)", ""]
-    for monday, count in sorted(weeks, reverse=True):
-        year, week, _ = monday.isocalendar()
-        sunday = monday + timedelta(days=6)
+def render_weekly_index(issues: list[dict[str, Any]]) -> str:
+    """weekly/README.md：倒序列出所有快讯。issues 是每一期快讯的数据。"""
+    lines = ["# 每周快讯", "", "[返回首页](../README.md) · [往期日报](../daily/README.md)", ""]
+    for kx in sorted(issues, key=lambda kx: kx["start"], reverse=True):
+        year, week, _ = date.fromisoformat(kx["start"]).isocalendar()
         lines.append(
-            f"- [{year} 年第 {week} 周（{monday:%m-%d} ~ {sunday:%m-%d}）]({week_id(monday)}.md) · 收录 {count} 条"
+            f"- [{year} 年第 {week} 周 · {kx_range(kx)}]({kx['week']}.md) · [公众号排版版]({kx['week']}.html)"
+            f" · {len(_kx_entries(kx))} 条"
         )
+    if not issues:
+        lines.append("还没有快讯：每周一生成上一周的一期。")
     return "\n".join(lines) + "\n"
+
+
+# ---------------------------------------------------------------------------
+# 每周快讯
+
+KX_TITLE = "每周科技快讯"
+KX_INTRO = (
+    "5 分钟速读 AI 与开源大事件：俱乐部动态、政策动向、国内外动态、开源项目、学术前沿和产业纵横，以及近期会议截稿。"
+)
+
+
+def kx_range(kx: dict[str, Any]) -> str:
+    """10.12–10.18"""
+    start, end = date.fromisoformat(kx["start"]), date.fromisoformat(kx["end"])
+    return f"{start:%m.%d}–{end:%m.%d}"
+
+
+def _kx_entries(kx: dict[str, Any]) -> list[dict[str, Any]]:
+    return [entry for entry in kx.get("entries") or [] if isinstance(entry, dict)]
+
+
+def _kx_groups(kx: dict[str, Any]) -> list[tuple[str, str, list[dict[str, Any]]]]:
+    """（栏目内部名，栏目名，条目）；没有内容的栏目不出现。"""
+    entries = _kx_entries(kx)
+    groups = [(name, title, [entry for entry in entries if entry.get("cat") == name]) for name, title in KX_SECTIONS]
+    return [group for group in groups if group[2]]
+
+
+def _kx_parts(kx: dict[str, Any]) -> list[tuple[str, list[tuple[str, str, list[dict[str, Any]]]]]]:
+    """正文分两部分：上周快讯（各栏目）和活动预告。"""
+    groups = _kx_groups(kx)
+    parts = [
+        ("上周快讯", [g for g in groups if g[0] != "events"]),
+        ("活动预告", [g for g in groups if g[0] == "events"]),
+    ]
+    return [part for part in parts if part[1]]
+
+
+def _kx_brings(kx: dict[str, Any]) -> list[str]:
+    """“本期为您带来”的几项。"""
+    events = any(entry.get("cat") == "events" for entry in _kx_entries(kx))
+    return [f"{kx_range(kx)} 快讯"] + (["近期会议截稿提醒"] if events else [])
+
+
+def _kx_notes(kx: dict[str, Any], config: dict[str, Any]) -> list[tuple[str, str, str, str]]:
+    """页脚的几句说明，每句是（链接前的文字，链接文字，链接，链接后的文字）；没有链接的中间两项为空。"""
+    entries = _kx_entries(kx)
+    notes: list[tuple[str, str, str, str]] = []
+    if any(entry.get("ai") for entry in entries):
+        models = "、".join(kx.get("models") or [])
+        notes.append(
+            (f"标题和正文由 AI 根据原文整理{f'（{models}）' if models else ''}，可能有误，请以原文为准。", "", "", "")
+        )
+    period = kx.get("club_period") or {}
+    if any(entry.get("cat") == "club" for entry in entries) and period.get("start") and period.get("end"):
+        when = date_span(date.fromisoformat(period["start"]), date.fromisoformat(period["end"]))
+        dashboard = config["kuaixun"]["club"]["dashboard"].rstrip("/") + "/"
+        notes.append((f"俱乐部动态的统计区间为{when}，数据来自", "俱乐部开源仪表盘", dashboard, "。"))
+    if any(entry.get("cat") == "events" for entry in entries):
+        notes.append(("会议截稿时间来自", "CCFDDL", "https://ccfddl.com/", "，已换算成北京时间，请以会议官网为准。"))
+    failed = [str(source.get("title")) for source in kx.get("sources") or [] if not source.get("ok")]
+    if failed:
+        notes.append((f"本期未取到：{'、'.join(failed)}。", "", "", ""))
+    notes.append(("有新闻线索欢迎", "提交 Issue", f"{REPO_URL}/issues", "。"))
+    generated = parse_time(kx.get("generated_at"))
+    when = ""
+    if generated:
+        when = f"于 {local_time(generated, config['utc_offset_hours']):%Y-%m-%d %H:%M}（{_zone_name(config)}）"
+    notes.append(("本期由", "每周科技收集 Agent", REPO_URL, f"{when}自动生成。"))
+    return notes
+
+
+def _kx_entry_md(entry: dict[str, Any]) -> str:
+    url, via = md_url(str(entry.get("url") or "")), md_escape(entry.get("via") or "原文", 30)
+    source = f"[{via}]({url})" if url else via
+    text = f"{md_escape(entry.get('when'), 30)}，{md_escape(entry.get('body'), 360)}"
+    return f"**{md_escape(entry.get('headline'), 80)}**<br>{text}<br><sub>（来源：{source}）</sub>"
+
+
+def _kx_digest(kx: dict[str, Any], linked: bool) -> list[str]:
+    """“新闻速览”：每个栏目的标题列表；linked 时标题链接到原文。"""
+    blocks = []
+    for _, title, rows in _kx_groups(kx):
+        lines = []
+        for entry in rows:
+            headline, url = md_escape(entry.get("headline"), 80), md_url(str(entry.get("url") or ""))
+            lines.append(f"✨ [{headline}]({url})" if linked and url else f"✨ {headline}")
+        blocks.append(f"**{title}**<br>\n" + "<br>\n".join(lines))
+    return blocks
+
+
+def _kx_readme(kx: dict[str, Any]) -> list[str]:
+    week = kx["week"]
+    nav = f"[阅读全文]({weekly_path(week)}) · [公众号排版版]({weekly_html_path(week)}) · [往期快讯](weekly/README.md)"
+    return [
+        f"## 每周快讯 · {kx_range(kx)}",
+        f"> 上周 AI 与开源要闻 **{len(_kx_entries(kx))}** 条，5 分钟速读。<br>\n> {nav}",
+        *_kx_digest(kx, linked=True),
+    ]
+
+
+def render_kuaixun(kx: dict[str, Any], config: dict[str, Any]) -> str:
+    """weekly/<周>.md：一期快讯。"""
+    blocks = [
+        f"# {KX_TITLE} · {kx_range(kx)}",
+        f"> {KX_INTRO}<br>\n> 本期为您带来：{' · '.join(f'**{b}**' for b in _kx_brings(kx))}<br>\n"
+        f"> [往期快讯](README.md) · [每日日报](../daily/README.md) · [公众号排版版]({kx['week']}.html)",
+    ]
+    parts = _kx_parts(kx)
+    if parts:
+        blocks += ["## 新闻速览", *_kx_digest(kx, linked=False)]
+    else:
+        blocks.append("这一周没有收集到内容。")
+    for heading, groups in parts:
+        blocks.append(f"## {heading}")
+        for _, title, rows in groups:
+            if heading != "活动预告":
+                blocks.append(f"### {title}")
+            blocks.extend(_kx_entry_md(entry) for entry in rows)
+    notes = [
+        md_escape(before) + (f"[{md_escape(label)}]({md_url(url)})" if url else "") + md_escape(after)
+        for before, label, url, after in _kx_notes(kx, config)
+    ]
+    blocks += ["---", "<sub>" + " ".join(notes) + "</sub>"]
+    return "\n\n".join(blocks) + "\n"
+
+
+# 公众号编辑器只保留写在标签上的样式；链接在公众号里点不了，所以来源直接写网址（《CCF开源快讯》也是这样）
+_WX = {
+    "page": "max-width:677px;margin:0 auto;padding:16px;font-family:-apple-system,BlinkMacSystemFont,"
+    "'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;color:#333;font-size:15px;line-height:1.75;"
+    "letter-spacing:0.5px;",
+    "title": "margin:8px 0 16px;font-size:22px;font-weight:bold;line-height:1.4;color:#1a1a1a;",
+    "intro": "margin:0 0 20px;padding:12px 14px;background:#f3f6fc;border-radius:6px;font-size:14px;color:#555;",
+    "part": "margin:28px 0 12px;padding:6px 12px;background:#1e5eff;color:#fff;font-size:17px;font-weight:bold;"
+    "border-radius:4px;",
+    "group": "margin:22px 0 8px;padding-left:10px;border-left:4px solid #1e5eff;font-size:16px;font-weight:bold;"
+    "color:#1e5eff;",
+    "label": "margin:14px 0 4px;font-size:14px;font-weight:bold;color:#1e5eff;",
+    "digest": "margin:4px 0;font-size:14px;color:#333;",
+    "headline": "margin:16px 0 6px;font-size:15px;font-weight:bold;color:#1a1a1a;",
+    "body": "margin:0 0 6px;font-size:15px;color:#333;text-align:justify;",
+    "source": "margin:0 0 14px;font-size:12px;line-height:1.6;color:#888;word-break:break-all;",
+    "footer": "margin:28px 0 0;padding-top:12px;border-top:1px solid #e5e5e5;font-size:12px;color:#999;",
+}
+
+
+def _wx(kind: str, text: str) -> str:
+    return f'<p style="{_WX[kind]}">{text}</p>'
+
+
+def render_kuaixun_html(kx: dict[str, Any], config: dict[str, Any]) -> str:
+    """weekly/<周>.html：公众号排版版。用浏览器打开，全选复制，粘贴到公众号编辑器。"""
+    esc = html.escape
+    title = f"{KX_TITLE} · {kx_range(kx)}"
+    body = [
+        _wx("title", esc(title)),
+        _wx("intro", esc(KX_INTRO) + "<br>本期为您带来：" + esc("、".join(_kx_brings(kx)))),
+    ]
+    parts = _kx_parts(kx)
+    if parts:
+        body.append(_wx("part", "新闻速览"))
+    for _, name, rows in _kx_groups(kx):
+        body.append(_wx("label", esc(name)))
+        body.extend(_wx("digest", "✨" + esc(str(entry.get("headline") or ""))) for entry in rows)
+    for heading, groups in parts:
+        body.append(_wx("part", heading))
+        for _, name, rows in groups:
+            if heading != "活动预告":
+                body.append(_wx("group", esc(name)))
+            for entry in rows:
+                url = md_url(str(entry.get("url") or ""))
+                body += [
+                    _wx("headline", esc(str(entry.get("headline") or ""))),
+                    _wx("body", esc(f"{entry.get('when', '')}，{entry.get('body', '')}")),
+                    _wx("source", esc(f"（来源：{url or entry.get('via') or '原文'}）")),
+                ]
+    notes = [
+        esc(before + (f"{label}（{url}）" if url else "") + after)
+        for before, label, url, after in _kx_notes(kx, config)
+    ]
+    body.append(_wx("footer", "<br>".join(notes)))
+    page = [
+        "<!doctype html>",
+        '<html lang="zh-CN">',
+        "<head>",
+        '<meta charset="utf-8">',
+        '<meta name="viewport" content="width=device-width, initial-scale=1">',
+        f"<title>{esc(title)}</title>",
+        "</head>",
+        '<body style="margin:0;background:#ffffff;">',
+        "<!-- 公众号排版版：用浏览器打开这个文件，全选、复制，粘贴到公众号编辑器即可，样式会一起带过去。 -->",
+        f'<section style="{_WX["page"]}">',
+        *body,
+        "</section>",
+        "</body>",
+        "</html>",
+    ]
+    return "\n".join(page) + "\n"

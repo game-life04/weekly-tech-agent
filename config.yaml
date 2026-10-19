@@ -384,6 +384,36 @@ sources:
       - { name: HelloGitHub 月刊, url: 'https://hellogithub.com/rss', section: opensource, weight: 0.6, max_items: 1, max_age_hours: 96, naive_offset: 8 }
 
 # ---------------------------------------------------------------------------
+# 每周快讯：每周一把上一周的内容整理成一期（参照《CCF开源快讯》的体例），见 wta/kuaixun.py。
+kuaixun:
+  enabled: true
+  candidates: { news: 30, opensource: 20, papers: 8 } # 从一周的日报里各取综合分最高的多少条交给大模型
+  caps: # 每个栏目最多登几条
+    club: 5
+    policy: 3
+    domestic: 6
+    overseas: 6
+    opensource: 4
+    papers: 3
+    industry: 3
+    events: 4
+  club: # 俱乐部动态：开源仪表盘的周统计 + GitHub 上的新仓库和新版本
+    name: 开放原子开源俱乐部
+    org: hust-open-atom-club
+    dashboard: 'https://osd.openatom.club'
+    exclude: [weekly-tech-agent] # 不计入统计的仓库：本项目的机器人每天都提交，不算俱乐部的开发活动
+    top_repos: 3 # 单独介绍最活跃的几个仓库
+    release_repos: 8 # 去最活跃的几个仓库里查新版本
+  policy: # 政策动向：中国政府网“最新政策”和“要闻”里标题含这些词的条目
+    keywords: [人工智能, 大模型, 智能体, 算力, 开源, 软件, 数据要素, 数据产业, 公共数据, 数字经济, 数字中国,
+               信息化, 网络安全, 集成电路, 芯片, 机器人, 新质生产力, 科技创新, 人才培养]
+    exclude: [会见, 会谈, 通话, 考察, 出席, 贺信, 致信, 回信] # 会见、考察这类时政活动不收
+  events: # 活动预告：接下来 days 天内截稿的 CCF 推荐会议（数据来自 ccfddl）
+    subjects: [AI, CG, HI, MX] # 人工智能、图形学与多媒体、人机交互、交叉/综合/新兴
+    ranks: [A, B]
+    days: 45
+
+# ---------------------------------------------------------------------------
 # 大模型：给候选内容打分，写中文标题和一句话摘要。没有配置密钥时自动跳过，
 # 日报照常生成，只是标题保持原文。密钥放在仓库的 Actions Secrets 里，不要写进这个文件。
 llm:

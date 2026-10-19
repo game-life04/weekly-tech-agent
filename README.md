@@ -4,14 +4,14 @@
 [![CI](https://github.com/game-life04/weekly-tech-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/game-life04/weekly-tech-agent/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-每天自动收集 AI 和大模型领域值得看的动态、开源项目和论文，整理成一份日报，每周再汇总成周报。内容直接放在这个仓库里，打开就能看。
+每天自动收集 AI 和大模型领域值得看的动态、开源项目和论文，整理成一份日报；每周一再参照《CCF开源快讯》的体例，把上一周的内容整理成一期 5 分钟速读的「每周快讯」，附一份能直接贴进公众号的排版版。内容直接放在这个仓库里，打开就能看。
 
 <!-- wta:latest:start -->
 
-## 最新一期 · 2026-10-19（周一）
+## 最新日报 · 2026-10-19（周一）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
-> [本周周报](weekly/2026-W43.md) · [往期日报](daily/README.md) · [往期周报](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-19.md)
+> [往期日报](daily/README.md) · [每周快讯](weekly/README.md) · [单独打开这一期](daily/2026/2026-10-19.md)
 
 ### 🗞️ AI 动态
 
@@ -77,9 +77,22 @@
 | 🛠️ 开源圈 | GitHub Trending 里的 AI 项目；最近一个月涨星最快的新仓库；vLLM、Ollama、transformers 等三十多个重点项目的新版本；Hugging Face 和魔搭的热门模型 |
 | 📄 前沿论文 | Hugging Face Daily Papers 上点赞最多的论文；长上下文与检索、智能体、语音、高效推理四个方向的 arXiv 新论文 |
 
-日报每天每个栏目最多 8 / 8 / 5 条；周报从当周日报里按综合分再精选一次。登过的内容 120 天内不会重复出现。
+日报每天每个栏目最多 8 / 8 / 5 条。登过的内容 120 天内不会重复出现。
 
 每条内容只保留标题、链接和一两句摘要，原文版权归原作者所有。
+
+### 每周快讯
+
+每周一生成上周一到周日的一期，放在 [weekly/](weekly/README.md)，首页顶部是最新一期的速览。栏目和顺序参照《CCF开源快讯》：
+
+| 栏目 | 内容从哪来 |
+| --- | --- |
+| 俱乐部动态 | [俱乐部开源仪表盘](https://osd.openatom.club/)（[Open-Source-Dashboard](https://github.com/hust-open-atom-club/Open-Source-Dashboard)）的周统计和最活跃的仓库，加上 GitHub 上这一周新建的仓库和新发布的版本。全部由程序根据接口数据写成，不经过大模型 |
+| 政策动向 | 中国政府网“最新政策”和“要闻”里和人工智能、开源、软件有关的条目 |
+| 国内动态、海外动态、开源项目、学术前沿、产业纵横 | 从这一周的日报里按综合分挑候选，大模型负责分栏、去掉讲同一件事的重复条目，把标题写成“主体+动作+对象”，再写一两句正文 |
+| 活动预告 | 接下来 45 天截稿的 CCF 推荐会议（人工智能、图形学与多媒体、人机交互、交叉综合四个领域的 A、B 类），数据来自 [CCFDDL](https://ccfddl.com/)，时间换算成北京时间 |
+
+每期有两个文件：`weekly/<周>.md` 在 GitHub 上直接看；`weekly/<周>.html` 是公众号排版版，下载后用浏览器打开，全选、复制，粘贴到公众号编辑器即可，样式会一起带过去（公众号里外链点不了，来源直接写成网址，和《CCF开源快讯》一样）。
 
 ### 怎么工作的
 
@@ -88,11 +101,14 @@
   → 去重（同一篇文章、同一篇论文在不同来源只算一条）
   → 打分（热度、来源权重、新鲜度）
   → 大模型打分并给入选内容写中文标题和摘要（可选；没有简介的 AI 动态先到原文网页取一小段当资料）
-  → 生成 daily/、weekly/ 下的 Markdown 和本页顶部的“最新一期”
+  → 生成 daily/ 下的日报和本页顶部的“最新一期”
+  → 每周一：把上周的日报，加上俱乐部统计、政策和会议截稿，整理成 weekly/ 下的快讯
   → 提交回仓库
 ```
 
 整个流程由 GitHub Actions 每天定时运行（[.github/workflows/daily.yml](.github/workflows/daily.yml)），不需要服务器。GitHub 的定时任务经常晚到两三个小时，有时干脆不触发，所以一天设了三次（北京时间 03:17、05:47、09:17）：先跑到的那次负责抓取和出刊，后面的不重新抓取，只补上大模型之前没写成的中文摘要。日报出现的时间因此不固定，一般在北京时间早上。
+
+快讯在周一第一次运行时生成；大模型没写完的条目由后面几次补上（已经写好的不会重写）。俱乐部仪表盘中午前后才更新到周日，所以周一 13:17 还有一次运行，把俱乐部统计换成完整的一周。
 
 ### 在本地运行
 
@@ -104,6 +120,8 @@ python -m wta check hackernews    # 测试一个来源，打印条数、发布�
 python -m wta check rss:量子位     # 只测试一个订阅
 # 完整跑一遍，结果写到仓库外面的目录里看效果（不调用大模型）：
 python -m wta --root ../wta-preview --config config.yaml run --no-llm
+# 用已有的日报数据生成某一周的快讯（先把 data/ 复制到 ../wta-preview 里）：
+python -m wta --root ../wta-preview --config config.yaml kuaixun --week 2026-W42 --no-llm
 ```
 
 不要直接在仓库目录里运行 `python -m wta run`：它会改写 `data/`、`daily/`、`weekly/` 和 README 里的“最新一期”，这些文件由定时任务维护。不小心改了的话，提交前用 `git restore` 还原。
@@ -112,7 +130,7 @@ python -m wta --root ../wta-preview --config config.yaml run --no-llm
 
 ### 配置
 
-所有可调的东西都在 [config.yaml](config.yaml) 里：每个栏目放几条、关键词表、订阅列表、关注的仓库、论文的关注方向、用哪家大模型。改配置不需要改代码。
+所有可调的东西都在 [config.yaml](config.yaml) 里：每个栏目放几条、关键词表、订阅列表、关注的仓库、论文的关注方向、快讯每个栏目登几条和政策关键词、用哪家大模型。改配置不需要改代码。
 
 ### 大模型是可选的
 
@@ -144,11 +162,13 @@ wta/                 程序
   dedupe.py          去重
   rank.py            打分和选稿
   llm.py editor.py   大模型接口；打分、写中文摘要
-  render.py          生成 Markdown
+  kuaixun.py         每周快讯：挑选、分栏、改写
+  club.py policy.py deadlines.py   快讯的俱乐部动态、政策动向、活动预告
+  render.py          生成页面（Markdown，快讯另有公众号排版版 HTML）
   publish.py         写文件
   cli.py             命令行入口
-data/                每天的数据（JSON），页面都从这里生成
-daily/  weekly/      日报和周报
+data/                每天的数据（JSON），页面都从这里生成；data/weekly/ 是每期快讯
+daily/  weekly/      日报和每周快讯
 tests/               测试（全部使用假数据，不访问网络）
 ```
 
@@ -157,6 +177,7 @@ tests/               测试（全部使用假数据，不访问网络）
 - 中文标题和摘要由大模型根据抓到的文字生成，页面上有标注，可能有误，请以原文为准。每条内容都附原文链接。
 - 来源没给简介的 AI 动态（主要是 Hacker News 的帖子），程序会到原文网页取网页自带的描述和正文开头几段，最多 800 字，只给大模型写摘要用，不显示在页面上，不保存全文。需要登录的网站（X、领英等）不去取。
 - 条目的链接、热度数字和来源名由程序根据抓到的数据写出，不经过大模型。来源自带的简介里如果有网址，GitHub 会自动把它显示成链接。
+- 快讯的标题和正文由大模型根据日报里的资料改写，经过同样的核对，不合格的退回日报里已经核对过的中文标题和摘要；日期、链接、俱乐部的统计数字和会议截稿时间都由程序写出，不经过大模型。
 - 程序会核对大模型写的标题和摘要：出现了原文里没有的英文名称，或三位以上、带小数点或百分号的数字，就不采用；一个汉字都没有的“翻译”也不采用。中文标题只拿原标题核对，不能把简介里的名称搬进标题。核对规则改进以后，之后的定时任务会按新规则复查当天已经登出的内容：不合格的撤下、改为显示原文，再补写一次，只补撤下的部分。这只能降低出错的可能：“谁发布、谁使用”这类关系和中文写的论断核对不了。
 - 本项目的代码在 AI 辅助下编写（Claude Code），相应的提交带有 `Assisted-by` 标注。
 
@@ -177,7 +198,7 @@ tests/               测试（全部使用假数据，不访问网络）
 
 ### 致谢
 
-设计上参考了 [Horizon](https://github.com/Thysrael/Horizon)、[agents-radar](https://github.com/duanyytop/agents-radar) 和 [AIHOT](https://github.com/KKKKhazix/AIHOT)。
+设计上参考了 [Horizon](https://github.com/Thysrael/Horizon)、[agents-radar](https://github.com/duanyytop/agents-radar) 和 [AIHOT](https://github.com/KKKKhazix/AIHOT)。每周快讯的体例参照 CCF 开源发展技术委员会的《CCF开源快讯》，俱乐部数据来自俱乐部的 [Open-Source-Dashboard](https://github.com/hust-open-atom-club/Open-Source-Dashboard)，会议截稿数据来自 [ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)。
 
 ### 许可证
 

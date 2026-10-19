@@ -9,7 +9,7 @@ from types import SimpleNamespace
 import pytest
 from fakes import FakeClient
 
-from wta import cli, collect, excerpt, store
+from wta import cli, club, collect, deadlines, excerpt, policy, store
 from wta.dates import to_iso
 from wta.llm import Filtered, LLMError
 from wta.models import Item
@@ -58,6 +58,10 @@ def repo(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "SOURCES", sources)
     monkeypatch.setattr(cli, "SOURCES", sources)
     monkeypatch.setattr(excerpt, "fetch", lambda http, url: "")  # 测试不访问网络：原文网页一律取不到
+    # 快讯的外部数据源也换成假的：俱乐部统计正好覆盖那一周，政策和会议截稿都没有
+    monkeypatch.setattr(club, "fetch", lambda ctx, settings, monday, sunday, offset: ([], {"end": sunday.isoformat()}))
+    monkeypatch.setattr(policy, "fetch", lambda http, monday, sunday, settings: [])
+    monkeypatch.setattr(deadlines, "fetch", lambda http, now, settings: [])
     for name in ("GITHUB_STEP_SUMMARY", "GITHUB_ACTIONS"):  # 在 CI 里跑测试时，别往真实的运行小结里写假日报
         monkeypatch.delenv(name, raising=False)
     return tmp_path, sources
@@ -86,12 +90,12 @@ def test_run_writes_data_pages_and_readme(repo):
     assert "# AI 日报 · 2026-10-10（周六）" in daily and "Item 2 about LLM" in daily
     assert "Item 99" not in daily  # 没启用的来源不抓
     assert "本次未取到：Broken。" in daily
-    assert (root / "weekly/2026-W41.md").is_file()
+    assert not (root / "weekly/2026-W41.md").exists()  # 快讯要等一周过完才生成
     assert "2026/2026-10-10.md" in (root / "daily/README.md").read_text(encoding="utf-8")
-    assert "2026-W41.md" in (root / "weekly/README.md").read_text(encoding="utf-8")
+    assert "还没有快讯：每周一生成上一周的一期" in (root / "weekly/README.md").read_text(encoding="utf-8")
 
     readme = (root / "README.md").read_text(encoding="utf-8")
-    assert "## 最新一期 · 2026-10-10（周六）" in readme
+    assert "## 最新日报 · 2026-10-10（周六）" in readme and "每周快讯 ·" not in readme
     assert "保留这一段。" in readme and readme.startswith("# 每周科技收集 Agent")
 
 
@@ -109,10 +113,8 @@ def test_rerun_same_day_is_stable_and_next_day_skips_old_items(repo):
     next_day = store.load_day(root, date(2026, 10, 11))
     assert [i["title"] for i in next_day["items"]] == ["Item 5 about LLM"]  # 昨天登过的不再出现
     readme = (root / "README.md").read_text(encoding="utf-8")
-    assert "## 最新一期 · 2026-10-11（周日）" in readme and "2026-10-10（周六）" not in readme
+    assert "## 最新日报 · 2026-10-11（周日）" in readme and "2026-10-10（周六）" not in readme
     assert "[上一期](2026-10-10.md)" in (root / "daily/2026/2026-10-11.md").read_text(encoding="utf-8")
-    weekly = (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
-    assert "Item 5 about LLM" in weekly and "Item 2 about LLM" in weekly
 
 
 def test_all_sources_failing_writes_nothing(repo, monkeypatch):
@@ -156,12 +158,8 @@ def test_render_rebuilds_pages_from_data(repo):
     page = root / "daily/2026/2026-10-10.md"
     original = page.read_text(encoding="utf-8")
     page.unlink()
-    (root / "data/weekly").mkdir(parents=True)
-    (root / "data/weekly/2026-W41.json").write_text(json.dumps({"overview": "看点"}), encoding="utf-8")
     assert run(root, "render") == 0
     assert page.read_text(encoding="utf-8") == original
-    assert store.list_days(root) == [date(2026, 10, 10)]  # 周报附加文件不算一天
-    assert "## 本周看点\n\n看点" in (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
 
 
 def test_check_reports_failures(repo, capsys):
@@ -193,14 +191,12 @@ LONG = "A long enough description of the item so that a summary may be written f
 
 
 def llm_replies(score_of, blocked=()):
-    """假大模型：打分请求按 score_of 给分；摘要请求给每条写固定的中文；周报请求写一句话。"""
+    """假大模型：打分请求按 score_of 给分；摘要请求给每条写固定的中文。"""
 
     def reply(sent):
         rows = sent["items"]
         if any(r["title"] in blocked for r in rows):
             return Filtered("sensitive")
-        if "i" not in rows[0]:
-            return {"overview": "本周看点是智能体。"}
         return {
             "items": [
                 {
@@ -258,12 +254,10 @@ def test_model_scores_decide_the_order_and_write_chinese(with_llm):
     daily = (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
     assert "中文：Item 2 about LLM" in daily and "原题：Item 2 about LLM" in daily
     assert "由 AI 生成（fake-1）" in daily and "Item 4" not in daily  # 存疑且分数低的不登
-    weekly = (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
-    assert "## 本周看点\n\n本周看点是智能体。" in weekly
-    assert len(client.calls) == 3  # 打分一次、摘要一次、本周看点一次
+    assert len(client.calls) == 2  # 打分一次、摘要一次
 
     assert run(root, "run", "--date", "2026-10-10") == 0  # 当天重跑：打过分、写过摘要的不再请求
-    assert len(client.calls) == 4 and "items" in client.calls[3] and "i" not in client.calls[3]["items"][0]
+    assert len(client.calls) == 2
     assert store.load_day(root, date(2026, 10, 10))["llm"] == {"provider": "假服务", "model": "fake-1"}
 
 
@@ -348,11 +342,10 @@ def test_if_missing_fills_in_chinese_an_earlier_run_could_not_write(with_llm):
     assert filled["llm"] == {"provider": "假服务", "model": "fake-1"}
     assert filled["generated_at"] == first["generated_at"]
     assert "中文：Item 1 about LLM" in (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
-    assert "## 本周看点" in (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
-    assert len(client.calls) == 2  # 摘要一次、本周看点一次；不重新打分
+    assert len(client.calls) == 1  # 只写摘要，不重新打分
 
     assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 都补齐了：什么都不做
-    assert len(client.calls) == 2
+    assert len(client.calls) == 1
 
 
 def test_if_missing_repairs_chinese_that_newer_checks_reject(with_llm):
@@ -369,8 +362,6 @@ def test_if_missing_repairs_chinese_that_newer_checks_reject(with_llm):
 
     def rewrite(sent):  # 补写时模型连摘要也换了一句：不应该被采用
         rows = sent["items"]
-        if "i" not in rows[0]:
-            return {"overview": "本周看点是智能体。"}
         return {
             "items": [{"i": r["i"], "title_zh": f"新标题：{r['title']}", "summary_zh": "改写过的摘要"} for r in rows]
         }
@@ -383,7 +374,7 @@ def test_if_missing_repairs_chinese_that_newer_checks_reject(with_llm):
     assert fixed[0]["title_zh"] == "新标题：" + fixed[0]["title"]  # 撤下的标题补写了
     assert fixed[0]["summary_zh"] == "一句话中文摘要"  # 核对过的摘要没有被换掉
     assert "GPT-9" not in (root / "daily/2026/2026-10-10.md").read_text(encoding="utf-8")
-    assert len(client.calls) == 2 and len(client.calls[0]["items"]) == 1  # 只补写那一条，再重写本周看点
+    assert len(client.calls) == 1 and len(client.calls[0]["items"]) == 1  # 只补写那一条
 
     publish_bad_title(1)
     assert run(root, "run", "--date", "2026-10-10", "--if-missing", "--no-llm") == 0  # 没有大模型可用时
@@ -397,8 +388,6 @@ ARTICLE = "The article explains how the new agent framework works and what it wa
 def summary_from_text(sent):
     """假大模型：只有给了原文（text 字段）才写摘要。"""
     rows = sent["items"]
-    if "i" not in rows[0]:
-        return {"overview": "本周看点是智能体。"}
     return {
         "items": [
             {
@@ -441,10 +430,10 @@ def test_later_runs_add_summaries_to_an_issue_published_without_them(with_llm, m
     items = {i["url"]: i for i in store.load_day(root, date(2026, 10, 10))["items"]}
     assert items["https://example.com/news/1"]["summary_zh"] == "依据原文写的摘要"
     assert all(i["title_zh"].startswith("中文：") for i in items.values())
-    assert len(client.calls) == 2  # 写摘要一次、本周看点一次
+    assert len(client.calls) == 1  # 写摘要一次
 
     assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 都处理过了：什么都不做
-    assert len(client.calls) == 2
+    assert len(client.calls) == 1
 
 
 def test_published_memory_reaches_back_exactly_remember_days(repo):
@@ -500,7 +489,7 @@ def test_model_reply_with_a_lone_surrogate_does_not_break_saving(with_llm):
             {"i": 0, "score": 8, "title_zh": "标题" + broken, "summary_zh": "摘要" + broken, "tags": ["测" + broken]}
         ]
     }
-    install(FakeClient([lambda sent: {"overview": "看点" + broken} if "i" not in sent["items"][0] else reply]))
+    install(FakeClient([lambda sent: reply]))
     assert run(root, "run", "--date", "2026-10-10") == 0
     (item,) = store.load_day(root, date(2026, 10, 10))["items"]
     assert (item["title_zh"], item["summary_zh"], item["tags"]) == ("标题", "摘要", ["测"])
@@ -516,6 +505,97 @@ def test_ai_note_follows_the_text_not_the_bookkeeping(with_llm):
 
     sources["good"] = fake_source("good", "Good", [row(2)])
     assert run(root, "run", "--date", "2026-10-09", "--no-llm") == 0
-    weekly = (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
-    assert "中文标题和摘要由 AI 生成（fake-1）" in weekly  # 最后一天没用大模型，周报里前一天的 AI 内容仍有标注
     assert "AI 生成" not in (root / "daily/2026/2026-10-09.md").read_text(encoding="utf-8")
+
+
+# ---------------------------------------------------------------- 每周快讯
+class MondayClock(datetime):
+    @classmethod
+    def now(cls, tz=None):
+        return cls(2026, 10, 11, 19, 17, tzinfo=UTC)  # 北京时间 10-12（周一）03:17
+
+
+def test_monday_run_also_builds_last_weeks_kuaixun(repo, monkeypatch):
+    root, sources = repo
+    rows = [row(1), row(2, heat=0.9), row(3, section="opensource"), row(4, section="papers")]
+    sources["good"] = fake_source("good", "Good", [{**r, "summary": LONG} for r in rows])
+    monkeypatch.setattr(cli, "datetime", MondayClock)
+    assert run(root, "run", "--date", "2026-10-10") == 0
+    page = (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
+    assert page.startswith("# 每周科技快讯 · 10.05–10.11") and "Item 2 about LLM" in page
+    assert (root / "weekly/2026-W41.html").read_text(encoding="utf-8").startswith("<!doctype html>")
+    assert "[2026 年第 41 周 · 10.05–10.11](2026-W41.md)" in (root / "weekly/README.md").read_text(encoding="utf-8")
+    readme = (root / "README.md").read_text(encoding="utf-8")
+    assert readme.index("## 每周快讯 · 10.05–10.11") < readme.index("## 最新日报 · 2026-10-10（周六）")
+    issue = json.loads((root / "data/weekly/2026-W41.json").read_text(encoding="utf-8"))["kuaixun"]
+    assert issue["pending"] == 4 and issue["tries"] == 0  # 没有大模型：标题和正文都用日报的
+    assert store.list_days(root) == [date(2026, 10, 10)]  # 周记录不算一天
+
+    before = (root / "data/weekly/2026-W41.json").read_text(encoding="utf-8")
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 没有大模型可用：不重做
+    assert (root / "data/weekly/2026-W41.json").read_text(encoding="utf-8") == before
+
+
+def everything(sent):
+    """假大模型：日报的打分、摘要和快讯的写法一起给，各个阶段只取自己要的字段。"""
+    return {
+        "items": [
+            {
+                "i": r["i"],
+                "score": 6,
+                "title_zh": f"中文：{r['title']}",
+                "summary_zh": "一句话中文摘要",
+                "tags": ["测试"],
+                "cat": "overseas",
+                "headline": f"测试团队发布{r['title']}",
+                "body": "这是快讯正文。",
+            }
+            for r in sent["items"]
+        ]
+    }
+
+
+def test_later_runs_finish_a_kuaixun_written_without_a_model(with_llm, monkeypatch):
+    root, sources, install = with_llm
+    monkeypatch.setattr(cli, "datetime", MondayClock)
+    assert run(root, "run", "--date", "2026-10-10", "--no-llm") == 0
+    sources["good"] = fake_source("good", "Good", error="不应该再抓取")
+    client = install(FakeClient([everything]))
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0
+    issue = json.loads((root / "data/weekly/2026-W41.json").read_text(encoding="utf-8"))["kuaixun"]
+    assert issue["pending"] == 0 and issue["tries"] == 1 and "fake-1" in issue["models"]
+    page = (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
+    assert "**测试团队发布Item 2 about LLM**<br>" in page and "这是快讯正文。" in page
+    assert "AI 根据原文整理" in page
+    calls = len(client.calls)  # 日报补中文两次（论文单独一次）、快讯一次
+    assert calls == 3
+
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 都写好了：什么都不做
+    assert len(client.calls) == calls
+
+
+def test_kuaixun_command(repo, monkeypatch):
+    root, _ = repo
+    monkeypatch.setattr(cli, "datetime", MondayClock)
+    assert run(root, "run", "--date", "2026-10-10", "--no-llm") == 0
+    (root / "weekly/2026-W41.md").unlink()
+    assert run(root, "kuaixun", "--no-llm") == 0  # 不写 --week 就是上一周
+    assert (root / "weekly/2026-W41.md").is_file()
+    assert run(root, "kuaixun", "--week", "2026-W42") == 2  # 这一周还没过完
+    assert run(root, "kuaixun", "--week", "2026-W39") == 2  # 没有日报数据
+    with pytest.raises(SystemExit):
+        run(root, "kuaixun", "--week", "2026-10-05")
+
+
+def test_render_rebuilds_kuaixun_pages_from_data(repo, monkeypatch):
+    root, _ = repo
+    monkeypatch.setattr(cli, "datetime", MondayClock)
+    assert run(root, "run", "--date", "2026-10-10") == 0
+    page, html = root / "weekly/2026-W41.md", root / "weekly/2026-W41.html"
+    original = page.read_text(encoding="utf-8")
+    page.unlink()
+    html.unlink()
+    (root / "data/weekly/2026-W40.json").write_text(json.dumps({"overview": "旧版周报留下的记录"}), encoding="utf-8")
+    assert run(root, "render") == 0
+    assert page.read_text(encoding="utf-8") == original and html.is_file()
+    assert not (root / "weekly/2026-W40.md").exists()  # 没有快讯的旧记录不生成页面

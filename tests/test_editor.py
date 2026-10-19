@@ -267,21 +267,3 @@ def test_a_second_attempt_only_fills_what_is_missing(make_item):
     assert editor.summarize([story], FakeClient([{"items": [reply]}])) == 1
     assert story.title_zh == "Higgsfield 把 AI 视频从 1 分钟做到 10 分钟以上"  # 只补空着的标题
     assert story.summary_zh == "Higgsfield 利用 GPT-6 Astra 做长视频" and story.tags == ["视频生成"]  # 其余不动
-
-
-def test_weekly_overview(make_item):
-    items = [make_item(title="Qwen3 released", title_zh="Qwen3 发布", summary_zh="阿里发布新模型", score=8.0)]
-    assert (
-        editor.weekly_overview(items, FakeClient([{"overview": "本周 **重点** 是 Qwen3 发布。"}]))
-        == "本周 重点 是 Qwen3 发布。"
-    )
-    assert editor.weekly_overview(items, FakeClient([{"overview": "本周 GPT-9 横空出世。"}])) == ""  # 编出了没有的名称
-    assert editor.weekly_overview(items, FakeClient([LLMError("boom")])) == ""
-    assert editor.weekly_overview(items, FakeClient([{"overview": ["不是字符串"]}])) == ""
-    assert editor.weekly_overview([], FakeClient([])) == ""
-
-    # 模型没按要求输出 JSON，直接回了一段话（智谱实际出现过）：去掉它自己加的小标题后照用
-    paragraph = "本周最值得关注的是 Qwen3 发布，阿里发布新模型，开源社区反应热烈，相关工具和评测也在陆续跟进。"
-    assert editor.weekly_overview(items, FakeClient(["本周看点：" + paragraph])) == paragraph
-    assert editor.weekly_overview(items, FakeClient(["抱歉，我无法完成。"])) == ""  # 太短，不像一段看点
-    assert editor.weekly_overview(items, FakeClient(['{"overview": "半截'])) == ""  # 坏掉的 JSON 不猜

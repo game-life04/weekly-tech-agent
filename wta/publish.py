@@ -1,4 +1,4 @@
-"""把 data/ 里的数据写成仓库里的 Markdown 文件。"""
+"""把 data/ 里的数据写成仓库里的页面：日报、每周快讯（Markdown 和公众号排版版 HTML）、目录和 README。"""
 
 from __future__ import annotations
 
@@ -9,7 +9,6 @@ from pathlib import Path
 from typing import Any
 
 from . import render, store
-from .dates import week_id, week_range
 
 log = logging.getLogger(__name__)
 
@@ -26,7 +25,7 @@ def week_note_path(root: Path, week: str) -> Path:
 
 
 def load_week_note(root: Path, week: str) -> dict[str, Any]:
-    """周报的附加信息（目前只有大模型写的“本周看点”）。"""
+    """一周的记录（目前只有这一周的快讯，键名 kuaixun）。"""
     path = week_note_path(root, week)
     return json.loads(path.read_text(encoding="utf-8")) if path.is_file() else {}
 
@@ -55,31 +54,35 @@ def publish_day(root: Path, config: dict[str, Any], day: date, days: list[date])
     _write(root / render.daily_path(day), text)
 
 
-def publish_week(root: Path, config: dict[str, Any], monday: date, today: date) -> None:
-    payloads = week_payloads(root, monday)
-    if not payloads:
-        return
-    overview = load_week_note(root, week_id(monday)).get("overview", "")
-    text = render.render_weekly(monday, payloads, config, today, overview)
-    _write(root / render.weekly_path(week_id(monday)), text)
+def kuaixun_issues(root: Path) -> list[dict[str, Any]]:
+    """已经生成的所有快讯，从早到晚。"""
+    issues = []
+    for path in sorted((root / "data" / "weekly").glob("*.json")):
+        issue = json.loads(path.read_text(encoding="utf-8")).get("kuaixun")
+        if isinstance(issue, dict) and issue.get("week") == path.stem:
+            issues.append(issue)
+    return sorted(issues, key=lambda issue: issue["start"])
+
+
+def publish_kuaixun(root: Path, config: dict[str, Any], issue: dict[str, Any]) -> None:
+    _write(root / render.weekly_path(issue["week"]), render.render_kuaixun(issue, config))
+    _write(root / render.weekly_html_path(issue["week"]), render.render_kuaixun_html(issue, config))
 
 
 def publish_indexes(root: Path, config: dict[str, Any], days: list[date]) -> list[str]:
     """写两个目录页和 README 里的“最新一期”。返回需要提醒维护者的问题（没有就是空列表）。"""
     counts = [(day, len((store.load_day(root, day) or {}).get("items", []))) for day in days]
     _write(root / "daily" / "README.md", render.render_daily_index(counts))
-    weeks: dict[date, int] = {}
-    for day, count in counts:
-        monday = week_range(day)[0]
-        weeks[monday] = weeks.get(monday, 0) + count
-    _write(root / "weekly" / "README.md", render.render_weekly_index(list(weeks.items())))
+    issues = kuaixun_issues(root)
+    _write(root / "weekly" / "README.md", render.render_weekly_index(issues))
 
-    if not days:
+    if not days and not issues:
         return []
-    latest = days[-1]  # README 顶部永远显示最新一期
+    latest = days[-1] if days else None  # README 顶部永远显示最新一期快讯和最新一期日报
     readme = root / "README.md"
     current = readme.read_text(encoding="utf-8") if readme.is_file() else README_SKELETON
-    block = render.render_latest_block(latest, store.load_day(root, latest) or {}, config)
+    payload = (store.load_day(root, latest) if latest else None) or {}
+    block = render.render_latest_block(latest, payload, config, issues[-1] if issues else None)
     try:
         _write(readme, render.replace_latest_block(current, block))
     except ValueError as exc:  # 标记被改坏了：宁可不更新首页，也不要乱删乱加
@@ -87,22 +90,18 @@ def publish_indexes(root: Path, config: dict[str, Any], days: list[date]) -> lis
     return []
 
 
-def publish(root: Path, config: dict[str, Any], day: date, today: date) -> list[str]:
-    """生成 day 这一天受影响的页面：当天日报、周报、目录和 README。返回需要提醒的问题。"""
+def publish(root: Path, config: dict[str, Any], day: date) -> list[str]:
+    """生成 day 这一天受影响的页面：当天日报、目录和 README。返回需要提醒的问题。"""
     days = store.list_days(root)
     publish_day(root, config, day, days)
-    monday = week_range(day)[0]
-    # 上一周也重排一次：周日那天没跑成的话，它会一直停在“本周还没结束”
-    for week in (monday - timedelta(days=7), monday):
-        publish_week(root, config, week, today)
     return publish_indexes(root, config, days)
 
 
-def publish_all(root: Path, config: dict[str, Any], today: date) -> list[str]:
+def publish_all(root: Path, config: dict[str, Any]) -> list[str]:
     """用已有数据重新生成所有页面（改了排版以后用）。"""
     days = store.list_days(root)
     for day in days:
         publish_day(root, config, day, days)
-    for monday in sorted({week_range(day)[0] for day in days}):
-        publish_week(root, config, monday, today)
+    for issue in kuaixun_issues(root):
+        publish_kuaixun(root, config, issue)
     return publish_indexes(root, config, days)

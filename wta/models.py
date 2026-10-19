@@ -8,6 +8,18 @@ from typing import Any
 # 三个栏目的内部名字；显示用的中文标题写在 config.yaml 里
 SECTIONS = ("news", "opensource", "papers")
 
+# 每周快讯的栏目（内部名，显示名），按页面上的顺序排列；参照《CCF开源快讯》的体例
+KX_SECTIONS = (
+    ("club", "俱乐部动态"),
+    ("policy", "政策动向"),
+    ("domestic", "国内动态"),
+    ("overseas", "海外动态"),
+    ("opensource", "开源项目"),
+    ("papers", "学术前沿"),
+    ("industry", "产业纵横"),
+    ("events", "活动预告"),
+)
+
 
 @dataclass
 class Item:

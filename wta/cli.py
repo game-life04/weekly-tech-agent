@@ -1,8 +1,9 @@
 """命令行入口。
 
-python -m wta run      抓取 → 去重 → 打分 →（大模型选稿、写中文摘要）→ 生成页面
-python -m wta render   不抓取，只用 data/ 里已有的数据重新生成所有页面
-python -m wta check    逐个测试来源，打印条数和样例（加来源、排查问题时用）
+python -m wta run       抓取 → 去重 → 打分 →（大模型选稿、写中文摘要）→ 生成页面；上周的快讯还没有就顺带生成
+python -m wta kuaixun   单独生成（或重新生成）某一周的快讯
+python -m wta render    不抓取，只用 data/ 里已有的数据重新生成所有页面
+python -m wta check     逐个测试来源，打印条数和样例（加来源、排查问题时用）
 """
 
 from __future__ import annotations
@@ -10,24 +11,24 @@ from __future__ import annotations
 import argparse
 import logging
 import os
+import re
 import sys
 from collections import Counter
-from datetime import UTC, date, datetime
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
-from . import editor, excerpt, store
+from . import editor, excerpt, kuaixun, store
 from .collect import collect
 from .config import load_config
-from .dates import local_date, local_time, parse_time, to_iso, week_id, week_range
+from .dates import local_date, local_time, parse_time, to_iso, week_id
 from .dedupe import dedupe
 from .health import failing_sources, step_summary
 from .http import Http
 from .llm import LLMClient, build_client
 from .models import SECTIONS, Item
-from .publish import load_week_note, publish, publish_all, save_week_note, week_payloads
+from .publish import publish, publish_all, publish_indexes, publish_kuaixun, save_week_note, week_payloads
 from .rank import apply_scores, select
-from .render import weekly_pick
 from .sources import SOURCES
 from .sources.base import Context
 from .textutil import KeywordMatcher
@@ -109,24 +110,26 @@ def _llm_label(items: list[Item], client: LLMClient | None, existing: dict[str, 
     return {"provider": names, "model": "、".join(dict.fromkeys(p.model for p in answered))}
 
 
-def _write_overview(root: Path, config: dict[str, Any], day: date, client: LLMClient | None) -> None:
-    """重写“本周看点”，并记下它是哪一天写的；没写成就保留原来的。"""
-    if not client or client.exhausted:
-        return
-    monday = week_range(day)[0]
+def _kuaixun(
+    root: Path, config: dict[str, Any], monday: date, client: LLMClient | None, ctx: Context, reuse: bool = True
+) -> None:
+    """生成（或补全）monday 这一周的快讯并写出页面。出任何意外都只记日志，不影响日报。"""
     try:
-        picked, _ = weekly_pick(week_payloads(root, monday), config)
-        overview = editor.weekly_overview(picked, client)
-    except Exception:  # 和打分、写摘要一样：大模型出任何意外都不影响出刊
-        log.exception("生成本周看点出错，本次跳过")
-        overview = ""
-    if overview:
-        note = load_week_note(root, week_id(monday))
-        save_week_note(root, week_id(monday), {**note, "overview": overview, "as_of": day.isoformat()})
+        issue = kuaixun.build(root, config, monday, client=client, http=ctx.http, env=ctx.env, now=ctx.now, reuse=reuse)
+    except Exception:
+        log.exception("生成每周快讯出错，本次跳过")
+        return
+    save_week_note(root, issue["week"], {"kuaixun": issue})
+    publish_kuaixun(root, config, issue)
+    log.info("%s 的快讯：%d 条，大模型还有 %d 条没写成", issue["week"], len(issue["entries"]), issue["pending"])
+
+
+def _kuaixun_due(root: Path, config: dict[str, Any], today: date, client: LLMClient | None) -> date | None:
+    return kuaixun.due(root, today, client is not None) if config["kuaixun"]["enabled"] else None
 
 
 def _fill_in(root: Path, config: dict[str, Any], day: date, today: date, existing: dict[str, Any], no_llm: bool) -> int:
-    """这一天的日报已经有了：不重新抓取，只把之前没写成的中文和本周看点补上。
+    """这一天的日报已经有了：不重新抓取，只把之前没写成的中文补上；上周的快讯该生成或补全的话也在这里做。
 
     大模型在白天常常过载，一次运行里总有几条写不成。定时任务一天触发几次，
     第一次负责出刊，后面几次走到这里：没什么可补的时候什么都不做。
@@ -141,11 +144,12 @@ def _fill_in(root: Path, config: dict[str, Any], day: date, today: date, existin
         except Exception:
             log.exception("取原文摘录出错，跳过")
     todo = [item for item in items if not item.extra.get("llm_done") and not item.extra.get("filtered")]
-    stale = load_week_note(root, week_id(week_range(day)[0])).get("as_of") != day.isoformat()
-    if not (withdrawn or tried) and (client is None or not (todo or stale)):
+    week = _kuaixun_due(root, config, today, client)
+    if not (withdrawn or tried or week) and (client is None or not todo):
         log.info("%s 的日报已经有了，跳过（去掉 --if-missing 可以强制刷新）", day)
         return 0
-    log.info("%s 的日报已经有了，不重新抓取：还有 %d 条没写中文%s", day, len(todo), "，本周看点待更新" if stale else "")
+    waiting = f"，{week_id(week)} 的快讯待生成" if week else ""
+    log.info("%s 的日报已经有了，不重新抓取：还有 %d 条没写中文%s", day, len(todo), waiting)
     if client and todo:
         try:
             editor.summarize(items, client)
@@ -156,8 +160,9 @@ def _fill_in(root: Path, config: dict[str, Any], day: date, today: date, existin
     if (client and todo) or withdrawn or tried:
         payload = {**existing, "llm": _llm_label(items, client, existing), "items": [item.to_dict() for item in items]}
         store.save_day(root, day, payload)
-    _write_overview(root, config, day, client)  # 有撤下的内容时也要重写：旧的本周看点可能引用了它
-    for warning in publish(root, config, day, today) if day == today else publish_all(root, config, today):
+    if week:
+        _kuaixun(root, config, week, client, _context(config, datetime.now(UTC)))
+    for warning in publish(root, config, day) if day == today else publish_all(root, config):
         log.warning(warning)
     return 0
 
@@ -203,10 +208,12 @@ def cmd_run(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int
     store.save_day(root, day, payload)
     log.info("%s：候选 %d 条，入选 %d 条", day, len(pool), len(selected))
 
-    _write_overview(root, config, day, client)
+    week = _kuaixun_due(root, config, today, client)
+    if week:
+        _kuaixun(root, config, week, client, ctx)
 
     # 补的是过去某一天时，后面几天的“上一期”链接也要跟着变，干脆全部重排
-    warnings = publish(root, config, day, today) if day == today else publish_all(root, config, today)
+    warnings = publish(root, config, day) if day == today else publish_all(root, config)
     warnings += [f"{title} 已经连续 3 天抓取失败，请检查这个来源" for title in failing_sources(root, day, report)]
     if not selected:
         warnings.append("今天没有任何内容入选")
@@ -220,11 +227,40 @@ def cmd_run(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int
     return 0
 
 
-def cmd_render(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int:
-    today = local_date(datetime.now(UTC), config["utc_offset_hours"])
-    for warning in publish_all(root, config, today):
+def cmd_kuaixun(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int:
+    now = datetime.now(UTC)
+    today = local_date(now, config["utc_offset_hours"])
+    monday: date = args.week or kuaixun.last_week(today)
+    if monday + timedelta(days=6) >= today:
+        log.error("%s 还没过完，快讯要等这一周结束以后再生成", week_id(monday))
+        return 2
+    if not week_payloads(root, monday):
+        log.error("%s 没有任何一天的日报数据，生成不了快讯", week_id(monday))
+        return 2
+    client = build_client(config, os.environ) if config["llm"]["enabled"] and not args.no_llm else None
+    if client is None:
+        log.info("没有可用的大模型（未配置密钥或已关闭），标题和正文用日报里已有的")
+    _kuaixun(root, config, monday, client, _context(config, now), reuse=not args.rewrite)
+    for warning in publish_indexes(root, config, store.list_days(root)):
         log.warning(warning)
     return 0
+
+
+def cmd_render(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int:
+    for warning in publish_all(root, config):
+        log.warning(warning)
+    return 0
+
+
+def _week(text: str) -> date:
+    """2026-W42 → 那一周的周一。"""
+    match = re.fullmatch(r"(\d{4})-W(\d{2})", text.strip())
+    if not match:
+        raise argparse.ArgumentTypeError("格式是 2026-W42")
+    try:
+        return date.fromisocalendar(int(match.group(1)), int(match.group(2)), 1)
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError(f"没有这一周：{text}") from exc
 
 
 def cmd_check(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int:
@@ -255,7 +291,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("-v", "--verbose", action="store_true", help="显示调试信息")
     commands = parser.add_subparsers(dest="command", required=True)
 
-    run = commands.add_parser("run", help="抓取并生成当天日报、本周周报和 README")
+    run = commands.add_parser("run", help="抓取并生成当天日报和 README；上周的快讯还没有就顺带生成")
     run.add_argument(
         "--date",
         type=date.fromisoformat,
@@ -265,9 +301,15 @@ def main(argv: list[str] | None = None) -> int:
     run.add_argument(
         "--if-missing",
         action="store_true",
-        help="这一天已经有内容就不重新抓取，只补上还没写成的中文和本周看点（定时任务用）",
+        help="这一天已经有内容就不重新抓取，只补上还没写成的中文和上周的快讯（定时任务用）",
     )
     run.set_defaults(handler=cmd_run)
+
+    issue = commands.add_parser("kuaixun", help="生成（或重新生成）某一周的快讯")
+    issue.add_argument("--week", type=_week, help="哪一周，格式 2026-W42；不写就是上一周")
+    issue.add_argument("--no-llm", action="store_true", help="不调用大模型，标题和正文用日报里已有的")
+    issue.add_argument("--rewrite", action="store_true", help="大模型已经写好的也重新写（改了提示词以后用）")
+    issue.set_defaults(handler=cmd_kuaixun)
 
     render = commands.add_parser("render", help="不抓取，用已有数据重新生成所有页面")
     render.set_defaults(handler=cmd_render)

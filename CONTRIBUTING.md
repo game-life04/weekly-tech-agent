@@ -48,6 +48,12 @@ ruff check . && ruff format .
 - 没有发布时间的内容不要当作新内容。
 - `metrics` 的值必须是数字，`published` 用 `dates.to_iso(...)` 转换。字段约定写在 [wta/sources/base.py](wta/sources/base.py) 开头。
 
+## 调整每周快讯（不用写代码）
+
+快讯的设置在 `config.yaml` 的 `kuaixun` 下：`caps` 是每个栏目最多登几条，`policy.keywords` 决定哪些政策条目算相关，
+`events.subjects` 和 `events.ranks` 决定预告哪些领域、哪几类的会议，`club.exclude` 是不计入俱乐部统计的仓库。
+改完可以把 `data/` 复制到仓库外面的目录，用 `python -m wta --root 那个目录 kuaixun --no-llm` 看效果。
+
 ## 提交规范
 
 - 分支：`feat/…`、`fix/…`、`docs/…`、`ci/…`、`chore/…`，通过 PR 合并。

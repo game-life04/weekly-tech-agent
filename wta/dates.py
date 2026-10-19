@@ -33,6 +33,12 @@ def week_range(day: date) -> tuple[date, date]:
     return monday, monday + timedelta(days=6)
 
 
+def date_span(start: date, end: date) -> str:
+    """10月12日至18日；跨月时写成 9月28日至10月4日。"""
+    tail = f"{end.day}日" if (start.year, start.month) == (end.year, end.month) else f"{end.month}月{end.day}日"
+    return f"{start.month}月{start.day}日至{tail}"
+
+
 def to_iso(value: object) -> str:
     """统一存成 UTC 的 ISO 8601 字符串，例如 2026-10-11T03:20:00Z。
 
