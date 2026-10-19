@@ -397,7 +397,7 @@ kuaixun:
     opensource: 4
     papers: 3
     industry: 3
-    events: 4
+    events: 5
   club: # 俱乐部动态：开源仪表盘的周统计 + GitHub 上的新仓库和新版本
     name: 开放原子开源俱乐部
     org: hust-open-atom-club
@@ -416,7 +416,12 @@ kuaixun:
     overseas: [OpenAI, Google, 谷歌, DeepMind, Gemini, Meta, Anthropic, Claude, Microsoft, 微软, NVIDIA, 英伟达, Apple, 苹果,
                Amazon, 亚马逊, AWS, xAI, Mistral, Hugging Face, IBM, Intel, 英特尔, AMD, 斯坦福, Stanford, MIT, 伯克利,
                Cohere, Perplexity, Cursor]
-  events: # 活动预告：接下来 days 天内截稿的 CCF 推荐会议（数据来自 ccfddl）
+  sites: # 原文在这些官方网站上的，按网站分到国内动态或海外动态（标题里没写公司名时用）
+    domestic: [deepseek.com, aliyun.com, qwen.ai, qwenlm.github.io, bigmodel.cn, zhipuai.cn, moonshot.cn, kimi.com,
+               baidu.com, tencent.com, bytedance.com, volcengine.com, huawei.com, minimaxi.com, stepfun.com, xiaomi.com]
+    overseas: [openai.com, anthropic.com, claude.com, meta.ai, meta.com, about.fb.com, deepmind.google, blog.google,
+               research.google, ai.google.dev, microsoft.com, nvidia.com, apple.com, x.ai, mistral.ai, amazon.com]
+  events: # 活动预告：新闻里预告的活动，加上接下来 days 天内截稿的 CCF 推荐会议（数据来自 ccfddl）
     subjects: [AI, CG, HI, MX] # 人工智能、图形学与多媒体、人机交互、交叉/综合/新兴
     ranks: [A, B]
     days: 45

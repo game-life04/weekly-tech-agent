@@ -22,6 +22,7 @@ from collections.abc import Mapping
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 from . import club, deadlines, excerpt, policy, store
 from .dates import local_date, local_time, parse_time, to_iso, week_id, week_range
@@ -39,17 +40,21 @@ BATCH = 12
 HEADLINE_LIMIT, BODY_LIMIT = 36, 130  # 提示词里要的是 28 字和 90 字，留一点余地；超出的不用
 EVIDENCE_CHARS = 600
 MAX_TRIES = 3  # 大模型没写完的那几条，最多再补几次
-WRITABLE = ("domestic", "overseas", "opensource", "papers", "industry")  # 大模型可以把日报的 AI 动态放进这些栏目
+WRITABLE = ("domestic", "overseas", "opensource", "papers", "industry", "events")  # 日报的 AI 动态可以放进这些栏目
 # 其余条目只能留在对应的栏目或不登：热门仓库多是早就有的项目，被写成“某公司发布”会误导人（第一期出现过）
 _ALLOWED = {policy.NAME: ("policy",), "opensource": ("opensource",), "papers": ("papers",)}
 _DATE_PREFIX = re.compile(r"^(?:\d{4}年)?\d{1,2}月\d{1,2}日(?:[至到—–-]\d{1,2}日)?(?:消息)?[，,、。.\s]*")
 _NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9.+-]*")
 _GENERIC = frozenset(["ai", "llm", "api"])  # 比较两条是不是同一件事时不算数的通用词
+# 活动日期的写法：10月22日、10月22-24日、10月30日至11月1日
+_EVENT_WHEN = re.compile(r"(\d{1,2})月(\d{1,2})(?:日|日?[-–—~至到](?:(\d{1,2})月)?(\d{1,2})日)")
+_MONTHS = ("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec")
 
 PROMPT = f"""你是《每周科技快讯》的编辑，参照《CCF开源快讯》的体例，为关注人工智能和开源的中国大学生整理上周要闻。
 {DATA_NOTE}
 
-每一条有 title（原标题）、title_zh（中文标题，可能没有）、text（资料）、source（来源）和 section（日报里的栏目）。
+每一条有 title（原标题）、title_zh（中文标题，可能没有）、text（资料）、source（来源）、site（原文所在的网站）
+和 section（日报里的栏目）。
 对每一条：
 1. cat：放进哪个栏目。
    section 是 news 的，只能是下面之一：
@@ -57,9 +62,11 @@ PROMPT = f"""你是《每周科技快讯》的编辑，参照《CCF开源快讯�
      overseas 海外动态：海外的公司、高校和机构的发布与动作，包括它们开源的模型和项目；
      opensource 开源项目：社区开源项目的新闻，不是某家公司或机构的动作；
      papers 学术前沿：研究成果和技术文章；
-     industry 产业纵横：行业会议、标准、投融资、市场和产业数据；
-     skip：和人工智能、开源关系不大，或者资料太少、说不清是什么。
+     industry 产业纵横：已经举办的产业大会和论坛、行业标准、大额融资和并购、市场和产业数据；
+     events 活动预告：还没举办的会议、论坛、比赛和开源活动，资料里写明了举办日期；
+     skip：和人工智能、开源关系不大；个人观点、评论、调查报告和安全事件；资料太少、说不清是什么。
      OpenAI、Google、Meta、Anthropic、英伟达、微软是海外公司；DeepSeek、阿里、腾讯、百度、字节跳动、华为、智谱是中国公司。
+     官方博客上的文章，发布方就是网站的主人，例如 site 是 research.meta.ai 的是 Meta，openai.com 的是 OpenAI。
    section 是 opensource 的（GitHub 热门仓库、新仓库、版本发布、热门模型），只能是 opensource 或 skip；
    section 是 papers 的，只能是 papers 或 skip；source 是“中国政府网”的，只能是 policy 或 skip。
 2. headline：中文标题，不超过 28 个字，写成“主体+动作+对象”，
@@ -72,10 +79,12 @@ PROMPT = f"""你是《每周科技快讯》的编辑，参照《CCF开源快讯�
    例如“阶跃星辰宣布开放Step 5 Preview模型权重，包含BF16与FP8两个版本。”。不要写日期，程序会在前面加上日期。
    只能依据 title、title_zh 和 text；资料里没有的数字、结论、评价、公司名和模型名一律不要写；
    名称、数字和单位照抄原文的写法。
-4. same：如果这一条和前面某一条（i 更小）讲的是同一件事，填那一条的 i；不是就不写这个字段。
+4. when：只有 cat 是 events 时才写：活动举办的日期，照资料写成“10月22日”或“10月22-24日”。
+5. same：如果这一条和前面某一条（i 更小）讲的是同一件事，填那一条的 i；不是就不写这个字段。
 
 只输出一个 JSON 对象，格式为
-{{"items": [{{"i": 0, "cat": "domestic", "headline": "...", "body": "..."}}]}}。
+{{"items": [{{"i": 0, "cat": "domestic", "headline": "...", "body": "..."}},
+{{"i": 1, "cat": "events", "headline": "...", "body": "...", "when": "10月22-24日"}}]}}。
 每条输入都要有对应的输出，i 与输入一致。不要输出其他任何文字。"""
 # 提示词的指纹：提示词改了以后，当周这一期由大模型按新提示词重写一遍（旧的写法不再沿用）
 PROMPT_VERSION = hashlib.sha256(PROMPT.encode("utf-8")).hexdigest()[:8]
@@ -153,6 +162,37 @@ def _allowed(item: Item) -> tuple[str, ...]:
     return (*_ALLOWED.get(item.source, _ALLOWED.get(item.section, WRITABLE)), "skip")
 
 
+def _event_when(value: object, item: Item) -> str:
+    """模型写的活动日期：格式要对，月和日的数字（或英文月份）都要在资料里出现过；不合格返回空字符串。"""
+    text = plain(value, 30).replace(" ", "")
+    match = _EVENT_WHEN.fullmatch(text)
+    if not match:
+        return ""
+    facts = _facts(item).casefold()
+    months = [int(n) for n in (match.group(1), match.group(3)) if n]
+    days = [int(n) for n in (match.group(2), match.group(4)) if n]
+
+    def seen(number: int) -> bool:
+        return re.search(rf"(?<!\d)0?{number}(?!\d)", facts) is not None
+
+    if all(seen(m) or _MONTHS[m - 1] in facts for m in months if 1 <= m <= 12) and all(seen(d) for d in days):
+        return text
+    log.info("快讯不采用模型写的活动日期 %s（资料里找不到）：%s", text, item.title[:60])
+    return ""
+
+
+def event_day(when: str, monday: date) -> date | None:
+    """活动日期的第一天。年份按这一期所在的年份算，跨年的（一月的活动在十二月预告）算到下一年。"""
+    match = _EVENT_WHEN.fullmatch(when or "")
+    if not match:
+        return None
+    try:
+        day = date(monday.year, int(match.group(1)), int(match.group(2)))
+    except ValueError:
+        return None
+    return day if day >= monday - timedelta(days=120) else day.replace(year=monday.year + 1)
+
+
 def _facts(item: Item) -> str:
     return f"{item.title} {item.title_zh} {item.summary_zh} {item.via} {evidence_of(item)}"
 
@@ -192,6 +232,7 @@ class _Writer:
         row: dict[str, Any] = {"i": index, "section": item.section, "source": item.via, "title": item.title[:200]}
         if item.title_zh:
             row["title_zh"] = item.title_zh
+        row["site"] = (urlsplit(item.url).hostname or "").removeprefix("www.")
         text = clean_text(f"{item.summary_zh} {evidence_of(item)}", EVIDENCE_CHARS)
         if text:
             row["text"] = text
@@ -205,6 +246,9 @@ class _Writer:
             "headline": _checked("标题", row.get("headline"), HEADLINE_LIMIT, item),
             "body": _checked("正文", row.get("body"), BODY_LIMIT, item),
         }
+        if written["cat"] == "events":  # 活动要有资料里写明的日期，没有就不登
+            written["when"] = _event_when(row.get("when"), item)
+            written["cat"] = "events" if written["when"] else "skip"
         position = next((i for i, other in enumerate(self.batch) if other is item), -1)
         same = row.get("same")
         if isinstance(same, int) and not isinstance(same, bool) and 0 <= same < position:
@@ -247,6 +291,11 @@ def entry_of(item: Item, cat: str, monday: date, sunday: date, offset: float) ->
     if body[-1] not in "。！？.!?…”）)":
         body += "。"
     day, when = _when(item, monday, sunday, offset)
+    if cat == "events":  # 活动写举办日期；已经办完的不预告
+        start = event_day(written.get("when", ""), monday)
+        if start is None or start <= sunday:
+            return None
+        day, when = start.isoformat(), written["when"]
     return {
         "cat": cat,
         "headline": headline,
@@ -283,6 +332,15 @@ def same_story(a: str, b: str) -> bool:
     return len(short) >= 12 and short in long
 
 
+def _site(url: str, sites: Mapping[str, list[str]]) -> str:
+    """原文在名单里的官方网站上时，返回 domestic 或 overseas；否则返回空字符串。"""
+    host = (urlsplit(url).hostname or "").casefold()
+    for side, rows in sites.items():
+        if any(host == site.casefold() or host.endswith("." + site.casefold()) for site in rows or []):
+            return side
+    return ""
+
+
 def _subject(headline: str, companies: Mapping[str, list[str]]) -> str:
     """标题以名单里的公司开头时，返回它是 domestic 还是 overseas；否则返回空字符串。"""
     text = headline.strip().casefold()
@@ -299,6 +357,7 @@ def assemble(
     sunday: date,
     offset: float,
     companies: Mapping[str, list[str]] | None = None,
+    sites: Mapping[str, list[str]] | None = None,
 ) -> dict[str, list[dict[str, Any]]]:
     """按栏目挑出要登的条目：栏目内按综合分取前几条，再按日期排。
 
@@ -317,7 +376,8 @@ def assemble(
         if not entry:
             continue
         if cat in ("domestic", "overseas") or (cat == "opensource" and item.section == "news"):
-            cat = entry["cat"] = _subject(entry["headline"], companies or {}) or cat
+            side = _subject(entry["headline"], companies or {}) or _site(item.url, sites or {})
+            cat = entry["cat"] = side or cat
         if len(chosen[cat]) >= int(caps.get(cat, 0)) or any(same_story(entry["headline"], h) for h in taken):
             continue
         taken.append(entry["headline"])
@@ -389,11 +449,13 @@ def build(
             log.exception("大模型写快讯出错，用日报里的中文标题和摘要")
 
     caps = settings["caps"]
-    chosen = assemble(candidates, caps, monday, sunday, offset, settings.get("companies"))
+    chosen = assemble(candidates, caps, monday, sunday, offset, settings.get("companies"), settings.get("sites"))
     if policies is None:  # 政策列表这次取不到：沿用上次的
         chosen["policy"] = [entry for entry in kept if entry.get("cat") == "policy"]
     chosen["club"] = club_entries[: int(caps.get("club", 0))]
-    chosen["events"] = events[: int(caps.get("events", 0))]
+    # 活动预告：新闻里预告的活动和会议截稿放在一起，按日期排
+    upcoming = sorted(chosen["events"] + events, key=lambda entry: entry["date"])
+    chosen["events"] = upcoming[: int(caps.get("events", 0))]
     entries = [entry for name, _ in KX_SECTIONS for entry in chosen[name]]
 
     models = [*previous.get("models", [])]

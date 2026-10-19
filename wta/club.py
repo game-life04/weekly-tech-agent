@@ -2,7 +2,7 @@
 
 - 周统计和最活跃的仓库来自俱乐部的开源仪表盘（Open-Source-Dashboard，osd.openatom.club）的公开接口。
   仪表盘按“最近 7 天”统计，不能指定日期：页面上写的统计区间以接口返回的为准，可能和快讯的那一周差一天。
-- 新建的仓库和新发布的版本来自 GitHub 官方接口。
+- 新建的仓库和新发布的版本来自 GitHub 官方接口。新建的仓库如果也是最活跃的仓库，合成一条登。
 - 总数由各仓库的数字相加，去掉 exclude 里的仓库（例如本项目自己：机器人每天的提交不算俱乐部活动）；
   只有机器人在动的仓库（贡献者为 0）不算“活跃”。贡献者人数直接用仪表盘的统计（已去掉机器人，
   但没法去掉 exclude 里那几个仓库的人）。
@@ -81,7 +81,13 @@ def summary_entry(
     }
 
 
-def repo_entries(settings: dict[str, Any], repos: list[dict[str, Any]], when: tuple[date, date]) -> list[dict]:
+def repo_entries(
+    settings: dict[str, Any],
+    repos: list[dict[str, Any]],
+    when: tuple[date, date],
+    created: dict[str, dict] | None = None,
+) -> list[dict]:
+    """最活跃的几个仓库。这一周新建的写明“新建”，不再单独登一条新建仓库的消息。"""
     exclude = {name.casefold() for name in settings.get("exclude") or []}
     found = []
     for repo in _active(repos, exclude)[: int(settings.get("top_repos", 3))]:
@@ -89,15 +95,22 @@ def repo_entries(settings: dict[str, Any], repos: list[dict[str, Any]], when: tu
         sig = clean_text((repo.get("sig") or {}).get("name"), 30)
         merged, commits = _number(repo.get("closed_merged_prs")), _number(repo.get("new_commits"))
         action = f"合并 {merged} 个 PR" if merged else f"提交 {commits} 次"
+        fresh = (created or {}).get(name)
+        opening = f"{sig + '的 ' if sig else ''}{name} 仓库"
+        if fresh:
+            opening += f"于{fresh['day'].month}月{fresh['day'].day}日新建" + (
+                f"（{fresh['about']}）" if fresh["about"] else ""
+            )
+            opening += "，一周内"
         body = (
-            f"{sig + '的 ' if sig else ''}{name} 仓库新增 PR {_number(repo.get('new_prs'))} 个、合并 {merged} 个，"
+            f"{opening}新增 PR {_number(repo.get('new_prs'))} 个、合并 {merged} 个，"
             f"提交 {commits} 次，新增代码 {_number(repo.get('lines_added'))} 行，"
             f"{_number(repo.get('active_contributors'))} 位贡献者参与。"
         )
         found.append(
             {
                 "cat": "club",
-                "headline": f"{name} 一周{action}",
+                "headline": f"{'新仓库 ' if fresh else ''}{name} 一周{action}",
                 "when": date_span(*when),
                 "date": when[1].isoformat(),
                 "body": body,
@@ -108,40 +121,62 @@ def repo_entries(settings: dict[str, Any], repos: list[dict[str, Any]], when: tu
     return found
 
 
+def _within(value: object, monday: date, sunday: date, offset: float) -> date | None:
+    moment = parse_time(value)
+    day = local_date(moment, offset) if moment else None
+    return day if day and monday <= day <= sunday else None
+
+
+def new_repos(ctx: Context, settings: dict[str, Any], monday: date, sunday: date, offset: float) -> dict[str, dict]:
+    """这一周新建的公开仓库：{仓库名: {"day", "about", "url"}}。"""
+    found = {}
+    params = {"sort": "created", "direction": "desc", "per_page": 30}
+    for repo in api_get(ctx, f"/orgs/{settings['org']}/repos", params) or []:
+        day = _within(repo.get("created_at"), monday, sunday, offset)
+        name = str(repo.get("name", ""))
+        if day and not repo.get("fork") and not repo.get("private") and _REPO_NAME.fullmatch(name):
+            found[name] = {
+                "day": day,
+                "about": clean_text(repo.get("description"), 100),
+                "url": clean_text(repo.get("html_url")),
+            }
+    return found
+
+
 def github_entries(
-    ctx: Context, settings: dict[str, Any], repos: list[dict[str, Any]], monday: date, sunday: date, offset: float
+    ctx: Context,
+    settings: dict[str, Any],
+    repos: list[dict[str, Any]],
+    monday: date,
+    sunday: date,
+    offset: float,
+    created: dict[str, dict],
+    shown: set[str],
 ) -> list[dict[str, Any]]:
-    """这一周新建的仓库和新发布的版本。"""
-    org = settings["org"]
+    """这一周新建的仓库（已经作为最活跃的仓库登了的除外）和新发布的版本。"""
     found: list[dict[str, Any]] = []
-
-    def within(value: object) -> date | None:
-        moment = parse_time(value)
-        day = local_date(moment, offset) if moment else None
-        return day if day and monday <= day <= sunday else None
-
-    for repo in api_get(ctx, f"/orgs/{org}/repos", {"sort": "created", "direction": "desc", "per_page": 30}) or []:
-        day = within(repo.get("created_at"))
-        if not day or repo.get("fork") or repo.get("private"):
+    for name, info in created.items():
+        if name in shown:
             continue
-        name = clean_text(repo.get("name"), 60)
-        about = clean_text(repo.get("description"), 100)
+        day = info["day"]
         found.append(
             {
                 "cat": "club",
                 "headline": f"俱乐部新建 {name} 仓库",
                 "when": f"{day.month}月{day.day}日",
                 "date": day.isoformat(),
-                "body": f"俱乐部在 GitHub 上新建 {name} 仓库" + (f"，仓库简介：{about}" if about else "") + "。",
-                "url": clean_text(repo.get("html_url")),
+                "body": f"俱乐部在 GitHub 上新建 {name} 仓库"
+                + (f"，仓库简介：{info['about']}" if info["about"] else "")
+                + "。",
+                "url": info["url"],
                 "via": "GitHub",
             }
         )
     exclude = {name.casefold() for name in settings.get("exclude") or []}
     for repo in _active(repos, exclude)[: int(settings.get("release_repos", 8))]:
         name = str(repo["name"])
-        for release in api_get(ctx, f"/repos/{org}/{name}/releases", {"per_page": 5}) or []:
-            day = within(release.get("published_at"))
+        for release in api_get(ctx, f"/repos/{settings['org']}/{name}/releases", {"per_page": 5}) or []:
+            day = _within(release.get("published_at"), monday, sunday, offset)
             if not day or release.get("draft"):
                 continue
             tag = clean_text(release.get("tag_name"), 40)
@@ -174,9 +209,17 @@ def fetch(
         raise RuntimeError("仪表盘返回的数据格式和预期不同")
     # 仓库名会拼进接口路径、写进页面：不是正常写法的整个不要
     repos = [repo for repo in repos if isinstance(repo, dict) and _REPO_NAME.fullmatch(str(repo.get("name", "")))]
-    entries = [summary_entry(settings, repos, people, when), *repo_entries(settings, repos, when)]
     try:
-        entries += github_entries(ctx, settings, repos, monday, sunday, offset)
-    except Exception as exc:  # 新仓库和新版本只是补充，取不到不影响周统计
-        log.warning("取不到俱乐部的新仓库和新版本：%s", clean_text(str(exc), 200))
+        created = new_repos(ctx, settings, monday, sunday, offset)
+    except Exception as exc:  # 新仓库只是补充，取不到不影响周统计
+        log.warning("取不到俱乐部的新仓库：%s", clean_text(str(exc), 200))
+        created = {}
+    top = repo_entries(settings, repos, when, created)
+    entries = [summary_entry(settings, repos, people, when), *top]
+    exclude = {name.casefold() for name in settings.get("exclude") or []}
+    shown = {str(repo["name"]) for repo in _active(repos, exclude)[: int(settings.get("top_repos", 3))]}
+    try:
+        entries += github_entries(ctx, settings, repos, monday, sunday, offset, created, shown)
+    except Exception as exc:
+        log.warning("取不到俱乐部的新版本：%s", clean_text(str(exc), 200))
     return entries, {"start": when[0].isoformat(), "end": when[1].isoformat()}

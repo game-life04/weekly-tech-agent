@@ -485,3 +485,51 @@ def test_shortlist_keeps_room_for_chinese_news():
         "国产模型第 6 条",
     ]
     assert len(kuaixun.shortlist(pool, {"news": 2})) == 2  # 不另外取
+
+
+def test_a_new_repository_that_is_also_busy_is_one_entry():
+    github = {
+        "https://api.github.com/orgs/club-org/repos": [
+            {"name": "busy", "created_at": "2026-10-06T02:00:00Z", "html_url": "https://github.com/club-org/busy",
+             "description": "刚建的仓库"},
+        ],
+    }  # fmt: skip
+    entries, _ = club.fetch(context(club_routes(github), now=NOW), SETTINGS, MONDAY, SUNDAY, 8)
+    assert [entry["headline"] for entry in entries[1:]] == ["新仓库 busy 一周合并 5 个 PR", "quiet 一周提交 2 次"]
+    assert entries[1]["body"].startswith("Agent SIG的 busy 仓库于10月6日新建（刚建的仓库），一周内新增 PR 6 个")
+
+
+def test_event_dates_must_come_from_the_text():
+    item = story(1, summary="CNCC 2026 will be held in Chengdu on Oct 22-24, with 167 forums.")
+    assert kuaixun._event_when("10月22-24日", item) == "10月22-24日"
+    assert kuaixun._event_when("10月 23 日", item) == ""  # 23 不在资料里
+    assert kuaixun._event_when("下周", item) == ""
+    assert kuaixun.event_day("10月22-24日", MONDAY) == date(2026, 10, 22)
+    assert kuaixun.event_day("1月5日", date(2026, 12, 28)) == date(2027, 1, 5)  # 跨年
+    assert kuaixun.event_day("2月30日", MONDAY) is None
+
+
+def test_events_from_news_join_the_deadlines_and_sites_decide_the_side(week):
+    root, config, _ = week
+    config["kuaixun"]["sites"] = {"overseas": ["example.com"]}
+    replies = {
+        "Story 1 about Qwen4": {"cat": "events", "headline": "Qwen4 发布会将举行", "body": "阿里将发布 Qwen4。",
+                                "when": "10月6日"},  # 已经办完的不预告
+        "通义千问发布 Qwen4": {"cat": "opensource", "headline": "Qwen4 模型开源", "body": "Qwen4 开源了。"},
+    }  # fmt: skip
+    issue = build(root, config, FakeClient([kx_reply(replies)]))
+    cats = by_cat(issue)
+    assert [entry["headline"] for entry in cats["events"]] == ["CVPR 2027 论文截稿"]
+    assert cats["overseas"][0]["headline"] == "Qwen4 模型开源"  # 原文在名单里的网站上：按网站分栏
+
+    def upcoming(n, when, headline):
+        item = story(n, summary=f"The summit runs {when} in Chengdu, Oct 2026.")
+        item.extra["kx"] = {"cat": "events", "headline": headline, "body": "峰会将举行。", "when": f"10月{when}日"}
+        return item
+
+    items = [upcoming(7, "20", "早一点的峰会"), upcoming(8, "30", "晚一点的峰会")]
+    chosen = kuaixun.assemble(items, {"events": 5}, MONDAY, SUNDAY, 8)
+    assert [(e["headline"], e["when"], e["date"]) for e in chosen["events"]] == [
+        ("早一点的峰会", "10月20日", "2026-10-20"),
+        ("晚一点的峰会", "10月30日", "2026-10-30"),
+    ]

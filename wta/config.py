@@ -31,7 +31,7 @@ DEFAULTS: dict[str, Any] = {
             "opensource": 4,
             "papers": 3,
             "industry": 3,
-            "events": 4,
+            "events": 5,
         },
         "club": {
             "name": "俱乐部",
@@ -43,6 +43,7 @@ DEFAULTS: dict[str, Any] = {
         },
         "policy": {"keywords": [], "exclude": []},
         "companies": {"domestic": [], "overseas": []},
+        "sites": {"domestic": [], "overseas": []},
         "events": {"subjects": ["AI"], "ranks": ["A", "B"], "days": 45},
     },
     "llm": {
