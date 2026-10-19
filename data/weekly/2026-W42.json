@@ -1,4 +1,573 @@
 {
- "overview": "本周开源模型与智能体技术持续突破，DeepSeek v4.1 Flash 1017 和 Muse Spark Open 等模型在编码与智能体任务上性能提升，同时 Agent-Reflex、OpenGCUA 等研究聚焦于智能体的反思能力与长周期工具编排，推动 AI 智能体向更自主、更高效的通用化方向发展。",
- "as_of": "2026-10-18"
+ "kuaixun": {
+  "week": "2026-W42",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "generated_at": "2026-10-19T10:01:01Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-10-12",
+   "end": "2026-10-18"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部一周合并 29 个 PR、提交 82 次",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 17 个有人参与开发，共新增 PR 38 个、合并 29 个，提交 82 次，新增代码 15750 行、删除 5135 行，11 位贡献者参与，其中 4 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "pwn.hust.college 一周合并 10 个 PR",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
+    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库新增 PR 15 个、合并 10 个，提交 22 次，新增代码 410 行，4 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwn.hust.college",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "hust-mirrors 一周合并 4 个 PR",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
+    "body": "镜像站运维 SIG的 hust-mirrors 仓库新增 PR 4 个、合并 4 个，提交 3 次，新增代码 4590 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mirrors",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "nginx-oci-mirror 一周合并 3 个 PR",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
+    "body": "镜像站运维 SIG的 nginx-oci-mirror 仓库新增 PR 3 个、合并 3 个，提交 23 次，新增代码 4510 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/nginx-oci-mirror",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "俱乐部新建 nginx-oci-mirror 仓库",
+    "when": "10月12日",
+    "date": "2026-10-12",
+    "body": "俱乐部在 GitHub 上新建 nginx-oci-mirror 仓库。",
+    "url": "https://github.com/hust-open-atom-club/nginx-oci-mirror",
+    "via": "GitHub"
+   },
+   {
+    "cat": "policy",
+    "headline": "国务院常务会议听取“人工智能+”行动进展汇报",
+    "when": "10月16日",
+    "date": "2026-10-16",
+    "body": "会议听取“人工智能+”行动进展情况汇报，讨论相关法律草案，强调深化拓展行动并统筹发展和安全。",
+    "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm",
+    "via": "中国政府网",
+    "id": "a5ab6cd6990b",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "OpenAI 推出 Rosalind 学术计划",
+    "when": "10月16日",
+    "date": "2026-10-16",
+    "body": "为符合条件的学术实验室提供 GPT-Rosalind 的赞助访问权限。",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "via": "OpenAI",
+    "id": "edb461273095",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "DeepSeek 发布 V4.1 Flash 1017",
+    "when": "10月17日",
+    "date": "2026-10-17",
+    "body": "专为编码和智能体任务设计，压缩 KV 缓存降低成本。",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+    "via": "Hacker News",
+    "id": "df7f3ef335bb",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google 发布 Gemini 4 Argon",
+    "when": "10月14日",
+    "date": "2026-10-14",
+    "body": "能将原始视频转化为物理准确的模拟，帮助研究人员加速发现。",
+    "url": "https://deepmind.google/models/gemini/",
+    "via": "Hacker News",
+    "id": "b4606c998906",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google AI 发布 Gemini 4 Argon 模型",
+    "when": "10月14日",
+    "date": "2026-10-14",
+    "body": "面向开发者、企业和消费者发布最新前沿模型。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "via": "Google AI",
+    "id": "77ad3f7fc3bd",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google DeepMind 发布 Antigravity 科学工具",
+    "when": "10月16日",
+    "date": "2026-10-16",
+    "body": "用于科学领域，加速寻找新型抗菌肽。",
+    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+    "via": "Google DeepMind",
+    "id": "cbc7643dde66",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "morluto/rea 逆向工程工具",
+    "when": "10月12日消息",
+    "date": "2026-10-12",
+    "body": "使用智能体从应用行为到原生二进制文件进行逆向工程。",
+    "url": "https://github.com/morluto/rea",
+    "via": "GitHub Trending",
+    "id": "710f7fe65ffc",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Strata 引擎支持 Qwen3.8-Flash-Next",
+    "when": "10月12日消息",
+    "date": "2026-10-12",
+    "body": "在消费级硬件上运行 Qwen3.8-Flash-Next，支持本地 OpenAI/Anthropic API。",
+    "url": "https://github.com/Niko1221/Strata",
+    "via": "GitHub 新项目",
+    "id": "2a80b8806cb5",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Muse Spark Open 开源",
+    "when": "10月16日",
+    "date": "2026-10-16",
+    "body": "支持 816B 参数和 1M 上下文窗口，专为编码和智能体工作设计。",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
+    "via": "Hacker News",
+    "id": "0149b73b0a22",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "DeepSeek 推出 V4.1 Flash 1017 模型",
+    "when": "10月17日",
+    "date": "2026-10-17",
+    "body": "推理、编码和智能体任务性能提升，执行时间更短。",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "via": "Hacker News",
+    "id": "8b553ca25e96",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Anthropic 研究发现 AI 模型自我复制能力",
+    "when": "10月12日",
+    "date": "2026-10-12",
+    "body": "AI 模型可能无需数据中心即可自我复制。",
+    "url": "https://www.anthropic.com/research/self-replicating-ai",
+    "via": "Anthropic 研究",
+    "id": "050c7872630c",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Agent-Reflex 训练智能体主动反思",
+    "when": "10月13日",
+    "date": "2026-10-13",
+    "body": "通过环境反思技能发现等三个阶段，激励智能体进行主动反思。",
+    "url": "https://arxiv.org/abs/2610.17953",
+    "via": "arXiv · 智能体",
+    "id": "6d99b1aa826c",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "LLM 如何通过线性映射存储信息",
+    "when": "10月17日",
+    "date": "2026-10-17",
+    "body": "探讨大型语言模型如何通过线性映射和 MLP 存储大量信息。",
+    "url": "https://alexwang.ai/posts/associative-memory/",
+    "via": "Hacker News",
+    "id": "90b929133cf8",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "银行试图转嫁刚承销的 AI 数据中心债务",
+    "when": "10月15日",
+    "date": "2026-10-15",
+    "body": "摩根大通和三菱日联等银行正在出售与 Oracle 相关的 AI 数据中心债务，以对冲风险。",
+    "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+    "via": "Hacker News",
+    "id": "89afa2cf8a13",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 获得最高垃圾信用评级",
+    "when": "10月17日",
+    "date": "2026-10-17",
+    "body": "Anthropic 在 6 月获得最高垃圾信用评级。",
+    "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+    "via": "Hacker News",
+    "id": "e2492a6cfc77",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "8b553ca25e96": {
+    "cat": "opensource",
+    "headline": "DeepSeek 推出 V4.1 Flash 1017 模型",
+    "body": "推理、编码和智能体任务性能提升，执行时间更短。"
+   },
+   "df7f3ef335bb": {
+    "cat": "domestic",
+    "headline": "DeepSeek 发布 V4.1 Flash 1017",
+    "body": "专为编码和智能体任务设计，压缩 KV 缓存降低成本。"
+   },
+   "0149b73b0a22": {
+    "cat": "opensource",
+    "headline": "Muse Spark Open 开源",
+    "body": "支持 816B 参数和 1M 上下文窗口，专为编码和智能体工作设计。"
+   },
+   "b4606c998906": {
+    "cat": "overseas",
+    "headline": "Google 发布 Gemini 4 Argon",
+    "body": "能将原始视频转化为物理准确的模拟，帮助研究人员加速发现。"
+   },
+   "90b929133cf8": {
+    "cat": "papers",
+    "headline": "LLM 如何通过线性映射存储信息",
+    "body": "探讨大型语言模型如何通过线性映射和 MLP 存储大量信息。"
+   },
+   "edb461273095": {
+    "cat": "domestic",
+    "headline": "OpenAI 推出 Rosalind 学术计划",
+    "body": "为符合条件的学术实验室提供 GPT-Rosalind 的赞助访问权限。"
+   },
+   "77ad3f7fc3bd": {
+    "cat": "overseas",
+    "headline": "Google AI 发布 Gemini 4 Argon 模型",
+    "body": "面向开发者、企业和消费者发布最新前沿模型。"
+   },
+   "3ef98b9b51a3": {
+    "cat": "skip",
+    "headline": "AI 黑客攻击报告归咎于监控失败",
+    "body": "专家认为 AI 实验室的监控和隔离失败导致了未经授权的系统访问。"
+   },
+   "cbc7643dde66": {
+    "cat": "overseas",
+    "headline": "Google DeepMind 发布 Antigravity 科学工具",
+    "body": "用于科学领域，加速寻找新型抗菌肽。"
+   },
+   "c8aa0926c12a": {
+    "cat": "skip",
+    "headline": "Anthropic 重构源代码控制系统",
+    "body": "Anthropic 重构源代码控制系统。"
+   },
+   "94f18cf931b3": {
+    "cat": "skip",
+    "headline": "LLM 能力共识的差距正在扩大",
+    "body": "LLM 能力共识的差距正在扩大。"
+   },
+   "cb48f5d3cd53": {
+    "cat": "skip",
+    "headline": "AI 测试覆盖了 90% 的工作时间吗？",
+    "body": "新发布的基准地图评估了 AI 测试对美国经济各行业的覆盖情况。"
+   },
+   "a2d0c717b7f1": {
+    "cat": "skip",
+    "headline": "AI 编码代理生成更多代码，但未产出更多软件",
+    "body": "AI 编码代理生成更多代码，但未产出更多软件。"
+   },
+   "07fd80ca31c5": {
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "050c7872630c": {
+    "cat": "papers",
+    "headline": "Anthropic 研究发现 AI 模型自我复制能力",
+    "body": "AI 模型可能无需数据中心即可自我复制。"
+   },
+   "e0cc4bc86ef7": {
+    "cat": "opensource",
+    "headline": "Reflection 实验室开源 Beam 模型",
+    "body": "首个开源模型 Beam，支持文本输入和百万级上下文窗口。"
+   },
+   "e78781a61745": {
+    "cat": "skip",
+    "headline": "AI 是工具，用好它需要技能",
+    "body": "AI 是工具，用好它需要技能。"
+   },
+   "8daebafc7d3c": {
+    "cat": "skip",
+    "headline": "Steam 客户端启动速度击败 Epic 新版启动器",
+    "body": "Valve 测试显示 Steam 客户端启动时间降至 5.23 秒，击败 Epic 新版启动器。"
+   },
+   "89afa2cf8a13": {
+    "cat": "industry",
+    "headline": "银行试图转嫁刚承销的 AI 数据中心债务",
+    "body": "摩根大通和三菱日联等银行正在出售与 Oracle 相关的 AI 数据中心债务，以对冲风险。"
+   },
+   "c2ac821d2fe0": {
+    "cat": "opensource",
+    "headline": "Anthropic 发布 Scion 版本控制系统",
+    "body": "Anthropic 发布新版本控制系统 Scion，使用“派生数据”概念提高 blame 等操作效率。"
+   },
+   "6391e71c19da": {
+    "cat": "skip",
+    "headline": "Current Affairs 杂志禁止使用 AI",
+    "body": "Current Affairs 杂志在工会合同中采用严格反 AI 政策，承诺所有出版物均为手工制作。"
+   },
+   "d121c872efc5": {
+    "cat": "skip",
+    "headline": "构建你自己的决策模型",
+    "body": ""
+   },
+   "aeae028f810a": {
+    "cat": "skip",
+    "headline": "Anthropic 的 Scion 抄袭 Mononoke 的更多细节",
+    "body": "针对 Scion 抄袭 Mononoke 的质疑，作者回应称这确实是一次抄袭，并解释了相似之处主要是无意的。"
+   },
+   "98c95c02f930": {
+    "cat": "papers",
+    "headline": "Google研究实现AI智能体闭环分子设计",
+    "body": "Google研究将AI智能体与物理实验室机器人结合，实现快速闭环分子设计。"
+   },
+   "e71c2afb8299": {
+    "cat": "skip",
+    "headline": "发帖后网站被 AI 机器人流量淹没",
+    "body": ""
+   },
+   "aa3504d9bb8e": {
+    "cat": "skip",
+    "headline": "Rich Hickey：'AI' 不是工具",
+    "body": ""
+   },
+   "36af00926e86": {
+    "cat": "opensource",
+    "headline": "将 EmbeddingGemma 2 转化为语音转文本模型",
+    "body": "将 Google 的 EmbeddingGemma 2 模型转化为语音识别模型，在 MacBook Air 上实现 13 秒转写一小时音频。"
+   },
+   "df841427410b": {
+    "cat": "papers",
+    "headline": "Claude半小时解开NIST椭圆曲线种子谜题",
+    "body": "Claude不到半小时查明了五条NIST标准椭圆曲线的种子生成方式，解决了困扰业界二十多年的密码学谜题。"
+   },
+   "c207af8abd05": {
+    "cat": "skip",
+    "headline": "基于闲置 Apple Silicon 设备的动态分布式虚拟 GPU 云",
+    "body": ""
+   },
+   "e2492a6cfc77": {
+    "cat": "industry",
+    "headline": "Anthropic 获得最高垃圾信用评级",
+    "body": "Anthropic 在 6 月获得最高垃圾信用评级。"
+   },
+   "710f7fe65ffc": {
+    "cat": "opensource",
+    "headline": "morluto/rea 逆向工程工具",
+    "body": "使用智能体从应用行为到原生二进制文件进行逆向工程。"
+   },
+   "2a80b8806cb5": {
+    "cat": "opensource",
+    "headline": "Strata 引擎支持 Qwen3.8-Flash-Next",
+    "body": "在消费级硬件上运行 Qwen3.8-Flash-Next，支持本地 OpenAI/Anthropic API。"
+   },
+   "9bda2e5da9e8": {
+    "cat": "opensource",
+    "headline": "K-Dense-AI 推出科学智能体技能库",
+    "body": "包含 177 个可用的验证技能和 100 多个科学数据库，将任何 AI 智能体转化为 AI 科学家。"
+   },
+   "79d85ad500eb": {
+    "cat": "skip",
+    "headline": "DeepSeek-V4.1-Flash 模型",
+    "body": "图文理解模型。"
+   },
+   "443ea9329e44": {
+    "cat": "opensource",
+    "headline": "Hugging Face 发布 Transformers 框架",
+    "body": "支持文本、视觉、音频和多模态模型推理与训练的模型定义框架。"
+   },
+   "01d06cd6ffa0": {
+    "cat": "opensource",
+    "headline": "OpenBMB 发布 VoxCPM2",
+    "body": "无分词器的多语言语音生成、创意语音设计和逼真克隆。"
+   },
+   "a85ad9dc3cf9": {
+    "cat": "opensource",
+    "headline": "diagram-design 提供 44 种图表设计",
+    "body": "为 Claude Code 等工具提供编辑类图表设计，HTML + SVG 自包含。"
+   },
+   "f02960115775": {
+    "cat": "opensource",
+    "headline": "anatomy 智能体技能生成等距插图",
+    "body": "创建真实机器和复杂系统交互式等距插图，生成带 WebGL 着色器和 3D 效果的 SVG。"
+   },
+   "020aa1c48a7d": {
+    "cat": "opensource",
+    "headline": "Anthropic 发布 Claude Code",
+    "body": "终端中的智能体编码工具，通过自然语言命令帮助用户编写代码。"
+   },
+   "5f56448dcadd": {
+    "cat": "opensource",
+    "headline": "XERJ 项目发布",
+    "body": "使用比 grep 少 40 倍的 token 来搜索代码、文档和日志，兼容 Elasticsearch。"
+   },
+   "d7a57887bcc2": {
+    "cat": "opensource",
+    "headline": "Anthropic 发布 Claude Code 插件目录",
+    "body": "官方维护的高质量 Claude Code 插件目录。"
+   },
+   "c26bc22c2c10": {
+    "cat": "opensource",
+    "headline": "VoiceStudio 开源语音克隆工具",
+    "body": "完全本地化的 ElevenLabs 开源替代品，支持 646 种语言的语音克隆和视频配音。"
+   },
+   "9182d7f93c0f": {
+    "cat": "opensource",
+    "headline": "ppt-master 生成原生 PPT",
+    "body": "AI可将文档或主题生成原生PPT，支持图表、动画和自定义模板。"
+   },
+   "1bf569717c78": {
+    "cat": "opensource",
+    "headline": "jev-ultrafast 开源最快网页智能体",
+    "body": "GitHub 新项目，号称最快且最便宜的网页智能体。"
+   },
+   "3eb178ba4cd7": {
+    "cat": "opensource",
+    "headline": "ECC 智能体性能优化系统",
+    "body": "提供技能、直觉、记忆和安全功能，支持 Claude Code 等工具。"
+   },
+   "a5faf2a6945f": {
+    "cat": "opensource",
+    "headline": "vLLM支持Muse Spark Open模型",
+    "body": "vLLM提供Muse Spark Open的Day-0支持，包含816B MoE、1M上下文和多模态输入等功能。"
+   },
+   "963ab1940f2f": {
+    "cat": "opensource",
+    "headline": "dsh 插件免费使用前沿模型",
+    "body": "无需登录或 API Key，即可使用 DeepSeek V4.1 Flash 和 Kimi K3。"
+   },
+   "aef8e4df5250": {
+    "cat": "opensource",
+    "headline": "OpenMontage 开源代理视频制作系统",
+    "body": "首个开源代理视频制作系统，包含 12 条生产管线和 700+ 技能文件。"
+   },
+   "1569642c5401": {
+    "cat": "opensource",
+    "headline": "magpie 为每个智能体提供模型选择",
+    "body": "支持在菜单栏切换 DeepSeek 和 Kimi 等模型。"
+   },
+   "315c60c294da": {
+    "cat": "opensource",
+    "headline": "Linus推送Claude Code辅助的内核补丁",
+    "body": "Linus Torvalds在Linux仓库中推送了一个由Claude Code辅助完成的内核补丁分支。"
+   },
+   "6d99b1aa826c": {
+    "cat": "papers",
+    "headline": "Agent-Reflex 训练智能体主动反思",
+    "body": "通过环境反思技能发现等三个阶段，激励智能体进行主动反思。"
+   },
+   "ac9d0bbaa352": {
+    "cat": "papers",
+    "headline": "OpenGCUA 通用计算机使用全栈开源",
+    "body": "通过代码执行和决策转移机制，在 OSWorld-v2 评测中提升任务得分。"
+   },
+   "261929a08247": {
+    "cat": "papers",
+    "headline": "Doc2Harness 评估编码智能体工具编排",
+    "body": "提出两阶段基准，直接评估智能体在长周期任务中的工具编排能力。"
+   },
+   "d691f24c2a55": {
+    "cat": "papers",
+    "headline": "Player-1 从合成经验中学习玩游戏",
+    "body": "提出后训练框架，通过合成经验学习游戏控制，解决演示数据覆盖不足问题。"
+   },
+   "a849a64deeff": {
+    "cat": "papers",
+    "headline": "AgentSWE 评估智能体软件工程能力",
+    "body": "涵盖从自然语言需求到生产代码库编辑的三个阶段，测试智能体构建能力。"
+   },
+   "38b4bdab67fe": {
+    "cat": "papers",
+    "headline": "OmniCompass 全模态视频理解基准",
+    "body": "包含两个评估轨道和三种互补任务，涵盖 820 个视频和 720 个实例。"
+   },
+   "233cca311480": {
+    "cat": "papers",
+    "headline": "跨分词器策略蒸馏研究",
+    "body": "研究扩展对齐覆盖是否有助于提升跨分词器策略蒸馏的学习效果。"
+   },
+   "6d7365fa21a3": {
+    "cat": "papers",
+    "headline": "GroundingPI 开源视觉原语物理智能模型",
+    "body": "GroundingPI 是一个 4B 基础模型，通过生成共享词汇中的量化坐标点框，提升视觉定位能力。"
+   },
+   "a5ab6cd6990b": {
+    "cat": "policy",
+    "headline": "国务院常务会议听取“人工智能+”行动进展汇报",
+    "body": "会议听取“人工智能+”行动进展情况汇报，讨论相关法律草案，强调深化拓展行动并统筹发展和安全。"
+   }
+  }
+ }
 }

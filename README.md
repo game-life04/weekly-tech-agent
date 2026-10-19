@@ -8,6 +8,50 @@
 
 <!-- wta:latest:start -->
 
+## 每周快讯 · 10.12–10.18
+
+> 上周 AI 与开源要闻 **23** 条，5 分钟速读。<br>
+> [阅读全文](weekly/2026-W42.md) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
+
+**俱乐部动态**<br>
+✨ [开放原子开源俱乐部一周合并 29 个 PR、提交 82 次](https://osd.openatom.club/)<br>
+✨ [pwn.hust.college 一周合并 10 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
+✨ [hust-mirrors 一周合并 4 个 PR](https://github.com/hust-open-atom-club/hust-mirrors)<br>
+✨ [nginx-oci-mirror 一周合并 3 个 PR](https://github.com/hust-open-atom-club/nginx-oci-mirror)<br>
+✨ [俱乐部新建 nginx-oci-mirror 仓库](https://github.com/hust-open-atom-club/nginx-oci-mirror)
+
+**政策动向**<br>
+✨ [国务院常务会议听取“人工智能+”行动进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
+
+**国内动态**<br>
+✨ [OpenAI 推出 Rosalind 学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
+✨ [DeepSeek 发布 V4.1 Flash 1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017)
+
+**海外动态**<br>
+✨ [Google 发布 Gemini 4 Argon](https://deepmind.google/models/gemini/)<br>
+✨ [Google AI 发布 Gemini 4 Argon 模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)<br>
+✨ [Google DeepMind 发布 Antigravity 科学工具](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)
+
+**开源项目**<br>
+✨ [morluto/rea 逆向工程工具](https://github.com/morluto/rea)<br>
+✨ [Strata 引擎支持 Qwen3.8-Flash-Next](https://github.com/Niko1221/Strata)<br>
+✨ [Muse Spark Open 开源](https://research.meta.ai/blog/muse-spark-open)<br>
+✨ [DeepSeek 推出 V4.1 Flash 1017 模型](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
+
+**学术前沿**<br>
+✨ [Anthropic 研究发现 AI 模型自我复制能力](https://www.anthropic.com/research/self-replicating-ai)<br>
+✨ [Agent-Reflex 训练智能体主动反思](https://arxiv.org/abs/2610.17953)<br>
+✨ [LLM 如何通过线性映射存储信息](https://alexwang.ai/posts/associative-memory/)
+
+**产业纵横**<br>
+✨ [银行试图转嫁刚承销的 AI 数据中心债务](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/)<br>
+✨ [Anthropic 获得最高垃圾信用评级](https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d)
+
+**活动预告**<br>
+✨ [WWW 2027 论文截稿](https://www2027.thewebconf.org/)<br>
+✨ [RECOMB 2027 论文截稿](https://recomb.org/recomb2027/)<br>
+✨ [CVPR 2027 论文截稿](https://cvpr.thecvf.com/Conferences/2027)
+
 ## 最新日报 · 2026-10-19（周一）
 
 > 收录 **21** 条：🗞️ AI 动态 8 · 🛠️ 开源圈 8 · 📄 前沿论文 5<br>
