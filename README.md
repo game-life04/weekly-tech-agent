@@ -10,7 +10,7 @@
 
 ## 每周快讯 · 10.12–10.18
 
-> 上周 AI 与开源要闻 **23** 条，5 分钟速读。<br>
+> 上周 AI 与开源要闻 **29** 条，5 分钟速读。<br>
 > [阅读全文](weekly/2026-W42.md) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
@@ -21,31 +21,37 @@
 ✨ [俱乐部新建 nginx-oci-mirror 仓库](https://github.com/hust-open-atom-club/nginx-oci-mirror)
 
 **政策动向**<br>
-✨ [国务院常务会议听取“人工智能+”行动进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
+✨ [国务院常务会议听取人工智能进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
 
 **国内动态**<br>
-✨ [OpenAI 推出 Rosalind 学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
-✨ [DeepSeek 发布 V4.1 Flash 1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017)
+✨ [智谱发布GLM新模型](https://www.qbitai.com/2026/10/502649.html)<br>
+✨ [字节发现DeepSeek模型位置敏感Bug](https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html)<br>
+✨ [面壁开源MiniCPM-V 4.7多模态模型](https://www.qbitai.com/2026/10/503109.html)<br>
+✨ [DeepSeek更新V4.1 Flash模型](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)<br>
+✨ [DeepSeek开放V4.1-Flash-1017模型](https://zhidx.com/p/601905.html)
 
 **海外动态**<br>
-✨ [Google 发布 Gemini 4 Argon](https://deepmind.google/models/gemini/)<br>
-✨ [Google AI 发布 Gemini 4 Argon 模型](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/)<br>
-✨ [Google DeepMind 发布 Antigravity 科学工具](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)
+✨ [Meta发布Muse模型](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)<br>
+✨ [Anthropic披露Claude动态工作流架构](https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article)<br>
+✨ [Google发布Gemini 4 Argon](https://deepmind.google/models/gemini/)<br>
+✨ [OpenAI推出Rosalind学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
+✨ [Google Antigravity加速抗菌肽搜索](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)<br>
+✨ [Google研究将AI智能体落地生物实验室](https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/)
 
 **开源项目**<br>
-✨ [morluto/rea 逆向工程工具](https://github.com/morluto/rea)<br>
-✨ [Strata 引擎支持 Qwen3.8-Flash-Next](https://github.com/Niko1221/Strata)<br>
-✨ [Muse Spark Open 开源](https://research.meta.ai/blog/muse-spark-open)<br>
-✨ [DeepSeek 推出 V4.1 Flash 1017 模型](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
+✨ [rea：用智能体做逆向工程](https://github.com/morluto/rea)<br>
+✨ [Strata：在消费级硬件运行Qwen3.8-Flash-Next](https://github.com/Niko1221/Strata)<br>
+✨ [Muse Spark Open 发布](https://research.meta.ai/blog/muse-spark-open)<br>
+✨ [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 
 **学术前沿**<br>
-✨ [Anthropic 研究发现 AI 模型自我复制能力](https://www.anthropic.com/research/self-replicating-ai)<br>
-✨ [Agent-Reflex 训练智能体主动反思](https://arxiv.org/abs/2610.17953)<br>
-✨ [LLM 如何通过线性映射存储信息](https://alexwang.ai/posts/associative-memory/)
+✨ [Agent-Reflex：训练智能体主动反思](https://arxiv.org/abs/2610.17953)<br>
+✨ [OpenGCUA：通用计算机使用全栈开源](https://arxiv.org/abs/2610.22200)<br>
+✨ [LLM如何通过线性映射存储信息](https://alexwang.ai/posts/associative-memory/)
 
 **产业纵横**<br>
-✨ [银行试图转嫁刚承销的 AI 数据中心债务](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/)<br>
-✨ [Anthropic 获得最高垃圾信用评级](https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d)
+✨ [AI黑客攻击归因于监控失败](https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html)<br>
+✨ [AI基准覆盖美国90%工作时间](https://www.mercor.com/research/labor-index/benchmark-map/)
 
 **活动预告**<br>
 ✨ [WWW 2027 论文截稿](https://www2027.thewebconf.org/)<br>
