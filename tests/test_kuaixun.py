@@ -563,3 +563,12 @@ def test_daily_due():
     assert not kuaixun.daily_due({**items, "kuaixun": {**done, "pending": 2}}, False)
     assert not kuaixun.daily_due({**items, "kuaixun": {**done, "pending": 2, "tries": kuaixun.MAX_TRIES}}, True)
     assert kuaixun.daily_due({**items, "kuaixun": {**done, "prompt": "old"}}, True)  # 提示词改了：重写
+
+
+def test_a_late_rebuild_keeps_the_club_statistics_of_its_own_week(week, monkeypatch):
+    root, config, _ = week
+    save_week_note(root, "2026-W41", {"kuaixun": build(root, config)})
+    later = {**CLUB, "headline": "下一周的统计"}
+    monkeypatch.setattr(club, "fetch", lambda *args, **kwargs: ([later], {"start": "2026-10-06", "end": "2026-10-12"}))
+    issue = build(root, config)  # 周二再生成上一周：仪表盘的 7 天已经变成 10-06 到 10-12
+    assert by_cat(issue)["club"] == [CLUB] and issue["club_period"]["end"] == "2026-10-11"

@@ -168,7 +168,9 @@ def test_render_kuaixun_html_for_wechat(config):
 def test_latest_block_shows_the_kuaixun_and_the_daily(make_item, config):
     block = render.render_latest_block(DAY, payload_of(make_item()), config, kx_issue())
     assert block.index("## 每周快讯 · 10.05–10.11") < block.index("## 最新日报 · 2026-10-11（周日）")
-    assert "[阅读全文](weekly/2026-W41.md) · [公众号排版版](weekly/2026-W41.html)" in block
+    assert (
+        "[阅读全文](weekly/2026-W41.md) · [长图](weekly/2026-W41.jpg) · [公众号排版版](weekly/2026-W41.html)" in block
+    )
     assert "✨ [阿里发布 Qwen4](https://example.com/a%28b%29)" in block
     only_daily = render.render_latest_block(DAY, payload_of(make_item()), config)
     assert "每周快讯 ·" not in only_daily and "[每周快讯](weekly/README.md)" in only_daily
@@ -191,7 +193,10 @@ def test_indexes(config):
     assert "- [10-11（周日）](2026/2026-10-11.md) · 21 条" in daily
     older = kx_issue(week="2026-W40", start="2026-09-28", end="2026-10-04", entries=[])
     weekly = render.render_weekly_index([older, kx_issue()])
-    assert "- [2026 年第 41 周 · 10.05–10.11](2026-W41.md) · [公众号排版版](2026-W41.html) · 4 条" in weekly
+    assert (
+        "- [2026 年第 41 周 · 10.05–10.11](2026-W41.md) · [长图](2026-W41.jpg) · [公众号排版版](2026-W41.html) · 4 条"
+        in weekly
+    )
     assert weekly.index("第 41 周") < weekly.index("第 40 周")
     assert "还没有快讯：每周一生成上一周的一期" in render.render_weekly_index([])
 

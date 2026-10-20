@@ -50,6 +50,11 @@ def weekly_html_path(week: str) -> str:
     return f"weekly/{week}.html"
 
 
+def image_path(sheet: str) -> str:
+    """公众号排版版截成的长图（由定时任务用 wta/longshot.py 生成）。"""
+    return sheet.removesuffix(".html") + ".jpg"
+
+
 def kuaixun_paths(kx: dict[str, Any]) -> tuple[str, str]:
     """一期快讯的两个文件（相对仓库根目录）：Markdown 页面和公众号排版版。"""
     if kx.get("kind") == "daily":
@@ -254,7 +259,7 @@ def render_daily_index(days: list[tuple]) -> str:
         line = f"- [{day:%m-%d}（{weekday_name(day)}）]({day:%Y}/{day.isoformat()}.md) · {count} 条"
         if rest and rest[0]:
             base = f"{day:%Y}/{day.isoformat()}-kuaixun"
-            line += f" · [每日快讯]({base}.md) · [公众号排版版]({base}.html)"
+            line += f" · [每日快讯]({base}.md) · [长图]({base}.jpg) · [公众号排版版]({base}.html)"
         lines.append(line)
     return "\n".join(lines) + "\n"
 
@@ -265,7 +270,8 @@ def render_weekly_index(issues: list[dict[str, Any]]) -> str:
     for kx in sorted(issues, key=lambda kx: kx["start"], reverse=True):
         year, week, _ = date.fromisoformat(kx["start"]).isocalendar()
         lines.append(
-            f"- [{year} 年第 {week} 周 · {kx_range(kx)}]({kx['week']}.md) · [公众号排版版]({kx['week']}.html)"
+            f"- [{year} 年第 {week} 周 · {kx_range(kx)}]({kx['week']}.md) · [长图]({kx['week']}.jpg)"
+            f" · [公众号排版版]({kx['week']}.html)"
             f" · {len(_kx_entries(kx))} 条"
         )
     if not issues:
@@ -398,6 +404,7 @@ def _kx_daily_readme(kx: dict[str, Any], config: dict[str, Any]) -> list[str]:
     nav = " · ".join(
         [
             f"[单独打开]({page})",
+            f"[长图]({image_path(sheet)})",
             f"[公众号排版版]({sheet})",
             f"[完整日报（含热度和原题）]({daily_path(day)})",
             "[往期日报](daily/README.md)",
@@ -413,7 +420,11 @@ def _kx_daily_readme(kx: dict[str, Any], config: dict[str, Any]) -> list[str]:
 
 def _kx_readme(kx: dict[str, Any]) -> list[str]:
     week = kx["week"]
-    nav = f"[阅读全文]({weekly_path(week)}) · [公众号排版版]({weekly_html_path(week)}) · [往期快讯](weekly/README.md)"
+    sheet = weekly_html_path(week)
+    nav = (
+        f"[阅读全文]({weekly_path(week)}) · [长图]({image_path(sheet)}) · [公众号排版版]({sheet})"
+        " · [往期快讯](weekly/README.md)"
+    )
     return [
         f"## 每周快讯 · {kx_range(kx)}",
         f"> 上周 AI 与开源要闻 **{len(_kx_entries(kx))}** 条，5 分钟速读。<br>\n> {nav}",
@@ -434,6 +445,7 @@ def render_kuaixun(kx: dict[str, Any], config: dict[str, Any]) -> str:
         ]
     else:
         nav = ["[往期快讯](README.md)", f"[每日日报]({_relative(here, 'daily/README.md')})"]
+    nav.append(f"[长图]({_relative(here, image_path(sheet))})")
     nav.append(f"[公众号排版版]({_relative(here, sheet)})")
     blocks = [
         f"# {kx_title(kx)}",

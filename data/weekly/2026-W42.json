@@ -11,8 +11,8 @@
   "tries": 1,
   "pending": 0,
   "club_period": {
-   "start": "2026-10-13",
-   "end": "2026-10-19"
+   "start": "2026-10-12",
+   "end": "2026-10-18"
   },
   "sources": [
    {
@@ -37,47 +37,47 @@
   "entries": [
    {
     "cat": "club",
-    "headline": "开放原子开源俱乐部一周合并 34 个 PR、提交 75 次",
-    "when": "10月13日至19日",
-    "date": "2026-10-19",
-    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 17 个有人参与开发，共新增 PR 46 个、合并 34 个，提交 75 次，新增代码 17582 行、删除 4911 行，10 位贡献者参与，其中 4 位是第一次贡献。",
+    "headline": "开放原子开源俱乐部一周合并 29 个 PR、提交 82 次",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 17 个有人参与开发，共新增 PR 38 个、合并 29 个，提交 82 次，新增代码 15750 行、删除 5135 行，11 位贡献者参与，其中 4 位是第一次贡献。",
     "url": "https://osd.openatom.club/",
     "via": "俱乐部开源仪表盘"
    },
    {
     "cat": "club",
-    "headline": "pwn.hust.college 一周合并 13 个 PR",
-    "when": "10月13日至19日",
-    "date": "2026-10-19",
-    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库新增 PR 15 个、合并 13 个，提交 25 次，新增代码 410 行，4 位贡献者参与。",
+    "headline": "pwn.hust.college 一周合并 10 个 PR",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
+    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库新增 PR 15 个、合并 10 个，提交 22 次，新增代码 410 行，4 位贡献者参与。",
     "url": "https://github.com/hust-open-atom-club/pwn.hust.college",
     "via": "GitHub"
    },
    {
     "cat": "club",
-    "headline": "hust-mail-cli 一周合并 4 个 PR",
-    "when": "10月13日至19日",
-    "date": "2026-10-19",
-    "body": "Agent SIG的 hust-mail-cli 仓库新增 PR 4 个、合并 4 个，提交 8 次，新增代码 4199 行，1 位贡献者参与。",
-    "url": "https://github.com/hust-open-atom-club/hust-mail-cli",
-    "via": "GitHub"
-   },
-   {
-    "cat": "club",
     "headline": "hust-mirrors 一周合并 4 个 PR",
-    "when": "10月13日至19日",
-    "date": "2026-10-19",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
     "body": "镜像站运维 SIG的 hust-mirrors 仓库新增 PR 4 个、合并 4 个，提交 3 次，新增代码 4590 行，1 位贡献者参与。",
     "url": "https://github.com/hust-open-atom-club/hust-mirrors",
     "via": "GitHub"
    },
    {
     "cat": "club",
-    "headline": "俱乐部新建 nginx-oci-mirror 仓库",
-    "when": "10月12日",
-    "date": "2026-10-12",
-    "body": "俱乐部在 GitHub 上新建 nginx-oci-mirror 仓库。",
+    "headline": "新仓库 nginx-oci-mirror 一周合并 3 个 PR",
+    "when": "10月12日至18日",
+    "date": "2026-10-18",
+    "body": "镜像站运维 SIG的 nginx-oci-mirror 仓库于10月12日新建，一周内新增 PR 3 个、合并 3 个，提交 23 次，新增代码 4510 行，1 位贡献者参与。",
     "url": "https://github.com/hust-open-atom-club/nginx-oci-mirror",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "俱乐部新建 AtomGit-Mobile4Android 仓库",
+    "when": "10月16日",
+    "date": "2026-10-16",
+    "body": "俱乐部在 GitHub 上新建 AtomGit-Mobile4Android 仓库，仓库简介：AtomGit Mobile APP for Android。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
     "via": "GitHub"
    },
    {

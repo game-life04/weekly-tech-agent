@@ -76,6 +76,23 @@ jobs:
             python -m wta run --if-missing
           fi
 
+      - name: Render long images of the briefs
+        # 把新的或这次改过的快讯截成长图（和页面同名的 .jpg），方便在 GitHub 上看、转发到微信。
+        # 要中文字体和 Pillow，只在有图要截时才装；这一步出错不影响下面提交日报和快讯
+        continue-on-error: true
+        timeout-minutes: 8
+        run: |
+          targets=$(python -m wta.longshot --list)
+          if [ -z "$targets" ]; then
+            echo "没有需要截图的快讯。"
+            exit 0
+          fi
+          echo "$targets"
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends fonts-noto-cjk fonts-noto-color-emoji > /dev/null
+          python -m pip install --quiet "pillow==11.3.0"
+          python -m wta.longshot
+
       - name: Commit generated files
         env:
           BRANCH: ${{ github.ref_name }}

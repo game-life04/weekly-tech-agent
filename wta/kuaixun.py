@@ -437,6 +437,12 @@ def _compose(
         club.VIA,
         lambda: club.fetch(ctx, settings["club"], offset, days=club_days, window=club_window),
     )
+    covered = (fetched or ([], {}))[1].get("end", "")
+    if fetched and club_window and previous.get("club_period") and covered > club_window[1].isoformat():
+        # 仪表盘只能查“最近 N 天”：过了这一期再重新生成时（例如周二补写上周的快讯），新取到的统计已经
+        # 不是这一期了，沿用上一次取到的（10-20 重写 W42 时实际出现过）
+        log.info("俱乐部仪表盘的统计已经到了 %s，超出这一期，沿用上一次的俱乐部动态", covered)
+        fetched = None
     club_entries, club_period = fetched or ([e for e in kept if e.get("cat") == "club"], previous.get("club_period"))
     policies = _attempt(report, "policy", policy.VIA, lambda: policy.fetch(http, *policy_window, settings["policy"]))
     beijing = local_time(now, offset).replace(tzinfo=None)

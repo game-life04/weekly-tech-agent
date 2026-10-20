@@ -11,7 +11,7 @@
 ## 每日快讯 · 10.20（周二）
 
 > 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-20-kuaixun.md) · [公众号排版版](daily/2026/2026-10-20-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-20.md) · [往期日报](daily/README.md)
+> [单独打开](daily/2026/2026-10-20-kuaixun.md) · [长图](daily/2026/2026-10-20-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-20-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-20.md) · [往期日报](daily/README.md)
 
 ### 今日快讯
 
@@ -62,14 +62,14 @@
 ## 每周快讯 · 10.12–10.18
 
 > 上周 AI 与开源要闻 **25** 条，5 分钟速读。<br>
-> [阅读全文](weekly/2026-W42.md) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
+> [阅读全文](weekly/2026-W42.md) · [长图](weekly/2026-W42.jpg) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
-✨ [开放原子开源俱乐部一周合并 34 个 PR、提交 75 次](https://osd.openatom.club/)<br>
-✨ [pwn.hust.college 一周合并 13 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
-✨ [hust-mail-cli 一周合并 4 个 PR](https://github.com/hust-open-atom-club/hust-mail-cli)<br>
+✨ [开放原子开源俱乐部一周合并 29 个 PR、提交 82 次](https://osd.openatom.club/)<br>
+✨ [pwn.hust.college 一周合并 10 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
 ✨ [hust-mirrors 一周合并 4 个 PR](https://github.com/hust-open-atom-club/hust-mirrors)<br>
-✨ [俱乐部新建 nginx-oci-mirror 仓库](https://github.com/hust-open-atom-club/nginx-oci-mirror)
+✨ [新仓库 nginx-oci-mirror 一周合并 3 个 PR](https://github.com/hust-open-atom-club/nginx-oci-mirror)<br>
+✨ [俱乐部新建 AtomGit-Mobile4Android 仓库](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)
 
 **政策动向**<br>
 ✨ [国务院常务会议听取人工智能进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
@@ -132,7 +132,7 @@
 | 国内动态、海外动态、开源项目、学术前沿、产业纵横 | 从这一周的日报里按综合分挑候选（中文媒体的报道另留名额），大模型负责分栏，把标题写成“主体+动作+对象”，再写一两句正文；讲同一件事的重复条目和分错的国内、海外公司由程序按名称纠正 |
 | 活动预告 | 这一周新闻里预告的会议、论坛和比赛（日期要能在原文里找到）；接下来 45 天截稿的 CCF 推荐会议（人工智能、图形学与多媒体、人机交互、交叉综合四个领域的 A、B 类），数据来自 [CCFDDL](https://ccfddl.com/)，时间换算成北京时间 |
 
-每期有两个文件：`.md` 在 GitHub 上直接看；同名的 `.html` 是公众号排版版，下载后用浏览器打开，全选、复制，粘贴到公众号编辑器即可，样式会一起带过去（公众号里外链点不了，来源直接写成网址，和《CCF开源快讯》一样）。
+每期有三个文件：`.md` 在 GitHub 上直接看；同名的 `.jpg` 是整期的长图，在 GitHub 上点开就能看，也可以存下来转发到微信；同名的 `.html` 是公众号排版版，下载后用浏览器打开，全选、复制，粘贴到公众号编辑器即可，样式会一起带过去（公众号里外链点不了，来源直接写成网址，和《CCF开源快讯》一样）。
 
 ### 怎么工作的
 
@@ -207,6 +207,7 @@ wta/                 程序
   kuaixun.py         每日快讯和每周快讯：挑选、分栏、改写
   club.py policy.py deadlines.py   快讯的俱乐部动态、政策动向、活动预告
   render.py          生成页面（Markdown，快讯另有公众号排版版 HTML）
+  longshot.py        把快讯截成长图（定时任务里运行，要 Chrome 和 Pillow）
   publish.py         写文件
   cli.py             命令行入口
 data/                每天的数据（JSON，含当天的每日快讯），页面都从这里生成；data/weekly/ 是每周快讯
