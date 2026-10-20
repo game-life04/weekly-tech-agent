@@ -1077,5 +1077,318 @@
    "also_in": [],
    "merged_ids": []
   }
- ]
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-20",
+  "start": "2026-10-20",
+  "end": "2026-10-20",
+  "generated_at": "2026-10-20T03:02:57Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "e8671762",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-10-19",
+   "end": "2026-10-19"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 7 个 PR、提交 11 次",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 11 个、合并 7 个，提交 11 次，新增代码 4199 行、删除 300 行，4 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "新仓库 hust-mail-cli 合并 4 个 PR",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "Agent SIG的 hust-mail-cli 仓库于10月19日新建（CLI tool to send and receive emails with HUST email account），当天新增 PR 4 个、合并 4 个、提交 8 次、新增代码 4199 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mail-cli",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "pwn.hust.college 合并 3 个 PR",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库合并 3 个、提交 3 次，3 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwn.hust.college",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "MiniMax 发布 M3.1 Flash 模型",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "MiniMax 发布 M3.1 Flash，定位为 Coding/Agent 优化轻量级模型，拥有 100 万 token 上下文。",
+    "url": "https://zhidx.com/p/602354.html",
+    "via": "智东西",
+    "id": "609bde941ef6",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 改进低资源编程语言代码能力",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "OpenAI 改进了 ChatGPT 在低资源编程语言上的表现，新增了针对软件工程、SQLite 和 COBOL 迁移的评估。",
+    "url": "https://openai.com/index/low-resource-programming-languages",
+    "via": "OpenAI",
+    "id": "58981fce4d79",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM 实现弹性专家并行近零停机扩展",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "vLLM 通过异步准备和 NIXL EP 技术实现了弹性专家并行的近零停机扩展。",
+    "url": "https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime",
+    "via": "vLLM 博客",
+    "id": "ade6481ff22a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "ComfyUI：模块化扩散模型 GUI",
+    "when": "10月20日消息",
+    "date": "2026-10-20",
+    "body": "ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面。",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "via": "GitHub Trending",
+    "id": "eb66b4e95522",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "huashu-motion：一键生成宣传片",
+    "when": "10月20日消息",
+    "date": "2026-10-20",
+    "body": "huashu-motion 项目能让 Agent 一键直出会作曲、能指着画面修改的商业级产品宣传片。",
+    "url": "https://github.com/alchaincyf/huashu-motion",
+    "via": "GitHub 新项目",
+    "id": "4128833aa912",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "ai-memory：Agent 长期记忆方案",
+    "when": "10月20日消息",
+    "date": "2026-10-20",
+    "body": "ai-memory 解决了 Agent 编码 CLI 的长期记忆问题，并促进不同 Agent 供应商之间的交接。",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "via": "GitHub Trending",
+    "id": "662d54180e16",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "HybridAgents：在潜在空间思考的智能体",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。",
+    "url": "https://arxiv.org/abs/2610.18861",
+    "via": "Hacker News",
+    "id": "c16920b58ce6",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Timestral：Mistral 的时间序列基础模型",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "Mistral 发布 Timestral 时间序列基础模型，在 209M 参数下实现最先进的概率预测。",
+    "url": "https://mistral.ai/news/timestral/",
+    "via": "Hacker News",
+    "id": "4fadeb9d2d91",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Mercury 3：大规模扩散模型",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "Mercury 3 是目前最强大的扩散 LLM，在 1000+ tokens/秒的速度下超越 GPT-6 Luna 和 Claude Haiku 5.5。",
+    "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+    "via": "Hacker News",
+    "id": "52e21579ecf8",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "微软警告 AI 智能体如同内部威胁",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "微软警告企业需密切监控员工使用的智能体，因为前沿模型无法被完全信任。",
+    "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+    "via": "TechCrunch",
+    "id": "5ffc15bbb718",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "c16920b58ce6": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "HybridAgents：在潜在空间思考的智能体",
+    "body": "HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。"
+   },
+   "4fadeb9d2d91": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "Timestral：Mistral 的时间序列基础模型",
+    "body": "Mistral 发布 Timestral 时间序列基础模型，在 209M 参数下实现最先进的概率预测。"
+   },
+   "52e21579ecf8": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "Mercury 3：大规模扩散模型",
+    "body": ""
+   },
+   "58981fce4d79": {
+    "v": "e8671762",
+    "cat": "overseas",
+    "headline": "OpenAI 改进低资源编程语言代码能力",
+    "body": "OpenAI 改进了 ChatGPT 在低资源编程语言上的表现，新增了针对软件工程、SQLite 和 COBOL 迁移的评估。"
+   },
+   "e582c22d9e30": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "不运行自己的 LLM 代理如何监控",
+    "body": "讨论了不运行自己的 LLM 代理时如何监控内部状态的问题。"
+   },
+   "5ffc15bbb718": {
+    "v": "e8671762",
+    "cat": "industry",
+    "headline": "微软警告 AI 智能体如同内部威胁",
+    "body": "微软警告企业需密切监控员工使用的智能体，因为前沿模型无法被完全信任。"
+   },
+   "609bde941ef6": {
+    "v": "e8671762",
+    "cat": "domestic",
+    "headline": "MiniMax 发布 M3.1 Flash 模型",
+    "body": "MiniMax 发布 M3.1 Flash，定位为 Coding/Agent 优化轻量级模型，拥有 100 万 token 上下文。"
+   },
+   "15a29b00da92": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "TorchNeuron 发布",
+    "body": "TorchNeuron 为 PyTorch 提供了 Trainium 原生后端，支持 eager mode、torch.compile 和分布式 API。"
+   },
+   "eb66b4e95522": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "ComfyUI：模块化扩散模型 GUI",
+    "body": "ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面。"
+   },
+   "4128833aa912": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "huashu-motion：一键生成宣传片",
+    "body": "huashu-motion 项目能让 Agent 一键直出会作曲、能指着画面修改的商业级产品宣传片。"
+   },
+   "ade6481ff22a": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "vLLM 实现弹性专家并行近零停机扩展",
+    "body": "vLLM 通过异步准备和 NIXL EP 技术实现了弹性专家并行的近零停机扩展。"
+   },
+   "662d54180e16": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "ai-memory：Agent 长期记忆方案",
+    "body": "ai-memory 解决了 Agent 编码 CLI 的长期记忆问题，并促进不同 Agent 供应商之间的交接。"
+   },
+   "6d0f8d617791": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "ARTEMIS：Android 自动化工具",
+    "body": "ARTEMIS 能自动化端到端工作流，在 AndroidWorld 基准测试中达到 99%+ 的成功率。"
+   },
+   "d7f6c5393b16": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "Numan 使用 LangGraph 构建评估优先的 AI 健康教练",
+    "body": "Numan 利用 LangGraph 和 LangSmith 构建了包含分类评估、模拟对话和安全门控的 AI 健康教练。"
+   },
+   "1181d4d8646a": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "worldmonitor：实时全球情报仪表盘",
+    "body": "worldmonitor 是一个 AI 驱动的实时全球情报仪表盘，提供新闻聚合、地缘政治监控和基础设施跟踪。"
+   },
+   "97f56d302fe7": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "OpenHands 发布 v1.28.0 版本",
+    "body": "OpenHands 发布 v1.28.0 版本，新增了 Bahasa Indonesia 语言支持和对话模态请求密钥等功能。"
+   },
+   "21ce41f5011b": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "GPT-6-Astra：具身智能的新突破",
+    "body": "GPT-6-Astra 在机器人操作和导航任务中表现出色，挑战了传统专用模型范式。"
+   },
+   "a76893f97d65": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "DLite：无历史记录的推测解码",
+    "body": "DLite 针对智能体工作负载提出无历史记录的推测解码框架，在通用、长上下文和智能体工作负载上实现了 2-6 的接受长度。"
+   },
+   "2cfbdd1f1491": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "Into the Unknown：开放科学问题的智能体评测",
+    "body": "Into the Unknown 基准测试评估智能体在开放科学问题上的研究能力，要求其基于论文和方向撰写后续论文。"
+   },
+   "5ad7c46a32ce": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "RoTA-Bench：评估3D空间推理",
+    "body": "RoTA-Bench通过交互式3D到2D投影对齐任务，评估视觉语言模型将2D观察转化为支持精确动作的3D理解能力。"
+   },
+   "cb4fbd31a8be": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "VocalGrad：评估声学感知",
+    "body": "VocalGrad专门评估大音频语言模型对低级声学变化的感知能力，将其定义为时间变化方向的二分类问题。"
+   }
+  }
+ }
 }
