@@ -190,7 +190,7 @@ def test_club_summary_counts_without_excluded_repositories():
         ],
     }
     ctx = context(club_routes(github), now=NOW)
-    entries, period = club.fetch(ctx, SETTINGS, MONDAY, SUNDAY, 8)
+    entries, period = club.fetch(ctx, SETTINGS, 8, window=(MONDAY, SUNDAY))
     assert period == {"start": "2026-10-05", "end": "2026-10-11"}
     summary, busy, quiet, fresh, release = entries
     assert summary["headline"] == "开源俱乐部一周合并 9 个 PR、提交 15 次"
@@ -209,10 +209,10 @@ def test_club_summary_counts_without_excluded_repositories():
 
 
 def test_club_keeps_the_statistics_when_github_fails_and_raises_when_the_dashboard_fails():
-    entries, _ = club.fetch(context(club_routes(), now=NOW), SETTINGS, MONDAY, SUNDAY, 8)  # GitHub 全是 404
+    entries, _ = club.fetch(context(club_routes(), now=NOW), SETTINGS, 8, window=(MONDAY, SUNDAY))  # GitHub 全是 404
     assert len(entries) == 3  # 周统计和两个最活跃的仓库
     with pytest.raises(HttpError):
-        club.fetch(context({}, now=NOW), SETTINGS, MONDAY, SUNDAY, 8)
+        club.fetch(context({}, now=NOW), SETTINGS, 8, window=(MONDAY, SUNDAY))
 
 
 # ------------------------------------------------------------------ 生成一期
@@ -253,7 +253,7 @@ def week(tmp_path, config, monkeypatch):
         store.save_day(root, day, payload)
     calls = {"club": 0}
 
-    def fake_club(ctx, settings, monday, sunday, offset):
+    def fake_club(ctx, settings, offset, days=7, window=None):
         calls["club"] += 1
         return [CLUB], {"start": "2026-10-05", "end": "2026-10-11"}
 
@@ -394,7 +394,7 @@ def test_failed_sources_keep_what_the_last_run_had(week, monkeypatch):
     root, config, _ = week
     save_week_note(root, "2026-W41", {"kuaixun": build(root, config)})
 
-    def down(*args):
+    def down(*args, **kwargs):
         raise HttpError("HTTP 502", 502)
 
     for module in (club, policy, deadlines):
@@ -502,7 +502,7 @@ def test_a_new_repository_that_is_also_busy_is_one_entry():
              "description": "刚建的仓库"},
         ],
     }  # fmt: skip
-    entries, _ = club.fetch(context(club_routes(github), now=NOW), SETTINGS, MONDAY, SUNDAY, 8)
+    entries, _ = club.fetch(context(club_routes(github), now=NOW), SETTINGS, 8, window=(MONDAY, SUNDAY))
     assert [entry["headline"] for entry in entries[1:]] == ["新仓库 busy 一周合并 5 个 PR", "quiet 一周提交 2 次"]
     assert entries[1]["body"].startswith("Agent SIG的 busy 仓库于10月6日新建（刚建的仓库），一周内新增 PR 6 个")
 
@@ -541,3 +541,25 @@ def test_events_from_news_join_the_deadlines_and_sites_decide_the_side(week):
         ("早一点的峰会", "10月20日", "2026-10-20"),
         ("晚一点的峰会", "10月30日", "2026-10-30"),
     ]
+
+
+def test_daily_issue_uses_only_that_days_items(week):
+    root, config, _ = week
+    day = date(2026, 10, 6)
+    issue = kuaixun.build_day(root, config, day, client=None, http=FakeHttp({}), env={}, now=NOW)
+    assert issue["kind"] == "daily" and issue["day"] == issue["start"] == issue["end"] == "2026-10-06"
+    headlines = [entry["headline"] for entry in issue["entries"]]
+    assert "第 1 条的中文标题" in headlines and "第 3 条的中文标题" not in headlines  # 10-08 的不进 10-06 这一期
+    assert by_cat(issue)["overseas"][0]["when"] == "10月6日"
+
+
+def test_daily_due():
+    items = {"items": [{"title": "x"}]}
+    done = {"pending": 0, "tries": 1, "prompt": kuaixun.PROMPT_VERSION}
+    assert not kuaixun.daily_due(None, True) and not kuaixun.daily_due({"items": []}, True)  # 没有日报就没有快讯
+    assert kuaixun.daily_due(items, False)  # 还没有：没有大模型也先生成
+    assert not kuaixun.daily_due({**items, "kuaixun": done}, True)
+    assert kuaixun.daily_due({**items, "kuaixun": {**done, "pending": 2}}, True)  # 有没写成的：补
+    assert not kuaixun.daily_due({**items, "kuaixun": {**done, "pending": 2}}, False)
+    assert not kuaixun.daily_due({**items, "kuaixun": {**done, "pending": 2, "tries": kuaixun.MAX_TRIES}}, True)
+    assert kuaixun.daily_due({**items, "kuaixun": {**done, "prompt": "old"}}, True)  # 提示词改了：重写

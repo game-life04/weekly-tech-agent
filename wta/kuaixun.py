@@ -1,6 +1,6 @@
-"""每周快讯：参照《CCF开源快讯》的体例，把上一周的内容整理成一期“5 分钟速读”。
+"""每周快讯和每日快讯：参照《CCF开源快讯》的体例，把一周（或一天）的内容整理成一期速读。
 
-每周一生成上周一到周日的一期，栏目和顺序见 models.KX_SECTIONS：
+每周一生成上周一到周日的一期；每天的日报出完以后，再用当天的内容生成一期每日快讯。栏目和顺序见 models.KX_SECTIONS：
 - 俱乐部动态：俱乐部 GitHub 组织的周统计、最活跃的仓库、新仓库和新版本，由程序根据接口数据写成（club.py）；
 - 政策动向：中国政府网上和人工智能、开源、软件有关的条目（policy.py）；
 - 国内动态、海外动态、开源项目、学术前沿、产业纵横：从这一周每天的日报里挑。大模型负责分栏，
@@ -9,7 +9,8 @@
 
 和日报一样，大模型只写栏目、标题和正文，日期、链接、来源和统计数字都由程序填写；
 写出了资料里没有的英文名称或数字、或者没写成中文的，就不用，退回日报里已经核对过的中文标题和摘要。
-结果存进 data/weekly/<周>.json，页面只凭这份数据生成，重新排版不需要网络和大模型。
+每周快讯存进 data/weekly/<周>.json，每日快讯存进当天数据的 kuaixun 字段；页面只凭这些数据生成，
+重新排版不需要网络和大模型。
 """
 
 from __future__ import annotations
@@ -270,17 +271,17 @@ def write(items: list[Item], client: LLMClient) -> int:
     return run.done
 
 
-def _when(item: Item, monday: date, sunday: date, offset: float) -> tuple[str, str]:
-    """（日期，正文开头的日期写法）。发布日期在这一周里就写发布日期，否则写日报登出那天的“某日消息”。"""
+def _when(item: Item, start: date, end: date, offset: float) -> tuple[str, str]:
+    """（日期，正文开头的日期写法）。发布日期在这一期的范围里就写发布日期，否则写日报登出那天的“某日消息”。"""
     moment = parse_time(item.published)
     day = local_date(moment, offset) if moment else None
-    if day and monday <= day <= sunday:
+    if day and start <= day <= end:
         return day.isoformat(), f"{day.month}月{day.day}日"
-    seen = date.fromisoformat(item.extra.get("kx_day") or monday.isoformat())
+    seen = date.fromisoformat(item.extra.get("kx_day") or start.isoformat())
     return seen.isoformat(), f"{seen.month}月{seen.day}日消息"
 
 
-def entry_of(item: Item, cat: str, monday: date, sunday: date, offset: float) -> dict[str, Any] | None:
+def entry_of(item: Item, cat: str, start: date, end: date, offset: float) -> dict[str, Any] | None:
     """一条快讯。大模型没写成的部分用日报里的中文标题和摘要；连正文都没有的不登。"""
     written = item.extra.get("kx") or {}
     headline = written.get("headline") or item.title_zh or clean_text(item.title, 80)
@@ -291,12 +292,12 @@ def entry_of(item: Item, cat: str, monday: date, sunday: date, offset: float) ->
         return None
     if body[-1] not in "。！？.!?…”）)":
         body += "。"
-    day, when = _when(item, monday, sunday, offset)
-    if cat == "events":  # 活动写举办日期；已经办完的不预告
-        start = event_day(written.get("when", ""), monday)
-        if start is None or start <= sunday:
+    day, when = _when(item, start, end, offset)
+    if cat == "events":  # 活动写举办日期；这一期范围之内已经开始的不预告
+        opening = event_day(written.get("when", ""), start)
+        if opening is None or opening <= end:
             return None
-        day, when = start.isoformat(), written["when"]
+        day, when = opening.isoformat(), written["when"]
     return {
         "cat": cat,
         "headline": headline,
@@ -354,8 +355,8 @@ def _subject(headline: str, companies: Mapping[str, list[str]]) -> str:
 def assemble(
     candidates: list[Item],
     caps: Mapping[str, int],
-    monday: date,
-    sunday: date,
+    start: date,
+    end: date,
     offset: float,
     companies: Mapping[str, list[str]] | None = None,
     sites: Mapping[str, list[str]] | None = None,
@@ -373,7 +374,7 @@ def assemble(
         cat = written.get("cat") if written.get("cat") in _allowed(item) else guess(item)  # 旧数据也按现在的规则
         if cat == "skip" or written.get("same"):
             continue
-        entry = entry_of(item, cat, monday, sunday, offset)
+        entry = entry_of(item, cat, start, end, offset)
         if not entry:
             continue
         if cat in ("domestic", "overseas") or (cat == "opensource" and item.section == "news"):
@@ -400,41 +401,51 @@ def _attempt(report: list[dict[str, Any]], name: str, title: str, job) -> Any:
     return result
 
 
-def build(
-    root: Path,
+def _compose(
     config: dict[str, Any],
-    monday: date,
+    previous: dict[str, Any],
+    payloads: list[dict[str, Any]],
+    candidates: list[Item],
     *,
+    window: tuple[date, date],
+    policy_window: tuple[date, date],
+    club_days: int,
+    club_window: tuple[date, date] | None,
+    event_days: int,
+    caps: Mapping[str, int],
     client: LLMClient | None,
     http: Http,
     env: Mapping[str, str],
     now: datetime,
-    reuse: bool = True,
+    reuse: bool,
 ) -> dict[str, Any]:
-    """生成 monday 这一周的快讯（返回要存进周记录的数据，不写文件）。
+    """每周快讯和每日快讯共用的部分：取俱乐部、政策和会议截稿，让大模型改写候选，按栏目挑出要登的条目。
 
+    window 是这一期的日期范围（发布日期在范围里的写发布日期，活动要在范围之后才算预告）。
     reuse 为真时，上一次大模型已经写好的条目直接沿用，只补没写成的；提示词改过、而且这次有大模型可用时全部重写，
     重写没成功的条目先用旧的写法顶着，记作待补。
     """
     settings, offset = config["kuaixun"], config["utc_offset_hours"]
-    sunday = monday + timedelta(days=6)
-    week = week_id(monday)
-    previous = load_week_note(root, week).get("kuaixun") or {}
+    start, end = window
     kept = [entry for entry in previous.get("entries") or [] if isinstance(entry, dict)]
     report: list[dict[str, Any]] = []
     ctx = Context(http=http, now=now, keywords=KeywordMatcher(config["keywords"]), env=env)
 
-    fetched = _attempt(report, "club", club.VIA, lambda: club.fetch(ctx, settings["club"], monday, sunday, offset))
+    fetched = _attempt(
+        report,
+        "club",
+        club.VIA,
+        lambda: club.fetch(ctx, settings["club"], offset, days=club_days, window=club_window),
+    )
     club_entries, club_period = fetched or ([e for e in kept if e.get("cat") == "club"], previous.get("club_period"))
-    policies = _attempt(report, "policy", policy.VIA, lambda: policy.fetch(http, monday, sunday, settings["policy"]))
+    policies = _attempt(report, "policy", policy.VIA, lambda: policy.fetch(http, *policy_window, settings["policy"]))
     beijing = local_time(now, offset).replace(tzinfo=None)
-    events = _attempt(report, "events", deadlines.VIA, lambda: deadlines.fetch(http, beijing, settings["events"]))
+    event_settings = {**settings["events"], "days": event_days}
+    events = _attempt(report, "events", deadlines.VIA, lambda: deadlines.fetch(http, beijing, event_settings))
     if events is None:
         events = [entry for entry in kept if entry.get("cat") == "events"]
 
-    payloads = week_payloads(root, monday)
-    candidates = shortlist(pool_of(payloads), settings["candidates"], int(settings.get("chinese_news", 0)))
-    candidates += policies or []
+    candidates = candidates + (policies or [])
     old, old_version = previous.get("written") or {}, previous.get("prompt", "")
     fresh = old_version == PROMPT_VERSION
     for item in candidates:  # 上次已经写好的直接沿用；没有大模型时，旧提示词写的也照用
@@ -454,8 +465,7 @@ def build(
         if "kx" not in item.extra and isinstance(old.get(item.id), dict):
             item.extra["kx"], item.extra["kx_stale"] = old[item.id], True
 
-    caps = settings["caps"]
-    chosen = assemble(candidates, caps, monday, sunday, offset, settings.get("companies"), settings.get("sites"))
+    chosen = assemble(candidates, caps, start, end, offset, settings.get("companies"), settings.get("sites"))
     if policies is None:  # 政策列表这次取不到：沿用上次的
         chosen["policy"] = [entry for entry in kept if entry.get("cat") == "policy"]
     chosen["club"] = club_entries[: int(caps.get("club", 0))]
@@ -465,12 +475,11 @@ def build(
     entries = [entry for name, _ in KX_SECTIONS for entry in chosen[name]]
 
     models = [*previous.get("models", [])]
-    models += [str((payload.get("llm") or {}).get("model") or "") for payload in payloads.values()]
+    models += [str((payload.get("llm") or {}).get("model") or "") for payload in payloads]
     models += [provider.model for provider in client.answered] if client else []
     return {
-        "week": week,
-        "start": monday.isoformat(),
-        "end": sunday.isoformat(),
+        "start": start.isoformat(),
+        "end": end.isoformat(),
         "generated_at": to_iso(now),
         "models": list(dict.fromkeys(name for name in models if name)),
         "prompt": PROMPT_VERSION if fresh or attempted else old_version,
@@ -485,3 +494,92 @@ def build(
         # 每条记下是按哪一版提示词写的（早期的数据没有这一项，就是上一期整体的版本）
         "written": {item.id: {"v": old_version, **item.extra["kx"]} for item in candidates if "kx" in item.extra},
     }
+
+
+def build(
+    root: Path,
+    config: dict[str, Any],
+    monday: date,
+    *,
+    client: LLMClient | None,
+    http: Http,
+    env: Mapping[str, str],
+    now: datetime,
+    reuse: bool = True,
+) -> dict[str, Any]:
+    """生成 monday 这一周的快讯（返回要存进周记录的数据，不写文件）。"""
+    settings = config["kuaixun"]
+    sunday = monday + timedelta(days=6)
+    week = week_id(monday)
+    payloads = week_payloads(root, monday)
+    issue = _compose(
+        config,
+        load_week_note(root, week).get("kuaixun") or {},
+        list(payloads.values()),
+        shortlist(pool_of(payloads), settings["candidates"], int(settings.get("chinese_news", 0))),
+        window=(monday, sunday),
+        policy_window=(monday, sunday),
+        club_days=7,
+        club_window=(monday, sunday),
+        event_days=int(settings["events"].get("days", 45)),
+        caps=settings["caps"],
+        client=client,
+        http=http,
+        env=env,
+        now=now,
+        reuse=reuse,
+    )
+    return {"kind": "weekly", "week": week, **issue}
+
+
+def build_day(
+    root: Path,
+    config: dict[str, Any],
+    day: date,
+    *,
+    client: LLMClient | None,
+    http: Http,
+    env: Mapping[str, str],
+    now: datetime,
+    reuse: bool = True,
+) -> dict[str, Any]:
+    """生成 day 这一天的每日快讯（返回要存进当天数据的 kuaixun 字段，不写文件）。
+
+    候选就是当天日报入选的全部内容；政策看前一天和当天；俱乐部看仪表盘最近一天的统计；
+    会议截稿看接下来 event_days 天。发布日期在前两天以内的写发布日期，更早的写“某日消息”。
+    """
+    daily = config["kuaixun"]["daily"]
+    payload = store.load_day(root, day) or {}
+    items = store.items_of(payload)
+    for item in items:
+        item.extra["kx_day"] = day.isoformat()
+    issue = _compose(
+        config,
+        payload.get("kuaixun") or {},
+        [payload],
+        items,
+        window=(day - timedelta(days=2), day),
+        policy_window=(day - timedelta(days=1), day),
+        club_days=1,
+        club_window=None,
+        event_days=int(daily.get("event_days", 14)),
+        caps=daily["caps"],
+        client=client,
+        http=http,
+        env=env,
+        now=now,
+        reuse=reuse,
+    )
+    return {"kind": "daily", "day": day.isoformat(), **issue, "start": day.isoformat()}
+
+
+def daily_due(payload: dict[str, Any] | None, llm_ready: bool) -> bool:
+    """当天的每日快讯要不要生成（或补全）：还没有；或者有大模型可用，而且有没写成的、或提示词改过了。"""
+    issue = (payload or {}).get("kuaixun")
+    if not (payload or {}).get("items"):
+        return False
+    if not isinstance(issue, dict):
+        return True
+    if not llm_ready:
+        return False
+    return bool(issue.get("pending") and issue.get("tries", 0) < MAX_TRIES) or issue.get("prompt") != PROMPT_VERSION

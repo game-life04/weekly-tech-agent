@@ -34,7 +34,9 @@ def week_range(day: date) -> tuple[date, date]:
 
 
 def date_span(start: date, end: date) -> str:
-    """10月12日至18日；跨月时写成 9月28日至10月4日。"""
+    """10月12日至18日；跨月时写成 9月28日至10月4日；同一天就是 10月19日。"""
+    if start == end:
+        return f"{start.month}月{start.day}日"
     tail = f"{end.day}日" if (start.year, start.month) == (end.year, end.month) else f"{end.month}月{end.day}日"
     return f"{start.month}月{start.day}日至{tail}"
 

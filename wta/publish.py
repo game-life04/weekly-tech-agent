@@ -52,10 +52,12 @@ def publish_day(root: Path, config: dict[str, Any], day: date, days: list[date])
     earlier = [d for d in days if d < day]
     text = render.render_daily(day, payload, config, earlier[-1] if earlier else None)
     _write(root / render.daily_path(day), text)
+    if isinstance(payload.get("kuaixun"), dict):
+        publish_kuaixun(root, config, payload["kuaixun"])
 
 
 def kuaixun_issues(root: Path) -> list[dict[str, Any]]:
-    """已经生成的所有快讯，从早到晚。"""
+    """已经生成的所有每周快讯，从早到晚。"""
     issues = []
     for path in sorted((root / "data" / "weekly").glob("*.json")):
         issue = json.loads(path.read_text(encoding="utf-8")).get("kuaixun")
@@ -65,13 +67,16 @@ def kuaixun_issues(root: Path) -> list[dict[str, Any]]:
 
 
 def publish_kuaixun(root: Path, config: dict[str, Any], issue: dict[str, Any]) -> None:
-    _write(root / render.weekly_path(issue["week"]), render.render_kuaixun(issue, config))
-    _write(root / render.weekly_html_path(issue["week"]), render.render_kuaixun_html(issue, config))
+    """写一期快讯（每周或每日）的两个文件：Markdown 页面和公众号排版版。"""
+    page, sheet = render.kuaixun_paths(issue)
+    _write(root / page, render.render_kuaixun(issue, config))
+    _write(root / sheet, render.render_kuaixun_html(issue, config))
 
 
 def publish_indexes(root: Path, config: dict[str, Any], days: list[date]) -> list[str]:
     """写两个目录页和 README 里的“最新一期”。返回需要提醒维护者的问题（没有就是空列表）。"""
-    counts = [(day, len((store.load_day(root, day) or {}).get("items", []))) for day in days]
+    payloads = {day: store.load_day(root, day) or {} for day in days}
+    counts = [(day, len(p.get("items", [])), isinstance(p.get("kuaixun"), dict)) for day, p in payloads.items()]
     _write(root / "daily" / "README.md", render.render_daily_index(counts))
     issues = kuaixun_issues(root)
     _write(root / "weekly" / "README.md", render.render_weekly_index(issues))
@@ -81,7 +86,7 @@ def publish_indexes(root: Path, config: dict[str, Any], days: list[date]) -> lis
     latest = days[-1] if days else None  # README 顶部永远显示最新一期快讯和最新一期日报
     readme = root / "README.md"
     current = readme.read_text(encoding="utf-8") if readme.is_file() else README_SKELETON
-    payload = (store.load_day(root, latest) if latest else None) or {}
+    payload = payloads.get(latest, {}) if latest else {}
     block = render.render_latest_block(latest, payload, config, issues[-1] if issues else None)
     try:
         _write(readme, render.replace_latest_block(current, block))

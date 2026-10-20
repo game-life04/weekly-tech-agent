@@ -131,7 +131,7 @@ def kx_issue(**extra):
 def test_render_kuaixun_markdown(config):
     text = render.render_kuaixun(kx_issue(), config)
     assert text.startswith("# 每周科技快讯 · 10.05–10.11\n")
-    assert "本期为您带来：**10.05–10.11 快讯** · **近期会议截稿提醒**" in text
+    assert "本期为您带来：**10.05–10.11 快讯** · **近期活动预告**" in text
     assert "[公众号排版版](2026-W41.html)" in text
     order = ["## 新闻速览", "## 上周快讯", "### 俱乐部动态", "### 国内动态", "### 海外动态", "## 活动预告"]
     assert [text.index(h) for h in order] == sorted(text.index(h) for h in order)  # 栏目按固定顺序
@@ -147,12 +147,12 @@ def test_render_kuaixun_markdown(config):
     )
     assert evil in text and "<script>" not in text
     assert "标题和正文由 AI 根据原文整理（fake-1）" in text
-    assert "俱乐部动态的统计区间为10月4日至10日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。" in text
+    assert "俱乐部动态的统计日期为10月4日至10日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。" in text
     assert "会议截稿时间来自[CCFDDL](https://ccfddl.com/)" in text and "本期未取到：中国政府网。" in text
     assert "/issues)。" in text and "于 2026-10-12 03:30（北京时间）自动生成。" in text
 
     quiet = render.render_kuaixun(kx_issue(entries=[], sources=[]), config)
-    assert "这一周没有收集到内容。" in quiet and "新闻速览" not in quiet and "AI 根据原文" not in quiet
+    assert "这一期没有收集到内容。" in quiet and "新闻速览" not in quiet and "AI 根据原文" not in quiet
 
 
 def test_render_kuaixun_html_for_wechat(config):

@@ -45,6 +45,20 @@ DEFAULTS: dict[str, Any] = {
         "companies": {"domestic": [], "overseas": []},
         "sites": {"domestic": [], "overseas": []},
         "events": {"subjects": ["AI"], "ranks": ["A", "B"], "days": 45},
+        "daily": {
+            "enabled": True,
+            "event_days": 14,
+            "caps": {
+                "club": 3,
+                "policy": 2,
+                "domestic": 5,
+                "overseas": 5,
+                "opensource": 4,
+                "papers": 3,
+                "industry": 2,
+                "events": 3,
+            },
+        },
     },
     "llm": {
         "enabled": True,

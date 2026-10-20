@@ -58,8 +58,12 @@ def repo(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "SOURCES", sources)
     monkeypatch.setattr(cli, "SOURCES", sources)
     monkeypatch.setattr(excerpt, "fetch", lambda http, url: "")  # 测试不访问网络：原文网页一律取不到
+
     # 快讯的外部数据源也换成假的：俱乐部统计正好覆盖那一周，政策和会议截稿都没有
-    monkeypatch.setattr(club, "fetch", lambda ctx, settings, monday, sunday, offset: ([], {"end": sunday.isoformat()}))
+    def fake_club(ctx, settings, offset, days=7, window=None):
+        return [], {"end": (window or (None, date(2026, 10, 11)))[1].isoformat()}
+
+    monkeypatch.setattr(club, "fetch", fake_club)
     monkeypatch.setattr(policy, "fetch", lambda http, monday, sunday, settings: [])
     monkeypatch.setattr(deadlines, "fetch", lambda http, now, settings: [])
     for name in ("GITHUB_STEP_SUMMARY", "GITHUB_ACTIONS"):  # 在 CI 里跑测试时，别往真实的运行小结里写假日报
@@ -95,7 +99,11 @@ def test_run_writes_data_pages_and_readme(repo):
     assert "还没有快讯：每周一生成上一周的一期" in (root / "weekly/README.md").read_text(encoding="utf-8")
 
     readme = (root / "README.md").read_text(encoding="utf-8")
-    assert "## 最新日报 · 2026-10-10（周六）" in readme and "每周快讯 ·" not in readme
+    assert "## 每日快讯 · 10.10（周六）" in readme and "每周快讯 ·" not in readme
+    assert (root / "daily/2026/2026-10-10-kuaixun.md").is_file() and (
+        root / "daily/2026/2026-10-10-kuaixun.html"
+    ).is_file()
+    assert "[今日快讯](2026-10-10-kuaixun.md)" in daily
     assert "保留这一段。" in readme and readme.startswith("# 每周科技收集 Agent")
 
 
@@ -113,7 +121,7 @@ def test_rerun_same_day_is_stable_and_next_day_skips_old_items(repo):
     next_day = store.load_day(root, date(2026, 10, 11))
     assert [i["title"] for i in next_day["items"]] == ["Item 5 about LLM"]  # 昨天登过的不再出现
     readme = (root / "README.md").read_text(encoding="utf-8")
-    assert "## 最新日报 · 2026-10-11（周日）" in readme and "2026-10-10（周六）" not in readme
+    assert "## 每日快讯 · 10.11（周日）" in readme and "10.10（周六）" not in readme
     assert "[上一期](2026-10-10.md)" in (root / "daily/2026/2026-10-11.md").read_text(encoding="utf-8")
 
 
@@ -217,7 +225,8 @@ def llm_replies(score_of, blocked=()):
 def with_llm(repo, monkeypatch):
     root, sources = repo
     (root / "config.yaml").write_text(
-        "sources:\n  good: {enabled: true}\nselect: {per_source_cap: 9}\nllm: {enabled: true, review_min_score: 7}\n",
+        "sources:\n  good: {enabled: true}\nselect: {per_source_cap: 9}\nllm: {enabled: true, review_min_score: 7}\n"
+        "kuaixun: {daily: {enabled: false}}\n",  # 这些测试数的是日报的请求次数；每日快讯单独测
         encoding="utf-8",
     )
 
@@ -526,7 +535,7 @@ def test_monday_run_also_builds_last_weeks_kuaixun(repo, monkeypatch):
     assert (root / "weekly/2026-W41.html").read_text(encoding="utf-8").startswith("<!doctype html>")
     assert "[2026 年第 41 周 · 10.05–10.11](2026-W41.md)" in (root / "weekly/README.md").read_text(encoding="utf-8")
     readme = (root / "README.md").read_text(encoding="utf-8")
-    assert readme.index("## 每周快讯 · 10.05–10.11") < readme.index("## 最新日报 · 2026-10-10（周六）")
+    assert readme.index("## 每日快讯 · 10.10（周六）") < readme.index("## 每周快讯 · 10.05–10.11")
     issue = json.loads((root / "data/weekly/2026-W41.json").read_text(encoding="utf-8"))["kuaixun"]
     assert issue["pending"] == 4 and issue["tries"] == 0  # 没有大模型：标题和正文都用日报的
     assert store.list_days(root) == [date(2026, 10, 10)]  # 周记录不算一天
@@ -599,3 +608,37 @@ def test_render_rebuilds_kuaixun_pages_from_data(repo, monkeypatch):
     assert run(root, "render") == 0
     assert page.read_text(encoding="utf-8") == original and html.is_file()
     assert not (root / "weekly/2026-W40.md").exists()  # 没有快讯的旧记录不生成页面
+
+
+def test_each_daily_issue_also_gets_a_daily_kuaixun(with_llm):
+    root, sources, install = with_llm
+    (root / "config.yaml").write_text(
+        "sources:\n  good: {enabled: true}\nselect: {per_source_cap: 9}\nllm: {enabled: true}\n", encoding="utf-8"
+    )
+    sources["good"] = fake_source("good", "Good", [row(1, summary=LONG), row(2, summary=LONG)])
+    client = install(FakeClient([everything]))
+    assert run(root, "run", "--date", "2026-10-10") == 0
+    issue = store.load_day(root, date(2026, 10, 10))["kuaixun"]
+    assert issue["kind"] == "daily" and issue["pending"] == 0 and issue["tries"] == 1
+    page = (root / "daily/2026/2026-10-10-kuaixun.md").read_text(encoding="utf-8")
+    assert page.startswith("# 每日科技快讯 · 10.10") and "## 今日快讯" in page
+    assert "**测试团队发布Item 1 about LLM**<br>" in page and "[完整日报（含热度和原题）](2026-10-10.md)" in page
+    readme = (root / "README.md").read_text(encoding="utf-8")
+    assert "## 每日快讯 · 10.10（周六）" in readme and "测试团队发布Item 2 about LLM" in readme
+    assert "[每日快讯](2026/2026-10-10-kuaixun.md)" in (root / "daily/README.md").read_text(encoding="utf-8")
+
+    calls = len(client.calls)
+    sources["good"] = fake_source("good", "Good", error="不应该再抓取")
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0  # 都写好了：什么都不做
+    assert len(client.calls) == calls
+
+
+def test_days_from_before_the_feature_get_a_daily_kuaixun_on_the_next_run(repo):
+    root, _ = repo
+    assert run(root, "run", "--date", "2026-10-10") == 0
+    path = root / "data/2026/2026-10-10.json"
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    del payload["kuaixun"]  # 模拟这个功能上线之前的数据
+    path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    assert run(root, "run", "--date", "2026-10-10", "--if-missing") == 0
+    assert "kuaixun" in store.load_day(root, date(2026, 10, 10))

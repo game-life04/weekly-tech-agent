@@ -1,7 +1,8 @@
 """快讯的“俱乐部动态”：俱乐部 GitHub 组织上一周的开源活动，全部由程序根据接口数据写成，不经过大模型。
 
-- 周统计和最活跃的仓库来自俱乐部的开源仪表盘（Open-Source-Dashboard，osd.openatom.club）的公开接口。
-  仪表盘按“最近 7 天”统计，不能指定日期：页面上写的统计区间以接口返回的为准，可能和快讯的那一周差一天。
+- 统计和最活跃的仓库来自俱乐部的开源仪表盘（Open-Source-Dashboard，osd.openatom.club）的公开接口。
+  仪表盘按“最近 N 天”统计（每周快讯用 7 天，每日快讯用 1 天），不能指定日期：页面上写的统计日期
+  以接口返回的为准，可能和快讯的日期差一天。
 - 新建的仓库和新发布的版本来自 GitHub 官方接口。新建的仓库如果也是最活跃的仓库，合成一条登。
 - 总数由各仓库的数字相加，去掉 exclude 里的仓库（例如本项目自己：机器人每天的提交不算俱乐部活动）；
   只有机器人在动的仓库（贡献者为 0）不算“活跃”。贡献者人数直接用仪表盘的统计（已去掉机器人，
@@ -12,7 +13,7 @@ from __future__ import annotations
 
 import logging
 import re
-from datetime import date
+from datetime import date, timedelta
 from typing import Any
 
 from .dates import date_span, local_date, parse_time
@@ -53,8 +54,13 @@ def _active(repos: list[dict[str, Any]], exclude: set[str]) -> list[dict[str, An
     return sorted(rows, key=lambda repo: tuple(_number(repo.get(name)) for name in activity), reverse=True)
 
 
+def _label(days: int) -> str:
+    """标题里的时间说法：7 天写“一周”，1 天不写（正文开头有日期）。"""
+    return "一周" if days == 7 else "" if days == 1 else f"{days} 天"
+
+
 def summary_entry(
-    settings: dict[str, Any], repos: list[dict[str, Any]], people: Any, when: tuple[date, date]
+    settings: dict[str, Any], repos: list[dict[str, Any]], people: Any, when: tuple[date, date], days: int = 7
 ) -> dict[str, Any]:
     exclude = {name.casefold() for name in settings.get("exclude") or []}
     counted = [repo for repo in repos if isinstance(repo, dict) and str(repo.get("name", "")).casefold() not in exclude]
@@ -72,7 +78,7 @@ def summary_entry(
         body += f"，{contributors} 位贡献者参与" + (f"，其中 {newcomers} 位是第一次贡献" if newcomers else "")
     return {
         "cat": "club",
-        "headline": f"{name}一周合并 {total['closed_merged_prs']} 个 PR、提交 {total['new_commits']} 次",
+        "headline": f"{name}{_label(days)}合并 {total['closed_merged_prs']} 个 PR、提交 {total['new_commits']} 次",
         "when": date_span(*when),
         "date": when[1].isoformat(),
         "body": body + "。",
@@ -86,6 +92,7 @@ def repo_entries(
     repos: list[dict[str, Any]],
     when: tuple[date, date],
     created: dict[str, dict] | None = None,
+    days: int = 7,
 ) -> list[dict]:
     """最活跃的几个仓库。这一周新建的写明“新建”，不再单独登一条新建仓库的消息。"""
     exclude = {name.casefold() for name in settings.get("exclude") or []}
@@ -101,16 +108,19 @@ def repo_entries(
             opening += f"于{fresh['day'].month}月{fresh['day'].day}日新建" + (
                 f"（{fresh['about']}）" if fresh["about"] else ""
             )
-            opening += "，一周内"
-        body = (
-            f"{opening}新增 PR {_number(repo.get('new_prs'))} 个、合并 {merged} 个，"
-            f"提交 {commits} 次，新增代码 {_number(repo.get('lines_added'))} 行，"
-            f"{_number(repo.get('active_contributors'))} 位贡献者参与。"
-        )
+            opening += f"，{_label(days) + '内' if _label(days) else '当天'}"
+        counts = [
+            ("新增 PR {} 个", _number(repo.get("new_prs"))),
+            ("合并 {} 个", merged),
+            ("提交 {} 次", commits),
+            ("新增代码 {} 行", _number(repo.get("lines_added"))),
+        ]
+        done = "、".join(text.format(value) for text, value in counts if value)  # 是 0 的不写
+        body = f"{opening}{done}，{_number(repo.get('active_contributors'))} 位贡献者参与。"
         found.append(
             {
                 "cat": "club",
-                "headline": f"{'新仓库 ' if fresh else ''}{name} 一周{action}",
+                "headline": f"{'新仓库 ' if fresh else ''}{name} {_label(days)}{action}",
                 "when": date_span(*when),
                 "date": when[1].isoformat(),
                 "body": body,
@@ -196,17 +206,24 @@ def github_entries(
 
 
 def fetch(
-    ctx: Context, settings: dict[str, Any], monday: date, sunday: date, offset: float
+    ctx: Context, settings: dict[str, Any], offset: float, *, days: int = 7, window: tuple[date, date] | None = None
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    """返回（快讯条目，这次的统计信息）。仪表盘取不到时抛异常；GitHub 那一半取不到只记日志。"""
+    """返回（快讯条目，这次的统计日期）。仪表盘取不到时抛异常；GitHub 那一半取不到只记日志。
+
+    days 是仪表盘统计最近几天；window 是新仓库和新版本算哪几天，不给就用仪表盘这次统计的日期。
+    这几天里一点开发活动都没有时，不登统计。
+    """
     api = settings["dashboard"].rstrip("/") + "/api/v1"
-    params = {"range": "7d"}
-    growth = ctx.http.get_json(f"{api}/organization/growth-analysis", params=params)
+    params = {"range": f"{days}d"}
+    # 统计到哪一天只有 growth-analysis 会说，它只认 7d 这类常用区间：取它的结束日期，再往前推 days 天
+    growth = ctx.http.get_json(f"{api}/organization/growth-analysis", params={"range": "7d"})
     repos = (ctx.http.get_json(f"{api}/organization/repositories", params=params) or {}).get("repositories")
     people = ctx.http.get_json(f"{api}/contributors/stats", params=params)
-    when = period(growth)
-    if when is None or not isinstance(repos, list):
+    week = period(growth)
+    if week is None or not isinstance(repos, list):
         raise RuntimeError("仪表盘返回的数据格式和预期不同")
+    when = (week[1] - timedelta(days=days - 1), week[1])
+    monday, sunday = window or when
     # 仓库名会拼进接口路径、写进页面：不是正常写法的整个不要
     repos = [repo for repo in repos if isinstance(repo, dict) and _REPO_NAME.fullmatch(str(repo.get("name", "")))]
     try:
@@ -214,9 +231,16 @@ def fetch(
     except Exception as exc:  # 新仓库只是补充，取不到不影响周统计
         log.warning("取不到俱乐部的新仓库：%s", clean_text(str(exc), 200))
         created = {}
-    top = repo_entries(settings, repos, when, created)
-    entries = [summary_entry(settings, repos, people, when), *top]
     exclude = {name.casefold() for name in settings.get("exclude") or []}
+    entries = []
+    if any(
+        _number(repo.get(f))
+        for repo in repos
+        for f in ("new_prs", "new_commits")
+        if repo["name"].casefold() not in exclude
+    ):
+        top = repo_entries(settings, repos, when, created, days)
+        entries = [summary_entry(settings, repos, people, when, days), *top]
     shown = {str(repo["name"]) for repo in _active(repos, exclude)[: int(settings.get("top_repos", 3))]}
     try:
         entries += github_entries(ctx, settings, repos, monday, sunday, offset, created, shown)
