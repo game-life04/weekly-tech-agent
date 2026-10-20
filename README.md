@@ -8,56 +8,56 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.20（周二）
+## 每日快讯 · 10.21（周三）
 
-> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-20-kuaixun.md) · [长图](daily/2026/2026-10-20-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-20-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-20.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **14** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-21-kuaixun.md) · [长图](daily/2026/2026-10-21-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-21-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-21.md) · [往期日报](daily/README.md)
 
 ### 今日快讯
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 7 个 PR、提交 11 次**<br>10月19日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 11 个、合并 7 个，提交 11 次，新增代码 4199 行、删除 300 行，4 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 9 个 PR、提交 10 次**<br>10月20日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 11 个、合并 9 个，提交 10 次，新增代码 2520 行、删除 405 行，5 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**新仓库 hust-mail-cli 合并 4 个 PR**<br>10月19日，Agent SIG的 hust-mail-cli 仓库于10月19日新建（CLI tool to send and receive emails with HUST email account），当天新增 PR 4 个、合并 4 个、提交 8 次、新增代码 4199 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
+**hust-mail-cli 合并 6 个 PR**<br>10月20日，Agent SIG的 hust-mail-cli 仓库新增 PR 7 个、合并 6 个、提交 6 次、新增代码 2516 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
 
-**pwn.hust.college 合并 3 个 PR**<br>10月19日，pwn.hust.college SIG的 pwn.hust.college 仓库合并 3 个、提交 3 次，3 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwn.hust.college)）</sub>
+**Open-Source-Dashboard 合并 1 个 PR**<br>10月20日，数字基础设施维护 SIG的 Open-Source-Dashboard 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 2 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/Open-Source-Dashboard)）</sub>
 
 #### 国内动态
 
-**MiniMax 发布 M3.1 Flash 模型**<br>10月19日，MiniMax 发布 M3.1 Flash，定位为 Coding/Agent 优化轻量级模型，拥有 100 万 token 上下文。<br><sub>（来源：[智东西](https://zhidx.com/p/602354.html)）</sub>
+**Deepseek open-sources the inference engine that powers its fastest and cheapest…**<br>10月21日，Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cu…<br><sub>（来源：[The Decoder](https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/)）</sub>
 
 #### 海外动态
 
-**OpenAI 改进低资源编程语言代码能力**<br>10月19日，OpenAI 改进了 ChatGPT 在低资源编程语言上的表现，新增了针对软件工程、SQLite 和 COBOL 迁移的评估。<br><sub>（来源：[OpenAI](https://openai.com/index/low-resource-programming-languages)）</sub>
+**Voxtral 3**<br>10月20日，Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, dee…<br><sub>（来源：[Mistral AI](https://mistral.ai/news/voxtral-3/)）</sub>
+
+**DeepInfer: High-performance inference framework for DeepSeek models**<br>10月20日，DeepInfer: High-performance, large-scale inference framework for DeepSeek models。<br><sub>（来源：[Hacker News](https://github.com/deepseek-ai/DeepInfer)）</sub>
+
+**OpenAI acquires Orchestra Bio**<br>10月20日，OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelera…<br><sub>（来源：[OpenAI](https://openai.com/index/openai-to-acquire-orchestra-bio)）</sub>
 
 #### 开源项目
 
-**vLLM 实现弹性专家并行近零停机扩展**<br>10月19日，vLLM 通过异步准备和 NIXL EP 技术实现了弹性专家并行的近零停机扩展。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime)）</sub>
+**Introducing vLLM TorchTPU**<br>10月20日，vllm-torchtpu is a new vLLM backend for Google Cloud TPUs built on TorchTPU, with Pallas kernels, multi-host parallelis…<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-20-vllm-torchtpu)）</sub>
 
-**ComfyUI：模块化扩散模型 GUI**<br>10月20日消息，ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面。<br><sub>（来源：[GitHub Trending](https://github.com/Comfy-Org/ComfyUI)）</sub>
+**simbasjungles/free-my-tv**<br>10月21日消息，A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.<br><sub>（来源：[GitHub 新项目](https://github.com/simbasjungles/free-my-tv)）</sub>
 
-**huashu-motion：一键生成宣传片**<br>10月20日消息，huashu-motion 项目能让 Agent 一键直出会作曲、能指着画面修改的商业级产品宣传片。<br><sub>（来源：[GitHub 新项目](https://github.com/alchaincyf/huashu-motion)）</sub>
+**cloudflare/security-audit-skill**<br>10月21日消息，A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings。<br><sub>（来源：[GitHub Trending](https://github.com/cloudflare/security-audit-skill)）</sub>
 
-**ai-memory：Agent 长期记忆方案**<br>10月20日消息，ai-memory 解决了 Agent 编码 CLI 的长期记忆问题，并促进不同 Agent 供应商之间的交接。<br><sub>（来源：[GitHub Trending](https://github.com/akitaonrails/ai-memory)）</sub>
+**DietrichGebert/ponytail**<br>10月21日消息，Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.<br><sub>（来源：[GitHub Trending](https://github.com/DietrichGebert/ponytail)）</sub>
 
 #### 学术前沿
 
-**HybridAgents：在潜在空间思考的智能体**<br>10月19日，HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。<br><sub>（来源：[Hacker News](https://arxiv.org/abs/2610.18861)）</sub>
+**Scaling Parameter-Efficient Fine-Tuning for Brain Encoding**<br>10月19日，Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from froz…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.26802)）</sub>
 
-**Timestral：Mistral 的时间序列基础模型**<br>10月19日，Mistral 发布 Timestral 时间序列基础模型，在 209M 参数下实现最先进的概率预测。<br><sub>（来源：[Hacker News](https://mistral.ai/news/timestral/)）</sub>
+**OR-License: Evaluating LLM Agents as Real-World Operations Research Practitione…**<br>10月21日消息，Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original cl…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.24087)）</sub>
 
-**Mercury 3：大规模扩散模型**<br>10月20日，Mercury 3 是目前最强大的扩散 LLM，在 1000+ tokens/秒的速度下超越 GPT-6 Luna 和 Claude Haiku 5.5。<br><sub>（来源：[Hacker News](https://www.inceptionlabs.ai/blog/introducing-mercury-3)）</sub>
-
-#### 产业纵横
-
-**微软警告 AI 智能体如同内部威胁**<br>10月20日，微软警告企业需密切监控员工使用的智能体，因为前沿模型无法被完全信任。<br><sub>（来源：[TechCrunch](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/)）</sub>
+**PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews**<br>10月21日消息，Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate wh…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.21046)）</sub>
 
 ### 活动预告
 
 **WWW 2027 论文截稿**<br>10月26日，International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。<br><sub>（来源：[会议官网](https://www2027.thewebconf.org/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月19日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-20 11:02（北京时间）自动生成。</sub>
+<sub>俱乐部动态的统计日期为10月20日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-21 06:17（北京时间）自动生成。</sub>
 
 ## 每周快讯 · 10.12–10.18
 

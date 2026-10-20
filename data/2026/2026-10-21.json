@@ -1,0 +1,1176 @@
+{
+ "date": "2026-10-21",
+ "generated_at": "2026-10-20T22:17:35Z",
+ "llm": null,
+ "candidates": 460,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 63,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 4.9
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.9
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 45,
+   "error": "",
+   "seconds": 11.6
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 301,
+   "error": "",
+   "seconds": 23.5
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 26.8
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 31,
+   "error": "",
+   "seconds": 30.1
+  }
+ ],
+ "items": [
+  {
+   "title": "Voxtral 3",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "source": "rss",
+   "section": "news",
+   "via": "Mistral AI",
+   "published": "2026-10-20T12:00:22Z",
+   "summary": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.",
+   "heat": 0.985,
+   "weight": 0.85,
+   "metrics": {
+    "points": 454.0,
+    "comments": 126.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50168396",
+    "llm_score": 8.0
+   },
+   "id": "e267c7cec9c0",
+   "score": 8.48,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-20T09:08:54Z",
+   "summary": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 2055.0,
+    "comments": 805.0,
+    "stars": 11825.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50163277",
+    "language": "Python",
+    "age_days": 4
+   },
+   "id": "1b6d7a539816",
+   "score": 8.45,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "GitHub 新项目"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-19T23:22:18Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 706.0,
+    "comments": 205.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50159341",
+    "excerpt_tried": true,
+    "evidence": "WhatsApp removed hidden notes telling AI not to recommend a regulator, and not to cite GDPR or CCPA once a lawyer came up. We quote both notes. WhatsApp's privacy policy for Europe tells you that you can complain to a data protection regulator, and it names the law that gives you that right. Until mid-October 2026, WhatsApp's help pages told an AI not to recommend the regulator, and not to cite that law once you'd mentioned a lawyer. You couldn't see the second part. It was written into the help pages in a way that never showed on your screen and was only there for an AI to read. We found it on October 8, 2026. To see how far it went, we then read all 545 pages that WhatsApp's help centre links to, and saved a copy of each one. Most of those 102 blocks were harmless, and we'll get to that…"
+   },
+   "id": "e2e956ee6cbc",
+   "score": 8.24,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Publish fake stats, get cited in LLMs",
+   "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-20T13:06:22Z",
+   "summary": "",
+   "heat": 0.919,
+   "weight": 0.6,
+   "metrics": {
+    "points": 302.0,
+    "comments": 175.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50165801",
+    "excerpt_tried": true,
+    "evidence": "How 50,000 fake stats kept getting cited by ChatGPT Read more on the Peec AI blog. What I learned about AI search when I made up 50,000 stats that got cited by ChatGPT... About 7 months ago, I launched a website with 50,000 statistics. Every one of them was fake. Google has forgotten the site exists and deindexed the pages, but ChatGPT hasn't. Since the website went live 7 months ago, it has sent more than 10,000 AI sessions its way. And now more than 330 referring domains, including Shopify, Bluehost, and DHL, link to the site. Its made-up numbers have also ended up in an academic paper and in a bank's investment research. At Peec AI and in the industry, we talk about GEO and SEO every day, and we keep looking for new tactics. I’ve been working on this stats page one for a long time, sha…"
+   },
+   "id": "edfa40a96384",
+   "score": 8.15,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Claude designed protein binders against scorpion neurotoxins",
+   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic 研究",
+   "published": "2026-10-20T00:00:00Z",
+   "summary": "",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {
+    "points": 67.0,
+    "comments": 34.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50170021",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Summary: As part of our work experimenting with how Claude can help accelerate drug discovery, we asked an internal research model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Claude worked from our prompt and four follow-ups, which we developed in collaboration with the financial investment research firm Citrini Research. Teams at Adaptyv Bio and Twist Bioscience experimentally tested 211 designs for binding. Of these, 17 met our criteria. We’re releasing all 211 designs and their data as a resource for the field. In August, we showed how Claude designed protein minibinders after being given…"
+   },
+   "id": "64f0c1482fd8",
+   "score": 8.1,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+   "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-19T16:16:46Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 546.0,
+    "comments": 492.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50154244",
+    "excerpt_tried": true
+   },
+   "id": "13d97ed1199b",
+   "score": 8.1,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+   "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-20T18:56:15Z",
+   "summary": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic. The article Deepseek open-sources the inference engine that powers its fastest and cheapest AI model appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0
+   },
+   "id": "bccded0efdda",
+   "score": 7.76,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI acquires Orchestra Bio",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-20T00:00:00Z",
+   "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "d62552bab33a",
+   "score": 7.66,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+   "heat": 1.0,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1690.0
+   },
+   "extra": {
+    "language": "Java",
+    "age_days": 1
+   },
+   "id": "34611a188ca6",
+   "score": 7.5,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "heat": 0.928,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1680.0,
+    "stars": 33998.0
+   },
+   "extra": {
+    "language": "JavaScript"
+   },
+   "id": "57e1609901b3",
+   "score": 7.44,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "heat": 0.905,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1396.0,
+    "stars": 169509.0
+   },
+   "extra": {
+    "language": "JavaScript"
+   },
+   "id": "fbf3b1d6655d",
+   "score": 7.33,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Introducing vLLM TorchTPU",
+   "url": "https://vllm.ai/blog/2026-10-20-vllm-torchtpu",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-20T00:00:00Z",
+   "summary": "vllm-torchtpu is a new vLLM backend for Google Cloud TPUs built on TorchTPU, with Pallas kernels, multi-host parallelism, KV cache offloading, and disaggregated serving.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "20db474702b6",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DeepSeek 开源推理框架 DeepInfer：服务链路的最后一块拼图",
+   "url": "https://www.oschina.net/news/503116",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-10-20T10:39:12Z",
+   "summary": "DeepSeek 把压箱底的推理框架开源了。这次不是模型，是那个决定算力成本和电费多少的中间层——DeepInfer。 推理框架这个角色，普通用户感受不到，但它每天都在起作用。训练让模型「学有所成」，推理让模型「为人所用」——海量用户调用时，是推理框架在统筹调度庞大的算力集群，它的效率直接决定 AI 服务的算力成本和电...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "f696c48e7fcd",
+   "score": 6.92,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "heat": 0.822,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 719.0,
+    "stars": 42311.0
+   },
+   "extra": {
+    "language": "Python"
+   },
+   "id": "3be966a07f79",
+   "score": 6.91,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "tangency-labs/solidcraft",
+   "url": "https://github.com/tangency-labs/solidcraft",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "heat": 0.882,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 8229.0
+   },
+   "extra": {
+    "language": "Rust",
+    "age_days": 13
+   },
+   "id": "6d6556855d25",
+   "score": 6.91,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The design language that makes your AI harness better at design.",
+   "heat": 0.798,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 593.0,
+    "stars": 83787.0
+   },
+   "extra": {
+    "language": "Rust"
+   },
+   "id": "fa50ebc2e996",
+   "score": 6.79,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+   "url": "https://arxiv.org/abs/2610.26802",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-19T00:00:00Z",
+   "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very large pretrained backbones for brain encoding with a small number of trainable parameters. To make it computationally practical, we exploit the backbone's causal structure to predict multiple timepoints in a single pass instead of using sliding windows, significantly reducing feature-extraction cost. This enables efficient fine-tuning of multimodal backbones with up to 104B parameters, the largest model adapted for brain encoding to our knowledge. Trained with a low-rank adapter (LoRA) and a lightweight readout, our approach consistently improves brain encoding performance across nine diverse multimodal backbones. On the same Qwen3-Omni backbone as the prior state-of-the-art (SoTA), our method BrainLoRA achieves the best published performance on the Algonauts 2025 Challenge. We also show the adapted multimodal backbones remain interpretable: modality attribution recovers the canonical sensory topography that prior work often obtains by construction from separate unimodal encoders, and neural adaptation increases the contribution of audio inputs and cross-modal mixing within the backbon…",
+   "heat": 0.954,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 231.0
+   },
+   "extra": {},
+   "id": "5d4f97485b26",
+   "score": 7.59,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+   "url": "https://arxiv.org/abs/2610.24087",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-16T18:13:25Z",
+   "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-License, an end-to-end benchmark of 31 instances across 10 industrial scenarios from paid OR engagements totaling USD 3.68 million. It preserves original requirements, input data, deliverable formats, and information boundaries after de-identification. To study information acquisition, we introduce ORSim, a controlled client simulator that discloses business facts without supplying OR expertise. Hidden evaluation checks feasibility and compares objective quality against original expert solutions accepted by clients before benchmark construction. Deployment-Adjusted Quality (DAQ) averages expert-relative quality across instances, assigning zero to infeasible deliveries. Across 11 frontier LLMs using coding-agent harnesses, several exceed the expert reference in conditional objective quality, but none matches its DAQ; the strongest primary Claude Code configuration achieves 88.39% strict feasibility and a DAQ of 0.87 against the expert reference of 1. Client information acquisition extends beyond clarification into solution development and validation, with some later stages showing hig…",
+   "heat": 0.879,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 150.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/NineAbyss/OR-License"
+     ]
+    ]
+   },
+   "id": "7894b47854cf",
+   "score": 7.27,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+   "url": "https://arxiv.org/abs/2610.21046",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate what a paper says. We introduce ReviewFact, a benchmark that labels such factual errors in review comments under one definition across NLP, machine learning, and the natural sciences, and that measures cost and latency alongside accuracy. A frontier LLM checks comments well but must read the whole paper for each check, while cheap decision models, which score whether a statement holds in a text, fall far short on whole comments that mix several implicit assertions. PremiseCheck is a framework that combines the two. An LLM rewrites each comment as explicit premises without reading the paper, and a decision model checks each premise against the paper. When each comment is checked on its own, PremiseCheck reaches accuracy comparable to GPT-5.5 across all three fields at about half its cost, and on NLP reviews at a quarter of its cost and less than half its latency.",
+   "heat": 0.989,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 282.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/OpenLAIR/PremiseCheck"
+     ]
+    ]
+   },
+   "id": "375d6fc6945d",
+   "score": 7.0,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+   "url": "https://arxiv.org/abs/2610.20951",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-14T00:00:00Z",
+   "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every extra step in decoded tokens. We present LEV, a decision model that thinks deeper by rerunning its layers in a loop instead of generating tokens. LEV builds on a language model pretrained as a loop, reads the options after every loop step and trains all steps jointly, so one checkpoint can answer at any depth. On three looped backbones, accuracy rises with depth on the same weights, mostly on hard questions, and a 2.6B LEV goes from 63.2% at depth one to 76.2% at depth four on JevBench. On-demand depth, set per question by a small stopper with a threshold fitted on unlabelled requests, saves 15% to 24% of the computation at a cost of under one accuracy point, level with or slightly above a fixed mix of depths. On a locked test set, the 1.4B and 3B models are 5.4 to 8.8 points more accurate than dense (non-looped) models and cascades of the same latency below 50 ms.",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 407.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/OpenLAIR/lev"
+     ]
+    ]
+   },
+   "id": "be5772f51e68",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Kronecker Delta Rule for Long Context Linear Attention",
+   "url": "https://arxiv.org/abs/2610.26834",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-19T17:56:52Z",
+   "summary": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously stored information compared with delta-rule updates, making it particularly well suited for long-context language modeling. The resulting memory dynamics can be mathematically described as a Markov chain that converges to a steady-state distribution, while the expected norm of the memory matrix remains uniformly bounded throughout the entire input sequence. Hence, KronLSTM ensures stable memory dynamics without requiring additional normalization and stabilization mechanisms for the memory state. Experiments show that KronLSTM is competitive with, and often outperforms, existing linear attention architectures, including models of the (Gated) DeltaNet family, with particularly strong performance on long context benchmarks. These results establish the Kronecker Delta Rule as an effective and analytically tractable foundation for stable associative memory in recurrent linear attention architectures. Our code (https://github.com/NX-AI/KronLSTM) and models (https://huggingface.co/collections/NX-AI/kronlstm) are open-source.",
+   "heat": 0.59,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 28.0
+   },
+   "extra": {},
+   "id": "a4d2e2f28a47",
+   "score": 6.68,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-21",
+  "start": "2026-10-21",
+  "end": "2026-10-21",
+  "generated_at": "2026-10-20T22:17:35Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 21,
+  "club_period": {
+   "start": "2026-10-20",
+   "end": "2026-10-20"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 9 个 PR、提交 10 次",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 11 个、合并 9 个，提交 10 次，新增代码 2520 行、删除 405 行，5 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "hust-mail-cli 合并 6 个 PR",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "Agent SIG的 hust-mail-cli 仓库新增 PR 7 个、合并 6 个、提交 6 次、新增代码 2516 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mail-cli",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "Open-Source-Dashboard 合并 1 个 PR",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "数字基础设施维护 SIG的 Open-Source-Dashboard 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 2 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/Open-Source-Dashboard",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "Deepseek open-sources the inference engine that powers its fastest and cheapest…",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cu…",
+    "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+    "via": "The Decoder",
+    "id": "bccded0efdda",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Voxtral 3",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, dee…",
+    "url": "https://mistral.ai/news/voxtral-3/",
+    "via": "Mistral AI",
+    "id": "e267c7cec9c0",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "DeepInfer: High-performance inference framework for DeepSeek models",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models。",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "via": "Hacker News",
+    "id": "1b6d7a539816",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI acquires Orchestra Bio",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelera…",
+    "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "via": "OpenAI",
+    "id": "d62552bab33a",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "Introducing vLLM TorchTPU",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "vllm-torchtpu is a new vLLM backend for Google Cloud TPUs built on TorchTPU, with Pallas kernels, multi-host parallelis…",
+    "url": "https://vllm.ai/blog/2026-10-20-vllm-torchtpu",
+    "via": "vLLM 博客",
+    "id": "20db474702b6",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "simbasjungles/free-my-tv",
+    "when": "10月21日消息",
+    "date": "2026-10-21",
+    "body": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+    "url": "https://github.com/simbasjungles/free-my-tv",
+    "via": "GitHub 新项目",
+    "id": "34611a188ca6",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "cloudflare/security-audit-skill",
+    "when": "10月21日消息",
+    "date": "2026-10-21",
+    "body": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings。",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "via": "GitHub Trending",
+    "id": "57e1609901b3",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "DietrichGebert/ponytail",
+    "when": "10月21日消息",
+    "date": "2026-10-21",
+    "body": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "via": "GitHub Trending",
+    "id": "fbf3b1d6655d",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from froz…",
+    "url": "https://arxiv.org/abs/2610.26802",
+    "via": "Hugging Face 热门论文",
+    "id": "5d4f97485b26",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitione…",
+    "when": "10月21日消息",
+    "date": "2026-10-21",
+    "body": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original cl…",
+    "url": "https://arxiv.org/abs/2610.24087",
+    "via": "arXiv · 智能体",
+    "id": "7894b47854cf",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+    "when": "10月21日消息",
+    "date": "2026-10-21",
+    "body": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate wh…",
+    "url": "https://arxiv.org/abs/2610.21046",
+    "via": "Hugging Face 热门论文",
+    "id": "375d6fc6945d",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
