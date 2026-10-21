@@ -1,0 +1,1387 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-21T22:20:21Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 470,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 69,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 5.7
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": false,
+   "count": 0,
+   "error": "HttpError: ConnectionError: HTTPSConnectionPool(host='www.solidot.org', port=443): Max retries exceeded with url: /index.rss (Caused by NewConnectionError(\"HTTPSConnection(host='www.solidot.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))：https://www.solidot.…",
+   "seconds": 7.1
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 46,
+   "error": "",
+   "seconds": 9.1
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 309,
+   "error": "",
+   "seconds": 22.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 19.8
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 32,
+   "error": "",
+   "seconds": 23.9
+  }
+ ],
+ "items": [
+  {
+   "title": "Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-21T19:20:55Z",
+   "summary": "",
+   "heat": 0.925,
+   "weight": 0.6,
+   "metrics": {
+    "points": 314.0,
+    "comments": 91.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50186129",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models. Today, we’re launching a public preview of Mistral Large 4. Unofficially ML4, very officially: le Chonk . ML4 pushes the frontier of open-weight performance. You can try the preview API today on Mistral Studio . Weights drop end of this month. ML4 is a 1 trillion-parameter natively multimodal model with 52 billion active parameters. It is our largest and most capable model to date, and it continues to improve rapidly as we refine it. The model demonstrates exceptional performance across coding, agentic workflows, and multimodal understanding. It already achieves performance competitive with the strongest open-source models globally, while si…",
+    "llm_done": true
+   },
+   "id": "757fc97eba33",
+   "score": 8.74,
+   "title_zh": "Mistral Large 4：企业级最强开源模型",
+   "summary_zh": "Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。",
+   "tags": [
+    "模型发布",
+    "开源",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
+   "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+   "source": "rss",
+   "section": "news",
+   "via": "Microsoft Research",
+   "published": "2026-10-21T16:00:00Z",
+   "summary": "For decades, a fundamental question about the difficulty of computing in high-dimensional spaces has resisted proof. New research resolves this question, removing a major theoretical obstacle to understanding the efficiency of randomized algorithms used across science and computing. The Kannan–Lovász–Simonovits (KLS) conjecture was proposed in 1995. It asks whether, for a broad class of high-dimensional […] The post Solving a 31-year-old grand challenge in mathematics – the KLS conjecture appea…",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "f8bcaa381bb4",
+   "score": 8.37,
+   "title_zh": "解决KLS猜想：高维计算难题",
+   "summary_zh": "微软研究院解决Kannan–Lovász–Simonovits猜想，消除随机算法效率理解的理论障碍。",
+   "tags": [
+    "数学",
+    "算法",
+    "研究"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+   "url": "https://www.wiz.io/blog/php2shell-php-rce",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-21T13:43:19Z",
+   "summary": "",
+   "heat": 0.974,
+   "weight": 0.6,
+   "metrics": {
+    "points": 425.0,
+    "comments": 167.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50180836",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Core PHP engine flaws enable remote code execution and Heartbleed-style memory disclosure across the web. Wiz Research uncovered multiple critical vulnerabilities in core PHP, a popular general-purpose scripting language that powers 70% of all websites in the world. Successful exploitation could allow attackers to take control of affected servers, steal sensitive data, and deface the websites running on them. PHP is a backbone of the web: it’s the programming language powering WordPress, Joomla, Drupal, Wikipedia’s MediaWiki, and many others. These vulnerabilities include memory disclosure and unauthenticated remote code execution in PHP itself, independent of the application running on top of it , putting every affected website in immediate risk. Every PHP version released in the last de…",
+    "llm_done": true
+   },
+   "id": "468a238af596",
+   "score": 8.17,
+   "title_zh": "PHP2Shell：AI 发现 PHP 核心漏洞",
+   "summary_zh": "Wiz 研究发现 PHP 核心引擎存在远程代码执行等严重漏洞。",
+   "tags": [
+    "安全",
+    "漏洞",
+    "AI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude Duet",
+   "url": "https://claude.com/product/claude-duet",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-21T19:14:01Z",
+   "summary": "",
+   "heat": 0.878,
+   "weight": 0.6,
+   "metrics": {
+    "points": 233.0,
+    "comments": 203.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50186037",
+    "excerpt_tried": true,
+    "evidence": "Claude Duet is a personal AI agent you message. It handles your inbox, calendar and follow-ups and messages you when something needs you. Join the waitlist. Claude Duet is a proactive agent that understands what needs your attention. It takes on tasks of all sizes, keeps working while you’re away, and waits for your ok when it matters. Powered by Opus 5.5. Available in Pro and Max plans in the US. Claude Duet briefs you every morning, drafts next steps, then goes quiet until something needs you. Send a message and it sets up a meeting or builds a dashboard, then shares when it’s done. Your memory, skills, and apps from the Claude app are there from the first message, all in one thread. Hiring : Jenn’s other offer expires at 6 p.m. All 3 finalists are booked for today. Invites are ready. N…",
+    "llm_done": true
+   },
+   "id": "b6b7083a4edc",
+   "score": 8.1,
+   "title_zh": "Claude Duet：个人 AI 助理",
+   "summary_zh": "Claude Duet 是基于 Opus 5.5 的个人 AI 代理，主动管理日程和任务。",
+   "tags": [
+    "智能体",
+    "个人助理",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+   "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-10-21T16:23:53Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Angelica Willis, Research Engineer, Google Research, and Nichole Young-Lin, Clinical Lead, Google for Health A prospective multi-center study demonstrates how AI-based blind sweep ultrasound assessment can enable non-sonographer operators with low-cost probes to deliver expert-level gestational age assessments, marking a significant step toward expanding life-saving maternal care globally. The World Health Organization (WHO) estimates that more than 250,000 preventable deaths occur worldwide each year due to pregnancy-related complications. While prenatal ultrasound can improve outcomes and reduce fetal and maternal mortality, two-thirds of people globally lack access to diagnostic medical imaging like ultrasound. Current methods that support maternal health rely heavily on specialized cl…",
+    "llm_done": true
+   },
+   "id": "9d7b7c237ffd",
+   "score": 7.93,
+   "title_zh": "AI辅助超声赋能基层产科",
+   "summary_zh": "Google研究显示AI盲扫超声可让非超声技师低成本评估孕周，助力全球产科。",
+   "tags": [
+    "医疗",
+    "AI辅助",
+    "超声"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-21T14:03:43Z",
+   "summary": "",
+   "heat": 0.861,
+   "weight": 0.6,
+   "metrics": {
+    "points": 210.0,
+    "comments": 136.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50181175",
+    "excerpt_tried": true,
+    "evidence": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source. Over the past two months, we led a coalition of maintainers, researchers, and security providers to address critical vulnerabilities in PHP, an open-source programming language used to run websites and web applications. Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet (opens in a new window) initiative, with Wiz also independently discovering and reporting both vulnerabilities. PHP’s maintainers led the fixes and release, with our teams and partners like Wiz, Cloudflare, and others contributing research, technical support, and coordination to prepare protections ahead of disclosure. For organizations using PHP,…",
+    "llm_done": true
+   },
+   "id": "10ac5adb185c",
+   "score": 7.88,
+   "title_zh": "Patch the Planet：AI 协助全球漏洞响应",
+   "summary_zh": "AI 协助安全研究人员修复 PHP 等开源项目的关键漏洞。",
+   "tags": [
+    "安全",
+    "开源",
+    "AI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+   "url": "https://www.qbitai.com/2026/10/504734.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-21T11:30:59Z",
+   "summary": "医疗AI质变时刻",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "医疗AI质变时刻 哪里不舒服、持续了多久，还包括既往病史，这些零零碎碎的信息，都在预问诊阶段准备妥帖。 走进去更科幻更未来的是，这里的每个医生都能拥有辅助自己工作的专属AI分身，但这还远远不够。 围绕这个问题，紫荆智康此次带来了医学领域的 多分身智能体协同技术 （Multidisciplinary Human-Agent Collaboration），并进一步升级“紫荆AI医院”（Agent Hospital）。 AI医院里，AI医生与人类医生通力合作…… 一个连接真实诊疗、能够持续进化的虚拟医疗世界 ，正逐渐成形。 先挂内科，查不出所以然转外科，外科看完再约影像科，几个科室的号都挂遍了，才轮得上发起一次正式的 多学科会诊 （MDT）。 紫荆智康的思路比较直接，既然让患者去找专家不太现实，那不如 先让专家分身集体到位 。 反之如果是那些跨学科的复杂问题，紫荆智康则干脆给这些分身搭了个 多学科协作会议 。 当具备不同专长的Agent分身依次加入分析，单一医生能获得的专业视角直接被大幅度拓宽。 举个例子，现在有位因甲亢进入内分泌科的患者，在问诊过程中，系统同步收集到患者还兼有哮喘病史的信息。 这就是多分身智能体协同的基本逻辑，它能够 把跨专科支持前置 到首诊、预问诊这些更早的环节。 换句话说，患者走进这间诊室时，就有一整个医生团队在打辅助，那些疑难重症专属的多学科支持就有可能成为日常诊疗的标配。 医生还是照常进行门诊，随着患者不断提供新信息，系统识别其它专科参与的需要，再把相关分身的意见以提醒方式呈现给医生。 对于已经明确需要多个专科共同分析的病例，多个分身直接参与其中，并在界面上围绕诊断、用药等环节呈现对应建议。 系统会分别呈现不同分身的建议， 对不一致之处高亮提醒 。医生能够看到意见来自哪个分身，再结合患者情况、相关依据及自己的经验，完成最终判断。 对比其它医疗Agent…",
+    "llm_done": true
+   },
+   "id": "16b4325b3964",
+   "score": 7.84,
+   "title_zh": "多智能体协同重构医疗AI",
+   "summary_zh": "清华AIR孵化紫荆智康，推出多分身智能体协同技术，让AI医生分身与人类医生协作。",
+   "tags": [
+    "医疗",
+    "智能体",
+    "协同"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+   "url": "https://www.qbitai.com/2026/10/504653.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-21T07:15:05Z",
+   "summary": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用。 Yann LeCun持续押注预测式世界模型，李飞飞带领World Labs探索可交互的3D世界，全球头部AI团队正沿着不同技术路线加速探索。 10月20日， 首届2026物理AI与世界模型大会 在南京开幕。图灵奖得主 LeCun、姚期智 都远程分享了最新观察。 在这场世界模型领域的学术与产业盛会上，清华系具身智能公司 千诀科技 ，也在大会上正式发布了 预测式世界模型Polibrain 。 而千诀此次发布的Polibrain，想做的就是让机器人拥有这样一张可以用于预测和规划的「地图」。 早在2025年，千诀联合清华大学团队就在ICML发表了世界模型相关理论研究，其在隐变量可辨识性、低阶偏好等方向上的公开探索， 比LeCun团队的相近研究早了约一年。 从环境感知、行动预测，到自主规划和执行反馈，千诀试图让机器人学会根据物理世界的变化，自主决定下一步怎么做。 千诀的预测式世界模型Polibrain，究竟有什么特别之处？他们又是如何让不同形态的机器人，共用一套智能大脑的？ 随后，他讲了一个「古代商人从广州运送荔枝到长安，怎样才能找到最快的路线？」的故事。 另一种方法，则是先弄清广州到长安沿途有哪些城市、城市之间如何连接，画出一张地图，再根据地图规划路线。 它需要自主寻找地面上的垃圾，识别目标位置，移动过去，再规划机械臂动作，将垃圾抓起来，放进随身携带的回收筐。 看起来只是一套捡垃圾的动作，背后却有一连串决策难题： 垃圾在哪里？机器狗应该从哪个方向靠近？机械臂伸出去之后，能不能顺利抓住目标？ 尤其是在真实环境中，物体的位置、空间关系都可能发生变化。机器人光知道下一步做什么还不够，还得提前判断，这一步做下去会发生什么。 Polibrain通过学习环境状态、历史信息和…",
+    "llm_done": true
+   },
+   "id": "794f54450f8e",
+   "score": 7.8,
+   "title_zh": "清华系公司发布预测式世界模型",
+   "summary_zh": "千诀科技发布Polibrain预测式世界模型，让机器人拥有用于预测和规划的地图。",
+   "tags": [
+    "机器人",
+    "世界模型",
+    "具身智能"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Day-0 Support for Flint on vLLM",
+   "url": "https://vllm.ai/blog/2026-10-21-flint",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-21T00:00:00Z",
+   "summary": "vLLM supports both Flint checkpoints (40B total, 2.5B active) from day 0, decoding a single request at about 500 tokens/s on one GPU.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "23c83ec8ff42",
+   "score": 7.62,
+   "title_zh": "",
+   "summary_zh": "vLLM支持Flint模型，单GPU解码速度约500 tokens/s。",
+   "tags": [
+    "开源",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/anthropic-sdk-python v2.0.0",
+   "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-21T15:51:32Z",
+   "summary": "主版本更新",
+   "heat": 0.9,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "### ⚠ BREAKING CHANGES * **api:** add support for new API version 2026-10-21 ### Features * **api:** add a workspace_id filter and the usage_tier scope type to list spend limits * **api:** add support for new API version 2026-10-21 ### Documentation * **api:** remove outdated system role note from messages description",
+    "level": "major",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1ccdfcc525ca",
+   "score": 7.57,
+   "title_zh": "",
+   "summary_zh": "Anthropic发布Python SDK v2.0.0，支持新API版本。",
+   "tags": [
+    "开源",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+   "heat": 0.76,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 439.0,
+    "stars": 94829.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "da08aec90375",
+   "score": 6.84,
+   "title_zh": "",
+   "summary_zh": "vLLM 是一个高吞吐量、内存高效的 LLM 推理引擎。",
+   "tags": [
+    "推理加速",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "QingYunA/answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+   "heat": 0.738,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 4173.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 19,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "423e0de39d56",
+   "score": 6.68,
+   "title_zh": "",
+   "summary_zh": "让 AI Agent 用一页 HTML 回答复杂问题。",
+   "tags": [
+    "智能体",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenMOSS-Team/MOSS-Image-SFT",
+   "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "文生图模型，许可证 apache-2.0",
+   "heat": 0.774,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 529.0,
+    "downloads": 5840.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/OpenMOSS-Team/MOSS-Image-SFT"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "4292dac6ef39",
+   "score": 6.37,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型",
+    "图像"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "tashfeenahmed/freellmapi",
+   "url": "https://github.com/tashfeenahmed/freellmapi",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+   "heat": 0.815,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 684.0,
+    "stars": 38925.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "e7c6f3e01227",
+   "score": 6.35,
+   "title_zh": "",
+   "summary_zh": "Freellmapi 提供一个统一接口访问 34 个免费 LLM 提供商。",
+   "tags": [
+    "工具",
+    "免费",
+    "API"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenHands/OpenHands v1.29.0",
+   "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.29.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-20T22:22:52Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## 1.29.0 (2026-10-20) ## What's Changed ### Features * feat(backends): show full organization names in the backend selector by @ak684 in https://github.com/OpenHands/OpenHands/pull/18667 * feat(launchers): read public skills from the bundled extensions package by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18683 * feat(agent-profiles): choose skills per profile from the server catalog by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18686 * feat(agent-profiles): edit condenser and verification per profile by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18679 * feat(agent-profiles): choose a Model Router per profile by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18685 * feat(home): dismiss recommended automations rail from Home and Application settings by @lx3133584 in https://github.com/OpenHands/OpenHands/pull/18538 * feat(agent-profiles): launch `default` by id; profiles own their settings by @simonrosenberg in https://github.com/OpenHands/OpenHands/pull/18720 ### Bug Fixes * fix(conversations): save a connected repository on the cloud conversation by @henriquehirako in https://github.com/OpenHands/OpenHands/pull/18158 * fix(chat): show git chip icons in light themes by @enyst in https://github.com/OpenHands/OpenHands/pull/18660 * fix(chat): catch up with the model within a second instead of ten by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/18651 * fix(onboarding): skip the first-run…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "140d08f3e765",
+   "score": 6.31,
+   "title_zh": "",
+   "summary_zh": "OpenHands v1.29.0发布，新增后端选择器、技能管理等功能。",
+   "tags": [
+    "开源",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "dominikmartn/harp",
+   "url": "https://github.com/dominikmartn/harp",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
+   "heat": 0.857,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 528.0
+   },
+   "extra": {
+    "language": "Rust",
+    "age_days": 1,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "284980ec0b6f",
+   "score": 6.31,
+   "title_zh": "",
+   "summary_zh": "HarP 在侧边栏中并行运行多个 Claude Code 和 Codex 代理。",
+   "tags": [
+    "工具",
+    "智能体",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
+   "url": "https://arxiv.org/abs/2610.28354",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-20T15:20:00Z",
+   "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arrive at the correct answer: the gap between model and tools, where raw readings become usable conclusions, is left unfilled. We present S-Agent 2.0, a spatial reasoning agent that equips an off-the-shelf general coding agent with a command-line perception toolkit, and we design the interface around one principle: help the VLM close the evidence loop: acquire scene evidence, remember it in a persistent scene memory, and interpret each reading in plain spatial language. This design keeps the full flexibility of a coding agent, and every reading it acts on stays grounded in the tools' geometry. On MMSI-Bench and ReVSI, the toolkit improves a strong open-source model, Qwen3.8-27B, by +13.9 and +20.5 points over the same agent without tools, and a strong closed-source model, Gemini-3.8-Flash, by +11.2 and +9.6 points. With the open backbone S-Agent 2.0 reaches 66.5 on MMSI-Bench and 82.3 on ReVSI, ahead of the specialized system SpatialClaw on the same backbone (62.6 and 74.5), and with Gemini-3.8-Flash it reaches 74.1 and 90.5 against its 67.0 and 79.7. Both tool gains shrink as the backbo…",
+   "heat": 0.792,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 91.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Ropedia/S-Agent-2.0"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7de8564a2044",
+   "score": 7.26,
+   "title_zh": "S-Agent 2.0：利用通用编码代理进行空间推理",
+   "summary_zh": "针对模型无法利用工具返回的证据得出正确结论的问题，S-Agent 2.0 为通用编码代理配备了命令行感知工具包。该方法通过获取场景证据、记忆证据并解释读取结果，显著提升了模型在空间推理任务上的表现。",
+   "tags": [
+    "智能体",
+    "空间推理",
+    "工具使用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+   "url": "https://arxiv.org/abs/2610.26860",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-19T17:59:58Z",
+   "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements obtained through heterogeneous tools, whose outputs must be made interpretable to the model and retained across reasoning steps. We introduce OpenVLHarness, a multimodal reasoning harness organized around a capability layer and persistent multimodal memory. The capability layer combines task-level tool interfaces with evidence rendering, providing consistent access to heterogeneous backends and converting their outputs into model-readable observations. Persistent multimodal memory retains the corresponding images, structured data, and web references as addressable artifacts throughout each query. A coding interface executes generated programs over stored data, enabling computations that combine results from multiple tools. Together, these mechanisms support an iterative process of acquiring, inspecting, and composing multimodal evidence. Evaluated on 22 benchmarks with eight open and proprietary backbones, OpenVLHarness improves average scores by 9.7-12.6 points over matched no-tool baselines, including +11.2 with Qwen3-VL-8B, +9.7 with Kimi K3, and +9.9 with GPT-6 Astra. With GPT-6…",
+   "heat": 0.809,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 100.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/uclanlp/OpenVLHarness"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "570fefddb86f",
+   "score": 7.15,
+   "title_zh": "OpenVLHarness：具备多模态记忆的真实世界视觉智能体工具使用",
+   "summary_zh": "针对仅靠内部推理难以获取证据的问题，OpenVLHarness 提出了一个结合任务级工具接口与证据渲染的能力层，并利用持久化多模态记忆来保留图像和结构化数据。该系统通过执行生成的程序来组合多工具结果，在多个基准测试中显著提升了模型性能。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "工具使用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge",
+   "url": "https://arxiv.org/abs/2610.28340",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-20T15:07:19Z",
+   "summary": "Reliable retrieval-augmented generation (RAG) requires recognizing when neither retrieved documents nor parametric knowledge supports an answer. We introduce DeclineCraft, a dynamic abstention benchmark whose unanswerable questions target Minecraft feature additions after a corpus cut-off, with audits of possible parametric exposure. Later cut-offs support evaluation of future models. Across 27 LLMs, we measure Correct Abstention Rate (CAR; how often models acknowledge insufficient knowledge on unanswerable questions), Answerable Attempt Rate and Answer Accuracy. We find that (1) single-shot retrieval significantly raises CAR in 38 of 40 configurations (model and thinking setting) versus no retrieval. (2) Iterative RAG, in which the model self-assesses its context and can request up to two further retrieval rounds, significantly lowers CAR versus single-shot RAG in 30 of 40 configurations (mean 46.4%), with little change in Answer Accuracy (68.5% to 69.3%). Adding query rewriting and reranking to hybrid (dense & sparse) retrieval lowers CAR for all 12 models tested. (3) Larger models answer more accurately (Spearman $ρ= +0.60$ with total parameters), but neither model size nor release date shows a significant association with CAR. (4) Without retrieval, enabling thinking on the same weights lowers CAR significantly for 8 of 13 models (by 14% points on average), and the responses shift from acknowledged uncertainty to premise denial.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ffd1ce0eaada",
+   "score": 6.27,
+   "title_zh": "DeclineCraft：联合评估检索与参数知识的 RAG 拒绝基准",
+   "summary_zh": "为了评估检索增强生成（RAG）模型在无法回答问题时的拒绝能力，DeclineCraft 构建了一个包含 Minecraft 功能更新的动态基准。实验发现，单次检索能显著提高正确拒绝率，而迭代 RAG 和混合检索策略则可能降低该指标。",
+   "tags": [
+    "RAG",
+    "评测",
+    "拒绝回答"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+   "url": "https://arxiv.org/abs/2610.28355",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-20T15:20:26Z",
+   "summary": "In speculative decoding, a lightweight draft model proposes tokens that the target model verifies in parallel, speeding up generation without changing the target distribution. D-PACE (Wu et al., 2026) trains such drafters with a loss that weights each position by its contribution to the expected accepted length. Both its weights and its cross-entropy (CE) loss use only the draft's probability of the recorded target token, treating the target as a point mass. Under rejection sampling, however, a sampled draft token is accepted with probability equal to the overlap of the draft and target distributions, one minus their total variation (TV). We derive D-PAL (Dynamic Position-wise Acceptance Loss) from the exact expected accepted length, using this overlap as the acceptance signal. This yields overlap-based position weights with log acceptance (LA) as the per-position loss, and the objective reduces to D-PACE for a point-mass target. Since the weights are detached, any per-position loss can replace LA in practice. We show that forward KL divergence and Rényi divergence of order 1/2 match or exceed LA, and that Rényi-1/2 provably bounds the true acceptance rate from above and below. Replacing CE with Rényi-1/2 improves acceptance length under both D-PACE's weights and ours. On six benchmarks with a Qwen3-4B target, D-PAL raises mean acceptance length over D-PACE from 4.50 to 4.57 at T=0 and from 4.20 to 4.28 at T=1, and consistently achieves higher throughput at both temperatures.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "8f951aebfaca",
+   "score": 6.27,
+   "title_zh": "超越点质量：基于接受度的权重与分布损失用于推测解码",
+   "summary_zh": "针对推测解码中目标模型被视为点质量的问题，D-PAL 方法利用重叠概率作为接受信号来计算动态位置权重。实验表明，使用 Rényi-1/2 散度替代交叉熵损失，能在多个基准测试中提高接受长度并保持更高的吞吐量。",
+   "tags": [
+    "高效推理",
+    "推测解码",
+    "损失函数"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "KEEP-Bench: Evaluating Evidence Preservation in Context Compression",
+   "url": "https://arxiv.org/abs/2610.26827",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-19T17:55:18Z",
+   "summary": "Context compression improves long-context efficiency but may introduce faithfulness issues through an information bottleneck. Existing evaluations rely on QA metrics, but a reader can still answer correctly from an unfaithful compression, so these metrics underestimate such loss. To bridge this gap, we introduce KEEP-Bench, a diagnostic benchmark that directly assesses compression faithfulness with 4,102 cases across three challenging settings that require keeping evidence for plausible reference resolutions, explicit qualifiers, and minority perspectives. Experiments show that even with tailored prompting, the strongest models remain unreliable: despite context windows exceeding 100K tokens and inputs averaging only 3.1K tokens, the best open-weight model (31B) preserves all required evidence in only 66.8% of cases, and the best proprietary model in only 61.6%. Performance also varies sharply across evidence structures, so conclusions from limited structures may be biased. We further introduce a metric, Evidence Preservation Return (EPR), to relate evidence recall to inference FLOPs, and find that it peaks at moderate scales (4B-8B), where recall remains low. Additional output budget mainly benefits already strong models and widens capability gaps, yet the stronger preservation of these models comes at a steep computational cost. These findings highlight the importance for future work to investigate compressors with strong information preservation under a small computation…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "597268470e3e",
+   "score": 6.14,
+   "title_zh": "KEEP-Bench：评估上下文压缩中的证据保留",
+   "summary_zh": "为了解决现有评估指标低估压缩不忠实的问题，KEEP-Bench 提供了一个直接评估压缩忠实度的基准。实验显示，即使上下文窗口超过 100K tokens，最强模型在 66.8% 的案例中仍无法保留所有必要证据，且输出预算的增加主要有利于已强大的模型。",
+   "tags": [
+    "长上下文",
+    "评测",
+    "压缩"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-22",
+  "start": "2026-10-22",
+  "end": "2026-10-22",
+  "generated_at": "2026-10-21T22:20:21Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "e8671762",
+  "tries": 1,
+  "pending": 2,
+  "club_period": {
+   "start": "2026-10-21",
+   "end": "2026-10-21"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "domestic",
+    "headline": "清华AIR孵化紫荆智康",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "清华AIR孵化紫荆智康推出多分身智能体协同技术，让AI医生分身与人类医生协作。",
+    "url": "https://www.qbitai.com/2026/10/504734.html",
+    "via": "量子位",
+    "id": "16b4325b3964",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "千诀科技发布Polibrain",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "清华系千诀科技发布预测式世界模型Polibrain，让机器人拥有用于预测和规划的地图。",
+    "url": "https://www.qbitai.com/2026/10/504653.html",
+    "via": "量子位",
+    "id": "794f54450f8e",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Mistral 发布 ML4 模型",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "via": "Hacker News",
+    "id": "757fc97eba33",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google研究展示AI盲扫超声",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "Google研究显示AI盲扫超声可让非超声技师低成本评估孕周，助力全球产科。",
+    "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+    "via": "Google Research",
+    "id": "9d7b7c237ffd",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM支持Flint模型",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "vLLM支持Flint模型，单GPU解码速度约500 tokens/s。",
+    "url": "https://vllm.ai/blog/2026-10-21-flint",
+    "via": "vLLM 博客",
+    "id": "23c83ec8ff42",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Anthropic发布Python SDK 2.0.0",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "Anthropic发布Python SDK v2.0.0，支持新API版本。",
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0",
+    "via": "GitHub 版本发布",
+    "id": "1ccdfcc525ca",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM：高吞吐量推理引擎",
+    "when": "10月22日消息",
+    "date": "2026-10-22",
+    "body": "vLLM 是一个高吞吐量、内存高效的 LLM 推理引擎。",
+    "url": "https://github.com/vllm-project/vllm",
+    "via": "GitHub Trending",
+    "id": "da08aec90375",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "answer-me-with-html：用 HTML 回答问题",
+    "when": "10月22日消息",
+    "date": "2026-10-22",
+    "body": "让 AI Agent 用一页 HTML 回答复杂问题。",
+    "url": "https://github.com/QingYunA/answer-me-with-html",
+    "via": "GitHub 新项目",
+    "id": "423e0de39d56",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "S-Agent 2.0：空间推理",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "S-Agent 2.0 为通用编码代理配备了命令行感知工具包，提升空间推理表现。",
+    "url": "https://arxiv.org/abs/2610.28354",
+    "via": "arXiv · 智能体",
+    "id": "7de8564a2044",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenVLHarness：视觉智能体工具使用",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "OpenVLHarness 结合任务级工具接口与证据渲染，利用持久化多模态记忆提升性能。",
+    "url": "https://arxiv.org/abs/2610.26860",
+    "via": "arXiv · 智能体",
+    "id": "570fefddb86f",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "微软研究院解决KLS猜想",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "微软研究院解决Kannan–Lovász–Simonovits猜想，消除随机算法效率理解的理论障碍。",
+    "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+    "via": "Microsoft Research",
+    "id": "f8bcaa381bb4",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "757fc97eba33": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "Mistral 发布 ML4 模型",
+    "body": "Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。"
+   },
+   "f8bcaa381bb4": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "微软研究院解决KLS猜想",
+    "body": "微软研究院解决Kannan–Lovász–Simonovits猜想，消除随机算法效率理解的理论障碍。"
+   },
+   "468a238af596": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "PHP2Shell：AI 发现 PHP 核心漏洞",
+    "body": "Wiz 研究发现 PHP 核心引擎存在远程代码执行等严重漏洞。"
+   },
+   "b6b7083a4edc": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "Claude Duet：个人 AI 助理",
+    "body": "Claude Duet 是基于 Opus 5.5 的个人 AI 代理，主动管理日程和任务。"
+   },
+   "9d7b7c237ffd": {
+    "v": "e8671762",
+    "cat": "overseas",
+    "headline": "Google研究展示AI盲扫超声",
+    "body": "Google研究显示AI盲扫超声可让非超声技师低成本评估孕周，助力全球产科。"
+   },
+   "10ac5adb185c": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "Patch the Planet：AI 协助全球漏洞响应",
+    "body": "AI 协助安全研究人员修复 PHP 等开源项目的关键漏洞。"
+   },
+   "16b4325b3964": {
+    "v": "e8671762",
+    "cat": "domestic",
+    "headline": "清华AIR孵化紫荆智康",
+    "body": "清华AIR孵化紫荆智康推出多分身智能体协同技术，让AI医生分身与人类医生协作。"
+   },
+   "794f54450f8e": {
+    "v": "e8671762",
+    "cat": "domestic",
+    "headline": "千诀科技发布Polibrain",
+    "body": "清华系千诀科技发布预测式世界模型Polibrain，让机器人拥有用于预测和规划的地图。"
+   },
+   "23c83ec8ff42": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "vLLM支持Flint模型",
+    "body": "vLLM支持Flint模型，单GPU解码速度约500 tokens/s。"
+   },
+   "1ccdfcc525ca": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "Anthropic发布Python SDK 2.0.0",
+    "body": "Anthropic发布Python SDK v2.0.0，支持新API版本。"
+   },
+   "da08aec90375": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "vLLM：高吞吐量推理引擎",
+    "body": "vLLM 是一个高吞吐量、内存高效的 LLM 推理引擎。"
+   },
+   "423e0de39d56": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "answer-me-with-html：用 HTML 回答问题",
+    "body": "让 AI Agent 用一页 HTML 回答复杂问题。"
+   },
+   "4292dac6ef39": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "MOSS-Image-SFT：文生图模型",
+    "body": "文生图模型，许可证 apache-2.0。"
+   },
+   "e7c6f3e01227": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "Freellmapi：统一免费 LLM 接口",
+    "body": "Freellmapi 提供一个统一接口访问 34 个免费 LLM 提供商。"
+   },
+   "140d08f3e765": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "OpenHands发布1.29.0版本",
+    "body": "OpenHands v1.29.0发布，新增后端选择器、技能管理等功能。"
+   },
+   "284980ec0b6f": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "HarP：并行运行 Claude Code 代理",
+    "body": "HarP 在侧边栏中并行运行多个 Claude Code 和 Codex 代理。"
+   },
+   "7de8564a2044": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "S-Agent 2.0：空间推理",
+    "body": "S-Agent 2.0 为通用编码代理配备了命令行感知工具包，提升空间推理表现。"
+   },
+   "570fefddb86f": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "OpenVLHarness：视觉智能体工具使用",
+    "body": "OpenVLHarness 结合任务级工具接口与证据渲染，利用持久化多模态记忆提升性能。"
+   },
+   "ffd1ce0eaada": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "DeclineCraft：RAG 拒绝基准",
+    "body": "DeclineCraft 构建了包含 Minecraft 功能更新的动态基准，评估 RAG 模型的拒绝能力。"
+   },
+   "d4427b964ae2": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "afdff0f2e832": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "88b6ad88e47a": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   }
+  }
+ }
+}

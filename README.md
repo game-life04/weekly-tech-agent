@@ -8,60 +8,48 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.21（周三）
+## 每日快讯 · 10.22（周四）
 
-> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-21-kuaixun.md) · [长图](daily/2026/2026-10-21-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-21-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-21.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **11** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-22-kuaixun.md) · [长图](daily/2026/2026-10-22-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-22-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-22.md) · [往期日报](daily/README.md)
 
 ### 今日快讯
 
-#### 俱乐部动态
-
-**开放原子开源俱乐部合并 9 个 PR、提交 10 次**<br>10月20日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 11 个、合并 9 个，提交 10 次，新增代码 2520 行、删除 405 行，5 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
-
-**hust-mail-cli 合并 6 个 PR**<br>10月20日，Agent SIG的 hust-mail-cli 仓库新增 PR 7 个、合并 6 个、提交 6 次、新增代码 2516 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
-
-**Open-Source-Dashboard 合并 1 个 PR**<br>10月20日，数字基础设施维护 SIG的 Open-Source-Dashboard 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 2 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/Open-Source-Dashboard)）</sub>
-
 #### 国内动态
 
-**Deepseek 开源 DeepInfer 推理框架**<br>10月21日，Deepseek 开源 DeepInfer 推理框架，旨在降低算力成本和能耗。<br><sub>（来源：[The Decoder](https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/)）</sub>
+**清华AIR孵化紫荆智康**<br>10月21日，清华AIR孵化紫荆智康推出多分身智能体协同技术，让AI医生分身与人类医生协作。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/10/504734.html)）</sub>
+
+**千诀科技发布Polibrain**<br>10月21日，清华系千诀科技发布预测式世界模型Polibrain，让机器人拥有用于预测和规划的地图。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/10/504653.html)）</sub>
 
 #### 海外动态
 
-**Voxtral 3：语音智能体 SDK**<br>10月20日，Mistral 发布 Voxtral 3，支持 50 多种语言的实时语音、情感语音合成和深度工具调用。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/voxtral-3/)）</sub>
+**Mistral 发布 ML4 模型**<br>10月22日，Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。<br><sub>（来源：[Hacker News](https://mistral.ai/news/mistral-large-4/)）</sub>
 
-**DeepInfer：DeepSeek 模型高性能推理框架**<br>10月20日，DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。<br><sub>（来源：[Hacker News](https://github.com/deepseek-ai/DeepInfer)）</sub>
-
-**WhatsApp 隐藏的 LLM 指令被曝光**<br>10月20日，WhatsApp 的帮助页面曾隐藏指令，禁止 AI 推荐监管机构或引用相关法律。<br><sub>（来源：[Hacker News](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions)）</sub>
-
-**制造假数据也能被 LLM 引用**<br>10月20日，作者制造了 50,000 个假统计数据，这些数据被 ChatGPT 等模型引用。<br><sub>（来源：[Hacker News](https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web)）</sub>
-
-**OpenAI 收购 Orchestra Bio**<br>10月20日，OpenAI 收购 Orchestra Bio，旨在将 AI 驱动的运营引入生命科学研发，加速药物开发。<br><sub>（来源：[OpenAI](https://openai.com/index/openai-to-acquire-orchestra-bio)）</sub>
+**Google研究展示AI盲扫超声**<br>10月22日，Google研究显示AI盲扫超声可让非超声技师低成本评估孕周，助力全球产科。<br><sub>（来源：[Google Research](https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/)）</sub>
 
 #### 开源项目
 
-**Introducing vLLM TorchTPU**<br>10月20日，vLLM 推出基于 TorchTPU 的新后端，支持 Google Cloud TPU，具备多主机并行和 KV 缓存卸载功能。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-20-vllm-torchtpu)）</sub>
+**vLLM支持Flint模型**<br>10月21日，vLLM支持Flint模型，单GPU解码速度约500 tokens/s。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-21-flint)）</sub>
 
-**simbasjungles/free-my-tv**<br>10月21日消息，一个快速、无广告的 Google TV 主屏幕，使用 Claude Code 构建。<br><sub>（来源：[GitHub 新项目](https://github.com/simbasjungles/free-my-tv)）</sub>
+**Anthropic发布Python SDK 2.0.0**<br>10月21日，Anthropic发布Python SDK v2.0.0，支持新API版本。<br><sub>（来源：[GitHub 版本发布](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0)）</sub>
 
-**cloudflare/security-audit-skill**<br>10月21日消息，用于多阶段安全审计的编码代理技能，可生成独立验证的机器可读结果。<br><sub>（来源：[GitHub Trending](https://github.com/cloudflare/security-audit-skill)）</sub>
+**vLLM：高吞吐量推理引擎**<br>10月22日消息，vLLM 是一个高吞吐量、内存高效的 LLM 推理引擎。<br><sub>（来源：[GitHub Trending](https://github.com/vllm-project/vllm)）</sub>
 
-**DietrichGebert/ponytail**<br>10月21日消息，让 AI 代理像房间里最懒的高级开发者一样思考。<br><sub>（来源：[GitHub Trending](https://github.com/DietrichGebert/ponytail)）</sub>
+**answer-me-with-html：用 HTML 回答问题**<br>10月22日消息，让 AI Agent 用一页 HTML 回答复杂问题。<br><sub>（来源：[GitHub 新项目](https://github.com/QingYunA/answer-me-with-html)）</sub>
 
 #### 学术前沿
 
-**Scaling Parameter-Efficient Fine-Tuning for Brain Encoding**<br>10月19日，针对脑编码任务，论文提出利用参数高效微调技术适配大型多模态模型。通过低秩适配器和轻量级读出头，该方法在多个基准上提升了脑编码性能。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.26802)）</sub>
+**S-Agent 2.0：空间推理**<br>10月20日，S-Agent 2.0 为通用编码代理配备了命令行感知工具包，提升空间推理表现。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.28354)）</sub>
 
-**Claude 设计抗蝎毒蛋白结合剂**<br>10月20日，Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)）</sub>
+**OpenVLHarness：视觉智能体工具使用**<br>10月20日，OpenVLHarness 结合任务级工具接口与证据渲染，利用持久化多模态记忆提升性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.26860)）</sub>
 
-**OR-License：评估LLM智能体**<br>10月21日消息，为评估大语言模型智能体解决现实运筹学问题的能力，论文构建了包含真实商业场景的基准。实验表明，尽管部分模型在特定指标上接近专家水平，但整体可行性仍需提升。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.24087)）</sub>
+**微软研究院解决KLS猜想**<br>10月22日，微软研究院解决Kannan–Lovász–Simonovits猜想，消除随机算法效率理解的理论障碍。<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/)）</sub>
 
 ### 活动预告
 
 **WWW 2027 论文截稿**<br>10月26日，International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。<br><sub>（来源：[会议官网](https://www2027.thewebconf.org/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月20日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-21 14:01（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-22 06:20（北京时间）自动生成。</sub>
 
 ## 每周快讯 · 10.12–10.18
 
