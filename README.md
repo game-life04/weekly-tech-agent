@@ -25,11 +25,11 @@
 
 #### 国内动态
 
-**Deepseek open-sources the inference engine that powers its fastest and cheapest…**<br>10月21日，Deepseek 开源了其 V4.1-Flash 模型背后的推理框架 DeepInfer，旨在降低算力成本和能耗。<br><sub>（来源：[The Decoder](https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/)）</sub>
+**Deepseek 开源 DeepInfer 推理框架**<br>10月21日，Deepseek 开源 DeepInfer 推理框架，旨在降低算力成本和能耗。<br><sub>（来源：[The Decoder](https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/)）</sub>
 
 #### 海外动态
 
-**Voxtral 3：Mistral 的语音智能体 SDK**<br>10月20日，支持 50 多种语言的实时语音，具备准确转录、情感语音合成和深度工具调用能力。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/voxtral-3/)）</sub>
+**Voxtral 3：语音智能体 SDK**<br>10月20日，Mistral 发布 Voxtral 3，支持 50 多种语言的实时语音、情感语音合成和深度工具调用。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/voxtral-3/)）</sub>
 
 **DeepInfer：DeepSeek 模型高性能推理框架**<br>10月20日，DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。<br><sub>（来源：[Hacker News](https://github.com/deepseek-ai/DeepInfer)）</sub>
 
@@ -37,7 +37,7 @@
 
 **制造假数据也能被 LLM 引用**<br>10月20日，作者制造了 50,000 个假统计数据，这些数据被 ChatGPT 等模型引用。<br><sub>（来源：[Hacker News](https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web)）</sub>
 
-**Claude 设计抗蝎毒蛋白结合剂**<br>10月20日，Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)）</sub>
+**OpenAI 收购 Orchestra Bio**<br>10月20日，OpenAI 收购 Orchestra Bio，旨在将 AI 驱动的运营引入生命科学研发，加速药物开发。<br><sub>（来源：[OpenAI](https://openai.com/index/openai-to-acquire-orchestra-bio)）</sub>
 
 #### 开源项目
 
@@ -53,15 +53,15 @@
 
 **Scaling Parameter-Efficient Fine-Tuning for Brain Encoding**<br>10月19日，针对脑编码任务，论文提出利用参数高效微调技术适配大型多模态模型。通过低秩适配器和轻量级读出头，该方法在多个基准上提升了脑编码性能。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.26802)）</sub>
 
-**OR-License：评估LLM智能体**<br>10月21日消息，为评估大语言模型智能体解决现实运筹学问题的能力，论文构建了包含真实商业场景的基准。实验表明，尽管部分模型在特定指标上接近专家水平，但整体可行性仍需提升。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.24087)）</sub>
+**Claude 设计抗蝎毒蛋白结合剂**<br>10月20日，Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)）</sub>
 
-**PremiseCheck：同行评审事实核查**<br>10月21日消息，针对同行评审中可能存在的陈述错误，论文提出结合大模型与决策模型的框架。该方法在保持高准确率的同时，显著降低了检查成本和延迟。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.21046)）</sub>
+**OR-License：评估LLM智能体**<br>10月21日消息，为评估大语言模型智能体解决现实运筹学问题的能力，论文构建了包含真实商业场景的基准。实验表明，尽管部分模型在特定指标上接近专家水平，但整体可行性仍需提升。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.24087)）</sub>
 
 ### 活动预告
 
 **WWW 2027 论文截稿**<br>10月26日，International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。<br><sub>（来源：[会议官网](https://www2027.thewebconf.org/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月20日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-21 08:14（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月20日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-21 14:01（北京时间）自动生成。</sub>
 
 ## 每周快讯 · 10.12–10.18
 

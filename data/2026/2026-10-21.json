@@ -1078,13 +1078,13 @@
   "day": "2026-10-21",
   "start": "2026-10-21",
   "end": "2026-10-21",
-  "generated_at": "2026-10-21T00:14:43Z",
+  "generated_at": "2026-10-21T06:01:24Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "e8671762",
-  "tries": 1,
-  "pending": 21,
+  "tries": 2,
+  "pending": 18,
   "club_period": {
    "start": "2026-10-20",
    "end": "2026-10-20"
@@ -1139,10 +1139,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "Deepseek open-sources the inference engine that powers its fastest and cheapest…",
+    "headline": "Deepseek 开源 DeepInfer 推理框架",
     "when": "10月21日",
     "date": "2026-10-21",
-    "body": "Deepseek 开源了其 V4.1-Flash 模型背后的推理框架 DeepInfer，旨在降低算力成本和能耗。",
+    "body": "Deepseek 开源 DeepInfer 推理框架，旨在降低算力成本和能耗。",
     "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
     "via": "The Decoder",
     "id": "bccded0efdda",
@@ -1150,10 +1150,10 @@
    },
    {
     "cat": "overseas",
-    "headline": "Voxtral 3：Mistral 的语音智能体 SDK",
+    "headline": "Voxtral 3：语音智能体 SDK",
     "when": "10月20日",
     "date": "2026-10-20",
-    "body": "支持 50 多种语言的实时语音，具备准确转录、情感语音合成和深度工具调用能力。",
+    "body": "Mistral 发布 Voxtral 3，支持 50 多种语言的实时语音、情感语音合成和深度工具调用。",
     "url": "https://mistral.ai/news/voxtral-3/",
     "via": "Mistral AI",
     "id": "e267c7cec9c0",
@@ -1194,13 +1194,13 @@
    },
    {
     "cat": "overseas",
-    "headline": "Claude 设计抗蝎毒蛋白结合剂",
+    "headline": "OpenAI 收购 Orchestra Bio",
     "when": "10月20日",
     "date": "2026-10-20",
-    "body": "Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。",
-    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-    "via": "Anthropic 研究",
-    "id": "64f0c1482fd8",
+    "body": "OpenAI 收购 Orchestra Bio，旨在将 AI 驱动的运营引入生命科学研发，加速药物开发。",
+    "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "via": "OpenAI",
+    "id": "d62552bab33a",
     "ai": true
    },
    {
@@ -1260,6 +1260,17 @@
    },
    {
     "cat": "papers",
+    "headline": "Claude 设计抗蝎毒蛋白结合剂",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "via": "Anthropic 研究",
+    "id": "64f0c1482fd8",
+    "ai": true
+   },
+   {
+    "cat": "papers",
     "headline": "OR-License：评估LLM智能体",
     "when": "10月21日消息",
     "date": "2026-10-21",
@@ -1267,17 +1278,6 @@
     "url": "https://arxiv.org/abs/2610.24087",
     "via": "arXiv · 智能体",
     "id": "7894b47854cf",
-    "ai": true
-   },
-   {
-    "cat": "papers",
-    "headline": "PremiseCheck：同行评审事实核查",
-    "when": "10月21日消息",
-    "date": "2026-10-21",
-    "body": "针对同行评审中可能存在的陈述错误，论文提出结合大模型与决策模型的框架。该方法在保持高准确率的同时，显著降低了检查成本和延迟。",
-    "url": "https://arxiv.org/abs/2610.21046",
-    "via": "Hugging Face 热门论文",
-    "id": "375d6fc6945d",
     "ai": true
    },
    {
@@ -1290,6 +1290,25 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "e267c7cec9c0": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "Voxtral 3：语音智能体 SDK",
+    "body": "Mistral 发布 Voxtral 3，支持 50 多种语言的实时语音、情感语音合成和深度工具调用。"
+   },
+   "64f0c1482fd8": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "Claude 设计抗蝎毒蛋白结合剂",
+    "body": "Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。"
+   },
+   "bccded0efdda": {
+    "v": "e8671762",
+    "cat": "domestic",
+    "headline": "Deepseek 开源 DeepInfer 推理框架",
+    "body": "Deepseek 开源 DeepInfer 推理框架，旨在降低算力成本和能耗。"
+   }
+  }
  }
 }
