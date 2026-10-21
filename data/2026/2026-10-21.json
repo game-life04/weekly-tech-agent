@@ -1,7 +1,10 @@
 {
  "date": "2026-10-21",
  "generated_at": "2026-10-20T22:17:35Z",
- "llm": null,
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
  "candidates": 460,
  "sources": [
   {
@@ -454,13 +457,18 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50168396",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "e267c7cec9c0",
    "score": 8.48,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Voxtral 3：Mistral 的语音智能体 SDK",
+   "summary_zh": "支持 50 多种语言的实时语音，具备准确转录、情感语音合成和深度工具调用能力。",
+   "tags": [
+    "模型发布",
+    "语音",
+    "工具"
+   ],
    "also_in": [
     "Hacker News"
    ],
@@ -484,13 +492,17 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50163277",
     "language": "Python",
-    "age_days": 4
+    "age_days": 4,
+    "llm_done": true
    },
    "id": "1b6d7a539816",
    "score": 8.45,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "DeepInfer：DeepSeek 模型高性能推理框架",
+   "summary_zh": "DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。",
+   "tags": [
+    "模型发布",
+    "推理加速"
+   ],
    "also_in": [
     "GitHub 新项目"
    ],
@@ -513,13 +525,17 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50159341",
     "excerpt_tried": true,
-    "evidence": "WhatsApp removed hidden notes telling AI not to recommend a regulator, and not to cite GDPR or CCPA once a lawyer came up. We quote both notes. WhatsApp's privacy policy for Europe tells you that you can complain to a data protection regulator, and it names the law that gives you that right. Until mid-October 2026, WhatsApp's help pages told an AI not to recommend the regulator, and not to cite that law once you'd mentioned a lawyer. You couldn't see the second part. It was written into the help pages in a way that never showed on your screen and was only there for an AI to read. We found it on October 8, 2026. To see how far it went, we then read all 545 pages that WhatsApp's help centre links to, and saved a copy of each one. Most of those 102 blocks were harmless, and we'll get to that…"
+    "evidence": "WhatsApp removed hidden notes telling AI not to recommend a regulator, and not to cite GDPR or CCPA once a lawyer came up. We quote both notes. WhatsApp's privacy policy for Europe tells you that you can complain to a data protection regulator, and it names the law that gives you that right. Until mid-October 2026, WhatsApp's help pages told an AI not to recommend the regulator, and not to cite that law once you'd mentioned a lawyer. You couldn't see the second part. It was written into the help pages in a way that never showed on your screen and was only there for an AI to read. We found it on October 8, 2026. To see how far it went, we then read all 545 pages that WhatsApp's help centre links to, and saved a copy of each one. Most of those 102 blocks were harmless, and we'll get to that…",
+    "llm_done": true
    },
    "id": "e2e956ee6cbc",
    "score": 8.24,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "WhatsApp 隐藏的 LLM 指令被曝光",
+   "summary_zh": "WhatsApp 的帮助页面曾隐藏指令，禁止 AI 推荐监管机构或引用相关法律。",
+   "tags": [
+    "行业动态",
+    "隐私"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -540,13 +556,17 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50165801",
     "excerpt_tried": true,
-    "evidence": "How 50,000 fake stats kept getting cited by ChatGPT Read more on the Peec AI blog. What I learned about AI search when I made up 50,000 stats that got cited by ChatGPT... About 7 months ago, I launched a website with 50,000 statistics. Every one of them was fake. Google has forgotten the site exists and deindexed the pages, but ChatGPT hasn't. Since the website went live 7 months ago, it has sent more than 10,000 AI sessions its way. And now more than 330 referring domains, including Shopify, Bluehost, and DHL, link to the site. Its made-up numbers have also ended up in an academic paper and in a bank's investment research. At Peec AI and in the industry, we talk about GEO and SEO every day, and we keep looking for new tactics. I’ve been working on this stats page one for a long time, sha…"
+    "evidence": "How 50,000 fake stats kept getting cited by ChatGPT Read more on the Peec AI blog. What I learned about AI search when I made up 50,000 stats that got cited by ChatGPT... About 7 months ago, I launched a website with 50,000 statistics. Every one of them was fake. Google has forgotten the site exists and deindexed the pages, but ChatGPT hasn't. Since the website went live 7 months ago, it has sent more than 10,000 AI sessions its way. And now more than 330 referring domains, including Shopify, Bluehost, and DHL, link to the site. Its made-up numbers have also ended up in an academic paper and in a bank's investment research. At Peec AI and in the industry, we talk about GEO and SEO every day, and we keep looking for new tactics. I’ve been working on this stats page one for a long time, sha…",
+    "llm_done": true
    },
    "id": "edfa40a96384",
    "score": 8.15,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "制造假数据也能被 LLM 引用",
+   "summary_zh": "作者制造了 50,000 个假统计数据，这些数据被 ChatGPT 等模型引用。",
+   "tags": [
+    "行业动态",
+    "数据"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -568,13 +588,18 @@
     "discussion": "https://news.ycombinator.com/item?id=50170021",
     "llm_score": 8.0,
     "excerpt_tried": true,
-    "evidence": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Summary: As part of our work experimenting with how Claude can help accelerate drug discovery, we asked an internal research model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Claude worked from our prompt and four follow-ups, which we developed in collaboration with the financial investment research firm Citrini Research. Teams at Adaptyv Bio and Twist Bioscience experimentally tested 211 designs for binding. Of these, 17 met our criteria. We’re releasing all 211 designs and their data as a resource for the field. In August, we showed how Claude designed protein minibinders after being given…"
+    "evidence": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Summary: As part of our work experimenting with how Claude can help accelerate drug discovery, we asked an internal research model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins. Claude worked from our prompt and four follow-ups, which we developed in collaboration with the financial investment research firm Citrini Research. Teams at Adaptyv Bio and Twist Bioscience experimentally tested 211 designs for binding. Of these, 17 met our criteria. We’re releasing all 211 designs and their data as a resource for the field. In August, we showed how Claude designed protein minibinders after being given…",
+    "llm_done": true
    },
    "id": "64f0c1482fd8",
    "score": 8.1,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Claude 设计抗蝎毒蛋白结合剂",
+   "summary_zh": "Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。",
+   "tags": [
+    "论文",
+    "生物",
+    "药物发现"
+   ],
    "also_in": [
     "Hacker News"
    ],
@@ -596,13 +621,17 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50154244",
-    "excerpt_tried": true
+    "excerpt_tried": true,
+    "llm_done": true
    },
    "id": "13d97ed1199b",
    "score": 8.1,
-   "title_zh": "",
+   "title_zh": "DeepSeek 被美国联邦民用机构禁用",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "行业动态",
+    "政策"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -618,13 +647,18 @@
    "weight": 0.5,
    "metrics": {},
    "extra": {
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "bccded0efdda",
    "score": 7.76,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Deepseek 开源了其 V4.1-Flash 模型背后的推理框架 DeepInfer，旨在降低算力成本和能耗。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -640,13 +674,17 @@
    "weight": 0.9,
    "metrics": {},
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "d62552bab33a",
    "score": 7.66,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "OpenAI 收购 Orchestra Bio",
+   "summary_zh": "OpenAI 收购 Orchestra Bio，旨在将 AI 驱动的运营引入生命科学研发，加速药物开发。",
+   "tags": [
+    "行业动态",
+    "生物"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -665,13 +703,17 @@
    },
    "extra": {
     "language": "Java",
-    "age_days": 1
+    "age_days": 1,
+    "llm_done": true
    },
    "id": "34611a188ca6",
    "score": 7.5,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "一个快速、无广告的 Google TV 主屏幕，使用 Claude Code 构建。",
+   "tags": [
+    "开源工具",
+    "应用"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -690,13 +732,17 @@
     "stars": 33998.0
    },
    "extra": {
-    "language": "JavaScript"
+    "language": "JavaScript",
+    "llm_done": true
    },
    "id": "57e1609901b3",
    "score": 7.44,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "用于多阶段安全审计的编码代理技能，可生成独立验证的机器可读结果。",
+   "tags": [
+    "开源工具",
+    "安全"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -715,13 +761,17 @@
     "stars": 169509.0
    },
    "extra": {
-    "language": "JavaScript"
+    "language": "JavaScript",
+    "llm_done": true
    },
    "id": "fbf3b1d6655d",
    "score": 7.33,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "让 AI 代理像房间里最懒的高级开发者一样思考。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -737,13 +787,17 @@
    "weight": 0.7,
    "metrics": {},
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "20db474702b6",
    "score": 7.02,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "vLLM 推出基于 TorchTPU 的新后端，支持 Google Cloud TPU，具备多主机并行和 KV 缓存卸载功能。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -759,13 +813,17 @@
    "weight": 0.45,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "f696c48e7fcd",
    "score": 6.92,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "DeepSeek 开源了决定算力成本和电费的推理框架 DeepInfer，它是服务链路的关键拼图。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -784,13 +842,17 @@
     "stars": 42311.0
    },
    "extra": {
-    "language": "Python"
+    "language": "Python",
+    "llm_done": true
    },
    "id": "3be966a07f79",
    "score": 6.91,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Kronos 是一个用于金融市场的语言基础模型。",
+   "tags": [
+    "开源工具",
+    "金融"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -809,13 +871,17 @@
    },
    "extra": {
     "language": "Rust",
-    "age_days": 13
+    "age_days": 13,
+    "llm_done": true
    },
    "id": "6d6556855d25",
    "score": 6.91,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "SolidCraft 是一个用 Rust 构建的参数化 3D CAD 应用。",
+   "tags": [
+    "开源工具",
+    "CAD"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -834,13 +900,17 @@
     "stars": 83787.0
    },
    "extra": {
-    "language": "Rust"
+    "language": "Rust",
+    "llm_done": true
    },
    "id": "fa50ebc2e996",
    "score": 6.79,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "一个旨在提升 AI 设计能力的开源设计语言。",
+   "tags": [
+    "开源工具",
+    "设计"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -857,12 +927,18 @@
    "metrics": {
     "upvotes": 231.0
    },
-   "extra": {},
+   "extra": {
+    "llm_done": true
+   },
    "id": "5d4f97485b26",
    "score": 7.59,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "针对脑编码任务，论文提出利用参数高效微调技术适配大型多模态模型。通过低秩适配器和轻量级读出头，该方法在多个基准上提升了脑编码性能。",
+   "tags": [
+    "脑科学",
+    "参数高效微调",
+    "多模态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -885,13 +961,18 @@
       "代码",
       "https://github.com/NineAbyss/OR-License"
      ]
-    ]
+    ],
+    "llm_done": true
    },
    "id": "7894b47854cf",
    "score": 7.27,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "OR-License：评估LLM智能体",
+   "summary_zh": "为评估大语言模型智能体解决现实运筹学问题的能力，论文构建了包含真实商业场景的基准。实验表明，尽管部分模型在特定指标上接近专家水平，但整体可行性仍需提升。",
+   "tags": [
+    "智能体",
+    "评测",
+    "运筹学"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -914,13 +995,18 @@
       "代码",
       "https://github.com/OpenLAIR/PremiseCheck"
      ]
-    ]
+    ],
+    "llm_done": true
    },
    "id": "375d6fc6945d",
    "score": 7.0,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "PremiseCheck：同行评审事实核查",
+   "summary_zh": "针对同行评审中可能存在的陈述错误，论文提出结合大模型与决策模型的框架。该方法在保持高准确率的同时，显著降低了检查成本和延迟。",
+   "tags": [
+    "事实核查",
+    "评测",
+    "效率"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -943,13 +1029,18 @@
       "代码",
       "https://github.com/OpenLAIR/lev"
      ]
-    ]
+    ],
+    "llm_done": true
    },
    "id": "be5772f51e68",
    "score": 6.98,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "LEV：循环决策模型",
+   "summary_zh": "为解决固定深度决策模型在处理难题时计算资源浪费的问题，论文提出通过循环重算层来增加推理深度。实验显示，该方法在保持低延迟的同时提升了准确率。",
+   "tags": [
+    "决策模型",
+    "推理加速",
+    "效率"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -966,12 +1057,18 @@
    "metrics": {
     "upvotes": 28.0
    },
-   "extra": {},
+   "extra": {
+    "llm_done": true
+   },
    "id": "a4d2e2f28a47",
    "score": 6.68,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "论文提出基于克罗内克 delta 规则的线性注意力架构 KronLSTM。该方法通过最小侵入式记忆修正机制，实现了稳定且高效的长期上下文建模。",
+   "tags": [
+    "长上下文",
+    "线性注意力",
+    "效率"
+   ],
    "also_in": [],
    "merged_ids": []
   }
@@ -981,12 +1078,12 @@
   "day": "2026-10-21",
   "start": "2026-10-21",
   "end": "2026-10-21",
-  "generated_at": "2026-10-20T22:17:35Z",
+  "generated_at": "2026-10-21T00:14:43Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
+  "prompt": "e8671762",
+  "tries": 1,
   "pending": 21,
   "club_period": {
    "start": "2026-10-20",
@@ -1045,121 +1142,143 @@
     "headline": "Deepseek open-sources the inference engine that powers its fastest and cheapest…",
     "when": "10月21日",
     "date": "2026-10-21",
-    "body": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cu…",
+    "body": "Deepseek 开源了其 V4.1-Flash 模型背后的推理框架 DeepInfer，旨在降低算力成本和能耗。",
     "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
     "via": "The Decoder",
     "id": "bccded0efdda",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "overseas",
-    "headline": "Voxtral 3",
+    "headline": "Voxtral 3：Mistral 的语音智能体 SDK",
     "when": "10月20日",
     "date": "2026-10-20",
-    "body": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, dee…",
+    "body": "支持 50 多种语言的实时语音，具备准确转录、情感语音合成和深度工具调用能力。",
     "url": "https://mistral.ai/news/voxtral-3/",
     "via": "Mistral AI",
     "id": "e267c7cec9c0",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "overseas",
-    "headline": "DeepInfer: High-performance inference framework for DeepSeek models",
+    "headline": "DeepInfer：DeepSeek 模型高性能推理框架",
     "when": "10月20日",
     "date": "2026-10-20",
-    "body": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models。",
+    "body": "DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。",
     "url": "https://github.com/deepseek-ai/DeepInfer",
     "via": "Hacker News",
     "id": "1b6d7a539816",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "overseas",
-    "headline": "OpenAI acquires Orchestra Bio",
+    "headline": "WhatsApp 隐藏的 LLM 指令被曝光",
     "when": "10月20日",
     "date": "2026-10-20",
-    "body": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelera…",
-    "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-    "via": "OpenAI",
-    "id": "d62552bab33a",
-    "ai": false
+    "body": "WhatsApp 的帮助页面曾隐藏指令，禁止 AI 推荐监管机构或引用相关法律。",
+    "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+    "via": "Hacker News",
+    "id": "e2e956ee6cbc",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "制造假数据也能被 LLM 引用",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "作者制造了 50,000 个假统计数据，这些数据被 ChatGPT 等模型引用。",
+    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+    "via": "Hacker News",
+    "id": "edfa40a96384",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Claude 设计抗蝎毒蛋白结合剂",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "via": "Anthropic 研究",
+    "id": "64f0c1482fd8",
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "Introducing vLLM TorchTPU",
     "when": "10月20日",
     "date": "2026-10-20",
-    "body": "vllm-torchtpu is a new vLLM backend for Google Cloud TPUs built on TorchTPU, with Pallas kernels, multi-host parallelis…",
+    "body": "vLLM 推出基于 TorchTPU 的新后端，支持 Google Cloud TPU，具备多主机并行和 KV 缓存卸载功能。",
     "url": "https://vllm.ai/blog/2026-10-20-vllm-torchtpu",
     "via": "vLLM 博客",
     "id": "20db474702b6",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "simbasjungles/free-my-tv",
     "when": "10月21日消息",
     "date": "2026-10-21",
-    "body": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+    "body": "一个快速、无广告的 Google TV 主屏幕，使用 Claude Code 构建。",
     "url": "https://github.com/simbasjungles/free-my-tv",
     "via": "GitHub 新项目",
     "id": "34611a188ca6",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "cloudflare/security-audit-skill",
     "when": "10月21日消息",
     "date": "2026-10-21",
-    "body": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings。",
+    "body": "用于多阶段安全审计的编码代理技能，可生成独立验证的机器可读结果。",
     "url": "https://github.com/cloudflare/security-audit-skill",
     "via": "GitHub Trending",
     "id": "57e1609901b3",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "DietrichGebert/ponytail",
     "when": "10月21日消息",
     "date": "2026-10-21",
-    "body": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "body": "让 AI 代理像房间里最懒的高级开发者一样思考。",
     "url": "https://github.com/DietrichGebert/ponytail",
     "via": "GitHub Trending",
     "id": "fbf3b1d6655d",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
     "headline": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
     "when": "10月19日",
     "date": "2026-10-19",
-    "body": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from froz…",
+    "body": "针对脑编码任务，论文提出利用参数高效微调技术适配大型多模态模型。通过低秩适配器和轻量级读出头，该方法在多个基准上提升了脑编码性能。",
     "url": "https://arxiv.org/abs/2610.26802",
     "via": "Hugging Face 热门论文",
     "id": "5d4f97485b26",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitione…",
+    "headline": "OR-License：评估LLM智能体",
     "when": "10月21日消息",
     "date": "2026-10-21",
-    "body": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original cl…",
+    "body": "为评估大语言模型智能体解决现实运筹学问题的能力，论文构建了包含真实商业场景的基准。实验表明，尽管部分模型在特定指标上接近专家水平，但整体可行性仍需提升。",
     "url": "https://arxiv.org/abs/2610.24087",
     "via": "arXiv · 智能体",
     "id": "7894b47854cf",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+    "headline": "PremiseCheck：同行评审事实核查",
     "when": "10月21日消息",
     "date": "2026-10-21",
-    "body": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate wh…",
+    "body": "针对同行评审中可能存在的陈述错误，论文提出结合大模型与决策模型的框架。该方法在保持高准确率的同时，显著降低了检查成本和延迟。",
     "url": "https://arxiv.org/abs/2610.21046",
     "via": "Hugging Face 热门论文",
     "id": "375d6fc6945d",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "events",
