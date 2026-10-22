@@ -1086,13 +1086,13 @@
   "day": "2026-10-22",
   "start": "2026-10-22",
   "end": "2026-10-22",
-  "generated_at": "2026-10-21T22:20:21Z",
+  "generated_at": "2026-10-22T00:16:06Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "e8671762",
-  "tries": 1,
-  "pending": 2,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-21",
    "end": "2026-10-21"
@@ -1363,6 +1363,18 @@
     "cat": "papers",
     "headline": "DeclineCraft：RAG 拒绝基准",
     "body": "DeclineCraft 构建了包含 Minecraft 功能更新的动态基准，评估 RAG 模型的拒绝能力。"
+   },
+   "8f951aebfaca": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "D-PAL 提出基于接受度的推测解码权重计算方法",
+    "body": "D-PAL 利用重叠概率作为接受信号计算动态权重，并使用 Rényi-1/2 散度替代交叉熵损失，以提高接受长度并保持吞吐量。"
+   },
+   "597268470e3e": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "KEEP-Bench 评估上下文压缩中的证据保留",
+    "body": "KEEP-Bench 提供直接评估压缩忠实度的基准，实验显示即使上下文窗口超过 100K tokens，最强模型在 66.8% 的案例中仍无法保留所有必要证据。"
    },
    "d4427b964ae2": {
     "v": "e8671762",
