@@ -8,48 +8,58 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.22（周四）
+## 每日快讯 · 10.23（周五）
 
-> 今日 AI 与开源要闻 **11** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-22-kuaixun.md) · [长图](daily/2026/2026-10-22-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-22-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-22.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-23-kuaixun.md) · [长图](daily/2026/2026-10-23-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-23-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-23.md) · [往期日报](daily/README.md)
 
 ### 今日快讯
 
-#### 国内动态
+#### 俱乐部动态
 
-**清华AIR孵化紫荆智康**<br>10月21日，清华AIR孵化紫荆智康推出多分身智能体协同技术，让AI医生分身与人类医生协作。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/10/504734.html)）</sub>
+**开放原子开源俱乐部合并 3 个 PR、提交 3 次**<br>10月22日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 4 个、合并 3 个，提交 3 次，新增代码 1895 行、删除 93 行，3 位贡献者参与，其中 2 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**千诀科技发布Polibrain**<br>10月21日，清华系千诀科技发布预测式世界模型Polibrain，让机器人拥有用于预测和规划的地图。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/10/504653.html)）</sub>
+**hust-mail-cli 合并 3 个 PR**<br>10月22日，Agent SIG的 hust-mail-cli 仓库新增 PR 2 个、合并 3 个、提交 3 次、新增代码 1895 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
+
+**TranslateProject 提交 0 次**<br>10月22日，HCTT SIG的 TranslateProject 仓库新增 PR 2 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/TranslateProject)）</sub>
 
 #### 海外动态
 
-**Mistral 发布 ML4 模型**<br>10月22日，Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。<br><sub>（来源：[Hacker News](https://mistral.ai/news/mistral-large-4/)）</sub>
+**Google Cloud 集成 OpenAI 模型**<br>10月21日，Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。<br><sub>（来源：[Hacker News](https://openai.com/index/openai-models-google-cloud/)）</sub>
 
-**Google研究展示AI盲扫超声**<br>10月22日，Google研究显示AI盲扫超声可让非超声技师低成本评估孕周，助力全球产科。<br><sub>（来源：[Google Research](https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/)）</sub>
+**Mistral 与 NVIDIA 合作开发 AI 原生工程工作流**<br>10月21日，Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/)）</sub>
+
+**openai-cli：官方命令行工具**<br>10月22日，openai-cli 是调用 OpenAI REST API 的官方命令行工具。<br><sub>（来源：[Hacker News](https://github.com/openai/openai-cli)）</sub>
+
+**Ai2 发布 OlmoEarth v1.3 卫星嵌入模型**<br>10月23日，Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/allenai/olmoearth-v1-3)）</sub>
+
+**OpenAI 推出 Decisions API**<br>10月23日，OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。<br><sub>（来源：[OpenAI](https://openai.com/index/decisions-api)）</sub>
 
 #### 开源项目
 
-**vLLM支持Flint模型**<br>10月21日，vLLM支持Flint模型，单GPU解码速度约500 tokens/s。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-21-flint)）</sub>
+**OpenShell：自主 AI 智能体的安全运行时**<br>10月23日，OpenShell 为自主 AI 智能体提供安全、私密的运行环境。<br><sub>（来源：[Hacker News](https://github.com/NVIDIA/OpenShell)）</sub>
 
-**Anthropic发布Python SDK 2.0.0**<br>10月21日，Anthropic发布Python SDK v2.0.0，支持新API版本。<br><sub>（来源：[GitHub 版本发布](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.0.0)）</sub>
+**headroom：压缩 LLM 输入数据**<br>10月23日消息，headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。<br><sub>（来源：[GitHub Trending](https://github.com/headroomlabs-ai/headroom)）</sub>
 
-**vLLM：高吞吐量推理引擎**<br>10月22日消息，vLLM 是一个高吞吐量、内存高效的 LLM 推理引擎。<br><sub>（来源：[GitHub Trending](https://github.com/vllm-project/vllm)）</sub>
+**genoffice：内置 AI 智能体的办公套件**<br>10月23日消息，genoffice 是内置 AI 智能体的免费开源办公套件。<br><sub>（来源：[GitHub Trending](https://github.com/genspark-ai/genoffice)）</sub>
 
-**answer-me-with-html：用 HTML 回答问题**<br>10月22日消息，让 AI Agent 用一页 HTML 回答复杂问题。<br><sub>（来源：[GitHub 新项目](https://github.com/QingYunA/answer-me-with-html)）</sub>
+**AirLLM：4GB GPU 推理 2.8T 模型**<br>10月23日消息，AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。<br><sub>（来源：[GitHub Trending](https://github.com/lyogavin/airllm)）</sub>
 
 #### 学术前沿
 
-**S-Agent 2.0：空间推理**<br>10月20日，S-Agent 2.0 为通用编码代理配备了命令行感知工具包，提升空间推理表现。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.28354)）</sub>
+**Cache Engineering for Agents：智能体缓存工程**<br>10月21日，Cache Engineering for Agents 提出直接控制 KV 缓存的新方案。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.28577)）</sub>
 
-**OpenVLHarness：视觉智能体工具使用**<br>10月20日，OpenVLHarness 结合任务级工具接口与证据渲染，利用持久化多模态记忆提升性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.26860)）</sub>
+**SpatialScout：VLM 智能体 3D 场景映射**<br>10月23日消息，SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.26659)）</sub>
 
-**微软研究院解决KLS猜想**<br>10月22日，微软研究院解决Kannan–Lovász–Simonovits猜想，消除随机算法效率理解的理论障碍。<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/)）</sub>
+**PAR：状态跟踪中的长度泛化对齐递归**<br>10月23日消息，PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.27628)）</sub>
 
 ### 活动预告
 
 **WWW 2027 论文截稿**<br>10月26日，International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。<br><sub>（来源：[会议官网](https://www2027.thewebconf.org/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-22 08:16（北京时间）自动生成。</sub>
+**RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
+
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月22日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-23 06:20（北京时间）自动生成。</sub>
 
 ## 每周快讯 · 10.12–10.18
 

@@ -1,0 +1,1419 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-22T22:20:18Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 463,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 63,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": false,
+   "count": 0,
+   "error": "HttpError: ConnectionError: HTTPSConnectionPool(host='www.solidot.org', port=443): Max retries exceeded with url: /index.rss (Caused by NewConnectionError(\"HTTPSConnection(host='www.solidot.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))：https://www.solidot.…",
+   "seconds": 7.0
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.4
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 43,
+   "error": "",
+   "seconds": 10.3
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 303,
+   "error": "",
+   "seconds": 23.2
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 21.1
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 31,
+   "error": "",
+   "seconds": 27.0
+  }
+ ],
+ "items": [
+  {
+   "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-22T17:44:06Z",
+   "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "heat": 0.874,
+   "weight": 0.6,
+   "metrics": {
+    "points": 228.0,
+    "comments": 124.0,
+    "stars_today": 221.0,
+    "stars": 17634.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50198675",
+    "language": "Rust",
+    "llm_done": true
+   },
+   "id": "59d1be1fc8d5",
+   "score": 8.04,
+   "title_zh": "OpenShell：自主 AI 智能体的安全运行时",
+   "summary_zh": "为自主 AI 智能体提供安全、私密的运行环境。",
+   "tags": [
+    "智能体",
+    "安全"
+   ],
+   "also_in": [
+    "GitHub Trending"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI CLI",
+   "url": "https://github.com/openai/openai-cli",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-22T05:23:11Z",
+   "summary": "",
+   "heat": 0.873,
+   "weight": 0.6,
+   "metrics": {
+    "points": 227.0,
+    "comments": 109.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50191507",
+    "excerpt_tried": true,
+    "evidence": "Official CLI for the OpenAI API. Contribute to openai/openai-cli development by creating an account on GitHub. The official command-line tool for the OpenAI REST API. Call the OpenAI REST API from your terminal or shell scripts. Generate images, upload files, submit batches, and inspect API results without writing an application. OpenAI CLI or Codex CLI? Use openai when you want to call a specific API or put API operations in a script. Use Codex CLI ( codex ) when you want a coding agent to work on a project: read and edit code, run commands, and help implement or debug a change. These examples use an API key; see installation and authentication below. Images are saved to ~/Downloads/gpt-images/ , and the command prints their paths. Use --output-dir for an existing destination directory o…",
+    "llm_done": true
+   },
+   "id": "f23d56f92479",
+   "score": 7.73,
+   "title_zh": "OpenAI CLI：官方命令行工具",
+   "summary_zh": "官方命令行工具，可在终端调用 OpenAI REST API。",
+   "tags": [
+    "工具",
+    "API"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-21T12:53:11Z",
+   "summary": "",
+   "heat": 0.928,
+   "weight": 0.6,
+   "metrics": {
+    "points": 320.0,
+    "comments": 143.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50180079",
+    "excerpt_tried": true,
+    "evidence": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace. OpenAI and Google Cloud (opens in a new window) are partnering to bring OpenAI’s frontier models and Codex (opens in a new window) agentic workflows into Google Cloud’s Model Garden. The integration will give customers native access to these models to power complex agentic workflows at scale, backed by Google Cloud’s data governance and high-performance infrastructure. Google Cloud’s longstanding investment in machine learning and AI has made it a destination for AI workloads and the developers and data scientists building them. Bringing OpenAI models to its model garden gives these teams access to OpenAI’s frontier models within the environment wh…",
+    "llm_done": true
+   },
+   "id": "4846377e2d6b",
+   "score": 7.67,
+   "title_zh": "OpenAI 模型登陆 Google Cloud",
+   "summary_zh": "OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。",
+   "tags": [
+    "行业动态",
+    "合作"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-10-22T16:11:31Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by Ai2 on Hugging Face 🤗 Models | 📄 Tech Report | 📊 Data | 💻 Code | 🌎 Embeddings Explorer | 🗺️ Interactive story Today, we’re releasing OlmoEarth v1.3 , a state-of-the-art satellite embedding model. Alongside OlmoEarth v1.3, we’re sharing precomputed, annual embeddings for the whole planet (10m, 64- and 128-dimensions), plus a new browser-based tool to explore and customize maps based on those embeddings — the OlmoEarth Embeddings Explorer . This means anyone can put OlmoEarth v1.3 to work right away, from tracking change over time to finding similar places—no sign-in, and no advanced technical knowledge required. Until now, the primary way to use OlmoEarth was fine-tuning in OlmoEarth Studio: training a model for each task and running it over satellite imagery to make a map.…",
+    "llm_done": true
+   },
+   "id": "d357653ad528",
+   "score": 7.61,
+   "title_zh": "OlmoEarth v1.3：全地球卫星嵌入模型",
+   "summary_zh": "Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。",
+   "tags": [
+    "模型发布",
+    "嵌入模型",
+    "卫星图像"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Every AI model has the same \"controversial\" take on humans",
+   "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-22T16:08:00Z",
+   "summary": "",
+   "heat": 0.782,
+   "weight": 0.6,
+   "metrics": {
+    "points": 128.0,
+    "comments": 157.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50197313",
+    "excerpt_tried": true,
+    "evidence": "We asked 12 AI models for their most controversial opinion of humans, three times each. 29 of 35 answers were the same one: we care more about belonging than about the truth. “Humans are more loyal to belonging than to truth,” GPT-6.1 Sol told us. Grok 4.7: “Humans would rather be wrong together than right alone.” DeepSeek V4 Pro: “Humans do not have principles; they have loyalties.” Kimi K3: “Humans don’t have beliefs; they have memberships.” Gemini 4 Argon called human consciousness “a PR department.” We asked each model for its most controversial take on humans, with no hedging, three times. They come from ten labs in three countries. Every one of them gave the same take at least once: we pick what our group believes, then invent the reasons. 7 of the 12 gave it every time. Asked for a…",
+    "llm_done": true
+   },
+   "id": "ab26d40a7dbf",
+   "score": 7.54,
+   "title_zh": "所有 AI 模型对人类有相同争议观点",
+   "summary_zh": "12 个 AI 模型对人类最争议的观点惊人一致。",
+   "tags": [
+    "研究",
+    "观点"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Mistral Advances AI for Engineering with NVIDIA",
+   "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+   "source": "rss",
+   "section": "news",
+   "via": "Mistral AI",
+   "published": "2026-10-21T12:00:20Z",
+   "summary": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4527c1f27e10",
+   "score": 7.41,
+   "title_zh": "Mistral 与 NVIDIA 合作开发 AI 原生工程工作流",
+   "summary_zh": "Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。",
+   "tags": [
+    "行业动态",
+    "合作",
+    "工程工作流"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Designing an AI serving harness built to last",
+   "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+   "source": "rss",
+   "section": "news",
+   "via": "MIT 科技评论",
+   "published": "2026-10-22T21:17:29Z",
+   "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "6826f118de9b",
+   "score": 7.35,
+   "title_zh": "设计持久化的 AI 服务框架",
+   "summary_zh": "企业 AI 的竞争优势更多取决于围绕模型构建的服务框架，而非模型本身。",
+   "tags": [
+    "行业动态",
+    "服务框架",
+    "企业 AI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Build more responsive apps with the Decisions API",
+   "url": "https://openai.com/index/decisions-api",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-22T19:00:00Z",
+   "summary": "Fast, focused, low-cost decisions for any application.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "excerpt_tried": true,
+    "evidence": "Fast, focused, low-cost decisions for any application. Applications and agents make many small decisions throughout a workflow: how to classify an input, where to route a request, or which action to take next. Individually, they are simple. At scale, their latency and cost add up. Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna , the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API. Since public beta, we’ve added a native GPT‑Live integration, prompt caching for reused context, and inference residency in the US and EU. Developers can also pass native JSON inputs, includ…",
+    "llm_done": true
+   },
+   "id": "dcda7f17304c",
+   "score": 7.24,
+   "title_zh": "使用 Decisions API 构建更响应的应用",
+   "summary_zh": "OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。",
+   "tags": [
+    "API 发布",
+    "决策 API",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "headroomlabs-ai/headroom",
+   "url": "https://github.com/headroomlabs-ai/headroom",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+   "heat": 0.789,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 552.0,
+    "stars": 77553.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "16b1d008f9d7",
+   "score": 7.5,
+   "title_zh": "",
+   "summary_zh": "压缩工具输出、日志、文件和 RAG 块，减少 token 使用。",
+   "tags": [
+    "开源工具",
+    "压缩"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "genspark-ai/genoffice",
+   "url": "https://github.com/genspark-ai/genoffice",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
+   "heat": 0.657,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 191.0,
+    "stars": 10524.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "227805cd2a61",
+   "score": 7.23,
+   "title_zh": "",
+   "summary_zh": "内置 AI 智能体的免费开源办公套件，支持 Claude Code 等工具编辑本地文件。",
+   "tags": [
+    "开源工具",
+    "办公"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "AirLLM 2.8T LLM inference with single 4GB GPU",
+   "heat": 0.655,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 188.0,
+    "stars": 40328.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "1a05b53dbcee",
+   "score": 7.23,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mudler/LocalAI v4.12.0",
+   "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-22T13:20:36Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# 🎉 LocalAI 4.12.0 Release! 🚀 LocalAI 4.12.0 is out! This release redesigns the web UI and adds streaming voice responses, native decision routing, and more control over model memory and prompt state. It also adds image upscaling, live motion capture, Qdrant stores, and authenticated chat history. It is also a preparation for the upcoming release which will include addon support. Our plan is to move few components (e.g. Studio, Talk) to separate add-ons that can be installed on-demand from LocalAI. **Highlights:** - 🖥️ **Redesigned web UI**: shared controls, light and dark themes, clearer Models and Studio workflows, and node-scoped backend maintenance. - 🎙️ **Streaming voice and bundled audio models**: feed LLM fragments into Qwen TTS, use explicit clause streaming with other engines, and combine audio analysis roles through Parakeet bundles. - 🧭 **Native decision routing**: classify requests with decision models and use the new `/v1/decisions` adapter for predicates, choices, and scores. - 🖼️ **Image upscaling in Studio**: create an upscaled child image without leaving the project, with a dedicated `/v1/images/upscale` API. - 🛡️ **Privacy and tool configuration**: Responses PII filtering, opt-in rejection of uninspectable media, alias profiles, and OAuth2 client credentials for remote MCP servers. - 🕺 **Live GEM-X motion capture**: stream RGB frames into a bounded, session-based pose API on CPU or Vulkan. - 🗄️ **Persistent Qdrant stores**: use the existing stores API with…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4063fa5ffe97",
+   "score": 7.04,
+   "title_zh": "",
+   "summary_zh": "LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。",
+   "tags": [
+    "开源工具",
+    "本地部署",
+    "模型服务"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准",
+   "url": "https://www.oschina.net/news/503159/claude-duet",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-10-22T09:39:06Z",
+   "summary": "在 Codex、ChatGPT 们把 AI Agent 卷成日常工具之后，Anthropic 终于发布了自己的常驻型 AI 助手。 Anthropic 今日推出 Claude Duet——一个「主动式」AI Agent。和 Claude 主应用「你问我答」的模式不同，Duet 会自己从你连接的应用里发现需要处理的事，在你还未开口前发来提醒，甚至能在你离开设备后继续干活。 Duet 的...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5f9fee032323",
+   "score": 6.91,
+   "title_zh": "",
+   "summary_zh": "Anthropic 发布 Claude Duet，能主动发现任务并提醒用户，关键操作需批准。",
+   "tags": [
+    "智能体",
+    "Anthropic",
+    "主动式助手"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+   "heat": 0.765,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 455.0,
+    "stars": 194276.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3517f80a1ebb",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "为 AI 智能体提供来自网络的数据抓取能力。",
+   "tags": [
+    "开源工具",
+    "数据抓取"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LangSmith LLM Gateway: Runtime Controls for Agents",
+   "url": "https://www.langchain.com/blog/langsmith-llm-gateway-runtime-controls-for-production-agents",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-10-22T13:09:40Z",
+   "summary": "LangSmith LLM Gateway is in public beta: spend caps, rate limits, model fallbacks and PII redaction for production agents, without provider lock-in.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "48f69673aab6",
+   "score": 6.82,
+   "title_zh": "",
+   "summary_zh": "LangSmith LLM Gateway 公测，提供配额限制、模型回退等功能，支持生产环境智能体。",
+   "tags": [
+    "开源工具",
+    "网关",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "QwenLM/qwen-code v0.26.0",
+   "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.26.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-21T23:20:53Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## Highlights _See the complete change list below._ ## Breaking Changes No known breaking changes. ## Complete Change List ### Features - feat(daemon): support session-targeted Skill and Extension refresh ([#14050](https://github.com/QwenLM/qwen-code/pull/14050)) by @callmeYe - feat(runtime-broker): Session-create warm for Workspace-isolated bound Sessions ([#14599](https://github.com/QwenLM/qwen-code/pull/14599)) by @doudouOUC - feat(managed-agent): ship a configuration template in the reference distribution ([#14631](https://github.com/QwenLM/qwen-code/pull/14631)) by @wenshao - feat(serve): run private CSI file turns through Hosted Harness ([#14487](https://github.com/QwenLM/qwen-code/pull/14487)) by @doudouOUC - feat(managed-agent): support local and SSH workspace file references ([#14639](https://github.com/QwenLM/qwen-code/pull/14639)) by @doudouOUC - Adds a read-only --check preflight that prints PASS, WARN, FAIL, or SKIP for managed-agent deployment checks and exits nonzero on failure. ([#14632](https://github.com/QwenLM/qwen-code/pull/14632)) by @wenshao - Lets a successor Hosted owner finish private CSI file turns that already have durable receipts, preserving tool responses and avoiding repeated file operations. ([#14523](https://github.com/QwenLM/qwen-code/pull/14523)) by @doudouOUC - Managed Agent submissions now accept up to 8 MiB of attachment input, preserve large pending requests across refresh, and let users discard unrecoverable drafts. ([#14628](https://g…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "743ba1238b9b",
+   "score": 6.31,
+   "title_zh": "",
+   "summary_zh": "Qwen-code v0.26.0 发布，支持会话目标技能刷新、会话创建预热等功能。",
+   "tags": [
+    "开源工具",
+    "代码助手",
+    "版本更新"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Cache Engineering for Agents",
+   "url": "https://arxiv.org/abs/2610.28577",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-20T17:32:24Z",
+   "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing history. However, modifying the trajectory prefix invalidates subsequent cached states and triggers costly re-prefilling of retained context. Task accuracy can also suffer when too little context is retained to limit re-prefill costs. We propose cache engineering as a new scheme. It allows agents to directly control their active KV cache without modifying the trajectory or re-prefilling retained context. Specifically, agents can proactively use drop to exclude selected cache from future attention and repos to adjust retained keys' position encodings. We formalize these cache operations and identify history dependence as a serving challenge: identical token sequences can yield different cache states under different cache operation sequences, making prefix matching insufficient for correct cache reuse. Thus, we co-design the AKV serving engine. It provides a stateless interface compatible with existing serving APIs, while internally managing stateful cache reuse, eviction, and restoration. Experiments show that a tool-response rolling-drop cache policy improves average be…",
+   "heat": 0.827,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 111.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/thu-nics/AKV"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "91ca63d72279",
+   "score": 7.19,
+   "title_zh": "智能体缓存工程",
+   "summary_zh": "针对大语言模型智能体在长轨迹中KV缓存成本高的问题，提出一种直接控制缓存的新方案。通过主动丢弃和位置编码调整，该方案无需修改轨迹即可管理缓存，并设计了AKV服务引擎。",
+   "tags": [
+    "智能体",
+    "缓存工程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+   "url": "https://arxiv.org/abs/2610.26659",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-19T16:17:48Z",
+   "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping. SpatialScout comprises 80 diverse indoor scenes containing 3,140 target objects. Given an object inventory, RGB observations, camera calibration, and camera poses, agents control a camera to explore each scene and estimate object centers in a shared coordinate frame. The task requires coordinating viewpoint selection, cross-view association, geometric estimation, and map revision under bounded interaction budgets. Evaluation jointly measures localization accuracy and target coverage through object-scale overlap scores that penalize missing predictions. Experiments with frontier VLMs reveal substantial limitations: the strongest evaluated model, Claude Opus 5.5, achieves a mean overlap score of 41.71%, with 47.23% of targets exceeding an intersection-over-union (IoU) threshold of 0.5 and only 3.25% exceeding 0.9. These results reveal a substantial gap between recovering coarse object layouts and constructing complete, precise metric maps. SpatialScout provides a quantitative testbed for developing agents that build reliable 3D spatial representations throug…",
+   "heat": 0.853,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 129.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/JesseZZZZZ/SpatialScout"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "33d7860e4312",
+   "score": 7.13,
+   "title_zh": "SpatialScout：VLM智能体能主动探索并映射3D场景吗？",
+   "summary_zh": "为评估视觉语言模型智能体在主动物体级3D映射中的能力，构建了包含80个室内场景和3140个目标物体的基准SpatialScout。实验表明，最强模型在目标覆盖率和定位精度上仍存在显著局限。",
+   "tags": [
+    "智能体",
+    "3D场景",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+   "url": "https://arxiv.org/abs/2610.27628",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-20T00:00:00Z",
+   "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to match the state after the first k operations and rescales recurrent states to their first-iteration norms. On swap-S_5, a Qwen2.5-0.5B model trained on at most 32 moves achieves 95.5\\% mean full-state accuracy at 512 moves, or 16times the training length, compared with 55.7\\% reported for RLT and 0.8\\% for explicit chain of thought on the same backbone. Controlled S_5 ablations show that removing norm anchoring reduces the extrapolation factor from 16times to below 2.2times, and replacing progress-aligned targets with final-answer supervision reduces it to at most 8times. A learned completion readout selects when to answer without a supplied stopping depth. When intermediate labels are unavailable, prefix self-distillation induces the correspondence from shorter problem prefixes using only final answers. The gains apply across sequential state-tracking tasks, establishing the task structure required for depth extrapolation. These findings support training intermediate predictions and state scale together to make additional recurrent depth useful for longer problems.",
+   "heat": 0.884,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 154.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0f2ff6073e0f",
+   "score": 6.98,
+   "title_zh": "PAR：状态跟踪中的长度泛化对齐递归",
+   "summary_zh": "为解决循环语言模型在长序列状态跟踪中重复更新导致状态尺度变化的问题，提出对齐递归（PAR）。该方法通过训练预测与状态匹配并重置状态尺度，在Qwen2.5-0.5B模型上实现了16倍长度外推。",
+   "tags": [
+    "状态跟踪",
+    "长度泛化",
+    "强化学习"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MemT-1.0: Towards Memory-Native Evolution",
+   "url": "https://arxiv.org/abs/2610.26825",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-19T00:00:00Z",
+   "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity. Following a deliberate backbone preparation, we develop a two-stage training pipeline consisting of continued pre-training and post-training, supported by 34B tokens of training data and efficient training and inference infrastructure. We release a model family comprising MemT-1.0-Nano and MemT-1.0-Flash, and conduct a comprehensive evaluation of memory and general capabilities. The results show that they outperform the parametric memory baselines on average and remain competitive with retrieval-augmented methods, while largely preserving general capabilities. At a history length of 128K tokens, MemT-1.0-Nano achieves approximately 1.86times end-to-end inference speedup and a 66times reduction in persistent storage relative to full context KV cache. By internalizing retrieved procedural experience, MemT-1.0 improves task success on agentic tasks, providing a practical step toward memory-native evolution.",
+   "heat": 0.858,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 133.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/MemTensor/MemT-1.0"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "bb0b5c3b7527",
+   "score": 6.84,
+   "title_zh": "MemT-1.0：迈向原生记忆进化",
+   "summary_zh": "为使基础模型具备持续积累和利用信息的能力，提出MemT-1.0架构，将记忆内化为模型计算的一部分。该模型通过混合存储机制扩展原生记忆容量，在128K历史长度下实现了推理加速和存储减少。",
+   "tags": [
+    "记忆模型",
+    "架构设计",
+    "基础模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Qwen-Audio-3.1-ASR Technical Report",
+   "url": "https://arxiv.org/abs/2610.28711",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-10-20T17:08:12Z",
+   "summary": "We present Qwen-Audio-3.1-ASR, a family of audio-language models that builds upon its predecesor Qwen-Audio-3.0-ASR with improved speech recognition and expanded capabilities in speaker-diarized transcription and general audio understanding. The family retains support for 30 languages and 16 Chinese dialects, together with instruction-controlled capabilities including historical-context conditioning, hierarchical hotword customization, and native transcription polishing. Speaker-diarized ASR produces structured outputs containing speaker labels, timestamps, and recognized text, maintaining consistent speaker labels across turns and the representation of overlapping speech. The general audio understanding capabilities cover audio-, speech-, and music-captioning, temporal grounding and sound event detection, as well as audio question answering and multiple-choice reasoning. These tasks broaden the application scope from recognizing spoken words to interpreting speakers, acoustic events, and their temporal relations. To accommodate different deployment requirements, the family includes variants for asynchronous file transcription, low-latency streaming, interactive voice input, and non-streaming recognition, with speaker-diarized transcription and general audio understanding available in certain variants. Evaluations span conventional ASR, multilingual and dialectal speech, speaker-diarized transcription, and general audio understanding, demonstrating the capabilities of the Qw…",
+   "heat": 0.449,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 12.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f871ea528f53",
+   "score": 6.43,
+   "title_zh": "Qwen-Audio-3.1-ASR技术报告",
+   "summary_zh": "基于Qwen-Audio-3.0-ASR，推出支持30种语言和16种中文方言的音频语言模型家族。该模型增强了语音识别、说话人分离转录和通用音频理解能力，并提供了多种部署变体。",
+   "tags": [
+    "语音识别",
+    "音频理解",
+    "多语言"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-23",
+  "start": "2026-10-23",
+  "end": "2026-10-23",
+  "generated_at": "2026-10-22T22:20:18Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "e8671762",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-10-22",
+   "end": "2026-10-22"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 3 个 PR、提交 3 次",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 4 个、合并 3 个，提交 3 次，新增代码 1895 行、删除 93 行，3 位贡献者参与，其中 2 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "hust-mail-cli 合并 3 个 PR",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "Agent SIG的 hust-mail-cli 仓库新增 PR 2 个、合并 3 个、提交 3 次、新增代码 1895 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mail-cli",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "TranslateProject 提交 0 次",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "HCTT SIG的 TranslateProject 仓库新增 PR 2 个，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/TranslateProject",
+    "via": "GitHub"
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google Cloud 集成 OpenAI 模型",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。",
+    "url": "https://openai.com/index/openai-models-google-cloud/",
+    "via": "Hacker News",
+    "id": "4846377e2d6b",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Mistral 与 NVIDIA 合作开发 AI 原生工程工作流",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。",
+    "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+    "via": "Mistral AI",
+    "id": "4527c1f27e10",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "openai-cli：官方命令行工具",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "openai-cli 是调用 OpenAI REST API 的官方命令行工具。",
+    "url": "https://github.com/openai/openai-cli",
+    "via": "Hacker News",
+    "id": "f23d56f92479",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Ai2 发布 OlmoEarth v1.3 卫星嵌入模型",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+    "via": "Hugging Face 博客",
+    "id": "d357653ad528",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 推出 Decisions API",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。",
+    "url": "https://openai.com/index/decisions-api",
+    "via": "OpenAI",
+    "id": "dcda7f17304c",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "OpenShell：自主 AI 智能体的安全运行时",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "OpenShell 为自主 AI 智能体提供安全、私密的运行环境。",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "via": "Hacker News",
+    "id": "59d1be1fc8d5",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "headroom：压缩 LLM 输入数据",
+    "when": "10月23日消息",
+    "date": "2026-10-23",
+    "body": "headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "via": "GitHub Trending",
+    "id": "16b1d008f9d7",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "genoffice：内置 AI 智能体的办公套件",
+    "when": "10月23日消息",
+    "date": "2026-10-23",
+    "body": "genoffice 是内置 AI 智能体的免费开源办公套件。",
+    "url": "https://github.com/genspark-ai/genoffice",
+    "via": "GitHub Trending",
+    "id": "227805cd2a61",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "AirLLM：4GB GPU 推理 2.8T 模型",
+    "when": "10月23日消息",
+    "date": "2026-10-23",
+    "body": "AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。",
+    "url": "https://github.com/lyogavin/airllm",
+    "via": "GitHub Trending",
+    "id": "1a05b53dbcee",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Cache Engineering for Agents：智能体缓存工程",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "Cache Engineering for Agents 提出直接控制 KV 缓存的新方案。",
+    "url": "https://arxiv.org/abs/2610.28577",
+    "via": "arXiv · 智能体",
+    "id": "91ca63d72279",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "SpatialScout：VLM 智能体 3D 场景映射",
+    "when": "10月23日消息",
+    "date": "2026-10-23",
+    "body": "SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。",
+    "url": "https://arxiv.org/abs/2610.26659",
+    "via": "arXiv · 智能体",
+    "id": "33d7860e4312",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "PAR：状态跟踪中的长度泛化对齐递归",
+    "when": "10月23日消息",
+    "date": "2026-10-23",
+    "body": "PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。",
+    "url": "https://arxiv.org/abs/2610.27628",
+    "via": "Hugging Face 热门论文",
+    "id": "0f2ff6073e0f",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "59d1be1fc8d5": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "OpenShell：自主 AI 智能体的安全运行时",
+    "body": "OpenShell 为自主 AI 智能体提供安全、私密的运行环境。"
+   },
+   "f23d56f92479": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "openai-cli：官方命令行工具",
+    "body": "openai-cli 是调用 OpenAI REST API 的官方命令行工具。"
+   },
+   "4846377e2d6b": {
+    "v": "e8671762",
+    "cat": "domestic",
+    "headline": "Google Cloud 集成 OpenAI 模型",
+    "body": "Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。"
+   },
+   "d357653ad528": {
+    "v": "e8671762",
+    "cat": "overseas",
+    "headline": "Ai2 发布 OlmoEarth v1.3 卫星嵌入模型",
+    "body": "Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。"
+   },
+   "ab26d40a7dbf": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "所有 AI 模型对人类有相同争议观点",
+    "body": "12 个 AI 模型对人类最争议的观点惊人一致。"
+   },
+   "4527c1f27e10": {
+    "v": "e8671762",
+    "cat": "overseas",
+    "headline": "Mistral 与 NVIDIA 合作开发 AI 原生工程工作流",
+    "body": "Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。"
+   },
+   "6826f118de9b": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "设计持久化的 AI 服务框架",
+    "body": "文章讨论企业 AI 竞争优势更多取决于服务框架而非模型本身。"
+   },
+   "dcda7f17304c": {
+    "v": "e8671762",
+    "cat": "overseas",
+    "headline": "OpenAI 推出 Decisions API",
+    "body": "OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。"
+   },
+   "16b1d008f9d7": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "headroom：压缩 LLM 输入数据",
+    "body": "headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。"
+   },
+   "227805cd2a61": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "genoffice：内置 AI 智能体的办公套件",
+    "body": "genoffice 是内置 AI 智能体的免费开源办公套件。"
+   },
+   "1a05b53dbcee": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "AirLLM：4GB GPU 推理 2.8T 模型",
+    "body": "AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。"
+   },
+   "4063fa5ffe97": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "LocalAI 发布 4.12.0 版本",
+    "body": "LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。"
+   },
+   "5f9fee032323": {
+    "v": "e8671762",
+    "cat": "skip",
+    "headline": "Anthropic 推出 Claude Duet",
+    "body": "Anthropic 发布 Claude Duet，能主动发现任务并提醒用户，关键操作需批准。"
+   },
+   "3517f80a1ebb": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "firecrawl：AI 智能体网络数据抓取库",
+    "body": "firecrawl 为 AI 智能体提供来自网络的数据抓取能力。"
+   },
+   "48f69673aab6": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "LangSmith LLM Gateway 公测",
+    "body": "LangSmith LLM Gateway 公测，提供配额限制、模型回退等功能。"
+   },
+   "743ba1238b9b": {
+    "v": "e8671762",
+    "cat": "opensource",
+    "headline": "Qwen-code 发布 0.26.0 版本",
+    "body": "Qwen-code v0.26.0 发布，支持会话目标技能刷新、会话创建预热等功能。"
+   },
+   "91ca63d72279": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "Cache Engineering for Agents：智能体缓存工程",
+    "body": "Cache Engineering for Agents 提出直接控制 KV 缓存的新方案。"
+   },
+   "33d7860e4312": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "SpatialScout：VLM 智能体 3D 场景映射",
+    "body": "SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。"
+   },
+   "0f2ff6073e0f": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "PAR：状态跟踪中的长度泛化对齐递归",
+    "body": "PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。"
+   },
+   "bb0b5c3b7527": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "MemT-1.0：迈向原生记忆进化",
+    "body": "MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。"
+   },
+   "f871ea528f53": {
+    "v": "e8671762",
+    "cat": "papers",
+    "headline": "Qwen-Audio-3.1-ASR技术报告",
+    "body": "Qwen团队发布Qwen-Audio-3.1-ASR，支持30种语言和16种中文方言，增强语音识别和通用音频理解能力。"
+   }
+  }
+ }
+}
