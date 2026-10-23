@@ -191,7 +191,12 @@ def test_indexes(config):
     assert "- [10-11（周日）](2026/2026-10-11.md) · 21 条" in daily
     older = kx_issue(week="2026-W40", start="2026-09-28", end="2026-10-04", entries=[])
     weekly = render.render_weekly_index([older, kx_issue()])
-    assert "- [2026 年第 41 周 · 10.05–10.11](2026-W41.md) · [公众号排版版](2026-W41.html) · 4 条" in weekly
+    assert "- [2026 年第 41 周](2026-W41.md)（10.05–10.11）· [公众号排版版](2026-W41.html) · 4 条" in weekly
+    numbered = render.render_weekly_index([kx_issue(number=1, title="阿里发布 *Qwen4*")])
+    assert "- [第 1 期：阿里发布 \\*Qwen4\\*](2026-W41.md)（10.05–10.11）" in numbered
+    assert render.kx_title(kx_issue(number=1)) == "每周科技快讯 第 1 期 · 10.05–10.11"
+    page = render.render_kuaixun(kx_issue(number=1, title="阿里发布 Qwen4"), config)
+    assert page.startswith("# 每周科技快讯 第 1 期 · 10.05–10.11\n\n**本期头条：阿里发布 Qwen4**\n")
     assert weekly.index("第 41 周") < weekly.index("第 40 周")
     assert "还没有快讯：每周一生成上一周的一期" in render.render_weekly_index([])
 

@@ -38,7 +38,7 @@ from .textutil import KeywordMatcher, clean_text
 log = logging.getLogger(__name__)
 
 BATCH = 12
-HEADLINE_LIMIT, BODY_LIMIT = 36, 130  # 提示词里要的是 28 字和 90 字，留一点余地；超出的不用
+HEADLINE_LIMIT, BODY_LIMIT = 36, 190  # 提示词里要的是 28 字和 140 字，留一点余地；超出的不用
 EVIDENCE_CHARS = 600
 MAX_TRIES = 3  # 大模型没写完的那几条，最多再补几次
 WRITABLE = ("domestic", "overseas", "opensource", "papers", "industry", "events")  # 日报的 AI 动态可以放进这些栏目
@@ -76,7 +76,7 @@ PROMPT = f"""你是《每周科技快讯》的编辑，参照《CCF开源快讯�
    资料没写清是谁做的，就用项目或产品的名字开头。
    section 是 opensource 的条目多数是早就有的项目，不要写成“某公司发布某项目”：
    仓库和模型写成“项目名：做什么的”，例如“rea：用智能体做逆向工程”；版本发布写成“项目名 发布 1.2.0 版本”，保留版本号。
-3. body：一到两句中文，不超过 90 个字，用主体开头写成完整的句子，说清楚做了什么、有什么特点，
+3. body：两到三句中文，不超过 140 个字，用主体开头写成完整的句子，说清楚做了什么、有什么特点和用处，
    例如“阶跃星辰宣布开放Step 5 Preview模型权重，包含BF16与FP8两个版本。”。不要写日期，程序会在前面加上日期。
    只能依据 title、title_zh 和 text；资料里没有的数字、结论、评价、公司名和模型名一律不要写；
    名称、数字和单位照抄原文的写法。
@@ -265,7 +265,7 @@ def write(items: list[Item], client: LLMClient) -> int:
     if not todo:
         return 0
     writer = _Writer()
-    run = BatchRun(client, PROMPT, writer.row, writer.apply, 260, reserve=0, depth=8)
+    run = BatchRun(client, PROMPT, writer.row, writer.apply, 360, reserve=0, depth=8)
     run.process(batches(todo, BATCH))
     log.info("大模型写快讯：%d/%d 条", run.done, len(todo))
     return run.done
@@ -479,6 +479,10 @@ def _compose(
     upcoming = sorted(chosen["events"] + events, key=lambda entry: entry["date"])
     chosen["events"] = upcoming[: int(caps.get("events", 0))]
     entries = [entry for name, _ in KX_SECTIONS for entry in chosen[name]]
+    # 这一期的标题（像《科技爱好者周刊》每期都有一个）：登出来的新闻里综合分最高的那条
+    rank = {item.id: item.score for item in candidates}
+    leads = [entry for entry in entries if entry.get("cat") in WRITABLE and entry.get("id") in rank]
+    title = max(leads, key=lambda entry: rank[entry["id"]])["headline"] if leads else ""
 
     models = [*previous.get("models", [])]
     models += [str((payload.get("llm") or {}).get("model") or "") for payload in payloads]
@@ -486,6 +490,7 @@ def _compose(
     return {
         "start": start.isoformat(),
         "end": end.isoformat(),
+        "title": title,
         "generated_at": to_iso(now),
         "models": list(dict.fromkeys(name for name in models if name)),
         "prompt": PROMPT_VERSION if fresh or attempted else old_version,
@@ -535,7 +540,18 @@ def build(
         now=now,
         reuse=reuse,
     )
-    return {"kind": "weekly", "week": week, **issue}
+    first = _week_monday(str(settings.get("first_week") or week))
+    number = (monday - first).days // 7 + 1 if first else 0  # 第几期：从 first_week 那一周算第 1 期
+    return {"kind": "weekly", "week": week, "number": max(number, 0), **issue}
+
+
+def _week_monday(text: str) -> date | None:
+    """2026-W42 → 那一周的周一；写错了返回 None。"""
+    match = re.fullmatch(r"(\d{4})-W(\d{2})", text.strip())
+    try:
+        return date.fromisocalendar(int(match.group(1)), int(match.group(2)), 1) if match else None
+    except ValueError:
+        return None
 
 
 def build_day(

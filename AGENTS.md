@@ -1,6 +1,6 @@
 # 给 AI 编程助手的说明
 
-这个仓库每天由 GitHub Actions 自动收集 AI / 大模型领域的内容，生成日报和每日快讯，每周一再生成上一周的每周快讯。动手前请先读 [README.md](README.md) 的“关于这个项目”和 [CONTRIBUTING.md](CONTRIBUTING.md)。
+这个仓库每天由 GitHub Actions 自动收集 AI / 大模型领域的内容，生成日报和每日快讯，每周一再生成上一周的每周快讯。动手前请先读 [docs/about.md](docs/about.md) 和 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 必须遵守
 

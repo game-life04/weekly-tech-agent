@@ -270,8 +270,12 @@ def render_weekly_index(issues: list[dict[str, Any]]) -> str:
     lines = ["# 每周快讯", "", "[返回首页](../README.md) · [往期日报](../daily/README.md)", ""]
     for kx in sorted(issues, key=lambda kx: kx["start"], reverse=True):
         year, week, _ = date.fromisoformat(kx["start"]).isocalendar()
+        # 像《科技爱好者周刊》的目录一样：第几期：标题
+        name = f"第 {kx['number']} 期" if kx.get("number") else f"{year} 年第 {week} 周"
+        headline = _kx_headline(kx)
+        label = f"{name}：{md_escape(headline)}" if headline else name
         lines.append(
-            f"- [{year} 年第 {week} 周 · {kx_range(kx)}]({kx['week']}.md) · [公众号排版版]({kx['week']}.html)"
+            f"- [{label}]({kx['week']}.md)（{kx_range(kx)}）· [公众号排版版]({kx['week']}.html)"
             f" · {len(_kx_entries(kx))} 条"
         )
     if not issues:
@@ -290,7 +294,16 @@ def _daily(kx: dict[str, Any]) -> bool:
 
 
 def kx_title(kx: dict[str, Any]) -> str:
-    return ("每日科技快讯" if _daily(kx) else "每周科技快讯") + f" · {kx_range(kx)}"
+    """每日：每日科技快讯 · 10.23；每周：每周科技快讯 第 1 期 · 10.12–10.18（早期的数据没有期号）。"""
+    if _daily(kx):
+        return f"每日科技快讯 · {kx_range(kx)}"
+    number = f" 第 {kx['number']} 期" if kx.get("number") else ""
+    return f"每周科技快讯{number} · {kx_range(kx)}"
+
+
+def _kx_headline(kx: dict[str, Any]) -> str:
+    """这一期的标题（本期头条），没有就是空字符串。"""
+    return clean_text(kx.get("title"), 60)
 
 
 def _kx_intro(kx: dict[str, Any]) -> str:
@@ -470,9 +483,11 @@ def _kx_readme(kx: dict[str, Any]) -> list[str]:
     week = kx["week"]
     sheet = weekly_html_path(week)
     nav = f"[阅读全文]({weekly_path(week)}) · [公众号排版版]({sheet}) · [往期快讯](weekly/README.md)"
+    headline = _kx_headline(kx)
+    lead = f"本期头条：{md_escape(headline)}<br>\n> " if headline else ""
     return [
-        f"## 每周快讯 · {kx_range(kx)}",
-        f"> 上周 AI 与开源要闻 **{len(_kx_entries(kx))}** 条，5 分钟速读。<br>\n> {nav}",
+        f"## {kx_title(kx).replace('每周科技快讯', '每周快讯')}",
+        f"> {lead}上周 AI 与开源要闻 **{len(_kx_entries(kx))}** 条，5 分钟速读。<br>\n> {nav}",
         *_kx_digest(kx, linked=True),
     ]
 
@@ -492,8 +507,10 @@ def render_kuaixun(kx: dict[str, Any], config: dict[str, Any]) -> str:
     else:
         nav = ["[往期快讯](README.md)", f"[每日日报]({_relative(here, 'daily/README.md')})"]
     nav.append(f"[公众号排版版]({_relative(here, sheet)})")
-    blocks = [
-        f"# {kx_title(kx)}",
+    blocks = [f"# {kx_title(kx)}"]
+    if not _daily(kx) and _kx_headline(kx):
+        blocks.append(f"**本期头条：{md_escape(_kx_headline(kx))}**")
+    blocks += [
         f"> {_kx_intro(kx)}<br>\n> 本期为您带来：{' · '.join(f'**{b}**' for b in _kx_brings(kx))}<br>\n"
         f"> {' · '.join(nav)}",
     ]
@@ -578,3 +595,71 @@ def render_kuaixun_html(kx: dict[str, Any], config: dict[str, Any]) -> str:
         "</html>",
     ]
     return "\n".join(page) + "\n"
+
+
+# ---------------------------------------------------------------------------
+# RSS（Atom）订阅源
+
+
+def repo_slug() -> str:
+    """game-life04/weekly-tech-agent"""
+    return REPO_URL.removeprefix("https://github.com/").strip("/")
+
+
+def feed_url() -> str:
+    return f"https://raw.githubusercontent.com/{repo_slug()}/main/feed.xml"
+
+
+def _kx_feed_html(kx: dict[str, Any]) -> str:
+    """订阅源里一期快讯的正文：各栏目的标题列表，标题链接到原文，后面跟正文。"""
+    esc = html.escape
+    page, _ = kuaixun_paths(kx)
+    parts = []
+    if not _daily(kx) and _kx_headline(kx):
+        parts.append(f"<p><strong>本期头条：{esc(_kx_headline(kx))}</strong></p>")
+    for _, title, rows in _kx_groups(kx):
+        items = []
+        for entry in rows:
+            url = md_url(str(entry.get("url") or ""))
+            headline = esc(str(entry.get("headline") or ""))
+            link = f'<a href="{esc(url, quote=True)}">{headline}</a>' if url else headline
+            items.append(f"<li>{link}：{esc(str(entry.get('when') or ''))}，{esc(str(entry.get('body') or ''))}</li>")
+        parts.append(f"<h3>{esc(title)}</h3><ul>{''.join(items)}</ul>")
+    full = esc(f"{REPO_URL}/blob/main/{page}", quote=True)
+    parts.append(f'<p><a href="{full}">在 GitHub 上看完整版</a></p>')
+    return "".join(parts)
+
+
+def _atom_time(kx: dict[str, Any]) -> str:
+    moment = parse_time(kx.get("generated_at"))
+    return moment.strftime("%Y-%m-%dT%H:%M:%SZ") if moment else f"{kx['end']}T00:00:00+08:00"
+
+
+def render_feed(issues: list[dict[str, Any]], limit: int = 30) -> str:
+    """feed.xml：最近的每日快讯和每周快讯（Atom 格式），用 RSS 阅读器或 RSS 转邮件的服务订阅。"""
+    esc = html.escape
+    recent = sorted(issues, key=lambda kx: (kx["end"], not _daily(kx)), reverse=True)[:limit]
+    lines = [
+        '<?xml version="1.0" encoding="utf-8"?>',
+        '<feed xmlns="http://www.w3.org/2005/Atom">',
+        "  <title>每周科技收集 Agent：AI 与开源快讯</title>",
+        "  <subtitle>每天一期每日快讯，每周一一期每周快讯，参照《CCF开源快讯》的体例。</subtitle>",
+        f'  <link href="{esc(REPO_URL, quote=True)}" rel="alternate"/>',
+        f'  <link href="{esc(feed_url(), quote=True)}" rel="self"/>',
+        f"  <id>{esc(REPO_URL)}</id>",
+        f"  <updated>{_atom_time(recent[0]) if recent else '2026-01-01T00:00:00Z'}</updated>",
+    ]
+    for kx in recent:
+        link = esc(f"{REPO_URL}/blob/main/{kuaixun_paths(kx)[0]}", quote=True)
+        title = kx_title(kx) + (f"：{_kx_headline(kx)}" if not _daily(kx) and _kx_headline(kx) else "")
+        lines += [
+            "  <entry>",
+            f"    <title>{esc(title)}</title>",
+            f'    <link href="{link}" rel="alternate"/>',
+            f"    <id>{link}</id>",
+            f"    <updated>{_atom_time(kx)}</updated>",
+            f'    <content type="html">{esc(_kx_feed_html(kx))}</content>',
+            "  </entry>",
+        ]
+    lines.append("</feed>")
+    return "\n".join(lines) + "\n"

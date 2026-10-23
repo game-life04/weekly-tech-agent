@@ -6,7 +6,7 @@ utc_offset_hours: 8 # 日期按北京时间算
 
 # 三个栏目，以及日报、周报里每个栏目最多放几条
 sections:
-  news: { title: AI 动态, emoji: 🗞️, daily: 8, weekly: 12 }
+  news: { title: AI 动态, emoji: 🗞️, daily: 10, weekly: 12 }
   opensource: { title: 开源圈, emoji: 🛠️, daily: 8, weekly: 12 }
   papers: { title: 前沿论文, emoji: 📄, daily: 5, weekly: 10 }
 
@@ -390,6 +390,7 @@ kuaixun:
   enabled: true
   candidates: { news: 30, opensource: 20, papers: 8 } # 从一周的日报里各取综合分最高的多少条交给大模型
   chinese_news: 12 # 中文媒体的 AI 动态另外再取几条（国内动态主要靠它们，按综合分排不进前面）
+  first_week: 2026-W42 # 每周快讯从这一周算第 1 期
   caps: # 每个栏目最多登几条
     club: 5
     policy: 3
@@ -429,7 +430,7 @@ kuaixun:
   daily: # 每日快讯：每天的日报出完以后，用当天入选的内容再生成一期（俱乐部看仪表盘最近一天的统计）
     enabled: true
     event_days: 14 # 预告接下来几天截稿的会议
-    caps: { club: 3, policy: 2, domestic: 5, overseas: 5, opensource: 4, papers: 3, industry: 2, events: 3 }
+    caps: { club: 3, policy: 2, domestic: 6, overseas: 6, opensource: 5, papers: 4, industry: 3, events: 3 }
 
 # ---------------------------------------------------------------------------
 # 大模型：给候选内容打分，写中文标题和一句话摘要。没有配置密钥时自动跳过，

@@ -533,7 +533,8 @@ def test_monday_run_also_builds_last_weeks_kuaixun(repo, monkeypatch):
     page = (root / "weekly/2026-W41.md").read_text(encoding="utf-8")
     assert page.startswith("# 每周科技快讯 · 10.05–10.11") and "Item 2 about LLM" in page
     assert (root / "weekly/2026-W41.html").read_text(encoding="utf-8").startswith("<!doctype html>")
-    assert "[2026 年第 41 周 · 10.05–10.11](2026-W41.md)" in (root / "weekly/README.md").read_text(encoding="utf-8")
+    index = (root / "weekly/README.md").read_text(encoding="utf-8")
+    assert "[2026 年第 41 周：Item 2 about LLM](2026-W41.md)（10.05–10.11）" in index  # 第 1 期从 W42 算起
     readme = (root / "README.md").read_text(encoding="utf-8")
     assert readme.index("## 每日快讯 · 10.10（周六）") < readme.index("## 每周快讯 · 10.05–10.11")
     issue = json.loads((root / "data/weekly/2026-W41.json").read_text(encoding="utf-8"))["kuaixun"]

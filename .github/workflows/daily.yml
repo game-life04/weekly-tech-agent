@@ -85,7 +85,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # 只提交生成的内容，不用 "git add ."
-          for path in README.md data daily weekly; do
+          for path in README.md feed.xml data daily weekly; do
             if [ -e "$path" ]; then git add -A -- "$path"; fi
           done
           if git diff --cached --quiet; then
@@ -117,3 +117,9 @@ jobs:
           done
           echo "::error::连续 5 次推送失败。"
           exit 1
+
+      - name: Publish the weekly brief as a release
+        # 最新一期每周快讯同步成 Release：在仓库点 Watch → Custom → Releases 的人会收到邮件通知
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m wta release

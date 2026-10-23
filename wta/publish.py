@@ -83,6 +83,8 @@ def publish_indexes(root: Path, config: dict[str, Any], days: list[date]) -> lis
     _write(root / "daily" / "README.md", render.render_daily_index(counts))
     issues = kuaixun_issues(root)
     _write(root / "weekly" / "README.md", render.render_weekly_index(issues))
+    daily = [p["kuaixun"] for p in payloads.values() if isinstance(p.get("kuaixun"), dict)]
+    _write(root / "feed.xml", render.render_feed(daily + issues))
 
     if not days and not issues:
         return []

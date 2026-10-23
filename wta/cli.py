@@ -3,6 +3,7 @@
 python -m wta run       抓取 → 去重 → 打分 →（大模型选稿、写中文摘要）→ 当天的每日快讯 → 生成页面；
                         上周的每周快讯还没有就顺带生成
 python -m wta kuaixun   单独生成（或重新生成）某一周的每周快讯，或某一天的每日快讯
+python -m wta release   把最新一期每周快讯同步成 GitHub Release（订阅了 Releases 的人会收到邮件）
 python -m wta render    不抓取，只用 data/ 里已有的数据重新生成所有页面
 python -m wta check     逐个测试来源，打印条数和样例（加来源、排查问题时用）
 """
@@ -19,7 +20,7 @@ from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
-from . import editor, excerpt, kuaixun, store
+from . import editor, excerpt, kuaixun, release, store
 from .collect import collect
 from .config import load_config
 from .dates import local_date, local_time, parse_time, to_iso, week_id
@@ -28,7 +29,15 @@ from .health import failing_sources, step_summary
 from .http import Http
 from .llm import LLMClient, build_client
 from .models import SECTIONS, Item
-from .publish import publish, publish_all, publish_indexes, publish_kuaixun, save_week_note, week_payloads
+from .publish import (
+    kuaixun_issues,
+    publish,
+    publish_all,
+    publish_indexes,
+    publish_kuaixun,
+    save_week_note,
+    week_payloads,
+)
 from .rank import apply_scores, select
 from .sources import SOURCES
 from .sources.base import Context
@@ -284,6 +293,10 @@ def cmd_kuaixun(root: Path, config: dict[str, Any], args: argparse.Namespace) ->
     return 0
 
 
+def cmd_release(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int:
+    return release.run(kuaixun_issues(root), config, os.environ)
+
+
 def cmd_render(root: Path, config: dict[str, Any], args: argparse.Namespace) -> int:
     for warning in publish_all(root, config):
         log.warning(warning)
@@ -350,6 +363,9 @@ def main(argv: list[str] | None = None) -> int:
     issue.add_argument("--no-llm", action="store_true", help="不调用大模型，标题和正文用日报里已有的")
     issue.add_argument("--rewrite", action="store_true", help="大模型已经写好的也重新写（改了提示词以后用）")
     issue.set_defaults(handler=cmd_kuaixun)
+
+    publish_release = commands.add_parser("release", help="把最新一期每周快讯同步成 GitHub Release（定时任务用）")
+    publish_release.set_defaults(handler=cmd_release)
 
     render = commands.add_parser("render", help="不抓取，用已有数据重新生成所有页面")
     render.set_defaults(handler=cmd_render)
