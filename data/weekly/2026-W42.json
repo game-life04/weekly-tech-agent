@@ -6,13 +6,13 @@
   "start": "2026-10-12",
   "end": "2026-10-18",
   "title": "DeepSeek-V4.1-Flash-1017 更新",
-  "generated_at": "2026-10-23T06:02:03Z",
+  "generated_at": "2026-10-23T22:10:04Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 1,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-12",
    "end": "2026-10-18"
@@ -631,10 +631,10 @@
     "body": "研究跨分词器策略蒸馏中，扩展对齐覆盖是否有助于提升数学推理和代码生成任务的学习效果。"
    },
    "6d7365fa21a3": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "GroundingPI：具备视觉原语的物理智能基础模型",
-    "body": "GroundingPI是一个4B基础模型，通过生成共享词汇中的量化坐标点框来提升视觉定位能力。"
+    "body": "GroundingPI 是一个 4B 的基础模型，通过生成共享词汇中的量化坐标点框，提升视觉定位能力。"
    },
    "f35951ab67a4": {
     "v": "4f7b2f10",

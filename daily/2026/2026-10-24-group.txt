@@ -1,0 +1,48 @@
+【每日科技快讯】10月24日 周六
+今日 AI 与开源要闻 16 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 2 个 PR、提交 2 次
+2. hust-mail-cli 合并 2 个 PR
+3. AtomGit-Mobile4Android 新增 1 个 PR
+
+【国内动态】
+4. 月之暗面发布Kimi K3.1 Pro模型
+→ 月之暗面发布了首个拥有100万token上下文窗口的3T级开源模型Kimi K3.1 Pro，并推出了速度提升2-3倍的K3.1 Pro Highspeed版本。
+
+【开源项目】
+5. WorldTUI：360M模型模拟终端
+→ 作者微调了一个360M参数的语言模型来模拟终端，它能记住之前的操作并运行vim和tmux等命令。
+6. vLLM 在 16 个 H200 上部署 GLM-5.3
+→ vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。
+7. claude-howto：Claude Code可视化指南
+→ 提供Claude Code的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。
+8. anthropics/knowledge-work-plugins开源
+→ Anthropic开源了知识工作插件仓库，旨在供知识工作者在Claude Cowork中使用。
+9. book-to-skill：PDF转Claude Code技能
+→ 开源项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。
+
+【学术前沿】
+10. Anthropic：LLMs 让大规模形式化软件验证成为可能
+→ Anthropic 的 Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。
+11. AI 在数学上越来越擅长，原因如下
+→ AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。
+12. WildAWM：计算机使用智能体环境合成
+→ 提出WildAWM管道，利用开源模型构建支持多种交互界面的环境，用于训练通用计算机使用智能体。
+13. 虚拟世界具身智能体持续预训练研究
+→ 研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响，发现多样性改善向相关世界的迁移。
+
+【产业纵横】
+14. OpenAI 联合机构部署数千个 AI 智能体分析小鼠脑细胞
+→ OpenAI 联合 PerturbAI 和斯克里普斯研究所，利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。
+15. OpenAI 加强前沿模型训练环境的安全性
+→ OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。
+16. OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储
+→ OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。
+
+【活动预告】
+· 10月26日 WWW 2027 论文截稿
+· 11月5日 RECOMB 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-24-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

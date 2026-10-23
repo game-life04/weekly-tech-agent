@@ -12,64 +12,62 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.23（周五）
+## 每日快讯 · 10.24（周六）
 
-> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-23-kuaixun.md) · [公众号排版版](daily/2026/2026-10-23-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-23.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-24-kuaixun.md) · [公众号排版版](daily/2026/2026-10-24-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-24.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】10月23日 周五
-今日 AI 与开源要闻 17 条，3 分钟速读
+【每日科技快讯】10月24日 周六
+今日 AI 与开源要闻 16 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 3 个 PR、提交 3 次
-2. hust-mail-cli 合并 3 个 PR
-3. TranslateProject 新增 2 个 PR
+1. 开放原子开源俱乐部合并 2 个 PR、提交 2 次
+2. hust-mail-cli 合并 2 个 PR
+3. AtomGit-Mobile4Android 新增 1 个 PR
 
-【海外动态】
-4. Mistral 与 NVIDIA 合作开发 AI 原生工程工作流
-→ Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。
-5. openai/openai-cli：官方命令行工具
-→ openai/openai-cli 是官方命令行工具，可在终端调用 OpenAI REST API。
-6. Ai2 发布 OlmoEarth v1.3 卫星嵌入模型
-→ Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。
-7. OpenAI 推出 Decisions API
-→ OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。
+【国内动态】
+4. 月之暗面发布Kimi K3.1 Pro模型
+→ 月之暗面发布了首个拥有100万token上下文窗口的3T级开源模型Kimi K3.1 Pro，并推出了速度提升2-3倍的K3.1 Pro Highspeed版本。
 
 【开源项目】
-8. LocalAI 发布 4.12.0 版本
-→ LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。
-9. OpenShell：自主 AI 智能体的安全运行时
-→ OpenShell 为自主 AI 智能体提供安全、私密的运行环境。
-10. headroom：压缩工具输出和日志
-→ headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。
-11. genoffice：内置 AI 智能体的办公套件
-→ genoffice 是内置 AI 智能体的免费开源办公套件，支持编辑本地文件。
-12. AirLLM：4GB GPU 推理 2.8T 模型
-→ AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。
+5. WorldTUI：360M模型模拟终端
+→ 作者微调了一个360M参数的语言模型来模拟终端，它能记住之前的操作并运行vim和tmux等命令。
+6. vLLM 在 16 个 H200 上部署 GLM-5.3
+→ vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。
+7. claude-howto：Claude Code可视化指南
+→ 提供Claude Code的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。
+8. anthropics/knowledge-work-plugins开源
+→ Anthropic开源了知识工作插件仓库，旨在供知识工作者在Claude Cowork中使用。
+9. book-to-skill：PDF转Claude Code技能
+→ 开源项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。
 
 【学术前沿】
-13. Cache Engineering for Agents：智能体缓存工程
-→ Cache Engineering for Agents 提出直接控制 KV 缓存的新方案。
-14. SpatialScout：VLM 智能体 3D 场景映射
-→ SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。
-15. PAR：状态跟踪中的长度泛化对齐递归
-→ PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。
-16. MemT-1.0：迈向原生记忆进化
-→ MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。
+10. Anthropic：LLMs 让大规模形式化软件验证成为可能
+→ Anthropic 的 Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。
+11. AI 在数学上越来越擅长，原因如下
+→ AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。
+12. WildAWM：计算机使用智能体环境合成
+→ 提出WildAWM管道，利用开源模型构建支持多种交互界面的环境，用于训练通用计算机使用智能体。
+13. 虚拟世界具身智能体持续预训练研究
+→ 研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响，发现多样性改善向相关世界的迁移。
 
 【产业纵横】
-17. OpenAI 模型登陆 Google Cloud
-→ OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。
+14. OpenAI 联合机构部署数千个 AI 智能体分析小鼠脑细胞
+→ OpenAI 联合 PerturbAI 和斯克里普斯研究所，利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。
+15. OpenAI 加强前沿模型训练环境的安全性
+→ OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。
+16. OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储
+→ OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。
 
 【活动预告】
 · 10月26日 WWW 2027 论文截稿
 · 11月5日 RECOMB 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-23-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-24-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -79,47 +77,45 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 3 个 PR、提交 3 次**<br>10月22日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 4 个、合并 3 个，提交 3 次，新增代码 1895 行、删除 93 行，3 位贡献者参与，其中 2 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 2 个 PR、提交 2 次**<br>10月23日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 4 个有人参与开发，共新增 PR 5 个、合并 2 个，提交 2 次，新增代码 1151 行、删除 128 行，4 位贡献者参与，其中 2 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**hust-mail-cli 合并 3 个 PR**<br>10月22日，Agent SIG的 hust-mail-cli 仓库新增 PR 2 个、合并 3 个、提交 3 次、新增代码 1895 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
+**hust-mail-cli 合并 2 个 PR**<br>10月23日，Agent SIG的 hust-mail-cli 仓库新增 PR 2 个、合并 2 个、提交 2 次、新增代码 1151 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
 
-**TranslateProject 新增 2 个 PR**<br>10月22日，HCTT SIG的 TranslateProject 仓库新增 PR 2 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/TranslateProject)）</sub>
+**AtomGit-Mobile4Android 新增 1 个 PR**<br>10月23日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
-#### 海外动态
+#### 国内动态
 
-**Mistral 与 NVIDIA 合作开发 AI 原生工程工作流**<br>10月21日，Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/)）</sub>
-
-**openai/openai-cli：官方命令行工具**<br>10月22日，openai/openai-cli 是官方命令行工具，可在终端调用 OpenAI REST API。<br><sub>（来源：[Hacker News](https://github.com/openai/openai-cli)）</sub>
-
-**Ai2 发布 OlmoEarth v1.3 卫星嵌入模型**<br>10月23日，Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/allenai/olmoearth-v1-3)）</sub>
-
-**OpenAI 推出 Decisions API**<br>10月23日，OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。<br><sub>（来源：[OpenAI](https://openai.com/index/decisions-api)）</sub>
+**月之暗面发布Kimi K3.1 Pro模型**<br>10月24日，月之暗面发布了首个拥有100万token上下文窗口的3T级开源模型Kimi K3.1 Pro，并推出了速度提升2-3倍的K3.1 Pro Highspeed版本。<br><sub>（来源：[Hacker News](https://www.kimi.ai/blog/kimi-k3-1-pro)）</sub>
 
 #### 开源项目
 
-**LocalAI 发布 4.12.0 版本**<br>10月22日，LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/mudler/LocalAI/releases/tag/v4.12.0)）</sub>
+**WorldTUI：360M模型模拟终端**<br>10月22日，作者微调了一个360M参数的语言模型来模拟终端，它能记住之前的操作并运行vim和tmux等命令。<br><sub>（来源：[Hacker News](https://simedw.com/2026/10/21/world-model-terminal/)）</sub>
 
-**OpenShell：自主 AI 智能体的安全运行时**<br>10月23日，OpenShell 为自主 AI 智能体提供安全、私密的运行环境。<br><sub>（来源：[Hacker News](https://github.com/NVIDIA/OpenShell)）</sub>
+**vLLM 在 16 个 H200 上部署 GLM-5.3**<br>10月23日，vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse)）</sub>
 
-**headroom：压缩工具输出和日志**<br>10月23日消息，headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。<br><sub>（来源：[GitHub Trending](https://github.com/headroomlabs-ai/headroom)）</sub>
+**claude-howto：Claude Code可视化指南**<br>10月24日消息，提供Claude Code的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。<br><sub>（来源：[GitHub Trending](https://github.com/luongnv89/claude-howto)）</sub>
 
-**genoffice：内置 AI 智能体的办公套件**<br>10月23日消息，genoffice 是内置 AI 智能体的免费开源办公套件，支持编辑本地文件。<br><sub>（来源：[GitHub Trending](https://github.com/genspark-ai/genoffice)）</sub>
+**anthropics/knowledge-work-plugins开源**<br>10月24日消息，Anthropic开源了知识工作插件仓库，旨在供知识工作者在Claude Cowork中使用。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/knowledge-work-plugins)）</sub>
 
-**AirLLM：4GB GPU 推理 2.8T 模型**<br>10月23日消息，AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。<br><sub>（来源：[GitHub Trending](https://github.com/lyogavin/airllm)）</sub>
+**book-to-skill：PDF转Claude Code技能**<br>10月24日消息，开源项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。<br><sub>（来源：[GitHub Trending](https://github.com/virgiliojr94/book-to-skill)）</sub>
 
 #### 学术前沿
 
-**Cache Engineering for Agents：智能体缓存工程**<br>10月21日，Cache Engineering for Agents 提出直接控制 KV 缓存的新方案。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.28577)）</sub>
+**Anthropic：LLMs 让大规模形式化软件验证成为可能**<br>10月22日，Anthropic 的 Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/formal-verification)）</sub>
 
-**SpatialScout：VLM 智能体 3D 场景映射**<br>10月23日消息，SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.26659)）</sub>
+**AI 在数学上越来越擅长，原因如下**<br>10月23日，AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。<br><sub>（来源：[Latent Space](https://latent.space/p/ai-is-getting-good-at-math/)）</sub>
 
-**PAR：状态跟踪中的长度泛化对齐递归**<br>10月23日消息，PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.27628)）</sub>
+**WildAWM：计算机使用智能体环境合成**<br>10月24日消息，提出WildAWM管道，利用开源模型构建支持多种交互界面的环境，用于训练通用计算机使用智能体。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.26828)）</sub>
 
-**MemT-1.0：迈向原生记忆进化**<br>10月23日消息，MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.26825)）</sub>
+**虚拟世界具身智能体持续预训练研究**<br>10月24日消息，研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响，发现多样性改善向相关世界的迁移。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.28698)）</sub>
 
 #### 产业纵横
 
-**OpenAI 模型登陆 Google Cloud**<br>10月21日，OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。<br><sub>（来源：[Hacker News](https://openai.com/index/openai-models-google-cloud/)）</sub>
+**OpenAI 联合机构部署数千个 AI 智能体分析小鼠脑细胞**<br>10月23日，OpenAI 联合 PerturbAI 和斯克里普斯研究所，利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。<br><sub>（来源：[IT之家](https://www.ithome.com/1/017/274.htm)）</sub>
+
+**OpenAI 加强前沿模型训练环境的安全性**<br>10月23日，OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。<br><sub>（来源：[OpenAI](https://openai.com/index/securing-our-frontier-model-training-environment)）</sub>
+
+**OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储**<br>10月24日，OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。<br><sub>（来源：[OpenAI](https://openai.com/index/scaling-storage-one-billion-users-part-two)）</sub>
 
 ### 活动预告
 
@@ -127,7 +123,7 @@
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月22日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-23 14:02（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月23日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-24 06:10（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 1 期 · 10.12–10.18
 

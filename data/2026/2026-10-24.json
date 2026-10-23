@@ -1,0 +1,1534 @@
+{
+ "date": "2026-10-24",
+ "generated_at": "2026-10-23T22:10:04Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 463,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 55,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 3.0
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.2
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.0
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 44,
+   "error": "",
+   "seconds": 5.5
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 309,
+   "error": "",
+   "seconds": 21.6
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 6,
+   "error": "",
+   "seconds": 19.5
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 28,
+   "error": "",
+   "seconds": 24.7
+  }
+ ],
+ "items": [
+  {
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic 研究",
+   "published": "2026-10-22T00:00:00Z",
+   "summary": "",
+   "heat": 0.978,
+   "weight": 0.85,
+   "metrics": {
+    "points": 437.0,
+    "comments": 280.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50202217",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Claude formally proved security properties in the compiled code of 123 open-source libraries. Along the way, it found bugs that had eluded detection for years. Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich Nicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled with bugs, which AI can now easily find and exploit . The standard defenses against cyberattacks are no longer sufficient: we need ways to prove that code is free of bugs. Formal software verification could provide this guarantee, but it has historically required years of expert effort, making it impractical for most real-world projects. In a collaboration with Theorem , however, w…",
+    "llm_done": true
+   },
+   "id": "ca664c9883d6",
+   "score": 8.79,
+   "title_zh": "LLMs 让大规模形式化软件验证成为可能",
+   "summary_zh": "Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。",
+   "tags": [
+    "论文",
+    "安全",
+    "软件验证"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-23T16:59:08Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 583.0,
+    "comments": 350.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50212065",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Introducing Kimi K3.1 Pro, our most capable 3T-class open-weight model with 1M-token context and major advances in coding, 3D modeling, and financial research. We're introducing Kimi K3.1 Pro , the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window. It delivers substantial improvements across coding, 3D creation, financial research, and other agentic capabilities. We are also releasing Kimi K3.1 Pro Highspeed , which delivers 2-3× the speed of K3.1 Pro for more responsive interactions. Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available today on Kimi.ai , Kimi Work , Kimi Code , and the Kimi API . The full model weights will be released by Nov 4. Kimi K3.1 Pro is a post-trained version of Kimi K3, with subs…",
+    "llm_done": true
+   },
+   "id": "a414001e9e8e",
+   "score": 8.26,
+   "title_zh": "Kimi K3.1 Pro 和 K3.1 Pro Highspeed",
+   "summary_zh": "Kimi 发布了 K3.1 Pro，这是首个拥有 100 万 token 上下文窗口的 3T 级开源模型，并推出了速度提升 2-3 倍的 K3.1 Pro Highspeed。",
+   "tags": [
+    "模型发布",
+    "开源模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-22T02:18:41Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 608.0,
+    "comments": 181.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50190363",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "A 360M model that pretends to be a terminal, and remembers what you did TL;DR: I fine-tuned a 360M-parameter language model to act as a terminal. There's no shell or filesystem behind it: every keypress goes in, and the model predicts how the screen changes. It can create files, run vim and tmux, play snake, and usually remembers what you wrote a few commands later. The biggest wins were teaching it to repair its own mistakes and decoding screen rows in parallel. Try it in your browser (208 MB) and type pythoon to see that it's not a real shell. The demo is designed for a desktop browser with WebGPU and a physical keyboard. Chrome or Edge is the best place to try it. It should work on a modern phone, but painfully slowly. When I first saw Genie 3 last year, I started imagining a future wh…",
+    "llm_done": true
+   },
+   "id": "7dbfe4927012",
+   "score": 7.94,
+   "title_zh": "WorldTUI：训练 360M 模型模拟终端",
+   "summary_zh": "作者微调了一个 360M 参数的语言模型来模拟终端，它能记住之前的操作并运行 vim 和 tmux 等命令。",
+   "tags": [
+    "开源工具",
+    "终端模拟"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-23T17:00:00Z",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "73d538c2dcd1",
+   "score": 7.82,
+   "title_zh": "OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储",
+   "summary_zh": "OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。",
+   "tags": [
+    "基础设施",
+    "性能优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+   "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-23T18:24:54Z",
+   "summary": "",
+   "heat": 0.763,
+   "weight": 0.6,
+   "metrics": {
+    "points": 114.0,
+    "comments": 37.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50213337",
+    "excerpt_tried": true,
+    "evidence": "Analysis of Kimi's Kimi K3.1 Pro and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more. Kimi K3.1 Pro is amongst the leading models in intelligence and reasonably priced when comparing to other models of similar price. It's also slower than average and very verbose. The model supports text and image input, outputs text, and has a 1M tokens context window. Kimi K3.1 Pro scores 55 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 27). When evaluating the Intelligence Index, it generated 150M tokens, which is very verbose in comparison to the median of 87M. Pricing for Kimi K3.1 Pro is $2.00 per 1M input tokens (moderately priced, m…",
+    "llm_done": true
+   },
+   "id": "fddf49a7774a",
+   "score": 7.51,
+   "title_zh": "Kimi K3.1 在 Artificial Analysis 评测中得分 55",
+   "summary_zh": "Kimi K3.1 Pro 在 Artificial Analysis 智能指数上得分 55，远超同类模型的中位数 27。",
+   "tags": [
+    "模型评测",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+   "url": "https://news.ycombinator.com/item?id=50200997",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-22T21:03:55Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 572.0,
+    "comments": 617.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50200997",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "072416064c6b",
+   "score": 7.48,
+   "title_zh": "Ask HN：如果模型这么好，OpenAI 为什么不成立 100 家公司？",
+   "summary_zh": "",
+   "tags": [
+    "行业动态",
+    "讨论"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI 联合研究机构部署数千个 AI 智能体：32 分钟分析数百万个小鼠脑细胞，相当于人类数月时间",
+   "url": "https://www.ithome.com/1/017/274.htm",
+   "source": "rss",
+   "section": "news",
+   "via": "IT之家",
+   "published": "2026-10-23T14:43:44Z",
+   "summary": "IT之家 10 月 23 日消息，OpenAI 联合 PerturbAI 和斯克里普斯研究所（Scripps Research），利用数千个 AI 智能体分析数百万个小鼠脑细胞的生物学数据，整个分析过程仅耗时 32 分钟。 研究团队估计，如果由人类研究人员逐项分析实验结果并检索相关文献，完成同等工作可能需要数月到一年。 根据 OpenAI 10 月 21 日发布的介绍，这项研究使用了专为生命科学研究设计的 GPT-Rosalind 模型，分析一份覆盖整个小鼠大脑的 CRISPR 图谱。该图谱记录了不同基因受到干预后，各类脑细胞产生的变化，有助于研究人员了解基因功能及其与疾病之间的潜在联系。 研究团队采用分布式 AI 智能体架构，将大量分析任务拆分后并行执行。每个智能体负责研究一种基因干预，分析相关细胞的反应，并检索科学文献，为观察到的变化寻找可能的生物学解释。 随后，研究人员将各智能体的报告整合为一份名为“Reasoning Atlas”的推理图谱，关联基因、细胞变化、参考文献和潜在作用机制。 研究人员发现，分布式智能体不仅能够复现已有研究中的部分结论，还提出了一些值得进一步验证的线…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "90c59768cbba",
+   "score": 7.4,
+   "title_zh": "OpenAI 部署数千个 AI 智能体分析小鼠脑细胞",
+   "summary_zh": "数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据，相当于人类数月的工作量。",
+   "tags": [
+    "智能体",
+    "生物科研",
+    "多智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI Is Getting Good at Math. Here’s Why.",
+   "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+   "source": "rss",
+   "section": "news",
+   "via": "Latent Space",
+   "published": "2026-10-23T15:19:48Z",
+   "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "1f863bfc1ccf",
+   "score": 7.28,
+   "title_zh": "AI 在数学上越来越擅长，原因如下",
+   "summary_zh": "AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。",
+   "tags": [
+    "数学",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+   "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-23T19:00:07Z",
+   "summary": "Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weights as planned, the gap between open and proprietary models shrinks to just three points. The article Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5 appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "c53593cd314d",
+   "score": 7.16,
+   "title_zh": "Kimi K3.1 Pro 距离 Claude Opus 5.5 仅差 3 分",
+   "summary_zh": "Kimi K3.1 Pro 在 Artificial Analysis 智能指数上获得 55 分，排名第四，仅落后于三家 Anthropic 和 Meta 模型。",
+   "tags": [
+    "模型发布",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-23T10:00:00Z",
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 35.0,
+    "comments": 28.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50214416",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "cb844255fe24",
+   "score": 7.15,
+   "title_zh": "OpenAI 加强前沿模型训练环境的安全性",
+   "summary_zh": "OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。",
+   "tags": [
+    "安全",
+    "训练"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "luongnv89/claude-howto",
+   "url": "https://github.com/luongnv89/claude-howto",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "heat": 0.882,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1168.0,
+    "stars": 43980.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "3316bb5b61ce",
+   "score": 8.28,
+   "title_zh": "",
+   "summary_zh": "提供 Claude Code 的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。",
+   "tags": [
+    "开源工具",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "GLM-5.3 Optimizations, Part 2: PCP, DCP, and Hybrid HiSparse on 16 H200s",
+   "url": "https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-23T00:00:00Z",
+   "summary": "vLLM serves GLM-5.3 on 16 H200s with PCP and DCP prefill and Hybrid HiSparse decode, reaching 1M-token contexts and 1.7–3.2× the per-user speed of data-parallel P/D on the AgentX agentic benchmark.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "9f7260b41bd9",
+   "score": 7.62,
+   "title_zh": "",
+   "summary_zh": "vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "模型优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "heat": 0.808,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 643.0,
+    "stars": 32171.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a9e735159808",
+   "score": 7.54,
+   "title_zh": "",
+   "summary_zh": "Anthropic 开源的知识工作插件仓库，旨在供知识工作者在 Claude Cowork 中使用。",
+   "tags": [
+    "开源工具",
+    "插件"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "virgiliojr94/book-to-skill",
+   "url": "https://github.com/virgiliojr94/book-to-skill",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+   "heat": 0.617,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 139.0,
+    "stars": 35869.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "69dffc757038",
+   "score": 7.15,
+   "title_zh": "",
+   "summary_zh": "开源项目可将任何技术书 PDF 转换为 Claude Code 技能，方便学习和参考。",
+   "tags": [
+    "开源工具",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Lordog/dive-into-llms",
+   "url": "https://github.com/Lordog/dive-into-llms",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "《动手学大模型Dive into LLMs》系列编程实践教程",
+   "heat": 0.582,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 105.0,
+    "stars": 57335.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "c57047035ab0",
+   "score": 7.08,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "教程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "langgenius/dify 1.18.0",
+   "url": "https://github.com/langgenius/dify/releases/tag/1.18.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-23T06:33:50Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the new difyctl expand how you build and manage apps from the command line. > [!IMPORTANT] > **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and Agent Backend uses a new run protocol. Source installations require Python 3.13. Install the new difyctl client and sign in again. Preserve your existing `PASSWORD_PEPPER` configuration. ### Release highlights #### Agents that choose the next step Let an Agent decide which workflow branch to take. Enable **Output Routes**, give each route a selection condition, and connect it to the next step—such as resolving a request directly or handing it to a specialist. The read-only `switch` output exposes the chosen route. (#42599) ![Agent Output Routes with Resolve directly and Escalate to team branches](https://github.com/user-attachments/assets/30480ac3-d53e-4522-b1c5-95eb1d9ac9f2) *Output Routes configuration with two branches in the workflow editor.* Plain Agent v2 nodes also stream text as it is generated. Structured results, routed results, and nodes using default-value error handling remain buffered. (#43986) #### Portable apps in one package Move an app with its supported resources in a single **`.ifpkg`…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "89f8351dfcd7",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "Dify 1.18.0 引入了路由工作流的智能体、可移植应用包和 Agent 知识库功能。",
+   "tags": [
+    "开源工具",
+    "应用开发"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Context Engineering (Agent Memory) for AI Agents Starts with Retrieval",
+   "url": "https://www.langchain.com/blog/context-engineering-starts-with-retrieval",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-10-23T21:32:37Z",
+   "summary": "Agents waste time and context on clumsy searches, oversized results and stale data. Learn the retrieval techniques LangChain's Deep Agents harness uses to get the right context in.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "bd2d80c1934e",
+   "score": 6.91,
+   "title_zh": "",
+   "summary_zh": "LangChain 的 Deep Agents 通过检索技术来获取正确的上下文，避免在笨拙的搜索上浪费时间和资源。",
+   "tags": [
+    "智能体",
+    "上下文工程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "black-forest-labs/flux-3-image-klein-comfy",
+   "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图像编辑模型，许可证 other",
+   "heat": 0.807,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 1400.0,
+    "downloads": 534837.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/black-forest-labs/flux-3-image-klein-comfy"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6ecc1d71a535",
+   "score": 6.81,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "图像生成"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+   "url": "https://arxiv.org/abs/2610.26828",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-19T17:55:35Z",
+   "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs). Whereas existing approaches typically specialize in a single agent interaction interface, we construct executable environments that jointly support graphical user interfaces, model context protocol services, and command-line interfaces, allowing agents to flexibly combine visual interaction, tool use, and code execution. WildAWM is entirely powered by open-source models, demonstrating that high-quality computer-use environments can be generated without proprietary frontier models. Beyond environments, we address three recurring challenges in task synthesis: ensuring solvability, maintaining sufficient difficulty, and producing reliable verifiers, by introducing execution-based quality gates that combine heterogeneous agent rollouts, cross-judge consistency checks, and counterfactual probes of judgment robustness. The resulting pipeline synthesizes 341 long-horizon environment-task pairs that can require over 100 agent steps to solve and remain challenging even for frontier models, with GPT-6-Astra solving only 60% of them. We train two Qwen models of differe…",
+   "heat": 0.759,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 75.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/MSR-Orchard/WildAWM"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "2152d94df9b1",
+   "score": 7.47,
+   "title_zh": "",
+   "summary_zh": "为解决在真实计算机系统中直接学习带来的挑战和安全风险，提出WildAWM，一个合成可控环境和任务的管道。该方法利用开源模型构建支持多种交互界面的环境，并通过执行质量门控解决任务合成中的问题。结果显示，该管道合成了341个长时序环境-任务对，GPT-6-Astra仅能解决60%。",
+   "tags": [
+    "智能体",
+    "环境合成",
+    "开源模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+   "url": "https://arxiv.org/abs/2610.28698",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-20T11:09:09Z",
+   "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours, and five mixtures ranging from Minecraft-only data to diverse multi-world corpora. We assess performance and generalization using three-level validation losses and gameplay benchmarks from in-corpus worlds to unseen worlds. Our results show: (1) more data improves in-corpus performance, diversity improves transfer to related worlds with limited gains in distant worlds, and model size improves data efficiency but generalizes worse to distant worlds under single-world training; (2) we observe an early interface phase with broad cross-world benefits and a later world phase with gains narrowed to in-corpus and related worlds, and fit an empirical scaling law relating validation loss to data volume, diversity and model size; and (3) our models are competitive with Minecraft specialists and frontier models in 3D worlds, and perform best in real-time settings. However, the limits of imitation and persistent gaps in distant worlds suggest…",
+   "heat": 0.72,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 60.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/THUSI-Lab/GameScaling"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d840abad903e",
+   "score": 6.84,
+   "title_zh": "游戏中的扩展：虚拟世界中具身智能体的持续预训练",
+   "summary_zh": "研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响。通过控制实验发现，更多数据提高语内性能，多样性改善向相关世界的迁移，而模型大小提高数据效率。模型在3D世界中与Minecraft专家和前沿模型竞争，但在远距离世界中存在模仿极限。",
+   "tags": [
+    "具身智能体",
+    "预训练",
+    "虚拟世界"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+   "url": "https://arxiv.org/abs/2610.30755",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-22T05:23:16Z",
+   "summary": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and reranking over raw history to supply evidence to a reader LLM. Across LoCoMo, LongMemEval, MEME, and MemoryAgentBench, Raw-RAG ranks first among the compared memory systems in six of seven benchmark-model settings, outperforming the strongest compared agentic memory system by 0.13-5.53 points. We investigate why raw-history retrieval remains competitive. Evidence analysis shows that its higher coverage of necessary evidence can offset lower utilization. Useful evidence includes both answer values and the relations and dependency paths needed to derive them. Even complete access to transformed memory stores leaves an accuracy gap relative to raw evidence, highlighting the importance of preserving raw information. These findings challenge the necessity of complex agentic memory for the evaluated conversation tasks and establish naive RAG as an essential baseline.",
+   "heat": 0.486,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 15.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Litmeb/RAW-RAG"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "68490f0ecfff",
+   "score": 6.58,
+   "title_zh": "复杂智能体记忆总是必要的吗？朴素RAG比我们想象的更强",
+   "summary_zh": "研究朴素RAG在长对话理解中的表现，发现其通过原始历史检索提供证据，在多个基准测试中优于复杂的智能体记忆系统。分析表明，原始证据的高覆盖率可以弥补利用率的不足，即使完全访问转换后的记忆存储，与原始证据相比仍存在准确率差距。",
+   "tags": [
+    "长上下文",
+    "检索增强生成",
+    "记忆系统"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
+   "url": "https://arxiv.org/abs/2610.26233",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-10-19T11:59:57Z",
+   "summary": "Tool-using voice agents often leave users waiting after speech ends, even when actionable information arrives earlier in the request. Speculative approaches begin work during speech, but chunk-bounded or interrupt-on-update generation can truncate a tool call before its arguments are complete. This couples computation time to speech updates, limiting useful work completed in advance. We introduce Heartbeat Thinking, which handles updated input through new Thinker invocations while allowing ongoing invocations and dispatched tools to finish. Periodic invocations read the latest partial transcript and a shared record of completed reasoning and tool results. These results help resolve missing arguments and initiate dependent calls, allowing preparation to progress across speech updates. Across SpeechFCEval, FDBench v3, and AudioCRAG, Heartbeat improves aggregate speculative tool coverage or retrieval reuse over a SHANKS-style windowed baseline, with benchmark-dependent effects on final task quality. On FDBench v3, it increases tool coverage by 16 percentage points and reduces mean final-response latency by 36.4\\%. The results show that heartbeat thinking paradigm preserving ongoing computation during speech can turn listening time into reusable preparation for faster and more capable voice-agent responses.",
+   "heat": 0.516,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 18.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4671334a2681",
+   "score": 6.36,
+   "title_zh": "心跳思考：实时语音智能体中的推测推理与工具执行",
+   "summary_zh": "",
+   "tags": [
+    "语音智能体",
+    "实时推理",
+    "工具执行"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Retrieval Augmented Generation Compositionality",
+   "url": "https://arxiv.org/abs/2610.29722",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-21T13:30:29Z",
+   "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale. We pre-declare three hypotheses and introduce LASAGNA, an open-source framework for controlled RAG evaluation. We test 450 configurations across eight benchmarks and corpora ranging from 5K to 200K documents. Three findings emerge. First, individually strong techniques from different phases of a RAG pipeline do not necessarily compose: three retrieval techniques predict a +47% combined improvement but deliver only +17% when used together. Second, component gains stack differently for retrieval and faithfulness, and optimizing one can hurt the other. Third, the best composition changes as the corpus grows: the combination that wins on a small corpus may not remain best at large scale. These findings show that gains measured in isolation are not reliable predictors of realistic performance, and that new RAG techniques should be tested with the full surrounding stack. We call on researchers to do so and supply LASAGNA to simplify these experiments.",
+   "heat": 0.651,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 40.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/dolev31/lasagna"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "f6cbb140dae3",
+   "score": 6.21,
+   "title_zh": "检索增强生成的组合性",
+   "summary_zh": "研究RAG管道中各技术的组合效果，发现单独强力的技术组合后可能表现不佳。检索质量和答案忠实度对设计选择的影响不同，且最佳组合随语料库规模变化。研究强调，单独测量的增益不能可靠预测实际性能，RAG技术应在完整堆栈中测试。",
+   "tags": [
+    "检索增强生成",
+    "组合性",
+    "评估框架"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-24",
+  "start": "2026-10-24",
+  "end": "2026-10-24",
+  "title": "Anthropic：LLMs 让大规模形式化软件验证成为可能",
+  "generated_at": "2026-10-23T22:10:04Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-10-23",
+   "end": "2026-10-23"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 2 次",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 4 个有人参与开发，共新增 PR 5 个、合并 2 个，提交 2 次，新增代码 1151 行、删除 128 行，4 位贡献者参与，其中 2 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "hust-mail-cli 合并 2 个 PR",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "Agent SIG的 hust-mail-cli 仓库新增 PR 2 个、合并 2 个、提交 2 次、新增代码 1151 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mail-cli",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 新增 1 个 PR",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "月之暗面发布Kimi K3.1 Pro模型",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "月之暗面发布了首个拥有100万token上下文窗口的3T级开源模型Kimi K3.1 Pro，并推出了速度提升2-3倍的K3.1 Pro Highspeed版本。",
+    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "via": "Hacker News",
+    "id": "a414001e9e8e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "WorldTUI：360M模型模拟终端",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "作者微调了一个360M参数的语言模型来模拟终端，它能记住之前的操作并运行vim和tmux等命令。",
+    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+    "via": "Hacker News",
+    "id": "7dbfe4927012",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM 在 16 个 H200 上部署 GLM-5.3",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。",
+    "url": "https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse",
+    "via": "vLLM 博客",
+    "id": "9f7260b41bd9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "claude-howto：Claude Code可视化指南",
+    "when": "10月24日消息",
+    "date": "2026-10-24",
+    "body": "提供Claude Code的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。",
+    "url": "https://github.com/luongnv89/claude-howto",
+    "via": "GitHub Trending",
+    "id": "3316bb5b61ce",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "anthropics/knowledge-work-plugins开源",
+    "when": "10月24日消息",
+    "date": "2026-10-24",
+    "body": "Anthropic开源了知识工作插件仓库，旨在供知识工作者在Claude Cowork中使用。",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "via": "GitHub Trending",
+    "id": "a9e735159808",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "book-to-skill：PDF转Claude Code技能",
+    "when": "10月24日消息",
+    "date": "2026-10-24",
+    "body": "开源项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "via": "GitHub Trending",
+    "id": "69dffc757038",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Anthropic：LLMs 让大规模形式化软件验证成为可能",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "Anthropic 的 Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "via": "Anthropic 研究",
+    "id": "ca664c9883d6",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "AI 在数学上越来越擅长，原因如下",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。",
+    "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+    "via": "Latent Space",
+    "id": "1f863bfc1ccf",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "WildAWM：计算机使用智能体环境合成",
+    "when": "10月24日消息",
+    "date": "2026-10-24",
+    "body": "提出WildAWM管道，利用开源模型构建支持多种交互界面的环境，用于训练通用计算机使用智能体。",
+    "url": "https://arxiv.org/abs/2610.26828",
+    "via": "arXiv · 智能体",
+    "id": "2152d94df9b1",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "虚拟世界具身智能体持续预训练研究",
+    "when": "10月24日消息",
+    "date": "2026-10-24",
+    "body": "研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响，发现多样性改善向相关世界的迁移。",
+    "url": "https://arxiv.org/abs/2610.28698",
+    "via": "arXiv · 智能体",
+    "id": "d840abad903e",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 联合机构部署数千个 AI 智能体分析小鼠脑细胞",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "OpenAI 联合 PerturbAI 和斯克里普斯研究所，利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。",
+    "url": "https://www.ithome.com/1/017/274.htm",
+    "via": "IT之家",
+    "id": "90c59768cbba",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 加强前沿模型训练环境的安全性",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "via": "OpenAI",
+    "id": "cb844255fe24",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "via": "OpenAI",
+    "id": "73d538c2dcd1",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "ca664c9883d6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Anthropic：LLMs 让大规模形式化软件验证成为可能",
+    "body": "Anthropic 的 Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。"
+   },
+   "a414001e9e8e": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面发布Kimi K3.1 Pro模型",
+    "body": "月之暗面发布了首个拥有100万token上下文窗口的3T级开源模型Kimi K3.1 Pro，并推出了速度提升2-3倍的K3.1 Pro Highspeed版本。"
+   },
+   "7dbfe4927012": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "WorldTUI：360M模型模拟终端",
+    "body": "作者微调了一个360M参数的语言模型来模拟终端，它能记住之前的操作并运行vim和tmux等命令。"
+   },
+   "73d538c2dcd1": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储",
+    "body": "OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。"
+   },
+   "fddf49a7774a": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面Kimi K3.1 Pro获55分",
+    "body": "Kimi K3.1 Pro在Artificial Analysis智能指数上得分55，远超同类模型的中位数27，支持文本和图像输入。"
+   },
+   "072416064c6b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Ask HN：OpenAI为何不成立100家公司",
+    "body": "讨论帖，询问如果模型这么好，OpenAI为什么不成立100家公司。"
+   },
+   "90c59768cbba": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 联合机构部署数千个 AI 智能体分析小鼠脑细胞",
+    "body": "OpenAI 联合 PerturbAI 和斯克里普斯研究所，利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。"
+   },
+   "1f863bfc1ccf": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AI 在数学上越来越擅长，原因如下",
+    "body": "AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。"
+   },
+   "c53593cd314d": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面 Kimi K3.1 Pro 智能指数排名第四",
+    "body": "Kimi K3.1 Pro 在 Artificial Analysis 智能指数上获得 55 分，排名第四，仅落后于三家 Anthropic 和 Meta 模型。"
+   },
+   "cb844255fe24": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 加强前沿模型训练环境的安全性",
+    "body": "OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。"
+   },
+   "3316bb5b61ce": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "claude-howto：Claude Code可视化指南",
+    "body": "提供Claude Code的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。"
+   },
+   "9f7260b41bd9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 在 16 个 H200 上部署 GLM-5.3",
+    "body": "vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。"
+   },
+   "a9e735159808": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "anthropics/knowledge-work-plugins开源",
+    "body": "Anthropic开源了知识工作插件仓库，旨在供知识工作者在Claude Cowork中使用。"
+   },
+   "69dffc757038": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "book-to-skill：PDF转Claude Code技能",
+    "body": "开源项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。"
+   },
+   "c57047035ab0": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "dive-into-llms：大模型编程实践教程",
+    "body": "《动手学大模型Dive into LLMs》系列编程实践教程。"
+   },
+   "89f8351dfcd7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Dify 发布 1.18.0 版本",
+    "body": "Dify 1.18.0 引入了路由工作流的智能体、可移植应用包和 Agent 知识库功能。"
+   },
+   "bd2d80c1934e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain：Deep Agents 通过检索获取正确上下文",
+    "body": "LangChain 的 Deep Agents 通过检索技术来获取正确的上下文，避免在笨拙的搜索上浪费时间和资源。"
+   },
+   "6ecc1d71a535": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "flux-3-image-klein-comfy图像编辑模型",
+    "body": "图像编辑模型，许可证为other。"
+   },
+   "2152d94df9b1": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WildAWM：计算机使用智能体环境合成",
+    "body": "提出WildAWM管道，利用开源模型构建支持多种交互界面的环境，用于训练通用计算机使用智能体。"
+   },
+   "d840abad903e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "虚拟世界具身智能体持续预训练研究",
+    "body": "研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响，发现多样性改善向相关世界的迁移。"
+   },
+   "68490f0ecfff": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "朴素RAG在长对话理解中表现更强",
+    "body": "研究显示朴素RAG通过原始历史检索提供证据，在多个基准测试中优于复杂的智能体记忆系统。"
+   },
+   "4671334a2681": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Heartbeat Thinking：实时语音智能体推测推理",
+    "body": "论文提出Heartbeat Thinking方法，允许实时语音智能体在语音输入更新时启动新的思考器，同时让正在进行的工具调用继续执行，避免因语音更新而中断。"
+   },
+   "f6cbb140dae3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "检索增强生成的组合性研究",
+    "body": "研究指出RAG管道中各技术的组合效果可能不同于单独测试，检索质量和答案忠实度对设计选择的影响不同，最佳组合随语料库规模变化。"
+   },
+   "1757ab7d5f9d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+    "body": "国务院办公厅印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》。"
+   },
+   "6fba1a453a8d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "《国家信息化“十五五”规划》印发",
+    "body": "中央网络安全和信息化委员会印发《国家信息化“十五五”规划》。"
+   },
+   "f82b06bfeca2": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "国务院办公厅印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》。"
+   }
+  }
+ }
+}
