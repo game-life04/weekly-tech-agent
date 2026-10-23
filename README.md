@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 10.23（周五）
 
-> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-10-23-kuaixun.md) · [公众号排版版](daily/2026/2026-10-23-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-23.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,7 +22,7 @@
 
 ```text
 【每日科技快讯】10月23日 周五
-今日 AI 与开源要闻 15 条，3 分钟速读
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 3 个 PR、提交 3 次
@@ -30,24 +30,24 @@
 3. TranslateProject 新增 2 个 PR
 
 【海外动态】
-4. Google Cloud 集成 OpenAI 模型
-→ Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。
-5. Mistral 与 NVIDIA 合作开发 AI 原生工程工作流
+4. Mistral 与 NVIDIA 合作开发 AI 原生工程工作流
 → Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。
-6. openai-cli：官方命令行工具
-→ openai-cli 是调用 OpenAI REST API 的官方命令行工具。
-7. Ai2 发布 OlmoEarth v1.3 卫星嵌入模型
-→ Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。
-8. OpenAI 推出 Decisions API
+5. openai/openai-cli：官方命令行工具
+→ openai/openai-cli 是官方命令行工具，可在终端调用 OpenAI REST API。
+6. Ai2 发布 OlmoEarth v1.3 卫星嵌入模型
+→ Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。
+7. OpenAI 推出 Decisions API
 → OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。
 
 【开源项目】
+8. LocalAI 发布 4.12.0 版本
+→ LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。
 9. OpenShell：自主 AI 智能体的安全运行时
 → OpenShell 为自主 AI 智能体提供安全、私密的运行环境。
-10. headroom：压缩 LLM 输入数据
+10. headroom：压缩工具输出和日志
 → headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。
 11. genoffice：内置 AI 智能体的办公套件
-→ genoffice 是内置 AI 智能体的免费开源办公套件。
+→ genoffice 是内置 AI 智能体的免费开源办公套件，支持编辑本地文件。
 12. AirLLM：4GB GPU 推理 2.8T 模型
 → AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。
 
@@ -58,6 +58,12 @@
 → SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。
 15. PAR：状态跟踪中的长度泛化对齐递归
 → PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。
+16. MemT-1.0：迈向原生记忆进化
+→ MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。
+
+【产业纵横】
+17. OpenAI 模型登陆 Google Cloud
+→ OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。
 
 【活动预告】
 · 10月26日 WWW 2027 论文截稿
@@ -81,23 +87,23 @@
 
 #### 海外动态
 
-**Google Cloud 集成 OpenAI 模型**<br>10月21日，Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。<br><sub>（来源：[Hacker News](https://openai.com/index/openai-models-google-cloud/)）</sub>
-
 **Mistral 与 NVIDIA 合作开发 AI 原生工程工作流**<br>10月21日，Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/)）</sub>
 
-**openai-cli：官方命令行工具**<br>10月22日，openai-cli 是调用 OpenAI REST API 的官方命令行工具。<br><sub>（来源：[Hacker News](https://github.com/openai/openai-cli)）</sub>
+**openai/openai-cli：官方命令行工具**<br>10月22日，openai/openai-cli 是官方命令行工具，可在终端调用 OpenAI REST API。<br><sub>（来源：[Hacker News](https://github.com/openai/openai-cli)）</sub>
 
-**Ai2 发布 OlmoEarth v1.3 卫星嵌入模型**<br>10月23日，Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/allenai/olmoearth-v1-3)）</sub>
+**Ai2 发布 OlmoEarth v1.3 卫星嵌入模型**<br>10月23日，Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/allenai/olmoearth-v1-3)）</sub>
 
 **OpenAI 推出 Decisions API**<br>10月23日，OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。<br><sub>（来源：[OpenAI](https://openai.com/index/decisions-api)）</sub>
 
 #### 开源项目
 
+**LocalAI 发布 4.12.0 版本**<br>10月22日，LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/mudler/LocalAI/releases/tag/v4.12.0)）</sub>
+
 **OpenShell：自主 AI 智能体的安全运行时**<br>10月23日，OpenShell 为自主 AI 智能体提供安全、私密的运行环境。<br><sub>（来源：[Hacker News](https://github.com/NVIDIA/OpenShell)）</sub>
 
-**headroom：压缩 LLM 输入数据**<br>10月23日消息，headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。<br><sub>（来源：[GitHub Trending](https://github.com/headroomlabs-ai/headroom)）</sub>
+**headroom：压缩工具输出和日志**<br>10月23日消息，headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。<br><sub>（来源：[GitHub Trending](https://github.com/headroomlabs-ai/headroom)）</sub>
 
-**genoffice：内置 AI 智能体的办公套件**<br>10月23日消息，genoffice 是内置 AI 智能体的免费开源办公套件。<br><sub>（来源：[GitHub Trending](https://github.com/genspark-ai/genoffice)）</sub>
+**genoffice：内置 AI 智能体的办公套件**<br>10月23日消息，genoffice 是内置 AI 智能体的免费开源办公套件，支持编辑本地文件。<br><sub>（来源：[GitHub Trending](https://github.com/genspark-ai/genoffice)）</sub>
 
 **AirLLM：4GB GPU 推理 2.8T 模型**<br>10月23日消息，AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。<br><sub>（来源：[GitHub Trending](https://github.com/lyogavin/airllm)）</sub>
 
@@ -109,17 +115,24 @@
 
 **PAR：状态跟踪中的长度泛化对齐递归**<br>10月23日消息，PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.27628)）</sub>
 
+**MemT-1.0：迈向原生记忆进化**<br>10月23日消息，MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.26825)）</sub>
+
+#### 产业纵横
+
+**OpenAI 模型登陆 Google Cloud**<br>10月21日，OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。<br><sub>（来源：[Hacker News](https://openai.com/index/openai-models-google-cloud/)）</sub>
+
 ### 活动预告
 
 **WWW 2027 论文截稿**<br>10月26日，International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。<br><sub>（来源：[会议官网](https://www2027.thewebconf.org/)）</sub>
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月22日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-23 09:28（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月22日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-23 14:02（北京时间）自动生成。</sub>
 
-## 每周快讯 · 10.12–10.18
+## 每周快讯 第 1 期 · 10.12–10.18
 
-> 上周 AI 与开源要闻 **25** 条，5 分钟速读。<br>
+> 本期头条：DeepSeek-V4.1-Flash-1017 更新<br>
+> 上周 AI 与开源要闻 **24** 条，5 分钟速读。<br>
 > [阅读全文](weekly/2026-W42.md) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
@@ -130,31 +143,32 @@
 ✨ [俱乐部新建 AtomGit-Mobile4Android 仓库](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)
 
 **政策动向**<br>
-✨ [国务院常务会议听取人工智能进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
+✨ [国务院常务会议听取“人工智能+”行动进展汇报](https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm)
 
 **国内动态**<br>
 ✨ [智谱发布GLM新模型](https://www.qbitai.com/2026/10/502649.html)<br>
-✨ [面壁开源MiniCPM-V 4.7多模态模型](https://www.qbitai.com/2026/10/503109.html)<br>
-✨ [DeepSeek-V4.1-Flash-1017 推理性能提升](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
+✨ [面壁开源MiniCPM-V 4.7模型](https://www.qbitai.com/2026/10/503109.html)<br>
+✨ [DeepSeek-V4.1-Flash-1017 更新](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
 
 **海外动态**<br>
 ✨ [Meta发布Muse新模型](https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article)<br>
-✨ [Anthropic披露Claude动态工作流架构](https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article)<br>
-✨ [Gemini 4 Argon：解决最困难问题的前沿智能](https://deepmind.google/models/gemini/)<br>
-✨ [Muse Spark Open 开源](https://research.meta.ai/blog/muse-spark-open)<br>
-✨ [OpenAI 推出 Rosalind 学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
-✨ [Google DeepMind 发布 Antigravity 科学工具](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)
+✨ [Muse Spark Open 发布](https://research.meta.ai/blog/muse-spark-open)<br>
+✨ [OpenAI推出Rosalind学术计划](https://openai.com/index/introducing-the-rosalind-academic-plan)<br>
+✨ [Google Antigravity加速抗菌肽搜索](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)
 
 **开源项目**<br>
 ✨ [rea：用智能体做逆向工程](https://github.com/morluto/rea)<br>
 ✨ [Strata：在消费级硬件上运行Qwen3.8-Flash-Next](https://github.com/Niko1221/Strata)<br>
-✨ [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)<br>
-✨ [deepseek-ai/DeepSeek-V4.1-Flash](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash)
+✨ [transformers：支持文本、视觉、音频和多模态模型推理与训练](https://github.com/huggingface/transformers)<br>
+✨ [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 
 **学术前沿**<br>
 ✨ [Agent-Reflex：训练智能体主动反思](https://arxiv.org/abs/2610.17953)<br>
-✨ [大型语言模型如何通过线性映射存储信息](https://alexwang.ai/posts/associative-memory/)<br>
-✨ [Google 研究将 AI 智能体落地生物实验室](https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/)
+✨ [Gemini 4 Argon：解决最困难问题的前沿智能](https://deepmind.google/models/gemini/)<br>
+✨ [从记忆中发明 Transformer](https://alexwang.ai/posts/associative-memory/)
+
+**产业纵横**<br>
+✨ [银行试图转嫁刚承销的AI数据中心债务](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/)
 
 **活动预告**<br>
 ✨ [WWW 2027 论文截稿](https://www2027.thewebconf.org/)<br>

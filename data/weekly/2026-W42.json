@@ -1,15 +1,18 @@
 {
  "kuaixun": {
+  "kind": "weekly",
   "week": "2026-W42",
+  "number": 1,
   "start": "2026-10-12",
   "end": "2026-10-18",
-  "generated_at": "2026-10-19T22:54:20Z",
+  "title": "DeepSeek-V4.1-Flash-1017 更新",
+  "generated_at": "2026-10-23T06:02:03Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "e8671762",
+  "prompt": "4f7b2f10",
   "tries": 1,
-  "pending": 0,
+  "pending": 1,
   "club_period": {
    "start": "2026-10-12",
    "end": "2026-10-18"
@@ -82,10 +85,10 @@
    },
    {
     "cat": "policy",
-    "headline": "国务院常务会议听取人工智能进展汇报",
+    "headline": "国务院常务会议听取“人工智能+”行动进展汇报",
     "when": "10月16日",
     "date": "2026-10-16",
-    "body": "国务院常务会议听取“人工智能+”行动进展情况汇报，强调以落地应用牵引技术创新。",
+    "body": "国务院常务会议听取“人工智能+”行动进展情况汇报，强调以落地应用牵引技术创新，加强技术攻关和算法创新。",
     "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083431.htm",
     "via": "中国政府网",
     "id": "a5ab6cd6990b",
@@ -104,10 +107,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "面壁开源MiniCPM-V 4.7多模态模型",
+    "headline": "面壁开源MiniCPM-V 4.7模型",
     "when": "10月14日",
     "date": "2026-10-14",
-    "body": "面壁开源MiniCPM-V 4.7多模态模型，支持在iPhone上运行。",
+    "body": "面壁开源MiniCPM-V 4.7多模态模型，支持在iPhone等设备上运行。",
     "url": "https://www.qbitai.com/2026/10/503109.html",
     "via": "量子位",
     "id": "88b939e118e6",
@@ -115,7 +118,7 @@
    },
    {
     "cat": "domestic",
-    "headline": "DeepSeek-V4.1-Flash-1017 推理性能提升",
+    "headline": "DeepSeek-V4.1-Flash-1017 更新",
     "when": "10月17日",
     "date": "2026-10-17",
     "body": "DeepSeek-V4.1-Flash-1017 推理、编码和智能体任务性能提升，执行时间更短。",
@@ -129,7 +132,7 @@
     "headline": "Meta发布Muse新模型",
     "when": "10月13日",
     "date": "2026-10-13",
-    "body": "Meta发布Muse新模型，Alexandr Wang亲述研发内幕。",
+    "body": "Meta发布Muse新模型，Alexandr Wang分享了模型研发的内幕。",
     "url": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article",
     "via": "InfoQ 中文",
     "id": "268c81cd0d5f",
@@ -137,29 +140,7 @@
    },
    {
     "cat": "overseas",
-    "headline": "Anthropic披露Claude动态工作流架构",
-    "when": "10月13日",
-    "date": "2026-10-13",
-    "body": "Anthropic披露Claude动态工作流架构，Claude开始自己写程序管理Agent。",
-    "url": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
-    "via": "InfoQ 中文",
-    "id": "7fbd311301bb",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Gemini 4 Argon：解决最困难问题的前沿智能",
-    "when": "10月14日",
-    "date": "2026-10-14",
-    "body": "Gemini 4 Argon 能将原始视频转化为物理准确的模拟，帮助研究人员加速发现。",
-    "url": "https://deepmind.google/models/gemini/",
-    "via": "Hacker News",
-    "id": "b4606c998906",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Muse Spark Open 开源",
+    "headline": "Muse Spark Open 发布",
     "when": "10月16日",
     "date": "2026-10-16",
     "body": "Muse Spark Open 是目前最强大的美国开源模型，支持 816B 参数和 1M 上下文窗口，专为编码和智能体工作设计。",
@@ -170,10 +151,10 @@
    },
    {
     "cat": "overseas",
-    "headline": "OpenAI 推出 Rosalind 学术计划",
+    "headline": "OpenAI推出Rosalind学术计划",
     "when": "10月16日",
     "date": "2026-10-16",
-    "body": "OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 的赞助访问权限。",
+    "body": "OpenAI推出Rosalind学术计划，为符合条件的学术实验室提供GPT-Rosalind的赞助访问权限。",
     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
     "via": "OpenAI",
     "id": "edb461273095",
@@ -181,10 +162,10 @@
    },
    {
     "cat": "overseas",
-    "headline": "Google DeepMind 发布 Antigravity 科学工具",
+    "headline": "Google Antigravity加速抗菌肽搜索",
     "when": "10月16日",
     "date": "2026-10-16",
-    "body": "Google Antigravity 用于科学领域，加速寻找新型抗菌肽。",
+    "body": "Google Antigravity用于科学领域，加速寻找新型抗菌肽。",
     "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
     "via": "Google DeepMind",
     "id": "cbc7643dde66",
@@ -195,7 +176,7 @@
     "headline": "rea：用智能体做逆向工程",
     "when": "10月12日消息",
     "date": "2026-10-12",
-    "body": "使用智能体从应用行为到原生二进制文件进行逆向工程。",
+    "body": "morluto/rea 仓库提供使用智能体从应用行为到原生二进制文件进行逆向工程的功能。",
     "url": "https://github.com/morluto/rea",
     "via": "GitHub Trending",
     "id": "710f7fe65ffc",
@@ -206,7 +187,7 @@
     "headline": "Strata：在消费级硬件上运行Qwen3.8-Flash-Next",
     "when": "10月12日消息",
     "date": "2026-10-12",
-    "body": "Strata 推理引擎支持本地 OpenAI/Anthropic API，可选图像输入。",
+    "body": "Strata 推理引擎支持在消费级硬件上运行 Qwen3.8-Flash-Next，提供本地 OpenAI/Anthropic API 接口。",
     "url": "https://github.com/Niko1221/Strata",
     "via": "GitHub 新项目",
     "id": "2a80b8806cb5",
@@ -214,24 +195,24 @@
    },
    {
     "cat": "opensource",
-    "headline": "K-Dense-AI/scientific-agent-skills",
-    "when": "10月16日消息",
-    "date": "2026-10-16",
-    "body": "该库包含 177 个可用的验证技能和 100 多个科学数据库。",
-    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "headline": "transformers：支持文本、视觉、音频和多模态模型推理与训练",
+    "when": "10月12日消息",
+    "date": "2026-10-12",
+    "body": "huggingface/transformers 是支持文本、视觉、音频和多模态模型推理与训练的模型定义框架。",
+    "url": "https://github.com/huggingface/transformers",
     "via": "GitHub Trending",
-    "id": "9bda2e5da9e8",
+    "id": "443ea9329e44",
     "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "deepseek-ai/DeepSeek-V4.1-Flash",
-    "when": "10月18日消息",
-    "date": "2026-10-18",
-    "body": "deepseek-ai 发布 DeepSeek-V4.1-Flash 图文理解模型。",
-    "url": "https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash",
-    "via": "魔搭 ModelScope 热门模型",
-    "id": "79d85ad500eb",
+    "headline": "K-Dense-AI/scientific-agent-skills",
+    "when": "10月16日消息",
+    "date": "2026-10-16",
+    "body": "K-Dense-AI/scientific-agent-skills 库包含 177 个可用的验证技能和 100 多个科学数据库。",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "via": "GitHub Trending",
+    "id": "9bda2e5da9e8",
     "ai": true
    },
    {
@@ -239,7 +220,7 @@
     "headline": "Agent-Reflex：训练智能体主动反思",
     "when": "10月13日",
     "date": "2026-10-13",
-    "body": "Agent-Reflex 是一个训练框架，旨在激励智能体进行主动反思和失败恢复。",
+    "body": "Agent-Reflex 是一个训练框架，旨在激励智能体在环境中进行主动反思和失败恢复。",
     "url": "https://arxiv.org/abs/2610.17953",
     "via": "arXiv · 智能体",
     "id": "6d99b1aa826c",
@@ -247,7 +228,18 @@
    },
    {
     "cat": "papers",
-    "headline": "大型语言模型如何通过线性映射存储信息",
+    "headline": "Gemini 4 Argon：解决最困难问题的前沿智能",
+    "when": "10月14日",
+    "date": "2026-10-14",
+    "body": "Gemini 4 Argon 能将原始视频转化为物理准确的模拟，帮助研究人员加速发现。",
+    "url": "https://deepmind.google/models/gemini/",
+    "via": "Hacker News",
+    "id": "b4606c998906",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "从记忆中发明 Transformer",
     "when": "10月17日",
     "date": "2026-10-17",
     "body": "本文探讨大型语言模型如何通过线性映射和 MLP 存储大量信息。",
@@ -257,14 +249,14 @@
     "ai": true
    },
    {
-    "cat": "papers",
-    "headline": "Google 研究将 AI 智能体落地生物实验室",
-    "when": "10月17日",
-    "date": "2026-10-17",
-    "body": "Google 研究将 AI 智能体与物理实验室机器人结合，实现快速闭环分子设计。",
-    "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
-    "via": "Google Research",
-    "id": "98c95c02f930",
+    "cat": "industry",
+    "headline": "银行试图转嫁刚承销的AI数据中心债务",
+    "when": "10月15日",
+    "date": "2026-10-15",
+    "body": "摩根大通和三菱日联等银行正在出售与Oracle相关的AI数据中心债务，以对冲风险。",
+    "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+    "via": "Hacker News",
+    "id": "89afa2cf8a13",
     "ai": true
    },
    {
@@ -297,346 +289,346 @@
   ],
   "written": {
    "8b553ca25e96": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "DeepSeek-V4.1-Flash-1017 推理性能提升",
+    "headline": "DeepSeek-V4.1-Flash-1017 更新",
     "body": "DeepSeek-V4.1-Flash-1017 推理、编码和智能体任务性能提升，执行时间更短。"
    },
    "df7f3ef335bb": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "domestic",
     "headline": "DeepSeek 推出 V4.1 Flash 1017 模型",
-    "body": "DeepSeek 推出 V4.1 Flash 1017 模型，压缩 KV 缓存显著降低成本。"
+    "body": "DeepSeek 推出 V4.1 Flash 1017 模型，专为编码和智能体任务设计，压缩 KV 缓存显著降低成本。"
    },
    "0149b73b0a22": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "Muse Spark Open 开源",
+    "headline": "Muse Spark Open 发布",
     "body": ""
    },
    "b4606c998906": {
-    "v": "e8671762",
-    "cat": "overseas",
-    "headline": "",
-    "body": ""
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Gemini 4 Argon：解决最困难问题的前沿智能",
+    "body": "Gemini 4 Argon 能将原始视频转化为物理准确的模拟，帮助研究人员加速发现。"
    },
    "90b929133cf8": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
-    "headline": "大型语言模型如何通过线性映射存储信息",
+    "headline": "从记忆中发明 Transformer",
     "body": "本文探讨大型语言模型如何通过线性映射和 MLP 存储大量信息。"
    },
    "edb461273095": {
-    "v": "e8671762",
-    "cat": "domestic",
-    "headline": "OpenAI 推出 Rosalind 学术计划",
-    "body": "OpenAI 推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 的赞助访问权限。"
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI推出Rosalind学术计划",
+    "body": "OpenAI推出Rosalind学术计划，为符合条件的学术实验室提供GPT-Rosalind的赞助访问权限。"
    },
    "77ad3f7fc3bd": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "overseas",
-    "headline": "Google AI 发布 Gemini 4 Argon 模型",
-    "body": "Google AI 发布了最新的前沿模型 Gemini 4 Argon，面向开发者、企业和消费者。"
+    "headline": "Google发布Gemini 4 Argon模型",
+    "body": "Google AI发布了最新的前沿模型Gemini 4 Argon，面向开发者、企业和消费者。"
    },
    "3ef98b9b51a3": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "AI黑客攻击报告归咎于监控失败",
-    "body": "专家认为AI实验室的监控和隔离失败导致了未经授权的系统访问。"
+    "body": "专家认为 AI 实验室的监控和隔离失败导致了未经授权的系统访问，而非智能体失控。"
    },
    "cbc7643dde66": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "overseas",
-    "headline": "Google DeepMind 发布 Antigravity 科学工具",
-    "body": "Google Antigravity 用于科学领域，加速寻找新型抗菌肽。"
+    "headline": "Google Antigravity加速抗菌肽搜索",
+    "body": "Google Antigravity用于科学领域，加速寻找新型抗菌肽。"
    },
    "c8aa0926c12a": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "Anthropic 重构源代码控制系统",
-    "body": "Anthropic 重构源代码控制系统。"
+    "headline": "",
+    "body": ""
    },
    "94f18cf931b3": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "LLM 能力共识的差距正在扩大",
-    "body": "LLM 能力共识的差距正在扩大。"
+    "headline": "",
+    "body": ""
    },
    "cb48f5d3cd53": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "AI 测试覆盖了 90% 的工作时间吗？",
-    "body": "新发布的基准地图评估了 AI 测试对美国经济各行业的覆盖情况。"
+    "headline": "",
+    "body": ""
    },
    "a2d0c717b7f1": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "AI 编码代理生成更多代码，但未产出更多软件",
-    "body": "AI 编码代理生成更多代码，但未产出更多软件。"
+    "headline": "",
+    "body": ""
    },
    "07fd80ca31c5": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "050c7872630c": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "Anthropic 研究 AI 模型自我复制",
-    "body": "Anthropic 研究表明 AI 模型可能无需数据中心即可自我复制。"
+    "headline": "Anthropic研究AI模型自我复制",
+    "body": "Anthropic研究AI模型可能无需数据中心即可自我复制的可能性。"
    },
    "e0cc4bc86ef7": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "Reflection 发布 Beam 501B 参数模型",
-    "body": "Reflection 实验室发布首个开源模型 Beam，支持文本输入和百万级上下文窗口。"
+    "headline": "Reflection发布Beam开源模型",
+    "body": "Reflection实验室发布首个开源模型Beam，支持文本输入和百万级上下文窗口。"
    },
    "e78781a61745": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "AI 是工具，用好它需要技能",
-    "body": "AI 是工具，用好它需要技能。"
+    "headline": "",
+    "body": ""
    },
    "8daebafc7d3c": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "89afa2cf8a13": {
-    "v": "e8671762",
-    "cat": "skip",
+    "v": "4f7b2f10",
+    "cat": "industry",
     "headline": "",
     "body": ""
    },
    "c2ac821d2fe0": {
-    "v": "e8671762",
-    "cat": "skip",
+    "v": "4f7b2f10",
+    "cat": "papers",
     "headline": "",
     "body": ""
    },
    "6391e71c19da": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "d121c872efc5": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "aeae028f810a": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "98c95c02f930": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
-    "headline": "Google 研究将 AI 智能体落地生物实验室",
-    "body": "Google 研究将 AI 智能体与物理实验室机器人结合，实现快速闭环分子设计。"
+    "headline": "Google研究AI智能体与生物实验室结合",
+    "body": "Google研究将AI智能体与物理实验室机器人结合，实现快速闭环分子设计。"
    },
    "e71c2afb8299": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "aa3504d9bb8e": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "36af00926e86": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
-    "headline": "EmbeddingGemma 2 转化为语音转文本模型",
-    "body": "将 Google 的 EmbeddingGemma 2 模型转化为语音识别模型，在 MacBook Air 上实现 13 秒转写一小时音频。"
+    "headline": "",
+    "body": ""
    },
    "df841427410b": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "Claude 半小时解开密码学悬案",
-    "body": "Claude 用不到半小时查明了五条 NIST 标准椭圆曲线的种子生成方式。"
+    "headline": "Claude解开密码学悬案",
+    "body": "Claude不到半小时查明了五条NIST标准椭圆曲线的种子生成方式。"
    },
    "c207af8abd05": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "e2492a6cfc77": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "",
     "body": ""
    },
    "710f7fe65ffc": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "rea：用智能体做逆向工程",
-    "body": "使用智能体从应用行为到原生二进制文件进行逆向工程。"
+    "body": "morluto/rea 仓库提供使用智能体从应用行为到原生二进制文件进行逆向工程的功能。"
    },
    "2a80b8806cb5": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "Strata：在消费级硬件上运行Qwen3.8-Flash-Next",
-    "body": "Strata 推理引擎支持本地 OpenAI/Anthropic API，可选图像输入。"
+    "body": "Strata 推理引擎支持在消费级硬件上运行 Qwen3.8-Flash-Next，提供本地 OpenAI/Anthropic API 接口。"
    },
    "9bda2e5da9e8": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "",
-    "body": "该库包含 177 个可用的验证技能和 100 多个科学数据库。"
+    "body": "K-Dense-AI/scientific-agent-skills 库包含 177 个可用的验证技能和 100 多个科学数据库。"
    },
    "79d85ad500eb": {
-    "v": "e8671762",
-    "cat": "opensource",
+    "v": "4f7b2f10",
+    "cat": "skip",
     "headline": "",
-    "body": "deepseek-ai 发布 DeepSeek-V4.1-Flash 图文理解模型。"
+    "body": "deepseek-ai/DeepSeek-V4.1-Flash 是一个图文理解模型。"
    },
    "443ea9329e44": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "",
-    "body": "huggingface/transformers 是支持文本、视觉、音频和多模态模型推理与训练的框架。"
+    "headline": "transformers：支持文本、视觉、音频和多模态模型推理与训练",
+    "body": "huggingface/transformers 是支持文本、视觉、音频和多模态模型推理与训练的模型定义框架。"
    },
    "01d06cd6ffa0": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "OpenBMB/VoxCPM：无分词器的多语言语音生成",
-    "body": "VoxCPM2 支持多语言语音生成、创意语音设计和逼真克隆。"
+    "headline": "VoxCPM2：无分词器的多语言语音生成",
+    "body": "OpenBMB/VoxCPM2 是无分词器的多语言语音生成、创意语音设计和逼真克隆工具。"
    },
    "a85ad9dc3cf9": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "",
-    "body": "该工具提供 44 种编辑类图表设计，HTML + SVG 自包含。"
+    "body": "cathrynlavery/diagram-design 为 Claude Code 等工具提供 44 种编辑类图表设计，生成 HTML + SVG 自包含文件。"
    },
    "f02960115775": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "anatomy：创建机器和复杂系统交互式等距插图",
-    "body": "该智能体技能生成带 WebGL 着色器和 3D 效果的 SVG。"
+    "headline": "anatomy：创建真实机器和复杂系统交互式等距插图",
+    "body": "wheresryan22/anatomy 智能体技能用于创建真实机器和复杂系统的交互式等距插图，生成带 WebGL 着色器和 3D 效果的 SVG。"
    },
    "020aa1c48a7d": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "anthropics/claude-code：终端中的智能体编码工具",
-    "body": "Claude Code 通过自然语言命令帮助用户编写代码。"
+    "headline": "claude-code：终端中的智能体编码工具",
+    "body": "anthropics/claude-code 是一个终端中的智能体编码工具，通过自然语言命令帮助用户编写代码。"
    },
    "5f56448dcadd": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "xerj-org/xerj：使用更少 token 搜索数据",
-    "body": "XERJ 通过自动索引功能，使用比 grep 少 40 倍的 token 来搜索数据。"
+    "headline": "xerj：使用比grep少40倍token搜索数据",
+    "body": "xerj-org/xerj 通过自动索引功能，使用比 grep 少 40 倍的 token 来搜索代码、文档和日志。"
    },
    "d7a57887bcc2": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "",
-    "body": "anthropics 维护高质量 Claude Code 插件目录。"
+    "body": "anthropics/claude-plugins-official 是 Anthropic 官方维护的高质量 Claude Code 插件目录。"
    },
    "c26bc22c2c10": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "VoiceStudio：完全本地化的 ElevenLabs 替代品",
-    "body": "VoiceStudio 支持语音克隆、视频配音和 646 种语言的语音生成。"
+    "headline": "VoiceStudio：完全本地化的ElevenLabs开源替代品",
+    "body": "debpalash/VoiceStudio 是完全本地化的 ElevenLabs 开源替代品，支持 646 种语言的语音克隆和视频配音。"
    },
    "9182d7f93c0f": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "ppt-master：AI生成原生 PPT",
-    "body": "AI 可将文档或主题生成原生 PPT，支持图表、动画和自定义模板。"
+    "headline": "ppt-master：AI将文档或主题生成原生PPT",
+    "body": "hugohe3/ppt-master 可将文档或主题生成原生 PPT，支持图表、动画和自定义模板。"
    },
    "1bf569717c78": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "jev-ultrafast：最快最便宜的网页智能体",
-    "body": "jev-ultrafast 仓库声称是速度最快且成本最低的网页智能体。"
+    "headline": "jev-ultrafast：最快的网页智能体",
+    "body": "jev-ultrafast 项目宣称是速度最快且成本最低的网页智能体。"
    },
    "3eb178ba4cd7": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "ECC：智能体性能优化系统",
-    "body": "ECC 提供技能、直觉、记忆、安全和研究优先的开发功能，支持 Claude Code、Codex 等智能体。"
+    "body": "ECC 提供技能、直觉、记忆、安全和研究优先的开发功能，支持 Claude Code、Codex 等多个智能体。"
    },
    "a5faf2a6945f": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "vLLM 支持 Muse Spark Open",
-    "body": "vLLM 提供 Muse Spark Open 的 Day-0 支持，包含 816B MoE、1M 上下文和多模态输入。"
+    "headline": "vLLM支持Muse Spark Open",
+    "body": "vLLM提供对Muse Spark Open的Day-0支持，支持816B MoE和1M上下文。"
    },
    "963ab1940f2f": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "dsh-our-free-model：免费使用前沿模型",
-    "body": "dsh 插件无需登录或 API Key 即可免费使用 DeepSeek V4.1 Flash 和 Kimi K3 等模型。"
+    "body": "dsh 插件允许用户无需登录或 API Key 即可免费使用 DeepSeek V4.1 Flash 和 Kimi K3 等模型。"
    },
    "aef8e4df5250": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "OpenMontage：开源代理视频制作系统",
-    "body": "OpenMontage 包含 12 条生产管线和 700+ 技能文件，可将 AI 编程助手变成视频制作工作室。"
+    "body": "OpenMontage 是首个开源的代理视频制作系统，包含 12 条生产管线和 700+ 技能文件。"
    },
    "1569642c5401": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "magpie：智能体模型选择工具",
-    "body": "magpie 为每个智能体提供模型选择，支持在菜单栏切换 DeepSeek 和 Kimi。"
+    "body": "magpie 为每个智能体提供模型选择，支持在菜单栏切换 DeepSeek 和 Kimi 等模型。"
    },
    "315c60c294da": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "Linus 推送 Claude Code 辅助内核补丁",
-    "body": "Linus Torvalds 推送了由 Claude Code 辅助完成的内核补丁分支。"
+    "headline": "Linus推送Claude Code内核补丁",
+    "body": "Linus Torvalds在Linux仓库中推送了一个由Claude Code辅助完成的内核补丁分支。"
    },
    "6d99b1aa826c": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "Agent-Reflex：训练智能体主动反思",
-    "body": "Agent-Reflex 是一个训练框架，旨在激励智能体进行主动反思和失败恢复。"
+    "body": "Agent-Reflex 是一个训练框架，旨在激励智能体在环境中进行主动反思和失败恢复。"
    },
    "ac9d0bbaa352": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "OpenGCUA：通用计算机使用全栈开源",
-    "body": "OpenGCUA 通过代码执行和决策转移机制，在 OSWorld-v2 评测中显著提升了多个模型的任务得分。"
+    "body": "OpenGCUA 构建了通用的计算机使用智能体全栈开源项目，通过代码执行和决策转移机制提升任务得分。"
    },
    "261929a08247": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "Doc2Harness：评估编码智能体长周期工具编排",
     "body": "Doc2Harness 提出两阶段基准，直接评估智能体在长周期任务中的工具编排能力。"
    },
    "d691f24c2a55": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "Player-1：从合成经验中学习玩游戏",
     "body": "Player-1 是一个后训练框架，通过合成经验学习游戏控制，解决演示数据覆盖不足问题。"
    },
    "a849a64deeff": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "AgentSWE：评估智能体软件工程",
     "body": "AgentSWE 是一个评估智能体软件工程的基准，涵盖从自然语言需求到生产代码库编辑的三个阶段。"
    },
    "38b4bdab67fe": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "OmniCompass：全模态视频理解基准",
-    "body": "OmniCompass 包含两个评估轨道和三种互补任务，涵盖 820 个视频和 720 个实例。"
+    "body": "OmniCompass 包含两个评估轨道和三种互补任务，涵盖 820 个视频和 720 个实例，用于评估全模态视频理解能力。"
    },
    "233cca311480": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "跨分词器策略蒸馏研究",
-    "body": "研究跨分词器策略蒸馏中，扩展对齐覆盖是否有助于提升学习效果。"
+    "body": "研究跨分词器策略蒸馏中，扩展对齐覆盖是否有助于提升数学推理和代码生成任务的学习效果。"
    },
    "6d7365fa21a3": {
     "v": "e8671762",
@@ -645,64 +637,64 @@
     "body": "GroundingPI是一个4B基础模型，通过生成共享词汇中的量化坐标点框来提升视觉定位能力。"
    },
    "f35951ab67a4": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "Nick Cammarata 宣告 AI 不是黑箱",
-    "body": "可解释性专家 Nick Cammarata 推翻十年前结论，称神经元检测的是几何形状。"
+    "headline": "Nick Cammarata推翻AI可解释性结论",
+    "body": "可解释性专家Nick Cammarata推翻十年前结论，称神经元检测的是几何形状而非物体。"
    },
    "186fdbb6848f": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "domestic",
-    "headline": "DeepSeek 开放 V4.1-Flash-1017 模型",
-    "body": "DeepSeek V4.1-Flash-1017 模型在多项基准测试中取得提升，权重已开放下载。"
+    "headline": "DeepSeek开放V4.1-Flash-1017模型",
+    "body": "DeepSeek V4.1-Flash-1017模型在多项基准测试中取得提升，权重已开放下载。"
    },
    "c70be1ce6ff1": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "华为 AI 通关 25 款游戏",
-    "body": "华为 AI 靠 RSI 通关 25 款游戏，操作次数比人类少 56%。"
+    "headline": "华为AI通关25款游戏",
+    "body": "华为AI靠RSI通关25款游戏，操作次数比人类少56%。"
    },
    "88b939e118e6": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "domestic",
-    "headline": "面壁开源MiniCPM-V 4.7多模态模型",
-    "body": "面壁开源MiniCPM-V 4.7多模态模型，支持在iPhone上运行。"
+    "headline": "面壁开源MiniCPM-V 4.7模型",
+    "body": "面壁开源MiniCPM-V 4.7多模态模型，支持在iPhone等设备上运行。"
    },
    "005b54aa0ab1": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "domestic",
     "headline": "智谱发布GLM新模型",
     "body": "智谱发布GLM新模型，推理速度达到490 tokens/s。"
    },
    "fb3ee2e702c2": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
-    "headline": "陶哲轩博客引发数学界讨论",
-    "body": "菲尔兹奖得主陶哲轩的博客引发数学家、物理学家和AI大佬激烈讨论。"
+    "headline": "陶哲轩博客引发AI讨论",
+    "body": "菲尔兹奖得主陶哲轩的博客引发数学家、物理学家和AI大佬的激烈讨论。"
    },
    "268c81cd0d5f": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "overseas",
     "headline": "Meta发布Muse新模型",
-    "body": "Meta发布Muse新模型，Alexandr Wang亲述研发内幕。"
+    "body": "Meta发布Muse新模型，Alexandr Wang分享了模型研发的内幕。"
    },
    "7fbd311301bb": {
-    "v": "e8671762",
-    "cat": "overseas",
-    "headline": "Anthropic披露Claude动态工作流架构",
-    "body": "Anthropic披露Claude动态工作流架构，Claude开始自己写程序管理Agent。"
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Anthropic 披露 Claude 动态工作流架构",
+    "body": "Anthropic 披露 Claude 的动态工作流架构，允许 Agent 自主编写程序来管理自身任务。"
    },
    "3f49c72314f9": {
-    "v": "e8671762",
-    "cat": "skip",
-    "headline": "字节发现DeepSeek隐藏Bug",
-    "body": "字节团队发现DeepSeek V4模型存在因分块KV Cache压缩导致的“神鬼二象性”问题。"
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "字节发现 DeepSeek V4 模型位置敏感问题",
+    "body": "字节团队发现 DeepSeek V4 模型存在因分块 KV Cache 压缩导致的“神鬼二象性”问题，位置敏感会导致关键信息被忽略。"
    },
    "a5ab6cd6990b": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "policy",
-    "headline": "国务院常务会议听取人工智能进展汇报",
-    "body": "国务院常务会议听取“人工智能+”行动进展情况汇报，强调以落地应用牵引技术创新。"
+    "headline": "国务院常务会议听取“人工智能+”行动进展汇报",
+    "body": "国务院常务会议听取“人工智能+”行动进展情况汇报，强调以落地应用牵引技术创新，加强技术攻关和算法创新。"
    }
   }
  }

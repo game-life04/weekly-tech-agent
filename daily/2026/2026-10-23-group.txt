@@ -1,5 +1,5 @@
 【每日科技快讯】10月23日 周五
-今日 AI 与开源要闻 15 条，3 分钟速读
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 3 个 PR、提交 3 次
@@ -7,24 +7,24 @@
 3. TranslateProject 新增 2 个 PR
 
 【海外动态】
-4. Google Cloud 集成 OpenAI 模型
-→ Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。
-5. Mistral 与 NVIDIA 合作开发 AI 原生工程工作流
+4. Mistral 与 NVIDIA 合作开发 AI 原生工程工作流
 → Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。
-6. openai-cli：官方命令行工具
-→ openai-cli 是调用 OpenAI REST API 的官方命令行工具。
-7. Ai2 发布 OlmoEarth v1.3 卫星嵌入模型
-→ Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。
-8. OpenAI 推出 Decisions API
+5. openai/openai-cli：官方命令行工具
+→ openai/openai-cli 是官方命令行工具，可在终端调用 OpenAI REST API。
+6. Ai2 发布 OlmoEarth v1.3 卫星嵌入模型
+→ Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。
+7. OpenAI 推出 Decisions API
 → OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。
 
 【开源项目】
+8. LocalAI 发布 4.12.0 版本
+→ LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。
 9. OpenShell：自主 AI 智能体的安全运行时
 → OpenShell 为自主 AI 智能体提供安全、私密的运行环境。
-10. headroom：压缩 LLM 输入数据
+10. headroom：压缩工具输出和日志
 → headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。
 11. genoffice：内置 AI 智能体的办公套件
-→ genoffice 是内置 AI 智能体的免费开源办公套件。
+→ genoffice 是内置 AI 智能体的免费开源办公套件，支持编辑本地文件。
 12. AirLLM：4GB GPU 推理 2.8T 模型
 → AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。
 
@@ -35,6 +35,12 @@
 → SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。
 15. PAR：状态跟踪中的长度泛化对齐递归
 → PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。
+16. MemT-1.0：迈向原生记忆进化
+→ MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。
+
+【产业纵横】
+17. OpenAI 模型登陆 Google Cloud
+→ OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。
 
 【活动预告】
 · 10月26日 WWW 2027 论文截稿

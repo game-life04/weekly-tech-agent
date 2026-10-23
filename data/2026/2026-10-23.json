@@ -1077,13 +1077,14 @@
   "day": "2026-10-23",
   "start": "2026-10-23",
   "end": "2026-10-23",
-  "generated_at": "2026-10-23T01:28:51Z",
+  "title": "OpenShell：自主 AI 智能体的安全运行时",
+  "generated_at": "2026-10-23T06:02:03Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "e8671762",
+  "prompt": "4f7b2f10",
   "tries": 1,
-  "pending": 0,
+  "pending": 6,
   "club_period": {
    "start": "2026-10-22",
    "end": "2026-10-22"
@@ -1138,17 +1139,6 @@
    },
    {
     "cat": "overseas",
-    "headline": "Google Cloud 集成 OpenAI 模型",
-    "when": "10月21日",
-    "date": "2026-10-21",
-    "body": "Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。",
-    "url": "https://openai.com/index/openai-models-google-cloud/",
-    "via": "Hacker News",
-    "id": "4846377e2d6b",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
     "headline": "Mistral 与 NVIDIA 合作开发 AI 原生工程工作流",
     "when": "10月21日",
     "date": "2026-10-21",
@@ -1160,10 +1150,10 @@
    },
    {
     "cat": "overseas",
-    "headline": "openai-cli：官方命令行工具",
+    "headline": "openai/openai-cli：官方命令行工具",
     "when": "10月22日",
     "date": "2026-10-22",
-    "body": "openai-cli 是调用 OpenAI REST API 的官方命令行工具。",
+    "body": "openai/openai-cli 是官方命令行工具，可在终端调用 OpenAI REST API。",
     "url": "https://github.com/openai/openai-cli",
     "via": "Hacker News",
     "id": "f23d56f92479",
@@ -1174,7 +1164,7 @@
     "headline": "Ai2 发布 OlmoEarth v1.3 卫星嵌入模型",
     "when": "10月23日",
     "date": "2026-10-23",
-    "body": "Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。",
+    "body": "Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。",
     "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
     "via": "Hugging Face 博客",
     "id": "d357653ad528",
@@ -1193,6 +1183,17 @@
    },
    {
     "cat": "opensource",
+    "headline": "LocalAI 发布 4.12.0 版本",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。",
+    "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.0",
+    "via": "GitHub 版本发布",
+    "id": "4063fa5ffe97",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
     "headline": "OpenShell：自主 AI 智能体的安全运行时",
     "when": "10月23日",
     "date": "2026-10-23",
@@ -1204,7 +1205,7 @@
    },
    {
     "cat": "opensource",
-    "headline": "headroom：压缩 LLM 输入数据",
+    "headline": "headroom：压缩工具输出和日志",
     "when": "10月23日消息",
     "date": "2026-10-23",
     "body": "headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。",
@@ -1218,7 +1219,7 @@
     "headline": "genoffice：内置 AI 智能体的办公套件",
     "when": "10月23日消息",
     "date": "2026-10-23",
-    "body": "genoffice 是内置 AI 智能体的免费开源办公套件。",
+    "body": "genoffice 是内置 AI 智能体的免费开源办公套件，支持编辑本地文件。",
     "url": "https://github.com/genspark-ai/genoffice",
     "via": "GitHub Trending",
     "id": "227805cd2a61",
@@ -1269,6 +1270,28 @@
     "ai": true
    },
    {
+    "cat": "papers",
+    "headline": "MemT-1.0：迈向原生记忆进化",
+    "when": "10月23日消息",
+    "date": "2026-10-23",
+    "body": "MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。",
+    "url": "https://arxiv.org/abs/2610.26825",
+    "via": "Hugging Face 热门论文",
+    "id": "bb0b5c3b7527",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 模型登陆 Google Cloud",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。",
+    "url": "https://openai.com/index/openai-models-google-cloud/",
+    "via": "Hacker News",
+    "id": "4846377e2d6b",
+    "ai": true
+   },
+   {
     "cat": "events",
     "headline": "WWW 2027 论文截稿",
     "when": "10月26日",
@@ -1289,64 +1312,64 @@
   ],
   "written": {
    "59d1be1fc8d5": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "OpenShell：自主 AI 智能体的安全运行时",
     "body": "OpenShell 为自主 AI 智能体提供安全、私密的运行环境。"
    },
    "f23d56f92479": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "openai-cli：官方命令行工具",
-    "body": "openai-cli 是调用 OpenAI REST API 的官方命令行工具。"
+    "headline": "openai/openai-cli：官方命令行工具",
+    "body": "openai/openai-cli 是官方命令行工具，可在终端调用 OpenAI REST API。"
    },
    "4846377e2d6b": {
-    "v": "e8671762",
-    "cat": "domestic",
-    "headline": "Google Cloud 集成 OpenAI 模型",
-    "body": "Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。"
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 模型登陆 Google Cloud",
+    "body": "OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。"
    },
    "d357653ad528": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "overseas",
     "headline": "Ai2 发布 OlmoEarth v1.3 卫星嵌入模型",
-    "body": "Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。"
+    "body": "Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具，用于追踪变化和寻找相似地点。"
    },
    "ab26d40a7dbf": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "所有 AI 模型对人类有相同争议观点",
     "body": "12 个 AI 模型对人类最争议的观点惊人一致。"
    },
    "4527c1f27e10": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "overseas",
     "headline": "Mistral 与 NVIDIA 合作开发 AI 原生工程工作流",
     "body": "Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。"
    },
    "6826f118de9b": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "设计持久化的 AI 服务框架",
-    "body": "文章讨论企业 AI 竞争优势更多取决于服务框架而非模型本身。"
+    "body": "文章讨论企业 AI 的竞争优势更多取决于围绕模型构建的服务框架，而非模型本身。"
    },
    "dcda7f17304c": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "overseas",
     "headline": "OpenAI 推出 Decisions API",
     "body": "OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。"
    },
    "16b1d008f9d7": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
-    "headline": "headroom：压缩 LLM 输入数据",
+    "headline": "headroom：压缩工具输出和日志",
     "body": "headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。"
    },
    "227805cd2a61": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "genoffice：内置 AI 智能体的办公套件",
-    "body": "genoffice 是内置 AI 智能体的免费开源办公套件。"
+    "body": "genoffice 是内置 AI 智能体的免费开源办公套件，支持编辑本地文件。"
    },
    "1a05b53dbcee": {
     "v": "e8671762",
@@ -1355,13 +1378,13 @@
     "body": "AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。"
    },
    "4063fa5ffe97": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "LocalAI 发布 4.12.0 版本",
     "body": "LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。"
    },
    "5f9fee032323": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "skip",
     "headline": "Anthropic 推出 Claude Duet",
     "body": "Anthropic 发布 Claude Duet，能主动发现任务并提醒用户，关键操作需批准。"
@@ -1373,13 +1396,13 @@
     "body": "firecrawl 为 AI 智能体提供来自网络的数据抓取能力。"
    },
    "48f69673aab6": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "LangSmith LLM Gateway 公测",
-    "body": "LangSmith LLM Gateway 公测，提供配额限制、模型回退等功能。"
+    "body": "LangSmith LLM Gateway 公测，提供配额限制、模型回退等功能，支持生产环境智能体。"
    },
    "743ba1238b9b": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "Qwen-code 发布 0.26.0 版本",
     "body": "Qwen-code v0.26.0 发布，支持会话目标技能刷新、会话创建预热等功能。"
@@ -1409,10 +1432,10 @@
     "body": "MemT-1.0 将记忆内化为模型计算的一部分，扩展原生记忆容量。"
    },
    "f871ea528f53": {
-    "v": "e8671762",
+    "v": "4f7b2f10",
     "cat": "papers",
     "headline": "Qwen-Audio-3.1-ASR技术报告",
-    "body": "Qwen团队发布Qwen-Audio-3.1-ASR，支持30种语言和16种中文方言，增强语音识别和通用音频理解能力。"
+    "body": "Qwen-Audio-3.1-ASR模型支持30种语言和16种中文方言，增强了语音识别和通用音频理解能力。"
    }
   }
  }
