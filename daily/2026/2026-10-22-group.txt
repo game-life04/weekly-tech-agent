@@ -1,0 +1,38 @@
+【每日科技快讯】10月22日 周四
+今日 AI 与开源要闻 11 条，3 分钟速读
+
+【国内动态】
+1. 清华AIR孵化紫荆智康
+→ 清华AIR孵化紫荆智康推出多分身智能体协同技术，让AI医生分身与人类医生协作。
+2. 千诀科技发布Polibrain
+→ 清华系千诀科技发布预测式世界模型Polibrain，让机器人拥有用于预测和规划的地图。
+
+【海外动态】
+3. Mistral 发布 ML4 模型
+→ Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。
+4. Google研究展示AI盲扫超声
+→ Google研究显示AI盲扫超声可让非超声技师低成本评估孕周，助力全球产科。
+
+【开源项目】
+5. vLLM支持Flint模型
+→ vLLM支持Flint模型，单GPU解码速度约500 tokens/s。
+6. Anthropic发布Python SDK 2.0.0
+→ Anthropic发布Python SDK v2.0.0，支持新API版本。
+7. vLLM：高吞吐量推理引擎
+→ vLLM 是一个高吞吐量、内存高效的 LLM 推理引擎。
+8. answer-me-with-html：用 HTML 回答问题
+→ 让 AI Agent 用一页 HTML 回答复杂问题。
+
+【学术前沿】
+9. S-Agent 2.0：空间推理
+→ S-Agent 2.0 为通用编码代理配备了命令行感知工具包，提升空间推理表现。
+10. OpenVLHarness：视觉智能体工具使用
+→ OpenVLHarness 结合任务级工具接口与证据渲染，利用持久化多模态记忆提升性能。
+11. 微软研究院解决KLS猜想
+→ 微软研究院解决Kannan–Lovász–Simonovits猜想，消除随机算法效率理解的理论障碍。
+
+【活动预告】
+· 10月26日 WWW 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-22-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

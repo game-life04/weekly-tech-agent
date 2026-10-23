@@ -11,7 +11,59 @@
 ## 每日快讯 · 10.23（周五）
 
 > 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-23-kuaixun.md) · [长图](daily/2026/2026-10-23-kuaixun.jpg) · [公众号排版版](daily/2026/2026-10-23-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-23.md) · [往期日报](daily/README.md)
+> [单独打开](daily/2026/2026-10-23-kuaixun.md) · [公众号排版版](daily/2026/2026-10-23-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-23.md) · [往期日报](daily/README.md)
+
+<details>
+<summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
+
+```text
+【每日科技快讯】10月23日 周五
+今日 AI 与开源要闻 15 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 3 个 PR、提交 3 次
+2. hust-mail-cli 合并 3 个 PR
+3. TranslateProject 新增 2 个 PR
+
+【海外动态】
+4. Google Cloud 集成 OpenAI 模型
+→ Google Cloud 将 OpenAI 前沿模型和 Codex 工作流集成到 Gemini Model Garden。
+5. Mistral 与 NVIDIA 合作开发 AI 原生工程工作流
+→ Mistral 与 NVIDIA 合作，利用 NVIDIA 加速计算开发新一代 AI 原生工程工作流。
+6. openai-cli：官方命令行工具
+→ openai-cli 是调用 OpenAI REST API 的官方命令行工具。
+7. Ai2 发布 OlmoEarth v1.3 卫星嵌入模型
+→ Ai2 发布 OlmoEarth v1.3，提供全球预计算嵌入数据及可视化工具。
+8. OpenAI 推出 Decisions API
+→ OpenAI 推出 Decisions API，利用 GPT‑6 Luna 模型帮助应用和智能体做出快速决策。
+
+【开源项目】
+9. OpenShell：自主 AI 智能体的安全运行时
+→ OpenShell 为自主 AI 智能体提供安全、私密的运行环境。
+10. headroom：压缩 LLM 输入数据
+→ headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。
+11. genoffice：内置 AI 智能体的办公套件
+→ genoffice 是内置 AI 智能体的免费开源办公套件。
+12. AirLLM：4GB GPU 推理 2.8T 模型
+→ AirLLM 在单张 4GB GPU 上实现 2.8T LLM 推理。
+
+【学术前沿】
+13. Cache Engineering for Agents：智能体缓存工程
+→ Cache Engineering for Agents 提出直接控制 KV 缓存的新方案。
+14. SpatialScout：VLM 智能体 3D 场景映射
+→ SpatialScout 构建了包含 80 个室内场景的 3D 映射基准。
+15. PAR：状态跟踪中的长度泛化对齐递归
+→ PAR 通过对齐递归解决循环语言模型在长序列状态跟踪中的问题。
+
+【活动预告】
+· 10月26日 WWW 2027 论文截稿
+· 11月5日 RECOMB 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-23-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
+```
+
+</details>
 
 ### 今日快讯
 
@@ -21,7 +73,7 @@
 
 **hust-mail-cli 合并 3 个 PR**<br>10月22日，Agent SIG的 hust-mail-cli 仓库新增 PR 2 个、合并 3 个、提交 3 次、新增代码 1895 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
 
-**TranslateProject 提交 0 次**<br>10月22日，HCTT SIG的 TranslateProject 仓库新增 PR 2 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/TranslateProject)）</sub>
+**TranslateProject 新增 2 个 PR**<br>10月22日，HCTT SIG的 TranslateProject 仓库新增 PR 2 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/TranslateProject)）</sub>
 
 #### 海外动态
 
@@ -59,12 +111,12 @@
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月22日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-23 06:20（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月22日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-23 09:28（北京时间）自动生成。</sub>
 
 ## 每周快讯 · 10.12–10.18
 
 > 上周 AI 与开源要闻 **25** 条，5 分钟速读。<br>
-> [阅读全文](weekly/2026-W42.md) · [长图](weekly/2026-W42.jpg) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
+> [阅读全文](weekly/2026-W42.md) · [公众号排版版](weekly/2026-W42.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
 ✨ [开放原子开源俱乐部一周合并 29 个 PR、提交 82 次](https://osd.openatom.club/)<br>
@@ -134,7 +186,9 @@
 | 国内动态、海外动态、开源项目、学术前沿、产业纵横 | 从这一周的日报里按综合分挑候选（中文媒体的报道另留名额），大模型负责分栏，把标题写成“主体+动作+对象”，再写一两句正文；讲同一件事的重复条目和分错的国内、海外公司由程序按名称纠正 |
 | 活动预告 | 这一周新闻里预告的会议、论坛和比赛（日期要能在原文里找到）；接下来 45 天截稿的 CCF 推荐会议（人工智能、图形学与多媒体、人机交互、交叉综合四个领域的 A、B 类），数据来自 [CCFDDL](https://ccfddl.com/)，时间换算成北京时间 |
 
-每期有三个文件：`.md` 在 GitHub 上直接看；同名的 `.jpg` 是整期的长图，在 GitHub 上点开就能看，也可以存下来转发到微信；同名的 `.html` 是公众号排版版，下载后用浏览器打开，全选、复制，粘贴到公众号编辑器即可，样式会一起带过去（公众号里外链点不了，来源直接写成网址，和《CCF开源快讯》一样）。
+每日快讯另有一份群消息文字版（`daily/<年>/<日期>-group.txt`，首页顶部可以展开整段复制）：纯文字，每条一行标题、一行要点，末尾附完整版链接，用来每天固定时间发到群里。
+
+每期有两个文件：`.md` 在 GitHub 上直接看；同名的 `.html` 是公众号排版版，下载后用浏览器打开，全选、复制，粘贴到公众号编辑器即可，样式会一起带过去（公众号里外链点不了，来源直接写成网址，和《CCF开源快讯》一样）。
 
 ### 怎么工作的
 
@@ -209,7 +263,6 @@ wta/                 程序
   kuaixun.py         每日快讯和每周快讯：挑选、分栏、改写
   club.py policy.py deadlines.py   快讯的俱乐部动态、政策动向、活动预告
   render.py          生成页面（Markdown，快讯另有公众号排版版 HTML）
-  longshot.py        把快讯截成长图（定时任务里运行，要 Chrome 和 Pillow）
   publish.py         写文件
   cli.py             命令行入口
 data/                每天的数据（JSON，含当天的每日快讯），页面都从这里生成；data/weekly/ 是每周快讯

@@ -53,7 +53,10 @@ def publish_day(root: Path, config: dict[str, Any], day: date, days: list[date])
     text = render.render_daily(day, payload, config, earlier[-1] if earlier else None)
     _write(root / render.daily_path(day), text)
     if isinstance(payload.get("kuaixun"), dict):
-        publish_kuaixun(root, config, payload["kuaixun"])
+        issue = payload["kuaixun"]
+        publish_kuaixun(root, config, issue)
+        weekly = render.weekly_for(day, next(reversed(kuaixun_issues(root)), None))
+        _write(root / render.group_text_path(issue), render.render_group_text(issue, config, weekly))
 
 
 def kuaixun_issues(root: Path) -> list[dict[str, Any]]:

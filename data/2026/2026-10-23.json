@@ -1077,7 +1077,7 @@
   "day": "2026-10-23",
   "start": "2026-10-23",
   "end": "2026-10-23",
-  "generated_at": "2026-10-22T22:20:18Z",
+  "generated_at": "2026-10-23T01:28:51Z",
   "models": [
    "glm-4.7-flash"
   ],
@@ -1129,7 +1129,7 @@
    },
    {
     "cat": "club",
-    "headline": "TranslateProject 提交 0 次",
+    "headline": "TranslateProject 新增 2 个 PR",
     "when": "10月22日",
     "date": "2026-10-22",
     "body": "HCTT SIG的 TranslateProject 仓库新增 PR 2 个，2 位贡献者参与。",

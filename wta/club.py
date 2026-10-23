@@ -101,7 +101,15 @@ def repo_entries(
         name = clean_text(repo.get("name"), 60)
         sig = clean_text((repo.get("sig") or {}).get("name"), 30)
         merged, commits = _number(repo.get("closed_merged_prs")), _number(repo.get("new_commits"))
-        action = f"合并 {merged} 个 PR" if merged else f"提交 {commits} 次"
+        new_prs, people = _number(repo.get("new_prs")), _number(repo.get("active_contributors"))
+        if merged:
+            action = f"合并 {merged} 个 PR"
+        elif commits:
+            action = f"提交 {commits} 次"
+        elif new_prs:
+            action = f"新增 {new_prs} 个 PR"
+        else:  # 只有 issue 之类的活动
+            action = f"{people} 位贡献者参与"
         fresh = (created or {}).get(name)
         opening = f"{sig + '的 ' if sig else ''}{name} 仓库"
         if fresh:

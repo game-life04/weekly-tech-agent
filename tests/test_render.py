@@ -168,9 +168,7 @@ def test_render_kuaixun_html_for_wechat(config):
 def test_latest_block_shows_the_kuaixun_and_the_daily(make_item, config):
     block = render.render_latest_block(DAY, payload_of(make_item()), config, kx_issue())
     assert block.index("## 每周快讯 · 10.05–10.11") < block.index("## 最新日报 · 2026-10-11（周日）")
-    assert (
-        "[阅读全文](weekly/2026-W41.md) · [长图](weekly/2026-W41.jpg) · [公众号排版版](weekly/2026-W41.html)" in block
-    )
+    assert "[阅读全文](weekly/2026-W41.md) · [公众号排版版](weekly/2026-W41.html)" in block
     assert "✨ [阿里发布 Qwen4](https://example.com/a%28b%29)" in block
     only_daily = render.render_latest_block(DAY, payload_of(make_item()), config)
     assert "每周快讯 ·" not in only_daily and "[每周快讯](weekly/README.md)" in only_daily
@@ -193,10 +191,7 @@ def test_indexes(config):
     assert "- [10-11（周日）](2026/2026-10-11.md) · 21 条" in daily
     older = kx_issue(week="2026-W40", start="2026-09-28", end="2026-10-04", entries=[])
     weekly = render.render_weekly_index([older, kx_issue()])
-    assert (
-        "- [2026 年第 41 周 · 10.05–10.11](2026-W41.md) · [长图](2026-W41.jpg) · [公众号排版版](2026-W41.html) · 4 条"
-        in weekly
-    )
+    assert "- [2026 年第 41 周 · 10.05–10.11](2026-W41.md) · [公众号排版版](2026-W41.html) · 4 条" in weekly
     assert weekly.index("第 41 周") < weekly.index("第 40 周")
     assert "还没有快讯：每周一生成上一周的一期" in render.render_weekly_index([])
 
@@ -227,3 +222,34 @@ def test_damaged_readme_markers_are_refused():
     ):
         with pytest.raises(ValueError, match="标记损坏"):
             replace_latest_block(readme, block)
+
+
+def daily_issue(**extra):
+    return kx_issue(**{"kind": "daily", "day": "2026-10-11", "start": "2026-10-11", "end": "2026-10-11", **extra})
+
+
+def test_group_text_is_plain_and_numbered(config):
+    text = render.render_group_text(daily_issue(), config)
+    assert text.startswith("【每日科技快讯】10月11日 周日\n今日 AI 与开源要闻 3 条，3 分钟速读\n")
+    assert "\n【俱乐部动态】\n1. 俱乐部一周合并 3 个 PR\n\n【国内动态】\n2. 阿里发布 Qwen4\n→ 支持长上下文。\n" in text
+    assert "3. Evil *corp* 发布 [x](javascript:alert(1))\n→ 正文 $5\n" in text  # 纯文字：不转义，标签去掉
+    assert "\n【活动预告】\n· 11月17日 CVPR 2027 论文截稿\n" in text
+    assert (
+        "完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-11-kuaixun.md"
+        in text
+    )
+    assert "由 AI 整理" in text and "上周快讯" not in text and "`" not in text
+
+    monday = daily_issue(day="2026-10-12", start="2026-10-12", end="2026-10-12")
+    weekly = render.weekly_for(date(2026, 10, 12), kx_issue())
+    assert (
+        "上周快讯（10.05–10.11）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W41.md"
+        in (render.render_group_text(monday, config, weekly))
+    )
+    assert render.weekly_for(date(2026, 10, 13), kx_issue()) is None  # 只在周一附上
+
+
+def test_readme_has_the_group_text_to_copy(make_item, config):
+    block = render.render_latest_block(DAY, payload_of(make_item(), kuaixun=daily_issue()), config, kx_issue())
+    assert "<summary>群消息文字版" in block and "```text\n【每日科技快讯】10月11日 周日" in block
+    assert block.index("群消息文字版") < block.index("### 今日快讯")

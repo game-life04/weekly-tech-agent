@@ -1,0 +1,43 @@
+【每日科技快讯】10月20日 周二
+今日 AI 与开源要闻 13 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 7 个 PR、提交 11 次
+2. 新仓库 hust-mail-cli 合并 4 个 PR
+3. pwn.hust.college 合并 3 个 PR
+
+【国内动态】
+4. MiniMax 发布 M3.1 Flash 模型
+→ MiniMax 发布 M3.1 Flash，定位为 Coding/Agent 优化轻量级模型，拥有 100 万 token 上下文。
+
+【海外动态】
+5. OpenAI 改进低资源编程语言代码能力
+→ OpenAI 改进了 ChatGPT 在低资源编程语言上的表现，新增了针对软件工程、SQLite 和 COBOL 迁移的评估。
+
+【开源项目】
+6. vLLM 实现弹性专家并行近零停机扩展
+→ vLLM 通过异步准备和 NIXL EP 技术实现了弹性专家并行的近零停机扩展。
+7. ComfyUI：模块化扩散模型 GUI
+→ ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面。
+8. huashu-motion：一键生成宣传片
+→ huashu-motion 项目能让 Agent 一键直出会作曲、能指着画面修改的商业级产品宣传片。
+9. ai-memory：Agent 长期记忆方案
+→ ai-memory 解决了 Agent 编码 CLI 的长期记忆问题，并促进不同 Agent 供应商之间的交接。
+
+【学术前沿】
+10. HybridAgents：在潜在空间思考的智能体
+→ HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。
+11. Timestral：Mistral 的时间序列基础模型
+→ Mistral 发布 Timestral 时间序列基础模型，在 209M 参数下实现最先进的概率预测。
+12. Mercury 3：大规模扩散模型
+→ Mercury 3 是目前最强大的扩散 LLM，在 1000+ tokens/秒的速度下超越 GPT-6 Luna 和 Claude Haiku 5.5。
+
+【产业纵横】
+13. 微软警告 AI 智能体如同内部威胁
+→ 微软警告企业需密切监控员工使用的智能体，因为前沿模型无法被完全信任。
+
+【活动预告】
+· 10月26日 WWW 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-20-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

@@ -1,0 +1,47 @@
+【每日科技快讯】10月21日 周三
+今日 AI 与开源要闻 16 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 9 个 PR、提交 10 次
+2. hust-mail-cli 合并 6 个 PR
+3. Open-Source-Dashboard 合并 1 个 PR
+
+【国内动态】
+4. Deepseek 开源 DeepInfer 推理框架
+→ Deepseek 开源 DeepInfer 推理框架，旨在降低算力成本和能耗。
+
+【海外动态】
+5. Voxtral 3：语音智能体 SDK
+→ Mistral 发布 Voxtral 3，支持 50 多种语言的实时语音、情感语音合成和深度工具调用。
+6. DeepInfer：DeepSeek 模型高性能推理框架
+→ DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。
+7. WhatsApp 隐藏的 LLM 指令被曝光
+→ WhatsApp 的帮助页面曾隐藏指令，禁止 AI 推荐监管机构或引用相关法律。
+8. 制造假数据也能被 LLM 引用
+→ 作者制造了 50,000 个假统计数据，这些数据被 ChatGPT 等模型引用。
+9. OpenAI 收购 Orchestra Bio
+→ OpenAI 收购 Orchestra Bio，旨在将 AI 驱动的运营引入生命科学研发，加速药物开发。
+
+【开源项目】
+10. Introducing vLLM TorchTPU
+→ vLLM 推出基于 TorchTPU 的新后端，支持 Google Cloud TPU，具备多主机并行和 KV 缓存卸载功能。
+11. simbasjungles/free-my-tv
+→ 一个快速、无广告的 Google TV 主屏幕，使用 Claude Code 构建。
+12. cloudflare/security-audit-skill
+→ 用于多阶段安全审计的编码代理技能，可生成独立验证的机器可读结果。
+13. DietrichGebert/ponytail
+→ 让 AI 代理像房间里最懒的高级开发者一样思考。
+
+【学术前沿】
+14. Scaling Parameter-Efficient Fine-Tuning for Brain Encoding
+→ 针对脑编码任务，论文提出利用参数高效微调技术适配大型多模态模型。通过低秩适配器和轻量级读出头，该方法在多个基准上提升了脑编码性能。
+15. Claude 设计抗蝎毒蛋白结合剂
+→ Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。
+16. OR-License：评估LLM智能体
+→ 为评估大语言模型智能体解决现实运筹学问题的能力，论文构建了包含真实商业场景的基准。实验表明，尽管部分模型在特定指标上接近专家水平，但整体可行性仍需提升。
+
+【活动预告】
+· 10月26日 WWW 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-21-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

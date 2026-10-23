@@ -9,7 +9,7 @@ from __future__ import annotations
 import html
 import posixpath
 import re
-from datetime import date
+from datetime import date, timedelta
 from typing import Any
 from urllib.parse import quote
 
@@ -50,9 +50,10 @@ def weekly_html_path(week: str) -> str:
     return f"weekly/{week}.html"
 
 
-def image_path(sheet: str) -> str:
-    """公众号排版版截成的长图（由定时任务用 wta/longshot.py 生成）。"""
-    return sheet.removesuffix(".html") + ".jpg"
+def group_text_path(kx: dict[str, Any]) -> str:
+    """每日快讯的群消息文字版。"""
+    day = date.fromisoformat(kx["day"])
+    return f"daily/{day:%Y}/{day.isoformat()}-group.txt"
 
 
 def kuaixun_paths(kx: dict[str, Any]) -> tuple[str, str]:
@@ -217,7 +218,7 @@ def render_latest_block(
     blocks = [LATEST_START]
     daily = payload.get("kuaixun") if day is not None else None
     if isinstance(daily, dict):
-        blocks += _kx_daily_readme(daily, config)
+        blocks += _kx_daily_readme(daily, config, kx)
     if kx:
         blocks += _kx_readme(kx)
     if day is not None and not isinstance(daily, dict):
@@ -259,7 +260,7 @@ def render_daily_index(days: list[tuple]) -> str:
         line = f"- [{day:%m-%d}（{weekday_name(day)}）]({day:%Y}/{day.isoformat()}.md) · {count} 条"
         if rest and rest[0]:
             base = f"{day:%Y}/{day.isoformat()}-kuaixun"
-            line += f" · [每日快讯]({base}.md) · [长图]({base}.jpg) · [公众号排版版]({base}.html)"
+            line += f" · [每日快讯]({base}.md) · [公众号排版版]({base}.html)"
         lines.append(line)
     return "\n".join(lines) + "\n"
 
@@ -270,8 +271,7 @@ def render_weekly_index(issues: list[dict[str, Any]]) -> str:
     for kx in sorted(issues, key=lambda kx: kx["start"], reverse=True):
         year, week, _ = date.fromisoformat(kx["start"]).isocalendar()
         lines.append(
-            f"- [{year} 年第 {week} 周 · {kx_range(kx)}]({kx['week']}.md) · [长图]({kx['week']}.jpg)"
-            f" · [公众号排版版]({kx['week']}.html)"
+            f"- [{year} 年第 {week} 周 · {kx_range(kx)}]({kx['week']}.md) · [公众号排版版]({kx['week']}.html)"
             f" · {len(_kx_entries(kx))} 条"
         )
     if not issues:
@@ -397,23 +397,71 @@ def _kx_footer_md(kx: dict[str, Any], config: dict[str, Any]) -> str:
     return "<sub>" + " ".join(notes) + "</sub>"
 
 
-def _kx_daily_readme(kx: dict[str, Any], config: dict[str, Any]) -> list[str]:
-    """README 里的每日快讯：全文照登。"""
+def weekly_for(day: date, weekly: dict[str, Any] | None) -> dict[str, Any] | None:
+    """周一的群消息要附上刚出的每周快讯：weekly 正好是 day 前一周的那一期时返回它。"""
+    if weekly and weekly.get("end") == (day - timedelta(days=1)).isoformat():
+        return weekly
+    return None
+
+
+def _plain(text: object) -> str:
+    """群消息里的文字：去掉标签和多余空白；反引号换掉，免得打断 README 里的代码块。"""
+    return clean_text(text).replace("`", "'")
+
+
+def render_group_text(kx: dict[str, Any], config: dict[str, Any], weekly: dict[str, Any] | None = None) -> str:
+    """每日快讯的群消息文字版：每天固定时间整段复制发到群里。
+
+    只用纯文字（不用 Markdown、不放图），每条一行标题、一行要点，俱乐部动态只写标题，活动预告写日期；
+    原文链接都在完整版里，末尾只放完整版的链接。周一再附上刚出的每周快讯。
+    """
+    day = date.fromisoformat(kx["day"])
+    entries = _kx_entries(kx)
+    count = sum(entry.get("cat") != "events" for entry in entries)
+    lines = [
+        f"【每日科技快讯】{day.month}月{day.day}日 {weekday_name(day)}",
+        f"今日 AI 与开源要闻 {count} 条，3 分钟速读",
+    ]
+    number = 0
+    for name, title, rows in _kx_groups(kx):
+        lines += ["", f"【{title}】"]
+        for entry in rows:
+            if name == "events":
+                lines.append(f"· {_plain(entry.get('when'))} {_plain(entry.get('headline'))}")
+                continue
+            number += 1
+            lines.append(f"{number}. {_plain(entry.get('headline'))}")
+            if name != "club":  # 俱乐部的标题就是统计数字，正文太长
+                lines.append(f"→ {_plain(entry.get('body'))}")
+    if not entries:
+        lines += ["", "今天没有收集到内容。"]
+    lines.append("")
+    if weekly:
+        lines.append(f"上周快讯（{kx_range(weekly)}）已出：{REPO_URL}/blob/main/{kuaixun_paths(weekly)[0]}")
+    lines.append(f"完整版（含原文链接）：{REPO_URL}/blob/main/{kuaixun_paths(kx)[0]}")
+    if any(entry.get("ai") for entry in entries):
+        lines.append("标题和要点由 AI 整理，可能有误，请以原文为准。")
+    return "\n".join(lines) + "\n"
+
+
+def _kx_daily_readme(kx: dict[str, Any], config: dict[str, Any], weekly: dict[str, Any] | None = None) -> list[str]:
+    """README 里的每日快讯：先是可以整段复制的群消息文字版（折叠起来），再全文照登。"""
     page, sheet = kuaixun_paths(kx)
     day = date.fromisoformat(kx["day"])
     nav = " · ".join(
         [
             f"[单独打开]({page})",
-            f"[长图]({image_path(sheet)})",
             f"[公众号排版版]({sheet})",
             f"[完整日报（含热度和原题）]({daily_path(day)})",
             "[往期日报](daily/README.md)",
         ]
     )
     entries = len([e for e in _kx_entries(kx) if e.get("cat") != "events"])
+    text = render_group_text(kx, config, weekly_for(day, weekly))
     blocks = [
         f"## 每日快讯 · {kx_range(kx)}（{weekday_name(day)}）",
         f"> 今日 AI 与开源要闻 **{entries}** 条，3 分钟速读。<br>\n> {nav}",
+        f"<details>\n<summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>\n\n```text\n{text}```\n\n</details>",
     ]
     return [*blocks, *_kx_body_md(kx, level=3), _kx_footer_md(kx, config)]
 
@@ -421,10 +469,7 @@ def _kx_daily_readme(kx: dict[str, Any], config: dict[str, Any]) -> list[str]:
 def _kx_readme(kx: dict[str, Any]) -> list[str]:
     week = kx["week"]
     sheet = weekly_html_path(week)
-    nav = (
-        f"[阅读全文]({weekly_path(week)}) · [长图]({image_path(sheet)}) · [公众号排版版]({sheet})"
-        " · [往期快讯](weekly/README.md)"
-    )
+    nav = f"[阅读全文]({weekly_path(week)}) · [公众号排版版]({sheet}) · [往期快讯](weekly/README.md)"
     return [
         f"## 每周快讯 · {kx_range(kx)}",
         f"> 上周 AI 与开源要闻 **{len(_kx_entries(kx))}** 条，5 分钟速读。<br>\n> {nav}",
@@ -439,13 +484,13 @@ def render_kuaixun(kx: dict[str, Any], config: dict[str, Any]) -> str:
     if _daily(kx):
         day = date.fromisoformat(kx["day"])
         nav = [
+            f"[群消息文字版]({_relative(here, group_text_path(kx))})",
             f"[完整日报（含热度和原题）]({_relative(here, daily_path(day))})",
             f"[往期日报]({_relative(here, 'daily/README.md')})",
             f"[每周快讯]({_relative(here, 'weekly/README.md')})",
         ]
     else:
         nav = ["[往期快讯](README.md)", f"[每日日报]({_relative(here, 'daily/README.md')})"]
-    nav.append(f"[长图]({_relative(here, image_path(sheet))})")
     nav.append(f"[公众号排版版]({_relative(here, sheet)})")
     blocks = [
         f"# {kx_title(kx)}",
