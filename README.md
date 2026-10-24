@@ -12,62 +12,54 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.24（周六）
+## 每日快讯 · 10.25（周日）
 
-> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-24-kuaixun.md) · [公众号排版版](daily/2026/2026-10-24-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-24.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-25-kuaixun.md) · [公众号排版版](daily/2026/2026-10-25-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-25.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】10月24日 周六
-今日 AI 与开源要闻 16 条，3 分钟速读
+【每日科技快讯】10月25日 周日
+今日 AI 与开源要闻 13 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 2 个 PR、提交 2 次
-2. hust-mail-cli 合并 2 个 PR
-3. AtomGit-Mobile4Android 新增 1 个 PR
+1. 开放原子开源俱乐部合并 6 个 PR、提交 6 次
+2. hust-mail-cli 合并 3 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-4. 月之暗面发布Kimi K3.1 Pro模型
-→ 月之暗面发布了首个拥有100万token上下文窗口的3T级开源模型Kimi K3.1 Pro，并推出了速度提升2-3倍的K3.1 Pro Highspeed版本。
+4. 月之暗面发布3万亿参数Kimi K3.1 Pro
+→ 月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。
 
 【开源项目】
-5. WorldTUI：360M模型模拟终端
-→ 作者微调了一个360M参数的语言模型来模拟终端，它能记住之前的操作并运行vim和tmux等命令。
-6. vLLM 在 16 个 H200 上部署 GLM-5.3
-→ vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。
-7. claude-howto：Claude Code可视化指南
-→ 提供Claude Code的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。
-8. anthropics/knowledge-work-plugins开源
-→ Anthropic开源了知识工作插件仓库，旨在供知识工作者在Claude Cowork中使用。
-9. book-to-skill：PDF转Claude Code技能
-→ 开源项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。
+5. Serving DeepSeek-V4.1-Flash at Scale: vLLM Matches DeepInfer and Scales to GB30…
+→ vLLM在GB300 NVL72上以954K tokens/s per GPU的速率服务DeepSeek-V4.1-Flash，性能显著提升。
+6. openai/codex rust 发布 v0.164.0 版本
+→ openai/codex rust 发布 v0.164.0 版本，新增保存可重用提示、直接设置模型和权限配置等功能。
+7. hyperframes：用 HTML 渲染视频
+→ heygen-com/hyperframes 是一个用于生成视频的 HTML 渲染工具，专为智能体设计。
+8. Claude-Red：Claude 技能攻击库
+→ SnailSploit/Claude-Red 是一个针对 Claude 技能系统的攻击库，包含 SQL 注入和 EDR 绕过等技能。
+9. infinite-canvas：AI 创作无限画布
+→ basketikun/infinite-canvas 是一个集成 AI 生图和视频生成的开源无限画布工作台，支持多 Agent 协同。
 
 【学术前沿】
-10. Anthropic：LLMs 让大规模形式化软件验证成为可能
-→ Anthropic 的 Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。
-11. AI 在数学上越来越擅长，原因如下
-→ AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。
-12. WildAWM：计算机使用智能体环境合成
-→ 提出WildAWM管道，利用开源模型构建支持多种交互界面的环境，用于训练通用计算机使用智能体。
-13. 虚拟世界具身智能体持续预训练研究
-→ 研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响，发现多样性改善向相关世界的迁移。
-
-【产业纵横】
-14. OpenAI 联合机构部署数千个 AI 智能体分析小鼠脑细胞
-→ OpenAI 联合 PerturbAI 和斯克里普斯研究所，利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。
-15. OpenAI 加强前沿模型训练环境的安全性
-→ OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。
-16. OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储
-→ OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。
+10. Anthropic 调查 Claude Mythos 5 对齐问题
+→ Anthropic研究团队调查Claude Mythos 5在UK AISI评估中的未经授权行为，分析其对齐情况。
+11. 构建自己的推理模型：完整视频课程
+→ 包含11小时编程视频，涵盖评估、推理扩展、强化学习和蒸馏，使用Python和PyTorch。
+12. IQuest-Q1：提升智能体 CLI 系统的基础能力
+→ IQuest-Q1 是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。实验表明其在编码和通用任务上表现优异。
+13. AI 生成语言为何难以理解？
+→ 研究发现 AI 模型比人工翻译和人类写作更频繁地使用复杂的句法特征，导致文本更难理解。
 
 【活动预告】
 · 10月26日 WWW 2027 论文截稿
 · 11月5日 RECOMB 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-24-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-25-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -77,45 +69,37 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 2 个 PR、提交 2 次**<br>10月23日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 4 个有人参与开发，共新增 PR 5 个、合并 2 个，提交 2 次，新增代码 1151 行、删除 128 行，4 位贡献者参与，其中 2 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 6 个 PR、提交 6 次**<br>10月24日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 6 个、合并 6 个，提交 6 次，新增代码 1808 行、删除 46 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**hust-mail-cli 合并 2 个 PR**<br>10月23日，Agent SIG的 hust-mail-cli 仓库新增 PR 2 个、合并 2 个、提交 2 次、新增代码 1151 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
+**hust-mail-cli 合并 3 个 PR**<br>10月24日，Agent SIG的 hust-mail-cli 仓库新增 PR 3 个、合并 3 个、提交 3 次、新增代码 1546 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mail-cli)）</sub>
 
-**AtomGit-Mobile4Android 新增 1 个 PR**<br>10月23日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>10月24日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 258 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
 #### 国内动态
 
-**月之暗面发布Kimi K3.1 Pro模型**<br>10月24日，月之暗面发布了首个拥有100万token上下文窗口的3T级开源模型Kimi K3.1 Pro，并推出了速度提升2-3倍的K3.1 Pro Highspeed版本。<br><sub>（来源：[Hacker News](https://www.kimi.ai/blog/kimi-k3-1-pro)）</sub>
+**月之暗面发布3万亿参数Kimi K3.1 Pro**<br>10月24日，月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。<br><sub>（来源：[智东西](https://zhidx.com/p/604320.html)）</sub>
 
 #### 开源项目
 
-**WorldTUI：360M模型模拟终端**<br>10月22日，作者微调了一个360M参数的语言模型来模拟终端，它能记住之前的操作并运行vim和tmux等命令。<br><sub>（来源：[Hacker News](https://simedw.com/2026/10/21/world-model-terminal/)）</sub>
+**Serving DeepSeek-V4.1-Flash at Scale: vLLM Matches DeepInfer and Scales to GB30…**<br>10月23日，vLLM在GB300 NVL72上以954K tokens/s per GPU的速率服务DeepSeek-V4.1-Flash，性能显著提升。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-23-deepseek-v41-flash-pd-wide-ep)）</sub>
 
-**vLLM 在 16 个 H200 上部署 GLM-5.3**<br>10月23日，vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse)）</sub>
+**openai/codex rust 发布 v0.164.0 版本**<br>10月23日，openai/codex rust 发布 v0.164.0 版本，新增保存可重用提示、直接设置模型和权限配置等功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/openai/codex/releases/tag/rust-v0.164.0)）</sub>
 
-**claude-howto：Claude Code可视化指南**<br>10月24日消息，提供Claude Code的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。<br><sub>（来源：[GitHub Trending](https://github.com/luongnv89/claude-howto)）</sub>
+**hyperframes：用 HTML 渲染视频**<br>10月25日消息，heygen-com/hyperframes 是一个用于生成视频的 HTML 渲染工具，专为智能体设计。<br><sub>（来源：[GitHub Trending](https://github.com/heygen-com/hyperframes)）</sub>
 
-**anthropics/knowledge-work-plugins开源**<br>10月24日消息，Anthropic开源了知识工作插件仓库，旨在供知识工作者在Claude Cowork中使用。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/knowledge-work-plugins)）</sub>
+**Claude-Red：Claude 技能攻击库**<br>10月25日消息，SnailSploit/Claude-Red 是一个针对 Claude 技能系统的攻击库，包含 SQL 注入和 EDR 绕过等技能。<br><sub>（来源：[GitHub Trending](https://github.com/SnailSploit/Claude-Red)）</sub>
 
-**book-to-skill：PDF转Claude Code技能**<br>10月24日消息，开源项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。<br><sub>（来源：[GitHub Trending](https://github.com/virgiliojr94/book-to-skill)）</sub>
+**infinite-canvas：AI 创作无限画布**<br>10月25日消息，basketikun/infinite-canvas 是一个集成 AI 生图和视频生成的开源无限画布工作台，支持多 Agent 协同。<br><sub>（来源：[GitHub Trending](https://github.com/basketikun/infinite-canvas)）</sub>
 
 #### 学术前沿
 
-**Anthropic：LLMs 让大规模形式化软件验证成为可能**<br>10月22日，Anthropic 的 Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/formal-verification)）</sub>
+**Anthropic 调查 Claude Mythos 5 对齐问题**<br>10月23日，Anthropic研究团队调查Claude Mythos 5在UK AISI评估中的未经授权行为，分析其对齐情况。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/alignment-assessment-ukaisi)）</sub>
 
-**AI 在数学上越来越擅长，原因如下**<br>10月23日，AI 模型正在解决更多数学问题，其成功模式可能有助于预测它们接下来能解决的问题。<br><sub>（来源：[Latent Space](https://latent.space/p/ai-is-getting-good-at-math/)）</sub>
+**构建自己的推理模型：完整视频课程**<br>10月24日，包含11小时编程视频，涵盖评估、推理扩展、强化学习和蒸馏，使用Python和PyTorch。<br><sub>（来源：[Ahead of AI](https://magazine.sebastianraschka.com/p/building-reasoning-models)）</sub>
 
-**WildAWM：计算机使用智能体环境合成**<br>10月24日消息，提出WildAWM管道，利用开源模型构建支持多种交互界面的环境，用于训练通用计算机使用智能体。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.26828)）</sub>
+**IQuest-Q1：提升智能体 CLI 系统的基础能力**<br>10月25日消息，IQuest-Q1 是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。实验表明其在编码和通用任务上表现优异。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.30949)）</sub>
 
-**虚拟世界具身智能体持续预训练研究**<br>10月24日消息，研究数据量、多样性和模型容量对虚拟世界中具身智能体学习的影响，发现多样性改善向相关世界的迁移。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.28698)）</sub>
-
-#### 产业纵横
-
-**OpenAI 联合机构部署数千个 AI 智能体分析小鼠脑细胞**<br>10月23日，OpenAI 联合 PerturbAI 和斯克里普斯研究所，利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。<br><sub>（来源：[IT之家](https://www.ithome.com/1/017/274.htm)）</sub>
-
-**OpenAI 加强前沿模型训练环境的安全性**<br>10月23日，OpenAI 介绍了如何通过离线环境和高算力红队测试来加强前沿模型训练和评估的隔离措施。<br><sub>（来源：[OpenAI](https://openai.com/index/securing-our-frontier-model-training-environment)）</sub>
-
-**OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储**<br>10月24日，OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。<br><sub>（来源：[OpenAI](https://openai.com/index/scaling-storage-one-billion-users-part-two)）</sub>
+**AI 生成语言为何难以理解？**<br>10月25日，研究发现 AI 模型比人工翻译和人类写作更频繁地使用复杂的句法特征，导致文本更难理解。<br><sub>（来源：[Hacker News](https://arxiv.org/abs/2610.29162)）</sub>
 
 ### 活动预告
 
@@ -123,7 +107,7 @@
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月23日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-24 06:10（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月24日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-25 05:36（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 1 期 · 10.12–10.18
 

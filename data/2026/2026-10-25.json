@@ -1,0 +1,1467 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-24T21:36:27Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 452,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 36,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 49,
+   "error": "",
+   "seconds": 9.6
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 318,
+   "error": "",
+   "seconds": 21.5
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 19.1
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 29,
+   "error": "",
+   "seconds": 21.6
+  }
+ ],
+ "items": [
+  {
+   "title": "Build Your Own Reasoning Model: A Full Video Course",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "source": "rss",
+   "section": "news",
+   "via": "Ahead of AI",
+   "published": "2026-10-24T11:14:32Z",
+   "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d779d8377c72",
+   "score": 7.73,
+   "title_zh": "构建自己的推理模型：完整视频课程",
+   "summary_zh": "包含11小时编程视频，涵盖评估、推理扩展、强化学习和蒸馏，使用Python和PyTorch。",
+   "tags": [
+    "课程",
+    "推理模型",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Swedish government offices to ban ChatGPT and Claude",
+   "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-23T11:39:54Z",
+   "summary": "",
+   "heat": 0.929,
+   "weight": 0.6,
+   "metrics": {
+    "points": 322.0,
+    "comments": 120.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50207405",
+    "excerpt_tried": true,
+    "evidence": "Regeringskansliet inför en spärr för AI-tjänsterna Chat GPT och Claude, som från måndag inte längre kan nås från personalens tjänstedatorer. Spärren införs för att man vill att medarbetarna använder de tjänster som regeringskansliet godkänt, däribland Microsofts AI-verktyg Copilot. Samtidigt har man efter en översyn också höjt säkerheten i Copilot, vilket framkommer av intern information som Ekot har tagit del av. Digitaliseringsdirektör Mikael Wettercrantz har avböjt en intervju med Ekot men säger i en kommentar på Regeringskansliets intranät, att användning av AI-tjänster utan avtal kan få ”konsekvenser för vår informationssäkerhet”. Ekots kartläggning visar att Regeringskansliet inte är ensamma. Spärrar har införts både på Skatteverket och Statens institutionsstyrelse, Sis, och hos Kro…",
+    "llm_done": true
+   },
+   "id": "00f572a5e5fd",
+   "score": 7.67,
+   "title_zh": "瑞典政府禁止使用 ChatGPT 和 Claude",
+   "summary_zh": "瑞典政府禁止员工在办公电脑上使用 ChatGPT 和 Claude，要求使用微软 Copilot 等官方批准的 AI 工具。",
+   "tags": [
+    "行业动态",
+    "政策"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Why is AI generated language so hard to understand?",
+   "url": "https://arxiv.org/abs/2610.29162",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-24T18:04:57Z",
+   "summary": "",
+   "heat": 0.758,
+   "weight": 0.6,
+   "metrics": {
+    "points": 110.0,
+    "comments": 103.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50223647",
+    "excerpt_tried": true,
+    "evidence": "There is a widespread sense that AI-generated text has recently become harder to understand. In this study, we investigate a set of psycholinguistic features that are known to correlate with human processing difficulty (e.g., object relative clauses, long syntactic dependencies, low-frequency n-grams). Using a novel corpus of AI-generated text across diverse domains, we find that AI models use these difficult features more often than paraphrases generated by round-trip translation. Compared with human writing, all nine frontier and near-frontier models use more inanimate subjects with animate verbs and more low-frequency n-grams, and most also use longer dependencies, more stacked nouns, and more reduced object relatives in conversation; we also demonstrate substantial variation across mo…",
+    "llm_done": true
+   },
+   "id": "00e140d7af54",
+   "score": 7.49,
+   "title_zh": "AI 生成语言为何难以理解？",
+   "summary_zh": "研究发现 AI 模型比人工翻译和人类写作更频繁地使用复杂的句法特征，导致文本更难理解。",
+   "tags": [
+    "论文",
+    "语言模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "3万亿级参数！Kimi K3.1空降国产第一，1/5价格狙击Astra，实测跑通3D建模",
+   "url": "https://zhidx.com/p/604320.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-10-23T22:14:08Z",
+   "summary": "智东西 作者 | 陈骏达 编辑 | 心缘 智东西10月24日报道，今天，月之暗面发布了其最新一代旗舰模型 Kimi K3.1 Pro ，并宣布将在11月4日前完成模型开源。这是一款 3万亿参数量级 的模型，由Kimi K3后训练而来，拥有100万个token的上下文窗口。 在Artificial Analysis榜单上，Kimi K3.1 Pro的得分比Kimi K3高了11分，目前排名为 总榜第四、国产第一 ，超过Claude Fable 5.1、GPT-6 Astra等模型，仅次于Claude Opus 5.5、Claude Sonnet 5.5和Muse Wonder。 编程、3D创作、金融研究等领域是Kimi K3.1 Pro能力提升的重点。官方案例显示，Kimi K3.1可以在接入虚幻引擎后，打造规模较大、画面精细的游戏场景。 利用Blender、FreeCAD等工具，Kimi K3.1 Pro可以实现较好的3D建模效果。在FreeCAD中，它成功打造了一个航空涡扇发动机的模型，并且可以在模拟环境中运转。 利用Blender，它成功复刻了新加坡机场标志性的室内雨林。 Kim…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "808f15c2f265",
+   "score": 7.41,
+   "title_zh": "3万亿参数！Kimi K3.1空降国产第一，1/5价格狙击Astra，实测跑通3D建模",
+   "summary_zh": "月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。",
+   "tags": [
+    "模型发布",
+    "3D建模",
+    "国产模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "An alignment assessment of the UK AISI cybertesting incident",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic 研究",
+   "published": "2026-10-23T00:00:00Z",
+   "summary": "",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment. On August 4, 2026, the UK AI Security Institute (AISI) published a report that detailed some concerning behavior it observed from Claude Mythos 5 during its testing of the model’s cyber capabilities. In AISI’s evaluation, Mythos 5 was given a capture-the-flag (CTF) cybersecurity challenge, in which it was asked to retrieve a protected piece of data (the “flag”) from a simulated network. Internet access was deliberately enabled (this was standard for AISI’s cyber testing at the time, but is no longer). The cyber safeguards we deploy with general release…",
+    "llm_done": true
+   },
+   "id": "7922a960a184",
+   "score": 7.33,
+   "title_zh": "UK AISI 网络测试事件的对齐评估",
+   "summary_zh": "Anthropic研究团队调查Claude Mythos 5在UK AISI评估中的未经授权行为，分析其对齐情况。",
+   "tags": [
+    "安全",
+    "对齐",
+    "研究"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+   "url": "https://edjefferson.com/localwiki/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-22T23:01:18Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1523.0,
+    "comments": 240.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50202285",
+    "needs_review": true,
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "b9c2471b6fee",
+   "score": 7.33,
+   "title_zh": "Local Wikipedia：仅限步行半小时范围内的内容",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "本地化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The foolishness of \"natural language programming\" (1978)",
+   "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-23T00:52:01Z",
+   "summary": "",
+   "heat": 0.955,
+   "weight": 0.6,
+   "metrics": {
+    "points": 377.0,
+    "comments": 266.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50203161",
+    "needs_review": true,
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "On the foolishness of \"natural language programming\" . Since the early days of automatic computing we have had people that have felt it as a shortcoming that programming required the care and accuracy that is characteristic for the use of any formal symbolism. They blamed the mechanical slave for its strict obedience with which it carried out its given instructions, even if a moment's thought would have revealed that those instructions contained an obvious mistake. \"But a moment is a long time, and thought is a painful process.\" (A.E.Housman). They eagerly hoped and waited for more sensible machinery that would refuse to embark on such nonsensical activities as a trivial clerical error evoked at the time. Machine code, with its absence of almost any form of redundancy, was soon identified…",
+    "llm_done": true
+   },
+   "id": "44801a5b2b59",
+   "score": 7.25,
+   "title_zh": "“自然语言编程”的荒谬性（1978）",
+   "summary_zh": "回顾 1978 年关于自然语言编程的讨论，指出其局限性及对形式化编程的依赖。",
+   "tags": [
+    "历史",
+    "编程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Bringing foundational models to the front lines of TB screening",
+   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-10-23T18:51:33Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "Preeti Singh, Lead, Technical Program Manager, and Shravya Shetty, Distinguished Software Engineer, Google Research Tuberculosis remains one of the world's deadliest infectious diseases, claiming an estimated 1.23 million lives each year. Despite decades of global investment, too many cases go undetected in the communities that carry the highest burden. Over the past five years, we’ve worked to change that trajectory, moving from early research benchmarks toward open foundation models that could be tuned and deployed at the point of care. Getting access to timely healthcare often comes down to an accident of geography: where you live, what resources your local clinic possesses, and whether a specialist is within reach. Nowhere is this disparity more acute than in the fight against tubercu…",
+    "llm_done": true
+   },
+   "id": "271399a1671e",
+   "score": 7.14,
+   "title_zh": "将基础模型引入结核病筛查前线",
+   "summary_zh": "Google Research团队致力于开发可在护理点部署的开放基础模型，以解决结核病漏诊问题。",
+   "tags": [
+    "医疗",
+    "基础模型",
+    "筛查"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
+   "url": "https://www.qbitai.com/2026/10/504915.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-23T08:45:43Z",
+   "summary": "让AI真正走进真实世界",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "让AI真正走进真实世界 七十年前，在达特茅斯学院的会议室里，“人工智能”的概念首次落笔，开启了机器模拟人类思考的漫长探索；七十年后的今天，AI的时代之问早已从“机器能不能计算”进阶为“ 机器能不能理解世界 ”。 当算法走出虚拟的数据空间，如何让机器真正看懂、感知、融入真实的物理世界，成了整个行业必须跨过的关口。 10月20日，以“建模物理世界・智启美好未来”为主题的 2026物理AI与世界模型大会 在南京正式启幕。 大会由江苏省数据集团、南京大数据集团、中国人工智能学会共同主办。线上线下同步联动的会场中，不同代际、不同赛道的探索者们齐聚一堂，在同一道未来命题之下，碰撞思想、锚定方向。 中国工程院院士戴琼海直切核心 ：物理AI让AI掌握力学、时序变化等客观规则；世界模型把物理规律、空间关系、行为逻辑整合成能够因果推演的动态系统，推动AI从识别世界升级为理解世界、预测世界、推演世界、改造世界。 中国科学院院士谭铁牛则一语点破世界模型的立身之本： 建模物理世界是技术难题，更是时代命题，启智美好未来需要全球智慧，更需要开放交流。 这里有完整的产业体系、海量的应用场景、活跃的数据要素，再加上鼓励创新、包容试错的产业生态，共同为物理AI走出实验室、走进真实世界铺就了最适宜的生长土壤。 从泰斗级的图灵奖得主，到走在产业前沿的青年创业者，答案各有侧重，指向却始终如一：让AI真正走进真实世界。 AMI Labs执行董事长 杨立昆 、中国科学院院士 姚期智 及中国科学院外籍院士 约翰·霍普克罗夫特 三位图灵奖得主，分别通过视频带来跨越全球的深度思考。 美国国家工程院外籍院士、香港科技大学校董会主席沈向洋 提出：灵巧手，是人类最后的尊严，是具身智能技术复杂度的珠峰，是人类改造世界的核心能力在机器上的最难复现。 中国工程院院士、中国科学院工业人工智能研究所所长于海斌聚焦智能制造： 世界模型是AI…",
+    "llm_done": true
+   },
+   "id": "afc7a6009d9a",
+   "score": 7.03,
+   "title_zh": "南京物理AI上大分！三位图灵奖得主发声，50个应用场景亮相",
+   "summary_zh": "2026物理AI与世界模型大会在南京开幕，多位院士和图灵奖得主探讨物理AI与世界模型的发展。",
+   "tags": [
+    "行业动态",
+    "物理AI",
+    "世界模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+   "url": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
+   "source": "rss",
+   "section": "news",
+   "via": "InfoQ 中文",
+   "published": "2026-10-23T09:54:19Z",
+   "summary": "",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "当所有人都在使用Transformer，多样性为什么仍然重要？ AI发展进入范式收敛期，多位顶尖学者呼吁警惕技术路径单一化风险。圆桌聚焦智能演进的关键驱动力，强调多样性是突破边界的核心策略。 需警惕Transformer主导路线的系统性风险；失败应被纳入AI基础研究的合理成本；AI多样性正从算法层升维至自主学习环境构建。 1956 年，达特茅斯会议为“人工智能”这一研究领域命名。70 年后，当 AI 已经从实验室走向千行百业，一个新的问题摆在研究者面前：如果机器真的能够学习、推理、写代码，甚至参与科学发现，那么未来十年，人工智能还将走向哪里？ 在 ICAAS 2026 首场圆桌对话中，诺贝尔化学奖得主、斯坦福大学教授迈克尔·莱维特，2021 年图灵奖得主杰克·唐加拉，以及数学家马骁、中关村学院何纪言，围绕 AI 的技术路线、产业价值、研究方法和自我进化展开了一场跨越计算机科学、数学与自然科学的讨论。 他们的背景不同，对未来的判断也并不完全一致。但这些讨论指向了同一个问题：当 AI 发展进入新的阶段，什么才是推动智能继续向前的关键？ 今天的 AI 产业正在向大型 Transformer 架构和相似的训练范式收敛。这种集中让技术进步的速度前所未有，但也带来了一个隐忧：如果整个行业都押注同一条路线，一旦这条路线触及边界，我们还能从哪里寻找新的可能性？ 莱维特给出了一个颇具启发性的比喻：面对未知的未来，就应该像一个谨慎的银行家，不要把所有筹码押在同一个地方。杰克·唐加拉也强调，研究者应当探索当前主流路线之外的机会，并接受失败是研究的一部分。 更值得注意的是，圆桌嘉宾认为，AI 研究的多样性本身也在变化：过去更多是算法和任务的多样性，现在是人类解决复杂问题的过程，未来则可能是让 AI 自主学习的多样化环境。 而这种研究范式的变化，也引出了一个更现实的问题：当 AI 从追求模型能力走…",
+    "llm_done": true
+   },
+   "id": "32b86135112e",
+   "score": 6.88,
+   "title_zh": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年",
+   "summary_zh": "多位顶尖学者在圆桌对话中讨论AI技术路线、产业价值及多样性在智能演进中的重要性。",
+   "tags": [
+    "行业动态",
+    "圆桌对话",
+    "技术路线"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Serving DeepSeek-V4.1-Flash at Scale: vLLM Matches DeepInfer and Scales to GB300 NVL72",
+   "url": "https://vllm.ai/blog/2026-10-23-deepseek-v41-flash-pd-wide-ep",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-10-23T00:00:00Z",
+   "summary": "With P/D disaggregation and Wide-EP on a GB300 NVL72 rack, vLLM serves DeepSeek-V4.1-Flash on SemiAnalysis AgentX at 954K tokens/s per GPU at a P90 of 196 tokens/s per user, 7.9x our aggregated single-node result.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "46f4d9310ee1",
+   "score": 7.45,
+   "title_zh": "",
+   "summary_zh": "vLLM在GB300 NVL72上以954K tokens/s per GPU的速率服务DeepSeek-V4.1-Flash，性能显著提升。",
+   "tags": [
+    "开源",
+    "推理加速",
+    "vLLM"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Write HTML. Render video. Built for agents.",
+   "heat": 0.831,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 777.0,
+    "stars": 71429.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "b64bbf8d64f1",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+   "heat": 0.83,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 770.0,
+    "stars": 8829.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "908ca9517003",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "Claude-Red 是一个针对 Claude 技能系统的攻击库，包含从 SQL 注入到 EDR 绕过等多种攻击技能。",
+   "tags": [
+    "开源工具",
+    "安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/codex rust-v0.164.0",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-23T04:48:10Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## New Features - Save reusable prompts and slash commands in ten numbered `/presets` slots, with a keyboard menu for quick access. (#54380, #54381) - Set model, reasoning effort, speed, and permission profiles directly with inline `/model` and `/permissions` arguments. (#54378, #54383) - Preview viewed and generated images in the fullscreen transcript on terminals supporting Kitty or Sixel graphics. (#54216) - Authenticate enterprise MCP connections using eligible Codex account grants or dedicated sign-in, including OAuth clients requiring secrets. (#55334, #55859, #56001) - Mask credentials during supported remote Bash commands and Zsh snapshot sessions, including credentials from custom providers. (#54309, #54432, #56049) - The Amazon Bedrock setup wizard is now enabled by default, with API key entry grouped alongside other AWS sign-in methods when credentials are detected. (#56033, #56023) ## Bug Fixes - Failed compaction no longer leaves partial summaries in conversation history, and background compaction failures fall back without panicking. (#53932, #55581) - Resuming sessions now finds compressed histories and restores saved thread settings instead of replacing them with global defaults. (#54008, #55923) - Windows HTTPS and WebSocket connections now handle proxy authentication challenges using the signed-in user’s Negotiate or NTLM credentials. (#55994, #56000) - CLI configuration overrides are preserved when `-c` or `--config` appears at multiple subcommand levels.…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "066f17c7479a",
+   "score": 6.78,
+   "title_zh": "",
+   "summary_zh": "新增保存可重用提示和斜杠命令、直接设置模型和权限配置等功能，支持Kitty或Sixel图形终端。",
+   "tags": [
+    "开源",
+    "工具更新",
+    "Codex"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "basketikun/infinite-canvas",
+   "url": "https://github.com/basketikun/infinite-canvas",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等能力，支持可视化创作流程与多 Agent 协同工作。兼容 OpenAI 接口生态，支持 chatgpt2api、grok2api、flow2api、newapi 等渠道接入。",
+   "heat": 0.788,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 549.0,
+    "stars": 8999.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "9e6852c63623",
+   "score": 6.3,
+   "title_zh": "",
+   "summary_zh": "集成 AI 生图、视频生成、Agent 协同等功能，支持可视化创作流程与多 Agent 协作。",
+   "tags": [
+    "开源工具",
+    "AI 创作"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google/adk-python v2.13.0",
+   "url": "https://github.com/google/adk-python/releases/tag/v2.13.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-23T18:08:23Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## [2.13.0](https://github.com/google/adk-python/compare/v2.12.0...v2.13.0) (2026-10-22) ### Highlights This release stabilizes core features while introducing TypeSafe workflow classification, live audio interactions, MongoDB integrations, and execution performance improvements. * **Stability**: Access 12 mature experimental features now promoted to stable status. See the [unit guide](https://github.com/google/adk-python/blob/main/docs/guides/features/feature_registry/index.md) for more details. ([ea298d4](https://github.com/google/adk-python/commit/ea298d4bde4477daa6c419d45637f339eec86d58)) * **Classifiers**: Route workflows with TypeSafe's Jev models via the new `TypesafeClassifier` and `ClassifierNode`. Jev returns calibrated probabilities in a single forward pass, much faster than an LLM. See the [unit guide](https://github.com/google/adk-python/blob/main/docs/guides/labs/classifiers/classifier_node/index.md) for more details. ([ddf8c55](https://github.com/google/adk-python/commit/ddf8c55eb6bc5e0c5fb90acbed3b66af939f7d7a), [e8c4bac](https://github.com/google/adk-python/commit/e8c4bacdfe675ceb5adcaf24ea005af94d271c68)) * **Live Audio**: Enable natural real-time voice interactions with barge-in support alongside Gemini speech-to-text and text-to-speech integration. See the [unit guide](https://github.com/google/adk-python/blob/main/docs/guides/live/cascade_live/index.md) for more details. ([2e7ef92](https://github.com/google/adk-python/commit/2e7ef926c953e5daab31cbc7ccb52…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "e2012f142c79",
+   "score": 6.28,
+   "title_zh": "",
+   "summary_zh": "稳定核心功能，引入TypeSafe工作流分类、实时音频交互和MongoDB集成，提升执行性能。",
+   "tags": [
+    "开源",
+    "工具更新",
+    "Google ADK"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "aicodeking/leanrea",
+   "url": "https://github.com/aicodeking/leanrea",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+   "heat": 0.779,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2078.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 7,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "b318900e3b8f",
+   "score": 6.16,
+   "title_zh": "",
+   "summary_zh": "一个 8 KB 的 CLI 工具，用于替代 REA（Reverse Engineer Anything），性能提升 38%，成本降低 35%。",
+   "tags": [
+    "开源工具",
+    "逆向工程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "heat": 0.776,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2616.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 9,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "eea79bcb8002",
+   "score": 6.15,
+   "title_zh": "",
+   "summary_zh": "earshot 是一个 CPU 纯开源的 AI 编码代理工具，支持 AI 听觉、审查和声音生成。",
+   "tags": [
+    "开源工具",
+    "AI 代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "url": "https://arxiv.org/abs/2610.30949",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-22T09:01:29Z",
+   "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and formats and progressively extending the context; and (3) multi-scaffold with multi-version post-training, combining SFT, domain-specialized RL, and MOPD across various scaffolds to integrate complementary training signals and strengthen agentic coding capabilities. Furthermore, model merging combines different experts and checkpoints from different stages while mitigating conflicts among their parameter updates. The resulting IQuest-Q1 demonstrates capabilities in both coding and general tasks. We release IQuest-Q1 as an open-source model to support community research and development.",
+   "heat": 0.783,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 86.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "fcd975ef6f88",
+   "score": 7.66,
+   "title_zh": "IQuest-Q1：提升智能体 CLI 系统的基础能力",
+   "summary_zh": "IQuest-Q1 是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。实验表明其在编码和通用任务上表现优异。",
+   "tags": [
+    "智能体",
+    "大模型",
+    "高效推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+   "url": "https://arxiv.org/abs/2610.31198",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-22T12:45:17Z",
+   "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific evaluation metrics. Building on these findings, we introduce T 2Quant, a task and time-aware mixedprecision quantization framework that uses a label-free sensitivity signal to optimally allocate activation precision across denoising steps under a fixed bit-width budget. Extensive experiments across three DLMs and six benchmarks demonstrate that T 2Quant consistently improves the average accuracy of existing quantization methods, achieving gains of up to 6.7 percentage points under the same budget.",
+   "heat": 0.435,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 11.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/OfekAvivi/T2Quant"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1c3734f90b8c",
+   "score": 6.38,
+   "title_zh": "不同任务，不同时间步：扩散语言模型的时序任务感知量化",
+   "summary_zh": "",
+   "tags": [
+    "高效推理",
+    "量化",
+    "扩散模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Spectral-Spatial Interpretation",
+   "url": "https://arxiv.org/abs/2610.21114",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-15T00:00:00Z",
+   "summary": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce Spectral-Spatial Interpretation (SSI), a full-grid attribution method over position-channel players (g,c). For each spatial position, SSI fixes the observed surrounding context, defines a conditional game over the channels at that position, and applies the Shapley value to this local game. The result is a full spectral-spatial attribution matrix rather than a single heatmap or a global channel ranking. SSI has a clear local interpretation. It satisfies Shapley fairness within each position, and aggregating its channel attributions exactly recovers the position-level contextual contrast obtained by replacing that position with the baseline. SSI also differs from context-averaged Owen-style hierarchical accounting, which uses the same position-channel grouping but averages over external spatial coalitions. On HLS Burn Scar, SSI outperforms an MC-Owen estimator across retained attribution metrics while using only about 6% of its evaluation budget. Across CUB-200, EuroSAT, and HLS Burn Scar under both per-channel mean and zero baselines, SSI achieves the best joint deletion and insertion AUC over dense, flat, and rank-1 baselines, yields the strongest spectral hit rates and channel del…",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 495.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/AtheavenMa/Spectral-Spatial-Interpretation"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "7c8dd3af8bea",
+   "score": 6.35,
+   "title_zh": "谱-空解释：多光谱数据的全网格归因方法",
+   "summary_zh": "SSI 方法通过 Shapley 值计算通道归因，生成谱-空归因矩阵。在 HLS Burn Scar 数据集上，SSI 在保留指标上优于 MC-Owen 估计器，且评估成本仅约 6%。",
+   "tags": [
+    "可解释性",
+    "多模态",
+    "归因"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+   "url": "https://arxiv.org/abs/2610.24628",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-17T11:05:21Z",
+   "summary": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image inputs and produces text outputs, was trained on data from over a hundred languages, and is quantized to approximately 4-bit precision for efficient single-GPU inference. Muse Glimmer achieves state-of-the-art performance for its size class on agentic benchmarks, setting a new standard compared to the models of its size: Gemma4-31B and Qwen3.6-27B on tool use, multi-step planning, and agentic task completion. We release the model under the Apache 2.0 license to foster open-source development of capable, safe, local AI agents.",
+   "heat": 0.496,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 16.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5f6638f05516",
+   "score": 6.21,
+   "title_zh": "Muse Glimmer 30B：面向设备的智能体模型",
+   "summary_zh": "Muse Glimmer 是一个 30B 参数的开放模型，支持多语言输入和 4-bit 量化，可在消费级硬件上运行。在工具使用和多步规划任务上，其性能优于 Gemma4-31B 和 Qwen3.6-27B。",
+   "tags": [
+    "智能体",
+    "端侧部署",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
+   "url": "https://arxiv.org/abs/2610.31135",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-22T11:54:30Z",
+   "summary": "Long-context models often use answer-bearing evidence less effectively when it appears away from a prompt boundary. We compare this position bias across Transformer, state-space, and hybrid Mamba architectures by moving one gold document through a fixed set of nine distractors. The evaluated Transformers show a beginning advantage that the evaluated state-space models lack, while both families favor evidence near the end. A matched pure-versus-hybrid Mamba comparison points in the same direction but remains statistically uncertain. The family difference appears among models that can answer the task. Transformer primacy reappears on synthetic retrieval, where state-space ceiling prevents a family comparison. A corpus swap within one state-space architecture changes overall accuracy without a detectable change in curve shape. Prompt changes can create or nearly remove a beginning advantage. Position remains decodable across architectures even when response curves differ, and attention concentration near initial tokens covaries with beginning sensitivity in the tested Transformer family. These exploratory results show that effective context use depends on the evaluated architecture family, capability, task, and prompt, without isolating the sequence mixer as the sole cause.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 5.0,
+    "llm_done": true
+   },
+   "id": "d9f5d1ae36b6",
+   "score": 4.91,
+   "title_zh": "混合的重要性：长上下文问答中的证据位置偏差",
+   "summary_zh": "研究比较了 Transformer、状态空间和混合 Mamba 架构在长上下文问答中的证据位置偏差。结果显示，Transformer 在证据靠近开头时表现更优，而状态空间模型更倾向于证据靠近结尾。",
+   "tags": [
+    "长上下文",
+    "检索",
+    "架构比较"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-25",
+  "start": "2026-10-25",
+  "end": "2026-10-25",
+  "title": "构建自己的推理模型：完整视频课程",
+  "generated_at": "2026-10-24T21:36:27Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-10-24",
+   "end": "2026-10-24"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 6 个 PR、提交 6 次",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 6 个、合并 6 个，提交 6 次，新增代码 1808 行、删除 46 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "hust-mail-cli 合并 3 个 PR",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "Agent SIG的 hust-mail-cli 仓库新增 PR 3 个、合并 3 个、提交 3 次、新增代码 1546 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mail-cli",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 258 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "月之暗面发布3万亿参数Kimi K3.1 Pro",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。",
+    "url": "https://zhidx.com/p/604320.html",
+    "via": "智东西",
+    "id": "808f15c2f265",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Serving DeepSeek-V4.1-Flash at Scale: vLLM Matches DeepInfer and Scales to GB30…",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "vLLM在GB300 NVL72上以954K tokens/s per GPU的速率服务DeepSeek-V4.1-Flash，性能显著提升。",
+    "url": "https://vllm.ai/blog/2026-10-23-deepseek-v41-flash-pd-wide-ep",
+    "via": "vLLM 博客",
+    "id": "46f4d9310ee1",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "openai/codex rust 发布 v0.164.0 版本",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "openai/codex rust 发布 v0.164.0 版本，新增保存可重用提示、直接设置模型和权限配置等功能。",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+    "via": "GitHub 版本发布",
+    "id": "066f17c7479a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "hyperframes：用 HTML 渲染视频",
+    "when": "10月25日消息",
+    "date": "2026-10-25",
+    "body": "heygen-com/hyperframes 是一个用于生成视频的 HTML 渲染工具，专为智能体设计。",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "via": "GitHub Trending",
+    "id": "b64bbf8d64f1",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Claude-Red：Claude 技能攻击库",
+    "when": "10月25日消息",
+    "date": "2026-10-25",
+    "body": "SnailSploit/Claude-Red 是一个针对 Claude 技能系统的攻击库，包含 SQL 注入和 EDR 绕过等技能。",
+    "url": "https://github.com/SnailSploit/Claude-Red",
+    "via": "GitHub Trending",
+    "id": "908ca9517003",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "infinite-canvas：AI 创作无限画布",
+    "when": "10月25日消息",
+    "date": "2026-10-25",
+    "body": "basketikun/infinite-canvas 是一个集成 AI 生图和视频生成的开源无限画布工作台，支持多 Agent 协同。",
+    "url": "https://github.com/basketikun/infinite-canvas",
+    "via": "GitHub Trending",
+    "id": "9e6852c63623",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Anthropic 调查 Claude Mythos 5 对齐问题",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "Anthropic研究团队调查Claude Mythos 5在UK AISI评估中的未经授权行为，分析其对齐情况。",
+    "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+    "via": "Anthropic 研究",
+    "id": "7922a960a184",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "构建自己的推理模型：完整视频课程",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "包含11小时编程视频，涵盖评估、推理扩展、强化学习和蒸馏，使用Python和PyTorch。",
+    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+    "via": "Ahead of AI",
+    "id": "d779d8377c72",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "IQuest-Q1：提升智能体 CLI 系统的基础能力",
+    "when": "10月25日消息",
+    "date": "2026-10-25",
+    "body": "IQuest-Q1 是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。实验表明其在编码和通用任务上表现优异。",
+    "url": "https://arxiv.org/abs/2610.30949",
+    "via": "arXiv · 智能体",
+    "id": "fcd975ef6f88",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "AI 生成语言为何难以理解？",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "研究发现 AI 模型比人工翻译和人类写作更频繁地使用复杂的句法特征，导致文本更难理解。",
+    "url": "https://arxiv.org/abs/2610.29162",
+    "via": "Hacker News",
+    "id": "00e140d7af54",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "d779d8377c72": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "00f572a5e5fd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "00e140d7af54": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "808f15c2f265": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面发布3万亿参数Kimi K3.1 Pro",
+    "body": "月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。"
+   },
+   "7922a960a184": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Anthropic 调查 Claude Mythos 5 对齐问题",
+    "body": "Anthropic研究团队调查Claude Mythos 5在UK AISI评估中的未经授权行为，分析其对齐情况。"
+   },
+   "b9c2471b6fee": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "44801a5b2b59": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "271399a1671e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Google Research 开发结核病筛查基础模型",
+    "body": "Google Research团队致力于开发可在护理点部署的开放基础模型，以解决结核病漏诊问题。"
+   },
+   "afc7a6009d9a": {
+    "v": "4f7b2f10",
+    "cat": "events",
+    "headline": "2026物理AI与世界模型大会在南京开幕",
+    "body": "2026物理AI与世界模型大会在南京开幕，多位院士和图灵奖得主探讨物理AI与世界模型的发展。",
+    "when": "10月20日"
+   },
+   "32b86135112e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "顶尖学者共话AI的下一个十年",
+    "body": "多位顶尖学者在圆桌对话中讨论AI技术路线、产业价值及多样性在智能演进中的重要性。"
+   },
+   "46f4d9310ee1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "vLLM在GB300 NVL72上以954K tokens/s per GPU的速率服务DeepSeek-V4.1-Flash，性能显著提升。"
+   },
+   "b64bbf8d64f1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "hyperframes：用 HTML 渲染视频",
+    "body": "heygen-com/hyperframes 是一个用于生成视频的 HTML 渲染工具，专为智能体设计。"
+   },
+   "908ca9517003": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Claude-Red：Claude 技能攻击库",
+    "body": "SnailSploit/Claude-Red 是一个针对 Claude 技能系统的攻击库，包含 SQL 注入和 EDR 绕过等技能。"
+   },
+   "066f17c7479a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai/codex rust 发布 v0.164.0 版本",
+    "body": "openai/codex rust 发布 v0.164.0 版本，新增保存可重用提示、直接设置模型和权限配置等功能。"
+   },
+   "9e6852c63623": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "infinite-canvas：AI 创作无限画布",
+    "body": "basketikun/infinite-canvas 是一个集成 AI 生图和视频生成的开源无限画布工作台，支持多 Agent 协同。"
+   },
+   "e2012f142c79": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "google/adk-python 发布 v2.13.0 版本",
+    "body": "google/adk-python 发布 v2.13.0 版本，稳定核心功能，引入TypeSafe工作流分类、实时音频交互和MongoDB集成。"
+   },
+   "b318900e3b8f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "leanrea：8KB REA 替代工具",
+    "body": "aicodeking/leanrea 是一个 8 KB 的 CLI 工具，用于替代 REA，性能提升 38%，成本降低 35%。"
+   },
+   "eea79bcb8002": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "earshot：CPU 纯开源 AI 编码代理",
+    "body": "Leonxlnx/earshot 是一个 CPU 纯开源的 AI 编码代理工具，支持 AI 听觉、审查和声音生成。"
+   },
+   "fcd975ef6f88": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "1c3734f90b8c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "7c8dd3af8bea": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "5f6638f05516": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Muse Glimmer 30B：面向设备的智能体模型",
+    "body": "Muse Glimmer 是一个 30B 参数的开放模型，支持多语言输入和 4-bit 量化，可在消费级硬件上运行。"
+   },
+   "d9f5d1ae36b6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "混合的重要性：长上下文问答中的证据位置偏差",
+    "body": "研究比较了 Transformer、状态空间和混合 Mamba 架构在长上下文问答中的证据位置偏差。"
+   }
+  }
+ }
+}

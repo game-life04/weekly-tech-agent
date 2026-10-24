@@ -1,0 +1,40 @@
+【每日科技快讯】10月25日 周日
+今日 AI 与开源要闻 13 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 6 个 PR、提交 6 次
+2. hust-mail-cli 合并 3 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
+
+【国内动态】
+4. 月之暗面发布3万亿参数Kimi K3.1 Pro
+→ 月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。
+
+【开源项目】
+5. Serving DeepSeek-V4.1-Flash at Scale: vLLM Matches DeepInfer and Scales to GB30…
+→ vLLM在GB300 NVL72上以954K tokens/s per GPU的速率服务DeepSeek-V4.1-Flash，性能显著提升。
+6. openai/codex rust 发布 v0.164.0 版本
+→ openai/codex rust 发布 v0.164.0 版本，新增保存可重用提示、直接设置模型和权限配置等功能。
+7. hyperframes：用 HTML 渲染视频
+→ heygen-com/hyperframes 是一个用于生成视频的 HTML 渲染工具，专为智能体设计。
+8. Claude-Red：Claude 技能攻击库
+→ SnailSploit/Claude-Red 是一个针对 Claude 技能系统的攻击库，包含 SQL 注入和 EDR 绕过等技能。
+9. infinite-canvas：AI 创作无限画布
+→ basketikun/infinite-canvas 是一个集成 AI 生图和视频生成的开源无限画布工作台，支持多 Agent 协同。
+
+【学术前沿】
+10. Anthropic 调查 Claude Mythos 5 对齐问题
+→ Anthropic研究团队调查Claude Mythos 5在UK AISI评估中的未经授权行为，分析其对齐情况。
+11. 构建自己的推理模型：完整视频课程
+→ 包含11小时编程视频，涵盖评估、推理扩展、强化学习和蒸馏，使用Python和PyTorch。
+12. IQuest-Q1：提升智能体 CLI 系统的基础能力
+→ IQuest-Q1 是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。实验表明其在编码和通用任务上表现优异。
+13. AI 生成语言为何难以理解？
+→ 研究发现 AI 模型比人工翻译和人类写作更频繁地使用复杂的句法特征，导致文本更难理解。
+
+【活动预告】
+· 10月26日 WWW 2027 论文截稿
+· 11月5日 RECOMB 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-25-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
