@@ -1,8 +1,8 @@
 【每日科技快讯】10月26日 周一
-今日 AI 与开源要闻 17 条，3 分钟速读
+今日 AI 与开源要闻 13 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 2 次
+1. 开放原子开源俱乐部合并 2 个 PR、提交 2 次
 2. AtomGit-Mobile4Android 提交 1 次
 3. hustsync.rs 新增 18 个 PR
 
@@ -10,37 +10,27 @@
 4. 千里科技发布AI毫米波雷达
 → Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scori…
 
-【海外动态】
-5. Cerebras部署万亿参数AI模型
-→ Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。
-6. Nikon摄影赛冠军因AI痕迹被取消资格
-→ 清华大学的Ning Xu在显微镜摄影比赛中夺冠后，因作品被判定为AI生成而被取消资格。
-7. 10岁CNN在皮肤癌诊断上超越前沿大模型
-→ 皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。
-8. AI使用让伯克利教授不再批改作业
-→ 伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。
-
 【开源项目】
-9. Speech models in Ollama
+5. Ollama 支持语音模型 Phonon
 → Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。
-10. Shubhamsaboo/awesome-llm-apps
-→ 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-11. Nutlope/hallmark
-→ Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
-12. google-gemini/gemini-cli
-→ An open-source AI agent that brings the power of Gemini directly into your terminal.
-13. The five components of building a "company harness"
-→ LangChain分享构建内部“公司驯兽师”的五个组件，展示其在营销、销售和工程团队中的应用。
+6. Shubhamsaboo/awesome-llm-apps
+→ awesome-llm-apps仓库收录了100+个AI Agents、Agent Skills和RAG Apps，均为免费开源项目。
+7. hallmark：Anti-AI-slop 设计技能
+→ hallmark项目为Claude Code、Cursor和Codex提供Anti-AI-slop设计技能，旨在生成更符合人类审美的代码。
+8. gemini-cli：终端版AI代理
+→ gemini-cli是一个开源AI代理，将Gemini的强大功能直接集成到终端中。
+9. LangChain 分享公司驯兽师构建组件
+→ LangChain分享了构建内部公司驯兽师的五个组件，展示了其在营销、销售和工程团队中的应用。
 
 【学术前沿】
-14. TokenGate：学习剪枝实现快速高效预填充
-→ 针对大语言模型处理长上下文输入时计算成本高的问题，本文提出TokenGate组件，通过引入门控注意力机制实现端到端可学习的Token剪枝。实验显示，在Transformer预填充阶段，TokenGate将首字生成时间加快1.4-11.3倍，峰值内存降低1.5-3.4倍。
-15. ProQuant：保持专家质量在超低比特量化中
-→ 针对混合专家模型在超低比特量化中易出现非线性误差和路由漂移的问题，本文提出ProQuant框架，通过剪枝或优先混合精度分配和路由一致性归一化微调来优化专家质量和比特预算利用。实验表明，ProQuant在多种生成任务上优于现有方法。
-16. LongZero：从零数据增强长上下文推理
-→ 为解决强化学习训练数据稀缺的问题，本文提出LongZero方法，让大语言模型通过合成多跳推理和多轮检索任务来自我训练长上下文推理能力。实验显示，LongZero在五个长上下文推理基准测试中优于基线方法，能泛化到真实任务。
-17. MAPS：调节检索增强生成中的搜索动量
-→ 针对检索增强生成中子查询冗余和查询探索不足的问题，本文提出MAPS框架，通过保留检索知识和细化推理状态，将顺序推理扩展为并行推理范式。MAPS能识别互补检索方向，生成对应子查询进行并行检索，从而调节搜索动量。
+10. Cerebras部署万亿参数AI模型
+→ Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。
+11. 10岁CNN在皮肤癌诊断上超越前沿大模型
+→ 皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。
+12. AI使用让伯克利教授不再批改作业
+→ 伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。
+13. MAPS框架调节检索增强生成搜索动量
+→ MAPS框架将顺序推理扩展为并行推理范式，通过识别互补检索方向来调节搜索动量。
 
 【活动预告】
 · 10月26日 WWW 2027 论文截稿

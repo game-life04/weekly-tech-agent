@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 10.26（周一）
 
-> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-10-26-kuaixun.md) · [公众号排版版](daily/2026/2026-10-26-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-26.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,10 +22,10 @@
 
 ```text
 【每日科技快讯】10月26日 周一
-今日 AI 与开源要闻 17 条，3 分钟速读
+今日 AI 与开源要闻 13 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 2 次
+1. 开放原子开源俱乐部合并 2 个 PR、提交 2 次
 2. AtomGit-Mobile4Android 提交 1 次
 3. hustsync.rs 新增 18 个 PR
 
@@ -33,37 +33,27 @@
 4. 千里科技发布AI毫米波雷达
 → Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scori…
 
-【海外动态】
-5. Cerebras部署万亿参数AI模型
-→ Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。
-6. Nikon摄影赛冠军因AI痕迹被取消资格
-→ 清华大学的Ning Xu在显微镜摄影比赛中夺冠后，因作品被判定为AI生成而被取消资格。
-7. 10岁CNN在皮肤癌诊断上超越前沿大模型
-→ 皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。
-8. AI使用让伯克利教授不再批改作业
-→ 伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。
-
 【开源项目】
-9. Speech models in Ollama
+5. Ollama 支持语音模型 Phonon
 → Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。
-10. Shubhamsaboo/awesome-llm-apps
-→ 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-11. Nutlope/hallmark
-→ Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
-12. google-gemini/gemini-cli
-→ An open-source AI agent that brings the power of Gemini directly into your terminal.
-13. The five components of building a "company harness"
-→ LangChain分享构建内部“公司驯兽师”的五个组件，展示其在营销、销售和工程团队中的应用。
+6. Shubhamsaboo/awesome-llm-apps
+→ awesome-llm-apps仓库收录了100+个AI Agents、Agent Skills和RAG Apps，均为免费开源项目。
+7. hallmark：Anti-AI-slop 设计技能
+→ hallmark项目为Claude Code、Cursor和Codex提供Anti-AI-slop设计技能，旨在生成更符合人类审美的代码。
+8. gemini-cli：终端版AI代理
+→ gemini-cli是一个开源AI代理，将Gemini的强大功能直接集成到终端中。
+9. LangChain 分享公司驯兽师构建组件
+→ LangChain分享了构建内部公司驯兽师的五个组件，展示了其在营销、销售和工程团队中的应用。
 
 【学术前沿】
-14. TokenGate：学习剪枝实现快速高效预填充
-→ 针对大语言模型处理长上下文输入时计算成本高的问题，本文提出TokenGate组件，通过引入门控注意力机制实现端到端可学习的Token剪枝。实验显示，在Transformer预填充阶段，TokenGate将首字生成时间加快1.4-11.3倍，峰值内存降低1.5-3.4倍。
-15. ProQuant：保持专家质量在超低比特量化中
-→ 针对混合专家模型在超低比特量化中易出现非线性误差和路由漂移的问题，本文提出ProQuant框架，通过剪枝或优先混合精度分配和路由一致性归一化微调来优化专家质量和比特预算利用。实验表明，ProQuant在多种生成任务上优于现有方法。
-16. LongZero：从零数据增强长上下文推理
-→ 为解决强化学习训练数据稀缺的问题，本文提出LongZero方法，让大语言模型通过合成多跳推理和多轮检索任务来自我训练长上下文推理能力。实验显示，LongZero在五个长上下文推理基准测试中优于基线方法，能泛化到真实任务。
-17. MAPS：调节检索增强生成中的搜索动量
-→ 针对检索增强生成中子查询冗余和查询探索不足的问题，本文提出MAPS框架，通过保留检索知识和细化推理状态，将顺序推理扩展为并行推理范式。MAPS能识别互补检索方向，生成对应子查询进行并行检索，从而调节搜索动量。
+10. Cerebras部署万亿参数AI模型
+→ Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。
+11. 10岁CNN在皮肤癌诊断上超越前沿大模型
+→ 皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。
+12. AI使用让伯克利教授不再批改作业
+→ 伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。
+13. MAPS框架调节检索增强生成搜索动量
+→ MAPS框架将顺序推理扩展为并行推理范式，通过识别互补检索方向来调节搜索动量。
 
 【活动预告】
 · 10月26日 WWW 2027 论文截稿
@@ -80,7 +70,7 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 2 次**<br>10月25日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 19 个、合并 1 个，提交 2 次，新增代码 19 行、删除 2 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 2 个 PR、提交 2 次**<br>10月25日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 20 个、合并 2 个，提交 2 次，新增代码 19 行、删除 2 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
 **AtomGit-Mobile4Android 提交 1 次**<br>10月25日，Agent SIG的 AtomGit-Mobile4Android 仓库提交 1 次、新增代码 17 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
@@ -90,37 +80,27 @@
 
 **千里科技发布AI毫米波雷达**<br>10月25日，Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of <span>$</span>88 with GPT-6 Astra, while scori…<br><sub>（来源：[The Decoder](https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/)）</sub>
 
-#### 海外动态
+#### 开源项目
+
+**Ollama 支持语音模型 Phonon**<br>10月24日，Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。<br><sub>（来源：[Ollama 博客](https://ollama.com/blog/speech-models)）</sub>
+
+**Shubhamsaboo/awesome-llm-apps**<br>10月26日消息，awesome-llm-apps仓库收录了100+个AI Agents、Agent Skills和RAG Apps，均为免费开源项目。<br><sub>（来源：[GitHub Trending](https://github.com/Shubhamsaboo/awesome-llm-apps)）</sub>
+
+**hallmark：Anti-AI-slop 设计技能**<br>10月26日消息，hallmark项目为Claude Code、Cursor和Codex提供Anti-AI-slop设计技能，旨在生成更符合人类审美的代码。<br><sub>（来源：[GitHub Trending](https://github.com/Nutlope/hallmark)）</sub>
+
+**gemini-cli：终端版AI代理**<br>10月26日消息，gemini-cli是一个开源AI代理，将Gemini的强大功能直接集成到终端中。<br><sub>（来源：[GitHub Trending](https://github.com/google-gemini/gemini-cli)）</sub>
+
+**LangChain 分享公司驯兽师构建组件**<br>10月26日，LangChain分享了构建内部公司驯兽师的五个组件，展示了其在营销、销售和工程团队中的应用。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/components-building-company-harness)）</sub>
+
+#### 学术前沿
 
 **Cerebras部署万亿参数AI模型**<br>10月25日，Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。<br><sub>（来源：[Hacker News](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras)）</sub>
-
-**Nikon摄影赛冠军因AI痕迹被取消资格**<br>10月25日，清华大学的Ning Xu在显微镜摄影比赛中夺冠后，因作品被判定为AI生成而被取消资格。<br><sub>（来源：[Hacker News](https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html)）</sub>
 
 **10岁CNN在皮肤癌诊断上超越前沿大模型**<br>10月26日，皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。<br><sub>（来源：[Hacker News](https://lynchlab.net/llm-skin-cancer)）</sub>
 
 **AI使用让伯克利教授不再批改作业**<br>10月26日，伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。<br><sub>（来源：[Hacker News](https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html)）</sub>
 
-#### 开源项目
-
-**Speech models in Ollama**<br>10月24日，Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。<br><sub>（来源：[Ollama 博客](https://ollama.com/blog/speech-models)）</sub>
-
-**Shubhamsaboo/awesome-llm-apps**<br>10月26日消息，100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.<br><sub>（来源：[GitHub Trending](https://github.com/Shubhamsaboo/awesome-llm-apps)）</sub>
-
-**Nutlope/hallmark**<br>10月26日消息，Anti-AI-slop design skill for Claude Code, Cursor, and Codex.<br><sub>（来源：[GitHub Trending](https://github.com/Nutlope/hallmark)）</sub>
-
-**google-gemini/gemini-cli**<br>10月26日消息，An open-source AI agent that brings the power of Gemini directly into your terminal.<br><sub>（来源：[GitHub Trending](https://github.com/google-gemini/gemini-cli)）</sub>
-
-**The five components of building a "company harness"**<br>10月26日，LangChain分享构建内部“公司驯兽师”的五个组件，展示其在营销、销售和工程团队中的应用。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/components-building-company-harness)）</sub>
-
-#### 学术前沿
-
-**TokenGate：学习剪枝实现快速高效预填充**<br>10月26日消息，针对大语言模型处理长上下文输入时计算成本高的问题，本文提出TokenGate组件，通过引入门控注意力机制实现端到端可学习的Token剪枝。实验显示，在Transformer预填充阶段，TokenGate将首字生成时间加快1.4-11.3倍，峰值内存降低1.5-3.4倍。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2610.26754)）</sub>
-
-**ProQuant：保持专家质量在超低比特量化中**<br>10月26日消息，针对混合专家模型在超低比特量化中易出现非线性误差和路由漂移的问题，本文提出ProQuant框架，通过剪枝或优先混合精度分配和路由一致性归一化微调来优化专家质量和比特预算利用。实验表明，ProQuant在多种生成任务上优于现有方法。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2610.30779)）</sub>
-
-**LongZero：从零数据增强长上下文推理**<br>10月26日消息，为解决强化学习训练数据稀缺的问题，本文提出LongZero方法，让大语言模型通过合成多跳推理和多轮检索任务来自我训练长上下文推理能力。实验显示，LongZero在五个长上下文推理基准测试中优于基线方法，能泛化到真实任务。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.30132)）</sub>
-
-**MAPS：调节检索增强生成中的搜索动量**<br>10月26日消息，针对检索增强生成中子查询冗余和查询探索不足的问题，本文提出MAPS框架，通过保留检索知识和细化推理状态，将顺序推理扩展为并行推理范式。MAPS能识别互补检索方向，生成对应子查询进行并行检索，从而调节搜索动量。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.29792)）</sub>
+**MAPS框架调节检索增强生成搜索动量**<br>10月26日消息，MAPS框架将顺序推理扩展为并行推理范式，通过识别互补检索方向来调节搜索动量。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.29792)）</sub>
 
 ### 活动预告
 
@@ -128,51 +108,49 @@
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月25日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-26 05:47（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月25日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-26 07:36（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 2 期 · 10.19–10.25
 
-> 本期头条：LLMs 让大规模形式化软件验证成为可能<br>
-> 上周 AI 与开源要闻 **29** 条，5 分钟速读。<br>
+> 本期头条：Claude 在 123 个开源库中形式化证明安全属性<br>
+> 上周 AI 与开源要闻 **27** 条，5 分钟速读。<br>
 > [阅读全文](weekly/2026-W43.md) · [公众号排版版](weekly/2026-W43.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
-✨ [开放原子开源俱乐部一周合并 30 个 PR、提交 35 次](https://osd.openatom.club/)<br>
+✨ [开放原子开源俱乐部一周合并 31 个 PR、提交 35 次](https://osd.openatom.club/)<br>
 ✨ [新仓库 hust-mail-cli 一周合并 18 个 PR](https://github.com/hust-open-atom-club/hust-mail-cli)<br>
 ✨ [pwn.hust.college 一周合并 4 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
 ✨ [AtomGit-Mobile4Android 一周合并 3 个 PR](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)
 
-**政策动向**<br>
-✨ [中办国办关于推动科技创新和产业创新深度融合的意见](https://www.gov.cn/zhengce/202610/content_7083930.htm)<br>
-✨ [中办、国办《关于推动科技创新和产业创新深度融合的意见》对外发布](https://www.gov.cn/yaowen/liebiao/202610/content_7083934.htm)<br>
-✨ [中共中央办公厅 国务院办公厅关于推动科技创新和产业创新深度融合的意见](https://www.gov.cn/yaowen/liebiao/202610/content_7083929.htm)
-
 **国内动态**<br>
-✨ [VAST开源实时世界模型EdenLive：单卡720P超24FPS](https://www.qbitai.com/2026/10/504136.html)<br>
+✨ [VAST 开源实时世界模型 EdenLive](https://www.qbitai.com/2026/10/504136.html)<br>
+✨ [DeepSeek 发布 V4.1-Flash-1017 模型](https://www.qbitai.com/2026/10/504067.html)<br>
+✨ [MiniMax发布M3.1 Flash模型](https://zhidx.com/p/602354.html)<br>
 ✨ [多智能体协同重构医疗AI](https://www.qbitai.com/2026/10/504734.html)<br>
-✨ [清华系公司发布预测式世界模型](https://www.qbitai.com/2026/10/504653.html)<br>
-✨ [Deepseek open-sources the inference engine that powers its fastest and cheapest…](https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/)<br>
-✨ [Kimi K3.1 Pro 和 K3.1 Pro Highspeed](https://www.kimi.ai/blog/kimi-k3-1-pro)<br>
-✨ [3万亿参数！Kimi K3.1空降国产第一，1/5价格狙击Astra，实测跑通3D建模](https://zhidx.com/p/604320.html)
+✨ [Kimi 发布 K3.1 Pro 3T级开源模型](https://www.kimi.ai/blog/kimi-k3-1-pro)<br>
+✨ [月之暗面发布3万亿参数Kimi K3.1 Pro](https://zhidx.com/p/604320.html)
 
 **海外动态**<br>
-✨ [Hybrid Reasoning Agents：在潜在空间思考，通过文本行动](https://arxiv.org/abs/2610.18861)<br>
+✨ [Mistral 发布 Timestral 时间序列模型](https://mistral.ai/news/timestral/)<br>
+✨ [OpenAI 提升低资源编程语言代码能力](https://openai.com/index/low-resource-programming-languages)<br>
 ✨ [Voxtral 3：Mistral 的语音智能体 SDK](https://mistral.ai/news/voxtral-3/)<br>
-✨ [DeepInfer：DeepSeek 模型高性能推理框架](https://github.com/deepseek-ai/DeepInfer)<br>
-✨ [LLMs 让大规模形式化软件验证成为可能](https://www.anthropic.com/research/formal-verification)<br>
-✨ [Mistral Large 4：企业级最强开源模型](https://mistral.ai/news/mistral-large-4/)<br>
+✨ [Patch the Planet：AI 协助全球漏洞响应](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/)<br>
+✨ [Mistral 发布 ML4 1万亿参数多模态模型](https://mistral.ai/news/mistral-large-4/)<br>
 ✨ [解决KLS猜想：高维计算难题](https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/)
 
 **开源项目**<br>
-✨ [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)<br>
-✨ [Day-0 Support for Flint on vLLM](https://vllm.ai/blog/2026-10-21-flint)<br>
-✨ [GLM-5.3 Optimizations, Part 2: PCP, DCP, and Hybrid HiSparse on 16 H200s](https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse)<br>
-✨ [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)
+✨ [Sphinx：在代码发布前测试你的 AI](https://sphinx-six-theta.vercel.app/)<br>
+✨ [DeepInfer：DeepSeek 模型高性能推理框架](https://github.com/deepseek-ai/DeepInfer)<br>
+✨ [OpenShell：自主 AI 智能体安全运行时](https://github.com/NVIDIA/OpenShell)<br>
+✨ [claude-howto：Claude Code 可视化指南](https://github.com/luongnv89/claude-howto)
 
 **学术前沿**<br>
-✨ [Scaling Parameter-Efficient Fine-Tuning for Brain Encoding](https://arxiv.org/abs/2610.26802)<br>
-✨ [GPT-6-Astra：具身智能的新突破](https://arxiv.org/abs/2610.22471)<br>
-✨ [IQuest-Q1：提升智能体 CLI 系统的基础能力](https://arxiv.org/abs/2610.30949)
+✨ [HybridAgents 在潜在空间思考](https://arxiv.org/abs/2610.18861)<br>
+✨ [Claude 设计抗蝎毒蛋白结合剂](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)<br>
+✨ [Claude 在 123 个开源库中形式化证明安全属性](https://www.anthropic.com/research/formal-verification)
+
+**产业纵横**<br>
+✨ [OpenAI 模型登陆 Google Cloud](https://openai.com/index/openai-models-google-cloud/)
 
 **活动预告**<br>
 ✨ [WWW 2027 论文截稿](https://www2027.thewebconf.org/)<br>

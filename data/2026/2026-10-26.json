@@ -1122,13 +1122,13 @@
   "start": "2026-10-26",
   "end": "2026-10-26",
   "title": "10岁CNN在皮肤癌诊断上超越前沿大模型",
-  "generated_at": "2026-10-25T21:47:16Z",
+  "generated_at": "2026-10-25T23:36:17Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 16,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-25",
    "end": "2026-10-25"
@@ -1156,10 +1156,10 @@
   "entries": [
    {
     "cat": "club",
-    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 2 次",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 2 次",
     "when": "10月25日",
     "date": "2026-10-25",
-    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 19 个、合并 1 个，提交 2 次，新增代码 19 行、删除 2 行，2 位贡献者参与。",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 20 个、合并 2 个，提交 2 次，新增代码 19 行、删除 2 行，2 位贡献者参与。",
     "url": "https://osd.openatom.club/",
     "via": "俱乐部开源仪表盘"
    },
@@ -1193,52 +1193,8 @@
     "ai": true
    },
    {
-    "cat": "overseas",
-    "headline": "Cerebras部署万亿参数AI模型",
-    "when": "10月25日",
-    "date": "2026-10-25",
-    "body": "Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。",
-    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-    "via": "Hacker News",
-    "id": "470508811885",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Nikon摄影赛冠军因AI痕迹被取消资格",
-    "when": "10月25日",
-    "date": "2026-10-25",
-    "body": "清华大学的Ning Xu在显微镜摄影比赛中夺冠后，因作品被判定为AI生成而被取消资格。",
-    "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
-    "via": "Hacker News",
-    "id": "ae440b3a4138",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "10岁CNN在皮肤癌诊断上超越前沿大模型",
-    "when": "10月26日",
-    "date": "2026-10-26",
-    "body": "皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。",
-    "url": "https://lynchlab.net/llm-skin-cancer",
-    "via": "Hacker News",
-    "id": "373122b56953",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "AI使用让伯克利教授不再批改作业",
-    "when": "10月26日",
-    "date": "2026-10-26",
-    "body": "伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。",
-    "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-    "via": "Hacker News",
-    "id": "f46d23d48be8",
-    "ai": true
-   },
-   {
     "cat": "opensource",
-    "headline": "Speech models in Ollama",
+    "headline": "Ollama 支持语音模型 Phonon",
     "when": "10月24日",
     "date": "2026-10-24",
     "body": "Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。",
@@ -1252,40 +1208,40 @@
     "headline": "Shubhamsaboo/awesome-llm-apps",
     "when": "10月26日消息",
     "date": "2026-10-26",
-    "body": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+    "body": "awesome-llm-apps仓库收录了100+个AI Agents、Agent Skills和RAG Apps，均为免费开源项目。",
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
     "via": "GitHub Trending",
     "id": "6c66ed420efd",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "Nutlope/hallmark",
+    "headline": "hallmark：Anti-AI-slop 设计技能",
     "when": "10月26日消息",
     "date": "2026-10-26",
-    "body": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "body": "hallmark项目为Claude Code、Cursor和Codex提供Anti-AI-slop设计技能，旨在生成更符合人类审美的代码。",
     "url": "https://github.com/Nutlope/hallmark",
     "via": "GitHub Trending",
     "id": "004684cfd466",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "google-gemini/gemini-cli",
+    "headline": "gemini-cli：终端版AI代理",
     "when": "10月26日消息",
     "date": "2026-10-26",
-    "body": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "body": "gemini-cli是一个开源AI代理，将Gemini的强大功能直接集成到终端中。",
     "url": "https://github.com/google-gemini/gemini-cli",
     "via": "GitHub Trending",
     "id": "5d2d748fdd77",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "The five components of building a \"company harness\"",
+    "headline": "LangChain 分享公司驯兽师构建组件",
     "when": "10月26日",
     "date": "2026-10-26",
-    "body": "LangChain分享构建内部“公司驯兽师”的五个组件，展示其在营销、销售和工程团队中的应用。",
+    "body": "LangChain分享了构建内部公司驯兽师的五个组件，展示了其在营销、销售和工程团队中的应用。",
     "url": "https://www.langchain.com/blog/components-building-company-harness",
     "via": "LangChain 博客",
     "id": "ddc662e94722",
@@ -1293,43 +1249,43 @@
    },
    {
     "cat": "papers",
-    "headline": "TokenGate：学习剪枝实现快速高效预填充",
-    "when": "10月26日消息",
-    "date": "2026-10-26",
-    "body": "针对大语言模型处理长上下文输入时计算成本高的问题，本文提出TokenGate组件，通过引入门控注意力机制实现端到端可学习的Token剪枝。实验显示，在Transformer预填充阶段，TokenGate将首字生成时间加快1.4-11.3倍，峰值内存降低1.5-3.4倍。",
-    "url": "https://arxiv.org/abs/2610.26754",
-    "via": "arXiv · 高效推理",
-    "id": "f15407cd70a7",
+    "headline": "Cerebras部署万亿参数AI模型",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。",
+    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "via": "Hacker News",
+    "id": "470508811885",
     "ai": true
    },
    {
     "cat": "papers",
-    "headline": "ProQuant：保持专家质量在超低比特量化中",
-    "when": "10月26日消息",
+    "headline": "10岁CNN在皮肤癌诊断上超越前沿大模型",
+    "when": "10月26日",
     "date": "2026-10-26",
-    "body": "针对混合专家模型在超低比特量化中易出现非线性误差和路由漂移的问题，本文提出ProQuant框架，通过剪枝或优先混合精度分配和路由一致性归一化微调来优化专家质量和比特预算利用。实验表明，ProQuant在多种生成任务上优于现有方法。",
-    "url": "https://arxiv.org/abs/2610.30779",
-    "via": "arXiv · 高效推理",
-    "id": "a88967ee8a0a",
+    "body": "皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。",
+    "url": "https://lynchlab.net/llm-skin-cancer",
+    "via": "Hacker News",
+    "id": "373122b56953",
     "ai": true
    },
    {
     "cat": "papers",
-    "headline": "LongZero：从零数据增强长上下文推理",
-    "when": "10月26日消息",
+    "headline": "AI使用让伯克利教授不再批改作业",
+    "when": "10月26日",
     "date": "2026-10-26",
-    "body": "为解决强化学习训练数据稀缺的问题，本文提出LongZero方法，让大语言模型通过合成多跳推理和多轮检索任务来自我训练长上下文推理能力。实验显示，LongZero在五个长上下文推理基准测试中优于基线方法，能泛化到真实任务。",
-    "url": "https://arxiv.org/abs/2610.30132",
-    "via": "arXiv · 长上下文与检索",
-    "id": "873dfa5315b0",
+    "body": "伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。",
+    "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+    "via": "Hacker News",
+    "id": "f46d23d48be8",
     "ai": true
    },
    {
     "cat": "papers",
-    "headline": "MAPS：调节检索增强生成中的搜索动量",
+    "headline": "MAPS框架调节检索增强生成搜索动量",
     "when": "10月26日消息",
     "date": "2026-10-26",
-    "body": "针对检索增强生成中子查询冗余和查询探索不足的问题，本文提出MAPS框架，通过保留检索知识和细化推理状态，将顺序推理扩展为并行推理范式。MAPS能识别互补检索方向，生成对应子查询进行并行检索，从而调节搜索动量。",
+    "body": "MAPS框架将顺序推理扩展为并行推理范式，通过识别互补检索方向来调节搜索动量。",
     "url": "https://arxiv.org/abs/2610.29792",
     "via": "arXiv · 长上下文与检索",
     "id": "dab69cab110b",
@@ -1355,6 +1311,30 @@
    }
   ],
   "written": {
+   "373122b56953": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "470508811885": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "f46d23d48be8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "ae440b3a4138": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
    "059eedaa6bdb": {
     "v": "4f7b2f10",
     "cat": "domestic",
@@ -1396,6 +1376,78 @@
     "cat": "skip",
     "headline": "",
     "body": ""
+   },
+   "6c66ed420efd": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "awesome-llm-apps仓库收录了100+个AI Agents、Agent Skills和RAG Apps，均为免费开源项目。"
+   },
+   "004684cfd466": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "hallmark：Anti-AI-slop 设计技能",
+    "body": "hallmark项目为Claude Code、Cursor和Codex提供Anti-AI-slop设计技能，旨在生成更符合人类审美的代码。"
+   },
+   "5d2d748fdd77": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "gemini-cli：终端版AI代理",
+    "body": "gemini-cli是一个开源AI代理，将Gemini的强大功能直接集成到终端中。"
+   },
+   "ddc662e94722": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain 分享公司驯兽师构建组件",
+    "body": "LangChain分享了构建内部公司驯兽师的五个组件，展示了其在营销、销售和工程团队中的应用。"
+   },
+   "0d784b95ef5e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Ollama 支持语音模型 Phonon",
+    "body": "Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。"
+   },
+   "14a900c8eefd": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "video-use：用代码代理编辑视频",
+    "body": "video-use项目允许用户通过代码代理来编辑视频。"
+   },
+   "0c3cc6bf0ab4": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "f15407cd70a7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a88967ee8a0a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "873dfa5315b0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "dab69cab110b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "MAPS框架调节检索增强生成搜索动量",
+    "body": "MAPS框架将顺序推理扩展为并行推理范式，通过识别互补检索方向来调节搜索动量。"
+   },
+   "4bac1d4160ab": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "合成到真实代码切换ASR基准",
+    "body": "研究构建了包含13044个自发播客 utterances 的基准数据集，合成语音监督微调能显著降低混合错误率。"
    }
   }
  }

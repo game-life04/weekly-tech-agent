@@ -5,14 +5,14 @@
   "number": 2,
   "start": "2026-10-19",
   "end": "2026-10-25",
-  "title": "LLMs 让大规模形式化软件验证成为可能",
-  "generated_at": "2026-10-25T21:47:16Z",
+  "title": "Claude 在 123 个开源库中形式化证明安全属性",
+  "generated_at": "2026-10-25T23:36:17Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
-  "pending": 71,
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 1,
   "club_period": {
    "start": "2026-10-19",
    "end": "2026-10-25"
@@ -40,10 +40,10 @@
   "entries": [
    {
     "cat": "club",
-    "headline": "开放原子开源俱乐部一周合并 30 个 PR、提交 35 次",
+    "headline": "开放原子开源俱乐部一周合并 31 个 PR、提交 35 次",
     "when": "10月19日至25日",
     "date": "2026-10-25",
-    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 8 个有人参与开发，共新增 PR 59 个、合并 30 个，提交 35 次，新增代码 11641 行、删除 985 行，11 位贡献者参与，其中 4 位是第一次贡献。",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 8 个有人参与开发，共新增 PR 60 个、合并 31 个，提交 35 次，新增代码 11641 行、删除 985 行，11 位贡献者参与，其中 4 位是第一次贡献。",
     "url": "https://osd.openatom.club/",
     "via": "俱乐部开源仪表盘"
    },
@@ -75,47 +75,36 @@
     "via": "GitHub"
    },
    {
-    "cat": "policy",
-    "headline": "中办国办关于推动科技创新和产业创新深度融合的意见",
-    "when": "10月21日",
-    "date": "2026-10-21",
-    "body": "据中国政府网消息：中办国办关于推动科技创新和产业创新深度融合的意见。",
-    "url": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
-    "via": "中国政府网",
-    "id": "d4427b964ae2",
-    "ai": false
-   },
-   {
-    "cat": "policy",
-    "headline": "中办、国办《关于推动科技创新和产业创新深度融合的意见》对外发布",
-    "when": "10月21日",
-    "date": "2026-10-21",
-    "body": "据中国政府网消息：中办、国办《关于推动科技创新和产业创新深度融合的意见》对外发布。",
-    "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083934.htm",
-    "via": "中国政府网",
-    "id": "afdff0f2e832",
-    "ai": false
-   },
-   {
-    "cat": "policy",
-    "headline": "中共中央办公厅 国务院办公厅关于推动科技创新和产业创新深度融合的意见",
-    "when": "10月21日",
-    "date": "2026-10-21",
-    "body": "据中国政府网消息：中共中央办公厅 国务院办公厅关于推动科技创新和产业创新深度融合的意见。",
-    "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083929.htm",
-    "via": "中国政府网",
-    "id": "88b6ad88e47a",
-    "ai": false
-   },
-   {
     "cat": "domestic",
-    "headline": "VAST开源实时世界模型EdenLive：单卡720P超24FPS",
+    "headline": "VAST 开源实时世界模型 EdenLive",
     "when": "10月19日消息",
     "date": "2026-10-19",
-    "body": "VAST发布EdenLive，在单张消费级显卡上实现720P超24FPS的实时画面生成。",
+    "body": "VAST 发布 EdenLive，在单张消费级显卡上实现 720P 超过 24FPS 的实时画面生成。",
     "url": "https://www.qbitai.com/2026/10/504136.html",
     "via": "量子位",
     "id": "3d4099dc14f0",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "DeepSeek 发布 V4.1-Flash-1017 模型",
+    "when": "10月19日消息",
+    "date": "2026-10-19",
+    "body": "DeepSeek 发布 V4.1-Flash-1017 新模型，在 Agent 任务中性能提升且成本降低。",
+    "url": "https://www.qbitai.com/2026/10/504067.html",
+    "via": "量子位",
+    "id": "9814296cf82d",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "MiniMax发布M3.1 Flash模型",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "MiniMax发布M3.1 Flash模型，定位为Coding/Agent优化轻量级模型，拥有100万token上下文。",
+    "url": "https://zhidx.com/p/602354.html",
+    "via": "智东西",
+    "id": "609bde941ef6",
     "ai": true
    },
    {
@@ -131,32 +120,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "清华系公司发布预测式世界模型",
-    "when": "10月21日",
-    "date": "2026-10-21",
-    "body": "千诀科技发布Polibrain预测式世界模型，让机器人拥有用于预测和规划的地图。",
-    "url": "https://www.qbitai.com/2026/10/504653.html",
-    "via": "量子位",
-    "id": "794f54450f8e",
-    "ai": true
-   },
-   {
-    "cat": "domestic",
-    "headline": "Deepseek open-sources the inference engine that powers its fastest and cheapest…",
-    "when": "10月21日",
-    "date": "2026-10-21",
-    "body": "Deepseek 开源了其 V4.1-Flash 模型背后的推理框架 DeepInfer，旨在降低算力成本和能耗。",
-    "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
-    "via": "The Decoder",
-    "id": "bccded0efdda",
-    "ai": true
-   },
-   {
-    "cat": "domestic",
-    "headline": "Kimi K3.1 Pro 和 K3.1 Pro Highspeed",
+    "headline": "Kimi 发布 K3.1 Pro 3T级开源模型",
     "when": "10月24日",
     "date": "2026-10-24",
-    "body": "Kimi 发布了 K3.1 Pro，这是首个拥有 100 万 token 上下文窗口的 3T 级开源模型，并推出了速度提升 2-3 倍的 K3.1 Pro Highspeed。",
+    "body": "Kimi 发布了 K3.1 Pro，这是首个拥有 100 万 token 上下文窗口的 3T 级开源模型。",
     "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
     "via": "Hacker News",
     "id": "a414001e9e8e",
@@ -164,10 +131,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "3万亿参数！Kimi K3.1空降国产第一，1/5价格狙击Astra，实测跑通3D建模",
+    "headline": "月之暗面发布3万亿参数Kimi K3.1 Pro",
     "when": "10月24日",
     "date": "2026-10-24",
-    "body": "月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。",
+    "body": "月之暗面发布3万亿参数的 Kimi K3.1 Pro，编程和3D创作能力显著提升。",
     "url": "https://zhidx.com/p/604320.html",
     "via": "智东西",
     "id": "808f15c2f265",
@@ -175,13 +142,24 @@
    },
    {
     "cat": "overseas",
-    "headline": "Hybrid Reasoning Agents：在潜在空间思考，通过文本行动",
+    "headline": "Mistral 发布 Timestral 时间序列模型",
     "when": "10月19日",
     "date": "2026-10-19",
-    "body": "HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。",
-    "url": "https://arxiv.org/abs/2610.18861",
+    "body": "Mistral 发布的时间序列基础模型 Timestral 在 209M 参数下实现最先进的概率预测。",
+    "url": "https://mistral.ai/news/timestral/",
     "via": "Hacker News",
-    "id": "c16920b58ce6",
+    "id": "4fadeb9d2d91",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 提升低资源编程语言代码能力",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "OpenAI 改进了 ChatGPT 在低资源编程语言上的表现，新增了针对软件工程、SQLite 和 COBOL 迁移的评估。",
+    "url": "https://openai.com/index/low-resource-programming-languages",
+    "via": "OpenAI",
+    "id": "58981fce4d79",
     "ai": true
    },
    {
@@ -197,29 +175,18 @@
    },
    {
     "cat": "overseas",
-    "headline": "DeepInfer：DeepSeek 模型高性能推理框架",
-    "when": "10月20日",
-    "date": "2026-10-20",
-    "body": "DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。",
-    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "headline": "Patch the Planet：AI 协助全球漏洞响应",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "AI 协助安全研究人员修复 PHP 等开源项目的关键漏洞。",
+    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
     "via": "Hacker News",
-    "id": "1b6d7a539816",
+    "id": "10ac5adb185c",
     "ai": true
    },
    {
     "cat": "overseas",
-    "headline": "LLMs 让大规模形式化软件验证成为可能",
-    "when": "10月22日",
-    "date": "2026-10-22",
-    "body": "Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。",
-    "url": "https://www.anthropic.com/research/formal-verification",
-    "via": "Anthropic 研究",
-    "id": "ca664c9883d6",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Mistral Large 4：企业级最强开源模型",
+    "headline": "Mistral 发布 ML4 1万亿参数多模态模型",
     "when": "10月22日",
     "date": "2026-10-22",
     "body": "Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。",
@@ -241,43 +208,43 @@
    },
    {
     "cat": "opensource",
-    "headline": "Comfy-Org/ComfyUI",
-    "when": "10月20日消息",
+    "headline": "Sphinx：在代码发布前测试你的 AI",
+    "when": "10月19日消息",
+    "date": "2026-10-19",
+    "body": "Sphinx 是一个 Git hook，在 AI 代码发布前询问开发者关于代码功能的理解，防止盲目信任。",
+    "url": "https://sphinx-six-theta.vercel.app/",
+    "via": "Hacker News",
+    "id": "6d9c92c61f88",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "DeepInfer：DeepSeek 模型高性能推理框架",
+    "when": "10月20日",
     "date": "2026-10-20",
-    "body": "ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面，是全球最快的本地推理引擎。",
-    "url": "https://github.com/Comfy-Org/ComfyUI",
-    "via": "GitHub Trending",
-    "id": "eb66b4e95522",
+    "body": "DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "via": "Hacker News",
+    "id": "1b6d7a539816",
     "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "Day-0 Support for Flint on vLLM",
-    "when": "10月21日",
-    "date": "2026-10-21",
-    "body": "vLLM支持Flint模型，单GPU解码速度约500 tokens/s。",
-    "url": "https://vllm.ai/blog/2026-10-21-flint",
-    "via": "vLLM 博客",
-    "id": "23c83ec8ff42",
-    "ai": true
-   },
-   {
-    "cat": "opensource",
-    "headline": "GLM-5.3 Optimizations, Part 2: PCP, DCP, and Hybrid HiSparse on 16 H200s",
+    "headline": "OpenShell：自主 AI 智能体安全运行时",
     "when": "10月23日",
     "date": "2026-10-23",
-    "body": "vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。",
-    "url": "https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse",
-    "via": "vLLM 博客",
-    "id": "9f7260b41bd9",
+    "body": "OpenShell 是为自主 AI 智能体提供安全、私密的运行环境。",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "via": "Hacker News",
+    "id": "59d1be1fc8d5",
     "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "luongnv89/claude-howto",
+    "headline": "claude-howto：Claude Code 可视化指南",
     "when": "10月24日消息",
     "date": "2026-10-24",
-    "body": "提供 Claude Code 的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。",
+    "body": "luongnv89/claude-howto 提供包含从基础概念到高级智能体模板的可视化、示例驱动指南。",
     "url": "https://github.com/luongnv89/claude-howto",
     "via": "GitHub Trending",
     "id": "3316bb5b61ce",
@@ -285,35 +252,46 @@
    },
    {
     "cat": "papers",
-    "headline": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+    "headline": "HybridAgents 在潜在空间思考",
     "when": "10月19日",
     "date": "2026-10-19",
-    "body": "针对脑编码任务，论文提出利用参数高效微调技术适配大型多模态模型。通过低秩适配器和轻量级读出头，该方法在多个基准上提升了脑编码性能。",
-    "url": "https://arxiv.org/abs/2610.26802",
-    "via": "Hugging Face 热门论文",
-    "id": "5d4f97485b26",
+    "body": "HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。",
+    "url": "https://arxiv.org/abs/2610.18861",
+    "via": "Hacker News",
+    "id": "c16920b58ce6",
     "ai": true
    },
    {
     "cat": "papers",
-    "headline": "GPT-6-Astra：具身智能的新突破",
-    "when": "10月20日消息",
+    "headline": "Claude 设计抗蝎毒蛋白结合剂",
+    "when": "10月20日",
     "date": "2026-10-20",
-    "body": "GPT-6-Astra 在机器人操作和导航任务中表现出色，挑战了传统专用模型范式。通过统一协议和上下文学习，它在多个基准测试中取得了前所未有的性能。",
-    "url": "https://arxiv.org/abs/2610.22471",
-    "via": "Hugging Face 热门论文",
-    "id": "21ce41f5011b",
+    "body": "Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "via": "Anthropic 研究",
+    "id": "64f0c1482fd8",
     "ai": true
    },
    {
     "cat": "papers",
-    "headline": "IQuest-Q1：提升智能体 CLI 系统的基础能力",
+    "headline": "Claude 在 123 个开源库中形式化证明安全属性",
     "when": "10月22日",
     "date": "2026-10-22",
-    "body": "IQuest-Q1 是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。实验表明其在编码和通用任务上表现优异。",
-    "url": "https://arxiv.org/abs/2610.30949",
-    "via": "arXiv · 智能体",
-    "id": "fcd975ef6f88",
+    "body": "Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "via": "Anthropic 研究",
+    "id": "ca664c9883d6",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 模型登陆 Google Cloud",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。",
+    "url": "https://openai.com/index/openai-models-google-cloud/",
+    "via": "Hacker News",
+    "id": "4846377e2d6b",
     "ai": true
    },
    {
@@ -344,6 +322,428 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "ca664c9883d6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Claude 在 123 个开源库中形式化证明安全属性",
+    "body": "Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。"
+   },
+   "757fc97eba33": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Mistral 发布 ML4 1万亿参数多模态模型",
+    "body": "Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。"
+   },
+   "c16920b58ce6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "HybridAgents 在潜在空间思考",
+    "body": "HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。"
+   },
+   "e267c7cec9c0": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "1b6d7a539816": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "DeepInfer：DeepSeek 模型高性能推理框架",
+    "body": "DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。"
+   },
+   "f8bcaa381bb4": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "a414001e9e8e": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "Kimi 发布 K3.1 Pro 3T级开源模型",
+    "body": "Kimi 发布了 K3.1 Pro，这是首个拥有 100 万 token 上下文窗口的 3T 级开源模型。"
+   },
+   "e2e956ee6cbc": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "WhatsApp 隐藏的 LLM 指令被曝光",
+    "body": "WhatsApp 的帮助页面曾隐藏指令，禁止 AI 推荐监管机构或引用相关法律。"
+   },
+   "4fadeb9d2d91": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Mistral 发布 Timestral 时间序列模型",
+    "body": "Mistral 发布的时间序列基础模型 Timestral 在 209M 参数下实现最先进的概率预测。"
+   },
+   "468a238af596": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI 发现 PHP 核心漏洞",
+    "body": "Wiz 研究发现 PHP 核心引擎存在远程代码执行等严重漏洞。"
+   },
+   "edfa40a96384": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "制造假数据也能被 LLM 引用",
+    "body": "作者制造了 50,000 个假统计数据，这些数据被 ChatGPT 等模型引用。"
+   },
+   "64f0c1482fd8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Claude 设计抗蝎毒蛋白结合剂",
+    "body": "Anthropic 内部研究模型利用 Claude 设计了针对蝎毒的小蛋白结合剂，用于加速药物发现。"
+   },
+   "13d97ed1199b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "DeepSeek 被美国联邦民用机构禁用",
+    "body": "DeepSeek 被美国联邦民用机构禁用。"
+   },
+   "b6b7083a4edc": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude Duet：个人 AI 助理",
+    "body": "Claude Duet 是基于 Opus 5.5 的个人 AI 代理，主动管理日程和任务。"
+   },
+   "59d1be1fc8d5": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenShell：自主 AI 智能体安全运行时",
+    "body": "OpenShell 是为自主 AI 智能体提供安全、私密的运行环境。"
+   },
+   "7dbfe4927012": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "训练 360M 模型模拟终端",
+    "body": "作者微调了一个 360M 参数的语言模型来模拟终端，它能记住之前的操作并运行 vim 和 tmux 等命令。"
+   },
+   "52e21579ecf8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Mercury 3：大规模扩散模型",
+    "body": ""
+   },
+   "9d7b7c237ffd": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "10ac5adb185c": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "16b4325b3964": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "73d538c2dcd1": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 为 10 亿 ChatGPT 用户快速扩展在线存储",
+    "body": "OpenAI 通过可靠的多租户和全球缓存，将 ChatGPT 的读取速度提高了 12 倍。"
+   },
+   "794f54450f8e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "6d9c92c61f88": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Sphinx：在代码发布前测试你的 AI",
+    "body": "Sphinx 是一个 Git hook，在 AI 代码发布前询问开发者关于代码功能的理解，防止盲目信任。"
+   },
+   "58981fce4d79": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "bccded0efdda": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "构建自己的推理模型：完整视频课程",
+    "body": ""
+   },
+   "e582c22d9e30": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "不运行自己的 LLM 代理如何监控",
+    "body": "文章讨论了不运行自己的 LLM 代理时如何监控内部情况。"
+   },
+   "f23d56f92479": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenAI CLI：官方命令行工具",
+    "body": "OpenAI 发布官方命令行工具，可在终端调用 OpenAI REST API。"
+   },
+   "d779d8377c72": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "4846377e2d6b": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 模型登陆 Google Cloud",
+    "body": "OpenAI 与 Google Cloud 合作，将前沿模型和 Codex 工作流集成到 Gemini Model Garden。"
+   },
+   "00f572a5e5fd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "瑞典政府禁止使用 ChatGPT 和 Claude",
+    "body": "瑞典政府禁止员工在办公电脑上使用 ChatGPT 和 Claude，要求使用微软 Copilot 等官方批准的 AI 工具。"
+   },
+   "3316bb5b61ce": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "claude-howto：Claude Code 可视化指南",
+    "body": "luongnv89/claude-howto 提供包含从基础概念到高级智能体模板的可视化、示例驱动指南。"
+   },
+   "eb66b4e95522": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ComfyUI：模块化扩散模型 GUI",
+    "body": "ComfyUI 是拥有节点/图界面的扩散模型 GUI、API 和后端，号称是全球最快的本地推理引擎。"
+   },
+   "9f7260b41bd9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 优化 GLM-5.3 上下文处理",
+    "body": "vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。"
+   },
+   "f7395e13de17": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 发布 v0.32.0 版本",
+    "body": "vLLM v0.32.0 发布，新增结构化决策和通用解析器，支持 Cloudflare、LiquidAI 等模型。"
+   },
+   "1ccdfcc525ca": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Anthropic 发布 Python SDK v2.0.0",
+    "body": "Anthropic 发布 Python SDK v2.0.0，支持新 API 版本，并增加 workspace_id 过滤器和使用层级作用域。"
+   },
+   "a9e735159808": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Anthropic 开源知识工作插件",
+    "body": "Anthropic 开源知识工作插件仓库，旨在供知识工作者在 Claude Cowork 中使用。"
+   },
+   "34611a188ca6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "free-my-tv：Google TV 主屏幕",
+    "body": "simbasjungles/free-my-tv 是一个快速、无广告的 Google TV 主屏幕，使用 Claude Code 构建。"
+   },
+   "16b1d008f9d7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "headroom：压缩工具输出和日志",
+    "body": "headroomlabs-ai/headroom 压缩工具输出、日志、文件和 RAG 块，减少 token 使用。"
+   },
+   "46f4d9310ee1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 大规模服务 DeepSeek-V4.1-Flash",
+    "body": "vLLM 在 GB300 NVL72 上以 954K tokens/s per GPU 的速率服务 DeepSeek-V4.1-Flash，性能显著提升。"
+   },
+   "57e1609901b3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "cloudflare开源的编码代理技能，用于多阶段安全审计，可生成独立验证的机器可读结果。"
+   },
+   "fbf3b1d6655d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "DietrichGebert/ponytail：像懒人高级开发者一样思考",
+    "body": "ponytail项目让AI代理像房间里最懒的高级开发者一样思考，强调最好的代码是没写过的代码。"
+   },
+   "227805cd2a61": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "genspark-ai/genoffice：内置AI智能体的办公套件",
+    "body": "genspark-ai开源的免费办公套件内置AI智能体，支持Claude Code等工具编辑本地文件。"
+   },
+   "1a05b53dbcee": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "lyogavin/airllm：单卡4GB GPU推理2.8T模型",
+    "body": "AirLLM项目支持在单张4GB GPU上推理2.8T参数的LLM。"
+   },
+   "69dffc757038": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "virgiliojr94/book-to-skill：将技术书转为技能",
+    "body": "book-to-skill项目可将任何技术书PDF转换为Claude Code技能，方便学习和参考。"
+   },
+   "c57047035ab0": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Lordog/dive-into-llms：大模型编程实践教程",
+    "body": "dive-into-llms是《动手学大模型》系列的编程实践教程。"
+   },
+   "4128833aa912": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "alchaincyf/huashu-motion：一键直出商业级宣传片",
+    "body": "huashu-motion项目能让Agent一键直出会作曲、能指着画面修改的商业级产品宣传片。"
+   },
+   "4063fa5ffe97": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LocalAI 发布 v4.12.0 版本",
+    "body": "LocalAI 4.12.0 发布，重新设计 Web UI，增加流式语音响应、图像放大等功能。"
+   },
+   "20db474702b6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 推出 TorchTPU 后端",
+    "body": "vLLM 推出基于 TorchTPU 的新后端，支持 Google Cloud TPU，具备多主机并行和 KV 缓存卸载功能。"
+   },
+   "ade6481ff22a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 实现弹性专家并行近零停机扩展",
+    "body": "vLLM 通过异步准备和 NIXL EP 技术实现了弹性专家并行的近零停机扩展。"
+   },
+   "fcd975ef6f88": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "IQuest-Q1：提升智能体CLI系统基础能力",
+    "body": "IQuest-Q1是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。"
+   },
+   "5d4f97485b26": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "论文提出利用参数高效微调技术适配大型多模态模型进行脑编码任务。"
+   },
+   "21ce41f5011b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "GPT-6-Astra在机器人操作和导航任务中表现出色，挑战了传统专用模型范式。"
+   },
+   "2f4eb2559548": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Tev：利用密集进度奖励扩展长时域智能体环境",
+    "body": "论文提出Tev-Gym数据集和基于进度潜力奖励塑形的训练方法，提升长时域任务性能。"
+   },
+   "2152d94df9b1": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "论文提出WildAWM管道，利用开源模型合成支持多种交互界面的环境，解决安全风险问题。"
+   },
+   "7894b47854cf": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OR-License：评估LLM智能体解决运筹学问题",
+    "body": "论文构建了包含真实商业场景的基准，评估大语言模型智能体直接解决运筹学问题的能力。"
+   },
+   "7de8564a2044": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "S-Agent 2.0：利用通用编码代理进行空间推理",
+    "body": "S-Agent 2.0 为通用编码代理配备命令行感知工具包，通过获取和解释场景证据提升空间推理表现。"
+   },
+   "91ca63d72279": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Cache Engineering for Agents：智能体缓存工程",
+    "body": "论文提出一种直接控制缓存的新方案，通过主动丢弃和位置编码调整管理长轨迹中的KV缓存成本。"
+   },
+   "808f15c2f265": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面发布3万亿参数Kimi K3.1 Pro",
+    "body": "月之暗面发布3万亿参数的 Kimi K3.1 Pro，编程和3D创作能力显著提升。"
+   },
+   "90c59768cbba": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI 联合机构用数千智能体分析小鼠脑细胞",
+    "body": "OpenAI 联合 PerturbAI 和斯克里普斯研究所利用数千个 AI 智能体在 32 分钟内分析数百万个小鼠脑细胞数据。"
+   },
+   "3d4099dc14f0": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "VAST 开源实时世界模型 EdenLive",
+    "body": "VAST 发布 EdenLive，在单张消费级显卡上实现 720P 超过 24FPS 的实时画面生成。"
+   },
+   "9814296cf82d": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "DeepSeek 发布 V4.1-Flash-1017 模型",
+    "body": "DeepSeek 发布 V4.1-Flash-1017 新模型，在 Agent 任务中性能提升且成本降低。"
+   },
+   "afc7a6009d9a": {
+    "v": "4f7b2f10",
+    "cat": "events",
+    "headline": "2026 物理AI与世界模型大会在南京开幕",
+    "body": "2026 物理AI与世界模型大会在南京开幕，多位院士和图灵奖得主探讨物理AI与世界模型的发展。",
+    "when": "10月20日"
+   },
+   "609bde941ef6": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "MiniMax发布M3.1 Flash模型",
+    "body": "MiniMax发布M3.1 Flash模型，定位为Coding/Agent优化轻量级模型，拥有100万token上下文。"
+   },
+   "32b86135112e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "顶尖学者共话AI下一个十年",
+    "body": "多位顶尖学者在圆桌对话中讨论AI技术路线、产业价值及多样性在智能演进中的重要性。"
+   },
+   "aac8476fb0a0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "DeepSeek新模型上线",
+    "body": "DeepSeek V4.1 Flash新版本上线，在多个Harness下达到了新的性能-费用帕累托最优。"
+   },
+   "d4427b964ae2": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "推动科技创新和产业创新深度融合",
+    "body": "中办国办发布意见，要求构建企业主导、各主体协同的产学研融通创新体系。"
+   },
+   "afdff0f2e832": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "关于推动科技创新和产业创新深度融合的意见发布",
+    "body": "中办国办于10月21日对外发布《关于推动科技创新和产业创新深度融合的意见》。"
+   },
+   "88b6ad88e47a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "关于推动科技创新和产业创新深度融合的意见",
+    "body": "中办国办发布意见，要求构建企业主导、各主体协同的产学研融通创新体系。"
+   },
+   "1757ab7d5f9d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "适应人工智能技术发展助力构建就业友好型发展方式",
+    "body": "国办印发意见，要求积极增强人工智能创造就业机会、赋能传统岗位、提升就业质量。"
+   },
+   "f82b06bfeca2": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "国务院办公厅印发关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+    "body": "国办印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》，部署了6个方面18项主要任务。"
+   }
+  }
  }
 }
