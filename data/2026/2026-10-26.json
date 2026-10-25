@@ -1,0 +1,1402 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-25T21:47:16Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 435,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 39,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.0
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 44,
+   "error": "",
+   "seconds": 9.5
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 326,
+   "error": "",
+   "seconds": 21.4
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 18.4
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 29,
+   "error": "",
+   "seconds": 20.0
+  }
+ ],
+ "items": [
+  {
+   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-25T17:15:38Z",
+   "summary": "",
+   "heat": 0.924,
+   "weight": 0.6,
+   "metrics": {
+    "points": 312.0,
+    "comments": 164.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50233779",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "I am a dermatologist. I tested the ability of GPT-6 Astra and Claude Fable 5.1 to diagnosis skin cancer and found that they were less accurate than I expected. I compared to a 10-year old CNN and to my surprise found that this was superior. I showed these two images - a clinical photograph and a dermoscopic (skin microscope) image - to GPT-6 Astra and Claude Fable 5.1, two of the most capable AI models available in October 2026. Both said it was a seborrhoeic keratosis, a harmless warty growth, and that the patient could be discharged. I then showed them to fine-tuned version of Inception v3, a convolutional neural network (CNN) first published by Google in 2015 and fine-tuned here on public dermatology images. The CNN got the right answer based on the dermoscopy view. It was one of 200 b…",
+    "llm_done": true
+   },
+   "id": "373122b56953",
+   "score": 8.12,
+   "title_zh": "10岁CNN在皮肤癌诊断上超越前沿大模型",
+   "summary_zh": "皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。",
+   "tags": [
+    "评测",
+    "医疗",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Cerebras Deploys Trillion-Parameter AI Models",
+   "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-25T01:33:49Z",
+   "summary": "",
+   "heat": 0.939,
+   "weight": 0.6,
+   "metrics": {
+    "points": 341.0,
+    "comments": 123.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50227356",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Learn how Cerebras maps trillion-parameter frontier models across WSE-3T wafers to deliver scalable inference at 1,000–2,000+ tokens per second. One of the most frequently asked questions we get is how we deploy large models on Cerebras wafer-scale chips. A single Cerebras WSE-3T wafer has 44 GB of on-chip memory, and trillion-parameter frontier models need terabytes for their weights alone. In this post, we’ll explain how we split a large frontier model across multiple WSE-3T wafers, to run multi-trillion parameter models at 1000-2000+ tokens per second. We’ll use the open source model Kimi K3, with ~3 trillion parameters, as an illustrative example. Kimi K3 is an open source, 3T parameter model with 69 linear-attention layers and 24 dense layers. It scores an impressive 88.3% on Termina…",
+    "llm_done": true
+   },
+   "id": "470508811885",
+   "score": 8.0,
+   "title_zh": "Cerebras部署万亿参数AI模型",
+   "summary_zh": "Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。",
+   "tags": [
+    "推理加速",
+    "硬件",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+   "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-25T16:28:26Z",
+   "summary": "",
+   "heat": 0.815,
+   "weight": 0.6,
+   "metrics": {
+    "points": 158.0,
+    "comments": 241.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50233304",
+    "excerpt_tried": true,
+    "evidence": "Richard Borcherds, a UC Berkeley professor and Fields medalist, no longer grades his students’ homework. After seeing how many of his students used AI to consistently receive top scores, he Prolific student AI use and advancements in AI technology leaves the future of mathematics uncertain. Borcherds revealed this in a sit-down interview Tuesday, following OpenAI’s announcement that AI agents apparently solved one of mathematics’ most difficult unsolved problems, the Navier-Stokes existence and smoothness problem. “If AI continues to improve at present rate, then, in a few years, there’ll be nothing human mathematicians can do that AI can’t do better,” Borcherds said. Borcherds said he currently grades on completion if a student hands in their homework. He admitted that it is “not a very…",
+    "llm_done": true
+   },
+   "id": "f46d23d48be8",
+   "score": 7.73,
+   "title_zh": "AI使用让伯克利教授不再批改作业",
+   "summary_zh": "伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。",
+   "tags": [
+    "教育",
+    "大模型",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+   "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-25T09:51:17Z",
+   "summary": "",
+   "heat": 0.778,
+   "weight": 0.6,
+   "metrics": {
+    "points": 125.0,
+    "comments": 64.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50229827",
+    "excerpt_tried": true,
+    "evidence": "Nikon's 16th annual Small World in Motion contest is open to any movie or digital time-lapse photography taken through the microscope. A hot potato: It seems that the once-popular trend of entering AI-generated content in competitions made for humans hasn't gone away. The winner of one of the world's most prestigious scientific photography awards has just had his title stripped from him after his entry was determined to have been created using AI. This year's winner was Dr. Ning Xu, from Tsinghua University in China, whose video captured tiny cilia beating in the airways of a child with primary ciliary dyskinesia, a rare respiratory disorder. But Xu's entry raised several concerns among members of the scientific community. Some researchers said there were abnormalities in the structure an…",
+    "llm_done": true
+   },
+   "id": "ae440b3a4138",
+   "score": 7.37,
+   "title_zh": "Nikon摄影赛冠军因AI痕迹被取消资格",
+   "summary_zh": "清华大学的Ning Xu在显微镜摄影比赛中夺冠后，因作品被判定为AI生成而被取消资格。",
+   "tags": [
+    "评测",
+    "摄影",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+   "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-25T10:08:49Z",
+   "summary": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to control the entire robotics value chain. The article Nvidia open-sources Flora to make robot video labeling…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "059eedaa6bdb",
+   "score": 7.08,
+   "title_zh": "Nvidia开源Flora，机器人视频标注成本降低125倍",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "机器人",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+   "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-25T09:37:46Z",
+   "summary": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027 appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a1a730377054",
+   "score": 7.07,
+   "title_zh": "Anthropic联合创始人将自改进AI预测提前至2027年",
+   "summary_zh": "P-Zero Research新基准测试显示AI模型自我设计实验能力提升迅速，Anthropic联合创始人Jack Clark因此将自改进AI的到来时间提前至2027年。",
+   "tags": [
+    "行业动态",
+    "AI预测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "一颗AI毫米波雷达，千里科技在补哪一环",
+   "url": "https://36kr.com/p/4040807584863111?f=rss",
+   "source": "rss",
+   "section": "news",
+   "via": "36氪",
+   "published": "2026-10-25T04:49:15Z",
+   "summary": "10月23日，千里科技发布了一颗AI毫米波雷达。在公开信息范围内，这是首个在雷达内部集成10 TOPS算力NPU的方案，雷达自身就能完成目标检测和分类，同时支持边缘侧、卫星与兼容三种工作模式。 这不是一次单纯的产品线扩充。 过去两年，智驾行业的竞争集中在模型上，谁的端到端更强，谁的数据闭环转得更快。但当模型的能力开始受限于传感器给到的原始信息，竞争就会往上游走一层，走到硬件。 这颗雷达要回答的问题，是当模型已经足够强，感知这一端还能不能被改写。 为什么雷达要开始装AI 智驾眼下有两个方向同时在推进。一个是高阶智驾往十几万的主流市场下沉，一个是L3级自动驾驶准备进入量产。这两个方向对技术的要求不一样，落到同一个词上都是安全。规模化要靠安全说服用户买单，L3对安全的要求还要再高一个量级。 在安全这个需求下，4D毫米波雷达的位置变得关键。它比激光雷达便宜，雨雾天气下的稳定性更好，是少数能在成本和可靠性之间取得平衡的传感器。 麻烦在于传统4D雷达的工作方式。 拿行业里比较头疼的障碍物识别来说，传统3D雷达只能判断前方有个东西，4D雷达加了高度维度，能看到目标的轮廓特征，但点云数据还是要一层层…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "e8b36b68badd",
+   "score": 6.71,
+   "title_zh": "",
+   "summary_zh": "千里科技发布AI毫米波雷达，集成10 TOPS算力NPU，支持边缘侧、卫星与兼容三种工作模式，旨在解决模型感知能力受限问题。",
+   "tags": [
+    "硬件",
+    "自动驾驶",
+    "雷达"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+   "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+   "source": "rss",
+   "section": "news",
+   "via": "Interconnects",
+   "published": "2026-10-25T11:49:00Z",
+   "summary": "#20",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "excerpt_tried": true,
+    "evidence": "#20 We — Nathan and Florian — wanted to discuss all the messy trade-offs of a busy week in AI and ask all the pressing questions like: Why did Kimi K3.1 Pro have a mixed reaction with such incredible benchmarks? Will it be adopted? Were we wrong about the risks of open-weight models and cybersecurity? Why do cyber experts discuss recent events so differently than AI experts? What comes next in the few months? What will change our minds? We will write more about this subject, but wanted to bring you behind the curtain as we aspire to quickly learn more about the cybersecurity industry and trends across the last few years that have been leading us today. We conclude the podcast with some lighter topics, from Muse-maxing to excitement in still hiring junior technical talent. Please send us q…",
+    "llm_done": true
+   },
+   "id": "f848defb4d7b",
+   "score": 6.37,
+   "title_zh": "播客：Kimi K3.1 Pro、新网络现实与Muse思考",
+   "summary_zh": "播客讨论Kimi K3.1 Pro的混合反应、开放权重模型的风险、网络安全专家与AI专家的不同观点，以及未来几个月的变化。",
+   "tags": [
+    "评测",
+    "播客",
+    "网络安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "英国宣布设立AI生物安全实验室",
+   "url": "https://36kr.com/newsflashes/4040790852719490?f=rss",
+   "source": "rss",
+   "section": "news",
+   "via": "36氪",
+   "published": "2026-10-25T05:00:54Z",
+   "summary": "英国政府24日宣布，将设立人工智能（AI）生物安全实验室，利用前沿AI技术加强对生物威胁的监测与应对，并加快疫苗、药物等医疗应对手段的研发。",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4910b3bd7c75",
+   "score": 6.11,
+   "title_zh": "英国宣布设立AI生物安全实验室",
+   "summary_zh": "英国政府宣布设立AI生物安全实验室，利用前沿AI技术监测生物威胁并加速疫苗、药物研发。",
+   "tags": [
+    "行业动态",
+    "生物安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "一位开发者让电视服用了 Claude，这是它系统发生的变化",
+   "url": "https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "source": "rss",
+   "section": "news",
+   "via": "爱范儿",
+   "published": "2026-10-24T10:10:44Z",
+   "summary": "欢迎来到「大逆向时代」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "开发者 Gathin 借助 Claude Code，通过 ADB 停用小米电视的 25 个系统组件，并将极简桌面项目 CleanYourTV 开源。这类改造能清理系统预装包与官方桌面，却无法去除应用内广告，也引出用户能否自主掌控硬件的讨论。 现在，打开电视准备看部电影，首先映入眼帘的却是一段开机广告。好不容易进了主页，扑面而来的又是满屏的海报推荐、会员充值弹窗，中途按个暂停还会跳出一整张促销贴片。 最近，有一群人终于不打算再忍下去了。他们找来了一个意料之外的帮手——AI，试着把电视给「改回去」。 上周，开发者 Gathin 在社交平台上发了一组给父母改电视的照片。按他的描述，家里的小米电视连打开 Netflix 前都要先看一段赞助广告。 于是，他把电视型号交给了编程助手 Claude Code，让它通过 Wi-Fi 接入设备，一口气停用了 25 个系统组件，再写一个极简桌面——原来杂乱的主页，一下子就变得清爽起来。 他随后把这套 prompt、桌面源码和踩坑记录开源到了 GitHub，项目命名为 CleanYourTV 。 短短几天，项目迅速收获了约 1.37 万颗 Star， 「天下苦智能电视久矣」了属于是 。在 Reddit 的相关讨论区中，挤满了追问自家机型能否适配的用户，不少人也陆续贴出自己改造后的极简首页。 AI「接管」电视的底层逻辑并不神秘，核心依旧是安卓生态里用了十几年的老工具：ADB（Android 调试桥）。 只要连上同一局域网、开启电视的调试权限，AI 就能顺着终端接口排查正在运行的几百个应用组件。哪些是开机广告，哪些是偷偷上报收视数据的遥测程序，AI 逐个筛查并下达命令将其「冻结」，最后再换上一个纯净的开源桌面。 甚至原本深藏在多层二级菜单里的 HDMI 与外接输入源，也能直接做成首页的常驻入口。 另一位 YouTuber Ansub Khan 也记…",
+    "llm_done": true
+   },
+   "id": "035bb4008d47",
+   "score": 5.96,
+   "title_zh": "开发者用Claude改造电视，开源极简桌面项目",
+   "summary_zh": "开发者Gathin用Claude Code通过ADB停用小米电视25个系统组件，开源CleanYourTV项目，实现极简桌面。",
+   "tags": [
+    "开源工具",
+    "智能电视",
+    "开发者"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "xorbitsai/inference v4.1.0",
+   "url": "https://github.com/xorbitsai/inference/releases/tag/v4.1.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-25T07:33:58Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# What's new in 4.1.0 (2026-10-25) These are the changes in inference v4.1.0. ## Highlights - **TRT-LLM is now an inference backend.** Run supported models through Xinference's unified serving API with TensorRT-LLM, including chat, generation and streaming. - **Xavier now supports TRT-LLM.** Extend prefix KV cache sharing to TRT-LLM and use native or Xavier prefill/decode separation. Compatible models can hand off between TRT-LLM, vLLM, SGLang and MLX, including NVIDIA–Apple silicon deployments. - **LMCache disk storage for Xavier.** Extend prefix KV cache storage beyond memory with an optional LMCache backend for vLLM, SGLang and TRT-LLM. - **Live upgrades that preserve in-flight inference (experimental).** Upgrade supported model engines and replace Worker, API and Supervisor processes on POSIX, with Web UI controls for local and distributed deployments. Existing requests and streams finish before the old serving processes retire. - **Consistent context-length controls.** Configure model context limits across inference engines and adjust them through the Web UI slider, with validation that follows the effective model configuration. - **Expanded model support.** Add DeepSeek-V4.1-Flash-1017, GLM-5.3 and Qwen3.8-Flash-Next, alongside new multimodal, image, speech and OCR models such as MiniCPM-V-4.7, FLUX 3, Ming-3.0 TTS and Xiaomi-OCR-0. ## Security Xinference 4.1.0 is the first patched release for the following published advisories. Users of affected releases should upgrad…",
+    "level": "minor",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "9dc508877a1c",
+   "score": 7.59,
+   "title_zh": "",
+   "summary_zh": "Xorbitsai/inference v4.1.0发布，支持TRT-LLM推理后端和Xavier的TRT-LLM支持，扩展LMCache磁盘存储。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Shubhamsaboo/awesome-llm-apps",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+   "heat": 0.61,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 131.0,
+    "stars": 143040.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "6c66ed420efd",
+   "score": 7.14,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "RAG"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "heat": 0.901,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1359.0,
+    "stars": 33585.0
+   },
+   "extra": {
+    "language": "CSS",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "004684cfd466",
+   "score": 7.12,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "设计",
+    "代码"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+   "heat": 0.839,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 825.0,
+    "stars": 108380.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5d2d748fdd77",
+   "score": 7.0,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "终端"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The five components of building a \"company harness\"",
+   "url": "https://www.langchain.com/blog/components-building-company-harness",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-10-25T18:06:32Z",
+   "summary": "Learn how LangChain built internal agents across marketing, sales, and engineering, and how they have completely changed how those teams work.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ddc662e94722",
+   "score": 6.88,
+   "title_zh": "",
+   "summary_zh": "LangChain分享构建内部“公司驯兽师”的五个组件，展示其在营销、销售和工程团队中的应用。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Speech models in Ollama",
+   "url": "https://ollama.com/blog/speech-models",
+   "source": "rss",
+   "section": "opensource",
+   "via": "Ollama 博客",
+   "published": "2026-10-24T00:00:00Z",
+   "summary": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0d784b95ef5e",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。",
+   "tags": [
+    "开源工具",
+    "语音",
+    "Ollama"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "browser-use/video-use",
+   "url": "https://github.com/browser-use/video-use",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Edit videos with coding agents",
+   "heat": 0.599,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 120.0,
+    "stars": 29818.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "14a900c8eefd",
+   "score": 6.52,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nanbeige/Nanbeige4.3-33B",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "文本生成模型，许可证 apache-2.0",
+   "heat": 0.724,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 329.0,
+    "downloads": 0.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/Nanbeige/Nanbeige4.3-33B"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "0c3cc6bf0ab4",
+   "score": 6.12,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
+   "url": "https://arxiv.org/abs/2610.26754",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-19T17:15:53Z",
+   "summary": "Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce TokenGate, a small, drop-in component that extends existing trained models to enable end-to-end learnable token pruning over long-context inputs for fast and memory-efficient prefill. To enable end-to-end learning despite the non-differentiable top-K operator for token pruning, we introduce token-gated attention, a mechanism inspired by Mixture-of-Experts that re-weights attention logits using token importance scores. Across diverse tasks, TokenGate achieves $1.4$-$11.3\\times$ faster time-to-first token (TTFT) and $1.5$-$3.4\\times$ lower peak memory at no accuracy degradation for prefill in transformers. Compared to the best-performing prior methods for token-pruning, TokenGate gives up to $6.4\\times$ faster prefill and $2\\times$ lower peak memory. TokenGate natively extends both standard transformers (e.g., Qwen3) and hybrid-attention models (e.g., Qwen3.5) with simple lightweight adaptation comparable to standard parameter-efficient fine-tuning. We make our code available at: https://github.com/tokengate-models/TokenGate.",
+   "heat": 0.42,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 10.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f15407cd70a7",
+   "score": 6.09,
+   "title_zh": "TokenGate：学习剪枝实现快速高效预填充",
+   "summary_zh": "针对大语言模型处理长上下文输入时计算成本高的问题，本文提出TokenGate组件，通过引入门控注意力机制实现端到端可学习的Token剪枝。实验显示，在Transformer预填充阶段，TokenGate将首字生成时间加快1.4-11.3倍，峰值内存降低1.5-3.4倍。",
+   "tags": [
+    "高效推理",
+    "推理加速",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models",
+   "url": "https://arxiv.org/abs/2610.30779",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-22T06:01:37Z",
+   "summary": "Mixture-of-Experts (MoE) large language models reduce computation through sparse activation but still incur substantial storage costs. Mixed-precision post-training quantization (PTQ) reduces these costs by quantizing different model components at different bit widths, but existing methods often struggle to preserve generation quality under tight bit budgets. We identify two key challenges: (1) nonlinear quantization errors at extremely low precision are underestimated when cross-layer propagation is ignored; (2) direct router fine-tuning may cause routing drift, and calibration gains may not generalize to downstream tasks. To address these issues, we propose ProQuant, a weight-only PTQ framework for MoE models. Prune-or-Prioritize Mixed-Precision Allocation (PoP) jointly optimizes expert pruning and bit-width assignment. It allows higher-precision experts to substitute for severely degraded ones while improving bit-budget utilization. Routing-Consistent RMSNorm Finetune (RoCo) adapts expert input representations through mathematically equivalent transformations. It compensates for quantization errors to reduce routing drift. Extensive experiments demonstrate that ProQuant outperforms existing methods across diverse generative tasks. Code is available at https://github.com/ThrowBug/ProQuant.git.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a88967ee8a0a",
+   "score": 5.99,
+   "title_zh": "ProQuant：保持专家质量在超低比特量化中",
+   "summary_zh": "针对混合专家模型在超低比特量化中易出现非线性误差和路由漂移的问题，本文提出ProQuant框架，通过剪枝或优先混合精度分配和路由一致性归一化微调来优化专家质量和比特预算利用。实验表明，ProQuant在多种生成任务上优于现有方法。",
+   "tags": [
+    "模型压缩",
+    "量化",
+    "高效推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+   "url": "https://arxiv.org/abs/2610.30132",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-21T17:59:14Z",
+   "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend on external corpora or stronger teacher models, which become harder to obtain as the trained models get stronger. Recently, RL from zero data, in which a model learns from tasks it proposes itself, has achieved excellent performance, but existing methods target short-context tasks. Therefore, we propose $\\textbf{LongZero}$, a method that lets an LLM improve its own long-context reasoning without any external data. Instead of writing questions and answers over existing documents, LongZero first has the model synthesize the question and answer with its supporting evidence in a compact structured form, and only then separately expands the evidence into a long multi-document context. LongZero combines these self-written multi-hop reasoning tasks with self-written multi-round retrieval tasks and trains the model with GRPO. We evaluate LongZero on two LLMs across five long-context reasoning benchmarks and compare it with RL on data synthesized from external corpora. Experimental results show that LongZero can generalize to real tasks, and outperforms both baselines, suggesting a viable and promising path to improving long-context reasoning of LLMs.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "873dfa5315b0",
+   "score": 5.35,
+   "title_zh": "LongZero：从零数据增强长上下文推理",
+   "summary_zh": "为解决强化学习训练数据稀缺的问题，本文提出LongZero方法，让大语言模型通过合成多跳推理和多轮检索任务来自我训练长上下文推理能力。实验显示，LongZero在五个长上下文推理基准测试中优于基线方法，能泛化到真实任务。",
+   "tags": [
+    "长上下文",
+    "强化学习",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MAPS: Macro-Adaptive Parallel Reasoning for Regulating Search Momentum in Retrieval-Augmented Generation",
+   "url": "https://arxiv.org/abs/2610.29792",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-21T14:19:17Z",
+   "summary": "Retrieval-Augmented Generation (RAG) improves the performance of Large Language Models (LLMs) by retrieving external knowledge. Recently, some RAG methods interleave reasoning and retrieval, enabling LLMs to progressively generate sub-queries and retrieve external knowledge. However, these methods may suffer from redundant or ineffective sub-queries and insufficiently diverse query exploration. Moreover, due to the tightly interleaved nature of reasoning and retrieval, it remains unclear how the evolving reasoning process influences query intent. To characterize the evolution of query intent during reasoning, we introduce search momentum, which captures the accumulated retrieval tendency induced by historical changes in generated sub-queries along the reasoning trajectory. Through momentum-based analysis, we find that the query generation process tends to continuously evolve along existing retrieval trajectories. Based on this observation, we propose MAPS, a Macro-Adaptive Parallel Reasoning framework for regulating search momentum and mitigating query-intent drift. MAPS first retains the retrieved knowledge and a refined reasoning state, thereby reducing the influence of historical reasoning trajectories on subsequent sub-query generation. Subsequently, MAPS extends the conventional sequential reasoning process into a parallel reasoning paradigm. At each iteration, MAPS identifies complementary retrieval directions, generates corresponding sub-queries for parallel retrieval…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "dab69cab110b",
+   "score": 5.34,
+   "title_zh": "MAPS：调节检索增强生成中的搜索动量",
+   "summary_zh": "针对检索增强生成中子查询冗余和查询探索不足的问题，本文提出MAPS框架，通过保留检索知识和细化推理状态，将顺序推理扩展为并行推理范式。MAPS能识别互补检索方向，生成对应子查询进行并行检索，从而调节搜索动量。",
+   "tags": [
+    "检索增强生成",
+    "推理",
+    "长上下文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Synthetic-to-Real Code-Switched ASR: A Spontaneous Nepali-English Podcast Benchmark",
+   "url": "https://arxiv.org/abs/2610.30860",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-10-22T07:41:21Z",
+   "summary": "Nepali-English code-switched conversational speech presents severe challenges for automatic speech recognition (ASR), chiefly through script confusion (inappropriate mixing of Devanagari and Latin orthography) and elevated error rates at language switch points. Supervised fine-tuning (SFT) can adapt multilingual foundation models, but human code-switched audio is expensive to collect and annotate. We curate a new benchmark of 13,044 spontaneous podcast utterances (15.45 h total; 10,214 test, 2,830 dev), audited and verified to eliminate machine translation leakages and acoustic loops. We investigate a two-stage synthetic-to-real adaptation framework: Stage 1 applies SFT on 0.95 h of speech synthesized via a multi-speaker, dual-engine TTS pipeline; Stage 2 explores Group Relative Policy Optimization (GRPO) with transcription and script rewards. We find that synthetic SFT provides the primary cross-domain transfer to spontaneous human speech, reducing Mixed Error Rate (MER) from 23.40% to 21.52% (-1.88 pp) and switch-point error rate (SPER) from 35.89% to 28.77% (-7.12 pp). Subsequent GRPO yields small, statistically significant adjustments on 173 test utterances (1.69%), driving English script confusion (SCR_en) from 6.45% to 6.36% (p <= 0.001) and SPER to 28.70% (p = 0.022 clustered). Crucially, ablation reveals that in this SFT-converged encoder-decoder setting, an auxiliary script reward term yields performance identical to MER-only optimization because rollout candidate g…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 5.0,
+    "llm_done": true
+   },
+   "id": "4bac1d4160ab",
+   "score": 4.79,
+   "title_zh": "合成到真实代码切换ASR：尼泊尔语英语播客基准",
+   "summary_zh": "针对尼泊尔语英语代码切换语音识别中的脚本混淆和切换点错误率高问题，本文构建了包含13044个自发播客 utterances 的基准数据集。研究显示，合成语音的监督微调能显著降低混合错误率和切换点错误率，后续的组相对策略优化进一步改善性能。",
+   "tags": [
+    "语音识别",
+    "代码切换",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-26",
+  "start": "2026-10-26",
+  "end": "2026-10-26",
+  "title": "10岁CNN在皮肤癌诊断上超越前沿大模型",
+  "generated_at": "2026-10-25T21:47:16Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 16,
+  "club_period": {
+   "start": "2026-10-25",
+   "end": "2026-10-25"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 2 次",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 19 个、合并 1 个，提交 2 次，新增代码 19 行、删除 2 行，2 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 提交 1 次",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库提交 1 次、新增代码 17 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "hustsync.rs 新增 18 个 PR",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "镜像站运维 SIG的 hustsync.rs 仓库新增 PR 18 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hustsync.rs",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "千里科技发布AI毫米波雷达",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scori…",
+    "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+    "via": "The Decoder",
+    "id": "059eedaa6bdb",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Cerebras部署万亿参数AI模型",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "Cerebras展示了如何将万亿参数的前沿模型映射到WSE-3T晶圆上，实现每秒1000-2000+ token的推理。",
+    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "via": "Hacker News",
+    "id": "470508811885",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Nikon摄影赛冠军因AI痕迹被取消资格",
+    "when": "10月25日",
+    "date": "2026-10-25",
+    "body": "清华大学的Ning Xu在显微镜摄影比赛中夺冠后，因作品被判定为AI生成而被取消资格。",
+    "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+    "via": "Hacker News",
+    "id": "ae440b3a4138",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "10岁CNN在皮肤癌诊断上超越前沿大模型",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。",
+    "url": "https://lynchlab.net/llm-skin-cancer",
+    "via": "Hacker News",
+    "id": "373122b56953",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "AI使用让伯克利教授不再批改作业",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "伯克利教授Richard Borcherds因学生过度使用AI获得高分，决定不再批改作业。",
+    "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+    "via": "Hacker News",
+    "id": "f46d23d48be8",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Speech models in Ollama",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "Ollama支持语音模型，从Gradium的Phonon开始，支持多语言、多声音流式朗读，在Apple Silicon上比实时快100倍。",
+    "url": "https://ollama.com/blog/speech-models",
+    "via": "Ollama 博客",
+    "id": "0d784b95ef5e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Shubhamsaboo/awesome-llm-apps",
+    "when": "10月26日消息",
+    "date": "2026-10-26",
+    "body": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "via": "GitHub Trending",
+    "id": "6c66ed420efd",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "Nutlope/hallmark",
+    "when": "10月26日消息",
+    "date": "2026-10-26",
+    "body": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "url": "https://github.com/Nutlope/hallmark",
+    "via": "GitHub Trending",
+    "id": "004684cfd466",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "google-gemini/gemini-cli",
+    "when": "10月26日消息",
+    "date": "2026-10-26",
+    "body": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "via": "GitHub Trending",
+    "id": "5d2d748fdd77",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "The five components of building a \"company harness\"",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "LangChain分享构建内部“公司驯兽师”的五个组件，展示其在营销、销售和工程团队中的应用。",
+    "url": "https://www.langchain.com/blog/components-building-company-harness",
+    "via": "LangChain 博客",
+    "id": "ddc662e94722",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "TokenGate：学习剪枝实现快速高效预填充",
+    "when": "10月26日消息",
+    "date": "2026-10-26",
+    "body": "针对大语言模型处理长上下文输入时计算成本高的问题，本文提出TokenGate组件，通过引入门控注意力机制实现端到端可学习的Token剪枝。实验显示，在Transformer预填充阶段，TokenGate将首字生成时间加快1.4-11.3倍，峰值内存降低1.5-3.4倍。",
+    "url": "https://arxiv.org/abs/2610.26754",
+    "via": "arXiv · 高效推理",
+    "id": "f15407cd70a7",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "ProQuant：保持专家质量在超低比特量化中",
+    "when": "10月26日消息",
+    "date": "2026-10-26",
+    "body": "针对混合专家模型在超低比特量化中易出现非线性误差和路由漂移的问题，本文提出ProQuant框架，通过剪枝或优先混合精度分配和路由一致性归一化微调来优化专家质量和比特预算利用。实验表明，ProQuant在多种生成任务上优于现有方法。",
+    "url": "https://arxiv.org/abs/2610.30779",
+    "via": "arXiv · 高效推理",
+    "id": "a88967ee8a0a",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "LongZero：从零数据增强长上下文推理",
+    "when": "10月26日消息",
+    "date": "2026-10-26",
+    "body": "为解决强化学习训练数据稀缺的问题，本文提出LongZero方法，让大语言模型通过合成多跳推理和多轮检索任务来自我训练长上下文推理能力。实验显示，LongZero在五个长上下文推理基准测试中优于基线方法，能泛化到真实任务。",
+    "url": "https://arxiv.org/abs/2610.30132",
+    "via": "arXiv · 长上下文与检索",
+    "id": "873dfa5315b0",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "MAPS：调节检索增强生成中的搜索动量",
+    "when": "10月26日消息",
+    "date": "2026-10-26",
+    "body": "针对检索增强生成中子查询冗余和查询探索不足的问题，本文提出MAPS框架，通过保留检索知识和细化推理状态，将顺序推理扩展为并行推理范式。MAPS能识别互补检索方向，生成对应子查询进行并行检索，从而调节搜索动量。",
+    "url": "https://arxiv.org/abs/2610.29792",
+    "via": "arXiv · 长上下文与检索",
+    "id": "dab69cab110b",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "059eedaa6bdb": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "千里科技发布AI毫米波雷达",
+    "body": ""
+   },
+   "a1a730377054": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic联合创始人预测自改进AI",
+    "body": "Anthropic联合创始人Jack Clark将自改进AI的到来时间提前至2027年。"
+   },
+   "e8b36b68badd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "f848defb4d7b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "英国设立AI生物安全实验室",
+    "body": "英国政府宣布设立AI生物安全实验室，利用前沿AI技术监测生物威胁并加速疫苗、药物研发。"
+   },
+   "4910b3bd7c75": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "035bb4008d47": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "9dc508877a1c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   }
+  }
+ }
+}

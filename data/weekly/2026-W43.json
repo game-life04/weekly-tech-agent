@@ -1,0 +1,349 @@
+{
+ "kuaixun": {
+  "kind": "weekly",
+  "week": "2026-W43",
+  "number": 2,
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "title": "LLMs 让大规模形式化软件验证成为可能",
+  "generated_at": "2026-10-25T21:47:16Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 71,
+  "club_period": {
+   "start": "2026-10-19",
+   "end": "2026-10-25"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部一周合并 30 个 PR、提交 35 次",
+    "when": "10月19日至25日",
+    "date": "2026-10-25",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 8 个有人参与开发，共新增 PR 59 个、合并 30 个，提交 35 次，新增代码 11641 行、删除 985 行，11 位贡献者参与，其中 4 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "新仓库 hust-mail-cli 一周合并 18 个 PR",
+    "when": "10月19日至25日",
+    "date": "2026-10-25",
+    "body": "Agent SIG的 hust-mail-cli 仓库于10月19日新建（CLI tool to send and receive emails with HUST email account），一周内新增 PR 18 个、合并 18 个、提交 22 次、新增代码 11307 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mail-cli",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "pwn.hust.college 一周合并 4 个 PR",
+    "when": "10月19日至25日",
+    "date": "2026-10-25",
+    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库合并 4 个、提交 5 次、新增代码 49 行，3 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwn.hust.college",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 一周合并 3 个 PR",
+    "when": "10月19日至25日",
+    "date": "2026-10-25",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 3 个、合并 3 个、提交 2 次、新增代码 275 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "policy",
+    "headline": "中办国办关于推动科技创新和产业创新深度融合的意见",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "据中国政府网消息：中办国办关于推动科技创新和产业创新深度融合的意见。",
+    "url": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
+    "via": "中国政府网",
+    "id": "d4427b964ae2",
+    "ai": false
+   },
+   {
+    "cat": "policy",
+    "headline": "中办、国办《关于推动科技创新和产业创新深度融合的意见》对外发布",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "据中国政府网消息：中办、国办《关于推动科技创新和产业创新深度融合的意见》对外发布。",
+    "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083934.htm",
+    "via": "中国政府网",
+    "id": "afdff0f2e832",
+    "ai": false
+   },
+   {
+    "cat": "policy",
+    "headline": "中共中央办公厅 国务院办公厅关于推动科技创新和产业创新深度融合的意见",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "据中国政府网消息：中共中央办公厅 国务院办公厅关于推动科技创新和产业创新深度融合的意见。",
+    "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083929.htm",
+    "via": "中国政府网",
+    "id": "88b6ad88e47a",
+    "ai": false
+   },
+   {
+    "cat": "domestic",
+    "headline": "VAST开源实时世界模型EdenLive：单卡720P超24FPS",
+    "when": "10月19日消息",
+    "date": "2026-10-19",
+    "body": "VAST发布EdenLive，在单张消费级显卡上实现720P超24FPS的实时画面生成。",
+    "url": "https://www.qbitai.com/2026/10/504136.html",
+    "via": "量子位",
+    "id": "3d4099dc14f0",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "多智能体协同重构医疗AI",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "清华AIR孵化紫荆智康，推出多分身智能体协同技术，让AI医生分身与人类医生协作。",
+    "url": "https://www.qbitai.com/2026/10/504734.html",
+    "via": "量子位",
+    "id": "16b4325b3964",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "清华系公司发布预测式世界模型",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "千诀科技发布Polibrain预测式世界模型，让机器人拥有用于预测和规划的地图。",
+    "url": "https://www.qbitai.com/2026/10/504653.html",
+    "via": "量子位",
+    "id": "794f54450f8e",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "Deepseek open-sources the inference engine that powers its fastest and cheapest…",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "Deepseek 开源了其 V4.1-Flash 模型背后的推理框架 DeepInfer，旨在降低算力成本和能耗。",
+    "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+    "via": "The Decoder",
+    "id": "bccded0efdda",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "Kimi K3.1 Pro 和 K3.1 Pro Highspeed",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "Kimi 发布了 K3.1 Pro，这是首个拥有 100 万 token 上下文窗口的 3T 级开源模型，并推出了速度提升 2-3 倍的 K3.1 Pro Highspeed。",
+    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "via": "Hacker News",
+    "id": "a414001e9e8e",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "3万亿参数！Kimi K3.1空降国产第一，1/5价格狙击Astra，实测跑通3D建模",
+    "when": "10月24日",
+    "date": "2026-10-24",
+    "body": "月之暗面发布3万亿参数的Kimi K3.1 Pro，在Artificial Analysis榜单上排名国产第一，编程和3D创作能力显著提升。",
+    "url": "https://zhidx.com/p/604320.html",
+    "via": "智东西",
+    "id": "808f15c2f265",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Hybrid Reasoning Agents：在潜在空间思考，通过文本行动",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "HybridAgents 动态在潜在推理和文本交互间切换，解决 LLM 代理在效率和透明度上的问题。",
+    "url": "https://arxiv.org/abs/2610.18861",
+    "via": "Hacker News",
+    "id": "c16920b58ce6",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Voxtral 3：Mistral 的语音智能体 SDK",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "支持 50 多种语言的实时语音，具备准确转录、情感语音合成和深度工具调用能力。",
+    "url": "https://mistral.ai/news/voxtral-3/",
+    "via": "Mistral AI",
+    "id": "e267c7cec9c0",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "DeepInfer：DeepSeek 模型高性能推理框架",
+    "when": "10月20日",
+    "date": "2026-10-20",
+    "body": "DeepInfer 是一个针对 DeepSeek 模型的高性能、大规模推理框架。",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "via": "Hacker News",
+    "id": "1b6d7a539816",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "LLMs 让大规模形式化软件验证成为可能",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "Claude 在 123 个开源库的编译代码中形式化证明了安全属性，并发现了多年未发现的漏洞。",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "via": "Anthropic 研究",
+    "id": "ca664c9883d6",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Mistral Large 4：企业级最强开源模型",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "Mistral 发布 1 万亿参数多模态模型 ML4，性能达到开源模型前沿。",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "via": "Hacker News",
+    "id": "757fc97eba33",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "解决KLS猜想：高维计算难题",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "微软研究院解决Kannan–Lovász–Simonovits猜想，消除随机算法效率理解的理论障碍。",
+    "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+    "via": "Microsoft Research",
+    "id": "f8bcaa381bb4",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Comfy-Org/ComfyUI",
+    "when": "10月20日消息",
+    "date": "2026-10-20",
+    "body": "ComfyUI 是最强大且模块化的扩散模型 GUI、API 和后端，拥有节点/图界面，是全球最快的本地推理引擎。",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "via": "GitHub Trending",
+    "id": "eb66b4e95522",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Day-0 Support for Flint on vLLM",
+    "when": "10月21日",
+    "date": "2026-10-21",
+    "body": "vLLM支持Flint模型，单GPU解码速度约500 tokens/s。",
+    "url": "https://vllm.ai/blog/2026-10-21-flint",
+    "via": "vLLM 博客",
+    "id": "23c83ec8ff42",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "GLM-5.3 Optimizations, Part 2: PCP, DCP, and Hybrid HiSparse on 16 H200s",
+    "when": "10月23日",
+    "date": "2026-10-23",
+    "body": "vLLM 在 16 个 H200 上部署 GLM-5.3，支持 100 万 token 上下文，速度提升 1.7–3.2 倍。",
+    "url": "https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse",
+    "via": "vLLM 博客",
+    "id": "9f7260b41bd9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "luongnv89/claude-howto",
+    "when": "10月24日消息",
+    "date": "2026-10-24",
+    "body": "提供 Claude Code 的可视化、示例驱动指南，包含从基础概念到高级智能体的模板。",
+    "url": "https://github.com/luongnv89/claude-howto",
+    "via": "GitHub Trending",
+    "id": "3316bb5b61ce",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+    "when": "10月19日",
+    "date": "2026-10-19",
+    "body": "针对脑编码任务，论文提出利用参数高效微调技术适配大型多模态模型。通过低秩适配器和轻量级读出头，该方法在多个基准上提升了脑编码性能。",
+    "url": "https://arxiv.org/abs/2610.26802",
+    "via": "Hugging Face 热门论文",
+    "id": "5d4f97485b26",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "GPT-6-Astra：具身智能的新突破",
+    "when": "10月20日消息",
+    "date": "2026-10-20",
+    "body": "GPT-6-Astra 在机器人操作和导航任务中表现出色，挑战了传统专用模型范式。通过统一协议和上下文学习，它在多个基准测试中取得了前所未有的性能。",
+    "url": "https://arxiv.org/abs/2610.22471",
+    "via": "Hugging Face 热门论文",
+    "id": "21ce41f5011b",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "IQuest-Q1：提升智能体 CLI 系统的基础能力",
+    "when": "10月22日",
+    "date": "2026-10-22",
+    "body": "IQuest-Q1 是一个稀疏混合专家模型，通过三阶段训练流程提升智能体编码能力。实验表明其在编码和通用任务上表现优异。",
+    "url": "https://arxiv.org/abs/2610.30949",
+    "via": "arXiv · 智能体",
+    "id": "fcd975ef6f88",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "WWW 2027 论文截稿",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "International World Wide Web Conferences（WWW 2027，CCF-A 类，交叉/综合/新兴）论文提交截止时间为北京时间10月26日 19:59，摘要截止时间为10月19日 19:59。会议将于 May 10 - 14, 2027 在 Dublin, Ireland 举行。",
+    "url": "https://www2027.thewebconf.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
