@@ -6,13 +6,13 @@
   "start": "2026-10-19",
   "end": "2026-10-25",
   "title": "Claude 在 123 个开源库中形式化证明安全属性",
-  "generated_at": "2026-10-25T23:36:17Z",
+  "generated_at": "2026-10-26T06:11:52Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 1,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-19",
    "end": "2026-10-25"
@@ -514,6 +514,12 @@
     "cat": "opensource",
     "headline": "ComfyUI：模块化扩散模型 GUI",
     "body": "ComfyUI 是拥有节点/图界面的扩散模型 GUI、API 和后端，号称是全球最快的本地推理引擎。"
+   },
+   "23c83ec8ff42": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 支持 Flint 模型",
+    "body": "vLLM 博客宣布支持 Flint 模型，单 GPU 解码速度约 500 tokens/s。"
    },
    "9f7260b41bd9": {
     "v": "4f7b2f10",
