@@ -1,0 +1,43 @@
+【每日科技快讯】10月28日 周三
+今日 AI 与开源要闻 15 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 2 个 PR、提交 2 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
+3. kernel_translation_review_skill 合并 1 个 PR
+
+【开源项目】
+4. Survival LLM：离线 AI 助手
+→ Survival LLM 是一款在本地运行的免费 AI 助手和生存库，包含 150 万篇离线文章。
+5. Agent-Reach：多平台搜索工具
+→ Agent-Reach 让 AI 智能体能够通过命令行读取和搜索 Twitter、Reddit、YouTube 等多个平台。
+6. LangChain 分享设计智能体构建经验
+→ LangChain 分享了在 Slack 中构建开源设计智能体 Content Studio 的经验。
+7. i-have-adhd：ADHD 友好输出技能
+→ i-have-adhd 是一个用于防止代码智能体隐藏答案的技能，输出对 ADHD 友好。
+8. TradingAgents：多智能体交易框架
+→ TradingAgents 是一个多智能体 LLM 金融交易框架。
+
+【学术前沿】
+9. Work Agents：工作代理系统框架
+→ Work Agents 提出以工作为中心的系统级框架，将工作代理定义为结合基础模型与运行时工具的系统。
+10. Google DeepMind 发布 Genie 4 世界模型
+→ Google DeepMind 发布 Genie 4，解锁实时模拟中的前所未有的真实感。
+11. Trajectory2Gym：工具使用交互合成
+→ Trajectory2Gym 提出构建可执行交互并仅从 grounded 决策中提取监督信号，显著提升了 Qwen3 的性能。
+12. Google Research 提出睡眠框架
+→ Google Research 提出睡眠框架，让大语言模型在持续学习中保留知识。
+
+【产业纵横】
+13. IBM CEO 称开源模型性价比高
+→ IBM CEO Arvind Krishna 表示，开源模型现在在本地部署方面具备极高的性价比。
+14. Retell 使用 OpenAI 模型支撑 1 亿月调用量
+→ Retell 的语音代理基准测试中 GPT-6 Astra 表现优异，Codex 助其实现 160 万美元年营收。
+15. Anthropic 与六家药企合作加速药物研发
+→ Anthropic 与六家药企合作，并启动罕见肌肉营养不良药物研发项目。
+
+【活动预告】
+· 11月5日 RECOMB 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-28-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

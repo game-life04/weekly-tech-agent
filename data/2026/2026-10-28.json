@@ -1,0 +1,1485 @@
+{
+ "date": "2026-10-28",
+ "generated_at": "2026-10-27T22:57:26Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 483,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 67,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 46,
+   "error": "",
+   "seconds": 9.8
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 327,
+   "error": "",
+   "seconds": 23.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 20.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 22.5
+  }
+ ],
+ "items": [
+  {
+   "title": "Genie 4: A new generation of world simulation",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-10-27T16:01:38Z",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "heat": 1.0,
+   "weight": 0.85,
+   "metrics": {
+    "points": 632.0,
+    "comments": 383.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50261319",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "21ec57e4e0e3",
+   "score": 8.54,
+   "title_zh": "Genie 4：新一代世界模拟",
+   "summary_zh": "Google DeepMind 发布 Genie 4，解锁实时模拟中的前所未有的真实感。",
+   "tags": [
+    "模型发布",
+    "世界模型",
+    "模拟"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-10-27T17:35:00Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Ali Behrouz and Vahab Mirrokni, Google Research We introduce a sleep phase in continual learning, enabling large language models to continuously integrate new facts and enhance reasoning while mitigating catastrophic forgetting or static knowledge cutoffs. Modern LLMs achieve impressive performance via pre-training and in-context learning (ICL). However, once deployed, they remain largely static, operating with a fixed knowledge cutoff date that leaves them unable to acquire long-term capabilities or adapt to new information. While updating models with new data seems like the obvious solution, continual parameter updates often trigger catastrophic forgetting , a fundamental issue where learning new tasks severely degrades performance on previously learned ones. Alternatively, relying stri…",
+    "llm_done": true
+   },
+   "id": "36789bfad39b",
+   "score": 7.94,
+   "title_zh": "睡眠框架：LLM 持续学习新知识",
+   "summary_zh": "Google Research 提出睡眠框架，让大语言模型在持续学习中保留知识。",
+   "tags": [
+    "LLM",
+    "持续学习",
+    "知识保留"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Is my data used for model training?",
+   "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-27T13:56:15Z",
+   "summary": "",
+   "heat": 0.859,
+   "weight": 0.6,
+   "metrics": {
+    "points": 208.0,
+    "comments": 92.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50259406",
+    "excerpt_tried": true,
+    "evidence": "This article is about our commercial products such as Claude for Work and the Anthropic API. For our consumer products such as Claude Free, Pro, Max and when accounts from those plans use Claude Code, see here . By default, we will not use your inputs or outputs from our commercial products (e.g. Claude for Work, Anthropic API, Claude Gov, etc.) to train our models. If you explicitly report feedback or bugs to us (e.g. via our thumbs up/down feedback button), or otherwise choose to allow us to use your data, then we may use your chats and coding sessions to train our models. To find out more information regarding your use of an Anthropic commercial offering, or if you would like to know how to contact us regarding a privacy related topic, see our Trust Center and Commercial Terms . When y…",
+    "llm_done": true
+   },
+   "id": "15a585b52200",
+   "score": 7.85,
+   "title_zh": "我的数据会被用于模型训练吗？",
+   "summary_zh": "Anthropic 官方说明，默认情况下不会使用商业产品中的输入输出进行训练，除非用户主动反馈或允许。",
+   "tags": [
+    "隐私政策",
+    "Anthropic"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+   "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-27T16:25:30Z",
+   "summary": "",
+   "heat": 0.847,
+   "weight": 0.6,
+   "metrics": {
+    "points": 192.0,
+    "comments": 93.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50261589",
+    "excerpt_tried": true,
+    "evidence": "Amazon is gutting its AI labs and funneling its resources into a new project headed by a noted AI robotics guru. By now, you’d be hard pressed to find anyone who isn’t broadly familiar with the AI heavyweights and their flagship models. OpenAI has ChatGPT, Anthropic has Claude, Google has Gemini. But what does Amazon have? Not a whole lot, it turns out. Unlike its competitors in the tech megacorp scene, Amazon’s standout AI model — organized under the name “Nova” — is about the farthest thing from a household name. And that’s not likely to change anytime soon, because the ecommerce giant is now gutting its in-house AI labs, Bloomberg reports . Per the outlet, Amazon is scaling back the ambitions of most of its Nova AI models and reorganizing its AI development teams as part of an effort t…",
+    "llm_done": true
+   },
+   "id": "e2d5f0ea53cf",
+   "score": 7.85,
+   "title_zh": "亚马逊裁撤 AI 部门",
+   "summary_zh": "亚马逊正在重组其 AI 实验室，将资源转向由知名机器人专家领导的新项目。",
+   "tags": [
+    "行业动态",
+    "亚马逊"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "url": "https://openai.com/index/retell-ai",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-27T15:00:00Z",
+   "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4e870e87226e",
+   "score": 7.79,
+   "title_zh": "Retell 使用 OpenAI 模型支撑 1 亿月调用量",
+   "summary_zh": "Retell 的语音代理基准测试中 GPT-6 Astra 表现优异，Codex 助其实现 160 万美元年营收。",
+   "tags": [
+    "应用",
+    "语音代理",
+    "营收"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "IBM CEO says open weight models are now good and cheap on-prem",
+   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-26T01:47:46Z",
+   "summary": "",
+   "heat": 0.973,
+   "weight": 0.6,
+   "metrics": {
+    "points": 423.0,
+    "comments": 334.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50238088",
+    "excerpt_tried": true,
+    "evidence": "90 percent of the performance at ten percent of the price, in just two or three racks, is hard to beat IBM CEO Arvind Krishna has told investors that open weight models now make brilliant sense for on-prem enterprise use. Speaking on the company’s Q3 earnings call, Krishna said that in 2024 closed frontier models were plainly superior to open alternatives. “If you ran some assessment, some benchmark, and it was broad-based, not narrow, the top model might score a 70, and the open model might score a 20 or a 30.” “In late 2025, we began to see that gap shrink, where maybe the gap was not 70 to 20 or 30, it was 70 to 50,” he continued. The CEO said open weight models currently deliver “anywhere from 25 percent to 10 percent of the token cost of the frontier models. That is very attractive g…",
+    "llm_done": true
+   },
+   "id": "17b7b59fa097",
+   "score": 7.71,
+   "title_zh": "IBM CEO 称开源模型已具备性价比",
+   "summary_zh": "",
+   "tags": [
+    "行业动态",
+    "IBM"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Early progress on accelerating drug development with Claude",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic",
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 67.0,
+    "comments": 52.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50265609",
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy. In this post, we provide an update on our progress. Anthropic’s life sciences team is working to accelerate curing disease. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines: BigHat Biosciences , Bristol Myers Squibb , Divergence Labs , Enveda , Generate Biomedicines , and The Column Group . We've also begun drug discovery efforts of our own. In doing so, we've learned a lot about how Claude can support drug development, and how we’ll need to improve Claude further to realize AI's potenti…",
+    "llm_done": true
+   },
+   "id": "352ed90f95eb",
+   "score": 7.65,
+   "title_zh": "Anthropic 利用 Claude 加速药物研发",
+   "summary_zh": "Anthropic 与六家药企合作，并启动罕见肌肉营养不良药物研发项目。",
+   "tags": [
+    "药物研发",
+    "医疗",
+    "行业动态"
+   ],
+   "also_in": [
+    "Hacker News",
+    "Anthropic 研究"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "url": "https://openai.com/index/check-point-daybreak",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "537e78d35612",
+   "score": 7.65,
+   "title_zh": "Check Point 使用 Daybreak 加速漏洞研究",
+   "summary_zh": "OpenAI Daybreak 帮助 Check Point 加快安全保护研究，将漏洞情报转化为客户防御。",
+   "tags": [
+    "安全",
+    "漏洞研究",
+    "加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+   "url": "https://www.brangus.io/survival-llm",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-27T19:55:06Z",
+   "summary": "",
+   "heat": 0.767,
+   "weight": 0.6,
+   "metrics": {
+    "points": 117.0,
+    "comments": 73.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50264853",
+    "excerpt_tried": true,
+    "evidence": "A free AI assistant and survival library (1.5 million offline articles) that runs on your own computer, with no internet. Shows the source of every answer. Mac and Windows. Survival LLM is a free AI assistant and emergency library that runs entirely on your own computer. Ask it how to keep food safe in a blackout, treat a burn, or purify water, and it answers from trusted sources and shows you exactly where each answer came from. Free and open source. Set it up while you have internet; after that it needs none. The AI model and the library live on your computer. Nothing you ask leaves it. Every answer lists the articles it read. Click one to read it yourself, with the exact passage highlighted. Medical references, FEMA and CDC guidance, survival manuals, how-to guides, repair guides and a…",
+    "llm_done": true
+   },
+   "id": "cddec38ade08",
+   "score": 7.55,
+   "title_zh": "Survival LLM：离线 AI 助手",
+   "summary_zh": "一款在本地运行的免费 AI 助手和生存库，包含 150 万篇离线文章，无需联网即可使用。",
+   "tags": [
+    "开源工具",
+    "本地部署"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How AI agents shape experts’ judgment calls",
+   "url": "https://www.anthropic.com/research/agents-judgment-calls",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic 研究",
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work. Amaç Herdağdelen, Hailey Joren, Alex Tamkin When experts hand their work to an AI agent, the usual assumption is that they still make the decisions that matter. The agent writes the code, runs the numbers, and offers advice, but the expert decides what to measure, how to interpret ambiguous evidence, and what the next steps should be. Often there is more than one reasonable answer to these questions, and the decision will come down to the experience and values of whoever makes the call. We wanted to look at whether experts really do make those important decisions, or w…",
+    "llm_done": true
+   },
+   "id": "71bc47a32bea",
+   "score": 7.49,
+   "title_zh": "AI 智能体如何影响专家的判断",
+   "summary_zh": "研究发现，专家与 AI 编码代理合作时，86% 的时间会采纳代理随机偏向的选项。",
+   "tags": [
+    "智能体",
+    "专家判断",
+    "人机协作"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "heat": 0.923,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1623.0,
+    "stars": 104883.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "eb44cfde43a2",
+   "score": 7.17,
+   "title_zh": "",
+   "summary_zh": "Agent-Reach 让 AI 智能体能够通过命令行读取和搜索 Twitter、Reddit、YouTube 等多个平台。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How We Built Our Design Agent",
+   "url": "https://www.langchain.com/blog/design-agent",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-10-27T17:05:05Z",
+   "summary": "How LangChain built Content Studio, an open-source design agent in Slack that makes on-brand videos, graphics and decks, and the harness that powers it.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ade61320db34",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "LangChain 分享了在 Slack 中构建开源设计智能体 Content Studio 的经验。",
+   "tags": [
+    "开源工具",
+    "设计智能体",
+    "LangChain"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "heat": 0.651,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 182.0,
+    "stars": 59050.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3fc8dba9f713",
+   "score": 6.62,
+   "title_zh": "",
+   "summary_zh": "ayghri/i-have-adhd 是一个用于防止代码智能体隐藏答案的技能，输出对 ADHD 友好。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "heat": 0.929,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1702.0,
+    "stars": 117280.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "bc7e0ac94a23",
+   "score": 6.58,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Cursor plugin specification and official plugins",
+   "heat": 0.632,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 157.0,
+    "stars": 14342.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6c14ebbef11d",
+   "score": 6.58,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/codex rust-v0.165.0",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-27T20:09:38Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## New Features - Added a built-in Google Cloud Vertex AI provider, configured with `model_provider = \"gcp\"`. (#56265) - Added GPT-6.1 Terra to the model catalogs. (#57337) - Added a repository filter to the session picker and directory grouping to the agent command center, making it easier to navigate sessions across linked worktrees. (#56308) - Added experimental attached thread forks to the app-server API. (#56351) - Enabled reasoning effort changes during a conversation by default for supported models. (#56163) - Enabled memory v2 by default for fresh profiles and added support for importing external-agent memories into it. (#56211, #56414) ## Bug Fixes - Fixed fresh TUI sessions to honor the server’s default approval reviewer when no explicit override is provided. (#56090) - Kept TUI preferences editable and immediately applicable when execution settings are invalid. (#56091) - Cancelled remote MCP tool requests when their local response futures are dropped. (#56132) - Prevented queued agent messages from restarting work after an interrupt or a switch to Plan mode. (#56330) - Stopped retrying when a provider reports that a model was not found, preserving its error message. (#56445) - Closed a marketplace URL validation gap that could allow Git to connect to a different host than the one checked against allowed patterns. (#56263) ## Changelog Full Changelog: https://github.com/openai/codex/compare/rust-v0.164.0...rust-v0.165.0 - #56081 Cache decrypted Codex auth and mana…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "75a4054a20a3",
+   "score": 6.51,
+   "title_zh": "",
+   "summary_zh": "openai/codex rust-v0.165.0 版本更新，新增 Vertex AI 提供商、GPT-6.1 Terra 模型等。",
+   "tags": [
+    "开源工具",
+    "版本发布",
+    "更新日志"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI 和 Anthropic 将大模型价格砍了八成，这门生意到底怎么算的？",
+   "url": "https://www.oschina.net/news/503251/cheap-llms",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-10-27T11:41:06Z",
+   "summary": "从六月 GPT-5.6 系列发布到现在，OpenAI 和 Anthropic 的主流模型价格塌了一大截，最多砍掉 80%。Max Woolf 把这场价格战的时间线全捋了一遍，结论有点反直觉：这不像烧钱抢市场的套路。 先看数字怎么掉的。GPT-5.6 Sol 卖 $5/$30/$0.50（输入/输出/缓存读取，每百万 token），Luna 是 $1/$6/$0.10。后来 Luna 直接砍 80...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d19842cba852",
+   "score": 6.32,
+   "title_zh": "",
+   "summary_zh": "主流模型价格最多砍掉 80%，分析认为这并非烧钱抢市场的套路。",
+   "tags": [
+    "价格战",
+    "行业动态",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "拾趣 (Magpie) v0.1.18 发布，智能信息提取，更美观的 UI",
+   "url": "https://www.oschina.net/news/503249",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-10-27T10:02:15Z",
+   "summary": "拾趣 (Magpie) v0.1.18 发布，智能信息提取，更美观的 UI 拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian、预填日历，结果直接落地。图片、视频与扫描文档中的文字，框选亦可识别——处理在原地完成，无需迁入对话窗口。 Release ...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "fd92f47b8a0e",
+   "score": 6.3,
+   "title_zh": "",
+   "summary_zh": "拾趣 (Magpie) 更新 UI，支持智能信息提取和跨平台划词交互。",
+   "tags": [
+    "开源工具",
+    "划词工具",
+    "信息提取"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+   "url": "https://arxiv.org/abs/2610.33568",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-24T09:38:02Z",
+   "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and decision grounding, so that each supervised action is supported by the learner-visible interaction history. We introduce Trajectory2Gym, which constructs executable interactions around under-supported compositional structures and derives supervision only from grounded decisions in their realized executions. Structural-support selection allocates the resulting experience, while parent-normalized supervised fine-tuning preserves the semantic interaction as the unit of training weight. This reframes trajectory generation as the deliberate construction of learnable interaction experience, rather than the collection of successful trajectories. Across five Qwen3 scales, Trajectory2Gym improves Tau1, Tau2, and BFCL at every tested scale, increasing the equal-weight three-benchmark mean by 16.9-29.8 percentage points. The gains are strongest in stateful and multi-turn interaction, where later decisions depend on earlier observations and feedback. Our results suggest that scaling tool-use agents depends not only on collecting more successful trajectories, but on constructing int…",
+   "heat": 1.0,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 331.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/yihaohu0118/Trajectory2Gym"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "386e60631e10",
+   "score": 7.99,
+   "title_zh": "Trajectory2Gym：决策驱动的工具使用交互合成",
+   "summary_zh": "针对工具使用轨迹中多步依赖缺失和决策依据不足的问题，Trajectory2Gym 提出构建可执行交互并仅从 grounded 决策中提取监督信号。该方法通过结构支持选择和父归一化微调，显著提升了 Qwen3 在多轮交互任务上的性能。",
+   "tags": [
+    "智能体",
+    "工具使用",
+    "强化学习"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Work Agents: Systems, Capabilities, and Optimization",
+   "url": "https://arxiv.org/abs/2610.35845",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-26T17:56:21Z",
+   "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful workspaces and deliver verifiable outcomes. We introduce two complementary dimensions, work persistence and work openness, to characterize working conditions, and classify digital work into five forms according to task scope and organization. Building on this framework, we identify five core capability families required for reliable work execution and examine approaches to model optimization, harness optimization, and their joint optimization. We further analyze existing evaluation methods and metrics from the perspective of work outcomes. Finally, we discuss future research directions, including sustained work delegation, adaptation to open environments, and the interaction between work execution and capability improvement. This paper provides a unified framework for understanding, optimizing, and evaluating work agents, supporting the development of systems capable of delivering reliable, verifiable, and practically valuable work outcomes.",
+   "heat": 0.805,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 98.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/EnjunDu/awesome-working-agent"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "95613d2e6027",
+   "score": 7.3,
+   "title_zh": "Work Agents：系统、能力与优化",
+   "summary_zh": "为解决工作代理缺乏统一视角的问题，本文提出以工作为中心的系统级框架，将工作代理定义为结合基础模型与运行时工具的系统。该框架定义了工作持久性和开放性两个维度，并分析了模型优化、工具优化及其联合优化的方法。",
+   "tags": [
+    "智能体",
+    "工作流",
+    "系统设计"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Adaptive Retrieval, Selective Answers: Evaluating Conformal Factuality in Agentic RAG",
+   "url": "https://arxiv.org/abs/2610.34872",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-26T05:37:03Z",
+   "summary": "Retrieval-augmented generation (RAG) can improve factual grounding without guaranteeing that every generated claim is supported. Previous work has studied claim-level conformal factuality in single-stage RAG and, more recently, multi-hop RAG. We examine its behavior in agentic RAG, where a language-model policy adaptively issues follow-up retrieval queries or terminates retrieval before response generation. We retain the retrieval-based relevance-scoring formulation and post-generation conformal filtering and evaluate six model-dataset configurations: GPT-6 Luna and Llama 3.1 8B on HotpotQA, Natural Questions, and TriviaQA. Each configuration uses 60 fixed questions, 100 seeded 30/30 calibration-test partitions, five conformal target levels, and a no-conformal-prediction baseline. Across the six configurations, higher target levels are accompanied by higher observed full-support rates and reduced answer availability. At the 95% target, non-empty response coverage ranges from 17.23% to 60.17%, claim retention from 10.72% to 43.16%, and full support among non-empty outputs from 89.14% to 95.56%. We formulate the adaptive retrieval trajectory explicitly and characterize the reliability-informativeness trade-off when conformal factuality is applied after agent termination.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "91da52f10374",
+   "score": 5.6,
+   "title_zh": "自适应检索与选择性回答：智能体 RAG 事实性评估",
+   "summary_zh": "针对智能体 RAG 中自适应检索轨迹的可靠性问题，本文在 GPT-6 Luna 和 Llama 3.1 8B 上评估了 conformal factuality 方法。实验表明，提高目标水平可提升全支持率，但在 95% 目标下，非空响应覆盖率仅为 17.23% 至 60.17%。",
+   "tags": [
+    "智能体",
+    "检索增强生成",
+    "事实性"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+   "url": "https://arxiv.org/abs/2610.31309",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-22T14:07:01Z",
+   "summary": "Scaling embedding capacity alongside Transformer computation is an emerging trend in language models. This trend makes high compression rates increasingly useful. Hence, we study extreme compression of Per-Layer Embeddings (PLE), which follow this trend and account for 35.2% of the parameters of Gemma 4 E4B. At such rates, conventional quantizers give each token-layer vector its own code of only a few bytes. We instead develop OPTIC (Output-Path-fitted, Token-shared Indexed Codes), which stores one quantized code tuple per token and decodes it at every layer with a layer-specific affine decoder. Codes and decoders are fitted to the PLE output path rather than to the stored vectors. At about $100\\times$ PLE compression of bfloat16 (BF16) E4B, OPTIC retains an aggregate 97.8% of the uncompressed model's performance across seven benchmarks, whereas product quantization, the strongest of six conventional baselines, retains 66.3%. At $594\\times$ and $1,002\\times$ PLE compression of BF16 E4B, OPTIC retains 90.5% and 84.1%. On the official E4B release with 4-bit linear weights and 16-bit activations (W4A16), OPTIC retains 96.9% at about $100\\times$ PLE compression. During inference at about $100\\times$ PLE compression, BF16 E4B uses 29.7% less GPU memory than with uncompressed PLE at the same key-value cache size, while running at most 0.40% slower.",
+   "heat": 0.42,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 10.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/VILA-Lab/optic"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "39f02a1d57fe",
+   "score": 5.52,
+   "title_zh": "通过跨层潜在向量量化实现层嵌入的极端压缩",
+   "summary_zh": "针对 Gemma 4 E4B 中层嵌入参数占比高的问题，本文提出 OPTIC 方法，通过输出路径拟合和层特定仿射解码器实现极端压缩。在约 100× 压缩下，OPTIC 保留了 97.8% 的模型性能，同时减少了 GPU 内存使用。",
+   "tags": [
+    "模型压缩",
+    "高效推理",
+    "嵌入量化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Rethinking Retrieval in the Long-Context Era: Training-Free Semantic Trees for Adaptive Context Construction",
+   "url": "https://arxiv.org/abs/2610.34146",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-25T08:28:39Z",
+   "summary": "Long-context language models can increasingly process entire documents, making full-context prompting a practical alternative to passage retrieval. However, greater capacity determines how much information a model can receive, but not which information best supports a query. This distinction motivates rethinking retrieval: when the full document already fits, can selecting and organizing its evidence improve answering? The challenge is to retain supporting facts and relations while keeping the context focused on the question. To reconcile these goals, we introduce \\ours, a training-free framework that uses semantic abstraction to guide selection while retaining original text for answering. \\ours constructs a reusable semantic hierarchy from the full document in a single generation, linking node descriptions to source spans. Given a query, structural--semantic scoring and fine-grained lexical attribution nominate shared source nodes; their union with ancestor context preserves structural relations and complete local text. Across four frontier answer models, \\ours improves average QA-F1 by 1.72 points over full-context prompting on three LongBench tasks, surpassing the evaluated baselines on the four-model average while reducing answer-context length by 58.55\\%. Our code is available at the $\\href{https://anonymous.4open.science/r/treefuse-ECFE}{repository}$.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "576ced31107e",
+   "score": 5.48,
+   "title_zh": "长上下文时代的检索重构：自适应上下文构建的无训练语义树",
+   "summary_zh": "",
+   "tags": [
+    "长上下文",
+    "语义树",
+    "检索"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-28",
+  "start": "2026-10-28",
+  "end": "2026-10-28",
+  "title": "Google DeepMind 发布 Genie 4 世界模型",
+  "generated_at": "2026-10-27T22:57:26Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 1,
+  "club_period": {
+   "start": "2026-10-27",
+   "end": "2026-10-27"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 2 次",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 0 个、合并 2 个，提交 2 次，新增代码 1503 行、删除 2 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 1503 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "kernel_translation_review_skill 合并 1 个 PR",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "Linux内核SIG的 kernel_translation_review_skill 仓库合并 1 个、提交 1 次，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/kernel_translation_review_skill",
+    "via": "GitHub"
+   },
+   {
+    "cat": "opensource",
+    "headline": "Survival LLM：离线 AI 助手",
+    "when": "10月28日",
+    "date": "2026-10-28",
+    "body": "Survival LLM 是一款在本地运行的免费 AI 助手和生存库，包含 150 万篇离线文章。",
+    "url": "https://www.brangus.io/survival-llm",
+    "via": "Hacker News",
+    "id": "cddec38ade08",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Agent-Reach：多平台搜索工具",
+    "when": "10月28日消息",
+    "date": "2026-10-28",
+    "body": "Agent-Reach 让 AI 智能体能够通过命令行读取和搜索 Twitter、Reddit、YouTube 等多个平台。",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "via": "GitHub Trending",
+    "id": "eb44cfde43a2",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "LangChain 分享设计智能体构建经验",
+    "when": "10月28日",
+    "date": "2026-10-28",
+    "body": "LangChain 分享了在 Slack 中构建开源设计智能体 Content Studio 的经验。",
+    "url": "https://www.langchain.com/blog/design-agent",
+    "via": "LangChain 博客",
+    "id": "ade61320db34",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "i-have-adhd：ADHD 友好输出技能",
+    "when": "10月28日消息",
+    "date": "2026-10-28",
+    "body": "i-have-adhd 是一个用于防止代码智能体隐藏答案的技能，输出对 ADHD 友好。",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "via": "GitHub Trending",
+    "id": "3fc8dba9f713",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "TradingAgents：多智能体交易框架",
+    "when": "10月28日消息",
+    "date": "2026-10-28",
+    "body": "TradingAgents 是一个多智能体 LLM 金融交易框架。",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "via": "GitHub Trending",
+    "id": "bc7e0ac94a23",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Work Agents：工作代理系统框架",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "Work Agents 提出以工作为中心的系统级框架，将工作代理定义为结合基础模型与运行时工具的系统。",
+    "url": "https://arxiv.org/abs/2610.35845",
+    "via": "arXiv · 智能体",
+    "id": "95613d2e6027",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Google DeepMind 发布 Genie 4 世界模型",
+    "when": "10月28日",
+    "date": "2026-10-28",
+    "body": "Google DeepMind 发布 Genie 4，解锁实时模拟中的前所未有的真实感。",
+    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "via": "Google DeepMind",
+    "id": "21ec57e4e0e3",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Trajectory2Gym：工具使用交互合成",
+    "when": "10月28日消息",
+    "date": "2026-10-28",
+    "body": "Trajectory2Gym 提出构建可执行交互并仅从 grounded 决策中提取监督信号，显著提升了 Qwen3 的性能。",
+    "url": "https://arxiv.org/abs/2610.33568",
+    "via": "arXiv · 智能体",
+    "id": "386e60631e10",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Google Research 提出睡眠框架",
+    "when": "10月28日",
+    "date": "2026-10-28",
+    "body": "Google Research 提出睡眠框架，让大语言模型在持续学习中保留知识。",
+    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+    "via": "Google Research",
+    "id": "36789bfad39b",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "IBM CEO 称开源模型性价比高",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "IBM CEO Arvind Krishna 表示，开源模型现在在本地部署方面具备极高的性价比。",
+    "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+    "via": "Hacker News",
+    "id": "17b7b59fa097",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Retell 使用 OpenAI 模型支撑 1 亿月调用量",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "Retell 的语音代理基准测试中 GPT-6 Astra 表现优异，Codex 助其实现 160 万美元年营收。",
+    "url": "https://openai.com/index/retell-ai",
+    "via": "OpenAI",
+    "id": "4e870e87226e",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 与六家药企合作加速药物研发",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "Anthropic 与六家药企合作，并启动罕见肌肉营养不良药物研发项目。",
+    "url": "https://www.anthropic.com/research/early-progress-drug-development",
+    "via": "Anthropic",
+    "id": "352ed90f95eb",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "21ec57e4e0e3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Google DeepMind 发布 Genie 4 世界模型",
+    "body": "Google DeepMind 发布 Genie 4，解锁实时模拟中的前所未有的真实感。"
+   },
+   "36789bfad39b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Google Research 提出睡眠框架",
+    "body": "Google Research 提出睡眠框架，让大语言模型在持续学习中保留知识。"
+   },
+   "15a585b52200": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 官方说明数据隐私政策",
+    "body": "Anthropic 官方说明，默认情况下不会使用商业产品中的输入输出进行训练，除非用户主动反馈或允许。"
+   },
+   "e2d5f0ea53cf": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "亚马逊重组 AI 实验室",
+    "body": "亚马逊正在重组其 AI 实验室，将资源转向由知名机器人专家领导的新项目。"
+   },
+   "4e870e87226e": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Retell 使用 OpenAI 模型支撑 1 亿月调用量",
+    "body": "Retell 的语音代理基准测试中 GPT-6 Astra 表现优异，Codex 助其实现 160 万美元年营收。"
+   },
+   "17b7b59fa097": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "IBM CEO 称开源模型性价比高",
+    "body": "IBM CEO Arvind Krishna 表示，开源模型现在在本地部署方面具备极高的性价比。"
+   },
+   "352ed90f95eb": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Anthropic 与六家药企合作加速药物研发",
+    "body": "Anthropic 与六家药企合作，并启动罕见肌肉营养不良药物研发项目。"
+   },
+   "537e78d35612": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Check Point 使用 Daybreak 加速漏洞研究",
+    "body": "OpenAI Daybreak 帮助 Check Point 加快安全保护研究，将漏洞情报转化为客户防御。"
+   },
+   "cddec38ade08": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Survival LLM：离线 AI 助手",
+    "body": "Survival LLM 是一款在本地运行的免费 AI 助手和生存库，包含 150 万篇离线文章。"
+   },
+   "71bc47a32bea": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "专家与 AI 编码代理合作时 86% 采纳代理建议",
+    "body": "研究发现，专家与 AI 编码代理合作时，86% 的时间会采纳代理随机偏向的选项。"
+   },
+   "eb44cfde43a2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Agent-Reach：多平台搜索工具",
+    "body": "Agent-Reach 让 AI 智能体能够通过命令行读取和搜索 Twitter、Reddit、YouTube 等多个平台。"
+   },
+   "ade61320db34": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain 分享设计智能体构建经验",
+    "body": "LangChain 分享了在 Slack 中构建开源设计智能体 Content Studio 的经验。"
+   },
+   "3fc8dba9f713": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "i-have-adhd：ADHD 友好输出技能",
+    "body": "i-have-adhd 是一个用于防止代码智能体隐藏答案的技能，输出对 ADHD 友好。"
+   },
+   "bc7e0ac94a23": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "TradingAgents：多智能体交易框架",
+    "body": "TradingAgents 是一个多智能体 LLM 金融交易框架。"
+   },
+   "6c14ebbef11d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Cursor 插件规范与官方插件",
+    "body": "Cursor 插件规范和官方插件发布。"
+   },
+   "75a4054a20a3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai/codex rust 发布 v0.165.0 版本",
+    "body": "openai/codex rust-v0.165.0 版本更新，新增 Vertex AI 提供商、GPT-6.1 Terra 模型等。"
+   },
+   "d19842cba852": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 和 Anthropic 大幅降低模型价格",
+    "body": "主流模型价格最多砍掉 80%，分析认为这并非烧钱抢市场的套路。"
+   },
+   "fd92f47b8a0e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "拾趣 (Magpie) 发布 v0.1.18 版本",
+    "body": "拾趣 (Magpie) 更新 UI，支持智能信息提取和跨平台划词交互。"
+   },
+   "386e60631e10": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Trajectory2Gym：工具使用交互合成",
+    "body": "Trajectory2Gym 提出构建可执行交互并仅从 grounded 决策中提取监督信号，显著提升了 Qwen3 的性能。"
+   },
+   "95613d2e6027": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Work Agents：工作代理系统框架",
+    "body": "Work Agents 提出以工作为中心的系统级框架，将工作代理定义为结合基础模型与运行时工具的系统。"
+   },
+   "91da52f10374": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "智能体 RAG 事实性评估",
+    "body": "Adaptive Retrieval, Selective Answers 在 GPT-6 Luna 和 Llama 3.1 8B 上评估了 conformal factuality 方法。"
+   },
+   "39f02a1d57fe": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "层嵌入极端压缩方法 OPTIC",
+    "body": "OPTIC 方法通过输出路径拟合和层特定仿射解码器实现极端压缩，在约 100× 压缩下保留了 97.8% 的性能。"
+   }
+  }
+ }
+}
