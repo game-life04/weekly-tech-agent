@@ -1146,13 +1146,13 @@
   "start": "2026-10-28",
   "end": "2026-10-28",
   "title": "Google DeepMind 发布 Genie 4 世界模型",
-  "generated_at": "2026-10-27T22:57:26Z",
+  "generated_at": "2026-10-28T00:46:06Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 1,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-27",
    "end": "2026-10-27"
@@ -1479,6 +1479,12 @@
     "cat": "papers",
     "headline": "层嵌入极端压缩方法 OPTIC",
     "body": "OPTIC 方法通过输出路径拟合和层特定仿射解码器实现极端压缩，在约 100× 压缩下保留了 97.8% 的性能。"
+   },
+   "576ced31107e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "论文提出自适应上下文构建的无训练语义树",
+    "body": "论文提出一种无训练语义树方法，用于在长上下文时代重构检索策略，以自适应地构建上下文。"
    }
   }
  }
