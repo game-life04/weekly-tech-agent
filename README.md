@@ -12,57 +12,54 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.28（周三）
+## 每日快讯 · 10.29（周四）
 
-> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-28-kuaixun.md) · [公众号排版版](daily/2026/2026-10-28-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-28.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-29-kuaixun.md) · [公众号排版版](daily/2026/2026-10-29-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-29.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】10月28日 周三
-今日 AI 与开源要闻 15 条，3 分钟速读
+【每日科技快讯】10月29日 周四
+今日 AI 与开源要闻 12 条，3 分钟速读
 
-【俱乐部动态】
-1. 开放原子开源俱乐部合并 2 个 PR、提交 2 次
-2. AtomGit-Mobile4Android 合并 1 个 PR
-3. kernel_translation_review_skill 合并 1 个 PR
+【海外动态】
+1. NVIDIA Nemotron 3.5 Transcribe：可提示和适配的多语言转录
+→ NVIDIA 推出 Nemotron 3.5 Transcribe 模型，支持转录、说话人分离、翻译和格式化，可在 Hugging Face 上使用。
+2. Gemini 4 Carbon：下一代前沿模型
+→ Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。
 
 【开源项目】
-4. Survival LLM：离线 AI 助手
-→ Survival LLM 是一款在本地运行的免费 AI 助手和生存库，包含 150 万篇离线文章。
-5. Agent-Reach：多平台搜索工具
-→ Agent-Reach 让 AI 智能体能够通过命令行读取和搜索 Twitter、Reddit、YouTube 等多个平台。
-6. LangChain 分享设计智能体构建经验
-→ LangChain 分享了在 Slack 中构建开源设计智能体 Content Studio 的经验。
-7. i-have-adhd：ADHD 友好输出技能
-→ i-have-adhd 是一个用于防止代码智能体隐藏答案的技能，输出对 ADHD 友好。
-8. TradingAgents：多智能体交易框架
-→ TradingAgents 是一个多智能体 LLM 金融交易框架。
+3. n8n-io/n8n
+→ Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。
+4. thinkrail：轻量级实时 IDE
+→ thinkrail 是一款轻量级实时 IDE，能够根据工作方式自动定制。
+5. openbot：本地优先桌面工作区
+→ openbot 为 AI 团队成员提供本地优先的桌面工作区，支持 Codex、Claude 和 Grok。
+6. shannon：AI 网络安全测试工具
+→ shannon 是一款 AI 网络安全测试工具，能分析源代码并执行真实漏洞利用。
+7. learnharness：Agent 训练工具
+→ learnharness 是一个用于学习困难任务的 Agent 训练工具。
 
 【学术前沿】
-9. Work Agents：工作代理系统框架
-→ Work Agents 提出以工作为中心的系统级框架，将工作代理定义为结合基础模型与运行时工具的系统。
-10. Google DeepMind 发布 Genie 4 世界模型
-→ Google DeepMind 发布 Genie 4，解锁实时模拟中的前所未有的真实感。
-11. Trajectory2Gym：工具使用交互合成
-→ Trajectory2Gym 提出构建可执行交互并仅从 grounded 决策中提取监督信号，显著提升了 Qwen3 的性能。
-12. Google Research 提出睡眠框架
-→ Google Research 提出睡眠框架，让大语言模型在持续学习中保留知识。
+8. 三体：多模态智能体能力驱动递归自进化
+→ 论文提出三体框架，通过创作者、探索者和进化者三个角色，将任务组织转变为共享需求的能力树。
+9. CoS-VQ：大语言模型协同共享尺度向量量化
+→ 论文提出了CoS-VQ方法，在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间。
+10. 长时序 LLM 智能体多尺度策略优化
+→ 论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，提升长时序智能体性能。
+11. Memory Tax：剖析智能体记忆的净价值
+→ 论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG，并将记忆的净价值分解为记忆收益和记忆税。
 
 【产业纵横】
-13. IBM CEO 称开源模型性价比高
-→ IBM CEO Arvind Krishna 表示，开源模型现在在本地部署方面具备极高的性价比。
-14. Retell 使用 OpenAI 模型支撑 1 亿月调用量
-→ Retell 的语音代理基准测试中 GPT-6 Astra 表现优异，Codex 助其实现 160 万美元年营收。
-15. Anthropic 与六家药企合作加速药物研发
-→ Anthropic 与六家药企合作，并启动罕见肌肉营养不良药物研发项目。
+12. OpenAI 与 ServiceNow 扩展企业工作流合作
+→ OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。
 
 【活动预告】
 · 11月5日 RECOMB 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-28-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-29-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -70,49 +67,43 @@
 
 ### 今日快讯
 
-#### 俱乐部动态
+#### 海外动态
 
-**开放原子开源俱乐部合并 2 个 PR、提交 2 次**<br>10月27日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 0 个、合并 2 个，提交 2 次，新增代码 1503 行、删除 2 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**NVIDIA Nemotron 3.5 Transcribe：可提示和适配的多语言转录**<br>10月28日，NVIDIA 推出 Nemotron 3.5 Transcribe 模型，支持转录、说话人分离、翻译和格式化，可在 Hugging Face 上使用。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>10月27日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 1503 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
-
-**kernel\_translation\_review\_skill 合并 1 个 PR**<br>10月27日，Linux内核SIG的 kernel\_translation\_review\_skill 仓库合并 1 个、提交 1 次，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/kernel_translation_review_skill)）</sub>
+**Gemini 4 Carbon：下一代前沿模型**<br>10月29日，Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/)）</sub>
 
 #### 开源项目
 
-**Survival LLM：离线 AI 助手**<br>10月28日，Survival LLM 是一款在本地运行的免费 AI 助手和生存库，包含 150 万篇离线文章。<br><sub>（来源：[Hacker News](https://www.brangus.io/survival-llm)）</sub>
+**n8n-io/n8n**<br>10月29日消息，Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。<br><sub>（来源：[GitHub Trending](https://github.com/n8n-io/n8n)）</sub>
 
-**Agent-Reach：多平台搜索工具**<br>10月28日消息，Agent-Reach 让 AI 智能体能够通过命令行读取和搜索 Twitter、Reddit、YouTube 等多个平台。<br><sub>（来源：[GitHub Trending](https://github.com/Panniantong/Agent-Reach)）</sub>
+**thinkrail：轻量级实时 IDE**<br>10月29日消息，thinkrail 是一款轻量级实时 IDE，能够根据工作方式自动定制。<br><sub>（来源：[GitHub Trending](https://github.com/JetBrains/thinkrail)）</sub>
 
-**LangChain 分享设计智能体构建经验**<br>10月28日，LangChain 分享了在 Slack 中构建开源设计智能体 Content Studio 的经验。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/design-agent)）</sub>
+**openbot：本地优先桌面工作区**<br>10月29日消息，openbot 为 AI 团队成员提供本地优先的桌面工作区，支持 Codex、Claude 和 Grok。<br><sub>（来源：[GitHub Trending](https://github.com/nightly-labs/openbot)）</sub>
 
-**i-have-adhd：ADHD 友好输出技能**<br>10月28日消息，i-have-adhd 是一个用于防止代码智能体隐藏答案的技能，输出对 ADHD 友好。<br><sub>（来源：[GitHub Trending](https://github.com/ayghri/i-have-adhd)）</sub>
+**shannon：AI 网络安全测试工具**<br>10月29日消息，shannon 是一款 AI 网络安全测试工具，能分析源代码并执行真实漏洞利用。<br><sub>（来源：[GitHub Trending](https://github.com/KeygraphHQ/shannon)）</sub>
 
-**TradingAgents：多智能体交易框架**<br>10月28日消息，TradingAgents 是一个多智能体 LLM 金融交易框架。<br><sub>（来源：[GitHub Trending](https://github.com/TauricResearch/TradingAgents)）</sub>
+**learnharness：Agent 训练工具**<br>10月29日消息，learnharness 是一个用于学习困难任务的 Agent 训练工具。<br><sub>（来源：[GitHub 新项目](https://github.com/amosblomqvist/learnharness)）</sub>
 
 #### 学术前沿
 
-**Work Agents：工作代理系统框架**<br>10月27日，Work Agents 提出以工作为中心的系统级框架，将工作代理定义为结合基础模型与运行时工具的系统。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.35845)）</sub>
+**三体：多模态智能体能力驱动递归自进化**<br>10月27日，论文提出三体框架，通过创作者、探索者和进化者三个角色，将任务组织转变为共享需求的能力树。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.36077)）</sub>
 
-**Google DeepMind 发布 Genie 4 世界模型**<br>10月28日，Google DeepMind 发布 Genie 4，解锁实时模拟中的前所未有的真实感。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)）</sub>
+**CoS-VQ：大语言模型协同共享尺度向量量化**<br>10月27日，论文提出了CoS-VQ方法，在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2610.37336)）</sub>
 
-**Trajectory2Gym：工具使用交互合成**<br>10月28日消息，Trajectory2Gym 提出构建可执行交互并仅从 grounded 决策中提取监督信号，显著提升了 Qwen3 的性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.33568)）</sub>
+**长时序 LLM 智能体多尺度策略优化**<br>10月29日消息，论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，提升长时序智能体性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.35013)）</sub>
 
-**Google Research 提出睡眠框架**<br>10月28日，Google Research 提出睡眠框架，让大语言模型在持续学习中保留知识。<br><sub>（来源：[Google Research](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/)）</sub>
+**Memory Tax：剖析智能体记忆的净价值**<br>10月29日消息，论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG，并将记忆的净价值分解为记忆收益和记忆税。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.34073)）</sub>
 
 #### 产业纵横
 
-**IBM CEO 称开源模型性价比高**<br>10月26日，IBM CEO Arvind Krishna 表示，开源模型现在在本地部署方面具备极高的性价比。<br><sub>（来源：[Hacker News](https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640)）</sub>
-
-**Retell 使用 OpenAI 模型支撑 1 亿月调用量**<br>10月27日，Retell 的语音代理基准测试中 GPT-6 Astra 表现优异，Codex 助其实现 160 万美元年营收。<br><sub>（来源：[OpenAI](https://openai.com/index/retell-ai)）</sub>
-
-**Anthropic 与六家药企合作加速药物研发**<br>10月27日，Anthropic 与六家药企合作，并启动罕见肌肉营养不良药物研发项目。<br><sub>（来源：[Anthropic](https://www.anthropic.com/research/early-progress-drug-development)）</sub>
+**OpenAI 与 ServiceNow 扩展企业工作流合作**<br>10月28日，OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。<br><sub>（来源：[OpenAI](https://openai.com/index/openai-servicenow-partnership-expansion)）</sub>
 
 ### 活动预告
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月27日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-28 08:46（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-29 07:13（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 2 期 · 10.19–10.25
 

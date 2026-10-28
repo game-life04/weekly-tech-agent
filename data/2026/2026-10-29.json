@@ -1,0 +1,1468 @@
+{
+ "date": "2026-10-29",
+ "generated_at": "2026-10-28T23:13:41Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 464,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.0
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 5.1
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 41,
+   "error": "",
+   "seconds": 10.0
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 331,
+   "error": "",
+   "seconds": 23.1
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 21.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 24.6
+  }
+ ],
+ "items": [
+  {
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-10-28T17:00:58Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.85,
+   "metrics": {
+    "points": 736.0,
+    "comments": 600.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50276792",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. SVP, Google DeepMind and Chief AI Architect, Google Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities. Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching. On internal benchmarks, Carbon drives a strong uplift in generating secure code, and in live coding environments with…",
+    "llm_done": true
+   },
+   "id": "66698da7b3f7",
+   "score": 9.15,
+   "title_zh": "Gemini 4 Carbon：下一代前沿模型",
+   "summary_zh": "Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。",
+   "tags": [
+    "模型发布",
+    "网络安全",
+    "前沿模型"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": [
+    "8cd3da53904a"
+   ]
+  },
+  {
+   "title": "AI promised less work. I've never worked more",
+   "url": "https://oioannou.com/blog/ai-promised-less-work/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-27T11:08:14Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 662.0,
+    "comments": 651.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50257325",
+    "excerpt_tried": true,
+    "evidence": "Agents made implementation cheap, so I started doing far more of it in parallel. My GitHub history since 2019 shows what that did: as VP of Technology I am back at my full-stack engineer pace, with bursts, burnout and a low season that is no longer low. The pitch was that AI would give us our time back. Write less boilerplate, delegate the boring parts, go home earlier. I am not complaining about the tools. I use agents for all of my engineering work now, and I wrote about how that setup evolved and why I still read the code . I can investigate and ship things that would not have been worth starting two years ago. But somewhere this year I noticed that I am working more than I ever have, and that it feels heavier than it used to. Not because any single task is harder. Because there are so…",
+    "llm_done": true
+   },
+   "id": "aba986114bf7",
+   "score": 7.99,
+   "title_zh": "AI 承诺减少工作，我却更忙了",
+   "summary_zh": "AI 代理让实施变得廉价，导致并行工作激增，工程师工作节奏回到全栈水平。",
+   "tags": [
+    "行业动态",
+    "AI应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-27T11:08:15Z",
+   "summary": "",
+   "heat": 0.999,
+   "weight": 0.6,
+   "metrics": {
+    "points": 497.0,
+    "comments": 235.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50257326",
+    "excerpt_tried": true,
+    "evidence": "AI cleanup tools and human editors join forces to protect Wikipedia from subtle machine-written bias and fake citations to keep the site human. AI-generated text is harder to spot, but that hasn’t deterred them Eliza Strickland is IEEE Spectrum's features editor. She also covers AI and biomedical engineering. Ellia Lebleu is a cofounder of the WikiProject AI Cleanup effort to keep Wikipedia human-written. Ellia Lebleu is a founding member of the WikiProject AI Cleanup , a volunteer effort launched in 2023 to find and remove AI-generated material from Wikipedia that breaks the website’s guidelines. When the cleanup began, AI writing was often betrayed by conspicuous clichés. Today, the project’s volunteers are developing tools to detect subtler forms of machine-generated content and debati…",
+    "llm_done": true
+   },
+   "id": "efe5e4841688",
+   "score": 7.98,
+   "title_zh": "维基百科清理 AI 生成内容",
+   "summary_zh": "维基百科利用 AI 清理工具和人工编辑，对抗机器生成的偏见和虚假引用。",
+   "tags": [
+    "行业动态",
+    "AI治理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tailscale SSH: Investigation and remediation update",
+   "url": "https://tailscale.com/ssh-investigation-update",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-27T19:55:21Z",
+   "summary": "",
+   "heat": 0.953,
+   "weight": 0.6,
+   "metrics": {
+    "points": 373.0,
+    "comments": 188.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50264857",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Securely connect to anything on the internet with Tailscale. Built on WireGuard®️, Tailscale enables you to make finely configurable connections, secured end-to-end according to zero trust principles, between any resources on any infrastructure. We've now published four security bulletins detailing the Tailscale SSH vulnerabilities, their impact, affected configurations, and recommended customer actions. We've also published a blog post explaining our investigation, the findings, and the fixes we've made. For the latest information, please refer to: We recommend that customers using Tailscale SSH review the bulletins and follow the applicable update guidance. ————————————————————————————————————————————— We're investigating security vulnerabilities affecting Tailscale SSH and wanted to sh…",
+    "llm_done": true
+   },
+   "id": "a5c31611f277",
+   "score": 7.97,
+   "title_zh": "Tailscale SSH 安全漏洞调查与修复更新",
+   "summary_zh": "Tailscale 发布了 SSH 漏洞的安全公告和修复说明，建议客户采取相应措施。",
+   "tags": [
+    "安全",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+   "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-27T20:35:09Z",
+   "summary": "",
+   "heat": 0.919,
+   "weight": 0.6,
+   "metrics": {
+    "points": 302.0,
+    "comments": 219.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50265393",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Critical flaw in EDK2 allows attackers to execute code early in the boot process. Defenders across the world face the burden of responding to yet another botched code-execution vulnerability, this time in boot-time firmware used by most of the world’s server vendors and data centers. The vulnerability, with a severity rating of 9.5 out of 10, resides in the TianoCore EDK II , an open source codebase that hardware makers and cloud providers use to create the UEFI firmware that runs during the boot-up sequence. Last year, a representative of the UEFI Forum called EDK2 the “preeminent solution / implementation of the UEFI specifications.” Virtually all UEFI suppliers (sometimes still called IBVs or independent BIOS vendors), including AMI, Insyde, and Phoenix, use the reference code extensiv…",
+    "llm_done": true
+   },
+   "id": "2f5821687e6d",
+   "score": 7.9,
+   "title_zh": "UEFI 固件中的代码执行漏洞威胁全球服务器",
+   "summary_zh": "EDK2 中的严重漏洞允许攻击者在启动过程中执行代码，影响全球大多数服务器。",
+   "tags": [
+    "安全",
+    "固件"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-28T13:15:00Z",
+   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "787ac04373b6",
+   "score": 7.77,
+   "title_zh": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+   "summary_zh": "OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。",
+   "tags": [
+    "行业动态",
+    "企业合作",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The October inflection point for vibe game development",
+   "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+   "source": "rss",
+   "section": "news",
+   "via": "Simon Willison",
+   "published": "2026-10-28T13:55:15Z",
+   "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones Pumpkin Farmer, aka Quarter Sun Cove Four times as insulting What happens if someone actually puts…",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "bd6e09539e26",
+   "score": 7.74,
+   "title_zh": "",
+   "summary_zh": "作者认为 2026 年 10 月是“氛围编程”开发游戏的转折点，Opus 4.5 和 GPT-5.1 的编码智能体已变得可靠。",
+   "tags": [
+    "行业动态",
+    "智能体",
+    "游戏开发"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-10-28T14:58:17Z",
+   "summary": "",
+   "heat": 0.744,
+   "weight": 0.65,
+   "metrics": {
+    "points": 101.0,
+    "comments": 17.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50275128",
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by NVIDIA on Hugging Face A transcript can capture every spoken word and still leave users or applications wondering who said what, how to translate it, or how to format domain-specific jargon. Multilingual calls, fast-paced meetings, and medical dictation each need different output: a translation, speaker labels, or correctly spelled medical terms. NVIDIA Nemotron 3.5 Transcribe is an open-weight, promptable model that turns recorded speech into useful text, now available on Hugging Face and ModelScope . It brings transcription, speaker attribution (diarization), translation, and audio question answering into one checkpoint: it transcribes 40 languages, translates 31 of them to or from English, and attributes speakers in 13. It handles recordings up to an hour long and labels…",
+    "llm_done": true
+   },
+   "id": "9bb2f7ad5998",
+   "score": 7.18,
+   "title_zh": "NVIDIA Nemotron 3.5 Transcribe：可提示和适配的多语言转录",
+   "summary_zh": "NVIDIA 推出 Nemotron 3.5 Transcribe 模型，支持转录、说话人分离、翻译和格式化，可在 Hugging Face 上使用。",
+   "tags": [
+    "模型发布",
+    "语音识别",
+    "开源工具"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Legora is building the agentic operating system for legal work",
+   "url": "https://openai.com/index/legora",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-28T09:30:00Z",
+   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "b0a7d305f40f",
+   "score": 7.14,
+   "title_zh": "Legora：构建法律工作的智能体操作系统",
+   "summary_zh": "Legora 利用 OpenAI 模型和 ChatGPT 加速法律工作流，扩展合同分析，帮助律师专注于高价值工作。",
+   "tags": [
+    "行业动态",
+    "智能体",
+    "法律科技"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
+   "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-28T16:59:59Z",
+   "summary": "Google is opening up Android Studio to third-party AI agents. Through a new \"Bring Your Own Agent\" feature, the IDE now supports more than 40 coding agents, including Anthropic's Claude Agent and OpenAI's Codex. Google says new terminal tools also help agents finish UI tasks 77 percent faster while using up to three times fewer tokens. Android development is becoming agent-centric too. The article Google opens Android development to third-party AI agents and unveils new Gemini APIs appeared fir…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "e85063a384f9",
+   "score": 7.13,
+   "title_zh": "Google 开放 Android 开发给第三方 AI 智能体",
+   "summary_zh": "Google 通过“自带智能体”功能开放 Android Studio，支持 Anthropic Claude Agent 和 OpenAI Codex 等超过 40 个智能体。",
+   "tags": [
+    "行业动态",
+    "智能体",
+    "Android"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ggml-org/llama.cpp v0.8.0",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-28T12:47:51Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## Overview This release adds the LiquidAI LFM3 family (text, vision, audio and omni) together with a new experimental streaming-audio API in `mtmd`, and wires realtime audio in and out of the server through the new `/v1/realtime` and `/tts` endpoints. A batch of new architectures landed: DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint, Muse Spark, Granite Switch Decision, plus decision/embedding models from LiquidAI, Baidu and NVIDIA. The core got sparse-attention (QSA/DSA) reworked onto a fused masking op, a 50/50 SLRU cache for host-resident MoE experts, and cleaner `no_alloc` memory handling; the server got router memory-management and tool-calling improvements; the UI can now browse and download models straight from HF Hub, search conversations and compact them. Finally, `ggml` was bumped to v0.28.0, bringing `GGML_OP_TOP_K_MASK`, `-1` expert-index semantics and large backend performance work (CUDA chunked graph launches, SYCL graph replay, OpenCL Q2_K/Q3_K, Hexagon HTP rework, KleidiAI SVE kernels). ### Highlights - LFM3 family: LFM3-1.7B (text) and LFM3-VL-2B (vision), verified against the reference HF implementation [llama/31252](https://github.com/ggml-org/llama.cpp/pull/31252) - LFM3-Audio-2B and LFM3-Omni-2B: ASR, TTS and voice chat from a single model, with streaming audio input and output [llama/31257](https://github.com/ggml-org/llama.cpp/pull/31257) ### API changes - DRY sampler: new `LLAMA_DRY_MAX_SEQ_BREAKERS` (64) caps distinct sequence breakers,…",
+    "level": "minor",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8c03f8a134ed",
+   "score": 7.63,
+   "title_zh": "",
+   "summary_zh": "llama.cpp v0.8.0 发布，新增 LiquidAI LFM3 系列模型和实时音频 API，支持 DeepSeek V4.1 Flash 等新架构。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "模型发布"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "n8n-io/n8n",
+   "url": "https://github.com/n8n-io/n8n",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+   "heat": 0.624,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 147.0,
+    "stars": 208912.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ba28d566dcf9",
+   "score": 7.17,
+   "title_zh": "",
+   "summary_zh": "Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。",
+   "tags": [
+    "开源工具",
+    "自动化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+   "heat": 0.872,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1075.0,
+    "stars": 4999.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4bfb505f8dee",
+   "score": 7.06,
+   "title_zh": "",
+   "summary_zh": "轻量级实时 IDE，根据工作方式自动定制。",
+   "tags": [
+    "开源工具",
+    "IDE"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "heat": 0.869,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1053.0,
+    "stars": 3209.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7532e04a876f",
+   "score": 7.06,
+   "title_zh": "",
+   "summary_zh": "本地优先的桌面工作区，为 AI 团队成员提供持久化支持。",
+   "tags": [
+    "开源工具",
+    "AI助手"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How We Built LangChain’s Paid Media Agent",
+   "url": "https://www.langchain.com/blog/paid-media-agent",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-10-28T21:40:23Z",
+   "summary": "How LangChain built a paid media agent to analyze campaign performance, optimize ads, propose changes, and turn marketing data into action.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3d2378651db1",
+   "score": 6.9,
+   "title_zh": "",
+   "summary_zh": "LangChain 分享了构建付费媒体智能体的经验，用于分析活动表现、优化广告并提出更改建议。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "营销"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "KeygraphHQ/shannon",
+   "url": "https://github.com/KeygraphHQ/shannon",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+   "heat": 0.753,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 415.0,
+    "stars": 50123.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "13c0d56c4b8f",
+   "score": 6.83,
+   "title_zh": "",
+   "summary_zh": "AI 网络安全测试工具，分析源代码并执行真实漏洞利用。",
+   "tags": [
+    "开源工具",
+    "安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "amosblomqvist/learnharness",
+   "url": "https://github.com/amosblomqvist/learnharness",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Agent harness for learning difficult things.",
+   "heat": 0.781,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3606.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 12,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "2562756097c8",
+   "score": 6.76,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "morganlinton/BeautifulRust",
+   "url": "https://github.com/morganlinton/BeautifulRust",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+   "heat": 0.767,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1363.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 5,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a6a2a2e0b63b",
+   "score": 6.73,
+   "title_zh": "",
+   "summary_zh": "Agent 技能库，教 AI 编写、审查和移植 Rust 代码。",
+   "tags": [
+    "开源工具",
+    "Rust"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+   "url": "https://arxiv.org/abs/2610.36077",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-26T18:03:34Z",
+   "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can share the same underlying capability requirements. We therefore introduce The Trinity, a recursive self-improvement framework coupling world generation with Harness evolution through three roles: Creator, Explorer, and Evolver. Drawing on verified execution trajectories, Evolver shifts the basis of task organization from surface categories to shared requirements, reorganizing the original task tree into a hierarchical capability tree. We introduce Capability-Driven Real2Sim2Real: for heterogeneous tasks at the same node, Creator abstracts their common requirements into simplified, verifiable simulated worlds for capability learning, while evaluation on original tasks measures transfer. Along this capability tree, Explorer progressively evolves reusable capability modules through selective inheritance, forming a Harness tree whose validated updates accumulate across iterations within a fixed topology. The resulting Harnesses specialize in different capabilities, motivating a Capability-Aware Harness Router that uses public task information to select compatible module configurations from…",
+   "heat": 1.0,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 311.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/InfRec-Cardinal/The-Trinity"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "f47e61aa0474",
+   "score": 8.13,
+   "title_zh": "三体：多模态智能体的能力驱动递归自进化",
+   "summary_zh": "针对构建异构环境和手动迭代难以跟上任务复杂度的问题，论文提出了三体框架。该框架通过创作者、探索者和进化者三个角色，将任务组织从表面类别转变为共享需求的能力树。实验表明，该方法能有效提升多模态智能体的性能。",
+   "tags": [
+    "多模态",
+    "智能体",
+    "自进化"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+   "url": "https://arxiv.org/abs/2610.35013",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-26T08:22:11Z",
+   "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale. Extensive experiments across search, tool-use, and automation tasks with 4B and 30B-A3B models demonstrate consistent gains over strong RL baselines.",
+   "heat": 1.0,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 348.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "90efaf92605b",
+   "score": 8.08,
+   "title_zh": "长时序LLM智能体的多尺度策略优化",
+   "summary_zh": "针对长时序智能体在逐词生成动作时奖励分配不均的问题，论文提出了多尺度策略优化方法。该方法结合多尺度优势估计和回合级重要性采样，在搜索、工具使用和自动化任务上显著优于现有的强化学习基线。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "长上下文"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+   "url": "https://arxiv.org/abs/2610.34073",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-25T05:29:05Z",
+   "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of memory into the gains and losses over direct retrieval, termed memory benefit and memory tax. These gains and losses arise because memory process changes how the raw information is organized and accessed. We view such changes as the double-edged deviations from the raw history. They are originally designed and introduced to benefit the task, for example by reorganizing facts or distilling preferences, but some may also remove or obscure evidence, giving rise to memory tax. Since memory benefit reflects the expected gains of its design, we then focus more on the overlooked memory tax, study how it arises from the system and evaluation side, and generalize the concept to more application scenarios of memory. We hope the notion of memory tax can provide a new lens and shift more attention from standalone performance to the net value of memory, informing more reliable memory designs and evaluations. We will open-source the code and results to the community. Project Page: https://hexuan21.github.io/MemoryTax/",
+   "heat": 0.809,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 100.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/hexuan21/MemoryTax"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4c73f5973987",
+   "score": 7.0,
+   "title_zh": "记忆税：剖析智能体记忆的净价值",
+   "summary_zh": "针对长时序智能体中记忆系统的净价值不明确的问题，论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG。论文将记忆的净价值分解为记忆收益和记忆税，并分析了记忆税产生的系统与评估原因。",
+   "tags": [
+    "智能体",
+    "长上下文",
+    "检索"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "CoS-VQ: Coordinated Shared-Scale Vector Quantization for Large Language Models",
+   "url": "https://arxiv.org/abs/2610.37336",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-27T14:43:00Z",
+   "summary": "Large language models (LLMs) require substantial memory, motivating low-bit weight quantization for efficient deployment. Existing vector quantization (VQ) methods often improve accuracy by increasing the effective coding dimension, which can complicate independent lookup and local codeword updates. We propose CoS-VQ (Coordinated Shared-Scale Vector Quantization), which preserves low-dimensional codewords while jointly optimizing hard indices and their shared scale across positions. The key challenge is scale-induced coupling: the optimal scale depends on the entire codeword combination and, in turn, changes candidate rankings across positions, so pointwise updates can stall even after scale re-optimization. CoS-VQ collects candidates at multiple probe scales and constructs a tangent separable upper bound for the residual-aware quadratic objective. By reducing candidate comparisons to lower envelopes of lines over positive scales, it identifies finitely many representative intervals for joint index--scale updates without exhaustively enumerating codeword combinations. On Qwen3.8-27B, CoS-VQ outperforms QTIP and LLVQ on the evaluated language modeling, coding, and reasoning benchmarks. Ablations from the same initialization further show larger gains from joint updates than from scale-only refinement, highlighting joint selection as an alternative to increasing codeword dimensionality. The code is available at https://github.com/xzktx003/Cos_VQ.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "bf16b30ba24b",
+   "score": 6.26,
+   "title_zh": "CoS-VQ：大语言模型协同共享尺度向量量化",
+   "summary_zh": "针对大模型低比特量化中独立查找和局部码字更新困难的问题，论文提出了CoS-VQ方法。该方法在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间，在多个基准上优于现有方法。",
+   "tags": [
+    "推理加速",
+    "量化",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG",
+   "url": "https://arxiv.org/abs/2610.36915",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-27T09:43:21Z",
+   "summary": "When the sources retrieved for a query disagree, the right response depends on why they disagree: a question with several valid answers, a contested topic, stale information and a false source each call for different behaviour. Cattan et al. (2025) showed that telling a generator the conflict type improves its responses by about 24 points, but that predicting the type is hard even for frontier LLMs. We study whether typed decision models, which return probabilities over fixed options in a single forward pass instead of generating text, can do this classification fast and cheaply. Using the CONFLICTS benchmark and the original paper's prompt verbatim, we evaluate all 11 decision models served by one commercial inference gateway, from 7 providers, against Gemini models on identical inputs. Asked directly, the decision models reach 50.0--67.0% accuracy; 10 of the 11 match or exceed Gemini 2.5 Flash, the paper's model (61.3%), at 4--39x lower billed cost (2 were free) and 2.6--6.0x lower latency. The current Gemini 3.8 Flash (70.0%) is significantly more accurate than 8 of them, but sending each decision model's least confident quarter of queries to it gives a cascade statistically tied with it for 8 of the 11, at 25--37% of its cost. End to end, answers generated with the types of 10 of the 11 follow the expected behaviour as often as with the LLM's types. Decomposing the taxonomy into yes/no questions lowers accuracy for every model, and a repair fitted on one model does not t…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "65cf17018bbe",
+   "score": 6.23,
+   "title_zh": "RAG中知识冲突类型决策模型研究",
+   "summary_zh": "针对检索源冲突时需要判断冲突类型以决定响应方式的问题，论文研究了使用决策模型进行快速分类的可行性。实验表明，决策模型在准确率上可与Gemini 2.5 Flash相当，且成本和延迟显著更低，能生成符合预期的响应。",
+   "tags": [
+    "RAG",
+    "决策模型",
+    "长上下文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-29",
+  "start": "2026-10-29",
+  "end": "2026-10-29",
+  "title": "Gemini 4 Carbon：下一代前沿模型",
+  "generated_at": "2026-10-28T23:13:41Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-10-28",
+   "end": "2026-10-28"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "overseas",
+    "headline": "NVIDIA Nemotron 3.5 Transcribe：可提示和适配的多语言转录",
+    "when": "10月28日",
+    "date": "2026-10-28",
+    "body": "NVIDIA 推出 Nemotron 3.5 Transcribe 模型，支持转录、说话人分离、翻译和格式化，可在 Hugging Face 上使用。",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "via": "Hugging Face 博客",
+    "id": "9bb2f7ad5998",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Gemini 4 Carbon：下一代前沿模型",
+    "when": "10月29日",
+    "date": "2026-10-29",
+    "body": "Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "via": "Google DeepMind",
+    "id": "66698da7b3f7",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "n8n-io/n8n",
+    "when": "10月29日消息",
+    "date": "2026-10-29",
+    "body": "Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。",
+    "url": "https://github.com/n8n-io/n8n",
+    "via": "GitHub Trending",
+    "id": "ba28d566dcf9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "thinkrail：轻量级实时 IDE",
+    "when": "10月29日消息",
+    "date": "2026-10-29",
+    "body": "thinkrail 是一款轻量级实时 IDE，能够根据工作方式自动定制。",
+    "url": "https://github.com/JetBrains/thinkrail",
+    "via": "GitHub Trending",
+    "id": "4bfb505f8dee",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "openbot：本地优先桌面工作区",
+    "when": "10月29日消息",
+    "date": "2026-10-29",
+    "body": "openbot 为 AI 团队成员提供本地优先的桌面工作区，支持 Codex、Claude 和 Grok。",
+    "url": "https://github.com/nightly-labs/openbot",
+    "via": "GitHub Trending",
+    "id": "7532e04a876f",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "shannon：AI 网络安全测试工具",
+    "when": "10月29日消息",
+    "date": "2026-10-29",
+    "body": "shannon 是一款 AI 网络安全测试工具，能分析源代码并执行真实漏洞利用。",
+    "url": "https://github.com/KeygraphHQ/shannon",
+    "via": "GitHub Trending",
+    "id": "13c0d56c4b8f",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "learnharness：Agent 训练工具",
+    "when": "10月29日消息",
+    "date": "2026-10-29",
+    "body": "learnharness 是一个用于学习困难任务的 Agent 训练工具。",
+    "url": "https://github.com/amosblomqvist/learnharness",
+    "via": "GitHub 新项目",
+    "id": "2562756097c8",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "三体：多模态智能体能力驱动递归自进化",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "论文提出三体框架，通过创作者、探索者和进化者三个角色，将任务组织转变为共享需求的能力树。",
+    "url": "https://arxiv.org/abs/2610.36077",
+    "via": "arXiv · 智能体",
+    "id": "f47e61aa0474",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "CoS-VQ：大语言模型协同共享尺度向量量化",
+    "when": "10月27日",
+    "date": "2026-10-27",
+    "body": "论文提出了CoS-VQ方法，在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间。",
+    "url": "https://arxiv.org/abs/2610.37336",
+    "via": "arXiv · 高效推理",
+    "id": "bf16b30ba24b",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "长时序 LLM 智能体多尺度策略优化",
+    "when": "10月29日消息",
+    "date": "2026-10-29",
+    "body": "论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，提升长时序智能体性能。",
+    "url": "https://arxiv.org/abs/2610.35013",
+    "via": "arXiv · 智能体",
+    "id": "90efaf92605b",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Memory Tax：剖析智能体记忆的净价值",
+    "when": "10月29日消息",
+    "date": "2026-10-29",
+    "body": "论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG，并将记忆的净价值分解为记忆收益和记忆税。",
+    "url": "https://arxiv.org/abs/2610.34073",
+    "via": "arXiv · 长上下文与检索",
+    "id": "4c73f5973987",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+    "when": "10月28日",
+    "date": "2026-10-28",
+    "body": "OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "via": "OpenAI",
+    "id": "787ac04373b6",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "66698da7b3f7": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。"
+   },
+   "aba986114bf7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "efe5e4841688": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a5c31611f277": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "2f5821687e6d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "787ac04373b6": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+    "body": "OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。"
+   },
+   "bd6e09539e26": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "2026 年 10 月是氛围编程开发游戏的转折点",
+    "body": "作者认为 2026 年 10 月是氛围编程开发游戏的转折点，Opus 4.5 和 GPT-5.1 的编码智能体已变得可靠。"
+   },
+   "9bb2f7ad5998": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "b0a7d305f40f": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "e85063a384f9": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "8c03f8a134ed": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "ba28d566dcf9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "4bfb505f8dee": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "thinkrail：轻量级实时 IDE",
+    "body": "thinkrail 是一款轻量级实时 IDE，能够根据工作方式自动定制。"
+   },
+   "7532e04a876f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openbot：本地优先桌面工作区",
+    "body": "openbot 为 AI 团队成员提供本地优先的桌面工作区，支持 Codex、Claude 和 Grok。"
+   },
+   "3d2378651db1": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "LangChain 分享构建付费媒体智能体的经验",
+    "body": "LangChain 分享了构建付费媒体智能体的经验，用于分析活动表现、优化广告并提出更改建议。"
+   },
+   "13c0d56c4b8f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "shannon：AI 网络安全测试工具",
+    "body": "shannon 是一款 AI 网络安全测试工具，能分析源代码并执行真实漏洞利用。"
+   },
+   "2562756097c8": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "learnharness：Agent 训练工具",
+    "body": "learnharness 是一个用于学习困难任务的 Agent 训练工具。"
+   },
+   "a6a2a2e0b63b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "BeautifulRust：Agent 技能库",
+    "body": "BeautifulRust 是一个 Agent 技能库，教 AI 编写、审查和移植 Rust 代码。"
+   },
+   "f47e61aa0474": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "三体：多模态智能体能力驱动递归自进化",
+    "body": "论文提出三体框架，通过创作者、探索者和进化者三个角色，将任务组织转变为共享需求的能力树。"
+   },
+   "90efaf92605b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "长时序 LLM 智能体多尺度策略优化",
+    "body": "论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，提升长时序智能体性能。"
+   },
+   "4c73f5973987": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Memory Tax：剖析智能体记忆的净价值",
+    "body": "论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG，并将记忆的净价值分解为记忆收益和记忆税。"
+   },
+   "bf16b30ba24b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "CoS-VQ：大语言模型协同共享尺度向量量化",
+    "body": "论文提出了CoS-VQ方法，在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间。"
+   },
+   "65cf17018bbe": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "RAG中知识冲突类型决策模型研究",
+    "body": "论文研究了使用决策模型进行快速分类的可行性，实验表明决策模型在准确率上可与Gemini 2.5 Flash相当，且成本和延迟显著更低。"
+   }
+  }
+ }
+}

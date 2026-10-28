@@ -1,0 +1,40 @@
+【每日科技快讯】10月29日 周四
+今日 AI 与开源要闻 12 条，3 分钟速读
+
+【海外动态】
+1. NVIDIA Nemotron 3.5 Transcribe：可提示和适配的多语言转录
+→ NVIDIA 推出 Nemotron 3.5 Transcribe 模型，支持转录、说话人分离、翻译和格式化，可在 Hugging Face 上使用。
+2. Gemini 4 Carbon：下一代前沿模型
+→ Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。
+
+【开源项目】
+3. n8n-io/n8n
+→ Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。
+4. thinkrail：轻量级实时 IDE
+→ thinkrail 是一款轻量级实时 IDE，能够根据工作方式自动定制。
+5. openbot：本地优先桌面工作区
+→ openbot 为 AI 团队成员提供本地优先的桌面工作区，支持 Codex、Claude 和 Grok。
+6. shannon：AI 网络安全测试工具
+→ shannon 是一款 AI 网络安全测试工具，能分析源代码并执行真实漏洞利用。
+7. learnharness：Agent 训练工具
+→ learnharness 是一个用于学习困难任务的 Agent 训练工具。
+
+【学术前沿】
+8. 三体：多模态智能体能力驱动递归自进化
+→ 论文提出三体框架，通过创作者、探索者和进化者三个角色，将任务组织转变为共享需求的能力树。
+9. CoS-VQ：大语言模型协同共享尺度向量量化
+→ 论文提出了CoS-VQ方法，在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间。
+10. 长时序 LLM 智能体多尺度策略优化
+→ 论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，提升长时序智能体性能。
+11. Memory Tax：剖析智能体记忆的净价值
+→ 论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG，并将记忆的净价值分解为记忆收益和记忆税。
+
+【产业纵横】
+12. OpenAI 与 ServiceNow 扩展企业工作流合作
+→ OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。
+
+【活动预告】
+· 11月5日 RECOMB 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-29-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
