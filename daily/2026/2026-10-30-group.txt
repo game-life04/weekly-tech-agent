@@ -1,0 +1,45 @@
+【每日科技快讯】10月30日 周五
+今日 AI 与开源要闻 16 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 3 个 PR、提交 32 次
+2. AtomGit-mobile4Harmony 合并 2 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
+
+【海外动态】
+4. DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现
+→ DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。
+5. Mistral Large 4 开源 1T 参数多模态模型
+→ Mistral 开源了 Le Chonk 模型，这是一个 1T 参数的原生多模态混合专家模型，在欧洲数据中心训练。
+6. Gemini 4 Carbon 登顶 Artificial Analysis 指数 v5
+→ Google 的 Gemini 4 Carbon 在 Artificial Analysis 指数 v5 中排名第一，仅次于 Claude Opus 5.5。
+7. Claude Code 频繁发送背景代理的完整记录
+→ Claude Code 每 30 秒向模型发送一次背景代理的完整记录，以填充状态栏，消耗大量 token。
+
+【开源项目】
+8. huggingface/transformers 发布 v5.22.0
+→ huggingface/transformers 发布了 v5.22.0 版本，包含 Mistral Large 4 模型。
+9. vLLM 支持 Mistral Large 4
+→ vLLM 提供对 Mistral Large 4 的 Day-0 支持，包含稀疏 MLA、跨层 KV 共享等功能。
+10. vectorize-io/hindsight
+→ Hindsight: Agent Memory That Learns。
+11. Donchitos/Claude-Code-Game-Studios
+→ 该项目包含 49 个 AI 代理和 72 个工作流技能，模拟真实工作室层级。
+12. thedotmack/claude-mem
+→ 该工具捕获代理在会话中的操作，使用 AI 压缩并注入相关上下文到未来会话。
+
+【学术前沿】
+13. Trial by Trace：评估智能体框架的可靠性与失败归因
+→ 现有基准多关注模型能力，本文提出 TraceTrial-Bench，将框架可靠性分为七个组件。通过轨迹追踪和双层评估框架，在 3,420 次运行中测得框架得分 59.8% 至 72.0%，31.1% 的运行虽未达标但任务成功。
+14. PDRVLA：带物理动力学表示的视觉-语言-动作模型
+→ 视觉-语言-动作模型对物理动态理解有限，本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记。在四个仿真基准上，LIBERO 成功率达 99.3%，LIBERO-Plus 为 89.9%。
+15. 函数空间时间自蒸馏用于策略优化
+→ 强化学习可验证奖励提升语言模型推理，但标量结果监督粗糙。本文提出函数空间策略优化（FSPO），通过稀疏历史分布和特权分歧校正，在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。
+16. RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Docum…
+→ Web-based applications increasingly rely on understanding long multimodal documents, where answering questions often re…
+
+【活动预告】
+· 11月5日 RECOMB 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-30-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

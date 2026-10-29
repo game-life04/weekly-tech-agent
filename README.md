@@ -12,54 +12,59 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.29（周四）
+## 每日快讯 · 10.30（周五）
 
-> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-29-kuaixun.md) · [公众号排版版](daily/2026/2026-10-29-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-29.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-30-kuaixun.md) · [公众号排版版](daily/2026/2026-10-30-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-30.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】10月29日 周四
-今日 AI 与开源要闻 12 条，3 分钟速读
+【每日科技快讯】10月30日 周五
+今日 AI 与开源要闻 16 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 3 个 PR、提交 32 次
+2. AtomGit-mobile4Harmony 合并 2 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【海外动态】
-1. NVIDIA Nemotron 3.5 Transcribe：可提示和适配的多语言转录
-→ NVIDIA 推出 Nemotron 3.5 Transcribe 模型，支持转录、说话人分离、翻译和格式化，可在 Hugging Face 上使用。
-2. Gemini 4 Carbon：下一代前沿模型
-→ Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。
+4. DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现
+→ DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。
+5. Mistral Large 4 开源 1T 参数多模态模型
+→ Mistral 开源了 Le Chonk 模型，这是一个 1T 参数的原生多模态混合专家模型，在欧洲数据中心训练。
+6. Gemini 4 Carbon 登顶 Artificial Analysis 指数 v5
+→ Google 的 Gemini 4 Carbon 在 Artificial Analysis 指数 v5 中排名第一，仅次于 Claude Opus 5.5。
+7. Claude Code 频繁发送背景代理的完整记录
+→ Claude Code 每 30 秒向模型发送一次背景代理的完整记录，以填充状态栏，消耗大量 token。
 
 【开源项目】
-3. n8n-io/n8n
-→ Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。
-4. thinkrail：轻量级实时 IDE
-→ thinkrail 是一款轻量级实时 IDE，能够根据工作方式自动定制。
-5. openbot：本地优先桌面工作区
-→ openbot 为 AI 团队成员提供本地优先的桌面工作区，支持 Codex、Claude 和 Grok。
-6. shannon：AI 网络安全测试工具
-→ shannon 是一款 AI 网络安全测试工具，能分析源代码并执行真实漏洞利用。
-7. learnharness：Agent 训练工具
-→ learnharness 是一个用于学习困难任务的 Agent 训练工具。
+8. huggingface/transformers 发布 v5.22.0
+→ huggingface/transformers 发布了 v5.22.0 版本，包含 Mistral Large 4 模型。
+9. vLLM 支持 Mistral Large 4
+→ vLLM 提供对 Mistral Large 4 的 Day-0 支持，包含稀疏 MLA、跨层 KV 共享等功能。
+10. vectorize-io/hindsight
+→ Hindsight: Agent Memory That Learns。
+11. Donchitos/Claude-Code-Game-Studios
+→ 该项目包含 49 个 AI 代理和 72 个工作流技能，模拟真实工作室层级。
+12. thedotmack/claude-mem
+→ 该工具捕获代理在会话中的操作，使用 AI 压缩并注入相关上下文到未来会话。
 
 【学术前沿】
-8. 三体：多模态智能体能力驱动递归自进化
-→ 论文提出三体框架，通过创作者、探索者和进化者三个角色，将任务组织转变为共享需求的能力树。
-9. CoS-VQ：大语言模型协同共享尺度向量量化
-→ 论文提出了CoS-VQ方法，在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间。
-10. 长时序 LLM 智能体多尺度策略优化
-→ 论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，提升长时序智能体性能。
-11. Memory Tax：剖析智能体记忆的净价值
-→ 论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG，并将记忆的净价值分解为记忆收益和记忆税。
-
-【产业纵横】
-12. OpenAI 与 ServiceNow 扩展企业工作流合作
-→ OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。
+13. Trial by Trace：评估智能体框架的可靠性与失败归因
+→ 现有基准多关注模型能力，本文提出 TraceTrial-Bench，将框架可靠性分为七个组件。通过轨迹追踪和双层评估框架，在 3,420 次运行中测得框架得分 59.8% 至 72.0%，31.1% 的运行虽未达标但任务成功。
+14. PDRVLA：带物理动力学表示的视觉-语言-动作模型
+→ 视觉-语言-动作模型对物理动态理解有限，本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记。在四个仿真基准上，LIBERO 成功率达 99.3%，LIBERO-Plus 为 89.9%。
+15. 函数空间时间自蒸馏用于策略优化
+→ 强化学习可验证奖励提升语言模型推理，但标量结果监督粗糙。本文提出函数空间策略优化（FSPO），通过稀疏历史分布和特权分歧校正，在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。
+16. RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Docum…
+→ Web-based applications increasingly rely on understanding long multimodal documents, where answering questions often re…
 
 【活动预告】
 · 11月5日 RECOMB 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-29-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-30-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -67,43 +72,51 @@
 
 ### 今日快讯
 
+#### 俱乐部动态
+
+**开放原子开源俱乐部合并 3 个 PR、提交 32 次**<br>10月29日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 3 个，提交 32 次，新增代码 8188 行、删除 139 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+
+**AtomGit-mobile4Harmony 合并 2 个 PR**<br>10月29日，Agent SIG的 AtomGit-mobile4Harmony 仓库合并 2 个、提交 31 次、新增代码 7609 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
+
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>10月29日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 579 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+
 #### 海外动态
 
-**NVIDIA Nemotron 3.5 Transcribe：可提示和适配的多语言转录**<br>10月28日，NVIDIA 推出 Nemotron 3.5 Transcribe 模型，支持转录、说话人分离、翻译和格式化，可在 Hugging Face 上使用。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary)）</sub>
+**DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现**<br>10月28日，DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。<br><sub>（来源：[Hacker News](https://surgehq.ai/blog/dayjob-tax)）</sub>
 
-**Gemini 4 Carbon：下一代前沿模型**<br>10月29日，Google DeepMind 发布了最强模型 Gemini 4 Carbon，在网络安全和长时程能力上达到最先进水平。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/)）</sub>
+**Mistral Large 4 开源 1T 参数多模态模型**<br>10月29日，Mistral 开源了 Le Chonk 模型，这是一个 1T 参数的原生多模态混合专家模型，在欧洲数据中心训练。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/mistral-large-4-oss/)）</sub>
+
+**Gemini 4 Carbon 登顶 Artificial Analysis 指数 v5**<br>10月29日，Google 的 Gemini 4 Carbon 在 Artificial Analysis 指数 v5 中排名第一，仅次于 Claude Opus 5.5。<br><sub>（来源：[Hacker News](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)）</sub>
+
+**Claude Code 频繁发送背景代理的完整记录**<br>10月29日，Claude Code 每 30 秒向模型发送一次背景代理的完整记录，以填充状态栏，消耗大量 token。<br><sub>（来源：[Hacker News](https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce)）</sub>
 
 #### 开源项目
 
-**n8n-io/n8n**<br>10月29日消息，Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。<br><sub>（来源：[GitHub Trending](https://github.com/n8n-io/n8n)）</sub>
+**huggingface/transformers 发布 v5.22.0**<br>10月29日，huggingface/transformers 发布了 v5.22.0 版本，包含 Mistral Large 4 模型。<br><sub>（来源：[GitHub 版本发布](https://github.com/huggingface/transformers/releases/tag/v5.22.0)）</sub>
 
-**thinkrail：轻量级实时 IDE**<br>10月29日消息，thinkrail 是一款轻量级实时 IDE，能够根据工作方式自动定制。<br><sub>（来源：[GitHub Trending](https://github.com/JetBrains/thinkrail)）</sub>
+**vLLM 支持 Mistral Large 4**<br>10月29日，vLLM 提供对 Mistral Large 4 的 Day-0 支持，包含稀疏 MLA、跨层 KV 共享等功能。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-29-mistral-large-4)）</sub>
 
-**openbot：本地优先桌面工作区**<br>10月29日消息，openbot 为 AI 团队成员提供本地优先的桌面工作区，支持 Codex、Claude 和 Grok。<br><sub>（来源：[GitHub Trending](https://github.com/nightly-labs/openbot)）</sub>
+**vectorize-io/hindsight**<br>10月30日消息，Hindsight: Agent Memory That Learns。<br><sub>（来源：[GitHub Trending](https://github.com/vectorize-io/hindsight)）</sub>
 
-**shannon：AI 网络安全测试工具**<br>10月29日消息，shannon 是一款 AI 网络安全测试工具，能分析源代码并执行真实漏洞利用。<br><sub>（来源：[GitHub Trending](https://github.com/KeygraphHQ/shannon)）</sub>
+**Donchitos/Claude-Code-Game-Studios**<br>10月30日消息，该项目包含 49 个 AI 代理和 72 个工作流技能，模拟真实工作室层级。<br><sub>（来源：[GitHub Trending](https://github.com/Donchitos/Claude-Code-Game-Studios)）</sub>
 
-**learnharness：Agent 训练工具**<br>10月29日消息，learnharness 是一个用于学习困难任务的 Agent 训练工具。<br><sub>（来源：[GitHub 新项目](https://github.com/amosblomqvist/learnharness)）</sub>
+**thedotmack/claude-mem**<br>10月30日消息，该工具捕获代理在会话中的操作，使用 AI 压缩并注入相关上下文到未来会话。<br><sub>（来源：[GitHub Trending](https://github.com/thedotmack/claude-mem)）</sub>
 
 #### 学术前沿
 
-**三体：多模态智能体能力驱动递归自进化**<br>10月27日，论文提出三体框架，通过创作者、探索者和进化者三个角色，将任务组织转变为共享需求的能力树。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.36077)）</sub>
+**Trial by Trace：评估智能体框架的可靠性与失败归因**<br>10月30日消息，现有基准多关注模型能力，本文提出 TraceTrial-Bench，将框架可靠性分为七个组件。通过轨迹追踪和双层评估框架，在 3,420 次运行中测得框架得分 59.8% 至 72.0%，31.1% 的运行虽未达标但任务成功。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.32285)）</sub>
 
-**CoS-VQ：大语言模型协同共享尺度向量量化**<br>10月27日，论文提出了CoS-VQ方法，在保持低维码字的同时联合优化硬索引和共享尺度，通过构建切线可分离上界来识别有限个代表区间。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2610.37336)）</sub>
+**PDRVLA：带物理动力学表示的视觉-语言-动作模型**<br>10月30日消息，视觉-语言-动作模型对物理动态理解有限，本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记。在四个仿真基准上，LIBERO 成功率达 99.3%，LIBERO-Plus 为 89.9%。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.37381)）</sub>
 
-**长时序 LLM 智能体多尺度策略优化**<br>10月29日消息，论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，提升长时序智能体性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.35013)）</sub>
+**函数空间时间自蒸馏用于策略优化**<br>10月30日消息，强化学习可验证奖励提升语言模型推理，但标量结果监督粗糙。本文提出函数空间策略优化（FSPO），通过稀疏历史分布和特权分歧校正，在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.19687)）</sub>
 
-**Memory Tax：剖析智能体记忆的净价值**<br>10月29日消息，论文通过大规模评估发现许多专用记忆系统在多项基准上表现不如简单的RAG，并将记忆的净价值分解为记忆收益和记忆税。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.34073)）</sub>
-
-#### 产业纵横
-
-**OpenAI 与 ServiceNow 扩展企业工作流合作**<br>10月28日，OpenAI 与 ServiceNow 扩展合作，将 OpenAI 模型和智能体引入 ServiceNow 工作流，并将工作流引入 ChatGPT。<br><sub>（来源：[OpenAI](https://openai.com/index/openai-servicenow-partnership-expansion)）</sub>
+**RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Docum…**<br>10月30日消息，Web-based applications increasingly rely on understanding long multimodal documents, where answering questions often re…<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.36444)）</sub>
 
 ### 活动预告
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-29 07:13（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月29日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-30 07:17（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 2 期 · 10.19–10.25
 
