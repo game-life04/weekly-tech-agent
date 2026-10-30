@@ -1071,13 +1071,18 @@
     "upvotes": 0.0
    },
    "extra": {
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "33b6bbeceb1e",
    "score": 5.45,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "RouteDRAG：学习路由与控制多模态文档RAG的智能体执行",
+   "summary_zh": "针对多模态文档问答中智能体执行可能带来的额外计算和错误问题，提出RouteDRAG框架。该框架通过统一文档索引、自适应路径路由和动态智能体执行，实现了对查询的智能体调用和后续执行控制。实验表明，RouteDRAG在两个基准测试中平均准确率提升了3.47个百分点，且仅将79.3%的查询分配给智能体。",
+   "tags": [
+    "智能体",
+    "多模态",
+    "检索增强生成"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1095,13 +1100,18 @@
     "upvotes": 0.0
    },
    "extra": {
-    "llm_score": 4.0
+    "llm_score": 4.0,
+    "llm_done": true
    },
    "id": "db011407dbeb",
    "score": 4.24,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "CrowdCC：联合评估人群计数中的抗腐性与部署量化",
+   "summary_zh": "为解决边缘设备上人群计数模型面临的输入降质和量化部署问题，提出CrowdCC基准测试。该测试通过23种部署驱动的降质类型和FP32、FP16、INT8三种精度，联合评估抗腐性和部署量化效果。研究发现，INT8对抗腐性的影响显著大于FP16，且精度变化会改变错误排名和抗腐性-成本前沿。",
+   "tags": [
+    "量化",
+    "抗腐性",
+    "边缘计算"
+   ],
    "also_in": [],
    "merged_ids": []
   }
@@ -1112,13 +1122,13 @@
   "start": "2026-10-30",
   "end": "2026-10-30",
   "title": "Mistral Large 4 开源 1T 参数多模态模型",
-  "generated_at": "2026-10-29T23:17:32Z",
+  "generated_at": "2026-10-30T01:22:52Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 14,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-29",
    "end": "2026-10-29"
@@ -1173,17 +1183,6 @@
    },
    {
     "cat": "overseas",
-    "headline": "DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现",
-    "when": "10月28日",
-    "date": "2026-10-28",
-    "body": "DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。",
-    "url": "https://surgehq.ai/blog/dayjob-tax",
-    "via": "Hacker News",
-    "id": "4ff53c83a542",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
     "headline": "Mistral Large 4 开源 1T 参数多模态模型",
     "when": "10月29日",
     "date": "2026-10-29",
@@ -1202,17 +1201,6 @@
     "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
     "via": "Hacker News",
     "id": "0acd12b32c47",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Claude Code 频繁发送背景代理的完整记录",
-    "when": "10月29日",
-    "date": "2026-10-29",
-    "body": "Claude Code 每 30 秒向模型发送一次背景代理的完整记录，以填充状态栏，消耗大量 token。",
-    "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-    "via": "Hacker News",
-    "id": "7ed6398608ce",
     "ai": true
    },
    {
@@ -1239,18 +1227,18 @@
    },
    {
     "cat": "opensource",
-    "headline": "vectorize-io/hindsight",
+    "headline": "hindsight：智能体记忆学习工具",
     "when": "10月30日消息",
     "date": "2026-10-30",
-    "body": "Hindsight: Agent Memory That Learns。",
+    "body": "Hindsight 是一个智能体记忆工具，能够学习并改进代理的决策过程。",
     "url": "https://github.com/vectorize-io/hindsight",
     "via": "GitHub Trending",
     "id": "6f58dec877a5",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "Donchitos/Claude-Code-Game-Studios",
+    "headline": "Claude-Code-Game-Studios：模拟游戏开发工作室",
     "when": "10月30日消息",
     "date": "2026-10-30",
     "body": "该项目包含 49 个 AI 代理和 72 个工作流技能，模拟真实工作室层级。",
@@ -1261,7 +1249,7 @@
    },
    {
     "cat": "opensource",
-    "headline": "thedotmack/claude-mem",
+    "headline": "claude-mem：跨会话持久上下文工具",
     "when": "10月30日消息",
     "date": "2026-10-30",
     "body": "该工具捕获代理在会话中的操作，使用 AI 压缩并注入相关上下文到未来会话。",
@@ -1275,7 +1263,7 @@
     "headline": "Trial by Trace：评估智能体框架的可靠性与失败归因",
     "when": "10月30日消息",
     "date": "2026-10-30",
-    "body": "现有基准多关注模型能力，本文提出 TraceTrial-Bench，将框架可靠性分为七个组件。通过轨迹追踪和双层评估框架，在 3,420 次运行中测得框架得分 59.8% 至 72.0%，31.1% 的运行虽未达标但任务成功。",
+    "body": "本文提出 TraceTrial-Bench，将框架可靠性分为七个组件，在 3,420 次运行中测得框架得分 59.8% 至 72.0%。",
     "url": "https://arxiv.org/abs/2610.32285",
     "via": "arXiv · 智能体",
     "id": "9cc807fd65ed",
@@ -1286,7 +1274,7 @@
     "headline": "PDRVLA：带物理动力学表示的视觉-语言-动作模型",
     "when": "10月30日消息",
     "date": "2026-10-30",
-    "body": "视觉-语言-动作模型对物理动态理解有限，本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记。在四个仿真基准上，LIBERO 成功率达 99.3%，LIBERO-Plus 为 89.9%。",
+    "body": "本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记，在 LIBERO 上成功率达 99.3%。",
     "url": "https://arxiv.org/abs/2610.37381",
     "via": "Hugging Face 热门论文",
     "id": "95dc1f373b7b",
@@ -1297,7 +1285,7 @@
     "headline": "函数空间时间自蒸馏用于策略优化",
     "when": "10月30日消息",
     "date": "2026-10-30",
-    "body": "强化学习可验证奖励提升语言模型推理，但标量结果监督粗糙。本文提出函数空间策略优化（FSPO），通过稀疏历史分布和特权分歧校正，在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。",
+    "body": "本文提出函数空间策略优化（FSPO），在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。",
     "url": "https://arxiv.org/abs/2610.19687",
     "via": "Hugging Face 热门论文",
     "id": "4043f64392c2",
@@ -1305,14 +1293,25 @@
    },
    {
     "cat": "papers",
-    "headline": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Docum…",
+    "headline": "RouteDRAG框架优化多模态文档RAG",
     "when": "10月30日消息",
     "date": "2026-10-30",
-    "body": "Web-based applications increasingly rely on understanding long multimodal documents, where answering questions often re…",
+    "body": "RouteDRAG框架通过统一文档索引和动态智能体执行，实现了对多模态文档问答的智能路由与控制，提升了准确率。",
     "url": "https://arxiv.org/abs/2610.36444",
     "via": "arXiv · 长上下文与检索",
     "id": "33b6bbeceb1e",
-    "ai": false
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现",
+    "when": "10月28日",
+    "date": "2026-10-28",
+    "body": "DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。",
+    "url": "https://surgehq.ai/blog/dayjob-tax",
+    "via": "Hacker News",
+    "id": "4ff53c83a542",
+    "ai": true
    },
    {
     "cat": "events",
@@ -1330,6 +1329,24 @@
     "cat": "opensource",
     "headline": "Mistral Large 4 开源 1T 参数多模态模型",
     "body": "Mistral 开源了 Le Chonk 模型，这是一个 1T 参数的原生多模态混合专家模型，在欧洲数据中心训练。"
+   },
+   "0acd12b32c47": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Google 的 Gemini 4 Carbon 在 Artificial Analysis 指数 v5 中排名第一，仅次于 Claude Opus 5.5。"
+   },
+   "7ed6398608ce": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude Code 频繁发送背景代理的完整记录",
+    "body": "Claude Code 每 30 秒向模型发送一次背景代理的完整记录，以填充状态栏，消耗大量 token。"
+   },
+   "566f7a4b6e6b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "肯塔基男子成为首个获得 AI 宗教豁免的人类",
+    "body": "肯塔基男子成为首个获得 AI 宗教豁免的人类。"
    },
    "65fd81c1d3eb": {
     "v": "4f7b2f10",
@@ -1349,6 +1366,12 @@
     "headline": "Google DeepMind 发布 Genie 4",
     "body": ""
    },
+   "4ff53c83a542": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现",
+    "body": "DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。"
+   },
    "f5f8330a31cb": {
     "v": "4f7b2f10",
     "cat": "skip",
@@ -1367,17 +1390,77 @@
     "headline": "huggingface/transformers 发布 v5.22.0",
     "body": "huggingface/transformers 发布了 v5.22.0 版本，包含 Mistral Large 4 模型。"
    },
+   "6f58dec877a5": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "hindsight：智能体记忆学习工具",
+    "body": "Hindsight 是一个智能体记忆工具，能够学习并改进代理的决策过程。"
+   },
    "9d9e5a2a28bf": {
     "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "vLLM 支持 Mistral Large 4",
     "body": "vLLM 提供对 Mistral Large 4 的 Day-0 支持，包含稀疏 MLA、跨层 KV 共享等功能。"
    },
+   "6609ae6f1b82": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Claude-Code-Game-Studios：模拟游戏开发工作室",
+    "body": "该项目包含 49 个 AI 代理和 72 个工作流技能，模拟真实工作室层级。"
+   },
+   "5005c3abb8cb": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "claude-mem：跨会话持久上下文工具",
+    "body": "该工具捕获代理在会话中的操作，使用 AI 压缩并注入相关上下文到未来会话。"
+   },
    "c322c22ab624": {
     "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "",
     "body": "LangChain 发布了 Managed Deep Agents v0.10 版本，增加了浏览器使用功能和异步子代理。"
+   },
+   "8aa37b2af19d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ai-app-playbook：2026 年构建应用指南",
+    "body": "该项目提供在 2026 年构建有用盈利应用的指南，可克隆并指向 AGENTS.md。"
+   },
+   "2a2ed58c0d05": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenMausBot：开源 Grok Bot 替代品",
+    "body": "OpenMausBot 是一个开源 Grok Bot 替代品，包含虚拟机供机器人使用。"
+   },
+   "9cc807fd65ed": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Trial by Trace：评估智能体框架的可靠性与失败归因",
+    "body": "本文提出 TraceTrial-Bench，将框架可靠性分为七个组件，在 3,420 次运行中测得框架得分 59.8% 至 72.0%。"
+   },
+   "95dc1f373b7b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "PDRVLA：带物理动力学表示的视觉-语言-动作模型",
+    "body": "本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记，在 LIBERO 上成功率达 99.3%。"
+   },
+   "4043f64392c2": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "函数空间时间自蒸馏用于策略优化",
+    "body": "本文提出函数空间策略优化（FSPO），在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。"
+   },
+   "33b6bbeceb1e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "RouteDRAG框架优化多模态文档RAG",
+    "body": "RouteDRAG框架通过统一文档索引和动态智能体执行，实现了对多模态文档问答的智能路由与控制，提升了准确率。"
+   },
+   "db011407dbeb": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "CrowdCC基准测试评估边缘设备人群计数",
+    "body": "CrowdCC基准测试联合评估了人群计数模型在边缘设备上的抗腐性与部署量化效果，发现INT8精度对抗腐性影响显著。"
    }
   }
  }
