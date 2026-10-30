@@ -12,60 +12,64 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 10.30（周五）
+## 每日快讯 · 10.31（周六）
 
-> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-10-30-kuaixun.md) · [公众号排版版](daily/2026/2026-10-30-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-30.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-10-31-kuaixun.md) · [公众号排版版](daily/2026/2026-10-31-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-10-31.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】10月30日 周五
-今日 AI 与开源要闻 15 条，3 分钟速读
+【每日科技快讯】10月31日 周六
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 3 个 PR、提交 32 次
-2. AtomGit-mobile4Harmony 合并 2 个 PR
-3. AtomGit-Mobile4Android 合并 1 个 PR
+1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
+2. AtomGit-mobile4Harmony 新增 1 个 PR
+
+【国内动态】
+3. 李飞飞挖的三个「坑」：从 ImageNet 到空间智能，这一次她会怎么填？
+→ 82 亿美元，已经为整个世界模型赛道提供了价值锚点。 作者丨 幸丽娟 编辑丨岑 峰 82亿美元，全股票收购李飞飞创立的 World Labs。 这是 AMD 史上第二大收购，仅次于 2022 年以约 500 亿美元拿下赛灵思。 赛灵思是3…
+4. 全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州
+→ 产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨 幸丽娟 编辑丨 岑 峰 训练一个可用的具身智能模型， 需 要千 万小时 的多模态交互数据；而 现实仅有百万小时 ，剔除低质部分后，真正可用的更少。 缺数据，是具身智能行业的共…
 
 【海外动态】
-4. Mistral Large 4 开源 1T 参数多模态模型
-→ Mistral 开源了 Le Chonk 模型，这是一个 1T 参数的原生多模态混合专家模型，在欧洲数据中心训练。
-5. Gemini 4 Carbon 登顶 Artificial Analysis 指数 v5
-→ Google 的 Gemini 4 Carbon 在 Artificial Analysis 指数 v5 中排名第一，仅次于 Claude Opus 5.5。
+5. From synthetic enterprise data evaluations to real Microsoft Copilot AI confide…
+→ Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizat…
+6. Making it easier for websites to express AI training preferences
+→ OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to par…
+7. Community safety report and new protections for teens
+→ OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commi…
+8. A Claude model autonomously chose a gene therapy and operated on a mouse brain…
+→ An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordi…
 
 【开源项目】
-6. huggingface/transformers 发布 v5.22.0
-→ huggingface/transformers 发布了 v5.22.0 版本，包含 Mistral Large 4 模型。
-7. vLLM 支持 Mistral Large 4
-→ vLLM 提供对 Mistral Large 4 的 Day-0 支持，包含稀疏 MLA、跨层 KV 共享等功能。
-8. hindsight：智能体记忆学习工具
-→ Hindsight 是一个智能体记忆工具，能够学习并改进代理的决策过程。
-9. Claude-Code-Game-Studios：模拟游戏开发工作室
-→ 该项目包含 49 个 AI 代理和 72 个工作流技能，模拟真实工作室层级。
-10. claude-mem：跨会话持久上下文工具
-→ 该工具捕获代理在会话中的操作，使用 AI 压缩并注入相关上下文到未来会话。
+9. CopilotKit/OpenBot
+→ Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided b…
+10. ethanplusai/harvey
+→ Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handle…
+11. wangzan101/Mika
+→ Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things do…
+12. mattpocock/skills
+→ Skills for Real Engineers. Straight from my .agents directory.
+13. lightpanda-io/browser
+→ Lightpanda: the headless browser designed for AI and automation。
 
 【学术前沿】
-11. Trial by Trace：评估智能体框架的可靠性与失败归因
-→ 本文提出 TraceTrial-Bench，将框架可靠性分为七个组件，在 3,420 次运行中测得框架得分 59.8% 至 72.0%。
-12. PDRVLA：带物理动力学表示的视觉-语言-动作模型
-→ 本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记，在 LIBERO 上成功率达 99.3%。
-13. 函数空间时间自蒸馏用于策略优化
-→ 本文提出函数空间策略优化（FSPO），在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。
-14. RouteDRAG框架优化多模态文档RAG
-→ RouteDRAG框架通过统一文档索引和动态智能体执行，实现了对多模态文档问答的智能路由与控制，提升了准确率。
-
-【产业纵横】
-15. DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现
-→ DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。
+14. Intrinsic Distribution Matching
+→ One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limit…
+15. Streaming Speech Recognition on a Microcontroller: a 65.7M-Parameter Transducer…
+→ We run Kroko, a 65.7M-parameter streaming Zipformer2 transducer for English, on the ESP32-P4, a microcontroller with tw…
+16. A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement
+→ Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when thei…
+17. Your Benchmark Is an Empirical Measure Over Difficulty
+→ A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In…
 
 【活动预告】
 · 11月5日 RECOMB 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-30-kuaixun.md
-标题和要点由 AI 整理，可能有误，请以原文为准。
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-31-kuaixun.md
 ```
 
 </details>
@@ -74,49 +78,53 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 3 个 PR、提交 32 次**<br>10月29日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 3 个，提交 32 次，新增代码 8188 行、删除 139 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 0 个 PR、提交 0 次**<br>10月30日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行，1 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**AtomGit-mobile4Harmony 合并 2 个 PR**<br>10月29日，Agent SIG的 AtomGit-mobile4Harmony 仓库合并 2 个、提交 31 次、新增代码 7609 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
+**AtomGit-mobile4Harmony 新增 1 个 PR**<br>10月30日，Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 1 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>10月29日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 579 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+#### 国内动态
+
+**李飞飞挖的三个「坑」：从 ImageNet 到空间智能，这一次她会怎么填？**<br>10月30日，82 亿美元，已经为整个世界模型赛道提供了价值锚点。 作者丨 幸丽娟 编辑丨岑 峰 82亿美元，全股票收购李飞飞创立的 World Labs。 这是 AMD 史上第二大收购，仅次于 2022 年以约 500 亿美元拿下赛灵思。 赛灵思是3…<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/academic/oi5NEt93WcuWwFr8.html)）</sub>
+
+**全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州**<br>10月30日，产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨 幸丽娟 编辑丨 岑 峰 训练一个可用的具身智能模型， 需 要千 万小时 的多模态交互数据；而 现实仅有百万小时 ，剔除低质部分后，真正可用的更少。 缺数据，是具身智能行业的共…<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html)）</sub>
 
 #### 海外动态
 
-**Mistral Large 4 开源 1T 参数多模态模型**<br>10月29日，Mistral 开源了 Le Chonk 模型，这是一个 1T 参数的原生多模态混合专家模型，在欧洲数据中心训练。<br><sub>（来源：[Mistral AI](https://mistral.ai/news/mistral-large-4-oss/)）</sub>
+**From synthetic enterprise data evaluations to real Microsoft Copilot AI confide…**<br>10月30日，Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizat…<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/)）</sub>
 
-**Gemini 4 Carbon 登顶 Artificial Analysis 指数 v5**<br>10月29日，Google 的 Gemini 4 Carbon 在 Artificial Analysis 指数 v5 中排名第一，仅次于 Claude Opus 5.5。<br><sub>（来源：[Hacker News](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)）</sub>
+**Making it easier for websites to express AI training preferences**<br>10月30日，OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to par…<br><sub>（来源：[OpenAI](https://openai.com/index/helping-websites-express-ai-training-preferences)）</sub>
+
+**Community safety report and new protections for teens**<br>10月30日，OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commi…<br><sub>（来源：[OpenAI](https://openai.com/index/community-safety-report-and-new-protections-for-teens)）</sub>
+
+**A Claude model autonomously chose a gene therapy and operated on a mouse brain…**<br>10月31日，An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordi…<br><sub>（来源：[The Decoder](https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/)）</sub>
 
 #### 开源项目
 
-**huggingface/transformers 发布 v5.22.0**<br>10月29日，huggingface/transformers 发布了 v5.22.0 版本，包含 Mistral Large 4 模型。<br><sub>（来源：[GitHub 版本发布](https://github.com/huggingface/transformers/releases/tag/v5.22.0)）</sub>
+**CopilotKit/OpenBot**<br>10月31日消息，Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided b…<br><sub>（来源：[GitHub Trending](https://github.com/CopilotKit/OpenBot)）</sub>
 
-**vLLM 支持 Mistral Large 4**<br>10月29日，vLLM 提供对 Mistral Large 4 的 Day-0 支持，包含稀疏 MLA、跨层 KV 共享等功能。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-10-29-mistral-large-4)）</sub>
+**ethanplusai/harvey**<br>10月31日消息，Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handle…<br><sub>（来源：[GitHub Trending](https://github.com/ethanplusai/harvey)）</sub>
 
-**hindsight：智能体记忆学习工具**<br>10月30日消息，Hindsight 是一个智能体记忆工具，能够学习并改进代理的决策过程。<br><sub>（来源：[GitHub Trending](https://github.com/vectorize-io/hindsight)）</sub>
+**wangzan101/Mika**<br>10月31日消息，Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things do…<br><sub>（来源：[GitHub 新项目](https://github.com/wangzan101/Mika)）</sub>
 
-**Claude-Code-Game-Studios：模拟游戏开发工作室**<br>10月30日消息，该项目包含 49 个 AI 代理和 72 个工作流技能，模拟真实工作室层级。<br><sub>（来源：[GitHub Trending](https://github.com/Donchitos/Claude-Code-Game-Studios)）</sub>
+**mattpocock/skills**<br>10月31日消息，Skills for Real Engineers. Straight from my .agents directory.<br><sub>（来源：[GitHub Trending](https://github.com/mattpocock/skills)）</sub>
 
-**claude-mem：跨会话持久上下文工具**<br>10月30日消息，该工具捕获代理在会话中的操作，使用 AI 压缩并注入相关上下文到未来会话。<br><sub>（来源：[GitHub Trending](https://github.com/thedotmack/claude-mem)）</sub>
+**lightpanda-io/browser**<br>10月31日消息，Lightpanda: the headless browser designed for AI and automation。<br><sub>（来源：[GitHub Trending](https://github.com/lightpanda-io/browser)）</sub>
 
 #### 学术前沿
 
-**Trial by Trace：评估智能体框架的可靠性与失败归因**<br>10月30日消息，本文提出 TraceTrial-Bench，将框架可靠性分为七个组件，在 3,420 次运行中测得框架得分 59.8% 至 72.0%。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.32285)）</sub>
+**Intrinsic Distribution Matching**<br>10月29日，One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limit…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.39633)）</sub>
 
-**PDRVLA：带物理动力学表示的视觉-语言-动作模型**<br>10月30日消息，本文提出 PDRVLA，通过轻量级物理动力学模块从视觉-语言特征中提取物理标记，在 LIBERO 上成功率达 99.3%。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.37381)）</sub>
+**Streaming Speech Recognition on a Microcontroller: a 65.7M-Parameter Transducer…**<br>10月29日，We run Kroko, a 65.7M-parameter streaming Zipformer2 transducer for English, on the ESP32-P4, a microcontroller with tw…<br><sub>（来源：[arXiv · 语音](https://arxiv.org/abs/2610.38739)）</sub>
 
-**函数空间时间自蒸馏用于策略优化**<br>10月30日消息，本文提出函数空间策略优化（FSPO），在 5 小时训练预算下平均准确率提升约 4%，内存从 70 GB 降至 56 GB。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.19687)）</sub>
+**A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement**<br>10月31日消息，Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when thei…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.38568)）</sub>
 
-**RouteDRAG框架优化多模态文档RAG**<br>10月30日消息，RouteDRAG框架通过统一文档索引和动态智能体执行，实现了对多模态文档问答的智能路由与控制，提升了准确率。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.36444)）</sub>
-
-#### 产业纵横
-
-**DAYJOB: Tax 评测 AI 代理在 50 个税务任务中的表现**<br>10月28日，DAYJOB: Tax 评测 AI 代理在 50 个专业税务环境中的表现，测试其处理复杂记录和专业判断的能力。<br><sub>（来源：[Hacker News](https://surgehq.ai/blog/dayjob-tax)）</sub>
+**Your Benchmark Is an Empirical Measure Over Difficulty**<br>10月31日消息，A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.29927)）</sub>
 
 ### 活动预告
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月29日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-30 09:22（北京时间）自动生成。</sub>
+<sub>俱乐部动态的统计日期为10月30日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-10-31 06:58（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 2 期 · 10.19–10.25
 

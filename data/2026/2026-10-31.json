@@ -1,0 +1,1260 @@
+{
+ "date": "2026-10-31",
+ "generated_at": "2026-10-30T22:58:14Z",
+ "llm": null,
+ "candidates": 481,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 62,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 7.5
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 46,
+   "error": "",
+   "seconds": 9.5
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 333,
+   "error": "",
+   "seconds": 22.3
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 21.1
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 30,
+   "error": "",
+   "seconds": 29.3
+  }
+ ],
+ "items": [
+  {
+   "title": "Backdoors in official Claude Code extensions",
+   "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-30T11:05:53Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 651.0,
+    "comments": 17.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50302334",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Anthropic Visual Studio Claude Code extension on Cursor has malware in it, which creates a remote access Trojan to desktops. https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+   },
+   "id": "68db500dd20d",
+   "score": 8.79,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-30T07:09:12Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 696.0,
+    "comments": 437.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50300683",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Phorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up … Organisations should immediately review their environments for use of Claude Code for VSCode 2.1.313 and engage incident response where use of the extension is discovered. Phorion has discovered a compromise of the official Claude Code for VS Code extension on the Cursor Marketplace, where the backdoored extension bundle contains a persistent Secure Shell (SSH) backdoor. Cursor has removed the associated release from its marketplace, additionally pulling NPM and VSCode versions for 2.1.313 from their relevant registries. While the implant includes setup and persistence logic for macOS, Linu…"
+   },
+   "id": "d4f691c037f4",
+   "score": 8.76,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+   "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-30T17:24:45Z",
+   "summary": "",
+   "heat": 0.886,
+   "weight": 0.6,
+   "metrics": {
+    "points": 246.0,
+    "comments": 205.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50307183",
+    "excerpt_tried": true,
+    "evidence": "The move came after 404 Media published an investigation into how Proton CEO Andy Yen was aggressively pushing AI across Proton despite security concerns and the culture of fear he has created. On Friday, Andy Yen, the CEO of Proton, cancelled a series of nearly company-wide ‘re-interviews’ that would have forced employees to explain how they are using AI, with the clear intention that they may be fired if not using it enough in the eyes of Proton leadership, according to six current Proton employees and audio of an around two hour all-hands meeting obtained by 404 Media. The move came after 404 Media published an investigation on Thursday, which showed how Yen was aggressively pushing AI across Proton, in some cases despite security concerns from employees. In one exchange, an employee i…"
+   },
+   "id": "a8732270ecb5",
+   "score": 8.08,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LLM Voice",
+   "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-29T14:57:55Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 587.0,
+    "comments": 320.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50290177",
+    "excerpt_tried": true,
+    "evidence": "The uncanny valley of LLMs' prose Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of revulsion There are tools out there that claim to be able to tell the difference between LLM-written prose and the old-fashioned biological product. I'm wary of them, partly due skeptism about their accuracy, but also because it rather misses the point. The reaction to LLM-Voice is a human one, that sense that we are in an uncanny valley of prose. By the time I'd reach for a tool to tell me what I'm reading, it's already too late, even if it confidently tells me ther…"
+   },
+   "id": "32aa5b7adc0a",
+   "score": 8.06,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+   "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-10-30T19:42:59Z",
+   "summary": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a calibration error hit mid-surgery, the agent refused to continue and couldn't be talked out of it. The article A Claude model autonomously chose a gene therapy and operated on a mouse brain with no huma…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0
+   },
+   "id": "887f2e8ee4e7",
+   "score": 7.76,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+   "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+   "source": "rss",
+   "section": "news",
+   "via": "Microsoft Research",
+   "published": "2026-10-30T13:05:28Z",
+   "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence appeared first on Microsoft Research .",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "bb2f93cf2882",
+   "score": 7.73,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Making it easier for websites to express AI training preferences",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-30T09:30:00Z",
+   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0
+   },
+   "id": "e4822c713d2b",
+   "score": 7.14,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Community safety report and new protections for teens",
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-30T09:00:00Z",
+   "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0
+   },
+   "id": "be87813a963d",
+   "score": 7.13,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "李飞飞挖的三个「坑」：从 ImageNet 到空间智能，这一次她会怎么填？",
+   "url": "https://www.leiphone.com/category/academic/oi5NEt93WcuWwFr8.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-10-30T11:12:00Z",
+   "summary": "82 亿美元，已经为整个世界模型赛道提供了价值锚点。 作者丨 幸丽娟 编辑丨岑 峰 82亿美元，全股票收购李飞飞创立的 World Labs。 这是 AMD 史上第二大收购，仅次于 2022 年以约 500 亿美元拿下赛灵思。 赛灵思是30多年的老牌芯片公司，而 World Labs，仅仅成立两年。 这一消息发出后，圈内人士的第一反应很一致：苏姿丰在对标英伟达的 Cosmos 和机器人平台，买人、买模型洞察力、买一张通往物理AI时代的入场券。 但苏姿丰不是这笔交易里唯一在下注的人。 李飞飞也在下注。而且她押上的，是自己的下一个二十年。 过去二十年，她反复在做同一件事：在每一个技术拐点，先一步定义“什么是值得做的下一件事”。 但前两次，她只负责出题，把答题的活儿交给别人。而这一次，她把自己按在了答题席上。 01 三次“挖坑”，有何不同？ 被誉为“AI 教母”的李飞飞，圈内人对她印象最深的，或许是她最擅长“挖坑”（出题）。过去二十年，她挖的三个最关键的坑：ImageNet、AI 民主化、空间智能。 单独看每一个，都是对 AI 行业走向的一次精准判断。但摆在一起看，她扮演的角色截然不同。…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "b1268bf0c89a",
+   "score": 7.07,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州",
+   "url": "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-10-30T11:08:00Z",
+   "summary": "产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨 幸丽娟 编辑丨 岑 峰 训练一个可用的具身智能模型， 需 要千 万小时 的多模态交互数据；而 现实仅有百万小时 ，剔除低质部分后，真正可用的更少。 缺数据，是具身智能行业的共识。 但只盯着“数据”这两个字，会错过更关键的问题： 一台机器人在固定货架前抓取，成功率可以很高。货架挪个方向，目标前多放一排饮料，换一侧伸手，成功率就往下掉。练过的，它能一遍遍做对；没练过的，它连手该从哪边伸都不知道。 行业缺的不只是数据量，还有“数据里的变化”。 过去两年，补缺口的主流办法是建场地、加采集人手。 据中国信息通信研究院，截至今年6月底，全国共建成启用超过70家训练场，另有40 余家在建或规划。 然而，大量训练场集中在叠衣服、收拾桌面、分拣搬运这类易展示任务上，复杂长程任务挖掘严重不足。数据小时数在涨，模型见过的空间布局没涨。 问题出在扩容的对象上。加场地，加采集人手，扩的是同一批场景的采集次数——货架还是那个货架，只是多采了几遍。 多样性要涨，靠的是条件变多 ： 布局、遮挡、物体组合、接近路径，每多一种都是一次重新排列。 而一个训练…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "2dbf00f005fa",
+   "score": 7.07,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "heat": 0.82,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 707.0,
+    "stars": 8745.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0
+   },
+   "id": "ab910b95a8e2",
+   "score": 7.56,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ethanplusai/harvey",
+   "url": "https://github.com/ethanplusai/harvey",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex subscriptions.",
+   "heat": 0.689,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 248.0,
+    "stars": 3466.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0
+   },
+   "id": "e751db659474",
+   "score": 7.3,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+   "heat": 0.966,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1171.0
+   },
+   "extra": {
+    "language": "Kotlin",
+    "age_days": 1,
+    "llm_score": 7.0
+   },
+   "id": "6685fd5bb45a",
+   "score": 7.13,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+   "heat": 0.848,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 889.0,
+    "stars": 307427.0
+   },
+   "extra": {
+    "language": "Shell",
+    "llm_score": 7.0
+   },
+   "id": "611cc6c63716",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "lightpanda-io/browser",
+   "url": "https://github.com/lightpanda-io/browser",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Lightpanda: the headless browser designed for AI and automation",
+   "heat": 0.81,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 652.0,
+    "stars": 38308.0
+   },
+   "extra": {
+    "language": "Zig",
+    "llm_score": 7.0
+   },
+   "id": "532374c45383",
+   "score": 6.94,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "heat": 0.845,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2416.0
+   },
+   "extra": {
+    "language": "Dart",
+    "age_days": 5,
+    "llm_score": 7.0
+   },
+   "id": "4920fcf2bdbd",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "baidu/Unlimited-OCR-2",
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图文理解模型，许可证 mit",
+   "heat": 0.751,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 450.0,
+    "downloads": 24276.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/baidu/Unlimited-OCR-2"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "42390392088b",
+   "score": 6.7,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/codex rust-v0.166.0",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-29T19:47:53Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## New Features - Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. (#57221, #57222, #57223, #57224) - Rendered Markdown consistently in async questions, choices, answers, and transcript replies. (#57259, #57292) - Added GPT-6.1 Terra to the bundled, Vertex AI, and Amazon Bedrock model catalogs. (#57293) - Added `codex queue --resume` to resume unloaded threads after queueing a message. (#57232) - Added clearer safety-block explanations and selectable safer follow-up prompts in the TUI. (#57363, #57365) - Added `codex doctor --network-only` for focused configuration, connectivity, and WebSocket diagnostics. (#57606) ## Bug Fixes - Preserved acknowledged approval and permission settings when resuming or forking threads. (#57227) - Preserved local image attachments when restoring killed composer text. (#57502) - Fixed standalone release cleanup on macOS when installations are in use or paths contain non-ASCII characters. (#57503) - Restored spawned descendant threads when unarchiving their parent. (#57635) - Fixed app-server thread startup and shutdown races and released completed runtimes promptly. (#57787, #57788) - Improved TUI reconnection recovery, including offline `/quit` and `/exit` handling. (#57820) - Preserved reasoning-token accounting across resume and fork to avoid premature compaction. (#57839) ## Chores - Switched Bazel to source-built V8 with target-matched Rust bindings and native Wind…",
+    "level": "minor",
+    "llm_score": 6.0
+   },
+   "id": "4ed2371cdc2f",
+   "score": 6.28,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Intrinsic Distribution Matching",
+   "url": "https://arxiv.org/abs/2610.39633",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-29T00:00:00Z",
+   "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-score network. We ask whether an explicit moment constraint improves this learned score supervision. A decomposition of the reverse-KL field into a Gaussian moment component and a non-Gaussian residual identifies statistics that can be constrained explicitly. We introduce Intrinsic Distribution Matching (IDM), which retains the full DMD correction and matches feature means and per-coordinate standard deviations using the generator's exponential-moving-average (EMA) copy, requiring no external feature encoder. Experiments use full-parameter and low-rank adaptation (LoRA) tuning on Z-Image-Turbo 6B and Qwen-Image 20B. At two network evaluations, IDM reaches 94.25% and 90.20% on Chinese and English LongText-Bench, the highest scores among the compared methods at this budget. Controlled ablations show gains from the added moment loss, while generator EMA features perform competitively with an external DINOv2 encoder across the five reported metrics. Code is available at https://github.com/inclusionAI/IDM.",
+   "heat": 0.959,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 237.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/inclusionAI/IDM"
+     ]
+    ],
+    "llm_score": 8.0
+   },
+   "id": "1b161b32bd0b",
+   "score": 7.84,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+   "url": "https://arxiv.org/abs/2610.38568",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-28T00:00:00Z",
+   "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on the model's own uncertain predictions. We address these two questions separately: training dynamics determine when to acquire new experience, while the answers to new tasks remain independently checkable. A-RSI monitors reward variation and accuracy in training logs to refresh a task pool when its learning signal declines, without consulting validation or test scores. A static library of model-authored programs produces multimodal questions and derives their reference answers; we specify the task-generation contract, automatically verify chosen properties of the reward and refresh rules, and separately audit the generated answers. The training loop uses no external training examples or human-written answer labels. On the primary eleven-benchmark suite, A-RSI raises the performance average from 57.77 to 61.05 with 800 fresh tasks.",
+   "heat": 0.879,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 150.0
+   },
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "82b5e560e233",
+   "score": 7.57,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Streaming Speech Recognition on a Microcontroller: a 65.7M-Parameter Transducer in 2 and 4 Bits on the ESP32-P4",
+   "url": "https://arxiv.org/abs/2610.38739",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-10-28T19:30:01Z",
+   "summary": "We run Kroko, a 65.7M-parameter streaming Zipformer2 transducer for English, on the ESP32-P4, a microcontroller with two 400 MHz RISC-V cores, a 128-bit SIMD extension (PIE) and 32 MB of PSRAM, but no neural accelerator. Without any training, the encoder's 290 matrices are stored with 2 or 4 bits per weight in Hadamard-rotated groups: the width of each matrix comes from its measured sensitivity, and each matrix is first corrected toward the original model's output, then rounded with GPTQ and a search over the group norms. The released 71 MB of int8 weights become a 26.65 MB file. Activations are int16 between the matrix products and int8 into them. A C engine with hand-written PIE kernels processes each 1.28 s chunk of audio in 0.90 s on both cores, beam search included, and its PC build computes the same bits as the chip, so accuracy is measured on whole test sets. LibriSpeech WER is 4.34% on test-clean and 10.26% on test-other, against 3.94% and 9.17% for the released model; on FLEURS and Common Voice the gap grows to 2.3 and 1.1 points. A GPU simulator shows that the integer arithmetic costs nothing and that the whole gap comes from the weights, and an ablation on all of test-clean shows that GPTQ does most of the work. We also report the port's speed history, from 51.3 s to 0.62 s of encoder time per chunk, each design step measured again in one build, an attempt to reach 16 MB that stopped at 19.63 MB, and what did not work. We did not measure energy. The inference engi…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "bc122e5226f9",
+   "score": 6.14,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+   "url": "https://arxiv.org/abs/2610.29927",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-21T00:00:00Z",
+   "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered regions along the difficulty axis prevent benchmarks from detecting meaningful localized training progress. We propose two diagnostic metrics that capture these two failure modes and provide rigorous theoretical guarantees. Empirically, we analyze 25 popular benchmarks spanning 7 domains using carefully estimated item difficulties. Our results show that many benchmarks implicitly overweight certain difficulty regions, so their leaderboard conclusions should be interpreted with caution; others leave substantial portions of the difficulty axis uncovered, limiting their ability to monitor the model improvement process. Finally, we turn diagnosis into action by introducing BenchFill, a simple difficulty-targeted item rewriting algorithm that effectively reduces local coverage gaps.",
+   "heat": 0.867,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 140.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/ASTRAL-Group/benchmark-difficulty-measure"
+     ]
+    ],
+    "llm_score": 6.0
+   },
+   "id": "861f2a7e266b",
+   "score": 6.08,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Glance: The Generator Is Its Own Reranker",
+   "url": "https://arxiv.org/abs/2610.40454",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-29T17:01:22Z",
+   "summary": "Retrieval-augmented generation commonly serves separate models for reranking and answering, duplicating model residency and passage processing. We introduce Glance, which equips the generator with a lightweight decision adapter and pointer head to score candidate passages from a shared prefill. Short relevance probes branch from the cached context, producing one score per passage without separately prefilling each query-passage pair. A single resident 9B backbone supports generation, general decisions and reranking, with approximately 0.1 GiB of additional memory per decision skill. After 39 minutes of MS MARCO fine-tuning, Glance achieves nDCG@10 of 0.741 on SciFact and 0.345 on NFCorpus, compared with 0.721 and 0.326 for bge-reranker-v2-m3. On 300 HotpotQA questions, its selected context improves answer F1 by 0.045 over cross-encoder-selected context under the same base generator (paired bootstrap 95% CI [0.014, 0.076]). In a scaling study, reranking quality keeps rising up to 200 candidates (43k tokens) scored from one shared prefill, where it exceeds the cross-encoder by 0.058 nDCG@10, and a probe-only activated adapter lets generation continue from the original passage cache. These initial results demonstrate generator-based reranking with one resident backbone; evaluation currently covers two retrieval datasets, one QA dataset and one backbone family.",
+   "heat": 0.42,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 10.0
+   },
+   "extra": {
+    "llm_score": 6.0
+   },
+   "id": "23b9c298afe1",
+   "score": 5.92,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-10-31",
+  "start": "2026-10-31",
+  "end": "2026-10-31",
+  "title": "Intrinsic Distribution Matching",
+  "generated_at": "2026-10-30T22:58:14Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 23,
+  "club_period": {
+   "start": "2026-10-30",
+   "end": "2026-10-30"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 0 个 PR、提交 0 次",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行，1 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 新增 1 个 PR",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 1 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "李飞飞挖的三个「坑」：从 ImageNet 到空间智能，这一次她会怎么填？",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "82 亿美元，已经为整个世界模型赛道提供了价值锚点。 作者丨 幸丽娟 编辑丨岑 峰 82亿美元，全股票收购李飞飞创立的 World Labs。 这是 AMD 史上第二大收购，仅次于 2022 年以约 500 亿美元拿下赛灵思。 赛灵思是3…",
+    "url": "https://www.leiphone.com/category/academic/oi5NEt93WcuWwFr8.html",
+    "via": "雷峰网",
+    "id": "b1268bf0c89a",
+    "ai": false
+   },
+   {
+    "cat": "domestic",
+    "headline": "全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨 幸丽娟 编辑丨 岑 峰 训练一个可用的具身智能模型， 需 要千 万小时 的多模态交互数据；而 现实仅有百万小时 ，剔除低质部分后，真正可用的更少。 缺数据，是具身智能行业的共…",
+    "url": "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html",
+    "via": "雷峰网",
+    "id": "2dbf00f005fa",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confide…",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizat…",
+    "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+    "via": "Microsoft Research",
+    "id": "bb2f93cf2882",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Making it easier for websites to express AI training preferences",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to par…",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "via": "OpenAI",
+    "id": "e4822c713d2b",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Community safety report and new protections for teens",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commi…",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "via": "OpenAI",
+    "id": "be87813a963d",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "A Claude model autonomously chose a gene therapy and operated on a mouse brain…",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordi…",
+    "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+    "via": "The Decoder",
+    "id": "887f2e8ee4e7",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "CopilotKit/OpenBot",
+    "when": "10月31日消息",
+    "date": "2026-10-31",
+    "body": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided b…",
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "via": "GitHub Trending",
+    "id": "ab910b95a8e2",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "ethanplusai/harvey",
+    "when": "10月31日消息",
+    "date": "2026-10-31",
+    "body": "Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handle…",
+    "url": "https://github.com/ethanplusai/harvey",
+    "via": "GitHub Trending",
+    "id": "e751db659474",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "wangzan101/Mika",
+    "when": "10月31日消息",
+    "date": "2026-10-31",
+    "body": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things do…",
+    "url": "https://github.com/wangzan101/Mika",
+    "via": "GitHub 新项目",
+    "id": "6685fd5bb45a",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "mattpocock/skills",
+    "when": "10月31日消息",
+    "date": "2026-10-31",
+    "body": "Skills for Real Engineers. Straight from my .agents directory.",
+    "url": "https://github.com/mattpocock/skills",
+    "via": "GitHub Trending",
+    "id": "611cc6c63716",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "lightpanda-io/browser",
+    "when": "10月31日消息",
+    "date": "2026-10-31",
+    "body": "Lightpanda: the headless browser designed for AI and automation。",
+    "url": "https://github.com/lightpanda-io/browser",
+    "via": "GitHub Trending",
+    "id": "532374c45383",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Intrinsic Distribution Matching",
+    "when": "10月29日",
+    "date": "2026-10-29",
+    "body": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limit…",
+    "url": "https://arxiv.org/abs/2610.39633",
+    "via": "Hugging Face 热门论文",
+    "id": "1b161b32bd0b",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Streaming Speech Recognition on a Microcontroller: a 65.7M-Parameter Transducer…",
+    "when": "10月29日",
+    "date": "2026-10-29",
+    "body": "We run Kroko, a 65.7M-parameter streaming Zipformer2 transducer for English, on the ESP32-P4, a microcontroller with tw…",
+    "url": "https://arxiv.org/abs/2610.38739",
+    "via": "arXiv · 语音",
+    "id": "bc122e5226f9",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+    "when": "10月31日消息",
+    "date": "2026-10-31",
+    "body": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when thei…",
+    "url": "https://arxiv.org/abs/2610.38568",
+    "via": "Hugging Face 热门论文",
+    "id": "82b5e560e233",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Your Benchmark Is an Empirical Measure Over Difficulty",
+    "when": "10月31日消息",
+    "date": "2026-10-31",
+    "body": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In…",
+    "url": "https://arxiv.org/abs/2610.29927",
+    "via": "Hugging Face 热门论文",
+    "id": "861f2a7e266b",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
