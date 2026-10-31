@@ -1,0 +1,1477 @@
+{
+ "date": "2026-11-01",
+ "generated_at": "2026-10-31T22:28:42Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 462,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 16.7
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 50,
+   "error": "",
+   "seconds": 10.3
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 331,
+   "error": "",
+   "seconds": 22.2
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 22.8
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 22.3
+  }
+ ],
+ "items": [
+  {
+   "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+   "url": "https://www.qbitai.com/2026/10/506904.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-31T13:49:44Z",
+   "summary": "AI已经自己找到Bug并提交PR",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "AI已经自己找到Bug并提交PR 要知道，此前不少人还在等DeepSeek推出传闻中的「dsh dot」，结果这次先等来了一篇面向工程实践的架构思路探讨—— 何意味？AI可以在没人@、没人下指令的情况下，自己发现Bug、定位问题，甚至主动提交修复PR了。 甚至它还能持续关注工作群消息，跨平台协作、并行处理多个复杂任务，甚至实现24小时在线运行。 在模拟多任务环境中，Super-agent的任务完成时间中位数为12.4分钟，95分位数为15.7分钟，表现优于测试中的传统单会话方案。 AI，真的开始有能力从等待人类逐项分配任务，进一步走向主动发现问题、持续推进工作了。 在日常软件开发过程中，开发人员经常碰到的一个问题是，我们需要在不同平台之间来回切换！！ 比如，先在IM群聊里讨论技术方案，随后到GitHub提交代码，再根据PR评论修改实现。 DeepSeek团队在文章中提到，根据他们的观察，一个人通常只能同时跟进3到5个活跃Session。 这就带来了一个问题：随着模型处理单项任务的能力越来越强，多任务协作的效率，却越来越容易受到人类注意力的限制。 在DeepSeek团队内部运行的实例中，同一个开发任务可以从IM群聊一直延续到GitHub PR评审。 Super-agent能够理解这两条消息属于同一项工作，并据此调整后续执行方向。 用户面对的始终是同一个Agent，底层的多个会话则由系统自行管理，而且它开始主动参与工作。 这里还用到了一项技术—— 投机执行（Speculative Execution） 。 比如群里有人讨论一个Bug，Super-agent便先着手复现、查找原因，如果最终找到简单可行的修复方案，就把结果交给用户。 收到会议邀约后，AI可以提前检查日程冲突、整理相关资料，并准备好回复草稿，等待用户确认。 上层叫Router，可以理解为负责接收消息和统筹任务的调度…",
+    "llm_done": true
+   },
+   "id": "54d4b6dd0d0a",
+   "score": 7.87,
+   "title_zh": "DeepSeek重磅开源：Agent底座架构",
+   "summary_zh": "DeepSeek开源Super-agent架构，AI可自主发现Bug并提交PR，实现24小时在线运行。",
+   "tags": [
+    "模型发布",
+    "智能体",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+   "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-30T10:22:51Z",
+   "summary": "",
+   "heat": 0.964,
+   "weight": 0.6,
+   "metrics": {
+    "points": 399.0,
+    "comments": 1.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50301983",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "bc611d5d40d2",
+   "score": 7.81,
+   "title_zh": "Cursor 市场出现带后门的 Claude Code VS Code 扩展",
+   "summary_zh": "",
+   "tags": [
+    "安全",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+   "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-30T17:27:25Z",
+   "summary": "",
+   "heat": 0.929,
+   "weight": 0.6,
+   "metrics": {
+    "points": 322.0,
+    "comments": 282.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50307219",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "e36d86659380",
+   "score": 7.76,
+   "title_zh": "Anthropic IPO 后可能无法获得投资级评级",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+   "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-30T14:08:20Z",
+   "summary": "",
+   "heat": 0.918,
+   "weight": 0.6,
+   "metrics": {
+    "points": 299.0,
+    "comments": 367.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50304122",
+    "excerpt_tried": true,
+    "evidence": "Meet Paddy, the 27-year-old Cisco’s president calls an “energizer bunny.” He’s been given unlimited AI tokens and told to “go nuts.” Gen Z can’t catch a break. Entry-level jobs are vanishing ; some 40% of bosses say they plan to hire fewer grads because AI can do the job cheaper, and young workers are routinely slammed for showing up late and refusing to put in overtime for free . Cisco’s president and chief product officer Jeetu Patel isn’t buying it—he’s just handed one of the company’s biggest jobs to a 27-year-old he found hidden in the org chart “five levels” below him. “I’ve given him unlimited tokens because he’s going to refactor code,” Patel told Fortune at a small roundtable dinner. “So I’m like, you can go, you can go nuts.” The “him” is Padmanabhan Krishnamurthy, or “Paddy,” a…",
+    "llm_done": true
+   },
+   "id": "b691ffd44902",
+   "score": 7.64,
+   "title_zh": "思科给工程师无限 AI 代币重写遗留代码",
+   "summary_zh": "思科总裁给工程师无限 AI 代币，要求其重写遗留代码。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-30T16:40:22Z",
+   "summary": "",
+   "heat": 0.908,
+   "weight": 0.6,
+   "metrics": {
+    "points": 282.0,
+    "comments": 144.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50306442",
+    "excerpt_tried": true,
+    "evidence": "An NES CPU compiled into the weights of a stock Qwen3.5 model - dbreunig/nesformer The NES's 6502 CPU (the core of its 2A03 chip), its 2 KB of work RAM, and a cartridge's program ROM run inside a standard Qwen3_5ForCausalLM checkpoint. Nobody trained these weights; a compiler computed every one. When you play a game, the model predicts the CPU's execution log one token at a time. A small host program plays the rest of the console around it: it draws the picture, reads the controller, and fires the vblank interrupt. nesformer builds on Qwenputer by Divyansh Agrawal , which compiled a CHIP-8 and then a RISC-V CPU into Qwen3.5-4B. It reuses Qwenputer's compiler and its central trick: the model's Gated DeltaNet state is the machine's memory. Every CPU token in these runs came from the model.…",
+    "llm_done": true
+   },
+   "id": "50f4cc4574b6",
+   "score": 7.64,
+   "title_zh": "Show HN: 在约 1GB Qwen 权重中运行任天堂",
+   "summary_zh": "将 NES CPU 编译进 Qwen3.5 模型权重，实现游戏运行。",
+   "tags": [
+    "开源",
+    "模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DeepSeek又开源了！公布Super agent架构",
+   "url": "https://zhidx.com/p/606311.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-10-31T16:05:22Z",
+   "summary": "智东西 作者 | 李水青 编辑 | 心缘 智东西11月1日报道，10月31日晚间， DeepSeek Harness 团队公布了其关于自主Agent探索—— Super-agent（超级智能体）的底层架构 。 ▲Super-agent开源项目地址 GitHub地址： https://github.com/deepseek-ai/dsh-superagent-prototype DeepSeek想做的“Super-agent”，可以通俗理解为一个 一直在线、能同时干多件事、会主动找活干、出问题能自己恢复 的Agent。该团队本次推出的成果并非一款新产品，而是更接近一种新思路——把计算机系统里的 调度、缓存、存算分离、看门狗（Watchdog） 等经典思想搬进Agent架构。 随着模型执行单任务减少人工干预，瓶颈转向人的注意力。DeepSeek Harness试图通过五大模块—— 双层架构、事件驱动、异步多信道交互、存算分离与外部Watchdog 在底层接管会话管理与上下文同步，使人上移到决策与验收，提升Agent应用体验。 ▲Super-agent整体系统架构 实验上，基于该思路的Su…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "ad38e0459c21",
+   "score": 7.57,
+   "title_zh": "DeepSeek又开源了！公布Super agent架构",
+   "summary_zh": "DeepSeek公布Super-agent底层架构，引入调度、缓存等思想，提升多任务协作效率。",
+   "tags": [
+    "模型发布",
+    "智能体",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道",
+   "url": "http://www.geekpark.net/news/373220",
+   "source": "rss",
+   "section": "news",
+   "via": "极客公园",
+   "published": "2026-10-31T00:03:20Z",
+   "summary": "国行 Apple 智能确定上线时间：11 月开放测试，千问接入 Siri 10 月 31 日，苹果宣布，国行 Apple 智能首批功能将于 11 月 4 日随 iOS 开发者 Beta 版开放测试，12 月随 iOS 27.3 正式面向用户推出。首批功能包括实时翻译、写作工具、照片消除、智绘表情和通知摘要等，支持 iPhone 15 Pro 系列、iPhone 16 及后续机型，以及 iPhone Air、iPhone Duo。 阿里巴巴强调，在任何问题、文档和图片发送给千问之前，都会先征得用户同意。 苹果表示，这些功能由其自有模型驱动；用户也可以选择接入阿里巴巴千问，在 Siri、写作工具和视觉智能中处理部分请求。不过，首批更新不包含新版 Siri AI，iPad、Mac 等其他平台还需等待必要审批。（来源：极客公园） OpenAI 撤回 Pro 200 降额计划，同时提高 Work 和 Codex 用量 当地时间 10 月 29 日，OpenAI 宣布调整 Pro 和 Business Premium 订阅中的 Work、Codex 使用额度。Pro 100 和 Pro 500…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "b46d48276281",
+   "score": 7.26,
+   "title_zh": "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特…",
+   "summary_zh": "国行 Apple 智能将于11月开放测试，接入阿里千问；DeepSeek完成1055亿元融资。",
+   "tags": [
+    "行业动态",
+    "融资",
+    "合作"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+   "url": "https://www.qbitai.com/2026/10/506866.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-10-31T05:11:19Z",
+   "summary": "AI算力利用“九九成”",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "AI算力利用“九九成” 以智驾模型知名的 Momenta ，出现在了一家成立仅仅两年多的芯片公司首次公开亮相里。 芯片名字叫 X7 Ultra ，只看算力数值，在2026年底已经不能算“极致”了—— 700 TOPS 。 它想表达的是：X7 Ultra的确有更高的推理效率，但没有放任量化误差无限扩大，而是要求量化后的模型输出尽可能贴近FP32模型。 因为大模型实在太能吃算力、内存和功耗了，把模型权重和计算精度压下来的主要途径，就是减少存储与计算开销。但压得太狠，输出也可能出现偏差。 第二个指标，是 NPU计算利用率达到98.7% ，意味着芯片里的AI计算单元，在运行测试任务时，绝大部分时间都在执行有效的计算工作，闲置时间很少。 这通常也意味着芯片架构、数据传输和软件调度之间配合得比较好，计算单元不容易因为等数据、等指令而空转。 官方给出的参考数据是：对比行业旗舰产品，内存带宽消耗降低80%，能效提升100%。 过去谈TOPS，多用稠密算力或稀疏算力，这些概念可以说明芯片的理论计算能力，却很难单独回答一个更贴近实际体验的问题：把真正用于智能驾驶的模型放上去，究竟能跑多快、跑得有多稳？ 例如，实验室里的APS等测试指标单独测量某个模型的运行耗时，都能帮助工程师分析芯片性能。 但真实智驾大模型涉及复杂的网络结构、不同类型的算子、频繁的数据读写，以及多种计算任务之间的调度；只追求某个环节跑得很快意义有限，因为其他环节却因为等待数据、内存带宽不足或调度效率不高而拖慢整体速度。 “大模型算力”的评测思路，是直接使用真实量产智驾模型测试芯片 ，而不是只依赖实验室基准测试。 这套评测还有另外几项明确约束：模型结构不能随意改变，计算精度必须得到保证，最终驾驶体验也不能打折，芯片需要在这些条件都成立的情况下，尽可能提高模型运行效率。 这就是“大模型算力”想要衡量的东西：在真实量产模型和严格部…"
+   },
+   "id": "c36f63da3832",
+   "score": 7.18,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能",
+   "url": "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-10-30T22:52:00Z",
+   "summary": "10月31日，阿里巴巴与Apple达成合作，将千问集成至 Apple 智能，中国用户可以在Siri、写作工具及视觉智能中，直接调用千问的文本与图像理解、内容生成等能力。这些功能将于11月4日起随最新的iOS 开发者 Beta 版开放测试，并将于12月iOS 27.3正式发布时面向中国用户推出。 Siri可以直接调用千问的广博知识，并在 Siri 中直接回复用户问答。通过 Siri，用户还能用自己选择的文档和照片，直接向千问提问。在任何问题、文档和图片发送给千问之前，都会先征得用户同意。 千问也已接入Apple 的系统级写作工具中，为用户提供“千问创作”（Compose with Qwen）功能。“千问创作”可以帮助用户基于任意主题生成内容。用户还可以使用这一功能来生成图像。 在 iPhone 上，用户可以通过视觉智能功能更深入地了解周围环境，其中包括选择“询问千问”来识别眼前所见。用户可通过相机控制、操作按钮或控制中心来启用视觉智能功能。 用户可以自主选择是否开通千问集成功能。启用后，用户可通过 Apple 登录或使用自己的千问 App 账户登录，在 Siri、写作工具和视觉智能中使…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "3bdf5e0b15b5",
+   "score": 6.97,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Fair use benefits everyone",
+   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-10-30T00:00:00Z",
+   "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 23.0,
+    "comments": 54.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50311537",
+    "llm_score": 6.0
+   },
+   "id": "fe6897699718",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Orkas-AI/Orkas",
+   "url": "https://github.com/Orkas-AI/Orkas",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
+   "heat": 0.877,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1118.0,
+    "stars": 6098.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "9dd592cb493d",
+   "score": 7.67,
+   "title_zh": "",
+   "summary_zh": "Orkas 是一个本地优先的桌面 AI 团队，包含 16 个内置专家代理。",
+   "tags": [
+    "开源",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "opendatalab/MinerU mineru-4.1.0-released",
+   "url": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.1.0-released",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-10-29T11:09:59Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## 中文 - **主流平台与 GPU 自动加速**：默认安装支持 Windows、Linux 和 macOS 上的 CPU 运行，以及 Intel、AMD、NVIDIA 和 Apple Silicon 兼容独显或集显的推理加速。自动选择合适的 GPU 或 CPU；代表性核心推理场景的速度约为 CPU 的 **2～3 倍**。 - **统一 Tasks 异步接口**：以 `/v1/tasks` 替换旧 `/v1/uploads`、`/v1/parse/jobs` 工作流，支持文件清单、URL 输入、缓存免传、逐文件执行与结果下载，以及统一的状态查询和取消操作。详见 [Tasks 接口说明](https://github.com/opendatalab/MinerU/blob/mineru-4.1.0-released/docs/zh/usage/tasks.md)。 - **可恢复的同步解析服务**：独立的 `file-parse-server` 提供 `/v1/file_parse`，支持单文件上传和附件返回、等待超时后查询，以及通过请求 ID 恢复已知任务。详见 [file-parse 接口说明](https://github.com/opendatalab/MinerU/blob/mineru-4.1.0-released/docs/zh/usage/file_parse.md)。 - **硬件诊断与档位推荐**：新增 `mineru-kit hardware detect` 和 `hardware info`，帮助选择合适的服务档位，并查看设备、运行环境与校准信息。 **升级提示：** Python 支持范围调整为 **3.11–3.14**。此次包含破坏性 HTTP 接口变更，请协调升级服务端、Router、SDK 和客户端，详见 [4.1 迁移说明](https://github.com/opendatalab/MinerU/blob/mineru-4.1.0-released/docs/zh/reference/migration_4_1.md)。 ## English - **Automatic acceleration across major platforms and GPUs:** The default installation supports CPU inference on Windows, Linux, and macOS, plus accelerated inference on compatible Intel, AMD, NVIDIA, and Apple Silicon GPUs, including integrated graphics. MinerU automatically selects suitable GPU or CPU execution; representative core inference workloads run at approximately **2–3× CPU speed**. - **A unified asynchronous Tasks API:** `/v1/tasks` replaces the previous `/v1/uploads` and `/v1/parse/jobs` workflow, supporting file manifests, URL inputs, cached-upload reuse, per-file execut…",
+    "level": "minor",
+    "llm_score": 8.0
+   },
+   "id": "1e77236f1a55",
+   "score": 7.28,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "N1nEmAn/sapper-v2",
+   "url": "https://github.com/N1nEmAn/sapper-v2",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+   "heat": 0.796,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 336.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ef2576b2771c",
+   "score": 6.79,
+   "title_zh": "",
+   "summary_zh": "sapper-v2 是一个自主渗透测试军团，包含 AI 指挥官和意图图。",
+   "tags": [
+    "开源",
+    "安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DeepSeek 千亿融资名单曝光，国资占比从 2% 跳到 27%",
+   "url": "https://www.oschina.net/news/503318",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-10-30T10:56:51Z",
+   "summary": "DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资名单，近 30 家投资者——比金额更有意思的是名单的构成变化。 腾讯和宁德时代仍是两大主力。腾讯两轮各出 100 亿；宁德时代及其董事长两轮分别出 50 亿和 100 亿。长鑫存储和中芯国际这两家芯片厂商也在里面，金额未披露。互联网...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "29b000d7f4dc",
+   "score": 6.72,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "datawhalechina/diy-llm",
+   "url": "https://github.com/datawhalechina/diy-llm",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Covers pre-training data, Tokenizer, Transformer, MoE,distributed training, Scaling Laws, inference & alignment .6 progressive code assignments for full-stack LLM learning | 涵盖预训练数据、分词器、Transformer、MoE、分布式训练、缩放定律、推理与对齐，6 项渐进代码作业，掌握 LLM 全栈知识",
+   "heat": 0.682,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 235.0,
+    "stars": 2572.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "74ef3e6d2001",
+   "score": 6.68,
+   "title_zh": "",
+   "summary_zh": "diy-llm 涵盖预训练、分词、Transformer、MoE 等全栈知识。",
+   "tags": [
+    "开源",
+    "教程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nasiko-Labs/nasiko",
+   "url": "https://github.com/Nasiko-Labs/nasiko",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The Open Runtime for AI Agents",
+   "heat": 0.671,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 215.0,
+    "stars": 10912.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "84f2b6b95977",
+   "score": 6.66,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Towards a More Autonomous Agent System",
+   "heat": 1.0,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2072.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 1,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "10f39497be6b",
+   "score": 6.6,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MiniMax/MiniMax-M3.1-Flash",
+   "url": "https://www.modelscope.cn/models/MiniMax/MiniMax-M3.1-Flash",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "魔搭 ModelScope 热门模型",
+   "published": "",
+   "summary": "图文理解模型",
+   "heat": 0.701,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 205.0,
+    "downloads": 2032.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "95d7bfdc1c02",
+   "score": 6.6,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+   "url": "https://arxiv.org/abs/2610.36671",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining image at every step. To measure how often the image is actually needed, we compare LLaDA-V's predictions with and without the image at every decoding step and find that removing the image changes a token being unmasked at only 22.8% of steps on average and at as few as 7.9%. We therefore propose LOWN, a decoding method that decides at every step whether to process the image and how many tokens to unmask. LOWN predicts the masked tokens without the image and processes the image only when this prediction disagrees with the last image-conditioned prediction. Agreement certifies the earlier prediction for reuse, and the number of certified tokens sets how many are unmasked in that step. We further observe that the need for the image differs across benchmarks, so LOWN's adaptive decision is needed rather than a fixed schedule. Without training or a tuned threshold, LOWN retains 99.6% of LLaDA-V's score on ten benchmarks at 35.3% of the decoding FLOPs on average. LOWN also generalizes across LLaDA-based DVLMs, composes orthogonally with visual token pruning, and runs und…",
+   "heat": 0.805,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 98.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/hyeon9698/LOWN"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d196dc8b4e0b",
+   "score": 7.27,
+   "title_zh": "Look Only When Needed：基于证书引导的视觉路由",
+   "summary_zh": "扩散视觉语言模型在每一步都处理全部输入，计算开销大。本文提出LOWN方法，通过比较有无图像的预测结果来决定是否处理图像。实验表明，该方法在保持99.6%性能的同时，将解码计算量降低至35.3%。",
+   "tags": [
+    "视觉语言模型",
+    "推理加速",
+    "扩散模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+   "url": "https://arxiv.org/abs/2610.33956",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-25T00:00:25Z",
+   "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), a large-scale benchmark developed by 50+ domain experts to measure experience-driven improvement in realistic professional workflows. CLE comprises 120 human-authored tasks, each organised as a five-level ladder, yielding 600 levels spanning 89 professional roles across 12 occupational domains. Agents must pass each level to unlock the next, with later levels building on experience accumulated during earlier assignments. An evaluation agent assesses each submission against human-authored rubrics. We compare a single-submission setting with one that provides diagnostic feedback after failure and allows one revision. Across 17 harness-model configurations using frontier LLMs, feedback and revision yield a median completion gain of 5.3 percentage points. Yet the best-performing system clears only 47.7% of levels and completes all five levels in just 23.3% of tasks, highlighting the difficulty of sustained learning from experience for existing frontier LLMs. As such, the dataset can also be used to post-train LLMs to strengthen their continual learning capabilities.",
+   "heat": 0.711,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 57.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/haoyu-zhao/Continual-Learning-Exam"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "925072c07718",
+   "score": 6.65,
+   "title_zh": "持续学习考试：大模型智能体长时序与经验学习评测",
+   "summary_zh": "现有评测多关注单次任务表现，缺乏对经验积累的评估。本文提出CLE基准，包含120个人工任务和600个等级，覆盖89个职业角色。实验显示，提供反馈和修订机制可提升5.3个百分点，但现有模型仍难以持续学习。",
+   "tags": [
+    "智能体",
+    "持续学习",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+   "url": "https://arxiv.org/abs/2610.35684",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-26T00:00:00Z",
+   "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints. However, they do not explicitly specify the 3D structure that connects these observations. In addition, existing training data do not guarantee that viewpoint changes preserve the same underlying 3D subject. We present OmniShowcase, built on two components: (i) a fully automated data synthesis pipeline that produces training videos along diverse camera trajectories, with viewpoint variation driven by underlying subject geometry, even spanning full 360-degree orbits; and (ii) a geometry-conditioning method that provides the video model with a turntable of surface-normal maps reconstructed from the reference views without requiring temporal alignment with the generated frames. We construct Showcase-4K, a corpus of 3D-asset-based videos covering twelve camera motions across 88 trajectory configurations with reconstruction-derived surface-normal conditioning, and ShowcaseBench, a held-out evaluation set with the source meshes and camera parameters used to render each video. Experiments show state-of-the-ar…",
+   "heat": 0.814,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 103.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/justin4ai/OmniShowcase"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "2b73ee66c853",
+   "score": 6.65,
+   "title_zh": "OmniShowcase：多视角图像生成全景一致视频",
+   "summary_zh": "现有方法难以处理相机视角变化导致的不可见表面。本文提出OmniShowcase，通过自动化数据合成管道和几何条件方法，生成覆盖12种相机运动的视频。实验表明该方法在多视角视频生成中达到最先进水平。",
+   "tags": [
+    "多模态",
+    "视频生成",
+    "几何条件"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+   "url": "https://arxiv.org/abs/2610.37161",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-27T12:54:16Z",
+   "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning builds an information support graph to guide task instantiation, explicitly representing the dependencies and locations of information required for the intended outputs. Probe executions then identify support failures and guide repairs while preserving the intended work. We construct 112,686 tasks spanning 612 occupations and use the collected teacher trajectories to fine-tune Qwen models at 4B, 27B, and 35B-A3B scales, yielding the WorkPilot family. All three models improve over their respective base models across four professional-work benchmarks, with WorkPilot-35B-A3B improving from 879 to 1565 Elo on GDPval-AA v2.1. Scaling analyses reveal model-dependent diminishing returns, with execution length first increasing and then decreasing. Controlled component analyses show that planning and repair reduce probe-diagnosed task environment defects and improve downstream performance. The data and models are available at https://github.com/IQuestLab/WorkFactory.",
+   "heat": 0.633,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 36.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/IQuestLab/WorkFactory"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "8dccbef7ed6f",
+   "score": 6.6,
+   "title_zh": "WorkFactory：将专业意图转化为可执行工作",
+   "summary_zh": "专业任务信息缺失会阻碍教师执行。本文提出WorkFactory框架，通过信息级规划和探针执行构建112,686个任务。实验显示，该方法能生成高质量的教师轨迹，并显著提升Qwen模型在专业工作基准上的表现。",
+   "tags": [
+    "智能体",
+    "数据构建",
+    "专业任务"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
+   "url": "https://arxiv.org/abs/2610.36068",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-26T00:00:00Z",
+   "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Rollback, a policy improvement paradigm that turns world models from passive simulators into counterfactual engines: it rolls back to critical decision points, branches into alternative actions, and contrasts their outcomes to attribute success to individual decisions. This concentrates imagination where it matters most and distills counterfactual outcomes into fine-grained, action-level supervision without a separately learned value model. We build a scalable training system that unifies distributed world-model search with asynchronous real-robot execution, forming a self-reinforcing cycle: real-world experience continually sharpens the world model, and a sharper world model in turn drives further policy improvement. We term the world-model side of this cycle test-time physics grounding, a capability that hand-built physics simulators lack: while the world model serves as the training environment, real transitions from the policy it trains correct its dynamics through a lightweight LoRA pipeline. Experiments on three challenging real-world tasks show that Rollback improves success rate…",
+   "heat": 0.778,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 84.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7c5f24ff8abc",
+   "score": 6.58,
+   "title_zh": "Rollback：世界模型中的经验回溯与策略改进",
+   "summary_zh": "现有世界模型仅作为前向模拟器，缺乏回溯能力。本文提出Rollback范式，通过回溯到关键决策点并探索反事实未来，生成细粒度的动作级监督。实验表明该方法在三个真实机器人任务中提升了成功率。",
+   "tags": [
+    "强化学习",
+    "机器人",
+    "世界模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-01",
+  "start": "2026-11-01",
+  "end": "2026-11-01",
+  "title": "DeepSeek开源Super-agent架构",
+  "generated_at": "2026-10-31T22:28:42Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-10-31",
+   "end": "2026-10-31"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 1 次",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 3 个、合并 1 个，提交 1 次，新增代码 1497 行、删除 50 行，4 位贡献者参与，其中 1 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 2 个、合并 1 个、提交 1 次、新增代码 1497 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "intro2oss 新增 1 个 PR",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "数字基础设施维护 SIG的 intro2oss 仓库新增 PR 1 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/intro2oss",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "DeepSeek开源Super-agent架构",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "DeepSeek开源Super-agent架构，引入调度、缓存等思想，提升多任务协作效率。",
+    "url": "https://www.qbitai.com/2026/10/506904.html",
+    "via": "量子位",
+    "id": "54d4b6dd0d0a",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "阿里千问接入Apple智能",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "阿里巴巴与Apple达成合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问。",
+    "url": "http://www.geekpark.net/news/373220",
+    "via": "极客公园",
+    "id": "b46d48276281",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "Momenta发布X7 Ultra芯片",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "Momenta发布X7 Ultra芯片，超大核NPU达700TOPS，NPU计算利用率达98.7%。",
+    "url": "https://www.qbitai.com/2026/10/506866.html",
+    "via": "量子位",
+    "id": "c36f63da3832",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "阿里千问接入Apple智能",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "阿里巴巴与Apple达成合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问。",
+    "url": "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html",
+    "via": "雷峰网",
+    "id": "3bdf5e0b15b5",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "DeepSeek完成1055亿元融资",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资名单，近 30 家投资者——比金额更有意思的是名单的构成变化。 腾讯和宁德时代仍是两大主力。腾讯两轮各出 100 亿；…",
+    "url": "https://www.oschina.net/news/503318",
+    "via": "开源中国",
+    "id": "29b000d7f4dc",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Orkas：本地优先的桌面 AI 团队",
+    "when": "11月1日消息",
+    "date": "2026-11-01",
+    "body": "Orkas 是一个本地优先的桌面 AI 团队，包含 16 个内置专家代理。",
+    "url": "https://github.com/Orkas-AI/Orkas",
+    "via": "GitHub Trending",
+    "id": "9dd592cb493d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "MinerU 发布 4.1.0 版本",
+    "when": "11月1日消息",
+    "date": "2026-11-01",
+    "body": "MinerU发布4.1.0版本，支持主流平台与GPU自动加速，统一Tasks异步接口。",
+    "url": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.1.0-released",
+    "via": "GitHub 版本发布",
+    "id": "1e77236f1a55",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "sapper-v2：自主渗透测试军团",
+    "when": "11月1日消息",
+    "date": "2026-11-01",
+    "body": "sapper-v2 是一个自主渗透测试军团，包含 AI 指挥官和意图图。",
+    "url": "https://github.com/N1nEmAn/sapper-v2",
+    "via": "GitHub 新项目",
+    "id": "ef2576b2771c",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "diy-llm：LLM 全栈知识",
+    "when": "11月1日消息",
+    "date": "2026-11-01",
+    "body": "diy-llm 涵盖预训练、分词、Transformer、MoE 等全栈知识。",
+    "url": "https://github.com/datawhalechina/diy-llm",
+    "via": "GitHub Trending",
+    "id": "74ef3e6d2001",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Qwen3.5 权重中运行任天堂",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "将 NES CPU 编译进 Qwen3.5 模型权重，实现游戏运行。",
+    "url": "https://github.com/dbreunig/nesformer",
+    "via": "Hacker News",
+    "id": "50f4cc4574b6",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "LOWN：扩散视觉语言模型视觉路由",
+    "when": "11月1日消息",
+    "date": "2026-11-01",
+    "body": "LOWN 方法通过比较有无图像的预测结果来决定是否处理图像，将解码计算量降低至 35.3%。",
+    "url": "https://arxiv.org/abs/2610.36671",
+    "via": "Hugging Face 热门论文",
+    "id": "d196dc8b4e0b",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "CLE：大模型智能体持续学习评测",
+    "when": "11月1日消息",
+    "date": "2026-11-01",
+    "body": "CLE 基准包含 120 个人工任务和 600 个等级，用于评测大模型智能体的经验积累能力。",
+    "url": "https://arxiv.org/abs/2610.33956",
+    "via": "arXiv · 智能体",
+    "id": "925072c07718",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OmniShowcase：多视角图像生成全景一致视频",
+    "when": "11月1日消息",
+    "date": "2026-11-01",
+    "body": "OmniShowcase提出自动化数据合成管道和几何条件方法，生成覆盖12种相机运动的视频，在多视角视频生成中达到最先进水平。",
+    "url": "https://arxiv.org/abs/2610.35684",
+    "via": "Hugging Face 热门论文",
+    "id": "2b73ee66c853",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "思科给工程师无限 AI 代币重写遗留代码",
+    "when": "10月30日",
+    "date": "2026-10-30",
+    "body": "思科总裁给工程师无限 AI 代币，要求其重写遗留代码。",
+    "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+    "via": "Hacker News",
+    "id": "b691ffd44902",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "54d4b6dd0d0a": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "DeepSeek开源Super-agent架构",
+    "body": "DeepSeek开源Super-agent架构，引入调度、缓存等思想，提升多任务协作效率。"
+   },
+   "bc611d5d40d2": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "e36d86659380": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "b691ffd44902": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "思科给工程师无限 AI 代币重写遗留代码",
+    "body": "思科总裁给工程师无限 AI 代币，要求其重写遗留代码。"
+   },
+   "50f4cc4574b6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Qwen3.5 权重中运行任天堂",
+    "body": "将 NES CPU 编译进 Qwen3.5 模型权重，实现游戏运行。"
+   },
+   "ad38e0459c21": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "DeepSeek公布Super agent架构",
+    "body": "DeepSeek公布Super-agent底层架构，引入调度、缓存等思想，提升多任务协作效率。"
+   },
+   "b46d48276281": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "阿里千问接入Apple智能",
+    "body": "阿里巴巴与Apple达成合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问。"
+   },
+   "c36f63da3832": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "Momenta发布X7 Ultra芯片",
+    "body": "Momenta发布X7 Ultra芯片，超大核NPU达700TOPS，NPU计算利用率达98.7%。"
+   },
+   "3bdf5e0b15b5": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "阿里千问接入Apple智能",
+    "body": "阿里巴巴与Apple达成合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问。"
+   },
+   "fe6897699718": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI分享公平使用观点",
+    "body": "OpenAI分享创作者、学者等关于公平使用支持AI训练和创新的法庭简报节选。"
+   },
+   "9dd592cb493d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Orkas：本地优先的桌面 AI 团队",
+    "body": "Orkas 是一个本地优先的桌面 AI 团队，包含 16 个内置专家代理。"
+   },
+   "1e77236f1a55": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "MinerU 发布 4.1.0 版本",
+    "body": "MinerU发布4.1.0版本，支持主流平台与GPU自动加速，统一Tasks异步接口。"
+   },
+   "ef2576b2771c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "sapper-v2：自主渗透测试军团",
+    "body": "sapper-v2 是一个自主渗透测试军团，包含 AI 指挥官和意图图。"
+   },
+   "29b000d7f4dc": {
+    "v": "4f7b2f10",
+    "cat": "",
+    "headline": "DeepSeek完成1055亿元融资",
+    "body": ""
+   },
+   "74ef3e6d2001": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "diy-llm：LLM 全栈知识",
+    "body": "diy-llm 涵盖预训练、分词、Transformer、MoE 等全栈知识。"
+   },
+   "84f2b6b95977": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Nasiko：AI 智能体运行时",
+    "body": "Nasiko 是 AI 智能体的开放运行时。"
+   },
+   "10f39497be6b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "dsh-superagent-prototype：更自主的智能体系统",
+    "body": "deepseek-ai 发布 dsh-superagent-prototype，旨在构建更自主的智能体系统。"
+   },
+   "95d7bfdc1c02": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "d196dc8b4e0b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LOWN：扩散视觉语言模型视觉路由",
+    "body": "LOWN 方法通过比较有无图像的预测结果来决定是否处理图像，将解码计算量降低至 35.3%。"
+   },
+   "925072c07718": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "CLE：大模型智能体持续学习评测",
+    "body": "CLE 基准包含 120 个人工任务和 600 个等级，用于评测大模型智能体的经验积累能力。"
+   },
+   "2b73ee66c853": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OmniShowcase：多视角图像生成全景一致视频",
+    "body": "OmniShowcase提出自动化数据合成管道和几何条件方法，生成覆盖12种相机运动的视频，在多视角视频生成中达到最先进水平。"
+   },
+   "8dccbef7ed6f": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WorkFactory：将专业意图转化为可执行工作",
+    "body": "WorkFactory框架通过信息级规划和探针执行构建了112,686个任务，生成高质量的教师轨迹，显著提升了Qwen模型在专业工作基准上的表现。"
+   },
+   "7c5f24ff8abc": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Rollback：世界模型中的经验回溯与策略改进",
+    "body": "Rollback范式通过回溯到关键决策点并探索反事实未来，生成细粒度的动作级监督，在三个真实机器人任务中提升了成功率。"
+   }
+  }
+ }
+}
