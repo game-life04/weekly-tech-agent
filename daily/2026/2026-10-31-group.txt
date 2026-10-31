@@ -1,49 +1,34 @@
 【每日科技快讯】10月31日 周六
-今日 AI 与开源要闻 17 条，3 分钟速读
+今日 AI 与开源要闻 11 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
 2. AtomGit-mobile4Harmony 新增 1 个 PR
 
-【国内动态】
-3. 李飞飞挖的三个「坑」：从 ImageNet 到空间智能，这一次她会怎么填？
-→ 82 亿美元，已经为整个世界模型赛道提供了价值锚点。 作者丨 幸丽娟 编辑丨岑 峰 82亿美元，全股票收购李飞飞创立的 World Labs。 这是 AMD 史上第二大收购，仅次于 2022 年以约 500 亿美元拿下赛灵思。 赛灵思是3…
-4. 全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州
-→ 产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨 幸丽娟 编辑丨 岑 峰 训练一个可用的具身智能模型， 需 要千 万小时 的多模态交互数据；而 现实仅有百万小时 ，剔除低质部分后，真正可用的更少。 缺数据，是具身智能行业的共…
-
-【海外动态】
-5. From synthetic enterprise data evaluations to real Microsoft Copilot AI confide…
-→ Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizat…
-6. Making it easier for websites to express AI training preferences
-→ OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to par…
-7. Community safety report and new protections for teens
-→ OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commi…
-8. A Claude model autonomously chose a gene therapy and operated on a mouse brain…
-→ An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordi…
-
 【开源项目】
-9. CopilotKit/OpenBot
-→ Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided b…
-10. ethanplusai/harvey
-→ Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handle…
-11. wangzan101/Mika
-→ Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things do…
-12. mattpocock/skills
-→ Skills for Real Engineers. Straight from my .agents directory.
-13. lightpanda-io/browser
-→ Lightpanda: the headless browser designed for AI and automation。
+3. OpenBot：拥有独立环境的AI同事
+→ OpenBot是开源的AI同事，每个AI都拥有自己的浏览器、文件和工具，所有操作在发生前决定，发生后被记录。
+4. harvey：自主AI销售代理
+→ harvey是自主AI销售代理，支持Claude Code或Codex，能寻找潜在客户、撰写冷邮件并安排会议。
+5. Mika：手机上的私人AI助理
+→ Mika是运行在Android上的本地AI代理，能操作App和上网，帮助用户完成各种任务。
+6. dsh-Go：DeepSeek Harness 装进口袋
+→ dsh-go是DeepSeek Harness的移动端版本，可在手机本机运行，也能遥控电脑。
+7. Unlimited-OCR-2：图文理解模型
+→ Unlimited-OCR-2是图文理解模型，许可证为MIT。
 
 【学术前沿】
-14. Intrinsic Distribution Matching
-→ One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limit…
-15. Streaming Speech Recognition on a Microcontroller: a 65.7M-Parameter Transducer…
-→ We run Kroko, a 65.7M-parameter streaming Zipformer2 transducer for English, on the ESP32-P4, a microcontroller with tw…
-16. A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement
-→ Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when thei…
-17. Your Benchmark Is an Empirical Measure Over Difficulty
-→ A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In…
+8. 内在分布匹配：一步生成图像
+→ Intrinsic Distribution Matching针对一步和少步文本生成图像细节不足的问题，通过匹配特征均值和标准差来提升生成质量。
+9. 微控制器上的流式语音识别
+→ Kroko在ESP32-P4上运行，将65.7M参数的Zipformer2流式语音识别模型压缩为26.65MB的int8权重文件。
+10. Claude 模型自主完成小鼠脑部手术
+→ Claude 模型自主选择基因疗法并给小鼠做手术，是首个自主选择治疗并施用于哺乳动物的 AI 代理。
+11. A-RSI：零数据多模态自改进
+→ A-RSI通过监控训练日志中的奖励变化和准确率来动态刷新任务池，在11个基准测试中将平均性能从57.77提升至61.05。
 
 【活动预告】
 · 11月5日 RECOMB 2027 论文截稿
 
 完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-10-31-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

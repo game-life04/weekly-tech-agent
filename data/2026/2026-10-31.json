@@ -1,7 +1,10 @@
 {
  "date": "2026-10-31",
  "generated_at": "2026-10-30T22:58:14Z",
- "llm": null,
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
  "candidates": 481,
  "sources": [
   {
@@ -456,13 +459,18 @@
     "discussion": "https://news.ycombinator.com/item?id=50302334",
     "llm_score": 9.0,
     "excerpt_tried": true,
-    "evidence": "Anthropic Visual Studio Claude Code extension on Cursor has malware in it, which creates a remote access Trojan to desktops. https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+    "evidence": "Anthropic Visual Studio Claude Code extension on Cursor has malware in it, which creates a remote access Trojan to desktops. https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+    "llm_done": true
    },
    "id": "68db500dd20d",
    "score": 8.79,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Anthropic 官方 Claude Code 扩展被植入恶意软件，可创建远程访问木马。",
+   "tags": [
+    "安全漏洞",
+    "恶意软件",
+    "Claude Code"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -484,13 +492,18 @@
     "discussion": "https://news.ycombinator.com/item?id=50300683",
     "llm_score": 9.0,
     "excerpt_tried": true,
-    "evidence": "Phorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up … Organisations should immediately review their environments for use of Claude Code for VSCode 2.1.313 and engage incident response where use of the extension is discovered. Phorion has discovered a compromise of the official Claude Code for VS Code extension on the Cursor Marketplace, where the backdoored extension bundle contains a persistent Secure Shell (SSH) backdoor. Cursor has removed the associated release from its marketplace, additionally pulling NPM and VSCode versions for 2.1.313 from their relevant registries. While the implant includes setup and persistence logic for macOS, Linu…"
+    "evidence": "Phorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up … Organisations should immediately review their environments for use of Claude Code for VSCode 2.1.313 and engage incident response where use of the extension is discovered. Phorion has discovered a compromise of the official Claude Code for VS Code extension on the Cursor Marketplace, where the backdoored extension bundle contains a persistent Secure Shell (SSH) backdoor. Cursor has removed the associated release from its marketplace, additionally pulling NPM and VSCode versions for 2.1.313 from their relevant registries. While the implant includes setup and persistence logic for macOS, Linu…",
+    "llm_done": true
    },
    "id": "d4f691c037f4",
    "score": 8.76,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Claude Code VS Code 扩展被植入持久性 SSH 后门，影响 macOS、Linux 和 Windows。",
+   "tags": [
+    "安全漏洞",
+    "后门",
+    "Claude Code"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -511,13 +524,18 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50307183",
     "excerpt_tried": true,
-    "evidence": "The move came after 404 Media published an investigation into how Proton CEO Andy Yen was aggressively pushing AI across Proton despite security concerns and the culture of fear he has created. On Friday, Andy Yen, the CEO of Proton, cancelled a series of nearly company-wide ‘re-interviews’ that would have forced employees to explain how they are using AI, with the clear intention that they may be fired if not using it enough in the eyes of Proton leadership, according to six current Proton employees and audio of an around two hour all-hands meeting obtained by 404 Media. The move came after 404 Media published an investigation on Thursday, which showed how Yen was aggressively pushing AI across Proton, in some cases despite security concerns from employees. In one exchange, an employee i…"
+    "evidence": "The move came after 404 Media published an investigation into how Proton CEO Andy Yen was aggressively pushing AI across Proton despite security concerns and the culture of fear he has created. On Friday, Andy Yen, the CEO of Proton, cancelled a series of nearly company-wide ‘re-interviews’ that would have forced employees to explain how they are using AI, with the clear intention that they may be fired if not using it enough in the eyes of Proton leadership, according to six current Proton employees and audio of an around two hour all-hands meeting obtained by 404 Media. The move came after 404 Media published an investigation on Thursday, which showed how Yen was aggressively pushing AI across Proton, in some cases despite security concerns from employees. In one exchange, an employee i…",
+    "llm_done": true
    },
    "id": "a8732270ecb5",
    "score": 8.08,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Proton CEO 取消 AI 重面试",
+   "summary_zh": "Proton CEO Andy Yen 取消了强制员工解释 AI 使用情况的“重面试”，此前因安全担忧引发争议。",
+   "tags": [
+    "公司动态",
+    "AI 政策",
+    "Proton"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -538,13 +556,18 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50290177",
     "excerpt_tried": true,
-    "evidence": "The uncanny valley of LLMs' prose Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of revulsion There are tools out there that claim to be able to tell the difference between LLM-written prose and the old-fashioned biological product. I'm wary of them, partly due skeptism about their accuracy, but also because it rather misses the point. The reaction to LLM-Voice is a human one, that sense that we are in an uncanny valley of prose. By the time I'd reach for a tool to tell me what I'm reading, it's already too late, even if it confidently tells me ther…"
+    "evidence": "The uncanny valley of LLMs' prose Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of revulsion There are tools out there that claim to be able to tell the difference between LLM-written prose and the old-fashioned biological product. I'm wary of them, partly due skeptism about their accuracy, but also because it rather misses the point. The reaction to LLM-Voice is a human one, that sense that we are in an uncanny valley of prose. By the time I'd reach for a tool to tell me what I'm reading, it's already too late, even if it confidently tells me ther…",
+    "llm_done": true
    },
    "id": "32aa5b7adc0a",
    "score": 8.06,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "LLM 语音",
+   "summary_zh": "探讨 LLM 生成的文本有时会让人产生“恐怖谷”效应，并介绍区分 LLM 文本与人类文本的工具。",
+   "tags": [
+    "LLM",
+    "文本生成",
+    "评测"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -560,13 +583,18 @@
    "weight": 0.5,
    "metrics": {},
    "extra": {
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "887f2e8ee4e7",
    "score": 7.76,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Claude 模型自主选择基因疗法并给小鼠做手术",
+   "summary_zh": "Claude 模型自主选择基因疗法并给小鼠做手术，是首个自主选择治疗并施用于哺乳动物的 AI 代理。",
+   "tags": [
+    "智能体",
+    "医疗",
+    "自主决策"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -582,13 +610,18 @@
    "weight": 0.7,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "bb2f93cf2882",
    "score": 7.73,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "从合成企业数据评估到 Microsoft Copilot AI 置信度",
+   "summary_zh": "Microsoft 研究人员探讨如何使用合成企业数据评估 Microsoft Copilot，以解决真实企业数据敏感性问题。",
+   "tags": [
+    "评测",
+    "企业应用",
+    "Copilot"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -604,13 +637,18 @@
    "weight": 0.9,
    "metrics": {},
    "extra": {
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "e4822c713d2b",
    "score": 7.14,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "让网站更容易表达 AI 训练偏好",
+   "summary_zh": "OpenAI 将遵守共享 robots.txt 信号，帮助网站运营商向参与提供商传达其 AI 训练偏好。",
+   "tags": [
+    "OpenAI",
+    "训练偏好",
+    "robots.txt"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -626,13 +664,18 @@
    "weight": 0.9,
    "metrics": {},
    "extra": {
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "be87813a963d",
    "score": 7.13,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "社区安全报告及针对青少年的新保护措施",
+   "summary_zh": "OpenAI 加强 ChatGPT 的暴力预防，扩大安全防护、早期干预并承诺公开安全报告。",
+   "tags": [
+    "OpenAI",
+    "安全",
+    "青少年保护"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -648,13 +691,18 @@
    "weight": 0.5,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "b1268bf0c89a",
    "score": 7.07,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "李飞飞挖的三个「坑」：从 ImageNet 到空间智能",
+   "summary_zh": "李飞飞创立的 World Labs 获 82 亿美元收购，她将在空间智能领域亲自下场答题。",
+   "tags": [
+    "行业动态",
+    "李飞飞",
+    "World Labs"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -670,13 +718,18 @@
    "weight": 0.5,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "2dbf00f005fa",
    "score": 7.07,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "全国首个具身仿真数采中心落地杭州",
+   "summary_zh": "影溯想 1 个月生产完全行业两年攒下的百万小时数据，解决具身智能行业数据多样性不足问题。",
+   "tags": [
+    "具身智能",
+    "数据采集",
+    "仿真"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -696,13 +749,18 @@
    },
    "extra": {
     "language": "TypeScript",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "ab910b95a8e2",
    "score": 7.56,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "OpenBot 是开源的 AI 同事，每个 AI 都拥有自己的浏览器、文件和工具，所有操作在发生前决定，发生后被记录。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "OpenBot"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -722,7 +780,8 @@
    },
    "extra": {
     "language": "Python",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "e751db659474",
    "score": 7.3,
@@ -748,7 +807,8 @@
    "extra": {
     "language": "Kotlin",
     "age_days": 1,
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "6685fd5bb45a",
    "score": 7.13,
@@ -774,7 +834,8 @@
    },
    "extra": {
     "language": "Shell",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "611cc6c63716",
    "score": 7.02,
@@ -800,7 +861,8 @@
    },
    "extra": {
     "language": "Zig",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "532374c45383",
    "score": 6.94,
@@ -826,7 +888,8 @@
    "extra": {
     "language": "Dart",
     "age_days": 5,
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "4920fcf2bdbd",
    "score": 6.89,
@@ -857,7 +920,8 @@
       "https://hf-mirror.com/baidu/Unlimited-OCR-2"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "42390392088b",
    "score": 6.7,
@@ -881,13 +945,18 @@
    "extra": {
     "evidence": "## New Features - Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. (#57221, #57222, #57223, #57224) - Rendered Markdown consistently in async questions, choices, answers, and transcript replies. (#57259, #57292) - Added GPT-6.1 Terra to the bundled, Vertex AI, and Amazon Bedrock model catalogs. (#57293) - Added `codex queue --resume` to resume unloaded threads after queueing a message. (#57232) - Added clearer safety-block explanations and selectable safer follow-up prompts in the TUI. (#57363, #57365) - Added `codex doctor --network-only` for focused configuration, connectivity, and WebSocket diagnostics. (#57606) ## Bug Fixes - Preserved acknowledged approval and permission settings when resuming or forking threads. (#57227) - Preserved local image attachments when restoring killed composer text. (#57502) - Fixed standalone release cleanup on macOS when installations are in use or paths contain non-ASCII characters. (#57503) - Restored spawned descendant threads when unarchiving their parent. (#57635) - Fixed app-server thread startup and shutdown races and released completed runtimes promptly. (#57787, #57788) - Improved TUI reconnection recovery, including offline `/quit` and `/exit` handling. (#57820) - Preserved reasoning-token accounting across resume and fork to avoid premature compaction. (#57839) ## Chores - Switched Bazel to source-built V8 with target-matched Rust bindings and native Wind…",
     "level": "minor",
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "4ed2371cdc2f",
    "score": 6.28,
    "title_zh": "",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "开源工具",
+    "版本发布",
+    "Codex"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -911,13 +980,18 @@
       "https://github.com/inclusionAI/IDM"
      ]
     ],
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "1b161b32bd0b",
    "score": 7.84,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "内在分布匹配：一步生成图像",
+   "summary_zh": "针对一步和少步文本生成图像细节不足的问题，本文提出内在分布匹配方法，通过匹配特征均值和标准差来提升生成质量。在Z-Image-Turbo 6B和Qwen-Image 20B上的实验显示，IDM在中文和英文LongText-Bench上取得了最高分。",
+   "tags": [
+    "图像生成",
+    "生成模型",
+    "分布匹配"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -935,13 +1009,18 @@
     "upvotes": 150.0
    },
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "82b5e560e233",
    "score": 7.57,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "A-RSI：零数据多模态自改进",
+   "summary_zh": "针对多模态模型自改进中经验获取时机和监督信号依赖模型自身预测的问题，A-RSI通过监控训练日志中的奖励变化和准确率来动态刷新任务池。在11个基准测试中，A-RSI将平均性能从57.77提升至61.05。",
+   "tags": [
+    "多模态",
+    "自改进",
+    "强化学习"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -959,13 +1038,18 @@
     "upvotes": 0.0
    },
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "bc122e5226f9",
    "score": 6.14,
-   "title_zh": "",
+   "title_zh": "微控制器上的流式语音识别",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "语音识别",
+    "边缘计算",
+    "模型压缩"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -989,13 +1073,18 @@
       "https://github.com/ASTRAL-Group/benchmark-difficulty-measure"
      ]
     ],
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "861f2a7e266b",
    "score": 6.08,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "基准测试是难度上的经验测度",
+   "summary_zh": "本文提出基准测试的难度分布视角，识别出测度不匹配和覆盖缺口两种失败模式。通过分析25个基准测试，发现许多基准过度加权特定难度区域，并引入BenchFill算法填补覆盖缺口。",
+   "tags": [
+    "基准测试",
+    "评测",
+    "模型评估"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1013,13 +1102,18 @@
     "upvotes": 10.0
    },
    "extra": {
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "23b9c298afe1",
    "score": 5.92,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Glance：生成器即重排序器",
+   "summary_zh": "针对检索增强生成中重排序和回答模型分离的问题，Glance通过轻量级适配器和指针头让生成器同时完成重排序和回答。在MS MARCO和HotpotQA等数据集上，Glance的nDCG@10指标优于传统重排序模型。",
+   "tags": [
+    "检索增强生成",
+    "重排序",
+    "生成模型"
+   ],
    "also_in": [],
    "merged_ids": []
   }
@@ -1029,14 +1123,14 @@
   "day": "2026-10-31",
   "start": "2026-10-31",
   "end": "2026-10-31",
-  "title": "Intrinsic Distribution Matching",
-  "generated_at": "2026-10-30T22:58:14Z",
+  "title": "内在分布匹配：一步生成图像",
+  "generated_at": "2026-10-31T01:09:21Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
-  "pending": 23,
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-30",
    "end": "2026-10-30"
@@ -1081,169 +1175,103 @@
     "via": "GitHub"
    },
    {
-    "cat": "domestic",
-    "headline": "李飞飞挖的三个「坑」：从 ImageNet 到空间智能，这一次她会怎么填？",
-    "when": "10月30日",
-    "date": "2026-10-30",
-    "body": "82 亿美元，已经为整个世界模型赛道提供了价值锚点。 作者丨 幸丽娟 编辑丨岑 峰 82亿美元，全股票收购李飞飞创立的 World Labs。 这是 AMD 史上第二大收购，仅次于 2022 年以约 500 亿美元拿下赛灵思。 赛灵思是3…",
-    "url": "https://www.leiphone.com/category/academic/oi5NEt93WcuWwFr8.html",
-    "via": "雷峰网",
-    "id": "b1268bf0c89a",
-    "ai": false
-   },
-   {
-    "cat": "domestic",
-    "headline": "全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州",
-    "when": "10月30日",
-    "date": "2026-10-30",
-    "body": "产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨 幸丽娟 编辑丨 岑 峰 训练一个可用的具身智能模型， 需 要千 万小时 的多模态交互数据；而 现实仅有百万小时 ，剔除低质部分后，真正可用的更少。 缺数据，是具身智能行业的共…",
-    "url": "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html",
-    "via": "雷峰网",
-    "id": "2dbf00f005fa",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confide…",
-    "when": "10月30日",
-    "date": "2026-10-30",
-    "body": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizat…",
-    "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
-    "via": "Microsoft Research",
-    "id": "bb2f93cf2882",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "Making it easier for websites to express AI training preferences",
-    "when": "10月30日",
-    "date": "2026-10-30",
-    "body": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to par…",
-    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-    "via": "OpenAI",
-    "id": "e4822c713d2b",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "Community safety report and new protections for teens",
-    "when": "10月30日",
-    "date": "2026-10-30",
-    "body": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commi…",
-    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-    "via": "OpenAI",
-    "id": "be87813a963d",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "A Claude model autonomously chose a gene therapy and operated on a mouse brain…",
-    "when": "10月31日",
-    "date": "2026-10-31",
-    "body": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordi…",
-    "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
-    "via": "The Decoder",
-    "id": "887f2e8ee4e7",
-    "ai": false
-   },
-   {
     "cat": "opensource",
-    "headline": "CopilotKit/OpenBot",
+    "headline": "OpenBot：拥有独立环境的AI同事",
     "when": "10月31日消息",
     "date": "2026-10-31",
-    "body": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided b…",
+    "body": "OpenBot是开源的AI同事，每个AI都拥有自己的浏览器、文件和工具，所有操作在发生前决定，发生后被记录。",
     "url": "https://github.com/CopilotKit/OpenBot",
     "via": "GitHub Trending",
     "id": "ab910b95a8e2",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "ethanplusai/harvey",
+    "headline": "harvey：自主AI销售代理",
     "when": "10月31日消息",
     "date": "2026-10-31",
-    "body": "Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handle…",
+    "body": "harvey是自主AI销售代理，支持Claude Code或Codex，能寻找潜在客户、撰写冷邮件并安排会议。",
     "url": "https://github.com/ethanplusai/harvey",
     "via": "GitHub Trending",
     "id": "e751db659474",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "wangzan101/Mika",
+    "headline": "Mika：手机上的私人AI助理",
     "when": "10月31日消息",
     "date": "2026-10-31",
-    "body": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things do…",
+    "body": "Mika是运行在Android上的本地AI代理，能操作App和上网，帮助用户完成各种任务。",
     "url": "https://github.com/wangzan101/Mika",
     "via": "GitHub 新项目",
     "id": "6685fd5bb45a",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "mattpocock/skills",
+    "headline": "dsh-Go：DeepSeek Harness 装进口袋",
     "when": "10月31日消息",
     "date": "2026-10-31",
-    "body": "Skills for Real Engineers. Straight from my .agents directory.",
-    "url": "https://github.com/mattpocock/skills",
-    "via": "GitHub Trending",
-    "id": "611cc6c63716",
-    "ai": false
+    "body": "dsh-go是DeepSeek Harness的移动端版本，可在手机本机运行，也能遥控电脑。",
+    "url": "https://github.com/ccch1mneyyy/dsh-Go",
+    "via": "GitHub 新项目",
+    "id": "4920fcf2bdbd",
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "lightpanda-io/browser",
+    "headline": "Unlimited-OCR-2：图文理解模型",
     "when": "10月31日消息",
     "date": "2026-10-31",
-    "body": "Lightpanda: the headless browser designed for AI and automation。",
-    "url": "https://github.com/lightpanda-io/browser",
-    "via": "GitHub Trending",
-    "id": "532374c45383",
-    "ai": false
+    "body": "Unlimited-OCR-2是图文理解模型，许可证为MIT。",
+    "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+    "via": "Hugging Face 热门模型",
+    "id": "42390392088b",
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "Intrinsic Distribution Matching",
+    "headline": "内在分布匹配：一步生成图像",
     "when": "10月29日",
     "date": "2026-10-29",
-    "body": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limit…",
+    "body": "Intrinsic Distribution Matching针对一步和少步文本生成图像细节不足的问题，通过匹配特征均值和标准差来提升生成质量。",
     "url": "https://arxiv.org/abs/2610.39633",
     "via": "Hugging Face 热门论文",
     "id": "1b161b32bd0b",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "Streaming Speech Recognition on a Microcontroller: a 65.7M-Parameter Transducer…",
+    "headline": "微控制器上的流式语音识别",
     "when": "10月29日",
     "date": "2026-10-29",
-    "body": "We run Kroko, a 65.7M-parameter streaming Zipformer2 transducer for English, on the ESP32-P4, a microcontroller with tw…",
+    "body": "Kroko在ESP32-P4上运行，将65.7M参数的Zipformer2流式语音识别模型压缩为26.65MB的int8权重文件。",
     "url": "https://arxiv.org/abs/2610.38739",
     "via": "arXiv · 语音",
     "id": "bc122e5226f9",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+    "headline": "Claude 模型自主完成小鼠脑部手术",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "Claude 模型自主选择基因疗法并给小鼠做手术，是首个自主选择治疗并施用于哺乳动物的 AI 代理。",
+    "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+    "via": "The Decoder",
+    "id": "887f2e8ee4e7",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "A-RSI：零数据多模态自改进",
     "when": "10月31日消息",
     "date": "2026-10-31",
-    "body": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when thei…",
+    "body": "A-RSI通过监控训练日志中的奖励变化和准确率来动态刷新任务池，在11个基准测试中将平均性能从57.77提升至61.05。",
     "url": "https://arxiv.org/abs/2610.38568",
     "via": "Hugging Face 热门论文",
     "id": "82b5e560e233",
-    "ai": false
-   },
-   {
-    "cat": "papers",
-    "headline": "Your Benchmark Is an Empirical Measure Over Difficulty",
-    "when": "10月31日消息",
-    "date": "2026-10-31",
-    "body": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In…",
-    "url": "https://arxiv.org/abs/2610.29927",
-    "via": "Hugging Face 热门论文",
-    "id": "861f2a7e266b",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "events",
@@ -1255,6 +1283,145 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "68db500dd20d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "d4f691c037f4": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a8732270ecb5": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "32aa5b7adc0a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "887f2e8ee4e7": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Claude 模型自主完成小鼠脑部手术",
+    "body": "Claude 模型自主选择基因疗法并给小鼠做手术，是首个自主选择治疗并施用于哺乳动物的 AI 代理。"
+   },
+   "bb2f93cf2882": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Microsoft Copilot AI 置信度评估",
+    "body": "Microsoft 研究人员探讨如何使用合成企业数据评估 Microsoft Copilot，以解决真实企业数据敏感性问题。"
+   },
+   "e4822c713d2b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 遵守 robots.txt 信号",
+    "body": "OpenAI 将遵守共享 robots.txt 信号，帮助网站运营商向参与提供商传达其 AI 训练偏好。"
+   },
+   "be87813a963d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 加强 ChatGPT 安全防护",
+    "body": "OpenAI 加强 ChatGPT 的暴力预防，扩大安全防护、早期干预并承诺公开安全报告。"
+   },
+   "b1268bf0c89a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "李飞飞 World Labs 获 82 亿美元收购",
+    "body": "李飞飞创立的 World Labs 获 82 亿美元收购，她将在空间智能领域亲自下场答题。"
+   },
+   "2dbf00f005fa": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "影溯想具身仿真数采中心落地杭州",
+    "body": "影溯想 1 个月生产完全行业两年攒下的百万小时数据，解决具身智能行业数据多样性不足问题。"
+   },
+   "ab910b95a8e2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenBot：拥有独立环境的AI同事",
+    "body": "OpenBot是开源的AI同事，每个AI都拥有自己的浏览器、文件和工具，所有操作在发生前决定，发生后被记录。"
+   },
+   "e751db659474": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "harvey：自主AI销售代理",
+    "body": "harvey是自主AI销售代理，支持Claude Code或Codex，能寻找潜在客户、撰写冷邮件并安排会议。"
+   },
+   "6685fd5bb45a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Mika：手机上的私人AI助理",
+    "body": "Mika是运行在Android上的本地AI代理，能操作App和上网，帮助用户完成各种任务。"
+   },
+   "611cc6c63716": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "532374c45383": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "4920fcf2bdbd": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "dsh-Go：DeepSeek Harness 装进口袋",
+    "body": "dsh-go是DeepSeek Harness的移动端版本，可在手机本机运行，也能遥控电脑。"
+   },
+   "42390392088b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Unlimited-OCR-2：图文理解模型",
+    "body": "Unlimited-OCR-2是图文理解模型，许可证为MIT。"
+   },
+   "4ed2371cdc2f": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "openai/codex rust-v0.166.0 发布",
+    "body": "openai/codex rust-v0.166.0 新增键盘驱动转录选择、Markdown 渲染改进等功能。"
+   },
+   "1b161b32bd0b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "Intrinsic Distribution Matching针对一步和少步文本生成图像细节不足的问题，通过匹配特征均值和标准差来提升生成质量。"
+   },
+   "82b5e560e233": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "A-RSI：零数据多模态自改进",
+    "body": "A-RSI通过监控训练日志中的奖励变化和准确率来动态刷新任务池，在11个基准测试中将平均性能从57.77提升至61.05。"
+   },
+   "bc122e5226f9": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "微控制器上的流式语音识别",
+    "body": "Kroko在ESP32-P4上运行，将65.7M参数的Zipformer2流式语音识别模型压缩为26.65MB的int8权重文件。"
+   },
+   "861f2a7e266b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "基准测试是难度上的经验测度",
+    "body": "论文提出基准测试的难度分布视角，识别出测度不匹配和覆盖缺口两种失败模式，并引入BenchFill算法填补覆盖缺口。"
+   },
+   "23b9c298afe1": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Glance：生成器即重排序器",
+    "body": "Glance通过轻量级适配器和指针头让生成器同时完成重排序和回答，在MS MARCO和HotpotQA等数据集上nDCG@10指标优于传统模型。"
+   }
+  }
  }
 }
