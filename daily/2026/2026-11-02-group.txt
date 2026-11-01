@@ -1,0 +1,38 @@
+【每日科技快讯】11月2日 周一
+今日 AI 与开源要闻 11 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
+
+【国内动态】
+2. 工信部：我国AI推理数据量首超训练数据量
+→ 四大AI公司联合推行新标准，允许网站通过robots.txt统一声明拒绝AI抓取训练内容。
+
+【开源项目】
+3. Jev开源精准筛选候选人工具
+→ TypeSafe AI开源Jev工具，比Clay便宜85%，能帮Agent精准筛选并补齐候选人信息。
+4. pixelfx：244个像素艺术效果代码片段
+→ pixelfx 包含244个像素艺术效果的小代码片段，并提供 Claude Code 技能。
+5. ai-engineering-hub：LLM与RAG深度教程
+→ ai-engineering-hub 提供关于 LLMs、RAGs 和真实世界 AI 智能体应用的深度教程。
+6. anthropics/skills：Agent技能公共仓库
+→ anthropics/skills 是 Agent Skills 的公共仓库。
+7. paperclip：开源Agent管理应用
+→ paperclip 是开源的 Agent 管理应用。
+
+【学术前沿】
+8. 清华姚期智团队提出代数世界模型
+→ 清华姚期智团队提出代数世界模型，旨在解决AI训练数据污染问题，让AI从观察实验中理解世界。
+9. ThinkWorld：世界想象强化动态推理
+→ ThinkWorld 框架将动作推理建立在世界动力学上，通过强化学习进行强化，实现了有效的人机迁移。
+10. JEPAs 证明柏拉图表示假设
+→ 研究将柏拉图表示假设转化为定理，证明联合嵌入预测架构能学习到相同的世界表示。
+11. DeFT-RAG 分解多跳问题
+→ DeFT-RAG 框架通过生成自包含子问题并缓存答案，提升了检索增强生成处理多跳问题的准确率。
+
+【活动预告】
+· 11月5日 RECOMB 2027 论文截稿
+
+上周快讯（10.26–11.01）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W44.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-02-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

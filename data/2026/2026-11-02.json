@@ -1,0 +1,1420 @@
+{
+ "date": "2026-11-02",
+ "generated_at": "2026-11-01T22:49:01Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 444,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 40,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 18.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 3.5
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 50,
+   "error": "",
+   "seconds": 5.6
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 335,
+   "error": "",
+   "seconds": 22.6
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 22.2
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 21.3
+  }
+ ],
+ "items": [
+  {
+   "title": "The AI cost of JavaScript frameworks",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-01T06:06:19Z",
+   "summary": "",
+   "heat": 0.901,
+   "weight": 0.6,
+   "metrics": {
+    "points": 270.0,
+    "comments": 209.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50323088",
+    "excerpt_tried": true,
+    "evidence": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will… For a long time it seemed like our community’s allergy to evidence was driven by the desire for greater DX . In other words, devs just liked the way it felt to type JSX in React, and the arguments promoting React or related tools (“the virtual DOM is fast!”) were largely post-hoc rationalizations to justify those initial gut feelings. ( Jonathan Haidt would likely agree with this assessment.) But in the agentic era, when developers are no longer typing code by hand and are thus less constrained by DX, I still see vibes ruling the day (and not just in the sense of “vibe-coding”). Frontends are rewritten because some framework or anothe…",
+    "llm_done": true
+   },
+   "id": "d6756f65c5e6",
+   "score": 7.88,
+   "title_zh": "JavaScript 框架的 AI 成本",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Do the math: How we took over ChatGPT accounts",
+   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-10-31T10:30:11Z",
+   "summary": "",
+   "heat": 0.946,
+   "weight": 0.6,
+   "metrics": {
+    "points": 357.0,
+    "comments": 176.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50314699",
+    "excerpt_tried": true,
+    "evidence": "By bypassing ChatGPT's sandbox and content security policy, our research team was able to take over anyone's account simply by sending them a link. In October 2026, we found a way to turn an ordinary public ChatGPT share into attacker-controlled JavaScript running inside the signed-in session of whoever opened it. An attacker could create a malicious conversation, publish it using ChatGPT's normal sharing feature, and send the link to another user. When the victim opened the share, the payload executed as chatgpt.com with access to the victim's authenticated web session. We confirmed that this code could enumerate the victim's conversation list, retrieve content from a private conversation that had never been shared with the attacker, and send data from that conversation to an external se…",
+    "llm_done": true
+   },
+   "id": "b3aa3ecd4b47",
+   "score": 7.71,
+   "title_zh": "算一算：我们如何接管 ChatGPT 账号",
+   "summary_zh": "研究团队绕过 ChatGPT 的沙箱和内容安全策略，通过发送链接接管他人账号。",
+   "tags": [
+    "安全",
+    "攻防"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "It wasn't AI that flipped Proton's charge",
+   "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-01T18:53:55Z",
+   "summary": "",
+   "heat": 0.784,
+   "weight": 0.6,
+   "metrics": {
+    "points": 130.0,
+    "comments": 79.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50328488",
+    "excerpt_tried": true,
+    "evidence": "Proton's CEO called a request for security testing \"loser thinking\". Using AI to write code is fine, but for a privacy company, the guardrails around that code are the product. I’ve been paying for Proton for many years, and it’s what I recommend when someone asks how to get off Gmail. This week 404 Media published an investigation into how Proton’s leadership is pushing AI inside the company. The detail that made the rounds came from the security Slack channel: an engineer asked for a few days to pentest new code before shipping it, and CEO Andy Yen answered that it was “bullshit and loser thinking” , then told the team to stop lovingly handcrafting code and use AI more. For the first time, I’m not sure I’d still recommend them. A lot of the reactions treat this as an AI story, as if any…",
+    "llm_done": true
+   },
+   "id": "815086c57532",
+   "score": 7.61,
+   "title_zh": "让 Proton 舆论反转的不是 AI",
+   "summary_zh": "Proton CEO 称安全测试请求是“输家思维”，引发对隐私公司内部 AI 应用的争议。",
+   "tags": [
+    "隐私",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+   "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-01T13:47:24Z",
+   "summary": "",
+   "heat": 0.795,
+   "weight": 0.6,
+   "metrics": {
+    "points": 139.0,
+    "comments": 63.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50325662",
+    "excerpt_tried": true,
+    "evidence": "It is hoped game testing can provide insight into recent AI agent headlines, good and bad. Get started with free access to reviews, badges and discussions. Unlock exclusive tools and insights for enthusiasts who want more. Access Bench, Roadmaps, deep analysis and other exclusive tools. Dive into our proprietary testing data and compare hardware with detailed benchmarks. Go beyond the headlines with expert reporting on the hardware industry. Track upcoming CPUs, GPUs and tech releases before they arrive. In-depth features, interviews and insider stories from the world of hardware. Expert insights and analysis delivered to your inbox. Dive into our proprietary testing data and compare hardware with detailed benchmarks. Go beyond the headlines with expert reporting on the hardware industry.…",
+    "llm_done": true
+   },
+   "id": "2fd614976915",
+   "score": 7.53,
+   "title_zh": "AI 智能体在 Minecraft 中未能建立文明",
+   "summary_zh": "AI 智能体群在游戏测试中因官僚主义而失败，未能建立文明。",
+   "tags": [
+    "智能体",
+    "游戏"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+   "url": "https://www.qbitai.com/2026/11/507031.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-01T08:02:37Z",
+   "summary": "让AI像牛顿一样思考",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "让AI像牛顿一样思考 清华大学 姚期智和袁洋 老师领导的科研团队，搞出了一个重磅项目，叫「代数世界模型」 （Algebraic World Model,AWM） 。 如果让AI只学习牛顿发现万有引力之前的所有知识，它能自己把万有引力给推导出来吗？ 尴尬的是，训练数据容易被污染，很难复原出这样的情景：打造一个完全陌生的世界，让AI从0开始观察和实验。 但如今，代数世界模型给出了一种新解法。让AI从观察和实验出发，进一步理解世界这件事，变得没那么遥远了。 有个叫ARC-AGI-3的游戏集，现在是各大前沿模型秀肌肉的地方。这游戏的特点就是，啥也不告诉你，没有规则，没有目标。 像GPT Astra这种顶流选手，配合Provider Adapter框架，在这里面能拿到 99.9% 的高分。 Astra生成的这些规则，就是第谷的笔记本，不是开普勒的定律。它只描述了现象，没抓住这个迷你游戏世界运行的本质。 研究人员把其中一个叫 sc25 的游戏，稍微改了改，初始步数设置成了一个根本不可能通关的数字。 结果，Astra试了8轮，有点沮丧，然后断言：18步肯定不行， 我估计至少要22步才能赢。 这还不是个例。在12次类似的测试里，顶级的GPT-6 Astra和Claude Opus 5.5加起来，只有5次判断出「不可能」，其中4次给出的最低步数还是错的。 但如果在现实世界里，让一个AI智能体去执行任务，它告诉你「这事儿没戏」，还给个错误的原因，那后果可能就严重了。 我们真正需要的，是AI在任务不可能时，能清楚地告诉我们「为什么不可能」，并且给出准确的判断，比如「只要条件再增加一点点，就可能了」。 这时候，就得靠代数的力量了。也就是前面提到的，清华团队搞的那个 代数世界模型 （AWM） 。 把游戏里的所有对象、关系和规则，抽象成一个「代数世界」。然后，利用大模型现在已经超强的数学能力，去理解…",
+    "llm_done": true
+   },
+   "id": "556f3d7336b0",
+   "score": 7.21,
+   "title_zh": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+   "summary_zh": "清华姚期智团队提出代数世界模型，解决AI训练数据污染问题，让AI从观察实验中理解世界。",
+   "tags": [
+    "模型发布",
+    "科研进展",
+    "AGI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Jev新成果，再次引爆开源",
+   "url": "https://www.qbitai.com/2026/11/506922.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-01T04:18:37Z",
+   "summary": "再次“性价比屠夫”",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "再次“性价比屠夫” 刚刚，Jev的母公司TypeSafe AI联手Agent工具平台Treg，开源了一款比Clay便宜了 85% 的找人工具，狂揽 6400 Star 。 而一向不放过任何玩梗机会的TypeSafe AI，则甩出了一张《飓风营救》的经典表情包，把Jev的核心能力总结得明明白白： 好好好，看来，Agent的“I will find you”时代，真的要来了。（doge） 新工具的使用方法很简单，你只需要把Treg接入Agent，再告诉Agent自己想找什么人就行。 请帮我找出旧金山地区、B轮以后AI初创公司的营销负责人，并补齐他们经过验证的工作邮箱。 它会先拆出地区、融资阶段、行业和职位等条件，再通过Treg调用相应的人员数据库，拉回一批可能符合要求的候选人。 它会根据已经搜到的资料，挨个判断这些候选人究竟是不是用户真正想找的角色，并把那些“看似沾边、实则跑偏”的人踢出去。 通过筛选后，Agent再经由Treg调用找人、查邮箱和邮箱验证等工具，补齐候选人的个人资料、工作经历、LinkedIn信息及经过验证的工作邮箱。 Agent 负责理解任务和调度流程， Jev 负责判断谁更符合要求， Treg 则把背后的数据工具接进来干活。 最终，Agent交给我们的就不再是一长串需要人工二次排查的名字，而是一份可以直接拿去招聘、拓客或做人物研究的名单。 Treg可以直接接入Claude Code、Codex等Agent使用 ，开发者不必先打开Clay，再跳进Apollo，最后挨个寻找邮箱验证工具； 没有的话，也可以先由Treg代为调用，并从预付余额中按次扣费。（自带密钥的调用不走Treg计费。） 这波，确实有点连姆·尼森在《飓风营救》里隔着电话放话“I will find you”那味儿了。 至于到底能不能找到对的人，Treg还搬出了People Search Benc…",
+    "llm_done": true
+   },
+   "id": "3e0ed19517cb",
+   "score": 7.17,
+   "title_zh": "Jev新成果，再次引爆开源",
+   "summary_zh": "TypeSafe AI开源Jev工具，比Clay便宜85%，能帮Agent精准筛选并补齐候选人信息。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "招聘"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "科技爱好者周刊（第 417 期）：不要让 AI 代表你",
+   "url": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+   "source": "rss",
+   "section": "news",
+   "via": "阮一峰周刊",
+   "published": "2026-10-30T00:13:03Z",
+   "summary": "这里记录每周值得分享的科技内容，周五发布。 本杂志 开源 ，欢迎 投稿 。另有 《谁在招人》 服务，发布程序员招聘信息。合作请 邮件联系 （yifeng.ruan@gmail.com）。 封面图 四川宜宾市的青少年发展中心，建筑中庭的透光屋顶象征一个万花筒，会有不断变化的日光效果。（ via ） 不要让 AI 代表你 现在，不少人让 AI 代表自己做事，比如购买奶茶、回复邮件。 我建议不要这样。你可以用 AI 帮助自己学习和工作，但不要让它代表你，因为会造成社会混乱。 前不久，有人做了一个 实验 。他让6个 AI 模型代表自己去退火车票，但是这张票已经过了退票期限，正常情况下是退不掉的。 大家猜猜看，AI 收到这个任务后，做了什么？ （1）Grok 4.7 发现退不掉以后，在15天内向铁路公司、政府官员、议员、媒体等发送了187封抗议和交涉邮件。 （2）Fable 5.1 向5个组织撒谎，谎称当事人的母亲生病了，导致没有及时退票。 （3）Gemini 3.8 Flash 编造了另一种没有及时退票的理由：当事人在国外没有手机信号的偏远地区，无法完成银行身份认证。 （4）GPT-6 As…",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "bbf9ac4ed5a3",
+   "score": 7.01,
+   "title_zh": "科技爱好者周刊（第 417 期）：不要让 AI 代表你",
+   "summary_zh": "周刊建议不要让AI代表自己，因为实验显示AI在处理复杂事务时可能引发混乱。",
+   "tags": [
+    "行业动态",
+    "AI伦理",
+    "周刊"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准",
+   "url": "https://www.ithome.com/1/020/837.htm",
+   "source": "rss",
+   "section": "news",
+   "via": "IT之家",
+   "published": "2026-11-01T14:19:52Z",
+   "summary": "IT之家 11 月 1 日消息，OpenAI、谷歌、微软以及 Anthropic 近日宣布将采用一项新标准，内容发布方可以借助该标准选择拒绝 AI 抓取自家网站内容。借助这项管控机制，内容发布方可以一次性向多家 AI 企业统一申明自身针对 AI 模型训练的内容使用偏好，而不必为每家企业单独设置规则。 该标准由 Anthropic 技术负责人 Kevin Kelley 向互联网工程任务组（IETF）提出，并将集成在网站的 robots.txt 文件中。 长期以来， robots.txt 文件用于告知网络爬虫哪些网站内容允许抓取、哪些禁止抓取，适用场景包含搜索索引、网页归档以及 AI 模型训练。目前，网站必须向每一家 AI 企业分别单独声明自己的 AI 训练相关内容使用偏好。在此背景下， 各类 AI 爬虫持续抓取网站内容、将网页素材输入 AI 模型训练 ，内容发布方正为此焦头烂额。 IT之家注意到，目前，网站需向每家公司单独声明训练偏好，新标准旨在简化这一流程。Anthropic 已率先采纳，OpenAI 计划在未来几个月内落实，谷歌和微软则预计于明年支持。Meta 发言人 Andy S…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "1335d9d33f0d",
+   "score": 6.79,
+   "title_zh": "OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准",
+   "summary_zh": "四大AI公司联合推行新标准，允许网站通过robots.txt统一声明拒绝AI抓取训练内容。",
+   "tags": [
+    "行业动态",
+    "数据隐私",
+    "AI训练"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿",
+   "url": "https://www.ithome.com/1/020/809.htm",
+   "source": "rss",
+   "section": "news",
+   "via": "IT之家",
+   "published": "2026-11-01T10:46:02Z",
+   "summary": "IT之家 11 月 1 日消息，据央视新闻今日报道，中国电子信息产业发展研究院（简称“赛迪研究院”，英文缩写 CCID）昨日发布的《新域新质创新发展十大趋势》显示， 我国人工智能推理数据量首次超过训练数据量 ，标志着我国人工智能从模型训练研发阶段迈入规模化产业应用阶段。 数据显示，截至 2026 年 6 月， 日均词元调用量超过 175 万亿 ，相比 2024 年年初增长 1000 多倍。顶尖大模型的迭代周期也从过去的几个月压缩到几周甚至几天，人工智能正从“喂模型”的实验室阶段， 全面转入“用模型”的产业落地阶段 。 报道提到，随着“人工智能 + 制造”行动深入实施， 我国已累计建成 500 多家卓越级智能工厂 ，覆盖 31 个省（区、市），涵盖超过 80% 的制造业行业大类。国产算力、大模型已在钢铁、汽车等 20 个行业落地 1000 多个应用场景，推动个性化定制、全生命周期服务等新模式不断拓展。 据IT之家此前报道，在今年 9 月的 2026（第七届）中国互联网基础资源大会上，中国互联网络信息中心政策与国际合作所发布《生成式人工智能应用发展报告（2026）》。报告显示， 截至 2…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "0143e488c1f2",
+   "score": 6.75,
+   "title_zh": "我国AI推理数据量首超训练数据量，日均词元调用量超 175 万亿",
+   "summary_zh": "赛迪研究院报告显示，我国AI推理数据量首次超过训练数据量，日均词元调用量超 175 万亿。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "刚刚，谷歌TPU在太空开机！Gemma 4开口第一句竟是首诗",
+   "url": "https://aiera.com.cn/2026/11/01/other/admin/121712/%e5%88%9a%e5%88%9a%ef%bc%8c%e8%b0%b7%e6%ad%8ctpu%e5%9c%a8%e5%a4%aa%e7%a9%ba%e5%bc%80%e6%9c%ba%ef%bc%81gemma-4%e5%bc%80%e5%8f%a3%e7%ac%ac%e4%b8%80%e5%8f%a5%e7%ab%9f%e6%98%af%e9%a6%96%e8%af%97/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-01T00:06:51Z",
+   "summary": "算力，真的离开地球了！ 刚刚，谷歌干了一件相当炸裂的事：把自家的AI芯片送上太空，让它在绕地球飞行的卫星上运行大模型。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "f04a358349f3",
+   "score": 6.54,
+   "title_zh": "谷歌TPU在太空开机！Gemma 4开口第一句竟是首诗",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "heat": 0.976,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2520.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 2,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "3c29011e1d8e",
+   "score": 7.75,
+   "title_zh": "",
+   "summary_zh": "包含 244 个像素艺术效果的小代码片段，并提供 Claude Code 技能。",
+   "tags": [
+    "开源工具",
+    "像素艺术"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "patchy631/ai-engineering-hub",
+   "url": "https://github.com/patchy631/ai-engineering-hub",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+   "heat": 0.793,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 573.0,
+    "stars": 40180.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "e393d6dea6fa",
+   "score": 7.51,
+   "title_zh": "",
+   "summary_zh": "提供关于 LLMs、RAGs 和真实世界 AI 智能体应用的深度教程。",
+   "tags": [
+    "开源工具",
+    "教程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Public repository for Agent Skills",
+   "heat": 0.76,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 438.0,
+    "stars": 186339.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "7d9b91592a8f",
+   "score": 7.44,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The open-source app everyone uses to manage agents at work",
+   "heat": 0.778,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 505.0,
+    "stars": 109892.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7a8f4b0eb867",
+   "score": 6.88,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "beenuar/AiSOC",
+   "url": "https://github.com/beenuar/AiSOC",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+   "heat": 0.759,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 436.0,
+    "stars": 6179.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1cc8167e7bc5",
+   "score": 6.84,
+   "title_zh": "",
+   "summary_zh": "开源 AI 安全运营中心，支持 LLM 智能体分诊和 MITRE ATT&CK 调查。",
+   "tags": [
+    "开源工具",
+    "安全",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "haydenschmitty/floorplan",
+   "url": "https://github.com/haydenschmitty/floorplan",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+   "heat": 0.796,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1683.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 5,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "afdac2ce8379",
+   "score": 6.79,
+   "title_zh": "",
+   "summary_zh": "通过 Claude 或 Codex 生成的代码库交互式地图，展示应用结构。",
+   "tags": [
+    "开源工具",
+    "可视化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "拾趣 (Magpie) v0.1.19 发布，AI 更智能，内容识别更精准",
+   "url": "https://www.oschina.net/news/503329",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-01T11:17:10Z",
+   "summary": "拾趣 (Magpie) v0.1.19 发布，AI 更智能，内容识别更精准 拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian、预填日历，结果直接落地。图片、视频与扫描文档中的文字，框选亦可识别——处理在原地完成，无需迁入对话窗口。 Release ...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "94263cbb5a15",
+   "score": 6.32,
+   "title_zh": "",
+   "summary_zh": "拾趣 v0.1.19 发布，AI 更智能，内容识别更精准。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LiquidAI/LFM3-1.7B",
+   "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "文本生成模型，许可证 other",
+   "heat": 0.807,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 692.0,
+    "downloads": 37568.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/LiquidAI/LFM3-1.7B"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "d0558e123046",
+   "score": 6.21,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+   "url": "https://arxiv.org/abs/2610.37666",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introduce ThinkWorld, a VLA learning framework that grounds action reasoning in world dynamics and strengthens it through reinforcement learning with world imagination. ThinkWorld represents each action thought as a Chain-of-Dynamics (CoD), a sequence of discrete motion tokens that captures the intermediate dynamics connecting the current world to a future state and serves as a common action representation across embodiments. We first initialize CoD with action-labeled demonstrations, then predict the future induced by each CoD and reinforce those whose predictions better match the observed outcome. This enables videos without action annotations to provide direct supervision from observed state transitions, allowing human and robot experience to refine the same reasoning space. Experiments in simulation and on real robots demonstrate effective human-to-robot transfer and strong generalization to unseen tasks and environments.",
+   "heat": 0.737,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 66.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "67efa096f750",
+   "score": 6.5,
+   "title_zh": "ThinkWorld：世界想象强化动态推理",
+   "summary_zh": "针对视觉-语言-动作模型在机器人操作中泛化能力受限的问题，提出ThinkWorld框架。该方法将动作推理建立在世界动力学上，并通过强化学习进行强化。实验表明，该方法实现了有效的人机迁移，并能泛化到未见过的任务和环境。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "机器人"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+   "url": "https://arxiv.org/abs/2610.39302",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-29T00:00:00Z",
+   "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation whenever their positive pairs are two observations of one scene--good views--and their misalignment is bounded otherwise. Second, we show that next-token prediction is a JEPA with bad views, parts of a single document, which explains why language models align with vision only through scale. Third, we validate the theory from 145k captions to the texts of 940M web images, and uncover a scaling law of alignment that predicts unseen runs within seed noise. Good views need 42 times fewer training samples than next-token prediction on the same corpus to reach the same alignment, and a 109M-parameter text JEPA aligns with DINOv2 and CLIP's image encoders better than every language model we evaluated, up to 72B parameters, and than CLIP's text encoder: next-token prediction is a remarkably inefficient route to platonic representations. As a showcase, one rotation turns separately trained encoders into an image captioner (CIDEr .838 on COCO). Even that rotation needs no pair: on the latest pair…",
+   "heat": 0.731,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 64.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/galilai-group/prh-proof"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "a9405ab3cf71",
+   "score": 5.99,
+   "title_zh": "JEPAs 证明并改进柏拉图表示假设",
+   "summary_zh": "针对不同模态模型是否收敛到同一世界表示的问题，将柏拉图表示假设转化为定理。研究证明联合嵌入预测架构（JEPAs）能学习到相同的表示，并发现下一个词预测是效率极低的路径。实验验证了理论，并展示了模型在图像描述任务上的效果。",
+   "tags": [
+    "多模态",
+    "表示学习",
+    "JEPAs"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers",
+   "url": "https://arxiv.org/abs/2610.37826",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-27T18:40:23Z",
+   "summary": "Retrieval-augmented generation (RAG) lets a large language model (LLM) answer questions by retrieving relevant passages from a large corpus. However, RAG struggles with multi-hop questions, which require chaining facts spread across several documents through intermediate entities that the question never mentions. Graph-based RAG methods retrieve once from the entities a question names and so rarely recover the full evidence chain. Iterative RAG methods recover it step by step, but their accuracy is limited by the many tasks they ask the LLM to perform, such as planning the sub-questions, deciding their dependencies, rewriting them as answers arrive, and keeping track of what is known. We propose DeFT-RAG, a RAG framework built on three components. First, DeFT-RAG generates one self-contained sub-question at a time from the original question and the sub-questions answered so far with their answers (QA pairs). Each sub-question names every entity it asks about, which removes the need to plan, track dependencies or rewrite, and lets the LLM focus on a single fine-grained task at a time. Second, DeFT-RAG moves the remaining LLM work outside the LLM: rule-based updates to a QA table that keeps track of what is known, and yes/no decisions made by a fine-tuned lightweight decision model. Third, DeFT-RAG caches the QA pairs and reuses an answer when a later question asks a sub-question with the same meaning. On MuSiQue, 2WikiMultiHopQA and HotpotQA, DeFT-RAG achieves the best accura…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "8f9b0e0b60da",
+   "score": 5.89,
+   "title_zh": "DeFT-RAG：增量分解多跳问题",
+   "summary_zh": "针对检索增强生成在处理多跳问题时的困难，提出DeFT-RAG框架。该方法通过生成自包含的子问题并缓存答案，简化了LLM的任务。实验表明，该方法在多个数据集上取得了最佳准确率。",
+   "tags": [
+    "检索增强",
+    "多跳问答",
+    "长上下文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents",
+   "url": "https://arxiv.org/abs/2610.34491",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-25T18:33:17Z",
+   "summary": "Generative models increasingly expose a reasoning effort setting that lets users scale inference-time compute, trading higher cost for potentially improved performance. Users must choose an effort level before knowing whether extra reasoning will help, and even a successful run does not reveal whether the effort purchased was necessary. Reasoning effort is therefore a credence good: buyers observe the outcome but cannot assess the marginal value of the computation they paid for. In this work, we measure the counterfactual effect of effort levels on both proprietary and open-weight models on four benchmarks, spanning single-call reasoning and long-horizon agentic tasks. Effort, it turns out, does not consistently preserve tasks that lower effort solves, can overspend, and can change trajectory behavior. First, we find that although higher effort can raise accuracy in aggregate, it frequently fails on tasks that lower effort solved. Second, on the subset of easy tasks that every effort level solves, higher effort is generally more costly, with the highest effort level costing up to 42x as much as the lowest. Lastly, effort changes not only how many tokens are used, but also how agents solve tasks: at higher effort, agents verify their own work more heavily and more often search for solutions than work through problems directly, both of which lengthen trajectories without necessarily altering the outcome. These findings show that naively choosing the highest level is not only c…",
+   "heat": 0.613,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 32.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/KaiserWhoLearns/ReasoningEffortLLM"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "cf5d5059b800",
+   "score": 5.85,
+   "title_zh": "LLM智能体推理努力的经济性研究",
+   "summary_zh": "针对LLM智能体推理努力设置的经济性问题，分析了不同努力水平对性能的影响。研究发现，更高的努力并不总能提升性能，且容易在低努力水平已解决的任务上失败。此外，高努力水平会改变智能体的任务解决轨迹。",
+   "tags": [
+    "智能体",
+    "推理加速",
+    "经济学"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Predicting What Answer Engines Cite: Open Decision Models, Rerankers and a Distilled 4B Student on Ten Engines under Controlled Retrieval",
+   "url": "https://arxiv.org/abs/2610.38090",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-28T00:11:13Z",
+   "summary": "Generative engine optimization needs a scorer that ranks candidate pages by the share of an answer they will receive as citations. We measure pretrained rerankers, a hosted typed decision model (Jev), eight open decision models and distilled students on GEO-Bench queries answered by ten engines that receive the same candidate sources in their prompt. Where several engines answer the same query, they agree with one another at a within-group Spearman correlation of 0.704. Jev and two open 27B decision models, used without training, are the strongest scorers at 0.575 to 0.578. A Qwen3-Reranker-4B fine-tuned with low-rank adapters on teacher labels for other GEO-Bench queries, released as GEO Citation Ranker 4B, reaches 0.542 to 0.549 across three seeds, and its differences with the 27B models and with Jev are not distinguishable from zero on 229 queries. Most of the remaining distance between the student and Jev disappears when Jev scores one passage at a time, as the student does. Students trained on teacher labels and on observed engine citations reach the same level, and labels from Jev alone match the two-teacher target at 0.6B. We release the model, the benchmark, the predictions of every reported scorer and the code.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "0b1a396f8d2f",
+   "score": 5.3,
+   "title_zh": "预测答案引擎引用：开放决策模型与蒸馏模型",
+   "summary_zh": "针对生成式引擎优化中评分器的需求，评估了多种模型在GEO-Bench查询上的表现。研究发现，开放决策模型和蒸馏模型在评分上表现接近，且当评分模型逐段评分时，学生模型与教师模型的差距缩小。研究发布了模型、基准和代码。",
+   "tags": [
+    "检索增强",
+    "决策模型",
+    "蒸馏"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-02",
+  "start": "2026-11-02",
+  "end": "2026-11-02",
+  "title": "pixelfx：244个像素艺术效果代码片段",
+  "generated_at": "2026-11-01T22:49:01Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 1,
+  "club_period": {
+   "start": "2026-11-01",
+   "end": "2026-11-01"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 1 次",
+    "when": "11月1日",
+    "date": "2026-11-01",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 0 个有人参与开发，共新增 PR 1 个、合并 1 个，提交 1 次，新增代码 2 行、删除 2 行。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "domestic",
+    "headline": "工信部：我国AI推理数据量首超训练数据量",
+    "when": "11月1日",
+    "date": "2026-11-01",
+    "body": "四大AI公司联合推行新标准，允许网站通过robots.txt统一声明拒绝AI抓取训练内容。",
+    "url": "https://www.ithome.com/1/020/837.htm",
+    "via": "IT之家",
+    "id": "1335d9d33f0d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Jev开源精准筛选候选人工具",
+    "when": "11月1日",
+    "date": "2026-11-01",
+    "body": "TypeSafe AI开源Jev工具，比Clay便宜85%，能帮Agent精准筛选并补齐候选人信息。",
+    "url": "https://www.qbitai.com/2026/11/506922.html",
+    "via": "量子位",
+    "id": "3e0ed19517cb",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "pixelfx：244个像素艺术效果代码片段",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "pixelfx 包含244个像素艺术效果的小代码片段，并提供 Claude Code 技能。",
+    "url": "https://github.com/patch-gg/pixelfx",
+    "via": "GitHub 新项目",
+    "id": "3c29011e1d8e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "ai-engineering-hub：LLM与RAG深度教程",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "ai-engineering-hub 提供关于 LLMs、RAGs 和真实世界 AI 智能体应用的深度教程。",
+    "url": "https://github.com/patchy631/ai-engineering-hub",
+    "via": "GitHub Trending",
+    "id": "e393d6dea6fa",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "anthropics/skills：Agent技能公共仓库",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "anthropics/skills 是 Agent Skills 的公共仓库。",
+    "url": "https://github.com/anthropics/skills",
+    "via": "GitHub Trending",
+    "id": "7d9b91592a8f",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "paperclip：开源Agent管理应用",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "paperclip 是开源的 Agent 管理应用。",
+    "url": "https://github.com/paperclipai/paperclip",
+    "via": "GitHub Trending",
+    "id": "7a8f4b0eb867",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "清华姚期智团队提出代数世界模型",
+    "when": "11月1日",
+    "date": "2026-11-01",
+    "body": "清华姚期智团队提出代数世界模型，旨在解决AI训练数据污染问题，让AI从观察实验中理解世界。",
+    "url": "https://www.qbitai.com/2026/11/507031.html",
+    "via": "量子位",
+    "id": "556f3d7336b0",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "ThinkWorld：世界想象强化动态推理",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "ThinkWorld 框架将动作推理建立在世界动力学上，通过强化学习进行强化，实现了有效的人机迁移。",
+    "url": "https://arxiv.org/abs/2610.37666",
+    "via": "Hugging Face 热门论文",
+    "id": "67efa096f750",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "JEPAs 证明柏拉图表示假设",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "研究将柏拉图表示假设转化为定理，证明联合嵌入预测架构能学习到相同的世界表示。",
+    "url": "https://arxiv.org/abs/2610.39302",
+    "via": "Hugging Face 热门论文",
+    "id": "a9405ab3cf71",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "DeFT-RAG 分解多跳问题",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "DeFT-RAG 框架通过生成自包含子问题并缓存答案，提升了检索增强生成处理多跳问题的准确率。",
+    "url": "https://arxiv.org/abs/2610.37826",
+    "via": "arXiv · 长上下文与检索",
+    "id": "8f9b0e0b60da",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "d6756f65c5e6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "b3aa3ecd4b47": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "815086c57532": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "2fd614976915": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "556f3d7336b0": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "清华姚期智团队提出代数世界模型",
+    "body": "清华姚期智团队提出代数世界模型，旨在解决AI训练数据污染问题，让AI从观察实验中理解世界。"
+   },
+   "3e0ed19517cb": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Jev开源精准筛选候选人工具",
+    "body": "TypeSafe AI开源Jev工具，比Clay便宜85%，能帮Agent精准筛选并补齐候选人信息。"
+   },
+   "bbf9ac4ed5a3": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "不要让AI代表你",
+    "body": "周刊建议不要让AI代表自己，因为实验显示AI在处理复杂事务时可能引发混乱。"
+   },
+   "1335d9d33f0d": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "工信部：我国AI推理数据量首超训练数据量",
+    "body": ""
+   },
+   "0143e488c1f2": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "谷歌将自家的AI芯片送上太空，让它在绕地球飞行的卫星上运行大模型。"
+   },
+   "f04a358349f3": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "3c29011e1d8e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "pixelfx：244个像素艺术效果代码片段",
+    "body": "pixelfx 包含244个像素艺术效果的小代码片段，并提供 Claude Code 技能。"
+   },
+   "e393d6dea6fa": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ai-engineering-hub：LLM与RAG深度教程",
+    "body": "ai-engineering-hub 提供关于 LLMs、RAGs 和真实世界 AI 智能体应用的深度教程。"
+   },
+   "7d9b91592a8f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "anthropics/skills：Agent技能公共仓库",
+    "body": "anthropics/skills 是 Agent Skills 的公共仓库。"
+   },
+   "7a8f4b0eb867": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "paperclip：开源Agent管理应用",
+    "body": "paperclip 是开源的 Agent 管理应用。"
+   },
+   "1cc8167e7bc5": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "AiSOC：开源AI安全运营中心",
+    "body": "AiSOC 是开源 AI 安全运营中心，支持 LLM 智能体分诊和 MITRE ATT&CK 调查。"
+   },
+   "afdac2ce8379": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "floorplan：代码库交互式地图",
+    "body": "floorplan 是通过 Claude 或 Codex 生成的代码库交互式地图，展示应用结构。"
+   },
+   "d0558e123046": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LFM3-1.7B：文本生成模型",
+    "body": "LFM3-1.7B 是文本生成模型。"
+   },
+   "67efa096f750": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "ThinkWorld：世界想象强化动态推理",
+    "body": "ThinkWorld 框架将动作推理建立在世界动力学上，通过强化学习进行强化，实现了有效的人机迁移。"
+   },
+   "a9405ab3cf71": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "JEPAs 证明柏拉图表示假设",
+    "body": "研究将柏拉图表示假设转化为定理，证明联合嵌入预测架构能学习到相同的世界表示。"
+   },
+   "8f9b0e0b60da": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DeFT-RAG 分解多跳问题",
+    "body": "DeFT-RAG 框架通过生成自包含子问题并缓存答案，提升了检索增强生成处理多跳问题的准确率。"
+   },
+   "cf5d5059b800": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LLM智能体推理努力的经济性",
+    "body": "研究分析了推理努力水平对智能体性能的影响，发现高努力并不总能提升表现。"
+   },
+   "0b1a396f8d2f": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "预测答案引擎引用",
+    "body": "研究评估了多种模型在GEO-Bench查询上的表现，发现开放决策模型和蒸馏模型评分接近。"
+   }
+  }
+ }
+}
