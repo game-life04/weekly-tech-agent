@@ -41,7 +41,7 @@
 
 【开源项目】
 8. DeepSeek完成1055亿元融资
-→ DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资名单，近 30 家投资者——比金额更有意思的是名单的构成变化。 腾讯和宁德时代仍是两大主力。腾讯两轮各出 100 亿；…
+→ DeepSeek 第二轮融资 1055 亿元人民币，腾讯和宁德时代仍是主力，长鑫存储和中芯国际等芯片厂商参与。
 9. Orkas：本地优先的桌面 AI 团队
 → Orkas 是一个本地优先的桌面 AI 团队，包含 16 个内置专家代理。
 10. MinerU 发布 4.1.0 版本
@@ -96,7 +96,7 @@
 
 #### 开源项目
 
-**DeepSeek完成1055亿元融资**<br>10月30日，DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资名单，近 30 家投资者——比金额更有意思的是名单的构成变化。 腾讯和宁德时代仍是两大主力。腾讯两轮各出 100 亿；…<br><sub>（来源：[开源中国](https://www.oschina.net/news/503318)）</sub>
+**DeepSeek完成1055亿元融资**<br>10月30日，DeepSeek 第二轮融资 1055 亿元人民币，腾讯和宁德时代仍是主力，长鑫存储和中芯国际等芯片厂商参与。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503318)）</sub>
 
 **Orkas：本地优先的桌面 AI 团队**<br>11月1日消息，Orkas 是一个本地优先的桌面 AI 团队，包含 16 个内置专家代理。<br><sub>（来源：[GitHub Trending](https://github.com/Orkas-AI/Orkas)）</sub>
 
@@ -124,7 +124,7 @@
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月31日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-01 06:28（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为10月31日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-01 08:30（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 2 期 · 10.19–10.25
 

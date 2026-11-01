@@ -658,13 +658,18 @@
    "extra": {
     "llm_score": 8.0,
     "excerpt_tried": true,
-    "evidence": "AI算力利用“九九成” 以智驾模型知名的 Momenta ，出现在了一家成立仅仅两年多的芯片公司首次公开亮相里。 芯片名字叫 X7 Ultra ，只看算力数值，在2026年底已经不能算“极致”了—— 700 TOPS 。 它想表达的是：X7 Ultra的确有更高的推理效率，但没有放任量化误差无限扩大，而是要求量化后的模型输出尽可能贴近FP32模型。 因为大模型实在太能吃算力、内存和功耗了，把模型权重和计算精度压下来的主要途径，就是减少存储与计算开销。但压得太狠，输出也可能出现偏差。 第二个指标，是 NPU计算利用率达到98.7% ，意味着芯片里的AI计算单元，在运行测试任务时，绝大部分时间都在执行有效的计算工作，闲置时间很少。 这通常也意味着芯片架构、数据传输和软件调度之间配合得比较好，计算单元不容易因为等数据、等指令而空转。 官方给出的参考数据是：对比行业旗舰产品，内存带宽消耗降低80%，能效提升100%。 过去谈TOPS，多用稠密算力或稀疏算力，这些概念可以说明芯片的理论计算能力，却很难单独回答一个更贴近实际体验的问题：把真正用于智能驾驶的模型放上去，究竟能跑多快、跑得有多稳？ 例如，实验室里的APS等测试指标单独测量某个模型的运行耗时，都能帮助工程师分析芯片性能。 但真实智驾大模型涉及复杂的网络结构、不同类型的算子、频繁的数据读写，以及多种计算任务之间的调度；只追求某个环节跑得很快意义有限，因为其他环节却因为等待数据、内存带宽不足或调度效率不高而拖慢整体速度。 “大模型算力”的评测思路，是直接使用真实量产智驾模型测试芯片 ，而不是只依赖实验室基准测试。 这套评测还有另外几项明确约束：模型结构不能随意改变，计算精度必须得到保证，最终驾驶体验也不能打折，芯片需要在这些条件都成立的情况下，尽可能提高模型运行效率。 这就是“大模型算力”想要衡量的东西：在真实量产模型和严格部…"
+    "evidence": "AI算力利用“九九成” 以智驾模型知名的 Momenta ，出现在了一家成立仅仅两年多的芯片公司首次公开亮相里。 芯片名字叫 X7 Ultra ，只看算力数值，在2026年底已经不能算“极致”了—— 700 TOPS 。 它想表达的是：X7 Ultra的确有更高的推理效率，但没有放任量化误差无限扩大，而是要求量化后的模型输出尽可能贴近FP32模型。 因为大模型实在太能吃算力、内存和功耗了，把模型权重和计算精度压下来的主要途径，就是减少存储与计算开销。但压得太狠，输出也可能出现偏差。 第二个指标，是 NPU计算利用率达到98.7% ，意味着芯片里的AI计算单元，在运行测试任务时，绝大部分时间都在执行有效的计算工作，闲置时间很少。 这通常也意味着芯片架构、数据传输和软件调度之间配合得比较好，计算单元不容易因为等数据、等指令而空转。 官方给出的参考数据是：对比行业旗舰产品，内存带宽消耗降低80%，能效提升100%。 过去谈TOPS，多用稠密算力或稀疏算力，这些概念可以说明芯片的理论计算能力，却很难单独回答一个更贴近实际体验的问题：把真正用于智能驾驶的模型放上去，究竟能跑多快、跑得有多稳？ 例如，实验室里的APS等测试指标单独测量某个模型的运行耗时，都能帮助工程师分析芯片性能。 但真实智驾大模型涉及复杂的网络结构、不同类型的算子、频繁的数据读写，以及多种计算任务之间的调度；只追求某个环节跑得很快意义有限，因为其他环节却因为等待数据、内存带宽不足或调度效率不高而拖慢整体速度。 “大模型算力”的评测思路，是直接使用真实量产智驾模型测试芯片 ，而不是只依赖实验室基准测试。 这套评测还有另外几项明确约束：模型结构不能随意改变，计算精度必须得到保证，最终驾驶体验也不能打折，芯片需要在这些条件都成立的情况下，尽可能提高模型运行效率。 这就是“大模型算力”想要衡量的东西：在真实量产模型和严格部…",
+    "llm_done": true
    },
    "id": "c36f63da3832",
    "score": 7.18,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Momenta 集成世界模型指导芯片设计，X7 Ultra NPU计算利用率达98.7%，内存带宽消耗降低80%。",
+   "tags": [
+    "芯片",
+    "行业动态",
+    "算力"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -680,13 +685,18 @@
    "weight": 0.5,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "3bdf5e0b15b5",
    "score": 6.97,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能",
+   "summary_zh": "阿里巴巴将千问集成至 Apple 智能，中国用户可在 Siri、写作工具及视觉智能中调用千问。",
+   "tags": [
+    "行业动态",
+    "合作",
+    "千问"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -706,13 +716,18 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50311537",
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "fe6897699718",
    "score": 6.89,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "OpenAI 分享了创作者、学者等关于合理使用支持 AI 训练和创新的法庭简报节选。",
+   "tags": [
+    "OpenAI",
+    "行业动态",
+    "法律"
+   ],
    "also_in": [
     "Hacker News"
    ],
@@ -762,13 +777,18 @@
    "extra": {
     "evidence": "## 中文 - **主流平台与 GPU 自动加速**：默认安装支持 Windows、Linux 和 macOS 上的 CPU 运行，以及 Intel、AMD、NVIDIA 和 Apple Silicon 兼容独显或集显的推理加速。自动选择合适的 GPU 或 CPU；代表性核心推理场景的速度约为 CPU 的 **2～3 倍**。 - **统一 Tasks 异步接口**：以 `/v1/tasks` 替换旧 `/v1/uploads`、`/v1/parse/jobs` 工作流，支持文件清单、URL 输入、缓存免传、逐文件执行与结果下载，以及统一的状态查询和取消操作。详见 [Tasks 接口说明](https://github.com/opendatalab/MinerU/blob/mineru-4.1.0-released/docs/zh/usage/tasks.md)。 - **可恢复的同步解析服务**：独立的 `file-parse-server` 提供 `/v1/file_parse`，支持单文件上传和附件返回、等待超时后查询，以及通过请求 ID 恢复已知任务。详见 [file-parse 接口说明](https://github.com/opendatalab/MinerU/blob/mineru-4.1.0-released/docs/zh/usage/file_parse.md)。 - **硬件诊断与档位推荐**：新增 `mineru-kit hardware detect` 和 `hardware info`，帮助选择合适的服务档位，并查看设备、运行环境与校准信息。 **升级提示：** Python 支持范围调整为 **3.11–3.14**。此次包含破坏性 HTTP 接口变更，请协调升级服务端、Router、SDK 和客户端，详见 [4.1 迁移说明](https://github.com/opendatalab/MinerU/blob/mineru-4.1.0-released/docs/zh/reference/migration_4_1.md)。 ## English - **Automatic acceleration across major platforms and GPUs:** The default installation supports CPU inference on Windows, Linux, and macOS, plus accelerated inference on compatible Intel, AMD, NVIDIA, and Apple Silicon GPUs, including integrated graphics. MinerU automatically selects suitable GPU or CPU execution; representative core inference workloads run at approximately **2–3× CPU speed**. - **A unified asynchronous Tasks API:** `/v1/tasks` replaces the previous `/v1/uploads` and `/v1/parse/jobs` workflow, supporting file manifests, URL inputs, cached-upload reuse, per-file execut…",
     "level": "minor",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "1e77236f1a55",
    "score": 7.28,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "MinerU 4.1.0 支持多平台 GPU 自动加速，并统一了 Tasks 异步接口。",
+   "tags": [
+    "开源工具",
+    "文档解析",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -814,13 +834,18 @@
    "weight": 0.45,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "29b000d7f4dc",
    "score": 6.72,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "DeepSeek 第二轮融资 1055 亿元人民币，腾讯和宁德时代仍是主力，长鑫存储和中芯国际等芯片厂商参与。",
+   "tags": [
+    "行业动态",
+    "融资",
+    "大模型"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1110,7 +1135,7 @@
   "start": "2026-11-01",
   "end": "2026-11-01",
   "title": "DeepSeek开源Super-agent架构",
-  "generated_at": "2026-10-31T22:28:42Z",
+  "generated_at": "2026-11-01T00:30:39Z",
   "models": [
    "glm-4.7-flash"
   ],
@@ -1218,7 +1243,7 @@
     "headline": "DeepSeek完成1055亿元融资",
     "when": "10月30日",
     "date": "2026-10-30",
-    "body": "DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资名单，近 30 家投资者——比金额更有意思的是名单的构成变化。 腾讯和宁德时代仍是两大主力。腾讯两轮各出 100 亿；…",
+    "body": "DeepSeek 第二轮融资 1055 亿元人民币，腾讯和宁德时代仍是主力，长鑫存储和中芯国际等芯片厂商参与。",
     "url": "https://www.oschina.net/news/503318",
     "via": "开源中国",
     "id": "29b000d7f4dc",
