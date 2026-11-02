@@ -6,13 +6,13 @@
   "start": "2026-10-26",
   "end": "2026-11-01",
   "title": "Gemini 4 Carbon：下一代前沿模型",
-  "generated_at": "2026-11-01T22:49:01Z",
+  "generated_at": "2026-11-02T01:03:38Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 41,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-10-26",
    "end": "2026-11-01"
@@ -120,13 +120,13 @@
    },
    {
     "cat": "overseas",
-    "headline": "10岁CNN在皮肤癌诊断上超越前沿大模型",
-    "when": "10月26日",
+    "headline": "英国设立AI生物安全实验室",
+    "when": "10月26日消息",
     "date": "2026-10-26",
-    "body": "皮肤科医生测试发现，GPT-6 Astra和Claude Fable 5.1的皮肤癌诊断准确率不如一个10岁的CNN。",
-    "url": "https://lynchlab.net/llm-skin-cancer",
-    "via": "Hacker News",
-    "id": "373122b56953",
+    "body": "英国政府宣布设立AI生物安全实验室，利用前沿AI技术监测生物威胁并加速疫苗、药物研发。",
+    "url": "https://36kr.com/newsflashes/4040790852719490?f=rss",
+    "via": "36氪",
+    "id": "4910b3bd7c75",
     "ai": true
    },
    {
@@ -164,32 +164,21 @@
    },
    {
     "cat": "overseas",
-    "headline": "Backdoors in official Claude Code extensions",
-    "when": "10月30日",
-    "date": "2026-10-30",
-    "body": "Anthropic 官方 Claude Code 扩展被植入恶意软件，可创建远程访问木马。",
-    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-    "via": "Hacker News",
-    "id": "68db500dd20d",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-    "when": "10月30日",
-    "date": "2026-10-30",
-    "body": "Claude Code VS Code 扩展被植入持久性 SSH 后门，影响 macOS、Linux 和 Windows。",
-    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-    "via": "Hacker News",
-    "id": "d4f691c037f4",
+    "headline": "苹果宣布接入阿里千问",
+    "when": "10月31日",
+    "date": "2026-10-31",
+    "body": "国行 Apple 智能将于 11 月开放测试，接入阿里千问。",
+    "url": "http://www.geekpark.net/news/373220",
+    "via": "极客公园",
+    "id": "b46d48276281",
     "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "AgriciDaniel/claude-seo",
+    "headline": "claude-seo：Claude Code 通用 SEO 技能库",
     "when": "10月27日消息",
     "date": "2026-10-27",
-    "body": "Claude Code 的通用 SEO 技能库，包含 26 个子技能和 19 个子智能体。",
+    "body": "Claude Code 的通用 SEO 技能库包含 26 个子技能和 19 个子智能体，覆盖技术 SEO、E-E-A-T、Schema 等领域。",
     "url": "https://github.com/AgriciDaniel/claude-seo",
     "via": "GitHub Trending",
     "id": "59aacb89f07a",
@@ -197,10 +186,10 @@
    },
    {
     "cat": "opensource",
-    "headline": "makecindy/cindy",
+    "headline": "cindy：开源开箱即用的 AI Agent",
     "when": "10月27日消息",
     "date": "2026-10-27",
-    "body": "开源、开箱即用的 AI Agent，旨在实现“想到，就能做到”。",
+    "body": "cindy 是一个开源、开箱即用的 AI Agent，旨在实现“想到，就能做到”。",
     "url": "https://github.com/makecindy/cindy",
     "via": "GitHub Trending",
     "id": "8c71293d9162",
@@ -222,11 +211,11 @@
     "headline": "vectorize-io/hindsight",
     "when": "10月30日消息",
     "date": "2026-10-30",
-    "body": "Hindsight: Agent Memory That Learns。",
+    "body": "Hindsight 是一个 Agent 记忆库，旨在让智能体具备学习能力。",
     "url": "https://github.com/vectorize-io/hindsight",
     "via": "GitHub Trending",
     "id": "6f58dec877a5",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
@@ -241,21 +230,21 @@
    },
    {
     "cat": "papers",
-    "headline": "长时序LLM智能体的多尺度策略优化",
+    "headline": "10岁CNN在皮肤癌诊断上超越前沿大模型",
     "when": "10月26日",
     "date": "2026-10-26",
-    "body": "针对长时序智能体在逐词生成动作时奖励分配不均的问题，论文提出了多尺度策略优化方法。该方法结合多尺度优势估计和回合级重要性采样，在搜索、工具使用和自动化任务上显著优于现有的强化学习基线。",
-    "url": "https://arxiv.org/abs/2610.35013",
-    "via": "arXiv · 智能体",
-    "id": "90efaf92605b",
+    "body": "皮肤科医生测试发现，GPT-6 Astra 和 Claude Fable 5.1 的皮肤癌诊断准确率不如一个 10 岁的 CNN。",
+    "url": "https://lynchlab.net/llm-skin-cancer",
+    "via": "Hacker News",
+    "id": "373122b56953",
     "ai": true
    },
    {
     "cat": "papers",
-    "headline": "三体：多模态智能体的能力驱动递归自进化",
+    "headline": "三体：多模态智能体递归自进化",
     "when": "10月27日",
     "date": "2026-10-27",
-    "body": "针对构建异构环境和手动迭代难以跟上任务复杂度的问题，论文提出了三体框架。该框架通过创作者、探索者和进化者三个角色，将任务组织从表面类别转变为共享需求的能力树。实验表明，该方法能有效提升多模态智能体的性能。",
+    "body": "论文提出三体框架，通过创作者、探索者和进化者三个角色构建能力树，提升多模态智能体性能。",
     "url": "https://arxiv.org/abs/2610.36077",
     "via": "arXiv · 智能体",
     "id": "f47e61aa0474",
@@ -263,13 +252,24 @@
    },
    {
     "cat": "industry",
-    "headline": "千里科技发布AI毫米波雷达",
+    "headline": "OpenAI 和 Anthropic 大幅降低 LLM 价格",
+    "when": "10月26日",
+    "date": "2026-10-26",
+    "body": "OpenAI 推出 GPT-5.6 Sol 和 Luna 模型，Anthropic 发布 Claude Sonnet 5，价格降幅最高达 80%。",
+    "url": "https://minimaxir.com/2026/10/cheap-llms/",
+    "via": "Hacker News",
+    "id": "4a62295acd80",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Cerebras 部署万亿参数 AI 模型",
     "when": "10月26日消息",
     "date": "2026-10-26",
-    "body": "千里科技发布集成10 TOPS算力NPU的AI毫米波雷达，支持边缘侧、卫星与兼容三种工作模式。",
-    "url": "https://36kr.com/p/4040807584863111?f=rss",
-    "via": "36氪",
-    "id": "e8b36b68badd",
+    "body": "Cerebras 展示了如何将万亿参数的前沿模型映射到 WSE-3T 晶圆上，实现每秒 1000-2000+ token 的推理。",
+    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "via": "Hacker News",
+    "id": "470508811885",
     "ai": true
    },
    {
@@ -330,17 +330,119 @@
     "headline": "OpenAI 分享 Kakeya 猜想等模型结果",
     "body": "OpenAI 分享了在 Kakeya 猜想、指数时间假设和量子色动力学上的模型结果，供研究人员验证和在此基础上进行研究。"
    },
+   "f8fa283aa2f6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "68db500dd20d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "d4f691c037f4": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "0acd12b32c47": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Google 的 Gemini 4 Carbon 在 Artificial Analysis 指数 v5 中排名第一，仅次于 Claude Opus 5.5。"
+   },
    "21ec57e4e0e3": {
     "v": "4f7b2f10",
     "cat": "overseas",
     "headline": "Google DeepMind 发布 Genie 4 世界模型",
     "body": "Google DeepMind 发布 Genie 4，解锁实时模拟中的前所未有的真实感。"
    },
+   "373122b56953": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "10岁CNN在皮肤癌诊断上超越前沿大模型",
+    "body": "皮肤科医生测试发现，GPT-6 Astra 和 Claude Fable 5.1 的皮肤癌诊断准确率不如一个 10 岁的 CNN。"
+   },
+   "7ed6398608ce": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a8732270ecb5": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "32aa5b7adc0a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "8a8e0d608532": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "4a62295acd80": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 和 Anthropic 大幅降低 LLM 价格",
+    "body": "OpenAI 推出 GPT-5.6 Sol 和 Luna 模型，Anthropic 发布 Claude Sonnet 5，价格降幅最高达 80%。"
+   },
+   "470508811885": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Cerebras 部署万亿参数 AI 模型",
+    "body": "Cerebras 展示了如何将万亿参数的前沿模型映射到 WSE-3T 晶圆上，实现每秒 1000-2000+ token 的推理。"
+   },
+   "566f7a4b6e6b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "aba986114bf7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "efe5e4841688": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a5c31611f277": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
    "36789bfad39b": {
     "v": "4f7b2f10",
     "cat": "papers",
     "headline": "Google Research 提出睡眠框架",
     "body": "Google Research 提出睡眠框架，让大语言模型在持续学习中保留知识。"
+   },
+   "58a713db3fa0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "2f5821687e6d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
    },
    "8ea0b2c1318b": {
     "v": "4f7b2f10",
@@ -354,11 +456,29 @@
     "headline": "DeepSeek 开源 Super-agent 架构",
     "body": "DeepSeek 开源 Super-agent 架构，AI 可自主发现 Bug 并提交 PR，实现 24 小时在线运行。"
    },
+   "15a585b52200": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "e2d5f0ea53cf": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
    "65fd81c1d3eb": {
     "v": "4f7b2f10",
     "cat": "skip",
     "headline": "OpenAI 更新模型规范",
     "body": "OpenAI 更新了模型规范，概述了五个核心价值观，以引导更强大的 AI 做出正确的判断。"
+   },
+   "bc611d5d40d2": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
    },
    "4e870e87226e": {
     "v": "4f7b2f10",
@@ -378,11 +498,35 @@
     "headline": "huggingface/transformers 发布 v5.22.0",
     "body": "huggingface/transformers 发布 v5.22.0 版本，新增 Mistral Large 4 模型支持。"
    },
+   "59aacb89f07a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "claude-seo：Claude Code 通用 SEO 技能库",
+    "body": "Claude Code 的通用 SEO 技能库包含 26 个子技能和 19 个子智能体，覆盖技术 SEO、E-E-A-T、Schema 等领域。"
+   },
+   "6f58dec877a5": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "Hindsight 是一个 Agent 记忆库，旨在让智能体具备学习能力。"
+   },
+   "8c71293d9162": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "cindy：开源开箱即用的 AI Agent",
+    "body": "cindy 是一个开源、开箱即用的 AI Agent，旨在实现“想到，就能做到”。"
+   },
    "a4fb15773c6f": {
     "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "huggingface/transformers 发布 v5.21",
     "body": "huggingface/transformers 发布 v5.21.0 版本，新增 MiniCPM-OCR 文档理解模型支持。"
+   },
+   "9dd592cb493d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Orkas：本地优先的桌面 AI 团队",
+    "body": "Orkas 是一个本地优先的桌面 AI 团队，包含 16 个内置专家代理，支持 macOS 和 Windows。"
    },
    "8c03f8a134ed": {
     "v": "4f7b2f10",
@@ -402,17 +546,119 @@
     "headline": "Xorbitsai/inference 发布 v4.1.0 版本",
     "body": "Xorbitsai/inference v4.1.0 发布，支持 TRT-LLM 推理后端和 Xavier 的 TRT-LLM 支持，扩展 LMCache 磁盘存储。"
    },
+   "d09a4554fd4f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "karpathy-skills：优化 Claude Code 行为",
+    "body": "基于 Andrej Karpathy 的观察，优化 Claude Code 行为的 CLAUDE.md 文件。"
+   },
+   "ab910b95a8e2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenBot：开源 AI 同事",
+    "body": "OpenBot 是开源的 AI 同事，每个 AI 都拥有自己的浏览器、文件和工具，所有操作在发生前决定，发生后被记录。"
+   },
    "7bf78557a419": {
     "v": "4f7b2f10",
     "cat": "",
     "headline": "月之暗面发布 Kimi K3.1 Pro 模型",
     "body": "月之暗面发布 Kimi K3.1 Pro，包含 3 万亿级参数和 100 万上下文，定位为迄今能力最强的模型。"
    },
+   "e751db659474": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "harvey：自主 AI 销售代理",
+    "body": "Autonomous AI sales agent powered by Claude Code or Codex，能寻找潜在客户、撰写冷邮件并安排会议。"
+   },
    "1e77236f1a55": {
     "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "MinerU 发布 mineru-4.1.0-released 版本",
     "body": "MinerU 4.1.0 支持多平台 GPU 自动加速，并统一了 Tasks 异步接口。"
+   },
+   "ba121356e9aa": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "SkillSpector：AI Agent 技能扫描器",
+    "body": "AI Agent 技能的安全扫描器，检测漏洞、恶意模式和提示注入风险。"
+   },
+   "eb44cfde43a2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Agent-Reach：多平台搜索工具",
+    "body": "Agent-Reach 让 AI 智能体能够通过命令行读取和搜索 Twitter、Reddit、YouTube 等多个平台。"
+   },
+   "ba28d566dcf9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "n8n：工作流自动化平台",
+    "body": "Fair-code 工作流自动化平台，具备原生 AI 能力，支持 400+ 集成。"
+   },
+   "6c66ed420efd": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "awesome-llm-apps：100+ AI Agent应用",
+    "body": "awesome-llm-apps 项目收录了 100 多个 AI 智能体、技能和 RAG 应用，均为免费开源。"
+   },
+   "6685fd5bb45a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Mika：Android手机AI助理",
+    "body": "Mika 是运行在 Android 设备上的 AI 智能体，能够操作应用和上网来帮用户完成具体任务。"
+   },
+   "004684cfd466": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "hallmark：Claude代码防AI化",
+    "body": "hallmark 项目提供反 AI 糟糕设计的技能，用于 Claude Code、Cursor 和 Codex 等工具。"
+   },
+   "f47e61aa0474": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "三体：多模态智能体递归自进化",
+    "body": "论文提出三体框架，通过创作者、探索者和进化者三个角色构建能力树，提升多模态智能体性能。"
+   },
+   "90efaf92605b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "长时序LLM智能体多尺度策略优化",
+    "body": "论文提出多尺度策略优化方法，结合多尺度优势估计和回合级重要性采样，优化长时序智能体。"
+   },
+   "386e60631e10": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Trajectory2Gym：工具使用交互合成",
+    "body": "Trajectory2Gym 通过构建可执行交互并提取决策依据，显著提升了 Qwen3 在多轮交互任务上的性能。"
+   },
+   "9cc807fd65ed": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "TraceTrial-Bench：评估智能体框架可靠性",
+    "body": "论文提出TraceTrial-Bench，将框架可靠性分为七个组件，测得框架得分59.8%至72.0%。"
+   },
+   "1b161b32bd0b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "IDM：一步生成图像方法",
+    "body": "论文提出内在分布匹配方法，通过匹配特征均值和标准差提升生成质量，在Z-Image-Turbo 6B上表现优异。"
+   },
+   "82b5e560e233": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "A-RSI：零数据多模态自改进",
+    "body": "论文提出A-RSI通过监控奖励变化和准确率动态刷新任务池，在11个基准测试中平均性能提升至61.05。"
+   },
+   "95613d2e6027": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Work Agents：工作代理系统框架",
+    "body": "论文提出以工作为中心的系统级框架，定义了工作持久性和开放性两个维度，分析了模型与工具的联合优化方法。"
+   },
+   "d196dc8b4e0b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LOWN：扩散视觉语言模型视觉路由",
+    "body": "论文提出LOWN方法，通过比较有无图像的预测结果决定是否处理图像，将解码计算量降低至35.3%。"
    },
    "1ca215654793": {
     "v": "4f7b2f10",

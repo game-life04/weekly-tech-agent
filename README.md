@@ -99,7 +99,7 @@
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月1日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-02 06:49（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月1日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-02 09:03（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 
@@ -120,26 +120,26 @@
 ✨ [阿里千问集成至Apple智能](https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html)
 
 **海外动态**<br>
-✨ [10岁CNN在皮肤癌诊断上超越前沿大模型](https://lynchlab.net/llm-skin-cancer)<br>
+✨ [英国设立AI生物安全实验室](https://36kr.com/newsflashes/4040790852719490?f=rss)<br>
 ✨ [Google DeepMind 发布 Genie 4 世界模型](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)<br>
 ✨ [Gemini 4 Carbon：下一代前沿模型](https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/)<br>
 ✨ [Mistral Large 4 权重开源](https://mistral.ai/news/mistral-large-4-oss/)<br>
-✨ [Backdoors in official Claude Code extensions](https://cyberplace.social/@GossiTheDog/117528831681803563)<br>
-✨ [Backdoor in Claude Code for VS Code extension on the Cursor Marketplace](https://phorion.io/blog/offical-claude-code-vsx-compromise/)
+✨ [苹果宣布接入阿里千问](http://www.geekpark.net/news/373220)
 
 **开源项目**<br>
-✨ [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)<br>
-✨ [makecindy/cindy](https://github.com/makecindy/cindy)<br>
+✨ [claude-seo：Claude Code 通用 SEO 技能库](https://github.com/AgriciDaniel/claude-seo)<br>
+✨ [cindy：开源开箱即用的 AI Agent](https://github.com/makecindy/cindy)<br>
 ✨ [huggingface/transformers 发布 v5.22.0](https://github.com/huggingface/transformers/releases/tag/v5.22.0)<br>
 ✨ [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
 
 **学术前沿**<br>
 ✨ [OpenAI 分享 Kakeya 猜想等模型结果](https://openai.com/index/building-scientific-understanding-with-academic-communities)<br>
-✨ [长时序LLM智能体的多尺度策略优化](https://arxiv.org/abs/2610.35013)<br>
-✨ [三体：多模态智能体的能力驱动递归自进化](https://arxiv.org/abs/2610.36077)
+✨ [10岁CNN在皮肤癌诊断上超越前沿大模型](https://lynchlab.net/llm-skin-cancer)<br>
+✨ [三体：多模态智能体递归自进化](https://arxiv.org/abs/2610.36077)
 
 **产业纵横**<br>
-✨ [千里科技发布AI毫米波雷达](https://36kr.com/p/4040807584863111?f=rss)<br>
+✨ [OpenAI 和 Anthropic 大幅降低 LLM 价格](https://minimaxir.com/2026/10/cheap-llms/)<br>
+✨ [Cerebras 部署万亿参数 AI 模型](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras)<br>
 ✨ [Momenta 集成世界模型指导芯片设计](https://www.qbitai.com/2026/10/506866.html)
 
 **活动预告**<br>
