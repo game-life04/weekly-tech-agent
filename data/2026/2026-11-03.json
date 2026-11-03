@@ -1,0 +1,1414 @@
+{
+ "date": "2026-11-03",
+ "generated_at": "2026-11-03T01:35:36Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 469,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 57,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.3
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 24.9
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 5.2
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 43,
+   "error": "",
+   "seconds": 8.0
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 340,
+   "error": "",
+   "seconds": 22.9
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 22.8
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 28,
+   "error": "",
+   "seconds": 20.8
+  }
+ ],
+ "items": [
+  {
+   "title": "Scaling Git at OpenAI",
+   "url": "https://openai.com/index/scaling-git-at-openai",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-02T15:30:00Z",
+   "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_done": true
+   },
+   "id": "006ec733ab4a",
+   "score": 8.93,
+   "title_zh": "OpenAI 构建可扩展的 Git 后端",
+   "summary_zh": "OpenAI 为 Codex 开发了一个兼容 Git 的后端 Pando，以应对大规模开发需求。",
+   "tags": [
+    "行业动态",
+    "基础设施"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Introducing the Grid Protectors Program",
+   "url": "https://openai.com/index/grid-protectors-program",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-02T15:00:00Z",
+   "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_done": true
+   },
+   "id": "d26c078b06e6",
+   "score": 8.92,
+   "title_zh": "推出 Grid Protectors 计划",
+   "summary_zh": "OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。",
+   "tags": [
+    "行业动态",
+    "能源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Astra can read and write weights to improve Qwen",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-02T18:21:28Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1904.0,
+    "comments": 604.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50341174",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights, well past what we’d expect from humans or conventional algorithms. Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do . And without any environment feedback, it has no trouble writing, from scratch, small game-playing networks that outplay networks trained with PPO for 100 million steps. Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen’s own model card warns about, and fixes this by natively editing 0.016% of the weights . With the same sampling settings, this weight correction raises MATH-500 from 7.9% to 48.1% and generalizes out of the box to instru…",
+    "llm_done": true
+   },
+   "id": "cf0ceff712eb",
+   "score": 8.24,
+   "title_zh": "Astra：直接读写权重优化 Qwen",
+   "summary_zh": "GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。",
+   "tags": [
+    "模型发布",
+    "推理优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-02T22:30:47Z",
+   "summary": "",
+   "heat": 0.84,
+   "weight": 0.6,
+   "metrics": {
+    "points": 184.0,
+    "comments": 113.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50344919",
+    "excerpt_tried": true,
+    "evidence": "If Anthropic goes public, workers, retail investors, and retirees will be left holding the bag when its bills come due, writes Matt Scherer. Matt Scherer is co-author of the recent report Brace for Impact: Protecting people and the economy when the AI bubble bursts . Anthropic CEO Dario Amodei looks on as United States President Donald Trump holds a press briefing with AI executives following a meeting on artificial intelligence, outside the West Wing of the White House on September 29, 2026 in Washington, DC. (Photo by Kevin Dietsch/Getty Images) Things are seldom what they seem when it comes to the finances of the AI industry. The AI ecosystem’s circular business dealings , extensive use of financial engineering , and otherwise murky finances make it hard for investors, regulators, or w…",
+    "llm_done": true
+   },
+   "id": "09c36e890f9c",
+   "score": 7.91,
+   "title_zh": "SEC 应阻止 Anthropic IPO 以保护公众",
+   "summary_zh": "文章认为 Anthropic IPO 可能导致投资者和退休人员承担风险。",
+   "tags": [
+    "行业动态",
+    "IPO"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+   "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-02T14:38:45Z",
+   "summary": "",
+   "heat": 0.873,
+   "weight": 0.6,
+   "metrics": {
+    "points": 226.0,
+    "comments": 264.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50337439",
+    "excerpt_tried": true,
+    "evidence": "Anthropic unveiled its S-1 prospectus last week, but the initial filing only included the company's financials through the first half of the year. Anthropic reported updated financials as part of an amended Form S-1 filing with the Securities and Exchange Commission on Monday, giving investors a more comprehensive look into the state of its business. The artificial intelligence company said it generated $33.24 billion in revenue for the nine months ended Sept. 30, up roughly 1,200% from the same period last year. It reported a $104 billion net loss during the period, though most of that was due to the change in fair value of convertible notes and derivative liabilities. Anthropic had a loss of $25.1 billion over the same stretch in 2025. Anthropic unveiled its highly anticipated prospectu…",
+    "llm_done": true
+   },
+   "id": "0dc82cee4c58",
+   "score": 7.87,
+   "title_zh": "Anthropic 第三季度营收 170 亿美元",
+   "summary_zh": "Anthropic 公布修订后的 S-1 文件，前三季度营收 332.4 亿美元。",
+   "tags": [
+    "行业动态",
+    "财报"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The latest AI news we announced in October 2026",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google AI",
+   "published": "2026-11-02T17:45:00Z",
+   "summary": "Here are Google’s latest AI updates from October 2026",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "excerpt_tried": true,
+    "evidence": "This October 2026 update covers Google’s latest AI breakthroughs, including Gemini 4 Argon, Carbon, and Genie 4. Get the details on our new releases. Here’s a recap of some of our biggest AI updates from October, led by Gemini 4 Argon and Carbon, alongside our new world model Genie 4. Your browser does not support the audio element. In October, we released new AI tools to help you work, stay safe, and learn. We introduced Gemini 4 Argon for complex tasks, Genie 4 for building interactive simulations, and updated Android to block sophisticated scams. You can also use our new SynthID Detector to verify if content is AI-generated. These updates aim to make technology more helpful for your daily projects, personal security, and creative hobbies. For more than 20 years, we’ve invested in machi…",
+    "llm_done": true
+   },
+   "id": "0885eecb21cb",
+   "score": 7.79,
+   "title_zh": "Google 2026 年 10 月 AI 更新",
+   "summary_zh": "Google 发布了包括 Gemini 4 Argon、Carbon 和 Genie 4 在内的多项 AI 突破。",
+   "tags": [
+    "行业动态",
+    "模型发布"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic's growth just flattened",
+   "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-02T22:33:20Z",
+   "summary": "",
+   "heat": 0.812,
+   "weight": 0.6,
+   "metrics": {
+    "points": 155.0,
+    "comments": 186.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50344958",
+    "excerpt_tried": true,
+    "evidence": "Look at the monthly numbers... Anthropic shared high-level Q3 financials with investors yesterday, report the NYT’s Andrew Ross Sorkin , Lauren Hirsch , and Sri Muppidi . Revenue for Q3 was reportedly $16.8 billion. At first glance, this number seems astonishing. And, in one sense, it is. It’s another jaw-dropping sequential gain for what is likely the fastest-growing company in history. But, break the trend down into implied monthly growth, and the picture looks different. Specifically, it seems Anthropic barely grew from July to September. Anthropic’s sequential revenue growth in Q3, moreover, was smaller in absolute dollars than its (gobsmacking) growth in Q2. So, for several possible reasons, Anthropic’s growth has meaningfully slowed. This is likely another reason why the stocks of “…",
+    "llm_done": true
+   },
+   "id": "ca5373b2a2fb",
+   "score": 7.77,
+   "title_zh": "Anthropic 增长趋于平缓",
+   "summary_zh": "分析显示 Anthropic 第三季度月度增长几乎停滞。",
+   "tags": [
+    "行业动态",
+    "财报"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The U.S. Census Bureau and “Super Intelligence”",
+   "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+   "source": "rss",
+   "section": "news",
+   "via": "Simon Willison",
+   "published": "2026-11-02T13:31:26Z",
+   "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with Claude's new Code Interpreter . I decided to try running those numbers again to see what had changed over the past year, and in doing so learned…",
+   "heat": 0.739,
+   "weight": 0.7,
+   "metrics": {
+    "points": 98.0,
+    "comments": 47.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50336840",
+    "llm_done": true
+   },
+   "id": "6dbc4ee46b40",
+   "score": 7.48,
+   "title_zh": "美国人口普查局与“超级智能”",
+   "summary_zh": "作者重新分析了 Apollo Global Management 的图表，探讨美国企业 AI 采用率趋势。",
+   "tags": [
+    "行业动态",
+    "数据分析"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "美团发1.6万亿参数新模型，通用Agent测试超Opus-5，国产芯特别优化",
+   "url": "https://zhidx.com/p/606379.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-02T10:34:36Z",
+   "summary": "智东西 作者 | 杨京丽 编辑 | 李水青 智东西11月2日报道，今日，美团LongCat团队发布面向 长程智能体任务 的原生多模态模型 LongCat-2.5 。 该模型总参数量为 1.6万亿 ，每个Token激活约 480亿参数 ，在LongCat-2.0的基础上，重点强化 原生视觉理解与智能体编程能力 。 在美团公布的自动化任务基准AutomationBench、通用Agent任务基准LongCatClawBench等几项基准测评中，LongCat-2.5均 领先Claude-Opus-5、GPT-5.6-Sol等模型 ；在终端操作基准Terminal Bench v4.0上，LongCat-2.5的得分为38.5， 超过GPT-5.6-Sol，但仍落后于Claude-Opus-5 。 LongCat-2.5的长序列训练中引入更多 长程轨迹数据 ，并通过大规模长程强化学习，提升模型在复杂代码库开发、完整项目构建等任务中的端到端工程能力。同时，LongCat-2.5将视觉信号转化为 多层级离散Token ，让视觉与文本输入由同一主干模型统一处理，进一步支持 视觉编程（Visual…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "ee9f19832345",
+   "score": 7.48,
+   "title_zh": "",
+   "summary_zh": "美团 LongCat 团队发布原生多模态模型 LongCat-2.5，参数量 1.6 万亿，在多项基准测试中领先。",
+   "tags": [
+    "模型发布",
+    "国产模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI+科研：Agent加速科研，论文写得快了，成果更难评了 ｜ 西湖大学工学院博导 王欢分享",
+   "url": "https://www.infoq.cn/article/MbwRCg4cKC2f3bwv0Cpb?utm_source=rss&utm_medium=article",
+   "source": "rss",
+   "section": "news",
+   "via": "InfoQ 中文",
+   "published": "2026-11-02T10:33:55Z",
+   "summary": "",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "王欢从高效AI与AI评测双视角，剖析AI智能体对科研流程加速与评价体系冲击的双重影响。他指出Agent正显著提升文献筛选、代码编写等科研效率，但论文产出速度提升未同步带来科学认知进步，反而加剧成果可信度鉴别与评审压力。 在 1024 模力工场 · AI社区日 主论坛上，西湖大学工学院助理教授、博士生导师、高效智能计算实验室（ENCODE Lab）负责人王欢，以 《AI 智能体对科研的影响》 为题作主题分享。 王欢有两个重点研究方向：Efficient AI（高效人工智能），关注如何提高 AI 的运行效率、降低资源消耗；AI Evaluation（AI 评测），关注如何定义和衡量智能。 这次分享中，他结合计算机和 AI 研究的经历，讨论了 Agent 带来的两方面影响。一方面正好也关于“效率”：读文献、写代码、做实验等工作正在加速；另一方面则关于“评价”：论文更容易产出，也给成果鉴别、同行评审和科研评价带来了更大压力。 他认为，Agent 确实加快了科研进程：Agent 能自主决定下一步、调用工具执行任务，Harness 则提供上下文管理、工具调用等支持，让大模型能够持续开展工作；他自己每天早上 6 点，还会收到 Agent 筛选推荐的 10 篇相关文献。 但论文产出更快，不等于科学进步更快：科研旨在增进认识，结论需要接受检验，大量成果都声称有新发现时，如何判断它们是否可靠、究竟新在哪里，就成了更紧迫的问题。 与此同时，科研评价仍看重论文等量化成果，因此当一些老师倡议“慢科研”、呼吁重质量而非数量时，也有学生反问：老师自己发了那么多论文，为什么要求我们慢下来？ 在王欢看来，Agent 的影响已超出效率提升，触及科研评价制度：论文越来越容易产出，评价体系该如何识别真正的贡献？ 不过，他仍持乐观态度：AI 接手部分工作，也让人有更多空间思考，哪些探索和判断仍需要自己承担，以及人…",
+    "llm_done": true
+   },
+   "id": "8c325def8206",
+   "score": 7.04,
+   "title_zh": "AI 智能体加速科研，成果更难评",
+   "summary_zh": "Agent 提升文献筛选和代码编写效率，但论文产出速度加快也加剧了成果鉴别与评审压力。",
+   "tags": [
+    "行业动态",
+    "科研"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Computer use CLI for AI agents",
+   "heat": 0.965,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 2275.0,
+    "stars": 9812.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "885299c2ed98",
+   "score": 8.45,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "cjpais/Handy",
+   "url": "https://github.com/cjpais/Handy",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A free, open source, and extensible speech-to-text application that works completely offline.",
+   "heat": 0.843,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 852.0,
+    "stars": 37163.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "c4c29914b161",
+   "score": 7.61,
+   "title_zh": "",
+   "summary_zh": "Handy 是一款免费、开源且可扩展的离线语音转文字应用。",
+   "tags": [
+    "开源工具",
+    "语音"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "cheaper-inference/OmniRoute",
+   "url": "https://github.com/cheaper-inference/OmniRoute",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
+   "heat": 0.749,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 402.0,
+    "stars": 83990.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "f167b0f7640f",
+   "score": 7.42,
+   "title_zh": "",
+   "summary_zh": "OmniRoute 提供统一端点接入 375 个提供商的 1400+ 模型。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "qybaihe/bla",
+   "url": "https://github.com/qybaihe/bla",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+   "heat": 0.755,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1990.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 8,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "0c2c5b9a4eb7",
+   "score": 7.31,
+   "title_zh": "",
+   "summary_zh": "BLA 可保护二进制文件和 WebAssembly 免受 AI 反编译攻击。",
+   "tags": [
+    "开源工具",
+    "安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "heat": 0.614,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 136.0,
+    "stars": 66374.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "768cda9a02e7",
+   "score": 7.15,
+   "title_zh": "",
+   "summary_zh": "该技能可跨 Reddit、X、YouTube 等平台研究并生成摘要。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "caru-ini/stack-diagram",
+   "url": "https://github.com/caru-ini/stack-diagram",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "heat": 0.97,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1208.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4f3b0db148ba",
+   "score": 7.14,
+   "title_zh": "",
+   "summary_zh": "输入一句话即可生成包含官方图标的架构图。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Managed Deep Agents: the fastest way to ship a production deep agent",
+   "url": "https://www.langchain.com/blog/introducing-managed-deep-agents",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-02T22:28:13Z",
+   "summary": "Run deep agents in production with durable execution, sandboxes, tool access, and LangSmith observability, without building the runtime yourself. Now in private beta",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_done": true
+   },
+   "id": "33043e25ab3c",
+   "score": 6.71,
+   "title_zh": "",
+   "summary_zh": "LangChain 推出托管版 Deep Agents，提供生产环境下的持久执行和沙箱功能。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Cordonix 0.0.5 发布：新增原生手机工具与 Windows 进程查询",
+   "url": "https://www.oschina.net/news/503354",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-02T12:47:49Z",
+   "summary": "Cordonix 0.0.5 已发布。Cordonix（简称 cdx）是面向 AI 编程代理的原生本地工具运行时，使用 C11 实现，通过 MCP stdio 服务和 JSON 命令行接口提供本地程序执行、内存文件工作区、严格编码处理、目录与路径查询，以及外部 Git/ripgrep 的结构化适配。 本次正式版本于 2026 年 11 月 2 日发布，增加 Windows 原生手机工...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "23283e1afb1c",
+   "score": 6.31,
+   "title_zh": "",
+   "summary_zh": "Cordonix 新增原生手机工具与 Windows 进程查询功能，面向 AI 编程代理。",
+   "tags": [
+    "开源工具",
+    "本地运行时"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",
+   "url": "https://arxiv.org/abs/2610.40738",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-29T14:48:50Z",
+   "summary": "A capable voice assistant must do more than recognize words; it must understand requests, reason over context, sustain conversations, and act through tools. We present Apriel Voice 27B Preview, an open speech-language model that unifies these capabilities within a shared reasoning backbone while retaining text and image input modalities. Built on the post-trained Gemma 4 26B-A4B checkpoint, Apriel Voice directly processes speech and generates both responses and tool calls without requiring a separate dialogue model. We introduce a two-stage training procedure to adapt the model to speech. The first stage establishes the speech interface, while the second jointly adapts the projector and backbone through supervised fine-tuning, text replay, and source-dependent cross-entropy and forward Kullback--Leibler divergence supervision. Automatically constructed speech-conditioned dialogues provide conversational training data, while local teacher serving, overlapping teacher and student computation, and fused full-vocabulary losses enable efficient online distillation. In thinking mode, Apriel Voice achieves a score of 98.90 on Big Bench Audio, 81.13 on Speech-BFCL, and a task success rate of 65.51% on $τ$-Voice, with a mean latency of 1.91 seconds. It also achieves 51.27% English EVA accuracy and 74.13% experience pass@1. Finally, we deploy Apriel Voice 27B Preview on a custom serving platform to support interactive voice interactions.",
+   "heat": 0.618,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 33.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "7dc1512049bf",
+   "score": 7.17,
+   "title_zh": "Apriel Voice 27B 预览：语音、推理与工具使用的开放模型",
+   "summary_zh": "论文提出了一种名为 Apriel Voice 27B 的开放语音语言模型，旨在统一语音识别、上下文推理、对话维持和工具调用能力。该方法基于 Gemma 4 26B-A4B 检查点，通过两阶段训练流程实现了语音输入的直接处理和高效在线蒸馏。实验结果显示，该模型在 Big Bench Audio、Speech-BFCL 等基准测试中取得了 98.90、81.13 的分数，并在 τ-Voice 任务上…",
+   "tags": [
+    "语音",
+    "智能体",
+    "模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+   "url": "https://arxiv.org/abs/2610.36545",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-target relationships vary substantially across generation tasks, while video models naturally encode visual transformations at different temporal scales. This motivates us to model conditional generation through input-adaptive virtual temporal relations. We propose FrameForge, which captures two complementary aspects of such relations. Mixture of Temporal Experts (MoTE) models how far the target lies from the condition by dynamically selecting temporal RoPE experts with different virtual intervals. Chain of Temporal Reasoning (CoTR) models how the condition is transformed into the target through a latent intermediate state, with a reasoning-bottleneck attention mask encouraging information propagation through this pathway. Experiments on DreamBench, COCO2017, and GEdit-Bench show that FrameForge achieves superior performance in subject-driven generation, canny-to-image generation, and image editing among the compared methods.",
+   "heat": 0.828,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 112.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Lyne1/FrameForge"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a1103b9d73d6",
+   "score": 6.65,
+   "title_zh": "FrameForge：利用视频基础模型先验进行统一图像生成",
+   "summary_zh": "论文提出了一种名为 FrameForge 的方法，旨在解决统一条件图像生成中条件与目标在不同时间位置固定分配的问题。该方法通过输入自适应的虚拟时间关系来建模条件生成，利用混合时间专家模型和链式时间推理来捕捉目标与条件之间的距离及转换过程。实验表明，FrameForge 在 DreamBench、COCO2017 等数据集上，在主体驱动生成、边缘到图像生成和图像编辑等任务中表现优于现有方法。",
+   "tags": [
+    "多模态",
+    "图像生成",
+    "视频模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+   "url": "https://arxiv.org/abs/2610.22740",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-22T00:00:00Z",
+   "summary": "In recent years, agentic orchestration has been widely applied to solve complex human tasks. However, existing orchestration learning still faces key challenges, including hand-designed curricula, advantage collapse when a task's rollouts all reach the same outcome, and unreliable evaluation signals that judge each skill by one noisy score. To address these challenges, we propose R^2Orch, a new paradigm of Recursive Self-Play Orchestration: an inner loop of self-play that improves the orchestrator on self-chosen tasks, and an outer loop that improves how the inner loop improves. To support this paradigm, we introduce Recursive Learnability, a training objective that rewards a Proposer for choosing tasks whose rollouts keep reaching different outcomes as skills are withdrawn. Built on this objective, we further propose Skill Withdrawal, in which the outer loop withdraws each skill once a controlled evaluation within self-play shows that the orchestrator performs as well without it. Moreover, the two loops form one cycle: failures are distilled into skills, skills into parameters, and withdrawals lead the Proposer to new failures, so the orchestrator moves toward zero-skill deployment. Experimental results on twelve datasets show that R^2Orch consistently outperforms baselines across question answering, math, code, and interactive tasks. Our code is available at https://github.com/beita6969/R2Orch.",
+   "heat": 0.788,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 89.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4185c9fbf845",
+   "score": 6.51,
+   "title_zh": "R^2Orch：通过技能内化循环中的自我博弈实现智能体编排的递归自我改进",
+   "summary_zh": "论文针对智能体编排学习中课程设计、优势崩溃和评估信号不可靠等挑战，提出了 R^2Orch 递归自我博弈编排范式。该方法通过内部自我博弈循环和外部技能撤回循环，利用递归可学习性目标来改进编排者对自我选择任务的优化。实验在问答、数学、代码和交互任务上验证了 R^2Orch 的一致优越性。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "自我博弈"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+   "url": "https://arxiv.org/abs/2610.37786",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-10-27T18:06:58Z",
+   "summary": "Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation. Human-assisted mirrors demand per-site engineering, while generative construction can diverge from specified real websites. Capture-and-replay preserves observations, with interaction coverage constrained by captured content and replay capabilities. We present WebAnything, a fully automated framework that reconstructs source-grounded, reusable Web environments from real URLs without per-site manual implementation or repair after initial setup and authorization. An Explorer-Builder collects browser-observable structures, resources, and interaction outcomes; an independent verifier checks frozen candidates and guides local repair or targeted source recapture. We construct 244 website artifacts across 14 application domains and 53 categories, supporting 12,984 executed and accepted tasks. Compared with human-assisted WebHarbor, WebAnything achieves higher aggregate scores on three fidelity metrics, with 12 wins, two ties, and no losses in a blind audit. Fine-tuning Qwen3.5-9B on 5,856 interaction trajectories improves REAL success by 9.9 percentage points, Odysseys-Easy Rubric Avg and Task Avg by 6.25 and 6.32 percentage points, and WebArena-Verified Overall success by 13.33 percentage points under the fixed harness. Code: https://github.com/china-qijizhifeng/Web-Anything",
+   "heat": 0.596,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 29.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/china-qijizhifeng/Web-Anything"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "234f1af6e64c",
+   "score": 6.44,
+   "title_zh": "WebAnything：从野生网络到可扩展智能体环境",
+   "summary_zh": "论文介绍了一种名为 WebAnything 的全自动化框架，旨在从真实 URL 构建可重用的源 grounded Web 环境，以解决智能体训练和评估中环境构建困难的问题。该方法通过探索者-构建器和独立验证器模块，自动收集结构、资源和交互结果，并支持 244 个网站工件和 12,984 个执行任务。在真实成功率和 WebArena-Verified 等指标上，WebAnything 相比人工辅助…",
+   "tags": [
+    "智能体",
+    "Web 环境",
+    "自动化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
+   "url": "https://arxiv.org/abs/2610.41994",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-10-30T16:39:37Z",
+   "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In gated linear recurrences, memory retention depends on state decay, which is shaped jointly by gate parameters A_log and dt_bias and by input activations. In controlled Gated DeltaNet (GDN) experiments, both parameters remain highly correlated with their initial values after training, highlighting the importance of initialization. Therefore, we introduce Dual-Axis Memory Initialization (DAMI), which jointly configures these parameters before training. DAMI assigns geometric timescales across heads for varied retrieval distances and a low-high-low input-sensitivity profile across layers. A small activation sample calibrates the GDN-family implementation to match both behavioral targets without adding trainable parameters. Across GDN, KDA, GDN2, Mamba-2, and RWKV-7, DAMI improves average RULER-style retrieval accuracy by 5.29 to 16.71 percentage points over the corresponding random-initialization baselines. Performance on language modeling, commonsense reasoning, and 2K real-world retrieval remains broadly comparable to those baselines. Our code is available at https://speedai.com/research/dami.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 5.0,
+    "llm_done": true
+   },
+   "id": "56897d87d1f3",
+   "score": 4.81,
+   "title_zh": "DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化",
+   "summary_zh": "论文针对门控线性注意力中有限状态记忆限制长上下文检索的问题，提出了双轴记忆初始化（DAMI）方法。该方法在训练前联合配置门控参数 A_log 和 dt_bias，通过几何时间尺度和低-高-低输入敏感性配置来优化记忆保留。实验表明，DAMI 在 GDN、KDA、Mamba-2 等模型上，将平均 RULER 风格检索准确率提高了 5.29 到 16.71 个百分点。",
+   "tags": [
+    "长上下文",
+    "检索",
+    "注意力机制"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-03",
+  "start": "2026-11-03",
+  "end": "2026-11-03",
+  "title": "OpenAI 构建可扩展的 Git 后端 Pando",
+  "generated_at": "2026-11-03T01:35:36Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 4,
+  "club_period": {
+   "start": "2026-11-02",
+   "end": "2026-11-02"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 构建可扩展的 Git 后端 Pando",
+    "when": "11月2日",
+    "date": "2026-11-02",
+    "body": "OpenAI 为 Codex 开发了一个兼容 Git 的后端 Pando，以应对大规模开发需求。",
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "via": "OpenAI",
+    "id": "006ec733ab4a",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "推出 Grid Protectors 计划",
+    "when": "11月2日",
+    "date": "2026-11-02",
+    "body": "OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。",
+    "url": "https://openai.com/index/grid-protectors-program",
+    "via": "OpenAI",
+    "id": "d26c078b06e6",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "agent-desktop：AI 智能体的计算机使用 CLI",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "vercel-labs/agent-desktop 提供计算机使用命令行接口，供 AI 智能体操作。",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "via": "GitHub Trending",
+    "id": "885299c2ed98",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Handy：免费开源离线语音转文字应用",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "Handy 是一款免费、开源且可扩展的离线语音转文字应用。",
+    "url": "https://github.com/cjpais/Handy",
+    "via": "GitHub Trending",
+    "id": "c4c29914b161",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "OmniRoute：统一接入 1400+ 模型",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "OmniRoute 提供 MIT 许可的 AI 网关，统一端点接入 375 个提供商的 1400+ 模型。",
+    "url": "https://github.com/cheaper-inference/OmniRoute",
+    "via": "GitHub Trending",
+    "id": "f167b0f7640f",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "BLA：保护二进制文件和 WebAssembly 免受 AI 反编译攻击",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "BLA 是一款对抗性防御盾，保护二进制文件、Electron 应用和 WebAssembly 免受 AI 反编译攻击。",
+    "url": "https://github.com/qybaihe/bla",
+    "via": "GitHub 新项目",
+    "id": "0c2c5b9a4eb7",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "last30days-skill：跨平台研究并生成摘要",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "该技能可跨 Reddit、X、YouTube 等平台研究并生成摘要。",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "via": "GitHub Trending",
+    "id": "768cda9a02e7",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Astra：直接读写权重优化 Qwen",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "via": "Hacker News",
+    "id": "cf0ceff712eb",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "R^2Orch：通过技能内化循环中的自我博弈实现智能体编排的递归自我改进",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "论文针对智能体编排学习中课程设计、优势崩溃和评估信号不可靠等挑战，提出了 R^2Orch 递归自我博弈编排范式。该方法通过内部自我博弈循环和外部技能撤回循环，利用递归可学习性目标来改进编排者对自我选择任务的优化。实验在问答、数学、代码和交互任务上验证了 R^2Orch 的一致优越性。",
+    "url": "https://arxiv.org/abs/2610.22740",
+    "via": "Hugging Face 热门论文",
+    "id": "4185c9fbf845",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "WebAnything：从野生网络到可扩展智能体环境",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "论文介绍了一种名为 WebAnything 的全自动化框架，旨在从真实 URL 构建可重用的源 grounded Web 环境，以解决智能体训练和评估中环境构建困难的问题。该方法通过探索者-构建器和独立验证器模块，自动收集结构、资源和交互结果，并支持 244 个网站工件和 12,984 个执行任务。在真实成功率和 WebArena-Verified 等指标上，WebAnything 相比人工辅助…",
+    "url": "https://arxiv.org/abs/2610.37786",
+    "via": "arXiv · 智能体",
+    "id": "234f1af6e64c",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "论文针对门控线性注意力中有限状态记忆限制长上下文检索的问题，提出了双轴记忆初始化（DAMI）方法。该方法在训练前联合配置门控参数 A_log 和 dt_bias，通过几何时间尺度和低-高-低输入敏感性配置来优化记忆保留。实验表明，DAMI 在 GDN、KDA、Mamba-2 等模型上，将平均 RULER 风格检索准确率提高了 5.29 到 16.71 个百分点。",
+    "url": "https://arxiv.org/abs/2610.41994",
+    "via": "arXiv · 长上下文与检索",
+    "id": "56897d87d1f3",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 第三季度营收 170 亿美元",
+    "when": "11月2日",
+    "date": "2026-11-02",
+    "body": "Anthropic 公布修订后的 S-1 文件，前三季度营收 332.4 亿美元。",
+    "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+    "via": "Hacker News",
+    "id": "0dc82cee4c58",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "006ec733ab4a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenAI 构建可扩展的 Git 后端 Pando",
+    "body": "OpenAI 为 Codex 开发了一个兼容 Git 的后端 Pando，以应对大规模开发需求。"
+   },
+   "d26c078b06e6": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "cf0ceff712eb": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "09c36e890f9c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "0dc82cee4c58": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Anthropic 第三季度营收 170 亿美元",
+    "body": "Anthropic 公布修订后的 S-1 文件，前三季度营收 332.4 亿美元。"
+   },
+   "0885eecb21cb": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Google 发布 2026 年 10 月 AI 更新",
+    "body": "Google 发布了包括 Gemini 4 Argon、Carbon 和 Genie 4 在内的多项 AI 突破。"
+   },
+   "ca5373b2a2fb": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "6dbc4ee46b40": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "美国人口普查局与“超级智能”",
+    "body": "作者重新分析了 Apollo Global Management 的图表，探讨美国企业 AI 采用率趋势。"
+   },
+   "ee9f19832345": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI 智能体加速科研，成果更难评",
+    "body": "Agent 提升文献筛选和代码编写效率，但论文产出速度加快也加剧了成果鉴别与评审压力。"
+   },
+   "8c325def8206": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "885299c2ed98": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agent-desktop：AI 智能体的计算机使用 CLI",
+    "body": "vercel-labs/agent-desktop 提供计算机使用命令行接口，供 AI 智能体操作。"
+   },
+   "c4c29914b161": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Handy：免费开源离线语音转文字应用",
+    "body": "Handy 是一款免费、开源且可扩展的离线语音转文字应用。"
+   },
+   "f167b0f7640f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OmniRoute：统一接入 1400+ 模型",
+    "body": "OmniRoute 提供 MIT 许可的 AI 网关，统一端点接入 375 个提供商的 1400+ 模型。"
+   },
+   "0c2c5b9a4eb7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "BLA：保护二进制文件和 WebAssembly 免受 AI 反编译攻击",
+    "body": "BLA 是一款对抗性防御盾，保护二进制文件、Electron 应用和 WebAssembly 免受 AI 反编译攻击。"
+   },
+   "768cda9a02e7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "last30days-skill：跨平台研究并生成摘要",
+    "body": "该技能可跨 Reddit、X、YouTube 等平台研究并生成摘要。"
+   },
+   "4f3b0db148ba": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "stack-diagram：一句话生成架构图",
+    "body": "输入一句话即可生成包含官方图标的架构图。"
+   },
+   "33043e25ab3c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "7dc1512049bf": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a1103b9d73d6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   }
+  }
+ }
+}

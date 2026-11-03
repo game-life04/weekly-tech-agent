@@ -12,52 +12,54 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.02（周一）
+## 每日快讯 · 11.03（周二）
 
-> 今日 AI 与开源要闻 **11** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-02-kuaixun.md) · [公众号排版版](daily/2026/2026-11-02-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-02.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-03-kuaixun.md) · [公众号排版版](daily/2026/2026-11-03-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-03.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月2日 周一
-今日 AI 与开源要闻 11 条，3 分钟速读
+【每日科技快讯】11月3日 周二
+今日 AI 与开源要闻 12 条，3 分钟速读
 
-【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
-
-【国内动态】
-2. 工信部：我国AI推理数据量首超训练数据量
-→ 四大AI公司联合推行新标准，允许网站通过robots.txt统一声明拒绝AI抓取训练内容。
+【海外动态】
+1. OpenAI 构建可扩展的 Git 后端 Pando
+→ OpenAI 为 Codex 开发了一个兼容 Git 的后端 Pando，以应对大规模开发需求。
+2. 推出 Grid Protectors 计划
+→ OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。
 
 【开源项目】
-3. Jev开源精准筛选候选人工具
-→ TypeSafe AI开源Jev工具，比Clay便宜85%，能帮Agent精准筛选并补齐候选人信息。
-4. pixelfx：244个像素艺术效果代码片段
-→ pixelfx 包含244个像素艺术效果的小代码片段，并提供 Claude Code 技能。
-5. ai-engineering-hub：LLM与RAG深度教程
-→ ai-engineering-hub 提供关于 LLMs、RAGs 和真实世界 AI 智能体应用的深度教程。
-6. anthropics/skills：Agent技能公共仓库
-→ anthropics/skills 是 Agent Skills 的公共仓库。
-7. paperclip：开源Agent管理应用
-→ paperclip 是开源的 Agent 管理应用。
+3. agent-desktop：AI 智能体的计算机使用 CLI
+→ vercel-labs/agent-desktop 提供计算机使用命令行接口，供 AI 智能体操作。
+4. Handy：免费开源离线语音转文字应用
+→ Handy 是一款免费、开源且可扩展的离线语音转文字应用。
+5. OmniRoute：统一接入 1400+ 模型
+→ OmniRoute 提供 MIT 许可的 AI 网关，统一端点接入 375 个提供商的 1400+ 模型。
+6. BLA：保护二进制文件和 WebAssembly 免受 AI 反编译攻击
+→ BLA 是一款对抗性防御盾，保护二进制文件、Electron 应用和 WebAssembly 免受 AI 反编译攻击。
+7. last30days-skill：跨平台研究并生成摘要
+→ 该技能可跨 Reddit、X、YouTube 等平台研究并生成摘要。
 
 【学术前沿】
-8. 清华姚期智团队提出代数世界模型
-→ 清华姚期智团队提出代数世界模型，旨在解决AI训练数据污染问题，让AI从观察实验中理解世界。
-9. ThinkWorld：世界想象强化动态推理
-→ ThinkWorld 框架将动作推理建立在世界动力学上，通过强化学习进行强化，实现了有效的人机迁移。
-10. JEPAs 证明柏拉图表示假设
-→ 研究将柏拉图表示假设转化为定理，证明联合嵌入预测架构能学习到相同的世界表示。
-11. DeFT-RAG 分解多跳问题
-→ DeFT-RAG 框架通过生成自包含子问题并缓存答案，提升了检索增强生成处理多跳问题的准确率。
+8. Astra：直接读写权重优化 Qwen
+→ GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。
+9. R^2Orch：通过技能内化循环中的自我博弈实现智能体编排的递归自我改进
+→ 论文针对智能体编排学习中课程设计、优势崩溃和评估信号不可靠等挑战，提出了 R^2Orch 递归自我博弈编排范式。该方法通过内部自我博弈循环和外部技能撤回循环，利用递归可学习性目标来改进编排者对自我选择任务的优化。实验在问答、数学、代码和交互任务上验证了 R^2Orch 的一致优越性。
+10. WebAnything：从野生网络到可扩展智能体环境
+→ 论文介绍了一种名为 WebAnything 的全自动化框架，旨在从真实 URL 构建可重用的源 grounded Web 环境，以解决智能体训练和评估中环境构建困难的问题。该方法通过探索者-构建器和独立验证器模块，自动收集结构、资源和交互结果，并支持 244 个网站工件和 12,984 个执行任务。在真实成功率和 WebArena-Verified 等指标上，WebAnything 相比人工辅助…
+11. DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化
+→ 论文针对门控线性注意力中有限状态记忆限制长上下文检索的问题，提出了双轴记忆初始化（DAMI）方法。该方法在训练前联合配置门控参数 A_log 和 dt_bias，通过几何时间尺度和低-高-低输入敏感性配置来优化记忆保留。实验表明，DAMI 在 GDN、KDA、Mamba-2 等模型上，将平均 RULER 风格检索准确率提高了 5.29 到 16.71 个百分点。
+
+【产业纵横】
+12. Anthropic 第三季度营收 170 亿美元
+→ Anthropic 公布修订后的 S-1 文件，前三季度营收 332.4 亿美元。
 
 【活动预告】
 · 11月5日 RECOMB 2027 论文截稿
 
-上周快讯（10.26–11.01）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W44.md
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-02-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-03-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -65,41 +67,43 @@
 
 ### 今日快讯
 
-#### 俱乐部动态
+#### 海外动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 1 次**<br>11月1日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 0 个有人参与开发，共新增 PR 1 个、合并 1 个，提交 1 次，新增代码 2 行、删除 2 行。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**OpenAI 构建可扩展的 Git 后端 Pando**<br>11月2日，OpenAI 为 Codex 开发了一个兼容 Git 的后端 Pando，以应对大规模开发需求。<br><sub>（来源：[OpenAI](https://openai.com/index/scaling-git-at-openai)）</sub>
 
-#### 国内动态
-
-**工信部：我国AI推理数据量首超训练数据量**<br>11月1日，四大AI公司联合推行新标准，允许网站通过robots.txt统一声明拒绝AI抓取训练内容。<br><sub>（来源：[IT之家](https://www.ithome.com/1/020/837.htm)）</sub>
+**推出 Grid Protectors 计划**<br>11月2日，OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。<br><sub>（来源：[OpenAI](https://openai.com/index/grid-protectors-program)）</sub>
 
 #### 开源项目
 
-**Jev开源精准筛选候选人工具**<br>11月1日，TypeSafe AI开源Jev工具，比Clay便宜85%，能帮Agent精准筛选并补齐候选人信息。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/506922.html)）</sub>
+**agent-desktop：AI 智能体的计算机使用 CLI**<br>11月3日消息，vercel-labs/agent-desktop 提供计算机使用命令行接口，供 AI 智能体操作。<br><sub>（来源：[GitHub Trending](https://github.com/vercel-labs/agent-desktop)）</sub>
 
-**pixelfx：244个像素艺术效果代码片段**<br>11月2日消息，pixelfx 包含244个像素艺术效果的小代码片段，并提供 Claude Code 技能。<br><sub>（来源：[GitHub 新项目](https://github.com/patch-gg/pixelfx)）</sub>
+**Handy：免费开源离线语音转文字应用**<br>11月3日消息，Handy 是一款免费、开源且可扩展的离线语音转文字应用。<br><sub>（来源：[GitHub Trending](https://github.com/cjpais/Handy)）</sub>
 
-**ai-engineering-hub：LLM与RAG深度教程**<br>11月2日消息，ai-engineering-hub 提供关于 LLMs、RAGs 和真实世界 AI 智能体应用的深度教程。<br><sub>（来源：[GitHub Trending](https://github.com/patchy631/ai-engineering-hub)）</sub>
+**OmniRoute：统一接入 1400+ 模型**<br>11月3日消息，OmniRoute 提供 MIT 许可的 AI 网关，统一端点接入 375 个提供商的 1400+ 模型。<br><sub>（来源：[GitHub Trending](https://github.com/cheaper-inference/OmniRoute)）</sub>
 
-**anthropics/skills：Agent技能公共仓库**<br>11月2日消息，anthropics/skills 是 Agent Skills 的公共仓库。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/skills)）</sub>
+**BLA：保护二进制文件和 WebAssembly 免受 AI 反编译攻击**<br>11月3日消息，BLA 是一款对抗性防御盾，保护二进制文件、Electron 应用和 WebAssembly 免受 AI 反编译攻击。<br><sub>（来源：[GitHub 新项目](https://github.com/qybaihe/bla)）</sub>
 
-**paperclip：开源Agent管理应用**<br>11月2日消息，paperclip 是开源的 Agent 管理应用。<br><sub>（来源：[GitHub Trending](https://github.com/paperclipai/paperclip)）</sub>
+**last30days-skill：跨平台研究并生成摘要**<br>11月3日消息，该技能可跨 Reddit、X、YouTube 等平台研究并生成摘要。<br><sub>（来源：[GitHub Trending](https://github.com/mvanhorn/last30days-skill)）</sub>
 
 #### 学术前沿
 
-**清华姚期智团队提出代数世界模型**<br>11月1日，清华姚期智团队提出代数世界模型，旨在解决AI训练数据污染问题，让AI从观察实验中理解世界。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/507031.html)）</sub>
+**Astra：直接读写权重优化 Qwen**<br>11月3日，GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。<br><sub>（来源：[Hacker News](https://rikiyat.github.io/blog/weight-space-programming/)）</sub>
 
-**ThinkWorld：世界想象强化动态推理**<br>11月2日消息，ThinkWorld 框架将动作推理建立在世界动力学上，通过强化学习进行强化，实现了有效的人机迁移。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.37666)）</sub>
+**R^2Orch：通过技能内化循环中的自我博弈实现智能体编排的递归自我改进**<br>11月3日消息，论文针对智能体编排学习中课程设计、优势崩溃和评估信号不可靠等挑战，提出了 R^2Orch 递归自我博弈编排范式。该方法通过内部自我博弈循环和外部技能撤回循环，利用递归可学习性目标来改进编排者对自我选择任务的优化。实验在问答、数学、代码和交互任务上验证了 R^2Orch 的一致优越性。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.22740)）</sub>
 
-**JEPAs 证明柏拉图表示假设**<br>11月2日消息，研究将柏拉图表示假设转化为定理，证明联合嵌入预测架构能学习到相同的世界表示。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.39302)）</sub>
+**WebAnything：从野生网络到可扩展智能体环境**<br>11月3日消息，论文介绍了一种名为 WebAnything 的全自动化框架，旨在从真实 URL 构建可重用的源 grounded Web 环境，以解决智能体训练和评估中环境构建困难的问题。该方法通过探索者-构建器和独立验证器模块，自动收集结构、资源和交互结果，并支持 244 个网站工件和 12,984 个执行任务。在真实成功率和 WebArena-Verified 等指标上，WebAnything 相比人工辅助…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.37786)）</sub>
 
-**DeFT-RAG 分解多跳问题**<br>11月2日消息，DeFT-RAG 框架通过生成自包含子问题并缓存答案，提升了检索增强生成处理多跳问题的准确率。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.37826)）</sub>
+**DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化**<br>11月3日消息，论文针对门控线性注意力中有限状态记忆限制长上下文检索的问题，提出了双轴记忆初始化（DAMI）方法。该方法在训练前联合配置门控参数 A\_log 和 dt\_bias，通过几何时间尺度和低-高-低输入敏感性配置来优化记忆保留。实验表明，DAMI 在 GDN、KDA、Mamba-2 等模型上，将平均 RULER 风格检索准确率提高了 5.29 到 16.71 个百分点。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.41994)）</sub>
+
+#### 产业纵横
+
+**Anthropic 第三季度营收 170 亿美元**<br>11月2日，Anthropic 公布修订后的 S-1 文件，前三季度营收 332.4 亿美元。<br><sub>（来源：[Hacker News](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html)）</sub>
 
 ### 活动预告
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月1日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-02 09:03（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-03 09:35（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 
