@@ -45,12 +45,12 @@
 【学术前沿】
 8. Astra：直接读写权重优化 Qwen
 → GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。
-9. R^2Orch：通过技能内化循环中的自我博弈实现智能体编排的递归自我改进
-→ 论文针对智能体编排学习中课程设计、优势崩溃和评估信号不可靠等挑战，提出了 R^2Orch 递归自我博弈编排范式。该方法通过内部自我博弈循环和外部技能撤回循环，利用递归可学习性目标来改进编排者对自我选择任务的优化。实验在问答、数学、代码和交互任务上验证了 R^2Orch 的一致优越性。
-10. WebAnything：从野生网络到可扩展智能体环境
-→ 论文介绍了一种名为 WebAnything 的全自动化框架，旨在从真实 URL 构建可重用的源 grounded Web 环境，以解决智能体训练和评估中环境构建困难的问题。该方法通过探索者-构建器和独立验证器模块，自动收集结构、资源和交互结果，并支持 244 个网站工件和 12,984 个执行任务。在真实成功率和 WebArena-Verified 等指标上，WebAnything 相比人工辅助…
+9. R^2Orch：递归自我博弈编排范式
+→ R^2Orch提出通过技能内化循环中的自我博弈来改进智能体编排，在问答、数学和代码任务上表现优越。
+10. WebAnything：全自动化智能体环境框架
+→ WebAnything框架通过探索者-构建器和验证器模块，从真实URL构建可重用的源 grounded Web 环境，支持244个网站工件。
 11. DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化
-→ 论文针对门控线性注意力中有限状态记忆限制长上下文检索的问题，提出了双轴记忆初始化（DAMI）方法。该方法在训练前联合配置门控参数 A_log 和 dt_bias，通过几何时间尺度和低-高-低输入敏感性配置来优化记忆保留。实验表明，DAMI 在 GDN、KDA、Mamba-2 等模型上，将平均 RULER 风格检索准确率提高了 5.29 到 16.71 个百分点。
+→ 论文提出双轴记忆初始化方法，通过联合配置门控参数优化记忆保留，在GDN、KDA、Mamba-2等模型上将平均检索准确率提高了5.29到16.71个百分点。
 
 【产业纵横】
 12. Anthropic 第三季度营收 170 亿美元
@@ -89,11 +89,11 @@
 
 **Astra：直接读写权重优化 Qwen**<br>11月3日，GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。<br><sub>（来源：[Hacker News](https://rikiyat.github.io/blog/weight-space-programming/)）</sub>
 
-**R^2Orch：通过技能内化循环中的自我博弈实现智能体编排的递归自我改进**<br>11月3日消息，论文针对智能体编排学习中课程设计、优势崩溃和评估信号不可靠等挑战，提出了 R^2Orch 递归自我博弈编排范式。该方法通过内部自我博弈循环和外部技能撤回循环，利用递归可学习性目标来改进编排者对自我选择任务的优化。实验在问答、数学、代码和交互任务上验证了 R^2Orch 的一致优越性。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.22740)）</sub>
+**R^2Orch：递归自我博弈编排范式**<br>11月3日消息，R^2Orch提出通过技能内化循环中的自我博弈来改进智能体编排，在问答、数学和代码任务上表现优越。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.22740)）</sub>
 
-**WebAnything：从野生网络到可扩展智能体环境**<br>11月3日消息，论文介绍了一种名为 WebAnything 的全自动化框架，旨在从真实 URL 构建可重用的源 grounded Web 环境，以解决智能体训练和评估中环境构建困难的问题。该方法通过探索者-构建器和独立验证器模块，自动收集结构、资源和交互结果，并支持 244 个网站工件和 12,984 个执行任务。在真实成功率和 WebArena-Verified 等指标上，WebAnything 相比人工辅助…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.37786)）</sub>
+**WebAnything：全自动化智能体环境框架**<br>11月3日消息，WebAnything框架通过探索者-构建器和验证器模块，从真实URL构建可重用的源 grounded Web 环境，支持244个网站工件。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.37786)）</sub>
 
-**DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化**<br>11月3日消息，论文针对门控线性注意力中有限状态记忆限制长上下文检索的问题，提出了双轴记忆初始化（DAMI）方法。该方法在训练前联合配置门控参数 A\_log 和 dt\_bias，通过几何时间尺度和低-高-低输入敏感性配置来优化记忆保留。实验表明，DAMI 在 GDN、KDA、Mamba-2 等模型上，将平均 RULER 风格检索准确率提高了 5.29 到 16.71 个百分点。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.41994)）</sub>
+**DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化**<br>11月3日消息，论文提出双轴记忆初始化方法，通过联合配置门控参数优化记忆保留，在GDN、KDA、Mamba-2等模型上将平均检索准确率提高了5.29到16.71个百分点。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.41994)）</sub>
 
 #### 产业纵横
 
@@ -103,7 +103,7 @@
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-03 09:35（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-03 11:06（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 

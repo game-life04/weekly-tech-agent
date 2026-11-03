@@ -1120,13 +1120,13 @@
   "start": "2026-11-03",
   "end": "2026-11-03",
   "title": "OpenAI 构建可扩展的 Git 后端 Pando",
-  "generated_at": "2026-11-03T01:35:36Z",
+  "generated_at": "2026-11-03T03:06:08Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 4,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-02",
    "end": "2026-11-02"
@@ -1242,10 +1242,10 @@
    },
    {
     "cat": "papers",
-    "headline": "R^2Orch：通过技能内化循环中的自我博弈实现智能体编排的递归自我改进",
+    "headline": "R^2Orch：递归自我博弈编排范式",
     "when": "11月3日消息",
     "date": "2026-11-03",
-    "body": "论文针对智能体编排学习中课程设计、优势崩溃和评估信号不可靠等挑战，提出了 R^2Orch 递归自我博弈编排范式。该方法通过内部自我博弈循环和外部技能撤回循环，利用递归可学习性目标来改进编排者对自我选择任务的优化。实验在问答、数学、代码和交互任务上验证了 R^2Orch 的一致优越性。",
+    "body": "R^2Orch提出通过技能内化循环中的自我博弈来改进智能体编排，在问答、数学和代码任务上表现优越。",
     "url": "https://arxiv.org/abs/2610.22740",
     "via": "Hugging Face 热门论文",
     "id": "4185c9fbf845",
@@ -1253,10 +1253,10 @@
    },
    {
     "cat": "papers",
-    "headline": "WebAnything：从野生网络到可扩展智能体环境",
+    "headline": "WebAnything：全自动化智能体环境框架",
     "when": "11月3日消息",
     "date": "2026-11-03",
-    "body": "论文介绍了一种名为 WebAnything 的全自动化框架，旨在从真实 URL 构建可重用的源 grounded Web 环境，以解决智能体训练和评估中环境构建困难的问题。该方法通过探索者-构建器和独立验证器模块，自动收集结构、资源和交互结果，并支持 244 个网站工件和 12,984 个执行任务。在真实成功率和 WebArena-Verified 等指标上，WebAnything 相比人工辅助…",
+    "body": "WebAnything框架通过探索者-构建器和验证器模块，从真实URL构建可重用的源 grounded Web 环境，支持244个网站工件。",
     "url": "https://arxiv.org/abs/2610.37786",
     "via": "arXiv · 智能体",
     "id": "234f1af6e64c",
@@ -1267,7 +1267,7 @@
     "headline": "DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化",
     "when": "11月3日消息",
     "date": "2026-11-03",
-    "body": "论文针对门控线性注意力中有限状态记忆限制长上下文检索的问题，提出了双轴记忆初始化（DAMI）方法。该方法在训练前联合配置门控参数 A_log 和 dt_bias，通过几何时间尺度和低-高-低输入敏感性配置来优化记忆保留。实验表明，DAMI 在 GDN、KDA、Mamba-2 等模型上，将平均 RULER 风格检索准确率提高了 5.29 到 16.71 个百分点。",
+    "body": "论文提出双轴记忆初始化方法，通过联合配置门控参数优化记忆保留，在GDN、KDA、Mamba-2等模型上将平均检索准确率提高了5.29到16.71个百分点。",
     "url": "https://arxiv.org/abs/2610.41994",
     "via": "arXiv · 长上下文与检索",
     "id": "56897d87d1f3",
@@ -1397,6 +1397,12 @@
     "headline": "",
     "body": ""
    },
+   "23283e1afb1c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Cordonix 发布 0.0.5 版本",
+    "body": "Cordonix 0.0.5 新增原生手机工具与 Windows 进程查询功能，面向 AI 编程代理。"
+   },
    "7dc1512049bf": {
     "v": "4f7b2f10",
     "cat": "skip",
@@ -1408,6 +1414,24 @@
     "cat": "skip",
     "headline": "",
     "body": ""
+   },
+   "4185c9fbf845": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "R^2Orch：递归自我博弈编排范式",
+    "body": "R^2Orch提出通过技能内化循环中的自我博弈来改进智能体编排，在问答、数学和代码任务上表现优越。"
+   },
+   "234f1af6e64c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WebAnything：全自动化智能体环境框架",
+    "body": "WebAnything框架通过探索者-构建器和验证器模块，从真实URL构建可重用的源 grounded Web 环境，支持244个网站工件。"
+   },
+   "56897d87d1f3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化",
+    "body": "论文提出双轴记忆初始化方法，通过联合配置门控参数优化记忆保留，在GDN、KDA、Mamba-2等模型上将平均检索准确率提高了5.29到16.71个百分点。"
    }
   }
  }
