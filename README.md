@@ -12,54 +12,57 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.03（周二）
+## 每日快讯 · 11.04（周三）
 
-> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-03-kuaixun.md) · [公众号排版版](daily/2026/2026-11-03-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-03.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **14** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-04-kuaixun.md) · [公众号排版版](daily/2026/2026-11-04-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-04.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月3日 周二
-今日 AI 与开源要闻 12 条，3 分钟速读
+【每日科技快讯】11月4日 周三
+今日 AI 与开源要闻 14 条，3 分钟速读
 
-【海外动态】
-1. OpenAI 构建可扩展的 Git 后端 Pando
-→ OpenAI 为 Codex 开发了一个兼容 Git 的后端 Pando，以应对大规模开发需求。
-2. 推出 Grid Protectors 计划
-→ OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 3 个 PR、提交 2 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
 
 【开源项目】
-3. agent-desktop：AI 智能体的计算机使用 CLI
-→ vercel-labs/agent-desktop 提供计算机使用命令行接口，供 AI 智能体操作。
-4. Handy：免费开源离线语音转文字应用
-→ Handy 是一款免费、开源且可扩展的离线语音转文字应用。
-5. OmniRoute：统一接入 1400+ 模型
-→ OmniRoute 提供 MIT 许可的 AI 网关，统一端点接入 375 个提供商的 1400+ 模型。
-6. BLA：保护二进制文件和 WebAssembly 免受 AI 反编译攻击
-→ BLA 是一款对抗性防御盾，保护二进制文件、Electron 应用和 WebAssembly 免受 AI 反编译攻击。
-7. last30days-skill：跨平台研究并生成摘要
-→ 该技能可跨 Reddit、X、YouTube 等平台研究并生成摘要。
+3. open-webui 发布 v0.13.0 版本
+→ open-webui 新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。
+4. Colibri：针对前沿 MoE 模型的分层推理引擎
+→ Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。
+5. TokenEconomizer：面向编码代理的体验驱动黑盒成本控制
+→ TokenEconomizer 是一个面向编码代理的体验驱动黑盒成本控制工具。
+6. Project NOMAD：离线优先的知识与教育服务器
+→ Project NOMAD 是一个离线优先的知识与教育服务器，无需联网即可运行。
+7. agent-browser：AI 代理的浏览器自动化 CLI
+→ agent-browser 是一个用于 AI 代理的浏览器自动化命令行工具。
 
 【学术前沿】
-8. Astra：直接读写权重优化 Qwen
-→ GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。
-9. R^2Orch：递归自我博弈编排范式
-→ R^2Orch提出通过技能内化循环中的自我博弈来改进智能体编排，在问答、数学和代码任务上表现优越。
-10. WebAnything：全自动化智能体环境框架
-→ WebAnything框架通过探索者-构建器和验证器模块，从真实URL构建可重用的源 grounded Web 环境，支持244个网站工件。
-11. DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化
-→ 论文提出双轴记忆初始化方法，通过联合配置门控参数优化记忆保留，在GDN、KDA、Mamba-2等模型上将平均检索准确率提高了5.29到16.71个百分点。
+8. LLM 可读写神经网络权重
+→ Weight Space Programming 论文指出大模型能直接修改权重，DeepSeek 也在探索相关应用。
+9. 论文发现大模型可读写神经网络权重
+→ 新论文指出前沿模型能直接解释和修改神经网络的原始权重，实现权重空间编程。
+10. Hy-Nomas：迈向自由形式交互式世界生成
+→ 为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。
+11. 生成式 AI 基础：直观的数学入门
+→ 本书推导了生成模型的核心数学原理，涵盖从 PCA 到扩散模型等主流架构。
 
 【产业纵横】
-12. Anthropic 第三季度营收 170 亿美元
-→ Anthropic 公布修订后的 S-1 文件，前三季度营收 332.4 亿美元。
+12. 富士胶片将把磁带产量提高 5 倍
+→ 受生成式 AI 推动的数据归档需求激增，富士胶片将投资约 10 亿日元扩大磁带产能。
+13. Anthropic 内部 AI 使用成本超员工薪资
+→ Anthropic IPO 文件显示，其内部 AI 使用价值已超过员工薪酬，且增长迅速。
+14. OpenAI 推广 ChatGPT 加速物理世界工程
+→ OpenAI 展示 ChatGPT 和 Codex 如何帮助工程师加速 CAD、PCB 设计等物理世界工作流。
 
 【活动预告】
 · 11月5日 RECOMB 2027 论文截稿
+· 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-03-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-04-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -67,43 +70,49 @@
 
 ### 今日快讯
 
-#### 海外动态
+#### 俱乐部动态
 
-**OpenAI 构建可扩展的 Git 后端 Pando**<br>11月2日，OpenAI 为 Codex 开发了一个兼容 Git 的后端 Pando，以应对大规模开发需求。<br><sub>（来源：[OpenAI](https://openai.com/index/scaling-git-at-openai)）</sub>
+**开放原子开源俱乐部合并 3 个 PR、提交 2 次**<br>11月3日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 3 个、合并 3 个，提交 2 次，新增代码 1001 行、删除 3 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**推出 Grid Protectors 计划**<br>11月2日，OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。<br><sub>（来源：[OpenAI](https://openai.com/index/grid-protectors-program)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月3日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 999 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
 #### 开源项目
 
-**agent-desktop：AI 智能体的计算机使用 CLI**<br>11月3日消息，vercel-labs/agent-desktop 提供计算机使用命令行接口，供 AI 智能体操作。<br><sub>（来源：[GitHub Trending](https://github.com/vercel-labs/agent-desktop)）</sub>
+**open-webui 发布 v0.13.0 版本**<br>11月3日，open-webui 新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。<br><sub>（来源：[GitHub 版本发布](https://github.com/open-webui/open-webui/releases/tag/v0.13.0)）</sub>
 
-**Handy：免费开源离线语音转文字应用**<br>11月3日消息，Handy 是一款免费、开源且可扩展的离线语音转文字应用。<br><sub>（来源：[GitHub Trending](https://github.com/cjpais/Handy)）</sub>
+**Colibri：针对前沿 MoE 模型的分层推理引擎**<br>11月4日消息，Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。<br><sub>（来源：[GitHub Trending](https://github.com/JustVugg/colibri)）</sub>
 
-**OmniRoute：统一接入 1400+ 模型**<br>11月3日消息，OmniRoute 提供 MIT 许可的 AI 网关，统一端点接入 375 个提供商的 1400+ 模型。<br><sub>（来源：[GitHub Trending](https://github.com/cheaper-inference/OmniRoute)）</sub>
+**TokenEconomizer：面向编码代理的体验驱动黑盒成本控制**<br>11月4日消息，TokenEconomizer 是一个面向编码代理的体验驱动黑盒成本控制工具。<br><sub>（来源：[GitHub 新项目](https://github.com/microsoft/TokenEconomizer)）</sub>
 
-**BLA：保护二进制文件和 WebAssembly 免受 AI 反编译攻击**<br>11月3日消息，BLA 是一款对抗性防御盾，保护二进制文件、Electron 应用和 WebAssembly 免受 AI 反编译攻击。<br><sub>（来源：[GitHub 新项目](https://github.com/qybaihe/bla)）</sub>
+**Project NOMAD：离线优先的知识与教育服务器**<br>11月4日消息，Project NOMAD 是一个离线优先的知识与教育服务器，无需联网即可运行。<br><sub>（来源：[GitHub Trending](https://github.com/Crosstalk-Solutions/project-nomad)）</sub>
 
-**last30days-skill：跨平台研究并生成摘要**<br>11月3日消息，该技能可跨 Reddit、X、YouTube 等平台研究并生成摘要。<br><sub>（来源：[GitHub Trending](https://github.com/mvanhorn/last30days-skill)）</sub>
+**agent-browser：AI 代理的浏览器自动化 CLI**<br>11月4日消息，agent-browser 是一个用于 AI 代理的浏览器自动化命令行工具。<br><sub>（来源：[GitHub Trending](https://github.com/vercel-labs/agent-browser)）</sub>
 
 #### 学术前沿
 
-**Astra：直接读写权重优化 Qwen**<br>11月3日，GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。<br><sub>（来源：[Hacker News](https://rikiyat.github.io/blog/weight-space-programming/)）</sub>
+**LLM 可读写神经网络权重**<br>11月3日，Weight Space Programming 论文指出大模型能直接修改权重，DeepSeek 也在探索相关应用。<br><sub>（来源：[Latent Space](https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/)）</sub>
 
-**R^2Orch：递归自我博弈编排范式**<br>11月3日消息，R^2Orch提出通过技能内化循环中的自我博弈来改进智能体编排，在问答、数学和代码任务上表现优越。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.22740)）</sub>
+**论文发现大模型可读写神经网络权重**<br>11月4日，新论文指出前沿模型能直接解释和修改神经网络的原始权重，实现权重空间编程。<br><sub>（来源：[Simon Willison](https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/)）</sub>
 
-**WebAnything：全自动化智能体环境框架**<br>11月3日消息，WebAnything框架通过探索者-构建器和验证器模块，从真实URL构建可重用的源 grounded Web 环境，支持244个网站工件。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2610.37786)）</sub>
+**Hy-Nomas：迈向自由形式交互式世界生成**<br>11月4日消息，为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.36729)）</sub>
 
-**DAMI：门控线性注意力中增强长上下文检索的双轴记忆初始化**<br>11月3日消息，论文提出双轴记忆初始化方法，通过联合配置门控参数优化记忆保留，在GDN、KDA、Mamba-2等模型上将平均检索准确率提高了5.29到16.71个百分点。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2610.41994)）</sub>
+**生成式 AI 基础：直观的数学入门**<br>11月4日，本书推导了生成模型的核心数学原理，涵盖从 PCA 到扩散模型等主流架构。<br><sub>（来源：[Hacker News](https://arxiv.org/abs/2605.29713)）</sub>
 
 #### 产业纵横
 
-**Anthropic 第三季度营收 170 亿美元**<br>11月2日，Anthropic 公布修订后的 S-1 文件，前三季度营收 332.4 亿美元。<br><sub>（来源：[Hacker News](https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html)）</sub>
+**富士胶片将把磁带产量提高 5 倍**<br>11月2日，受生成式 AI 推动的数据归档需求激增，富士胶片将投资约 10 亿日元扩大磁带产能。<br><sub>（来源：[Hacker News](https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/)）</sub>
+
+**Anthropic 内部 AI 使用成本超员工薪资**<br>11月3日，Anthropic IPO 文件显示，其内部 AI 使用价值已超过员工薪酬，且增长迅速。<br><sub>（来源：[Hacker News](https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11)）</sub>
+
+**OpenAI 推广 ChatGPT 加速物理世界工程**<br>11月3日，OpenAI 展示 ChatGPT 和 Codex 如何帮助工程师加速 CAD、PCB 设计等物理世界工作流。<br><sub>（来源：[OpenAI](https://openai.com/index/accelerating-engineering-for-the-physical-world)）</sub>
 
 ### 活动预告
 
 **RECOMB 2027 论文截稿**<br>11月5日，International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。<br><sub>（来源：[会议官网](https://recomb.org/recomb2027/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-03 11:06（北京时间）自动生成。</sub>
+**CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
+
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月3日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-04 07:59（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 

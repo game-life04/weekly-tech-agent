@@ -1,0 +1,1399 @@
+{
+ "date": "2026-11-04",
+ "generated_at": "2026-11-03T23:59:08Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 492,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 74,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 9.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.7
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 48,
+   "error": "",
+   "seconds": 10.3
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 341,
+   "error": "",
+   "seconds": 24.5
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 23.3
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 15,
+   "error": "",
+   "seconds": 123.7
+  }
+ ],
+ "items": [
+  {
+   "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+   "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-03T12:21:17Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 871.0,
+    "comments": 189.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50351111",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "The experiments that read raw weights and the ones that fix Qwen use completely different techniques. Stage magicians often do the same trick multiple ways. One iteration uses a gimmick prop, the next one shows you the prop isn’t gimmick but that one palms the object, the third time was a forced choice etc. When you watch the performance you assume there’s only one technique, so each time they do it they seem to debunk your hypothesis about how it must be working. This is pretty much how the experiments in the ‘Astra can read and write weights to improve Qwen’ post work. The post’s abstract says: Just by looking at the raw weights, GPT-6 Astra can tell what a network was trained to do. And without any environment feedback, it has no trouble writing, from scratch, small game-playing networ…",
+    "llm_done": true
+   },
+   "id": "d799a9ad6b1e",
+   "score": 8.8,
+   "title_zh": "Astra 读写权重改进 Qwen 的文章具有误导性",
+   "summary_zh": "该文章声称 Astra 能改进 Qwen，但实验使用的技术完全不同，结论不可信。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "source": "rss",
+   "section": "news",
+   "via": "Simon Willison",
+   "published": "2026-11-03T16:29:48Z",
+   "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with…",
+   "heat": 0.985,
+   "weight": 0.7,
+   "metrics": {
+    "points": 456.0,
+    "comments": 142.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50355251",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "fdf1822c9e67",
+   "score": 8.33,
+   "title_zh": "Qwen 3.8 27B 也能解释模型权重",
+   "summary_zh": "新论文发现前沿模型（如 GPT-6 Astra）能直接读写神经网络的原始权重。",
+   "tags": [
+    "论文",
+    "模型",
+    "权重"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+   "url": "https://arxiv.org/abs/2605.29713",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-03T21:40:53Z",
+   "summary": "",
+   "heat": 0.812,
+   "weight": 0.6,
+   "metrics": {
+    "points": 155.0,
+    "comments": 18.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50358582",
+    "excerpt_tried": true,
+    "evidence": "This book provides a compact, derivation-oriented introduction to the mathematical foundations of modern generative artificial intelligence. Rather than surveying every recent architecture or implementation detail, it develops a coherent route through the ideas connecting major families of generative models, from PCA, probabilistic PCA, variational autoencoders, and diffusion models to normalising flows, autoregressive factorisations, GANs, Wasserstein GANs, and energy-based models. The aim is to make the structure of generative modelling more accessible without removing the mathematical substance needed to understand how these models are derived and related. The book is intended as a foundation-building primer for mathematically curious researchers, practitioners, and students. arXivLabs…",
+    "llm_done": true
+   },
+   "id": "74565808bc1a",
+   "score": 7.79,
+   "title_zh": "生成式 AI 基础：直观的数学入门",
+   "summary_zh": "本书推导了生成模型的核心数学原理，涵盖从 PCA 到扩散模型等主流架构。",
+   "tags": [
+    "论文",
+    "书籍"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+   "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-02T16:40:29Z",
+   "summary": "",
+   "heat": 0.942,
+   "weight": 0.6,
+   "metrics": {
+    "points": 348.0,
+    "comments": 268.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50339494",
+    "excerpt_tried": true,
+    "evidence": "Anthropic's IPO filing reveals a striking milestone: Its internal AI usage is now valued above employee compensation. Here's a remarkable milestone in the AI revolution: Anthropic now spends more on internal AI usage than it does paying employees. The company revealed this in its IPO filing . In April, the value of Claude AI used internally, calculated at prices Anthropic charges customers, exceeded its monthly employee compensation costs, excluding stock awards. By September, that internal AI usage had surged more than 250-fold since January. There's an important distinction here. Anthropic isn't actually spending more cash on AI than salaries. It's valuing its internal AI consumption at retail prices. Still, this feels like a watershed moment for the tech industry. In March, I wrote abo…",
+    "llm_done": true
+   },
+   "id": "221f22cf99c7",
+   "score": 7.78,
+   "title_zh": "Anthropic 内部 AI 使用成本超员工薪资",
+   "summary_zh": "Anthropic IPO 文件显示，其内部 AI 使用价值已超过员工薪酬，且增长迅速。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+   "source": "rss",
+   "section": "news",
+   "via": "Latent Space",
+   "published": "2026-11-03T05:35:00Z",
+   "summary": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "efc48dcf11c2",
+   "score": 7.77,
+   "title_zh": "LLM 可读写神经网络权重",
+   "summary_zh": "Weight Space Programming 论文指出大模型能直接修改权重，DeepSeek 也在探索相关应用。",
+   "tags": [
+    "论文",
+    "模型",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Accelerating engineering for the physical world",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-03T12:00:00Z",
+   "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "944ed7784bd7",
+   "score": 7.75,
+   "title_zh": "加速物理世界的工程",
+   "summary_zh": "ChatGPT 和 Codex 帮助工程师加速 CAD、PCB 设计等物理世界工作流。",
+   "tags": [
+    "工具",
+    "工程",
+    "加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-02T14:02:42Z",
+   "summary": "",
+   "heat": 0.944,
+   "weight": 0.6,
+   "metrics": {
+    "points": 353.0,
+    "comments": 142.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50336918",
+    "excerpt_tried": true,
+    "evidence": "Low costs and offline security mean magnetic tape still has a job. In an announcement released Thursday, Fujifilm said it will invest roughly 10 billion yen (about $63 million) to increase its production capacity fivefold for an unlikely beneficiary of the AI era: magnetic tape. Fujifilm attributes the surge in archiving demand to the spread of generative AI, which the company remarked is producing “exponential growth” in data needs worldwide. The 5x increase in production capacity will be measured against fiscal year 2025 production levels. The investment in Fujifilm’s Kanagawa Factory, Odawara site will make it “the largest investment Fujifilm has made to date in dedicated LTO tape facilities.” The project will run from fiscal years 2026 through 2028 to fund manufacturing expansion and…",
+    "llm_done": true
+   },
+   "id": "a823a22841c2",
+   "score": 7.75,
+   "title_zh": "富士胶片将把磁带产量提高 5 倍",
+   "summary_zh": "受生成式 AI 推动的数据归档需求激增，富士胶片将投资约 10 亿日元扩大磁带产能。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI、Claude新旗舰同日曝光！",
+   "url": "https://aiera.com.cn/2026/11/03/other/admin/122038/openai%e3%80%81claude%e6%96%b0%e6%97%97%e8%88%b0%e5%90%8c%e6%97%a5%e6%9b%9d%e5%85%89%ef%bc%81/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-03T00:08:52Z",
+   "summary": "两大新模型爆料，竟撞在了同一天！ 谷歌Gemini 4 Carbon刚把全球第一抢回去没几天，OpenAI和Anthropic就在周末同时亮出了下一代底牌。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "86e722add090",
+   "score": 7.73,
+   "title_zh": "OpenAI、Claude 新旗舰同日曝光",
+   "summary_zh": "OpenAI 和 Anthropic 在周末同时亮出了下一代底牌。",
+   "tags": [
+    "行业动态",
+    "模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "url": "https://openai.com/index/cisco-cyber",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-03T08:00:00Z",
+   "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "340ee1cd1e08",
+   "score": 7.72,
+   "title_zh": "Cisco 利用 OpenAI 实现机器速度防御",
+   "summary_zh": "Cisco 结合网络智能与 OpenAI 模型，构建更自适应的企业安全防御体系。",
+   "tags": [
+    "行业动态",
+    "安全",
+    "应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Agentic cheminformatics with Google Antigravity",
+   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-03T17:01:49Z",
+   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e404b37228d4",
+   "score": 7.64,
+   "title_zh": "Google Antigravity 代理化学信息学",
+   "summary_zh": "Antigravity 和 Cheminformatics Skills 加速药物发现工作流，搜索化合物并提议新型刚性大环。",
+   "tags": [
+    "工具",
+    "药物发现",
+    "化学"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+   "heat": 0.836,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 803.0,
+    "stars": 47236.0
+   },
+   "extra": {
+    "language": "C",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "2a0662c2ca2c",
+   "score": 8.19,
+   "title_zh": "",
+   "summary_zh": "Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "open-webui/open-webui v0.13.0",
+   "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-03T12:23:16Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "### Added - 📑 **Tabbed workspace.** The Tabs button at the top of a chat now opens a workspace for files, multiple terminal sessions, artifacts, previews, voice calls and comments. Add tabs from the + menu, drag to reorder them, and create and save new files directly into the selected terminal. Keep the conversation and its working files together while coding, analyzing data or reviewing generated documents. [Commit](https://github.com/open-webui/open-webui/commit/2d7cf5ec99c3fa5c7ee48b91823fb8021b846cf3), [Commit](https://github.com/open-webui/open-webui/commit/5b58b1ebc03024fca1efd498aeabe4d9880dc3aa), [Commit](https://github.com/open-webui/open-webui/commit/a06aa230f75cc2d3512d1bca197a98f3c35da96f), [Commit](https://github.com/open-webui/open-webui/commit/cdc6feecd3769aac41844d81bd775dfb69b44912) - 🖥️ **Open Terminal Desktop tab for computer use.** Open the Desktop tab from the + menu to view and control the desktop provided by your connected Open Terminal, with mouse, keyboard, clipboard and audio support where available. With a model that can call its desktop tools, you can follow computer-use workflows in the same desktop and step in yourself: operate graphical apps, inspect generated documents or handle a step that needs manual input. Requires an Open Terminal connection with desktop support enabled. [Commit](https://github.com/open-webui/open-webui/commit/b51e68fbb3e641e7f9027f5164fcf6b0e111cf27), [Commit](https://github.com/open-webui/open-webui/commit/3bd0cdd0f3cc0…",
+    "level": "minor",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ca4b0726ece6",
+   "score": 7.62,
+   "title_zh": "",
+   "summary_zh": "新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。",
+   "tags": [
+    "开源工具",
+    "版本发布",
+    "工作区"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "microsoft/TokenEconomizer",
+   "url": "https://github.com/microsoft/TokenEconomizer",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Experience-Driven Black-Box Cost Control for Coding Agents",
+   "heat": 0.739,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 4666.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 21,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "e8534d9a3830",
+   "score": 7.28,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Crosstalk-Solutions/project-nomad",
+   "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+   "heat": 0.663,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 201.0,
+    "stars": 42062.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "1d07522d1b08",
+   "score": 7.25,
+   "title_zh": "",
+   "summary_zh": "Project NOMAD 是一个离线优先的知识与教育服务器，无需联网即可运行。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "vercel-labs/agent-browser",
+   "url": "https://github.com/vercel-labs/agent-browser",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Browser automation CLI for AI agents",
+   "heat": 0.619,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 141.0,
+    "stars": 45403.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "3f274de57e45",
+   "score": 7.16,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How We Optimized Browser Use for Deep Agents",
+   "url": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-03T22:30:50Z",
+   "summary": "We compared seven browser toolsets for Deep Agents, picked Stagehand from Browserbase, and tuned it with LangSmith traces and evals. Here's what we learned.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "33c946e9ea2b",
+   "score": 6.9,
+   "title_zh": "",
+   "summary_zh": "对比七种浏览器工具集，选择 Stagehand 并通过 LangSmith 进行调优。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+   "heat": 0.796,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2358.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 7,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "9a36c00aef11",
+   "score": 6.79,
+   "title_zh": "",
+   "summary_zh": "AnyModelBot 是一个开源的本地优先 AI 机器人，支持多种模型和平台。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+   "heat": 0.665,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 204.0,
+    "stars": 16338.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "59a4beb11444",
+   "score": 6.65,
+   "title_zh": "",
+   "summary_zh": "基于 Playwright 和 AI 的闲鱼多任务实时监控与智能分析系统。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
+   "url": "https://arxiv.org/abs/2610.36729",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-27T00:00:00Z",
+   "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. Our central design aligns structured video captions with action-aware causal attention: descriptive context remains accessible across segments, while action instructions are restricted to their intended temporal windows. A vision-language Prompt Enhancer (PE) translates user requests and multimodal interaction histories into structured conditions for the next segment. A multi-stage curriculum progressively introduces causal generation, text interaction, camera control, and training on model-generated histories, followed by diffusion distillation. In human evaluation, Hy-Nomas shows superior performance over existing world models. We release model weights, code and benchmarks, together with a lightweight adaptation workflow, to support reproducible research on interactive world generation.",
+   "heat": 0.828,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 112.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Tencent-Hunyuan/Hy-Nomas"
+     ]
+    ],
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "d350ced903bf",
+   "score": 7.83,
+   "title_zh": "Hy-Nomas：迈向自由形式交互式世界生成",
+   "summary_zh": "为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。",
+   "tags": [
+    "视频生成",
+    "交互式世界",
+    "扩散模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+   "url": "https://arxiv.org/abs/2611.03126",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-02T13:41:14Z",
+   "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges, we introduce CUA-Master, a nested double-loop recursive improvement framework. At the system level, an outer world-data-model flywheel continuously incorporates open-world corpus and leverages evolving model weaknesses to guide subsequent data construction and optimization iterations. At the data level, an inner flywheel couples open-world seeding and autocatalytic propagation. The former mines authentic workflows as seed tasks from instructional videos, and employs visual-semantic dual-path trajectory reconstruction; The latter transforms these seeds into reusable primitives for controllable synthesis of diverse, complex, and verifiable tasks. To enable efficient and reliable trajectory collection, we further introduce a feedback-guided snapshot-rollback retry mechanism in various real environments. Extensive experiments demonstrate that CUA-Master-27B achieves competitive performance across GUI-only and GUI-CLI hybrid benchmarks, scoring 80.2 on OSWorld Verified, 36.9 on OSWorld 2.0, 43.9 on WeaveBench, and 25.0 on Agents' Last Exam. Our framework also substantially improves the…",
+   "heat": 0.792,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 91.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/xlyu0106/CUA-Master"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "bbe306731048",
+   "score": 7.59,
+   "title_zh": "CUA-Master：通过开放世界递归改进扩展计算机使用智能体",
+   "summary_zh": "针对计算机使用智能体交互数据多样性、可控性和可靠性不足的问题，本文提出了CUA-Master嵌套双循环递进改进框架。该框架通过世界-数据-模型飞轮机制和反馈引导的快照回滚重试机制，实现了开放世界语料库的持续整合和复杂任务的合成。实验显示，CUA-Master-27B在多个基准测试中取得了优异的成绩。",
+   "tags": [
+    "智能体",
+    "计算机使用",
+    "强化学习"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Advances in Agentic Computer Graphics",
+   "url": "https://arxiv.org/abs/2611.01860",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-01T00:00:00Z",
+   "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult for manual literature reviews to keep pace with new developments. At the same time, similar ideas are often described using different terminology across these tasks, further complicating efforts to develop a systematic understanding of the field. In this report, we address these challenges through two contributions. First, we introduce a unified taxonomy for characterizing agentic systems across diverse computer graphics tasks. Second, we develop an agentic literature system that can assist human researchers in analyzing existing and newly published papers at scale. Building on these contributions, we analyze emerging research trends and discuss open challenges in coordinating agents and tools across graphics tasks, designing interfaces and representations for human-agent collaboration, sustaining long-horizon planning and refinement, and reliably evaluating interactive graphics systems.",
+   "heat": 0.822,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 108.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8fed4d5d35b3",
+   "score": 7.45,
+   "title_zh": "智能体计算机图形学进展综述",
+   "summary_zh": "针对大语言模型智能体在图形代码生成和迭代优化方面的能力，本文综述了智能体计算机图形学领域的最新进展。通过引入统一分类法和智能体文献系统，本文分析了新兴研究趋势，并讨论了跨任务协调、人机协作界面设计、长时规划以及交互式图形系统评估等开放挑战。",
+   "tags": [
+    "智能体",
+    "计算机图形学",
+    "综述"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-04",
+  "start": "2026-11-04",
+  "end": "2026-11-04",
+  "title": "论文发现大模型可读写神经网络权重",
+  "generated_at": "2026-11-03T23:59:08Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-03",
+   "end": "2026-11-03"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 3 个 PR、提交 2 次",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 3 个、合并 3 个，提交 2 次，新增代码 1001 行、删除 3 行，2 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 999 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "opensource",
+    "headline": "open-webui 发布 v0.13.0 版本",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "open-webui 新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。",
+    "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.0",
+    "via": "GitHub 版本发布",
+    "id": "ca4b0726ece6",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Colibri：针对前沿 MoE 模型的分层推理引擎",
+    "when": "11月4日消息",
+    "date": "2026-11-04",
+    "body": "Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。",
+    "url": "https://github.com/JustVugg/colibri",
+    "via": "GitHub Trending",
+    "id": "2a0662c2ca2c",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "TokenEconomizer：面向编码代理的体验驱动黑盒成本控制",
+    "when": "11月4日消息",
+    "date": "2026-11-04",
+    "body": "TokenEconomizer 是一个面向编码代理的体验驱动黑盒成本控制工具。",
+    "url": "https://github.com/microsoft/TokenEconomizer",
+    "via": "GitHub 新项目",
+    "id": "e8534d9a3830",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Project NOMAD：离线优先的知识与教育服务器",
+    "when": "11月4日消息",
+    "date": "2026-11-04",
+    "body": "Project NOMAD 是一个离线优先的知识与教育服务器，无需联网即可运行。",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "via": "GitHub Trending",
+    "id": "1d07522d1b08",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "agent-browser：AI 代理的浏览器自动化 CLI",
+    "when": "11月4日消息",
+    "date": "2026-11-04",
+    "body": "agent-browser 是一个用于 AI 代理的浏览器自动化命令行工具。",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "via": "GitHub Trending",
+    "id": "3f274de57e45",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "LLM 可读写神经网络权重",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "Weight Space Programming 论文指出大模型能直接修改权重，DeepSeek 也在探索相关应用。",
+    "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+    "via": "Latent Space",
+    "id": "efc48dcf11c2",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "论文发现大模型可读写神经网络权重",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "新论文指出前沿模型能直接解释和修改神经网络的原始权重，实现权重空间编程。",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "via": "Simon Willison",
+    "id": "fdf1822c9e67",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Hy-Nomas：迈向自由形式交互式世界生成",
+    "when": "11月4日消息",
+    "date": "2026-11-04",
+    "body": "为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。",
+    "url": "https://arxiv.org/abs/2610.36729",
+    "via": "Hugging Face 热门论文",
+    "id": "d350ced903bf",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "生成式 AI 基础：直观的数学入门",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "本书推导了生成模型的核心数学原理，涵盖从 PCA 到扩散模型等主流架构。",
+    "url": "https://arxiv.org/abs/2605.29713",
+    "via": "Hacker News",
+    "id": "74565808bc1a",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "富士胶片将把磁带产量提高 5 倍",
+    "when": "11月2日",
+    "date": "2026-11-02",
+    "body": "受生成式 AI 推动的数据归档需求激增，富士胶片将投资约 10 亿日元扩大磁带产能。",
+    "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+    "via": "Hacker News",
+    "id": "a823a22841c2",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 内部 AI 使用成本超员工薪资",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "Anthropic IPO 文件显示，其内部 AI 使用价值已超过员工薪酬，且增长迅速。",
+    "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+    "via": "Hacker News",
+    "id": "221f22cf99c7",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 推广 ChatGPT 加速物理世界工程",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "OpenAI 展示 ChatGPT 和 Codex 如何帮助工程师加速 CAD、PCB 设计等物理世界工作流。",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "via": "OpenAI",
+    "id": "944ed7784bd7",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "d799a9ad6b1e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "fdf1822c9e67": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "论文发现大模型可读写神经网络权重",
+    "body": "新论文指出前沿模型能直接解释和修改神经网络的原始权重，实现权重空间编程。"
+   },
+   "74565808bc1a": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "221f22cf99c7": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "",
+    "body": ""
+   },
+   "efc48dcf11c2": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LLM 可读写神经网络权重",
+    "body": "Weight Space Programming 论文指出大模型能直接修改权重，DeepSeek 也在探索相关应用。"
+   },
+   "944ed7784bd7": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 推广 ChatGPT 加速物理世界工程",
+    "body": "OpenAI 展示 ChatGPT 和 Codex 如何帮助工程师加速 CAD、PCB 设计等物理世界工作流。"
+   },
+   "a823a22841c2": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "",
+    "body": ""
+   },
+   "86e722add090": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI、Claude 新旗舰同日曝光",
+    "body": "资料仅提及爆料，未说明具体模型名称或发布内容，且包含个人观点。"
+   },
+   "340ee1cd1e08": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Cisco 利用 OpenAI 实现机器速度防御",
+    "body": "Cisco 结合网络智能与 OpenAI 模型，构建更自适应的企业安全防御体系。"
+   },
+   "e404b37228d4": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Google Antigravity 加速药物发现",
+    "body": "Google Antigravity 和 Cheminformatics Skills 加速药物发现工作流，搜索化合物并提议新型刚性大环。"
+   },
+   "2a0662c2ca2c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Colibri：针对前沿 MoE 模型的分层推理引擎",
+    "body": "Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。"
+   },
+   "ca4b0726ece6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "open-webui 发布 v0.13.0 版本",
+    "body": "open-webui 新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。"
+   },
+   "e8534d9a3830": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "TokenEconomizer：面向编码代理的体验驱动黑盒成本控制",
+    "body": "TokenEconomizer 是一个面向编码代理的体验驱动黑盒成本控制工具。"
+   },
+   "1d07522d1b08": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Project NOMAD：离线优先的知识与教育服务器",
+    "body": "Project NOMAD 是一个离线优先的知识与教育服务器，无需联网即可运行。"
+   },
+   "3f274de57e45": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agent-browser：AI 代理的浏览器自动化 CLI",
+    "body": "agent-browser 是一个用于 AI 代理的浏览器自动化命令行工具。"
+   },
+   "33c946e9ea2b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain 优化浏览器工具集",
+    "body": "LangChain 对比七种浏览器工具集，选择 Stagehand 并通过 LangSmith 进行调优。"
+   },
+   "9a36c00aef11": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "AnyModelBot：本地优先的开源 AI 机器人",
+    "body": "AnyModelBot 是一个本地优先的开源 AI 机器人，支持多种模型和平台。"
+   },
+   "59a4beb11444": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ai-goofish-monitor：闲鱼多任务实时监控与智能分析系统",
+    "body": "ai-goofish-monitor 是一个基于 Playwright 和 AI 的闲鱼多任务实时监控与智能分析系统。"
+   },
+   "d350ced903bf": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "bbe306731048": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "8fed4d5d35b3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "综述智能体计算机图形学进展",
+    "body": "论文综述了大语言模型智能体在图形代码生成和迭代优化方面的能力，分析了跨任务协调等开放挑战。"
+   }
+  }
+ }
+}
