@@ -1,0 +1,1488 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-05T00:22:30Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 491,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 69,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 19.1
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 10.3
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 49,
+   "error": "",
+   "seconds": 8.7
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 332,
+   "error": "",
+   "seconds": 22.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 21.4
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 30,
+   "error": "",
+   "seconds": 19.9
+  }
+ ],
+ "items": [
+  {
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-04T08:00:00Z",
+   "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 21.0,
+    "comments": 15.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50372929",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d094672a404e",
+   "score": 8.31,
+   "title_zh": "OpenAI 自动修复 Linux 内核漏洞",
+   "summary_zh": "OpenAI 构建了自主管道，发现并验证了 948 个本地权限提升漏洞。",
+   "tags": [
+    "安全",
+    "漏洞修复"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Kimi K3.1 Pro model weights are out",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-04T15:30:30Z",
+   "summary": "图文理解模型，许可证 other",
+   "heat": 0.939,
+   "weight": 0.6,
+   "metrics": {
+    "points": 341.0,
+    "comments": 88.0,
+    "likes": 488.0,
+    "downloads": 797.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50366999",
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/moonshotai/Kimi-K3.1-Pro"
+     ]
+    ],
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Image-Text-to-Text model with 2.8T parameters. Download, explore files and run it on Hugging Face. Kimi K3.1 Pro is an open-weight, natively multimodal agentic model, and our most capable 3T-class model to date. Post-trained from Kimi K3 with large-scale joint reinforcement learning across hundreds of downstream domains, it is the first model in the K3.1 series. With a 1-million-token context window, Kimi K3.1 Pro delivers substantial improvements in coding, 3D creation, financial research, factual accuracy, and other agentic capabilities. * Compared with Kimi K3, we replace the full-attention Gated MLA layers with Gated DeepSeek Sparse Attention (Gated DSA) layers for more efficient long-context modeling. Unless otherwise specified, all Kimi K3.1 Pro results use reasoning effort max , te…",
+    "llm_done": true
+   },
+   "id": "398ce84e273f",
+   "score": 8.1,
+   "title_zh": "Kimi K3.1 Pro 模型权重发布",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "开源"
+   ],
+   "also_in": [
+    "Hugging Face 热门模型"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Google will turn off search for schools that reject AI",
+   "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-03T15:25:47Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 661.0,
+    "comments": 460.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50353192",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "05265b6ef515",
+   "score": 8.04,
+   "title_zh": "Google 将关闭拒绝 AI 的学校搜索服务",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+   "url": "https://news.ycombinator.com/item?id=50352757",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-03T14:53:41Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 518.0,
+    "comments": 153.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50352757",
+    "llm_done": true
+   },
+   "id": "722e5324551a",
+   "score": 8.03,
+   "title_zh": "OpenAI 似乎重新启用了 Codex 聊天中的模型训练",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-04T10:23:34Z",
+   "summary": "",
+   "heat": 0.915,
+   "weight": 0.6,
+   "metrics": {
+    "points": 295.0,
+    "comments": 293.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50363554",
+    "excerpt_tried": true,
+    "evidence": "Nobel winner warns the tech could be near to triggering major incident such as power or banking shutdown One of the “godfathers of AI”, Geoffrey Hinton, has said it could turn out that humans would have been better off never developing the technology as he warned it could trigger a large-scale incident this year or next, such as a temporary blackout of financial or power systems. The Nobel prize-winning computer scientist told the Guardian he is not a “doomer” about the technology that is underpinned by his groundbreaking research into artificial neural networks and believes AI has the potential to lead to a “wonderful future” but he said “it might be that we would have been better off never developing it”. Hinton, 78, said that within a decade and possibly sooner, humanity will know whet…",
+    "llm_done": true
+   },
+   "id": "400cfa873183",
+   "score": 8.01,
+   "title_zh": "Geoffrey Hinton：没有 AI 我们可能过得更好",
+   "summary_zh": "AI 教父 Geoffrey Hinton 警告 AI 可能引发重大事故，如金融或电力系统瘫痪。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Investigating vault particles with Claude",
+   "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic 研究",
+   "published": "2026-11-04T00:00:00Z",
+   "summary": "",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Biological cells were first detected in 1665, but more than three and a half centuries later, much of how they work remains unknown. Until relatively recently, the existence of some crucial components , let alone their function , was controversial. Even today, more than a third of the roughly 4,400 genes in one of the most comprehensively studied cells, the bacterium E. coli , remain poorly understood . Another such enigma is the vault particle . A vault particle is a large, hollow protein shell found in nearly all the cells in our body. It was discovered in 1986 by Leonard Rome and Nancy Kedersha, but its function remains elusive. At roughly three ti…",
+    "llm_done": true
+   },
+   "id": "344b7b5ad4be",
+   "score": 7.48,
+   "title_zh": "Anthropic 发现原核细胞中 vault 粒子的 3D 结构",
+   "summary_zh": "Anthropic 生物研究实验室首次发现了原核细胞中 vault 粒子的 3D 结构。",
+   "tags": [
+    "生物学",
+    "结构发现"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "月之暗面 2.8 万亿参数 Kimi K3.1 Pro 开放权重，登顶 Agent Arena 开源模型榜",
+   "url": "https://www.ithome.com/1/022/490.htm",
+   "source": "rss",
+   "section": "news",
+   "via": "IT之家",
+   "published": "2026-11-05T00:00:15Z",
+   "summary": "IT之家 11 月 5 日消息，按照 10 月 24 日发布时给出的承诺，月之暗面（Moonshot AI）今日在 Hugging Face 平台开放了 Kimi K3.1 Pro 的模型权重。 在 Arena 运营的 Agent Arena 智能体排行榜中，Kimi K3.1 Pro（Max）位列开放权重模型第一、全部参评模型第 13 位，并在工作、编程与聊天三个类别中均居开放模型首位。 Agent Arena 的评测方式与传统的成对盲测不同。它不要求用户对两个回答投票，而是从真实用户的智能体会话中提取信号，包括用户对任务的明确确认、表扬与投诉、纠正指令以及 Shell 命令执行错误等，再通过 Arena 称为“因果追踪”的随机化推断方法估算各模型相对于平均水平的净改进率。 Kimi K3.1 Pro 此次排名基于全球用户超过 1.75 万次真实长周期智能体任务会话，净改进率为 +5.1%，较上一代 K3（Max）的 +0.9% 提升 4.2 个百分点。 分项指标呈现出更具体的改善幅度。衡量 Shell 命令执行可靠性的 Bash Reliability 从 K3 的-4.5%（第…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "14c5839384d0",
+   "score": 7.48,
+   "title_zh": "月之暗面开放 Kimi K3.1 Pro 权重，登顶 Agent Arena 榜单",
+   "summary_zh": "月之暗面在 Hugging Face 开放 Kimi K3.1 Pro 权重，在 Agent Arena 开源模型榜中位列第一。",
+   "tags": [
+    "模型发布",
+    "开源",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Agile Deliberation: How AI helps humans define the gray areas",
+   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-11-04T18:07:05Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "Otilia Stretcu, Research Scientist, and Leijie Wang, Student Researcher, Google Research Agile Deliberation addresses the challenges of building AI image classifiers for subjective categories by guiding users through an interactive deliberation workflow, from scoping sub-categories to resolving edge cases, using an LLM-driven optimization loop to automatically build an accurate, aligned classifier. Machine learning models learn to recognize the world around us from examples labeled by humans. Underlying this process is an assumption that the person doing the labeling has a clear and stable definition of the category in mind before they begin. This assumption holds well when training a model on objective categories, like a stop sign or a golden retriever, where boundaries are clear and uni…",
+    "llm_done": true
+   },
+   "id": "bcb6d5543f63",
+   "score": 7.33,
+   "title_zh": "Agile Deliberation：AI 辅助人类定义模糊类别",
+   "summary_zh": "Google Research 提出通过交互式审议工作流和 LLM 优化循环，帮助用户构建准确且对齐的图像分类器。",
+   "tags": [
+    "交互式",
+    "分类器",
+    "优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "url": "https://openai.com/index/openai-to-acquire-pierre",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-04T14:30:00Z",
+   "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 164.0,
+    "comments": 55.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50366863",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "f04b9dbfe8d8",
+   "score": 7.17,
+   "title_zh": "OpenAI 收购 Pierre Computer Company",
+   "summary_zh": "OpenAI 收购 Pierre Computer Company，以扩展 Codex 的代码构建、理解和审查工具。",
+   "tags": [
+    "收购",
+    "代码工具"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+   "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-04T19:44:20Z",
+   "summary": "OpenAI is adding a GIF feature to ChatGPT. With the new Images 2.6 model, users can create animated GIFs from text prompts or photos and then adjust speed and individual frames. The model's image consistency is strong enough to keep characters recognizable across frames, making flipbook-style animation possible. According to OpenAI, users now generate more than four billion images per week. The article ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 mode…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "611f4cb9bb9b",
+   "score": 7.15,
+   "title_zh": "ChatGPT 现可生成 GIF 动画",
+   "summary_zh": "OpenAI 的 Images 2.6 模型允许用户从文本提示或照片创建 GIF 动画。",
+   "tags": [
+    "图像生成",
+    "GIF"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "2026-11-03T07:04:50Z",
+   "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "heat": 0.952,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 2050.0,
+    "stars": 4943.0,
+    "points": 288.0,
+    "comments": 142.0
+   },
+   "extra": {
+    "language": "Python",
+    "discussion": "https://news.ycombinator.com/item?id=50348962",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "4a023c67da02",
+   "score": 7.86,
+   "title_zh": "",
+   "summary_zh": "Auto Ontology 是一个用于构建语义图推理层的 Python 框架。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "ggml-org/llama.cpp v0.9.0",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-04T13:08:06Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## Overview This release adds OCP FP8 E4M3 quantization support, a new `flash_attn_ext_rows` op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large 4), audio generation and transcription expand with Chatterbox TTS, Nemotron 3.5 Transcribe and predefined Pocket TTS voices, and the Gemma 4 E2B/E4B models get major prefill optimizations. `ggml` is updated to v0.29.0, bringing FP8 E4M3, flash attention rows, NCCL-based multi-node tensor parallelism and performance work across the CPU, CUDA, SYCL, Metal, Vulkan, OpenCL and Hexagon backends. The server and UI receive a round of fixes and refinements. ### Highlights - Quant: OCP FP8 E4M3 tensor type (saturating mode) with conversion helpers and a new ftype ([#27512](https://github.com/ggml-org/llama.cpp/pull/27512)) - llama: `flash_attn_ext_rows` - more efficient unified KV for multi-seq, restoring non-unified KV prefill performance ([#29510](https://github.com/ggml-org/llama.cpp/pull/29510)) - ggml: batched tensor copy API (`ggml_backend_tensor_copy_n`/`set_n`/`get_n`) superseding the `_2d` API, implemented for Metal and CUDA ([#30881](https://github.com/ggml-org/llama.cpp/pull/30881)) - For a 3rd year in a row, `llama.cpp` is a featured repo in the [Github Octoverse report](https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-a…",
+    "level": "minor",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "40dd8adbe2ab",
+   "score": 7.62,
+   "title_zh": "",
+   "summary_zh": "llama.cpp v0.9.0 发布，新增 OCP FP8 E4M3 量化支持。",
+   "tags": [
+    "开源",
+    "量化",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "vLLM Delivers Day-0 Support for Kimi K3.1 Pro",
+   "url": "https://vllm.ai/blog/2026-11-04-kimi-k31-pro",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-04T00:00:00Z",
+   "summary": "vLLM supports Kimi K3.1 Pro on day 0: sparse attention on a KDA hybrid, a packed KV cache with FP8 or NVFP4 latents and MXFP4 index keys, token-sharded prefill, decode context parallelism, and fused low-latency decode.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "11da739f5709",
+   "score": 7.6,
+   "title_zh": "",
+   "summary_zh": "vLLM 提供对 Kimi K3.1 Pro 的 Day-0 支持。",
+   "tags": [
+    "开源",
+    "推理加速",
+    "模型支持"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "microsoft/ai-agents-for-beginners",
+   "url": "https://github.com/microsoft/ai-agents-for-beginners",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "18 Lessons to Get Started Building AI Agents",
+   "heat": 0.586,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 108.0,
+    "stars": 78931.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "7ce50277e3b3",
+   "score": 7.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "speridlabs/idol",
+   "url": "https://huggingface.co/speridlabs/idol",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "image-to-3d模型，许可证 apache-2.0",
+   "heat": 0.795,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 618.0,
+    "downloads": 14613.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/speridlabs/idol"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0028b46e25f4",
+   "score": 6.79,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "FareedKhan-dev/kimi-k3-in-c",
+   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+   "heat": 0.732,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 351.0,
+    "stars": 10283.0
+   },
+   "extra": {
+    "language": "C",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c6a713a12b8a",
+   "score": 6.78,
+   "title_zh": "",
+   "summary_zh": "Kimi K3 的 C 语言实现，可在 8.24 GB 内存中运行。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Balanov/uncut",
+   "url": "https://github.com/Balanov/uncut",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+   "heat": 0.725,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 600.0
+   },
+   "extra": {
+    "language": "Go",
+    "age_days": 3,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "da56f130a571",
+   "score": 6.65,
+   "title_zh": "",
+   "summary_zh": "Balanov/uncut 是一个无损、无头编码代理工具。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "andyhuo520/digital-human-koubo",
+   "url": "https://github.com/andyhuo520/digital-human-koubo",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+   "heat": 0.723,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1776.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 9,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "cf840fcc6202",
+   "score": 6.65,
+   "title_zh": "",
+   "summary_zh": "andyhuo520/digital-human-koubo 提供从单张照片生成数字人说话视频的功能。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+   "url": "https://arxiv.org/abs/2610.39497",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-29T00:00:00Z",
+   "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that System-2 acts only on those worth their cost. Our answer is a qualified yes. We study conditional interaction, a predict--gate--execute--update loop: System-1 estimates each candidate's utility, System-2 executes those admitted by an adaptive threshold, and the outcomes update System-1. The loop spans training, test-time reasoning, adaptive decision-making, and agentic tool use, with utility and cost defined by the application. Under ideal screening and equal execution costs, execution compute falls by a factor approaching 1/ρ_u, where ρ_u is the density of utility-relevant interactions (cost-weighted when costs differ); prediction errors, exploration, and distribution shift reduce the saving. We bound selection regret by predictor error and the utility margin. These results motivate our central hypothesis: ρ_u is a measurable coordinate of scaling efficiency and makes informative compute a better description of scaling than total compute.",
+   "heat": 0.723,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 61.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "1f57a957deeb",
+   "score": 7.04,
+   "title_zh": "系统1与系统2协同设计：AGI的关键",
+   "summary_zh": "本文探讨是否可以通过与轻量级预测器系统1协同设计，来提升通用人工智能的效率。研究提出了一种条件交互循环，通过系统1评估候选交互的效用，系统2仅执行高价值交互。结果表明，该方法能显著降低执行计算量。",
+   "tags": [
+    "智能体",
+    "推理加速",
+    "AGI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+   "url": "https://arxiv.org/abs/2611.03233",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-02T14:48:57Z",
+   "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we synthesize challenging problems and adversarially strengthen them based on the base model's own successful solution strategies. The second stage extends these capabilities to tool-dependent reasoning through a scalable pipeline for constructing diverse and automatically verifiable tasks grounded in real-world data sources and deterministic computation. Finally, reinforcement learning further strengthens long-horizon reasoning and interaction with external tools and environments. Despite this compact training recipe, Axion 1.0 achieves strong performance across a broad suite of agentic benchmarks and is competitive with leading commercial models on several of them. Equally importantly, Axion 1.0 is open beyond model weights: we release the complete recipe, including data construction, generation, filtering, verification, prompts, and training code, enabling the entire development process to be reproduced and extended. Axion 1.0 demonstrates that strong agent foundation models can be both open a…",
+   "heat": 0.646,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 39.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/bytedance/axion1_0"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "70fc1abeb12c",
+   "score": 6.8,
+   "title_zh": "Axion 1.0：开源智能体基础模型",
+   "summary_zh": "Axion 1.0是一个开源智能体基础模型，通过轻量级监督微调和强化学习训练而成。它具备强大的自主推理和工具使用能力，在多个基准测试中表现优异。研究还发布了完整的训练配方和代码，支持复现和扩展。",
+   "tags": [
+    "智能体",
+    "开源",
+    "强化学习"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+   "url": "https://arxiv.org/abs/2611.03178",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-02T14:15:11Z",
+   "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose harness for long-horizon work that separates task strategy from execution management: the model decides actions, delegation, and acceptance, while the runtime maintains state and feedback. Its three-layer architecture enables direct execution or delegation to Subagents, synchronously or asynchronously, under stable responsibilities. Through a shared application layer, humans and agents inspect and revise the same evolving documents, presentations, CAD models, and Blender scenes, so human-in-the-loop participation can enter both through conversation and through direct modification of the work itself. To sustain continuity across agents and sessions, CoworkOS further introduces hierarchical workspaces and persistent semantic memory, so working files, key decisions, and long-running Job logs remain shareable, reusable, and resumable after interruption. Across 12 benchmarks and 6 categories of real-world applications, CoworkOS proves highly competitive with frontier agent applications such as Codex and DeepSeek Harness. As a sustained-work case study, CoworkOS uses GLM-5.3 as its backbone…",
+   "heat": 0.798,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 94.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/RUC-NLPIR/CoworkOS"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "991beae5164e",
+   "score": 6.5,
+   "title_zh": "CoworkOS：扩展智能体协作实现自动化",
+   "summary_zh": "CoworkOS是一个通用框架，用于管理长期工作流，将任务策略与执行管理分离。它支持智能体间同步或异步协作，并引入了分层工作空间和持久语义记忆，以保持工作连续性。在多个基准测试中，其性能与前沿智能体应用相当。",
+   "tags": [
+    "智能体",
+    "协作",
+    "自动化"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding",
+   "url": "https://arxiv.org/abs/2611.02501",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-02T04:21:47Z",
+   "summary": "Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. We identify three challenges. First, with one request, each step accepts few tokens but reads every target weight. Second, with batching, per-request verification work roughly halves the speedup over autoregressive (AR) decoding. Third, speculative decoding is deployment-specific, and no universal optimization fits every serving regime, drafter, target model and GPU. To address these challenges, we present SpecPilot, an autonomous agentic loop that discovers algorithms and systems optimizations for each deployment. In each round, a cost model locates the largest gaps between the current system and its ceiling. Parallel agents explore directions and integrate the successful ones. Token forcing checks every output token against stock to detect reward hacking. A structured memory carries validated mechanisms to new rounds and deployments. SpecPilot discovered a general lossless 12-bit weight format, tree verification for hybrid recurrent targets, two-level verification and three batching mechanisms. We evaluate it across four target models, three drafters, two GPU platforms and five benchmarks. Without training or quality loss, it raises the speedup over AR from stock's 4.46$\\times$ t…",
+   "heat": 0.496,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 16.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/StargazerX0/SpecPilot"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c9f75cc38420",
+   "score": 6.45,
+   "title_zh": "SpecPilot：自主算法发现与优化",
+   "summary_zh": "SpecPilot是一个自主智能体循环，用于发现和优化推测解码的算法与系统。它通过成本模型定位性能瓶颈，并行探索优化方向，并引入了结构化记忆机制。实验表明，该方法能显著提升解码速度，且无需训练或损失质量。",
+   "tags": [
+    "推理加速",
+    "算法优化",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "HERA: Assessing an Autonomous Agent for Quantum Device Measurement",
+   "url": "https://arxiv.org/abs/2610.39074",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-10-29T00:08:00Z",
+   "summary": "Large language model agents have begun to carry out laboratory measurements, but their scientific conclusions are useful only if they hold up under scrutiny. Demonstrating this requires controlled studies because models are stochastic and the context a model is given steers its conclusions. Here we introduce HERA, an autonomous agent designed to carry out cryogenic transport measurements of quantum devices. HERA draws on a knowledge base curated by lab members that holds measurement protocols, software tools, and literature references. We assessed HERA with a blinded trial against an expert on the stacking order of two multilayer graphene devices, an ablation of its knowledge base, and hundreds of offline replays in which models designed the trial's central measurement without running it. HERA's conclusions matched the expert's sealed conclusions on both tested devices. The ablation and the replay studies measured the impact of the knowledge base across different models, showing that with it every model designed better measurements and reasoned more soundly. To test how readily HERA extends to a new problem, we tasked it with finding and characterizing superconductivity in a different material system. This required a few hours of expert time to develop a new experimental protocol, after which HERA did both autonomously. These results show that, with a knowledge base designed for the task, language model agents are capable of sound experimental science.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "4385066abc06",
+   "score": 6.43,
+   "title_zh": "HERA：量子设备测量自主智能体",
+   "summary_zh": "HERA是一个自主智能体，用于执行量子设备的低温输运测量。它基于实验室知识库，通过盲测和离线重放验证其科学结论的可靠性。实验表明，HERA能独立完成新材料的超导性研究，展现了语言模型在实验科学中的潜力。",
+   "tags": [
+    "智能体",
+    "量子计算",
+    "实验科学"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-05",
+  "start": "2026-11-05",
+  "end": "2026-11-05",
+  "title": "月之暗面发布Kimi K3.1 Pro模型权重",
+  "generated_at": "2026-11-05T00:22:30Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-04",
+   "end": "2026-11-04"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 9 次",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 22 个、合并 2 个，提交 9 次，新增代码 1735 行、删除 360 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 合并 1 个 PR",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库合并 1 个、提交 7 次、新增代码 1252 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 481 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "月之暗面发布Kimi K3.1 Pro模型权重",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "月之暗面开放Kimi K3.1 Pro模型权重，包含2.8T参数和百万级上下文窗口。",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "via": "Hacker News",
+    "id": "398ce84e273f",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "NVIDIA/auto-ontology：语义图推理框架",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "NVIDIA/auto-ontology是一个用于构建语义图推理层的Python框架。",
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "via": "GitHub Trending",
+    "id": "4a023c67da02",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "llama.cpp 发布 v0.9.0 版本",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "llama.cpp v0.9.0 发布，新增 OCP FP8 E4M3 量化支持。",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+    "via": "GitHub 版本发布",
+    "id": "40dd8adbe2ab",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "microsoft/ai-agents-for-beginners",
+    "when": "11月5日消息",
+    "date": "2026-11-05",
+    "body": "microsoft/ai-agents-for-beginners提供18个课程帮助开发者入门构建AI智能体。",
+    "url": "https://github.com/microsoft/ai-agents-for-beginners",
+    "via": "GitHub Trending",
+    "id": "7ce50277e3b3",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "speridlabs/idol：图像生成3D模型",
+    "when": "11月5日消息",
+    "date": "2026-11-05",
+    "body": "speridlabs/idol是一个基于Apache-2.0许可证的图像到3D模型。",
+    "url": "https://huggingface.co/speridlabs/idol",
+    "via": "Hugging Face 热门模型",
+    "id": "0028b46e25f4",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "FareedKhan-dev/kimi-k3-in-c",
+    "when": "11月5日消息",
+    "date": "2026-11-05",
+    "body": "FareedKhan-dev/kimi-k3-in-c提供了Kimi K3的C语言实现，可在8.24GB内存中运行。",
+    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+    "via": "GitHub Trending",
+    "id": "c6a713a12b8a",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Agile Deliberation：AI 辅助人类定义模糊类别",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "Google Research 提出通过交互式审议工作流和 LLM 优化循环，帮助用户构建准确且对齐的图像分类器。",
+    "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+    "via": "Google Research",
+    "id": "bcb6d5543f63",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "系统1与系统2协同设计：AGI的关键",
+    "when": "11月5日消息",
+    "date": "2026-11-05",
+    "body": "研究提出通过轻量级预测器系统1与系统2协同设计，显著降低执行计算量。",
+    "url": "https://arxiv.org/abs/2610.39497",
+    "via": "Hugging Face 热门论文",
+    "id": "1f57a957deeb",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Axion 1.0：开源智能体基础模型",
+    "when": "11月5日消息",
+    "date": "2026-11-05",
+    "body": "Axion 1.0是一个开源智能体基础模型，具备强大的自主推理和工具使用能力。",
+    "url": "https://arxiv.org/abs/2611.03233",
+    "via": "arXiv · 智能体",
+    "id": "70fc1abeb12c",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "CoworkOS框架实现智能体协作自动化",
+    "when": "11月5日消息",
+    "date": "2026-11-05",
+    "body": "CoworkOS是一个通用框架，用于管理长期工作流，将任务策略与执行管理分离，支持智能体间协作。",
+    "url": "https://arxiv.org/abs/2611.03178",
+    "via": "arXiv · 智能体",
+    "id": "991beae5164e",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "RECOMB 2027 论文截稿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "International Conference on Research inComputational Molecular Biology（RECOMB 2027，CCF-B 类，交叉/综合/新兴）论文提交截止时间为北京时间11月5日 19:59，摘要截止时间为10月29日 19:59。会议将于 May 17-20, 2027 在 Toronto, Canada 举行。",
+    "url": "https://recomb.org/recomb2027/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "d094672a404e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 自动修复 Linux 内核漏洞",
+    "body": "OpenAI 构建了自主管道，发现并验证了 948 个本地权限提升漏洞。"
+   },
+   "398ce84e273f": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面发布Kimi K3.1 Pro模型权重",
+    "body": "月之暗面开放Kimi K3.1 Pro模型权重，包含2.8T参数和百万级上下文窗口。"
+   },
+   "05265b6ef515": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Google关闭拒绝AI的学校搜索服务",
+    "body": "Google将关闭拒绝使用AI的学校搜索服务。"
+   },
+   "722e5324551a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI重新启用Codex聊天中的模型训练",
+    "body": "OpenAI似乎重新启用了Codex聊天中的模型训练功能。"
+   },
+   "400cfa873183": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Geoffrey Hinton：没有AI我们可能过得更好",
+    "body": "AI教父Geoffrey Hinton警告AI可能引发金融或电力系统瘫痪等重大事故。"
+   },
+   "344b7b5ad4be": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 发现原核细胞中 vault 粒子的 3D 结构",
+    "body": "Anthropic 生物研究实验室首次发现了原核细胞中 vault 粒子的 3D 结构。"
+   },
+   "14c5839384d0": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面开放 Kimi K3.1 Pro 权重",
+    "body": "月之暗面在 Hugging Face 开放 Kimi K3.1 Pro 权重，登顶 Agent Arena 开源模型榜。"
+   },
+   "bcb6d5543f63": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "Google Research 提出通过交互式审议工作流和 LLM 优化循环，帮助用户构建准确且对齐的图像分类器。"
+   },
+   "f04b9dbfe8d8": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 收购 Pierre Computer Company",
+    "body": "OpenAI 收购 Pierre Computer Company，以扩展 Codex 的代码构建、理解和审查工具。"
+   },
+   "611f4cb9bb9b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "ChatGPT 现可生成 GIF 动画",
+    "body": "OpenAI 的 Images 2.6 模型允许用户从文本提示或照片创建 GIF 动画。"
+   },
+   "4a023c67da02": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "NVIDIA/auto-ontology：语义图推理框架",
+    "body": "NVIDIA/auto-ontology是一个用于构建语义图推理层的Python框架。"
+   },
+   "40dd8adbe2ab": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "llama.cpp 发布 v0.9.0 版本",
+    "body": "llama.cpp v0.9.0 发布，新增 OCP FP8 E4M3 量化支持。"
+   },
+   "11da739f5709": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "vLLM 提供对 Kimi K3.1 Pro 的 Day-0 支持",
+    "body": "vLLM 提供对 Kimi K3.1 Pro 的 Day-0 支持。"
+   },
+   "7ce50277e3b3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "microsoft/ai-agents-for-beginners提供18个课程帮助开发者入门构建AI智能体。"
+   },
+   "0028b46e25f4": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "speridlabs/idol：图像生成3D模型",
+    "body": "speridlabs/idol是一个基于Apache-2.0许可证的图像到3D模型。"
+   },
+   "c6a713a12b8a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "FareedKhan-dev/kimi-k3-in-c提供了Kimi K3的C语言实现，可在8.24GB内存中运行。"
+   },
+   "da56f130a571": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Balanov/uncut：无损编码代理工具",
+    "body": "Balanov/uncut是一个无损、无头编码代理工具，仅7MB静态二进制文件。"
+   },
+   "cf840fcc6202": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "andyhuo520/digital-human-koubo提供从单张照片生成数字人说话视频的功能。"
+   },
+   "1f57a957deeb": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "系统1与系统2协同设计：AGI的关键",
+    "body": "研究提出通过轻量级预测器系统1与系统2协同设计，显著降低执行计算量。"
+   },
+   "70fc1abeb12c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Axion 1.0：开源智能体基础模型",
+    "body": "Axion 1.0是一个开源智能体基础模型，具备强大的自主推理和工具使用能力。"
+   },
+   "991beae5164e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "CoworkOS框架实现智能体协作自动化",
+    "body": "CoworkOS是一个通用框架，用于管理长期工作流，将任务策略与执行管理分离，支持智能体间协作。"
+   },
+   "c9f75cc38420": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SpecPilot优化推测解码算法",
+    "body": "SpecPilot是一个自主智能体循环，用于发现和优化推测解码的算法与系统，能显著提升解码速度。"
+   },
+   "4385066abc06": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "HERA自主智能体完成量子测量",
+    "body": "HERA是一个自主智能体，用于执行量子设备的低温输运测量，能独立完成新材料的超导性研究。"
+   }
+  }
+ }
+}

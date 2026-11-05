@@ -1,0 +1,40 @@
+【每日科技快讯】11月5日 周四
+今日 AI 与开源要闻 13 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 2 个 PR、提交 9 次
+2. AtomGit-mobile4Harmony 合并 1 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
+
+【国内动态】
+4. 月之暗面发布Kimi K3.1 Pro模型权重
+→ 月之暗面开放Kimi K3.1 Pro模型权重，包含2.8T参数和百万级上下文窗口。
+
+【开源项目】
+5. NVIDIA/auto-ontology：语义图推理框架
+→ NVIDIA/auto-ontology是一个用于构建语义图推理层的Python框架。
+6. llama.cpp 发布 v0.9.0 版本
+→ llama.cpp v0.9.0 发布，新增 OCP FP8 E4M3 量化支持。
+7. microsoft/ai-agents-for-beginners
+→ microsoft/ai-agents-for-beginners提供18个课程帮助开发者入门构建AI智能体。
+8. speridlabs/idol：图像生成3D模型
+→ speridlabs/idol是一个基于Apache-2.0许可证的图像到3D模型。
+9. FareedKhan-dev/kimi-k3-in-c
+→ FareedKhan-dev/kimi-k3-in-c提供了Kimi K3的C语言实现，可在8.24GB内存中运行。
+
+【学术前沿】
+10. Agile Deliberation：AI 辅助人类定义模糊类别
+→ Google Research 提出通过交互式审议工作流和 LLM 优化循环，帮助用户构建准确且对齐的图像分类器。
+11. 系统1与系统2协同设计：AGI的关键
+→ 研究提出通过轻量级预测器系统1与系统2协同设计，显著降低执行计算量。
+12. Axion 1.0：开源智能体基础模型
+→ Axion 1.0是一个开源智能体基础模型，具备强大的自主推理和工具使用能力。
+13. CoworkOS框架实现智能体协作自动化
+→ CoworkOS是一个通用框架，用于管理长期工作流，将任务策略与执行管理分离，支持智能体间协作。
+
+【活动预告】
+· 11月5日 RECOMB 2027 论文截稿
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-05-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

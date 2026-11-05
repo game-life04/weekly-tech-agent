@@ -12,57 +12,54 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.04（周三）
+## 每日快讯 · 11.05（周四）
 
-> 今日 AI 与开源要闻 **14** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-04-kuaixun.md) · [公众号排版版](daily/2026/2026-11-04-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-04.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-05-kuaixun.md) · [公众号排版版](daily/2026/2026-11-05-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-05.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月4日 周三
-今日 AI 与开源要闻 14 条，3 分钟速读
+【每日科技快讯】11月5日 周四
+今日 AI 与开源要闻 13 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 3 个 PR、提交 2 次
-2. AtomGit-Mobile4Android 合并 1 个 PR
+1. 开放原子开源俱乐部合并 2 个 PR、提交 9 次
+2. AtomGit-mobile4Harmony 合并 1 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
+
+【国内动态】
+4. 月之暗面发布Kimi K3.1 Pro模型权重
+→ 月之暗面开放Kimi K3.1 Pro模型权重，包含2.8T参数和百万级上下文窗口。
 
 【开源项目】
-3. open-webui 发布 v0.13.0 版本
-→ open-webui 新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。
-4. Colibri：针对前沿 MoE 模型的分层推理引擎
-→ Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。
-5. TokenEconomizer：面向编码代理的体验驱动黑盒成本控制
-→ TokenEconomizer 是一个面向编码代理的体验驱动黑盒成本控制工具。
-6. Project NOMAD：离线优先的知识与教育服务器
-→ Project NOMAD 是一个离线优先的知识与教育服务器，无需联网即可运行。
-7. agent-browser：AI 代理的浏览器自动化 CLI
-→ agent-browser 是一个用于 AI 代理的浏览器自动化命令行工具。
+5. NVIDIA/auto-ontology：语义图推理框架
+→ NVIDIA/auto-ontology是一个用于构建语义图推理层的Python框架。
+6. llama.cpp 发布 v0.9.0 版本
+→ llama.cpp v0.9.0 发布，新增 OCP FP8 E4M3 量化支持。
+7. microsoft/ai-agents-for-beginners
+→ microsoft/ai-agents-for-beginners提供18个课程帮助开发者入门构建AI智能体。
+8. speridlabs/idol：图像生成3D模型
+→ speridlabs/idol是一个基于Apache-2.0许可证的图像到3D模型。
+9. FareedKhan-dev/kimi-k3-in-c
+→ FareedKhan-dev/kimi-k3-in-c提供了Kimi K3的C语言实现，可在8.24GB内存中运行。
 
 【学术前沿】
-8. LLM 可读写神经网络权重
-→ Weight Space Programming 论文指出大模型能直接修改权重，DeepSeek 也在探索相关应用。
-9. 论文发现大模型可读写神经网络权重
-→ 新论文指出前沿模型能直接解释和修改神经网络的原始权重，实现权重空间编程。
-10. Hy-Nomas：迈向自由形式交互式世界生成
-→ 为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。
-11. 生成式 AI 基础：直观的数学入门
-→ 本书推导了生成模型的核心数学原理，涵盖从 PCA 到扩散模型等主流架构。
-
-【产业纵横】
-12. 富士胶片将把磁带产量提高 5 倍
-→ 受生成式 AI 推动的数据归档需求激增，富士胶片将投资约 10 亿日元扩大磁带产能。
-13. Anthropic 内部 AI 使用成本超员工薪资
-→ Anthropic IPO 文件显示，其内部 AI 使用价值已超过员工薪酬，且增长迅速。
-14. OpenAI 推广 ChatGPT 加速物理世界工程
-→ OpenAI 展示 ChatGPT 和 Codex 如何帮助工程师加速 CAD、PCB 设计等物理世界工作流。
+10. Agile Deliberation：AI 辅助人类定义模糊类别
+→ Google Research 提出通过交互式审议工作流和 LLM 优化循环，帮助用户构建准确且对齐的图像分类器。
+11. 系统1与系统2协同设计：AGI的关键
+→ 研究提出通过轻量级预测器系统1与系统2协同设计，显著降低执行计算量。
+12. Axion 1.0：开源智能体基础模型
+→ Axion 1.0是一个开源智能体基础模型，具备强大的自主推理和工具使用能力。
+13. CoworkOS框架实现智能体协作自动化
+→ CoworkOS是一个通用框架，用于管理长期工作流，将任务策略与执行管理分离，支持智能体间协作。
 
 【活动预告】
 · 11月5日 RECOMB 2027 论文截稿
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-04-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-05-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -72,39 +69,37 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 3 个 PR、提交 2 次**<br>11月3日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 3 个、合并 3 个，提交 2 次，新增代码 1001 行、删除 3 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 2 个 PR、提交 9 次**<br>11月4日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 22 个、合并 2 个，提交 9 次，新增代码 1735 行、删除 360 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月3日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 999 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+**AtomGit-mobile4Harmony 合并 1 个 PR**<br>11月4日，Agent SIG的 AtomGit-mobile4Harmony 仓库合并 1 个、提交 7 次、新增代码 1252 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
+
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月4日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 481 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+
+#### 国内动态
+
+**月之暗面发布Kimi K3.1 Pro模型权重**<br>11月4日，月之暗面开放Kimi K3.1 Pro模型权重，包含2.8T参数和百万级上下文窗口。<br><sub>（来源：[Hacker News](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)）</sub>
 
 #### 开源项目
 
-**open-webui 发布 v0.13.0 版本**<br>11月3日，open-webui 新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。<br><sub>（来源：[GitHub 版本发布](https://github.com/open-webui/open-webui/releases/tag/v0.13.0)）</sub>
+**NVIDIA/auto-ontology：语义图推理框架**<br>11月3日，NVIDIA/auto-ontology是一个用于构建语义图推理层的Python框架。<br><sub>（来源：[GitHub Trending](https://github.com/NVIDIA/auto-ontology)）</sub>
 
-**Colibri：针对前沿 MoE 模型的分层推理引擎**<br>11月4日消息，Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。<br><sub>（来源：[GitHub Trending](https://github.com/JustVugg/colibri)）</sub>
+**llama.cpp 发布 v0.9.0 版本**<br>11月4日，llama.cpp v0.9.0 发布，新增 OCP FP8 E4M3 量化支持。<br><sub>（来源：[GitHub 版本发布](https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0)）</sub>
 
-**TokenEconomizer：面向编码代理的体验驱动黑盒成本控制**<br>11月4日消息，TokenEconomizer 是一个面向编码代理的体验驱动黑盒成本控制工具。<br><sub>（来源：[GitHub 新项目](https://github.com/microsoft/TokenEconomizer)）</sub>
+**microsoft/ai-agents-for-beginners**<br>11月5日消息，microsoft/ai-agents-for-beginners提供18个课程帮助开发者入门构建AI智能体。<br><sub>（来源：[GitHub Trending](https://github.com/microsoft/ai-agents-for-beginners)）</sub>
 
-**Project NOMAD：离线优先的知识与教育服务器**<br>11月4日消息，Project NOMAD 是一个离线优先的知识与教育服务器，无需联网即可运行。<br><sub>（来源：[GitHub Trending](https://github.com/Crosstalk-Solutions/project-nomad)）</sub>
+**speridlabs/idol：图像生成3D模型**<br>11月5日消息，speridlabs/idol是一个基于Apache-2.0许可证的图像到3D模型。<br><sub>（来源：[Hugging Face 热门模型](https://huggingface.co/speridlabs/idol)）</sub>
 
-**agent-browser：AI 代理的浏览器自动化 CLI**<br>11月4日消息，agent-browser 是一个用于 AI 代理的浏览器自动化命令行工具。<br><sub>（来源：[GitHub Trending](https://github.com/vercel-labs/agent-browser)）</sub>
+**FareedKhan-dev/kimi-k3-in-c**<br>11月5日消息，FareedKhan-dev/kimi-k3-in-c提供了Kimi K3的C语言实现，可在8.24GB内存中运行。<br><sub>（来源：[GitHub Trending](https://github.com/FareedKhan-dev/kimi-k3-in-c)）</sub>
 
 #### 学术前沿
 
-**LLM 可读写神经网络权重**<br>11月3日，Weight Space Programming 论文指出大模型能直接修改权重，DeepSeek 也在探索相关应用。<br><sub>（来源：[Latent Space](https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/)）</sub>
+**Agile Deliberation：AI 辅助人类定义模糊类别**<br>11月5日，Google Research 提出通过交互式审议工作流和 LLM 优化循环，帮助用户构建准确且对齐的图像分类器。<br><sub>（来源：[Google Research](https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/)）</sub>
 
-**论文发现大模型可读写神经网络权重**<br>11月4日，新论文指出前沿模型能直接解释和修改神经网络的原始权重，实现权重空间编程。<br><sub>（来源：[Simon Willison](https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/)）</sub>
+**系统1与系统2协同设计：AGI的关键**<br>11月5日消息，研究提出通过轻量级预测器系统1与系统2协同设计，显著降低执行计算量。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.39497)）</sub>
 
-**Hy-Nomas：迈向自由形式交互式世界生成**<br>11月4日消息，为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.36729)）</sub>
+**Axion 1.0：开源智能体基础模型**<br>11月5日消息，Axion 1.0是一个开源智能体基础模型，具备强大的自主推理和工具使用能力。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.03233)）</sub>
 
-**生成式 AI 基础：直观的数学入门**<br>11月4日，本书推导了生成模型的核心数学原理，涵盖从 PCA 到扩散模型等主流架构。<br><sub>（来源：[Hacker News](https://arxiv.org/abs/2605.29713)）</sub>
-
-#### 产业纵横
-
-**富士胶片将把磁带产量提高 5 倍**<br>11月2日，受生成式 AI 推动的数据归档需求激增，富士胶片将投资约 10 亿日元扩大磁带产能。<br><sub>（来源：[Hacker News](https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/)）</sub>
-
-**Anthropic 内部 AI 使用成本超员工薪资**<br>11月3日，Anthropic IPO 文件显示，其内部 AI 使用价值已超过员工薪酬，且增长迅速。<br><sub>（来源：[Hacker News](https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11)）</sub>
-
-**OpenAI 推广 ChatGPT 加速物理世界工程**<br>11月3日，OpenAI 展示 ChatGPT 和 Codex 如何帮助工程师加速 CAD、PCB 设计等物理世界工作流。<br><sub>（来源：[OpenAI](https://openai.com/index/accelerating-engineering-for-the-physical-world)）</sub>
+**CoworkOS框架实现智能体协作自动化**<br>11月5日消息，CoworkOS是一个通用框架，用于管理长期工作流，将任务策略与执行管理分离，支持智能体间协作。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.03178)）</sub>
 
 ### 活动预告
 
@@ -112,7 +107,7 @@
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月3日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-04 07:59（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月4日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-05 08:22（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 
