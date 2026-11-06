@@ -12,65 +12,49 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.06（周五）
+## 每日快讯 · 11.07（周六）
 
-> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-06-kuaixun.md) · [公众号排版版](daily/2026/2026-11-06-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-06.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-07-kuaixun.md) · [公众号排版版](daily/2026/2026-11-07-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-07.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月6日 周五
-今日 AI 与开源要闻 17 条，3 分钟速读
+【每日科技快讯】11月7日 周六
+今日 AI 与开源要闻 12 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 3 个 PR、提交 2 次
-2. system-security-dojo-x64-2026 合并 1 个 PR
-3. AtomGit-Mobile4Android 新增 2 个 PR
-
-【国内动态】
-4. 百度开源文心5.5 Flash Base模型
-→ 百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型SOTA表现。
-
-【海外动态】
-5. OpenAI发布GPT‑6 Cyber网络安全模型
-→ OpenAI推出GPT‑6 Cyber模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。
-6. Images 2.6
-→ 在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和更精确的编辑控制。
-7. Gemini Omni 1.2 Flash：原生15秒视频生成与编辑
-→ Google DeepMind发布Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。
+1. 开放原子开源俱乐部合并 1 个 PR、提交 2 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
+3. AtomGit-mobile4Harmony 1 位贡献者参与
 
 【开源项目】
-8. agent-autoloop：命令行 Agent 后台接活
-→ agent-autoloop 让命令行 Agent 在后台自己接活、自己跟进到底，遇到拿不准的事才发卡片找用户拍板。
-9. skills：AI 智能体获取生产资产
-→ skills 通过 Scenario MCP 让 AI 智能体获取生产就绪的图像、视频、音频和 3D 资产，并保持角色和品牌一致性。
-10. gstack：Claude Code 精确配置
-→ gstack 提供了包含 23 个工具的 Claude Code 精确配置，服务于 CEO、设计师、工程经理等角色。
-11. VibeVoice：开源前沿语音 AI
-→ VibeVoice 是一个开源的前沿语音 AI 项目。
-12. reanimate：逆向工程动画
-→ reanimate 是一个 Claude Code 技能，能逐帧逆向工程任何动画并证明其移动一致性。
+4. MCP 协议详解
+→ MCP 协议详解介绍了连接 AI 应用与工具数据的交互式指南。
+5. HerdBuilderEstimate/roblox-studio-mcp
+→ roblox-studio-mcp 是 Roblox Studio 的 Model Context Protocol 服务器。
+6. poki：让 AI 智能体操作真实 iPhone
+→ poki 是让 AI 智能体操作真实 iPhone 的本地 MCP 服务器。
+7. Ripple-65B预览版发布
+→ Ricursive Intelligence发布65B参数的开源模型Ripple-65B Preview，在TerminalBench 2.1上得分最高。
+8. google/skills
+→ google/skills 提供了 Google 产品和技术的 Agent Skills。
 
 【学术前沿】
-13. Turns Matter：通过回合级信用推进流媒体视频强化学习
-→ TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。
-14. FrontierPhysics：端到端物理研究智能体评测
-→ FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。
-15. 微软研究发布PDD Kit验证智能体代码
-→ 微软研究发布PDD Kit，将开发者意图转化为Verus规范，证明AI生成的代码符合规范。
-16. DreamX：视频扩散模型作为通用潜在动作学习器
-→ DreamX 利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态，在 LARY-Bench 上表现优异。
-
-【产业纵横】
-17. Merge结合OpenAI技术构建产品工具
-→ Merge使用GPT‑6 Astra、ChatGPT和Codex审查产品代码并支持营销，还利用AI规划高管晚宴。
+9. OpenAI发布BioBasicsBench基准测试
+→ OpenAI推出BioBasicsBench基准测试，包含100个任务，用于评估AI智能体处理湿实验科学的能力。
+10. Anthropic研究：教AI构建科学模型
+→ Anthropic探讨AI如何改变科学模型的构建与解读方式，回顾了科研历史中的计算机故障影响。
+11. Anthropic研究：智能体记忆的构成
+→ Anthropic介绍Claude如何通过“做梦”来组织记忆并纠正错误，解决AI无法预知未来的困境。
+12. Harness-S：利用兄弟 Harness 进行通用化智能体训练
+→ Harness-S 提出利用兄弟 Harness 池进行通用化智能体训练。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-06-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-07-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -80,55 +64,39 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 3 个 PR、提交 2 次**<br>11月5日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 3 个，提交 2 次，新增代码 2 行、删除 2 行，4 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 1 个 PR、提交 2 次**<br>11月6日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 1 个，提交 2 次，新增代码 558 行、删除 41 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**system-security-dojo-x64-2026 合并 1 个 PR**<br>11月5日，pwn.hust.college SIG的 system-security-dojo-x64-2026 仓库合并 1 个、提交 1 次，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/system-security-dojo-x64-2026)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月6日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 556 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
-**AtomGit-Mobile4Android 新增 2 个 PR**<br>11月5日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 2 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
-
-#### 国内动态
-
-**百度开源文心5.5 Flash Base模型**<br>11月5日，百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型SOTA表现。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/507787.html)）</sub>
-
-#### 海外动态
-
-**OpenAI发布GPT‑6 Cyber网络安全模型**<br>11月5日，OpenAI推出GPT‑6 Cyber模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-gpt-6-cyber)）</sub>
-
-**Images 2.6**<br>11月5日，在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和更精确的编辑控制。<br><sub>（来源：[Hacker News](https://openai.com/index/introducing-images-2-6/)）</sub>
-
-**Gemini Omni 1.2 Flash：原生15秒视频生成与编辑**<br>11月6日，Google DeepMind发布Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/)）</sub>
+**AtomGit-mobile4Harmony 1 位贡献者参与**<br>11月6日，Agent SIG的 AtomGit-mobile4Harmony 仓库，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
 
 #### 开源项目
 
-**agent-autoloop：命令行 Agent 后台接活**<br>11月6日消息，agent-autoloop 让命令行 Agent 在后台自己接活、自己跟进到底，遇到拿不准的事才发卡片找用户拍板。<br><sub>（来源：[GitHub 新项目](https://github.com/KKKKhazix/agent-autoloop)）</sub>
+**MCP 协议详解**<br>11月5日，MCP 协议详解介绍了连接 AI 应用与工具数据的交互式指南。<br><sub>（来源：[Hacker News](https://mcp-explained.com/)）</sub>
 
-**skills：AI 智能体获取生产资产**<br>11月6日消息，skills 通过 Scenario MCP 让 AI 智能体获取生产就绪的图像、视频、音频和 3D 资产，并保持角色和品牌一致性。<br><sub>（来源：[GitHub Trending](https://github.com/scenario-labs/skills)）</sub>
+**HerdBuilderEstimate/roblox-studio-mcp**<br>11月7日消息，roblox-studio-mcp 是 Roblox Studio 的 Model Context Protocol 服务器。<br><sub>（来源：[GitHub 新项目](https://github.com/HerdBuilderEstimate/roblox-studio-mcp)）</sub>
 
-**gstack：Claude Code 精确配置**<br>11月6日消息，gstack 提供了包含 23 个工具的 Claude Code 精确配置，服务于 CEO、设计师、工程经理等角色。<br><sub>（来源：[GitHub Trending](https://github.com/garrytan/gstack)）</sub>
+**poki：让 AI 智能体操作真实 iPhone**<br>11月7日消息，poki 是让 AI 智能体操作真实 iPhone 的本地 MCP 服务器。<br><sub>（来源：[GitHub 新项目](https://github.com/JosssphZhou/poki)）</sub>
 
-**VibeVoice：开源前沿语音 AI**<br>11月6日消息，VibeVoice 是一个开源的前沿语音 AI 项目。<br><sub>（来源：[GitHub Trending](https://github.com/microsoft/VibeVoice)）</sub>
+**Ripple-65B预览版发布**<br>11月7日，Ricursive Intelligence发布65B参数的开源模型Ripple-65B Preview，在TerminalBench 2.1上得分最高。<br><sub>（来源：[The Decoder](https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/)）</sub>
 
-**reanimate：逆向工程动画**<br>11月6日消息，reanimate 是一个 Claude Code 技能，能逐帧逆向工程任何动画并证明其移动一致性。<br><sub>（来源：[GitHub 新项目](https://github.com/NiazMorshed2007/reanimate)）</sub>
+**google/skills**<br>11月7日消息，google/skills 提供了 Google 产品和技术的 Agent Skills。<br><sub>（来源：[GitHub Trending](https://github.com/google/skills)）</sub>
 
 #### 学术前沿
 
-**Turns Matter：通过回合级信用推进流媒体视频强化学习**<br>11月4日，TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.06728)）</sub>
+**OpenAI发布BioBasicsBench基准测试**<br>11月6日，OpenAI推出BioBasicsBench基准测试，包含100个任务，用于评估AI智能体处理湿实验科学的能力。<br><sub>（来源：[OpenAI](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)）</sub>
 
-**FrontierPhysics：端到端物理研究智能体评测**<br>11月5日，FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06910)）</sub>
+**Anthropic研究：教AI构建科学模型**<br>11月6日，Anthropic探讨AI如何改变科学模型的构建与解读方式，回顾了科研历史中的计算机故障影响。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)）</sub>
 
-**微软研究发布PDD Kit验证智能体代码**<br>11月6日，微软研究发布PDD Kit，将开发者意图转化为Verus规范，证明AI生成的代码符合规范。<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/)）</sub>
+**Anthropic研究：智能体记忆的构成**<br>11月6日，Anthropic介绍Claude如何通过“做梦”来组织记忆并纠正错误，解决AI无法预知未来的困境。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/components-of-agent-memory)）</sub>
 
-**DreamX：视频扩散模型作为通用潜在动作学习器**<br>11月6日消息，DreamX 利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态，在 LARY-Bench 上表现优异。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.05377)）</sub>
-
-#### 产业纵横
-
-**Merge结合OpenAI技术构建产品工具**<br>11月5日，Merge使用GPT‑6 Astra、ChatGPT和Codex审查产品代码并支持营销，还利用AI规划高管晚宴。<br><sub>（来源：[OpenAI](https://openai.com/index/merge-builds-with-openai)）</sub>
+**Harness-S：利用兄弟 Harness 进行通用化智能体训练**<br>11月7日消息，Harness-S 提出利用兄弟 Harness 池进行通用化智能体训练。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.04277)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月5日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-06 09:50（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月6日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-07 07:43（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 
