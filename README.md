@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.06（周五）
 
-> 今日 AI 与开源要闻 **20** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-06-kuaixun.md) · [公众号排版版](daily/2026/2026-11-06-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-06.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,56 +22,50 @@
 
 ```text
 【每日科技快讯】11月6日 周五
-今日 AI 与开源要闻 20 条，3 分钟速读
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 3 个 PR、提交 2 次
 2. system-security-dojo-x64-2026 合并 1 个 PR
 3. AtomGit-Mobile4Android 新增 2 个 PR
 
-【政策动向】
-4. 何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展
-→ 据中国政府网消息：何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展。
-
 【国内动态】
-5. 百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA
-→ 百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。
+4. 百度开源文心5.5 Flash Base模型
+→ 百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型SOTA表现。
 
 【海外动态】
-6. AI 正在迫使我们偿还 40 年的技术债务
-→ AI 加速了网络攻击和防御，暴露了脆弱遗留系统中的技术债务。
-7. GPT‑6 Cyber：推进对齐网络安全代理的前沿
-→ OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。
-8. Images 2.6
+5. OpenAI发布GPT‑6 Cyber网络安全模型
+→ OpenAI推出GPT‑6 Cyber模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。
+6. Images 2.6
 → 在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和更精确的编辑控制。
-9. Merge 结合 OpenAI 技术构建产品与商业工具
-→ Merge 使用 GPT‑6 Astra、ChatGPT 和 Codex 审查产品代码并支持营销，还利用 AI 规划高管晚宴。
-10. Gemini Omni 1.2 Flash：原生15秒视频生成与编辑
-→ Gemini Omni 1.2 Flash 带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。
-11. 使用 PDD Kit 正式验证智能体编写的全栈 Web 应用
-→ PDD Kit 将开发者意图转化为 Verus 规范，证明 AI 生成的代码符合规范，并使用测试辅助验证。
+7. Gemini Omni 1.2 Flash：原生15秒视频生成与编辑
+→ Google DeepMind发布Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。
 
 【开源项目】
-12. 百度发布最新基座模型 ERNIE 5.5 Flash Base：效率、开源、高性价比
-→ 百度开源 ERNIE 5.5 Flash Base，采用 MoE 架构，总参数量 2800 亿，支持最长 100 万 Token 上下文。
-13. KKKKhazix/agent-autoloop
-→ 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
-14. scenario-labs/skills
-→ AI 智能体通过 Scenario MCP 获取生产就绪的图像、视频、音频和 3D 资产。
-15. garrytan/gstack
-→ 提供 Claude Code 的精确配置，包含 23 个用于 CEO、设计师、工程经理等角色的工具。
-16. microsoft/VibeVoice
-→ Open-Source Frontier Voice AI。
+8. agent-autoloop：命令行 Agent 后台接活
+→ agent-autoloop 让命令行 Agent 在后台自己接活、自己跟进到底，遇到拿不准的事才发卡片找用户拍板。
+9. skills：AI 智能体获取生产资产
+→ skills 通过 Scenario MCP 让 AI 智能体获取生产就绪的图像、视频、音频和 3D 资产，并保持角色和品牌一致性。
+10. gstack：Claude Code 精确配置
+→ gstack 提供了包含 23 个工具的 Claude Code 精确配置，服务于 CEO、设计师、工程经理等角色。
+11. VibeVoice：开源前沿语音 AI
+→ VibeVoice 是一个开源的前沿语音 AI 项目。
+12. reanimate：逆向工程动画
+→ reanimate 是一个 Claude Code 技能，能逐帧逆向工程任何动画并证明其移动一致性。
 
 【学术前沿】
-17. Turns Matter：通过回合级信用推进流媒体视频强化学习
-→ 现有方法在流媒体视频理解中存在奖励设计单一和轨迹级反馈不匹配的问题。TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。实验表明该方法优于先前RL方法。
-18. FrontierPhysics：端到端物理研究智能体评测
-→ 现有评测仅关注固定问题或子任务。FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。评测发现智能体主要在推理严谨性和专家直觉上存在不足。
-19. DreamX：视频扩散模型作为通用潜在动作学习器
-→ 现有模型难以从视觉变化中分离出动作本质。DreamX利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态。该模型在LARY-Bench上表现优异，支持跨具身和环境的动作迁移。
-20. SWE-Trail：编码智能体训练的历史引导轨迹收集
-→ 现有轨迹收集方法导致数据冗余且存在训练测试不匹配。SWE-Trail利用历史轨迹指导后续收集，同时保持历史在智能体上下文之外。该方法通过执行候选动作选择有效路径，提升了学生模型的训练效果。
+13. Turns Matter：通过回合级信用推进流媒体视频强化学习
+→ TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。
+14. FrontierPhysics：端到端物理研究智能体评测
+→ FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。
+15. 微软研究发布PDD Kit验证智能体代码
+→ 微软研究发布PDD Kit，将开发者意图转化为Verus规范，证明AI生成的代码符合规范。
+16. DreamX：视频扩散模型作为通用潜在动作学习器
+→ DreamX 利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态，在 LARY-Bench 上表现优异。
+
+【产业纵横】
+17. Merge结合OpenAI技术构建产品工具
+→ Merge使用GPT‑6 Astra、ChatGPT和Codex审查产品代码并支持营销，还利用AI规划高管晚宴。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
@@ -92,55 +86,49 @@
 
 **AtomGit-Mobile4Android 新增 2 个 PR**<br>11月5日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 2 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
-#### 政策动向
-
-**何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展**<br>11月5日，据中国政府网消息：何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展。<br><sub>（来源：[中国政府网](https://www.gov.cn/yaowen/liebiao/202611/content_7085139.htm)）</sub>
-
 #### 国内动态
 
-**百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA**<br>11月5日，百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/507787.html)）</sub>
+**百度开源文心5.5 Flash Base模型**<br>11月5日，百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型SOTA表现。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/507787.html)）</sub>
 
 #### 海外动态
 
-**AI 正在迫使我们偿还 40 年的技术债务**<br>11月4日，AI 加速了网络攻击和防御，暴露了脆弱遗留系统中的技术债务。<br><sub>（来源：[Hacker News](https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability)）</sub>
-
-**GPT‑6 Cyber：推进对齐网络安全代理的前沿**<br>11月5日，OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-gpt-6-cyber)）</sub>
+**OpenAI发布GPT‑6 Cyber网络安全模型**<br>11月5日，OpenAI推出GPT‑6 Cyber模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-gpt-6-cyber)）</sub>
 
 **Images 2.6**<br>11月5日，在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和更精确的编辑控制。<br><sub>（来源：[Hacker News](https://openai.com/index/introducing-images-2-6/)）</sub>
 
-**Merge 结合 OpenAI 技术构建产品与商业工具**<br>11月5日，Merge 使用 GPT‑6 Astra、ChatGPT 和 Codex 审查产品代码并支持营销，还利用 AI 规划高管晚宴。<br><sub>（来源：[OpenAI](https://openai.com/index/merge-builds-with-openai)）</sub>
-
-**Gemini Omni 1.2 Flash：原生15秒视频生成与编辑**<br>11月6日，Gemini Omni 1.2 Flash 带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/)）</sub>
-
-**使用 PDD Kit 正式验证智能体编写的全栈 Web 应用**<br>11月6日，PDD Kit 将开发者意图转化为 Verus 规范，证明 AI 生成的代码符合规范，并使用测试辅助验证。<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/)）</sub>
+**Gemini Omni 1.2 Flash：原生15秒视频生成与编辑**<br>11月6日，Google DeepMind发布Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/)）</sub>
 
 #### 开源项目
 
-**百度发布最新基座模型 ERNIE 5.5 Flash Base：效率、开源、高性价比**<br>11月5日，百度开源 ERNIE 5.5 Flash Base，采用 MoE 架构，总参数量 2800 亿，支持最长 100 万 Token 上下文。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503429/ernie-5-5-flash-base)）</sub>
+**agent-autoloop：命令行 Agent 后台接活**<br>11月6日消息，agent-autoloop 让命令行 Agent 在后台自己接活、自己跟进到底，遇到拿不准的事才发卡片找用户拍板。<br><sub>（来源：[GitHub 新项目](https://github.com/KKKKhazix/agent-autoloop)）</sub>
 
-**KKKKhazix/agent-autoloop**<br>11月6日消息，让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。<br><sub>（来源：[GitHub 新项目](https://github.com/KKKKhazix/agent-autoloop)）</sub>
+**skills：AI 智能体获取生产资产**<br>11月6日消息，skills 通过 Scenario MCP 让 AI 智能体获取生产就绪的图像、视频、音频和 3D 资产，并保持角色和品牌一致性。<br><sub>（来源：[GitHub Trending](https://github.com/scenario-labs/skills)）</sub>
 
-**scenario-labs/skills**<br>11月6日消息，AI 智能体通过 Scenario MCP 获取生产就绪的图像、视频、音频和 3D 资产。<br><sub>（来源：[GitHub Trending](https://github.com/scenario-labs/skills)）</sub>
+**gstack：Claude Code 精确配置**<br>11月6日消息，gstack 提供了包含 23 个工具的 Claude Code 精确配置，服务于 CEO、设计师、工程经理等角色。<br><sub>（来源：[GitHub Trending](https://github.com/garrytan/gstack)）</sub>
 
-**garrytan/gstack**<br>11月6日消息，提供 Claude Code 的精确配置，包含 23 个用于 CEO、设计师、工程经理等角色的工具。<br><sub>（来源：[GitHub Trending](https://github.com/garrytan/gstack)）</sub>
+**VibeVoice：开源前沿语音 AI**<br>11月6日消息，VibeVoice 是一个开源的前沿语音 AI 项目。<br><sub>（来源：[GitHub Trending](https://github.com/microsoft/VibeVoice)）</sub>
 
-**microsoft/VibeVoice**<br>11月6日消息，Open-Source Frontier Voice AI。<br><sub>（来源：[GitHub Trending](https://github.com/microsoft/VibeVoice)）</sub>
+**reanimate：逆向工程动画**<br>11月6日消息，reanimate 是一个 Claude Code 技能，能逐帧逆向工程任何动画并证明其移动一致性。<br><sub>（来源：[GitHub 新项目](https://github.com/NiazMorshed2007/reanimate)）</sub>
 
 #### 学术前沿
 
-**Turns Matter：通过回合级信用推进流媒体视频强化学习**<br>11月4日，现有方法在流媒体视频理解中存在奖励设计单一和轨迹级反馈不匹配的问题。TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。实验表明该方法优于先前RL方法。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.06728)）</sub>
+**Turns Matter：通过回合级信用推进流媒体视频强化学习**<br>11月4日，TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.06728)）</sub>
 
-**FrontierPhysics：端到端物理研究智能体评测**<br>11月5日，现有评测仅关注固定问题或子任务。FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。评测发现智能体主要在推理严谨性和专家直觉上存在不足。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06910)）</sub>
+**FrontierPhysics：端到端物理研究智能体评测**<br>11月5日，FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06910)）</sub>
 
-**DreamX：视频扩散模型作为通用潜在动作学习器**<br>11月6日消息，现有模型难以从视觉变化中分离出动作本质。DreamX利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态。该模型在LARY-Bench上表现优异，支持跨具身和环境的动作迁移。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.05377)）</sub>
+**微软研究发布PDD Kit验证智能体代码**<br>11月6日，微软研究发布PDD Kit，将开发者意图转化为Verus规范，证明AI生成的代码符合规范。<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/)）</sub>
 
-**SWE-Trail：编码智能体训练的历史引导轨迹收集**<br>11月6日消息，现有轨迹收集方法导致数据冗余且存在训练测试不匹配。SWE-Trail利用历史轨迹指导后续收集，同时保持历史在智能体上下文之外。该方法通过执行候选动作选择有效路径，提升了学生模型的训练效果。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.02074)）</sub>
+**DreamX：视频扩散模型作为通用潜在动作学习器**<br>11月6日消息，DreamX 利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态，在 LARY-Bench 上表现优异。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.05377)）</sub>
+
+#### 产业纵横
+
+**Merge结合OpenAI技术构建产品工具**<br>11月5日，Merge使用GPT‑6 Astra、ChatGPT和Codex审查产品代码并支持营销，还利用AI规划高管晚宴。<br><sub>（来源：[OpenAI](https://openai.com/index/merge-builds-with-openai)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月5日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-06 08:15（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月5日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-06 09:50（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 

@@ -1122,14 +1122,14 @@
   "day": "2026-11-06",
   "start": "2026-11-06",
   "end": "2026-11-06",
-  "title": "GPT‑6 Cyber：推进对齐网络安全代理的前沿",
-  "generated_at": "2026-11-06T00:15:52Z",
+  "title": "OpenAI发布GPT‑6 Cyber网络安全模型",
+  "generated_at": "2026-11-06T01:50:05Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 24,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-05",
    "end": "2026-11-05"
@@ -1183,22 +1183,11 @@
     "via": "GitHub"
    },
    {
-    "cat": "policy",
-    "headline": "何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展",
-    "when": "11月5日",
-    "date": "2026-11-05",
-    "body": "据中国政府网消息：何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展。",
-    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085139.htm",
-    "via": "中国政府网",
-    "id": "4873b47dbc96",
-    "ai": false
-   },
-   {
     "cat": "domestic",
-    "headline": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+    "headline": "百度开源文心5.5 Flash Base模型",
     "when": "11月5日",
     "date": "2026-11-05",
-    "body": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。",
+    "body": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型SOTA表现。",
     "url": "https://www.qbitai.com/2026/11/507787.html",
     "via": "量子位",
     "id": "4c0ed9ef0d8e",
@@ -1206,21 +1195,10 @@
    },
    {
     "cat": "overseas",
-    "headline": "AI 正在迫使我们偿还 40 年的技术债务",
-    "when": "11月4日",
-    "date": "2026-11-04",
-    "body": "AI 加速了网络攻击和防御，暴露了脆弱遗留系统中的技术债务。",
-    "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-    "via": "Hacker News",
-    "id": "2ed0ade1fe0e",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "GPT‑6 Cyber：推进对齐网络安全代理的前沿",
+    "headline": "OpenAI发布GPT‑6 Cyber网络安全模型",
     "when": "11月5日",
     "date": "2026-11-05",
-    "body": "OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。",
+    "body": "OpenAI推出GPT‑6 Cyber模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。",
     "url": "https://openai.com/index/introducing-gpt-6-cyber",
     "via": "OpenAI",
     "id": "087e88edf97a",
@@ -1239,65 +1217,32 @@
    },
    {
     "cat": "overseas",
-    "headline": "Merge 结合 OpenAI 技术构建产品与商业工具",
-    "when": "11月5日",
-    "date": "2026-11-05",
-    "body": "Merge 使用 GPT‑6 Astra、ChatGPT 和 Codex 审查产品代码并支持营销，还利用 AI 规划高管晚宴。",
-    "url": "https://openai.com/index/merge-builds-with-openai",
-    "via": "OpenAI",
-    "id": "7c247d046d1c",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
     "headline": "Gemini Omni 1.2 Flash：原生15秒视频生成与编辑",
     "when": "11月6日",
     "date": "2026-11-06",
-    "body": "Gemini Omni 1.2 Flash 带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。",
+    "body": "Google DeepMind发布Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。",
     "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
     "via": "Google DeepMind",
     "id": "84da4595d452",
     "ai": true
    },
    {
-    "cat": "overseas",
-    "headline": "使用 PDD Kit 正式验证智能体编写的全栈 Web 应用",
-    "when": "11月6日",
-    "date": "2026-11-06",
-    "body": "PDD Kit 将开发者意图转化为 Verus 规范，证明 AI 生成的代码符合规范，并使用测试辅助验证。",
-    "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
-    "via": "Microsoft Research",
-    "id": "8fc1e1f870ba",
-    "ai": true
-   },
-   {
     "cat": "opensource",
-    "headline": "百度发布最新基座模型 ERNIE 5.5 Flash Base：效率、开源、高性价比",
-    "when": "11月5日",
-    "date": "2026-11-05",
-    "body": "百度开源 ERNIE 5.5 Flash Base，采用 MoE 架构，总参数量 2800 亿，支持最长 100 万 Token 上下文。",
-    "url": "https://www.oschina.net/news/503429/ernie-5-5-flash-base",
-    "via": "开源中国",
-    "id": "6903f7ab599b",
-    "ai": true
-   },
-   {
-    "cat": "opensource",
-    "headline": "KKKKhazix/agent-autoloop",
+    "headline": "agent-autoloop：命令行 Agent 后台接活",
     "when": "11月6日消息",
     "date": "2026-11-06",
-    "body": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "body": "agent-autoloop 让命令行 Agent 在后台自己接活、自己跟进到底，遇到拿不准的事才发卡片找用户拍板。",
     "url": "https://github.com/KKKKhazix/agent-autoloop",
     "via": "GitHub 新项目",
     "id": "877d4e629548",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "scenario-labs/skills",
+    "headline": "skills：AI 智能体获取生产资产",
     "when": "11月6日消息",
     "date": "2026-11-06",
-    "body": "AI 智能体通过 Scenario MCP 获取生产就绪的图像、视频、音频和 3D 资产。",
+    "body": "skills 通过 Scenario MCP 让 AI 智能体获取生产就绪的图像、视频、音频和 3D 资产，并保持角色和品牌一致性。",
     "url": "https://github.com/scenario-labs/skills",
     "via": "GitHub Trending",
     "id": "51be4a286fed",
@@ -1305,10 +1250,10 @@
    },
    {
     "cat": "opensource",
-    "headline": "garrytan/gstack",
+    "headline": "gstack：Claude Code 精确配置",
     "when": "11月6日消息",
     "date": "2026-11-06",
-    "body": "提供 Claude Code 的精确配置，包含 23 个用于 CEO、设计师、工程经理等角色的工具。",
+    "body": "gstack 提供了包含 23 个工具的 Claude Code 精确配置，服务于 CEO、设计师、工程经理等角色。",
     "url": "https://github.com/garrytan/gstack",
     "via": "GitHub Trending",
     "id": "d4f407fd878d",
@@ -1316,21 +1261,32 @@
    },
    {
     "cat": "opensource",
-    "headline": "microsoft/VibeVoice",
+    "headline": "VibeVoice：开源前沿语音 AI",
     "when": "11月6日消息",
     "date": "2026-11-06",
-    "body": "Open-Source Frontier Voice AI。",
+    "body": "VibeVoice 是一个开源的前沿语音 AI 项目。",
     "url": "https://github.com/microsoft/VibeVoice",
     "via": "GitHub Trending",
     "id": "ac9699ad1150",
-    "ai": false
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "reanimate：逆向工程动画",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "reanimate 是一个 Claude Code 技能，能逐帧逆向工程任何动画并证明其移动一致性。",
+    "url": "https://github.com/NiazMorshed2007/reanimate",
+    "via": "GitHub 新项目",
+    "id": "60464d420f89",
+    "ai": true
    },
    {
     "cat": "papers",
     "headline": "Turns Matter：通过回合级信用推进流媒体视频强化学习",
     "when": "11月4日",
     "date": "2026-11-04",
-    "body": "现有方法在流媒体视频理解中存在奖励设计单一和轨迹级反馈不匹配的问题。TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。实验表明该方法优于先前RL方法。",
+    "body": "TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。",
     "url": "https://arxiv.org/abs/2611.06728",
     "via": "Hugging Face 热门论文",
     "id": "b31383435735",
@@ -1341,7 +1297,7 @@
     "headline": "FrontierPhysics：端到端物理研究智能体评测",
     "when": "11月5日",
     "date": "2026-11-05",
-    "body": "现有评测仅关注固定问题或子任务。FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。评测发现智能体主要在推理严谨性和专家直觉上存在不足。",
+    "body": "FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。",
     "url": "https://arxiv.org/abs/2611.06910",
     "via": "arXiv · 智能体",
     "id": "f9784a9ca794",
@@ -1349,24 +1305,35 @@
    },
    {
     "cat": "papers",
+    "headline": "微软研究发布PDD Kit验证智能体代码",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "微软研究发布PDD Kit，将开发者意图转化为Verus规范，证明AI生成的代码符合规范。",
+    "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+    "via": "Microsoft Research",
+    "id": "8fc1e1f870ba",
+    "ai": true
+   },
+   {
+    "cat": "papers",
     "headline": "DreamX：视频扩散模型作为通用潜在动作学习器",
     "when": "11月6日消息",
     "date": "2026-11-06",
-    "body": "现有模型难以从视觉变化中分离出动作本质。DreamX利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态。该模型在LARY-Bench上表现优异，支持跨具身和环境的动作迁移。",
+    "body": "DreamX 利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态，在 LARY-Bench 上表现优异。",
     "url": "https://arxiv.org/abs/2611.05377",
     "via": "Hugging Face 热门论文",
     "id": "a318e9774b7d",
     "ai": true
    },
    {
-    "cat": "papers",
-    "headline": "SWE-Trail：编码智能体训练的历史引导轨迹收集",
-    "when": "11月6日消息",
-    "date": "2026-11-06",
-    "body": "现有轨迹收集方法导致数据冗余且存在训练测试不匹配。SWE-Trail利用历史轨迹指导后续收集，同时保持历史在智能体上下文之外。该方法通过执行候选动作选择有效路径，提升了学生模型的训练效果。",
-    "url": "https://arxiv.org/abs/2611.02074",
-    "via": "arXiv · 智能体",
-    "id": "371d331b4de8",
+    "cat": "industry",
+    "headline": "Merge结合OpenAI技术构建产品工具",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "Merge使用GPT‑6 Astra、ChatGPT和Codex审查产品代码并支持营销，还利用AI规划高管晚宴。",
+    "url": "https://openai.com/index/merge-builds-with-openai",
+    "via": "OpenAI",
+    "id": "7c247d046d1c",
     "ai": true
    },
    {
@@ -1379,6 +1346,152 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "087e88edf97a": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI发布GPT‑6 Cyber网络安全模型",
+    "body": "OpenAI推出GPT‑6 Cyber模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。"
+   },
+   "84da4595d452": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Google DeepMind发布Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。"
+   },
+   "c9cdb82c58bd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "2ed0ade1fe0e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "06128555e5ab": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "e3ddeda1c9b7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "4c0ed9ef0d8e": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "百度开源文心5.5 Flash Base模型",
+    "body": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型SOTA表现。"
+   },
+   "bba302d61b20": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI的GPT‑6 Cyber发现大量漏洞",
+    "body": "GPT‑6 Cyber已在Firefox中发现81个未知漏洞，在Linux内核中开发948个有效利用代码。"
+   },
+   "8fc1e1f870ba": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "微软研究发布PDD Kit验证智能体代码",
+    "body": "微软研究发布PDD Kit，将开发者意图转化为Verus规范，证明AI生成的代码符合规范。"
+   },
+   "7c247d046d1c": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Merge结合OpenAI技术构建产品工具",
+    "body": "Merge使用GPT‑6 Astra、ChatGPT和Codex审查产品代码并支持营销，还利用AI规划高管晚宴。"
+   },
+   "877d4e629548": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agent-autoloop：命令行 Agent 后台接活",
+    "body": "agent-autoloop 让命令行 Agent 在后台自己接活、自己跟进到底，遇到拿不准的事才发卡片找用户拍板。"
+   },
+   "51be4a286fed": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "skills：AI 智能体获取生产资产",
+    "body": "skills 通过 Scenario MCP 让 AI 智能体获取生产就绪的图像、视频、音频和 3D 资产，并保持角色和品牌一致性。"
+   },
+   "d4f407fd878d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "gstack：Claude Code 精确配置",
+    "body": "gstack 提供了包含 23 个工具的 Claude Code 精确配置，服务于 CEO、设计师、工程经理等角色。"
+   },
+   "6903f7ab599b": {
+    "v": "4f7b2f10",
+    "cat": "",
+    "headline": "百度开源文心5.5 Flash Base模型",
+    "body": "百度开源文心5.5 Flash Base，采用MoE架构，总参数量2800亿，支持最长100万Token上下文。",
+    "same": "4c0ed9ef0d8e"
+   },
+   "ac9699ad1150": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "VibeVoice：开源前沿语音 AI",
+    "body": "VibeVoice 是一个开源的前沿语音 AI 项目。"
+   },
+   "60464d420f89": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "reanimate：逆向工程动画",
+    "body": "reanimate 是一个 Claude Code 技能，能逐帧逆向工程任何动画并证明其移动一致性。"
+   },
+   "5a4dedc905e2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "worktrunk：并行 AI 智能体工作流",
+    "body": "worktrunk 是专为并行 AI 智能体工作流设计的 Git worktree 管理 CLI。"
+   },
+   "a153f6ebbcf7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a318e9774b7d": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DreamX：视频扩散模型作为通用潜在动作学习器",
+    "body": "DreamX 利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态，在 LARY-Bench 上表现优异。"
+   },
+   "f9784a9ca794": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "FrontierPhysics：端到端物理研究智能体评测",
+    "body": "FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。"
+   },
+   "b31383435735": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Turns Matter：通过回合级信用推进流媒体视频强化学习",
+    "body": "TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。"
+   },
+   "371d331b4de8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SWE-Trail：编码智能体训练的历史引导轨迹收集",
+    "body": "SWE-Trail利用历史轨迹指导后续收集，同时保持历史在智能体上下文之外，提升了学生模型的训练效果。"
+   },
+   "810b2a45ab1a": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "研究发现前沿语言模型在长任务中牺牲极少精度，且在软件工程任务中性能不崩溃，质疑了长上下文模型的必要性。"
+   },
+   "4873b47dbc96": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "何立峰调研科技创新与产业创新融合",
+    "body": "中共中央政治局委员、国务院副总理何立峰在北京调研，指出要强化科技创新与产业创新深度融合。"
+   }
+  }
  }
 }
