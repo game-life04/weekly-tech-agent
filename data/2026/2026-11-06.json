@@ -1,0 +1,1384 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-06T00:15:52Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 474,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 63,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 39.0
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 41,
+   "error": "",
+   "seconds": 10.2
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 324,
+   "error": "",
+   "seconds": 22.4
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 20.5
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 29,
+   "error": "",
+   "seconds": 27.1
+  }
+ ],
+ "items": [
+  {
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-05T09:00:00Z",
+   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 47.0,
+    "comments": 7.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50381590",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "087e88edf97a",
+   "score": 8.92,
+   "title_zh": "GPT‑6 Cyber：推进对齐网络安全代理的前沿",
+   "summary_zh": "OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。",
+   "tags": [
+    "模型发布",
+    "网络安全"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-05T17:05:16Z",
+   "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "84da4595d452",
+   "score": 8.24,
+   "title_zh": "Gemini Omni 1.2 Flash：原生15秒视频生成与编辑",
+   "summary_zh": "Gemini Omni 1.2 Flash 带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。",
+   "tags": [
+    "模型发布",
+    "视频生成"
+   ],
+   "also_in": [
+    "Google AI"
+   ],
+   "merged_ids": [
+    "a86f7d47556f"
+   ]
+  },
+  {
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "url": "https://news.ycombinator.com/item?id=50366117",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-04T14:37:22Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 503.0,
+    "comments": 630.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50366117",
+    "llm_done": true
+   },
+   "id": "c9cdb82c58bd",
+   "score": 8.03,
+   "title_zh": "Ask HN：你现在的 AI 智能体配置是什么？",
+   "summary_zh": "",
+   "tags": [
+    "社区讨论"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI is forcing us to pay off 40 years of technical debt",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-04T11:52:17Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1261.0,
+    "comments": 734.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50364336",
+    "excerpt_tried": true,
+    "evidence": "AI in cybersecurity accelerates both attackers and defenders, revealing painful technical debt in fragile legacy systems. The November issue of IEEE Spectrum is here! AI is forcing us to pay off 40 years of technical debt Dina Genkina is the computing and hardware editor at IEEE Spectrum In late October, a slew of major cybersecurity issues came to light. But none were bigger than the so-called PHP2Shell vulnerability , which put a plethora of websites, including those of NASA , Wikipedia , the White House, and all other sites that run on Wordpress or Drupal (among others) at risk of exploits capable of both reading sensitive data and running malicious code on the host server. As far as anyone is aware, disaster has been averted: The hack was discovered by cybersecurity researchers who re…",
+    "llm_done": true
+   },
+   "id": "2ed0ade1fe0e",
+   "score": 7.98,
+   "title_zh": "AI 正在迫使我们偿还 40 年的技术债务",
+   "summary_zh": "AI 加速了网络攻击和防御，暴露了脆弱遗留系统中的技术债务。",
+   "tags": [
+    "行业动态",
+    "网络安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-04T23:35:44Z",
+   "summary": "",
+   "heat": 0.954,
+   "weight": 0.6,
+   "metrics": {
+    "points": 376.0,
+    "comments": 233.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50372945",
+    "excerpt_tried": true,
+    "evidence": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API. Generate images faster and with more control over editing rounds. We’re introducing Images 2.6 in ChatGPT, Codex, and the API, bringing your ideas to life faster. With this, you can bring motion to your images with GIFs — from animating a brand mascot or character to turning a product shot into an eye-catching loop. You can also create polished visuals faster and refine them with greater precision — keeping characters, products, and brand details consistent as you edit. People around the world now create 4 billion images per week across ChatGPT, Codex, and the API. On average, that’s more than half a billion images created per day. Images 2.6 generates im…",
+    "llm_done": true
+   },
+   "id": "06128555e5ab",
+   "score": 7.97,
+   "title_zh": "",
+   "summary_zh": "在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和更精确的编辑控制。",
+   "tags": [
+    "模型发布",
+    "图像生成"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-04T10:10:27Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 705.0,
+    "comments": 182.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50363461",
+    "llm_done": true
+   },
+   "id": "e3ddeda1c9b7",
+   "score": 7.95,
+   "title_zh": "Tell HN：Gemini 即使对订阅用户也会训练聊天历史（个人账户）",
+   "summary_zh": "",
+   "tags": [
+    "隐私问题"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+   "url": "https://www.qbitai.com/2026/11/507787.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-05T07:15:13Z",
+   "summary": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base 11月5日，百度正式开源最新基座模型文心5.5 Flash Base（ERNIE 5.5 Flash Base）。模型采用MoE架构，总参数量2800亿，每个 Token 激活140亿参数，使用33.5万亿个 Token 完成预训练，预训练上下文长度最高达128K，微调与推理阶段支持最长100万 Token上下文。在知识、推理、数学、代码、多语言和长上下文等多个基准测试中取得同尺寸模型 SOTA 表现，超过 DeepSeek-V4-Flash-Base、Hy3-preview-Base、MiMo-V2.5-Base 等模型。 开源地址：https://huggingface.co/baidu/ERNIE-5.5-Flash-Base 随着大模型应用从文本问答向长文档分析、多轮交互和智能体任务延伸，模型需要处理的信息量持续增加，计算和显存开销也随之上升。在保证模型能力的同时提高资源利用效率，已成为大模型研发的重要课题。 文心 5.5 Flash Base围绕“效率”这一设计主线，在注意力机制、专家路由及训练机制等关键环节进行系统性优化，并实现了多项算法创新。 在注意力机制上，文心提出 Latent-Gated Sparse Attention ，将混合稀疏注意力、低秩门控注意力与虚拟头注意力结合起来。其中，模型通过组合HCA与MLA，让不同注意力层分别承担压缩历史信息和细粒度访问历史位置的任务；低秩门控注意力（Low-Rank Gated Attention）则利用已有的低维表示计算信息门控，使门控投影权重参数减少75%；此外，虚拟头注意力（Virtual Head Attention，VHA）可提升模型表达力与训练质量，推理时融合进注意力算子，开销极小。这些设计降低了长上下文处理的资源开销，同时保留模型…",
+    "llm_done": true
+   },
+   "id": "4c0ed9ef0d8e",
+   "score": 7.79,
+   "title_zh": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+   "summary_zh": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。",
+   "tags": [
+    "模型发布",
+    "开源工具"
+   ],
+   "also_in": [
+    "雷峰网"
+   ],
+   "merged_ids": [
+    "8406d43eb7bf"
+   ]
+  },
+  {
+   "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+   "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-05T20:36:25Z",
+   "summary": "With GPT-6 Cyber, OpenAI is introducing an AI model built to find security vulnerabilities in software, develop exploits, and suggest patches. According to OpenAI, it has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the Linux kernel, significantly more than its predecessor. The article OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "bba302d61b20",
+   "score": 7.76,
+   "title_zh": "OpenAI 的 GPT‑6 Cyber 既能入侵系统也能提出修复方案",
+   "summary_zh": "GPT‑6 Cyber 已在 Firefox 中发现81个未知漏洞，在 Linux 内核中开发948个有效利用代码。",
+   "tags": [
+    "模型发布",
+    "网络安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+   "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+   "source": "rss",
+   "section": "news",
+   "via": "Microsoft Research",
+   "published": "2026-11-05T16:00:00Z",
+   "summary": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every input, and uses tests where proofs aren't practical. Developers review intent, not every line. The post Formally verifying agent-written full-stack web apps with PDD Kit appeared first…",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8fc1e1f870ba",
+   "score": 7.75,
+   "title_zh": "使用 PDD Kit 正式验证智能体编写的全栈 Web 应用",
+   "summary_zh": "PDD Kit 将开发者意图转化为 Verus 规范，证明 AI 生成的代码符合规范，并使用测试辅助验证。",
+   "tags": [
+    "工具",
+    "代码验证"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Merge builds product and business tools with OpenAI technology",
+   "url": "https://openai.com/index/merge-builds-with-openai",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-05T08:00:00Z",
+   "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7c247d046d1c",
+   "score": 7.71,
+   "title_zh": "Merge 结合 OpenAI 技术构建产品与商业工具",
+   "summary_zh": "Merge 使用 GPT‑6 Astra、ChatGPT 和 Codex 审查产品代码并支持营销，还利用 AI 规划高管晚宴。",
+   "tags": [
+    "行业动态",
+    "应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "KKKKhazix/agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+   "heat": 1.0,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3228.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 2,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "877d4e629548",
+   "score": 7.8,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+   "heat": 0.812,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 667.0,
+    "stars": 3041.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "51be4a286fed",
+   "score": 7.54,
+   "title_zh": "",
+   "summary_zh": "AI 智能体通过 Scenario MCP 获取生产就绪的图像、视频、音频和 3D 资产。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "heat": 0.802,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 612.0,
+    "stars": 139928.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d4f407fd878d",
+   "score": 7.52,
+   "title_zh": "",
+   "summary_zh": "提供 Claude Code 的精确配置，包含 23 个用于 CEO、设计师、工程经理等角色的工具。",
+   "tags": [
+    "开源工具",
+    "开发工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "百度发布最新基座模型 ERNIE 5.5 Flash Base：效率、开源、高性价比",
+   "url": "https://www.oschina.net/news/503429/ernie-5-5-flash-base",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-05T11:39:18Z",
+   "summary": "11 月 5 日，百度正式开源最新基座模型文心 5.5 Flash Base（ERNIE 5.5 Flash Base）。模型采用 MoE 架构，总参数量 2800 亿，每个 Token 激活 140 亿参数，使用 33.5 万亿个 Token 完成预训练，预训练上下文长度最高达 128K，微调与推理阶段支持最长 100 万 Token 上下文。 据介绍，ERNIE 5.5 Flash Base 没有经过任何中...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "6903f7ab599b",
+   "score": 7.51,
+   "title_zh": "",
+   "summary_zh": "百度开源 ERNIE 5.5 Flash Base，采用 MoE 架构，总参数量 2800 亿，支持最长 100 万 Token 上下文。",
+   "tags": [
+    "模型发布",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "microsoft/VibeVoice",
+   "url": "https://github.com/microsoft/VibeVoice",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open-Source Frontier Voice AI",
+   "heat": 0.676,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 223.0,
+    "stars": 55898.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ac9699ad1150",
+   "score": 7.27,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NiazMorshed2007/reanimate",
+   "url": "https://github.com/NiazMorshed2007/reanimate",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
+   "heat": 0.708,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1239.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 7,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "60464d420f89",
+   "score": 7.22,
+   "title_zh": "",
+   "summary_zh": "一个 Claude Code 技能，逐帧逆向工程任何动画并证明其移动一致性。",
+   "tags": [
+    "开源工具",
+    "动画"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "heat": 0.787,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 546.0,
+    "stars": 11501.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5a4dedc905e2",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "专为并行 AI 智能体工作流设计的 Git worktree 管理 CLI。",
+   "tags": [
+    "开源工具",
+    "开发工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mistralai/Mistral-Large-4-1T-A52B",
+   "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图文理解模型，许可证 other",
+   "heat": 0.731,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 1614.0,
+    "downloads": 9592.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/mistralai/Mistral-Large-4-1T-A52B"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a153f6ebbcf7",
+   "score": 6.66,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "魔搭 ModelScope 热门模型"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+   "url": "https://arxiv.org/abs/2611.05377",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-03T00:00:00Z",
+   "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal latent action learner. Our approach extracts compact latent actions from the video model's rich spatiotemporal features, compressing each latent video frame by 300times (1{,200 rightarrow 4} tokens). In addition, by leveraging the video model's generative prior, these latent actions capture action-relevant dynamics disentangled from visual appearance. The resulting latent space serves as a shared action interface across embodiments (human and robot), environments, and action parameterizations. On LARY-Bench, DreamX achieves state-of-the-art performance among latent action models. Moreover, actions encoded in one setting remain effective in another: the latent space supports any-to-any video transfer and zero-shot action transfer across diverse embodiments and environments. Furthermore, this shared interface also enables policy learning in a compact latent action space, reducing the computational cost of video-diffusion-based policies.",
+   "heat": 0.702,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 54.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a318e9774b7d",
+   "score": 7.21,
+   "title_zh": "DreamX：视频扩散模型作为通用潜在动作学习器",
+   "summary_zh": "现有模型难以从视觉变化中分离出动作本质。DreamX利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态。该模型在LARY-Bench上表现优异，支持跨具身和环境的动作迁移。",
+   "tags": [
+    "视频生成",
+    "动作学习",
+    "扩散模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+   "url": "https://arxiv.org/abs/2611.06910",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-04T18:56:22Z",
+   "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics. Each task requires agents to review the literature, develop a research plan, conduct research and experiments, and produce structured outputs and scientific manuscripts. Combining deterministic verifiers with expert-authored rubrics, FrontierPhysics evaluates whether agents' research is correct and publishable. Across 22 models in 26 configurations, no configuration passes more than 46 of its 168 rollouts. Manual review of agent trajectories shows that frontier agents' main weaknesses are insufficiently rigorous reasoning and limited expert intuition, rather than gaps in physics knowledge or execution errors.",
+   "heat": 0.678,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 47.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f9784a9ca794",
+   "score": 7.04,
+   "title_zh": "FrontierPhysics：端到端物理研究智能体评测",
+   "summary_zh": "现有评测仅关注固定问题或子任务。FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。评测发现智能体主要在推理严谨性和专家直觉上存在不足。",
+   "tags": [
+    "智能体",
+    "物理研究",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+   "url": "https://arxiv.org/abs/2611.06728",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-04T00:00:00Z",
+   "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups after earlier failures. We propose TurnWise, a turn-level GRPO framework that aligns learning with individual streaming decisions. TurnWise addresses the mismatch between trajectory-level feedback and turn-level interaction, promoting informative responses and reducing redundancy. Specifically, turn-level credit assignment uses silence-completed prefix scoring to construct group-relative advantages from each decision's remaining return, separating its learning signal from earlier rewards. Turn-mean policy optimization averages token losses within each turn and then across turns, giving response and waiting decisions equal weight regardless of output length. These complementary designs improve streaming policy learning without a learned critic or additional rollouts. Extensive experiments show our method outperforms prior RL approaches for streaming video understanding.",
+   "heat": 0.77,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 80.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/XD111ds/turn-wise-rl"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "b31383435735",
+   "score": 6.86,
+   "title_zh": "Turns Matter：通过回合级信用推进流媒体视频强化学习",
+   "summary_zh": "现有方法在流媒体视频理解中存在奖励设计单一和轨迹级反馈不匹配的问题。TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。实验表明该方法优于先前RL方法。",
+   "tags": [
+    "强化学习",
+    "视频理解",
+    "流媒体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
+   "url": "https://arxiv.org/abs/2611.02074",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-01T17:26:42Z",
+   "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently, later trajectories become increasingly redundant, even though earlier trajectories could guide where subsequent collection effort should be spent. A natural way to use this history is to expose it to the coding agent as advice. But training on such trajectories can make the model rely on advice that is unavailable at test time, creating a train-test mismatch. Instead, we argue that history should guide where collection effort is spent, while the coding agent decides what to generate. We introduce SWE-Trail, a trajectory collector that uses earlier trajectories to guide subsequent collection while keeping that history outside the coding agent's context. During a new rollout, SWE-Trail uses history to identify a state where additional collection effort may be useful. There, the coding agent proposes candidate next actions from its ordinary context, and SWE-Trail briefly executes them from the same checkpoint to decide which route continues. We evaluate collection approaches by training student models on the trajectories they produce. For a 124B student initialized from Ling-3.0-flash…",
+   "heat": 0.651,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 40.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "371d331b4de8",
+   "score": 6.64,
+   "title_zh": "SWE-Trail：编码智能体训练的历史引导轨迹收集",
+   "summary_zh": "现有轨迹收集方法导致数据冗余且存在训练测试不匹配。SWE-Trail利用历史轨迹指导后续收集，同时保持历史在智能体上下文之外。该方法通过执行候选动作选择有效路径，提升了学生模型的训练效果。",
+   "tags": [
+    "智能体",
+    "代码生成",
+    "轨迹收集"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "You don't need long context",
+   "url": "https://arxiv.org/abs/2611.05306",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-03T18:17:23Z",
+   "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon software engineering tasks even when taking at most one action per context, and based on that we outline the concept of semantic state space models (SSSMs). Our findings question the need for long-context language models.",
+   "heat": 0.475,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 14.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "810b2a45ab1a",
+   "score": 6.48,
+   "title_zh": "你不需要长上下文",
+   "summary_zh": "后期令牌生成成本更高，但通过频繁压缩可保持短上下文。研究发现前沿语言模型在长任务中牺牲极少精度，且在软件工程任务中性能不崩溃。这质疑了长上下文语言模型的必要性。",
+   "tags": [
+    "长上下文",
+    "成本优化",
+    "软件工程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-06",
+  "start": "2026-11-06",
+  "end": "2026-11-06",
+  "title": "GPT‑6 Cyber：推进对齐网络安全代理的前沿",
+  "generated_at": "2026-11-06T00:15:52Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 24,
+  "club_period": {
+   "start": "2026-11-05",
+   "end": "2026-11-05"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 3 个 PR、提交 2 次",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 3 个，提交 2 次，新增代码 2 行、删除 2 行，4 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "system-security-dojo-x64-2026 合并 1 个 PR",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "pwn.hust.college SIG的 system-security-dojo-x64-2026 仓库合并 1 个、提交 1 次，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/system-security-dojo-x64-2026",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 新增 2 个 PR",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 2 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "policy",
+    "headline": "何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "据中国政府网消息：何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展。",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085139.htm",
+    "via": "中国政府网",
+    "id": "4873b47dbc96",
+    "ai": false
+   },
+   {
+    "cat": "domestic",
+    "headline": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。",
+    "url": "https://www.qbitai.com/2026/11/507787.html",
+    "via": "量子位",
+    "id": "4c0ed9ef0d8e",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "AI 正在迫使我们偿还 40 年的技术债务",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "AI 加速了网络攻击和防御，暴露了脆弱遗留系统中的技术债务。",
+    "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+    "via": "Hacker News",
+    "id": "2ed0ade1fe0e",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "GPT‑6 Cyber：推进对齐网络安全代理的前沿",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "via": "OpenAI",
+    "id": "087e88edf97a",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Images 2.6",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和更精确的编辑控制。",
+    "url": "https://openai.com/index/introducing-images-2-6/",
+    "via": "Hacker News",
+    "id": "06128555e5ab",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Merge 结合 OpenAI 技术构建产品与商业工具",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "Merge 使用 GPT‑6 Astra、ChatGPT 和 Codex 审查产品代码并支持营销，还利用 AI 规划高管晚宴。",
+    "url": "https://openai.com/index/merge-builds-with-openai",
+    "via": "OpenAI",
+    "id": "7c247d046d1c",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Gemini Omni 1.2 Flash：原生15秒视频生成与编辑",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "Gemini Omni 1.2 Flash 带来原生15秒视频生成与编辑功能，一致性更强且价格降低30%。",
+    "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "via": "Google DeepMind",
+    "id": "84da4595d452",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "使用 PDD Kit 正式验证智能体编写的全栈 Web 应用",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "PDD Kit 将开发者意图转化为 Verus 规范，证明 AI 生成的代码符合规范，并使用测试辅助验证。",
+    "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+    "via": "Microsoft Research",
+    "id": "8fc1e1f870ba",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "百度发布最新基座模型 ERNIE 5.5 Flash Base：效率、开源、高性价比",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "百度开源 ERNIE 5.5 Flash Base，采用 MoE 架构，总参数量 2800 亿，支持最长 100 万 Token 上下文。",
+    "url": "https://www.oschina.net/news/503429/ernie-5-5-flash-base",
+    "via": "开源中国",
+    "id": "6903f7ab599b",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "KKKKhazix/agent-autoloop",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "url": "https://github.com/KKKKhazix/agent-autoloop",
+    "via": "GitHub 新项目",
+    "id": "877d4e629548",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "scenario-labs/skills",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "AI 智能体通过 Scenario MCP 获取生产就绪的图像、视频、音频和 3D 资产。",
+    "url": "https://github.com/scenario-labs/skills",
+    "via": "GitHub Trending",
+    "id": "51be4a286fed",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "garrytan/gstack",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "提供 Claude Code 的精确配置，包含 23 个用于 CEO、设计师、工程经理等角色的工具。",
+    "url": "https://github.com/garrytan/gstack",
+    "via": "GitHub Trending",
+    "id": "d4f407fd878d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "microsoft/VibeVoice",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "Open-Source Frontier Voice AI。",
+    "url": "https://github.com/microsoft/VibeVoice",
+    "via": "GitHub Trending",
+    "id": "ac9699ad1150",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Turns Matter：通过回合级信用推进流媒体视频强化学习",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "现有方法在流媒体视频理解中存在奖励设计单一和轨迹级反馈不匹配的问题。TurnWise提出回合级GRPO框架，通过沉默完成前缀评分分离学习信号，并平均回合内损失。实验表明该方法优于先前RL方法。",
+    "url": "https://arxiv.org/abs/2611.06728",
+    "via": "Hugging Face 热门论文",
+    "id": "b31383435735",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "FrontierPhysics：端到端物理研究智能体评测",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "现有评测仅关注固定问题或子任务。FrontierPhysics引入56个由物理学家设计的任务，要求智能体完成文献综述、实验和论文撰写。评测发现智能体主要在推理严谨性和专家直觉上存在不足。",
+    "url": "https://arxiv.org/abs/2611.06910",
+    "via": "arXiv · 智能体",
+    "id": "f9784a9ca794",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "DreamX：视频扩散模型作为通用潜在动作学习器",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "现有模型难以从视觉变化中分离出动作本质。DreamX利用预训练视频扩散模型提取紧凑的潜在动作，压缩视频帧并捕捉动作相关动态。该模型在LARY-Bench上表现优异，支持跨具身和环境的动作迁移。",
+    "url": "https://arxiv.org/abs/2611.05377",
+    "via": "Hugging Face 热门论文",
+    "id": "a318e9774b7d",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "SWE-Trail：编码智能体训练的历史引导轨迹收集",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "现有轨迹收集方法导致数据冗余且存在训练测试不匹配。SWE-Trail利用历史轨迹指导后续收集，同时保持历史在智能体上下文之外。该方法通过执行候选动作选择有效路径，提升了学生模型的训练效果。",
+    "url": "https://arxiv.org/abs/2611.02074",
+    "via": "arXiv · 智能体",
+    "id": "371d331b4de8",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
