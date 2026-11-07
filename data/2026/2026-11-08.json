@@ -1,0 +1,1469 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-07T22:45:03Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 445,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 31.2
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 42,
+   "error": "",
+   "seconds": 10.1
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 333,
+   "error": "",
+   "seconds": 21.7
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 17.1
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 29,
+   "error": "",
+   "seconds": 21.5
+  }
+ ],
+ "items": [
+  {
+   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-05T23:09:57Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 510.0,
+    "comments": 228.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50385870",
+    "excerpt_tried": true,
+    "evidence": "Cuban says he has been seeing his own face in scammy AI-generated ads for nonexistent diabetes cures. Mark Cuban keeps getting emails about a $294 diabetes cure he has never sold. \"Every single week I get emails from little old men and ladies saying, 'Will my cure for diabetes work?' or 'I just ordered your cure for diabetes for $294,'\" the 68-year-old billionaire investor said on an August episode of Pivot , the podcast hosted by Kara Swisher and Scott Galloway. Jeff Bezos backs a platform that lets anyone invest in rental homes for as little as $100 — 6 ways to build wealth like a landlord without actually being one Dave Ramsey warns nearly 50% of Americans are making 1 big Social Security mistake. Here's what it is and 3 simple steps to fix it ASAP A single line on your car insurance p…",
+    "llm_done": true
+   },
+   "id": "96532b834190",
+   "score": 7.81,
+   "title_zh": "Cuban：Facebook明知在用AI假广告诈骗",
+   "summary_zh": "Cuban称自己频繁出现在虚假糖尿病治愈广告中，Facebook明知故犯。",
+   "tags": [
+    "行业动态",
+    "深度伪造",
+    "诈骗"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Firecracker VM Escape: PwnEscape Part 2",
+   "url": "https://pwn.ai/blog/firecracker-escape",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-06T19:33:38Z",
+   "summary": "",
+   "heat": 0.905,
+   "weight": 0.6,
+   "metrics": {
+    "points": 277.0,
+    "comments": 126.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50397219",
+    "needs_review": true,
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "A malicious guest crossed Firecracker's microVM boundary, resolved the live VMM from inside the VM, and took control of a root-run host process—turning a Linux networking flaw into a guest-to-host code-execution primitive. Firecracker is supposed to keep untrusted code inside a microVM. We escaped it and achieved code execution as root on the host. We found how it saved registers, changed where it would resume, and made it execute a call of our choosing when it returned from KVM. The guest then restored the temporary stack changes. Firecracker kept running, and the VM remained accessible over SSH. PwnEscape Part 1 introduced the host memory primitive behind this work. Here we follow the next part of the chain: using that access to find Firecracker in memory and take over a live thread fro…",
+    "llm_done": true
+   },
+   "id": "98b79c27830e",
+   "score": 7.27,
+   "title_zh": "Firecracker VM逃逸：PwnEscape Part 2",
+   "summary_zh": "研究人员成功突破Firecracker微虚拟机边界，在宿主机上获取了root权限。",
+   "tags": [
+    "安全",
+    "虚拟化",
+    "漏洞"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "I struggle to believe that AI R&D is ingenious",
+   "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-06T05:19:04Z",
+   "summary": "",
+   "heat": 0.863,
+   "weight": 0.6,
+   "metrics": {
+    "points": 213.0,
+    "comments": 213.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50388513",
+    "excerpt_tried": true,
+    "evidence": "Comment by Arjun Panickssery - I struggle to believe at an intuitive level that autonomous R&D is so ingenious. I have been monitoring a few side projects: 1. Building a new SOTA engine for Scrabble (current SOTA is not really a neural-network method and doesn't beat the strongest human player) 2. Building a bot to play Ultimate Tic-Tac-Toe 3. Researching philosophy and formalizing some proofs for the AI Philosophy contest In all of these cases, the model's judgment is just very poor in a basic way. For example: 1. When reviewing literature, it fails to identify the specific papers or blog posts that are obviously the most important and useful. 2. It will conduct experiments that have no information value because the amount of training data used was obviously too small to distinguish the…",
+    "llm_done": true
+   },
+   "id": "045810455db1",
+   "score": 7.21,
+   "title_zh": "难以相信AI研发如此巧妙",
+   "summary_zh": "作者通过监控几个项目发现，AI在基础判断上表现很差，难以相信其研发能力。",
+   "tags": [
+    "AI",
+    "评测",
+    "观点"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+   "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-07T16:56:38Z",
+   "summary": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The article AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "1870d161215e",
+   "score": 7.14,
+   "title_zh": "AI 审计员能发现大部分智能体异常，但误报率随搜索深度增加",
+   "summary_zh": "",
+   "tags": [
+    "评测",
+    "智能体",
+    "安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+   "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-06T14:13:09Z",
+   "summary": "",
+   "heat": 0.79,
+   "weight": 0.6,
+   "metrics": {
+    "points": 135.0,
+    "comments": 63.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50392499",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "3491fc701144",
+   "score": 7.0,
+   "title_zh": "AI机器人泛滥大学图书馆",
+   "summary_zh": "",
+   "tags": [
+    "行业动态",
+    "AI",
+    "图书馆"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+   "url": "https://openai.com/index/partnering-with-hacktron",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-06T08:00:00Z",
+   "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "c91345e607c9",
+   "score": 6.94,
+   "title_zh": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+   "summary_zh": "OpenAI 正与 Hacktron 合作，旨在测试与第三方服务的连接并加强前沿 AI 的防御能力。",
+   "tags": [
+    "安全",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送",
+   "url": "https://www.ithome.com/1/023/823.htm",
+   "source": "rss",
+   "section": "news",
+   "via": "IT之家",
+   "published": "2026-11-07T14:57:23Z",
+   "summary": "IT之家 11 月 7 日消息，当地时间 11 月 5 日，GitHub 发布博文，称上周在 GitHub Universe 大会上，正式公布了全新的 Git 存储架构，代号“Rubicon”。 官方表示，该架构不仅具备每秒处理数千次写入的能力，还能实现读取按需水平扩展。经内部压力测试验证，新架构能够在保持极低读取延迟的同时， 支持单个代码仓库容纳 5000 个智能体（Agent）并发协作，并承受每秒高达 7200 次的代码推送 。 IT之家获悉，该架构目前已经开启 小范围定向内测（limited private preview） ，并计划于 明年初逐步扩大开放范围 。 据介绍，如今 GitHub 上最繁忙的代码仓库，其单秒写入峰值最多也不过数十次，且往往呈现短暂脉冲式的突发状态。然而，随着越来越多的研发工作交由全天候高并发运行的 AI 智能体处理，预计在未来一年内，这种瞬时突发将演变为常态化的持续高吞吐负载。 每一次代码推送（Push）都会级联触发更多的读取请求：CI 流水线即刻启动、部署系统拉取最新提交，其他协同智能体也会同步获取代码作为上下文。这种读操作的扇出扩散（Read F…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "3b4566e5809b",
+   "score": 6.79,
+   "title_zh": "",
+   "summary_zh": "新架构支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送，目前处于小范围内测阶段。",
+   "tags": [
+    "工具",
+    "智能体",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿",
+   "url": "https://zhidx.com/p/608120.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-06T12:24:02Z",
+   "summary": "智东西 作者 | 孙小雯 编辑 | 程茜 智东西11月6日消息，今日，前OpenAI首席技术官米拉·穆拉蒂创办的美国AI创企Thinking Machines Lab发布 通用多模态模型Inkling 2 Small ，并将于 下周 开放权重 。该模型重点改善定制训练表现，支持开发者用自己的数据进一步训练，也支持自行调用工具对其他模型进行微调。 ▲Thinking Machines官方公告（图源：X） 该模型在第三方评测机构Artificial Analysis（AA）的智能指数中获得31分，前代Inkling-Small为13分。按当前榜单，新模型开放权重后，将在该指数中位列 中国以外开放权重模型第一 。 ▲AA称，按当前排名，Inkling 2 Small开放权重后，将成为中国以外研发的开放权重模型中智能指数得分最高的一款（图源：Artificial Analysis） 据Thinking Machines Lab透露，Inkling 2 Small是其第二代模型系列的 首款产品 ，采用混合专家（MoE）架构，总参数量为 5940亿 ，每个Token激活 170亿参数 ，支持文字…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "6fbf2e17a6b0",
+   "score": 6.73,
+   "title_zh": "",
+   "summary_zh": "Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，支持用户自定义训练，参数量达 5940 亿。",
+   "tags": [
+    "模型发布",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "CyberwIIOS：如何驾驭大模型在 OT 侧跨越“幻觉”与“失控”｜AICon北京",
+   "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
+   "source": "rss",
+   "section": "news",
+   "via": "InfoQ 中文",
+   "published": "2026-11-07T02:00:00Z",
+   "summary": "",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "工业OT场景具备高实时性、高可靠性、强物理约束、低容错率的核心特性，通用大模型天然存在的内容幻觉、逻辑不可控、执行失控等问题，成为其规模化落地工业现场的核心技术壁垒。 AI Agent 正从问答辅助转向嵌入企业流程的任务执行者，工程能力（工具调用、上下文管理、反馈闭环）成为规模化落地的关键瓶颈。 Agent 落地核心矛盾已转向任务筛选、结果验收与权限/成本/风险管控；Coding Agent 演进为理解代码库、运行测试、协同交付的工程协作者；模型能力决定上限，工程架构决定生产可用性。 当 Agent 真正进入企业流程，哪些工作可以交给 AI ？50 + 实战案例揭晓答案！ AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者。当 Agent 真正进入企业流程，问题不再是 “如何把 AI 做出来”，而是哪些工作可以交给 AI、结果如何验收、权限、成本与风险如何收住。随着大模型向推理、工具调用、多模态和长任务延伸，开发重心正从单次调用转向上下文、工具、执行环境与反馈回路的设计，Coding Agent 也从代码补全演进为能理解代码库、运行测试、完成复杂任务的工程协作者。OpenAI、Google Cloud、Anthropic 的最新实践共同指向一个结论：模型决定 Agent 能做什么，工程决定它能否真正进入生产、创造价值。 在这一背景下， 2026 年 AICon 人工智能开发与应用大会 · 北京站 正式启动。本次大会将于 12 月 18–19 日 ，在北京新云南皇冠假日酒店举办。本届大会以 探索 A 应用边界 为主题，设置 13 大技术专题，覆盖 大模型后训练、推理优化、Agent 工程、知识工程、智能体评测与安全、自进化系统、AI 软件交付、原生架构及组织变革 等核心方向，汇聚一线技术专家，深入分享 AI 技术突破与企业规模化落地的真实实践。 中…",
+    "llm_done": true
+   },
+   "id": "1c4daa18f891",
+   "score": 6.39,
+   "title_zh": "如何驾驭大模型在 OT 场景跨越“幻觉”与“失控”",
+   "summary_zh": "AICon 北京大会探讨工业 OT 场景下大模型的落地挑战，强调工程能力是 Agent 规模化落地的关键。",
+   "tags": [
+    "行业动态",
+    "智能体",
+    "工程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
+   "url": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl?utm_source=rss&utm_medium=article",
+   "source": "rss",
+   "section": "news",
+   "via": "InfoQ 中文",
+   "published": "2026-11-06T09:00:00Z",
+   "summary": "",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "tsrs 是 TypeScript 编译器的 Rust 移植版，由 Cloudflare 宣布推出，并与 VoidZero 及 Owner.com 的 Max Schwenk 共同开发。该项目在 Oxc 工具链中孵化，并与 TypeScript 团队密切合作。Cloudflare 强调，tsrs 并非 TypeScript 的分支，语言设计仍完全由 TypeScript 团队掌控。 tsrs 是 Cloudflare 联合 VoidZero 与 Owner.com 开发的 TypeScript 编译器 Rust 移植版，非分支项目，语言规范仍由 TS 团队维护；实测类型检查速度最高提升 8 倍，内存降低约 70%，支持 WASM 编译。 关键观点：类型检查性能提升达 8 倍且内存减少 70%；通过 @tsrs/wasm 可在浏览器/Workers 运行，无 GC 开销；移植过程全程由 Claude Opus 5.5 Agent 驱动，以 15,197 个 TS 官方一致性测试为基准。 适合前端架构师、TypeScript 工具链开发者、大规模单体项目工程效能负责人阅读。 tsrs 是 TypeScript 编译器的 Rust 移植版， 由 Cloudflare 宣布推出， 并与 VoidZero 及 Owner.com 的 Max Schwenk 共同开发。该项目在 Oxc 工具链 中孵化，并与 TypeScript 团队密切合作。Cloudflare 强调，tsrs 并非 TypeScript 的分支，语言设计仍完全由 TypeScript 团队掌控。 Cloudflare 声称，在类型检查工作线程数量相同的情况下，tsrs 的类型检查速度 最高可提升 8 倍，内存占用减少约 70% 。Rust 还可使项目能够通过 @tsrs/wasm 编译为 WebAssembly，…",
+    "llm_done": true
+   },
+   "id": "a2a54c48289f",
+   "score": 6.26,
+   "title_zh": "Cloudflare 推出 tsrs：TypeScript 编译器的 Rust 移植版",
+   "summary_zh": "tsrs 由 AI 驱动开发，类型检查速度最高提升 8 倍，内存降低约 70%，支持 WASM 编译。",
+   "tags": [
+    "工具",
+    "开源工具",
+    "编译器"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "xorbitsai/inference v4.2.0",
+   "url": "https://github.com/xorbitsai/inference/releases/tag/v4.2.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-07T13:07:47Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# What's new in 4.2.0 (2026-11-07) ## Highlights - **Xavier prefix cache sharing.** Reuse compatible prefixes across replicas running vLLM, SGLang, TRT-LLM, or MLX. Xavier expands LMCache storage support with Mooncake Store and can prioritize retaining KV prefixes while agents wait for tool results, reducing repeated prefill when they resume. ([#5917](https://github.com/xorbitsai/inference/pull/5917), [#5905](https://github.com/xorbitsai/inference/pull/5905), [#6018](https://github.com/xorbitsai/inference/pull/6018)) - **Software updates and rolling model reloads.** Administrators can check for and install Xinference updates in the Web UI, upgrading Workers, the Supervisor, and the API in order. Supported vLLM and SGLang deployments can retain GPU weights and reload one replica at a time while in-flight requests finish on the previous engine instance. ([#5873](https://github.com/xorbitsai/inference/pull/5873), [#5944](https://github.com/xorbitsai/inference/pull/5944)) - **Start model benchmarks from the Web UI.** Run tests at different concurrency levels against a running chat model, compare throughput, time to first token (TTFT), and time per output token (TPOT) across runs, and export results as JSON. ([#5904](https://github.com/xorbitsai/inference/pull/5904)) - **Native reasoning controls and request priority across LLM engines.** The OpenAI- and Anthropic-compatible APIs expose native reasoning effort for supported models. The OpenAI-compatible API also supports a thinki…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c7d8032891dd",
+   "score": 7.04,
+   "title_zh": "",
+   "summary_zh": "Xorbits 推出 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。",
+   "tags": [
+    "工具",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Migrating vLLM to the LibTorch Stable ABI",
+   "url": "https://vllm.ai/blog/2026-11-06-stable-abi-cuda",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-06T00:00:00Z",
+   "summary": "How vLLM migrated its CUDA build and compiled dependencies to the LibTorch Stable ABI, enabling compatible PyTorch upgrades without rebuilding vLLM.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "9ab583ca40ca",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。",
+   "tags": [
+    "工具",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "JuneYaooo/rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。",
+   "heat": 0.821,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3646.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 9,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f9c541cb1520",
+   "score": 6.84,
+   "title_zh": "",
+   "summary_zh": "逆向分析视频制作方式，逐镜拆解并给出复刻方案。",
+   "tags": [
+    "开源工具",
+    "视频分析",
+    "AI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "jamiepine/voicebox",
+   "url": "https://github.com/jamiepine/voicebox",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The open-source AI voice studio. Clone, dictate, create.",
+   "heat": 0.72,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 318.0,
+    "stars": 59986.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0f287919d0a9",
+   "score": 6.76,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/openai-cookbook",
+   "url": "https://github.com/openai/openai-cookbook",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Examples and guides for using the OpenAI API",
+   "heat": 0.407,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 25.0,
+    "stars": 76997.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "9147dc10a29c",
+   "score": 6.73,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google/adk-python v2.14.0",
+   "url": "https://github.com/google/adk-python/releases/tag/v2.14.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-07T00:58:18Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## [2.14.0](https://github.com/google/adk-python/compare/v2.13.0...v2.14.0) (2026-11-04) ### Highlights This release graduates execution environments, A2A, evaluation, and core runtime modules from experimental, adds multi-run evaluation and semantic tool argument matching, adds Microsoft Teams and OpenAI Decisions integrations, and makes long multi-turn workflows faster. * **Execution environments and sandboxes**: * `BaseEnvironment`, `LocalEnvironment`, `EnvironmentToolset`, `DaytonaEnvironment`, and `E2BEnvironment` are now stable. ([c54b253](https://github.com/google/adk-python/commit/c54b253eba3359264a5f86805051aeb6cd93034d), [799fc94](https://github.com/google/adk-python/commit/799fc9459eb9443a63db11a179d6422b7e1dc1c0)) * `BaseEnvironment.read_file_stream` streams files in chunks across `LocalEnvironment`, `E2BEnvironment`, and `DaytonaEnvironment` so `ReadFileTool` reads line ranges without loading the whole file into memory. See the [unit guide](https://github.com/google/adk-python/blob/main/docs/guides/environment/base_environment/index.md) for more details. ([fd8d8c1](https://github.com/google/adk-python/commit/fd8d8c1e054a1e40abd564f3cfbd6a074e1d975a)) * `AgentEngineEnvironment` reads and writes large files in chunks and reports commands over 570 seconds as timed out before the service deadline. See the [unit guide](https://github.com/google/adk-python/blob/main/docs/guides/integrations/vmaas/agent_engine_environment/index.md) and [sample](https://github.com/googl…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "2f3067bca316",
+   "score": 6.32,
+   "title_zh": "",
+   "summary_zh": "Google ADK Python v2.14.0 发布，执行环境等模块转为稳定，新增微软 Teams 和 OpenAI Decisions 集成。",
+   "tags": [
+    "工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "voyager-so/vork",
+   "url": "https://github.com/voyager-so/vork",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Headless 3D and VFX engine for agents. Research preview.",
+   "heat": 0.828,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 852.0
+   },
+   "extra": {
+    "language": "Rust",
+    "age_days": 2,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "9b0ee1d5d27d",
+   "score": 6.26,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "FusionCow/Sulphur-3",
+   "url": "https://huggingface.co/FusionCow/Sulphur-3",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "",
+   "heat": 0.728,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 404.0,
+    "downloads": 997.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/FusionCow/Sulphur-3"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "89c7c5795b2c",
+   "score": 6.14,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+   "url": "https://arxiv.org/abs/2611.05376",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-03T18:59:52Z",
+   "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era of Physical AI holds a second kind of equal importance, the person augmented by AI. Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person. Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, private, low-friction, and proactive companion that senses what the person senses through external devices, keeps their context across years, models their situation and their mind, takes part in their thinking at the right moment, carries out everyday tasks with their context, and keeps learning the person as both change. We give the paradigm a conceptual core, the cognitive gap between what a person could bring to a situation and what they can hold in working memory, and organize its design space a…",
+   "heat": 0.761,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 76.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "56d170ca3377",
+   "score": 7.47,
+   "title_zh": "从自主智能体到认知共生体：迈向AI增强人类智能",
+   "summary_zh": "针对机器无法融入个人情境的问题，论文提出认知共生体概念，旨在构建一种终身、嵌入式、实时且主动的AI伴侣。该方法通过外部设备感知用户状态并保持长期上下文，最终实现增强人类智能的目标。",
+   "tags": [
+    "智能体",
+    "人机交互",
+    "认知增强"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "ProQuant: Progressive Quantization-aware Training for Edge MLLMs",
+   "url": "https://arxiv.org/abs/2611.08216",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-05T16:04:31Z",
+   "summary": "Multi-modal large language models (MLLMs) with impressive perception and understanding capabilities will enable a range of downstream applications. However, their substantial computational and memory requirements hinder the real-world implementation, particularly for resource-constrained edge devices. Quantization has emerged as an effective solution for deploying large models. While post-training quantization (PTQ) successfully retains the performance at moderate bit-width (e.g., W8A8), it suffers from severe performance degradation under low-bit quantization (e.g., W4A8), especially for small-scale models that are more suitable for edge deployment. In this paper, we propose ProQuant, a novel weight-activation quantization-aware training (QAT) framework tailored for low-bit MLLMs. First, to align the limited finetuning dataset distribution with the pretrained dataset distribution, we propose a self-relabeling (SRL) scheme to resample the responses of the open-source multimodal dataset. Second, we are the first to take a decoupled view of multi-modal (MM) understanding and language modeling abilities. We propose a progressive block activation (PBA) mechanism to prioritize the MM understanding recovery. We also introduce a vision-sensitive factor $\\vecτ$ that effectively identifies the MM-critical layers. Extensive experiments across various benchmarks, covering models with 2B-8B parameters, show that ProQuant significantly outperforms existing methods. For example, our W4A8…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5714268723b6",
+   "score": 6.12,
+   "title_zh": "ProQuant：面向边缘多模态大模型的渐进式量化感知训练",
+   "summary_zh": "针对低比特量化导致边缘多模态大模型性能下降的问题，论文提出ProQuant框架。该方法通过自标签重采样和优先恢复多模态理解的渐进式块激活机制，显著提升了模型在低比特量化下的表现。",
+   "tags": [
+    "量化",
+    "边缘计算",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving",
+   "url": "https://arxiv.org/abs/2611.07542",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-05T06:50:05Z",
+   "summary": "In large language model (LLM) serving systems, the key-value (KV) cache grows linearly with sequence length and concurrency, so long-context inference easily hits the high-bandwidth memory (HBM) capacity wall and results in low concurrency. Offloading the KV cache to host dynamic random-access memory (DRAM) frees HBM space and raises concurrency, but the additional cache management and host-to-device (H2D) load overhead inflates inference latency, higher concurrency fails to translate into effective throughput. We present FlashOffloading, a host-DRAM-centric inference architecture that fully offloads the KV cache in both the prefill and decode phases. FlashOffloading builds rolling HBM cache for prefill, a hot cache for decode, a reverse sparse index with zero extra miss-lookup overhead, and a compute--load overlapped kernel, optimizing KV offloading latency across the entire pipeline and delivering throughput gains under a time-per-output-token (TPOT) service-level objective (SLO). In experiments deploying GLM-5.2 with multi-token prediction (MTP3) speculative decoding on an Ascend910C prefill--decode (PD)-disaggregated platform, FlashOffloading improves prefill throughput by up to 1.38\\(\\times\\) and decode throughput by up to 1.91\\(\\times\\) under a 30 ms TPOT constraint. FlashOffloading is integrated into an open-source serving framework: https://github.com/vllm-project/vllm-ascend/tree/releases/v0.30.0.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a688395a20f1",
+   "score": 6.08,
+   "title_zh": "FlashOffloading：长上下文LLM服务中的低延迟KV缓存卸载",
+   "summary_zh": "针对长上下文推理中显存容量不足导致并发受限的问题，论文提出FlashOffloading架构。该方法通过在预填充和解码阶段完全卸载KV缓存，并优化缓存管理和计算负载重叠，显著提升了推理吞吐量。",
+   "tags": [
+    "推理加速",
+    "长上下文",
+    "缓存管理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The Gating Mechanism of KV Cache Eviction",
+   "url": "https://arxiv.org/abs/2611.07605",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-05T07:53:37Z",
+   "summary": "KV cache eviction must decide which entries carry information that the rest of the cache can no longer supply. A natural way to estimate this is a learnable gate: give each cached entry a gate on its attention weight and train the gate on the model's own objective. The gate belongs inside the normalizing softmax, where suppressing one entry hands its mass to the others rather than discarding it. That same normalizer absorbs any per-query constant, so a constant gate cancels and reproduces the frozen model exactly. Trained on the language-modeling loss the gate stays near a constant score while its loss falls throughout: optimization succeeds, but a frozen backbone was fit for dense attention, so its loss prefers the no-op, and a near-constant score ranks nothing. The no-op is not a floor the gate improves from but what its objective asks for. A second obstacle survives once the gate moves, since the same gradient charges the gate for errors the frozen model already makes, which no reweighting of positions separates out. Much of the machinery in learnable eviction, from sparsity penalties to relaxations of the discrete decision, works around the first obstacle rather than removing it; both are removed by putting dense attention beyond the gate's reach and making the dense model's predictions its target. Under these two conditions capacity is never the missing ingredient: neither a larger scorer, nor explicit access to the past, nor a trainable backbone helps. The same holds f…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5da57fae6cea",
+   "score": 6.08,
+   "title_zh": "KV缓存驱逐的门控机制研究",
+   "summary_zh": "针对KV缓存驱逐中门控机制难以有效训练的问题，论文分析了现有方法的局限性。研究指出，通过将密集注意力置于门控之外并使密集模型的预测成为目标，可以解决容量不足的问题，从而优化缓存驱逐策略。",
+   "tags": [
+    "推理加速",
+    "缓存管理",
+    "注意力机制"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference",
+   "url": "https://arxiv.org/abs/2611.07256",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-05T00:14:13Z",
+   "summary": "Sparsity and quantization reduce the cost of attention by skipping interactions and lowering the precision of those retained. However, useful interactions differ in their precision requirements: some tolerate low-precision scores while remaining sensitive to removal. We therefore introduce TriAttention, which assigns query-key (QK) tiles to skipping, 4-bit, or 8-bit computation, using 4-bit to retain quantization-tolerant interactions at lower cost. To represent compactly, we encode each head's computation regions with two diagonal-distance boundaries, keeping policy storage independent of context length. Offline calibration then evaluates candidate boundary pairs using normalized projected-output errors and complete-tile execution costs. Using these measurements, a model-wide allocator selects each head's boundaries to minimize calibration error under a shared computation budget. During prefill, the selected boundaries generate precision-grouped traversals for a fused kernel that skips omitted tiles and combines contributions from both QK precisions into one normalized attention output. The quantized keys and values prepared during prefill are then reused in a compressed key-value (KV) cache for decoding, reducing repeated reads of prompt data. Experiments show that TriAttention achieves end-to-end generation speedups of up to 7.88x over the Torch attention and 2.65x over the BF16 baseline. Meanwhile, TriAttention maintains quality comparable to the original models on gener…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0e581d2941bd",
+   "score": 6.05,
+   "title_zh": "TriAttention：长上下文LLM推理中的统一稀疏混合精度注意力",
+   "summary_zh": "针对注意力计算中精度需求差异的问题，论文提出TriAttention方法。该方法通过将查询-键块分配给跳过、4位或8位计算，并使用离线校准优化精度分组遍历，实现了端到端生成速度的显著提升。",
+   "tags": [
+    "推理加速",
+    "长上下文",
+    "混合精度"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-08",
+  "start": "2026-11-08",
+  "end": "2026-11-08",
+  "title": "认知共生体：迈向AI增强人类智能",
+  "generated_at": "2026-11-07T22:45:03Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-07",
+   "end": "2026-11-07"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 5 次",
+    "when": "11月7日",
+    "date": "2026-11-07",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 3 个、合并 1 个，提交 5 次，新增代码 662 行、删除 44 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "kernel_translation_review_skill 合并 1 个 PR",
+    "when": "11月7日",
+    "date": "2026-11-07",
+    "body": "Linux内核SIG的 kernel_translation_review_skill 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 5 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/kernel_translation_review_skill",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "hustsync.rs 提交 3 次",
+    "when": "11月7日",
+    "date": "2026-11-07",
+    "body": "镜像站运维 SIG的 hustsync.rs 仓库提交 3 次、新增代码 657 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hustsync.rs",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿，支持用户自定义训练。",
+    "url": "https://zhidx.com/p/608120.html",
+    "via": "智东西",
+    "id": "6fbf2e17a6b0",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM 迁移至 LibTorch Stable ABI",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。",
+    "url": "https://vllm.ai/blog/2026-11-06-stable-abi-cuda",
+    "via": "vLLM 博客",
+    "id": "9ab583ca40ca",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Xorbits inference 发布 v4.2.0 版本",
+    "when": "11月7日",
+    "date": "2026-11-07",
+    "body": "Xorbits inference 发布 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。",
+    "url": "https://github.com/xorbitsai/inference/releases/tag/v4.2.0",
+    "via": "GitHub 版本发布",
+    "id": "c7d8032891dd",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "rea-video：逆向分析视频制作方式",
+    "when": "11月8日消息",
+    "date": "2026-11-08",
+    "body": "rea-video项目逐镜拆解视频，分析拍摄、AI生成或编码方式，并给出复刻方案。",
+    "url": "https://github.com/JuneYaooo/rea-video",
+    "via": "GitHub 新项目",
+    "id": "f9c541cb1520",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "voicebox：开源AI语音工作室",
+    "when": "11月8日消息",
+    "date": "2026-11-08",
+    "body": "voicebox是一个开源的AI语音工作室，支持克隆、语音转文字和语音创作。",
+    "url": "https://github.com/jamiepine/voicebox",
+    "via": "GitHub Trending",
+    "id": "0f287919d0a9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "openai-cookbook：OpenAI API使用指南",
+    "when": "11月8日消息",
+    "date": "2026-11-08",
+    "body": "openai-cookbook提供了使用OpenAI API的示例和指南。",
+    "url": "https://github.com/openai/openai-cookbook",
+    "via": "GitHub Trending",
+    "id": "9147dc10a29c",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "ProQuant：边缘多模态大模型量化训练",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "ProQuant提出渐进式量化感知训练框架，通过自标签重采样提升边缘多模态大模型在低比特量化下的表现。",
+    "url": "https://arxiv.org/abs/2611.08216",
+    "via": "arXiv · 高效推理",
+    "id": "5714268723b6",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "认知共生体：迈向AI增强人类智能",
+    "when": "11月8日消息",
+    "date": "2026-11-08",
+    "body": "论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，以增强人类智能。",
+    "url": "https://arxiv.org/abs/2611.05376",
+    "via": "arXiv · 智能体",
+    "id": "56d170ca3377",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Anthropic 研究发现 AI 审计员误报率随搜索深度增加",
+    "when": "11月8日",
+    "date": "2026-11-08",
+    "body": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher…",
+    "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+    "via": "The Decoder",
+    "id": "1870d161215e",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "FlashOffloading：长上下文LLM低延迟KV缓存卸载",
+    "when": "11月8日消息",
+    "date": "2026-11-08",
+    "body": "FlashOffloading架构通过完全卸载KV缓存并优化管理，显著提升了长上下文LLM服务的推理吞吐量。",
+    "url": "https://arxiv.org/abs/2611.07542",
+    "via": "arXiv · 长上下文与检索",
+    "id": "a688395a20f1",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "OpenAI 与 Hacktron 合作测试与第三方服务的连接，旨在加强前沿 AI 的防御能力。",
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "via": "OpenAI",
+    "id": "c91345e607c9",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "GitHub 推出代号 Rubicon 的新 Git 存储架构",
+    "when": "11月7日",
+    "date": "2026-11-07",
+    "body": "GitHub 推出代号 Rubicon 的新架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。",
+    "url": "https://www.ithome.com/1/023/823.htm",
+    "via": "IT之家",
+    "id": "3b4566e5809b",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "AICon 北京探讨工业 OT 场景下大模型落地",
+    "when": "11月7日",
+    "date": "2026-11-07",
+    "body": "AICon 北京大会强调工程能力是 Agent 规模化落地的关键，指出通用大模型在工业现场存在幻觉与失控问题。",
+    "url": "https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article",
+    "via": "InfoQ 中文",
+    "id": "1c4daa18f891",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "96532b834190": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "98b79c27830e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "045810455db1": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "1870d161215e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Anthropic 研究发现 AI 审计员误报率随搜索深度增加",
+    "body": ""
+   },
+   "3491fc701144": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "c91345e607c9": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+    "body": "OpenAI 与 Hacktron 合作测试与第三方服务的连接，旨在加强前沿 AI 的防御能力。"
+   },
+   "3b4566e5809b": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "GitHub 推出代号 Rubicon 的新 Git 存储架构",
+    "body": "GitHub 推出代号 Rubicon 的新架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。"
+   },
+   "6fbf2e17a6b0": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": "Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿，支持用户自定义训练。"
+   },
+   "1c4daa18f891": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "AICon 北京探讨工业 OT 场景下大模型落地",
+    "body": "AICon 北京大会强调工程能力是 Agent 规模化落地的关键，指出通用大模型在工业现场存在幻觉与失控问题。"
+   },
+   "a2a54c48289f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "Cloudflare 推出由 AI 驱动的 TypeScript 编译器 Rust 移植版 tsrs，类型检查速度最高提升 8 倍，内存降低约 70%。"
+   },
+   "c7d8032891dd": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Xorbits inference 发布 v4.2.0 版本",
+    "body": "Xorbits inference 发布 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。"
+   },
+   "9ab583ca40ca": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 迁移至 LibTorch Stable ABI",
+    "body": "vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。"
+   },
+   "f9c541cb1520": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "rea-video：逆向分析视频制作方式",
+    "body": "rea-video项目逐镜拆解视频，分析拍摄、AI生成或编码方式，并给出复刻方案。"
+   },
+   "0f287919d0a9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "voicebox：开源AI语音工作室",
+    "body": "voicebox是一个开源的AI语音工作室，支持克隆、语音转文字和语音创作。"
+   },
+   "9147dc10a29c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai-cookbook：OpenAI API使用指南",
+    "body": "openai-cookbook提供了使用OpenAI API的示例和指南。"
+   },
+   "2f3067bca316": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Google ADK Python 发布 v2.14.0 版本",
+    "body": "Google ADK Python 发布 v2.14.0 版本，执行环境等模块转为稳定，新增微软 Teams 和 OpenAI Decisions 集成。"
+   },
+   "9b0ee1d5d27d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vork：无头3D与VFX引擎",
+    "body": "vork是一个面向智能体的无头3D和VFX引擎，目前处于研究预览阶段。"
+   },
+   "89c7c5795b2c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "56d170ca3377": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "认知共生体：迈向AI增强人类智能",
+    "body": "论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，以增强人类智能。"
+   },
+   "5714268723b6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "ProQuant：边缘多模态大模型量化训练",
+    "body": "ProQuant提出渐进式量化感知训练框架，通过自标签重采样提升边缘多模态大模型在低比特量化下的表现。"
+   },
+   "a688395a20f1": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "FlashOffloading：长上下文LLM低延迟KV缓存卸载",
+    "body": "FlashOffloading架构通过完全卸载KV缓存并优化管理，显著提升了长上下文LLM服务的推理吞吐量。"
+   },
+   "5da57fae6cea": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "KV缓存驱逐门控机制研究",
+    "body": "论文分析了KV缓存驱逐中门控机制的局限性，提出将密集注意力置于门控之外，使密集模型的预测成为目标，从而优化缓存驱逐策略。"
+   },
+   "0e581d2941bd": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "TriAttention：长上下文LLM推理中的统一稀疏混合精度注意力",
+    "body": "论文提出TriAttention方法，通过将查询-键块分配给跳过、4位或8位计算，并使用离线校准优化精度分组遍历，实现了端到端生成速度的显著提升。"
+   }
+  }
+ }
+}

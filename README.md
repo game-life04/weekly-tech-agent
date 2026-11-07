@@ -12,49 +12,61 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.07（周六）
+## 每日快讯 · 11.08（周日）
 
-> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-07-kuaixun.md) · [公众号排版版](daily/2026/2026-11-07-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-07.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-08-kuaixun.md) · [公众号排版版](daily/2026/2026-11-08-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-08.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月7日 周六
-今日 AI 与开源要闻 12 条，3 分钟速读
+【每日科技快讯】11月8日 周日
+今日 AI 与开源要闻 16 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 2 次
-2. AtomGit-Mobile4Android 合并 1 个 PR
-3. AtomGit-mobile4Harmony 1 位贡献者参与
+1. 开放原子开源俱乐部合并 1 个 PR、提交 5 次
+2. kernel_translation_review_skill 合并 1 个 PR
+3. hustsync.rs 提交 3 次
+
+【国内动态】
+4. 前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿
+→ Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿，支持用户自定义训练。
 
 【开源项目】
-4. MCP 协议详解
-→ MCP 协议详解介绍了连接 AI 应用与工具数据的交互式指南。
-5. HerdBuilderEstimate/roblox-studio-mcp
-→ roblox-studio-mcp 是 Roblox Studio 的 Model Context Protocol 服务器。
-6. poki：让 AI 智能体操作真实 iPhone
-→ poki 是让 AI 智能体操作真实 iPhone 的本地 MCP 服务器。
-7. Ripple-65B预览版发布
-→ Ricursive Intelligence发布65B参数的开源模型Ripple-65B Preview，在TerminalBench 2.1上得分最高。
-8. google/skills
-→ google/skills 提供了 Google 产品和技术的 Agent Skills。
+5. vLLM 迁移至 LibTorch Stable ABI
+→ vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。
+6. Xorbits inference 发布 v4.2.0 版本
+→ Xorbits inference 发布 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。
+7. rea-video：逆向分析视频制作方式
+→ rea-video项目逐镜拆解视频，分析拍摄、AI生成或编码方式，并给出复刻方案。
+8. voicebox：开源AI语音工作室
+→ voicebox是一个开源的AI语音工作室，支持克隆、语音转文字和语音创作。
+9. openai-cookbook：OpenAI API使用指南
+→ openai-cookbook提供了使用OpenAI API的示例和指南。
 
 【学术前沿】
-9. OpenAI发布BioBasicsBench基准测试
-→ OpenAI推出BioBasicsBench基准测试，包含100个任务，用于评估AI智能体处理湿实验科学的能力。
-10. Anthropic研究：教AI构建科学模型
-→ Anthropic探讨AI如何改变科学模型的构建与解读方式，回顾了科研历史中的计算机故障影响。
-11. Anthropic研究：智能体记忆的构成
-→ Anthropic介绍Claude如何通过“做梦”来组织记忆并纠正错误，解决AI无法预知未来的困境。
-12. Harness-S：利用兄弟 Harness 进行通用化智能体训练
-→ Harness-S 提出利用兄弟 Harness 池进行通用化智能体训练。
+10. ProQuant：边缘多模态大模型量化训练
+→ ProQuant提出渐进式量化感知训练框架，通过自标签重采样提升边缘多模态大模型在低比特量化下的表现。
+11. 认知共生体：迈向AI增强人类智能
+→ 论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，以增强人类智能。
+12. Anthropic 研究发现 AI 审计员误报率随搜索深度增加
+→ AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher…
+13. FlashOffloading：长上下文LLM低延迟KV缓存卸载
+→ FlashOffloading架构通过完全卸载KV缓存并优化管理，显著提升了长上下文LLM服务的推理吞吐量。
+
+【产业纵横】
+14. OpenAI 与 Hacktron 合作寻找系统漏洞
+→ OpenAI 与 Hacktron 合作测试与第三方服务的连接，旨在加强前沿 AI 的防御能力。
+15. GitHub 推出代号 Rubicon 的新 Git 存储架构
+→ GitHub 推出代号 Rubicon 的新架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。
+16. AICon 北京探讨工业 OT 场景下大模型落地
+→ AICon 北京大会强调工程能力是 Agent 规模化落地的关键，指出通用大模型在工业现场存在幻觉与失控问题。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-07-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-08-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -64,39 +76,51 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 2 次**<br>11月6日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 1 个，提交 2 次，新增代码 558 行、删除 41 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 1 个 PR、提交 5 次**<br>11月7日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 3 个、合并 1 个，提交 5 次，新增代码 662 行、删除 44 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月6日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 556 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+**kernel\_translation\_review\_skill 合并 1 个 PR**<br>11月7日，Linux内核SIG的 kernel\_translation\_review\_skill 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 5 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/kernel_translation_review_skill)）</sub>
 
-**AtomGit-mobile4Harmony 1 位贡献者参与**<br>11月6日，Agent SIG的 AtomGit-mobile4Harmony 仓库，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
+**hustsync.rs 提交 3 次**<br>11月7日，镜像站运维 SIG的 hustsync.rs 仓库提交 3 次、新增代码 657 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hustsync.rs)）</sub>
+
+#### 国内动态
+
+**前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿**<br>11月6日，Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿，支持用户自定义训练。<br><sub>（来源：[智东西](https://zhidx.com/p/608120.html)）</sub>
 
 #### 开源项目
 
-**MCP 协议详解**<br>11月5日，MCP 协议详解介绍了连接 AI 应用与工具数据的交互式指南。<br><sub>（来源：[Hacker News](https://mcp-explained.com/)）</sub>
+**vLLM 迁移至 LibTorch Stable ABI**<br>11月6日，vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-06-stable-abi-cuda)）</sub>
 
-**HerdBuilderEstimate/roblox-studio-mcp**<br>11月7日消息，roblox-studio-mcp 是 Roblox Studio 的 Model Context Protocol 服务器。<br><sub>（来源：[GitHub 新项目](https://github.com/HerdBuilderEstimate/roblox-studio-mcp)）</sub>
+**Xorbits inference 发布 v4.2.0 版本**<br>11月7日，Xorbits inference 发布 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。<br><sub>（来源：[GitHub 版本发布](https://github.com/xorbitsai/inference/releases/tag/v4.2.0)）</sub>
 
-**poki：让 AI 智能体操作真实 iPhone**<br>11月7日消息，poki 是让 AI 智能体操作真实 iPhone 的本地 MCP 服务器。<br><sub>（来源：[GitHub 新项目](https://github.com/JosssphZhou/poki)）</sub>
+**rea-video：逆向分析视频制作方式**<br>11月8日消息，rea-video项目逐镜拆解视频，分析拍摄、AI生成或编码方式，并给出复刻方案。<br><sub>（来源：[GitHub 新项目](https://github.com/JuneYaooo/rea-video)）</sub>
 
-**Ripple-65B预览版发布**<br>11月7日，Ricursive Intelligence发布65B参数的开源模型Ripple-65B Preview，在TerminalBench 2.1上得分最高。<br><sub>（来源：[The Decoder](https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/)）</sub>
+**voicebox：开源AI语音工作室**<br>11月8日消息，voicebox是一个开源的AI语音工作室，支持克隆、语音转文字和语音创作。<br><sub>（来源：[GitHub Trending](https://github.com/jamiepine/voicebox)）</sub>
 
-**google/skills**<br>11月7日消息，google/skills 提供了 Google 产品和技术的 Agent Skills。<br><sub>（来源：[GitHub Trending](https://github.com/google/skills)）</sub>
+**openai-cookbook：OpenAI API使用指南**<br>11月8日消息，openai-cookbook提供了使用OpenAI API的示例和指南。<br><sub>（来源：[GitHub Trending](https://github.com/openai/openai-cookbook)）</sub>
 
 #### 学术前沿
 
-**OpenAI发布BioBasicsBench基准测试**<br>11月6日，OpenAI推出BioBasicsBench基准测试，包含100个任务，用于评估AI智能体处理湿实验科学的能力。<br><sub>（来源：[OpenAI](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)）</sub>
+**ProQuant：边缘多模态大模型量化训练**<br>11月6日，ProQuant提出渐进式量化感知训练框架，通过自标签重采样提升边缘多模态大模型在低比特量化下的表现。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.08216)）</sub>
 
-**Anthropic研究：教AI构建科学模型**<br>11月6日，Anthropic探讨AI如何改变科学模型的构建与解读方式，回顾了科研历史中的计算机故障影响。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)）</sub>
+**认知共生体：迈向AI增强人类智能**<br>11月8日消息，论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，以增强人类智能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.05376)）</sub>
 
-**Anthropic研究：智能体记忆的构成**<br>11月6日，Anthropic介绍Claude如何通过“做梦”来组织记忆并纠正错误，解决AI无法预知未来的困境。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/components-of-agent-memory)）</sub>
+**Anthropic 研究发现 AI 审计员误报率随搜索深度增加**<br>11月8日，AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher…<br><sub>（来源：[The Decoder](https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/)）</sub>
 
-**Harness-S：利用兄弟 Harness 进行通用化智能体训练**<br>11月7日消息，Harness-S 提出利用兄弟 Harness 池进行通用化智能体训练。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.04277)）</sub>
+**FlashOffloading：长上下文LLM低延迟KV缓存卸载**<br>11月8日消息，FlashOffloading架构通过完全卸载KV缓存并优化管理，显著提升了长上下文LLM服务的推理吞吐量。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.07542)）</sub>
+
+#### 产业纵横
+
+**OpenAI 与 Hacktron 合作寻找系统漏洞**<br>11月6日，OpenAI 与 Hacktron 合作测试与第三方服务的连接，旨在加强前沿 AI 的防御能力。<br><sub>（来源：[OpenAI](https://openai.com/index/partnering-with-hacktron)）</sub>
+
+**GitHub 推出代号 Rubicon 的新 Git 存储架构**<br>11月7日，GitHub 推出代号 Rubicon 的新架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。<br><sub>（来源：[IT之家](https://www.ithome.com/1/023/823.htm)）</sub>
+
+**AICon 北京探讨工业 OT 场景下大模型落地**<br>11月7日，AICon 北京大会强调工程能力是 Agent 规模化落地的关键，指出通用大模型在工业现场存在幻觉与失控问题。<br><sub>（来源：[InfoQ 中文](https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月6日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-07 07:43（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月7日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-08 06:45（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 3 期 · 10.26–11.01
 

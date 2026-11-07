@@ -1,0 +1,47 @@
+【每日科技快讯】11月8日 周日
+今日 AI 与开源要闻 16 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 1 个 PR、提交 5 次
+2. kernel_translation_review_skill 合并 1 个 PR
+3. hustsync.rs 提交 3 次
+
+【国内动态】
+4. 前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿
+→ Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿，支持用户自定义训练。
+
+【开源项目】
+5. vLLM 迁移至 LibTorch Stable ABI
+→ vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。
+6. Xorbits inference 发布 v4.2.0 版本
+→ Xorbits inference 发布 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。
+7. rea-video：逆向分析视频制作方式
+→ rea-video项目逐镜拆解视频，分析拍摄、AI生成或编码方式，并给出复刻方案。
+8. voicebox：开源AI语音工作室
+→ voicebox是一个开源的AI语音工作室，支持克隆、语音转文字和语音创作。
+9. openai-cookbook：OpenAI API使用指南
+→ openai-cookbook提供了使用OpenAI API的示例和指南。
+
+【学术前沿】
+10. ProQuant：边缘多模态大模型量化训练
+→ ProQuant提出渐进式量化感知训练框架，通过自标签重采样提升边缘多模态大模型在低比特量化下的表现。
+11. 认知共生体：迈向AI增强人类智能
+→ 论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，以增强人类智能。
+12. Anthropic 研究发现 AI 审计员误报率随搜索深度增加
+→ AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher…
+13. FlashOffloading：长上下文LLM低延迟KV缓存卸载
+→ FlashOffloading架构通过完全卸载KV缓存并优化管理，显著提升了长上下文LLM服务的推理吞吐量。
+
+【产业纵横】
+14. OpenAI 与 Hacktron 合作寻找系统漏洞
+→ OpenAI 与 Hacktron 合作测试与第三方服务的连接，旨在加强前沿 AI 的防御能力。
+15. GitHub 推出代号 Rubicon 的新 Git 存储架构
+→ GitHub 推出代号 Rubicon 的新架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。
+16. AICon 北京探讨工业 OT 场景下大模型落地
+→ AICon 北京大会强调工程能力是 Agent 规模化落地的关键，指出通用大模型在工业现场存在幻觉与失控问题。
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-08-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
