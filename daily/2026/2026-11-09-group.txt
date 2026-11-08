@@ -1,0 +1,36 @@
+【每日科技快讯】11月9日 周一
+今日 AI 与开源要闻 12 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 2 个 PR、提交 0 次
+2. Open-Source-Dashboard 合并 2 个 PR
+3. AtomGit-mobile4Harmony 新增 2 个 PR
+
+【开源项目】
+4. Llama-modchip：在64GB内存上运行DeepSeek模型
+→ Llama-modchip项目允许在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。
+5. QwenLM/qwen-code 发布 v0.27.0 版本
+→ QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。
+6. Qwen/Qwen3.8-27B：图文理解模型
+→ Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。
+7. Concat：开源视频编辑器
+→ Concat 是一个真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。
+8. billion-context：上下文压缩插件
+→ billion-context 是一个上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。
+
+【学术前沿】
+9. 斯坦福CS146S课程引发AI时代工程教育思考
+→ 斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。
+10. D3D：异步推测解码的解耦扩散草稿
+→ D3D 提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，实现长前缀接受。
+11. LoopVQ：循环Transformer的亚1比特KV缓存量化
+→ LoopVQ 针对循环 Transformer 的 KV 缓存提出了一种向量量化方法，在 0.5 比特每元素时优于现有方法。
+12. Confucius4-R2T2：实时转录的稳定前缀流式ASR模型
+→ Confucius4-R2T2通过引入最长稳定前缀概念，将全上下文ASR模型转化为稳定前缀流式模型，确保输出稳定且延迟低。
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+上周快讯（11.02–11.08）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W45.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-09-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

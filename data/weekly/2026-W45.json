@@ -1,0 +1,483 @@
+{
+ "kuaixun": {
+  "kind": "weekly",
+  "week": "2026-W45",
+  "number": 4,
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "title": "OpenAI 构建可扩展的 Git 后端",
+  "generated_at": "2026-11-08T22:52:45Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 47,
+  "club_period": {
+   "start": "2026-11-02",
+   "end": "2026-11-08"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部一周合并 12 个 PR、提交 20 次",
+    "when": "11月2日至8日",
+    "date": "2026-11-08",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 9 个有人参与开发，共新增 PR 39 个、合并 12 个，提交 20 次，新增代码 3958 行、删除 450 行，11 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 一周合并 3 个 PR",
+    "when": "11月2日至8日",
+    "date": "2026-11-08",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 4 个、合并 3 个、提交 3 次、新增代码 2036 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "Open-Source-Dashboard 一周合并 2 个 PR",
+    "when": "11月2日至8日",
+    "date": "2026-11-08",
+    "body": "数字基础设施维护 SIG的 Open-Source-Dashboard 仓库合并 2 个，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/Open-Source-Dashboard",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 一周合并 1 个 PR",
+    "when": "11月2日至8日",
+    "date": "2026-11-08",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 2 个、合并 1 个、提交 7 次、新增代码 1252 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "policy",
+    "headline": "何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "据中国政府网消息：何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展。",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085139.htm",
+    "via": "中国政府网",
+    "id": "4873b47dbc96",
+    "ai": false
+   },
+   {
+    "cat": "domestic",
+    "headline": "美团发布 LongCat-2.5 多模态模型",
+    "when": "11月2日",
+    "date": "2026-11-02",
+    "body": "美团 LongCat 团队发布 LongCat-2.5 模型，参数量 1.6 万亿，强化原生视觉理解与智能体编程能力。",
+    "url": "https://zhidx.com/p/606379.html",
+    "via": "智东西",
+    "id": "ee9f19832345",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "我国AI推理数据量首超训练数据量，日均词元调用量超 175 万亿",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "赛迪研究院报告显示，我国AI推理数据量首次超过训练数据量，日均词元调用量超 175 万亿。",
+    "url": "https://www.ithome.com/1/020/809.htm",
+    "via": "IT之家",
+    "id": "0143e488c1f2",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "Kimi K3.1 Pro 模型权重发布",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "图文理解模型，许可证 other。",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "via": "Hacker News",
+    "id": "398ce84e273f",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "百度开源文心5.5 Flash Base",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。",
+    "url": "https://www.qbitai.com/2026/11/507787.html",
+    "via": "量子位",
+    "id": "4c0ed9ef0d8e",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，支持用户自定义训练，参数量达 5940 亿。",
+    "url": "https://zhidx.com/p/608120.html",
+    "via": "智东西",
+    "id": "6fbf2e17a6b0",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送",
+    "when": "11月7日",
+    "date": "2026-11-07",
+    "body": "新架构支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送，目前处于小范围内测阶段。",
+    "url": "https://www.ithome.com/1/023/823.htm",
+    "via": "IT之家",
+    "id": "3b4566e5809b",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 构建可扩展的 Git 后端",
+    "when": "11月2日",
+    "date": "2026-11-02",
+    "body": "OpenAI 为 Codex 开发了兼容 Git 的后端 Pando，以应对大规模开发需求。",
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "via": "OpenAI",
+    "id": "006ec733ab4a",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 推出 Grid Protectors 计划",
+    "when": "11月2日",
+    "date": "2026-11-02",
+    "body": "OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。",
+    "url": "https://openai.com/index/grid-protectors-program",
+    "via": "OpenAI",
+    "id": "d26c078b06e6",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Astra 读写权重改进 Qwen 的文章具有误导性",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "该文章声称 Astra 能改进 Qwen，但实验使用的技术完全不同，结论不可信。",
+    "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+    "via": "Hacker News",
+    "id": "d799a9ad6b1e",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 自动修复 Linux 内核漏洞",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "OpenAI 构建了自主管道，发现并验证了 948 个本地权限提升漏洞。",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "via": "OpenAI",
+    "id": "d094672a404e",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 推出 GPT‑6 Cyber 模型",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "via": "OpenAI",
+    "id": "087e88edf97a",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 发布 BioBasicsBench 基准",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "OpenAI 发布 BioBasicsBench 基准，用于评估 AI 代理处理日常湿实验科学的能力。",
+    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "via": "OpenAI",
+    "id": "18f7bd5e51c4",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vercel-labs/agent-desktop",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "Computer use CLI for AI agents。",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "via": "GitHub Trending",
+    "id": "885299c2ed98",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "NVIDIA/auto-ontology",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "Auto Ontology 是一个用于构建语义图推理层的 Python 框架。",
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "via": "GitHub Trending",
+    "id": "4a023c67da02",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "JustVugg/colibri",
+    "when": "11月4日消息",
+    "date": "2026-11-04",
+    "body": "Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。",
+    "url": "https://github.com/JustVugg/colibri",
+    "via": "GitHub Trending",
+    "id": "2a0662c2ca2c",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "KKKKhazix/agent-autoloop",
+    "when": "11月6日消息",
+    "date": "2026-11-06",
+    "body": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "url": "https://github.com/KKKKhazix/agent-autoloop",
+    "via": "GitHub 新项目",
+    "id": "877d4e629548",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "LLM 可读写神经网络权重",
+    "when": "11月3日",
+    "date": "2026-11-03",
+    "body": "新论文发现前沿模型能直接读写神经网络的原始权重，实现“权重空间编程”。",
+    "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+    "via": "Latent Space",
+    "id": "efc48dcf11c2",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "LLM 可读写神经网络权重",
+    "when": "11月4日",
+    "date": "2026-11-04",
+    "body": "新论文发现前沿模型能直接读写神经网络的原始权重，实现“权重空间编程”。",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "via": "Simon Willison",
+    "id": "fdf1822c9e67",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Hy-Nomas：迈向自由形式交互式世界生成",
+    "when": "11月4日消息",
+    "date": "2026-11-04",
+    "body": "为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。",
+    "url": "https://arxiv.org/abs/2610.36729",
+    "via": "Hugging Face 热门论文",
+    "id": "d350ced903bf",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "四大 AI 公司推行 AI 数据抓取退出标准",
+    "when": "11月2日消息",
+    "date": "2026-11-02",
+    "body": "OpenAI、谷歌、微软和 Anthropic 联手推行新标准，允许网站通过 robots.txt 统一声明拒绝 AI 抓取。",
+    "url": "https://www.ithome.com/1/020/837.htm",
+    "via": "IT之家",
+    "id": "1335d9d33f0d",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "ICAPS 2027 论文截稿",
+    "when": "12月15日",
+    "date": "2026-12-15",
+    "body": "International Conference on Automated Planning and Scheduling（ICAPS 2027，CCF-B 类，人工智能）论文提交截止时间为北京时间12月15日 19:59，摘要截止时间为12月8日 19:59。会议将于 June 27 - July 2, 2027 在 Columbia, SC, USA 举行。",
+    "url": "https://icaps27.icaps-conference.org/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "006ec733ab4a": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "OpenAI 构建可扩展的 Git 后端",
+    "body": "OpenAI 为 Codex 开发了兼容 Git 的后端 Pando，以应对大规模开发需求。"
+   },
+   "d26c078b06e6": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "OpenAI 推出 Grid Protectors 计划",
+    "body": "OpenAI 将与公用事业公司合作，确保算力中心支持电网可靠性并保护消费者电费。"
+   },
+   "087e88edf97a": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "OpenAI 推出 GPT‑6 Cyber 模型",
+    "body": "OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。"
+   },
+   "fdf1822c9e67": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LLM 可读写神经网络权重",
+    "body": "新论文发现前沿模型能直接读写神经网络的原始权重，实现“权重空间编程”。"
+   },
+   "d094672a404e": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "OpenAI 自动修复 Linux 内核漏洞",
+    "body": "OpenAI 构建了自主管道，发现并验证了 948 个本地权限提升漏洞。"
+   },
+   "18f7bd5e51c4": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "OpenAI 发布 BioBasicsBench 基准",
+    "body": "OpenAI 发布 BioBasicsBench 基准，用于评估 AI 代理处理日常湿实验科学的能力。"
+   },
+   "84da4595d452": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": "Google DeepMind 发布 Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，价格降低30%。"
+   },
+   "0bddb90eefff": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "Anthropic Model 4 超越 Opus5.5",
+    "body": "第三方评估机构 METR 披露，Anthropic Model 4 在综合能力指数 AECI 上超过 Opus5.5。"
+   },
+   "0885eecb21cb": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "Google 发布 2026 年 10 月 AI 更新",
+    "body": "Google 发布了包括 Gemini 4 Argon、Carbon 和 Genie 4 在内的多项 AI 突破。"
+   },
+   "4c0ed9ef0d8e": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "百度开源文心5.5 Flash Base",
+    "body": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。"
+   },
+   "efc48dcf11c2": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LLM 可读写神经网络权重",
+    "body": "新论文发现前沿模型能直接读写神经网络的原始权重，实现“权重空间编程”。"
+   },
+   "ca4b0726ece6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "open-webui 发布 v0.13.0 版本",
+    "body": "open-webui 发布 v0.13.0 版本，新增标签页工作区，支持文件、终端、预览、语音等多种功能集成。"
+   },
+   "40dd8adbe2ab": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "llama.cpp 发布 0.9.0 版本",
+    "body": "llama.cpp 发布 0.9.0 版本，新增 OCP FP8 E4M3 量化支持。"
+   },
+   "11da739f5709": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 提供对 Kimi K3.1 Pro 的 Day-0 支持",
+    "body": "vLLM 提供对 Kimi K3.1 Pro 的 Day-0 支持，支持稀疏注意力与 FP8 量化。"
+   },
+   "6903f7ab599b": {
+    "v": "4f7b2f10",
+    "cat": "",
+    "headline": "百度开源 ERNIE 5.5 Flash Base 模型",
+    "body": "百度开源 ERNIE 5.5 Flash Base 模型，采用 MoE 架构，总参数量 2800 亿。"
+   },
+   "86e722add090": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI、Claude 新旗舰同日曝光",
+    "body": "OpenAI 和 Anthropic 同时亮出下一代底牌。"
+   },
+   "ee9f19832345": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "美团发布 LongCat-2.5 多模态模型",
+    "body": "美团 LongCat 团队发布 LongCat-2.5 模型，参数量 1.6 万亿，强化原生视觉理解与智能体编程能力。"
+   },
+   "14c5839384d0": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面开放 Kimi K3.1 Pro 权重",
+    "body": "月之暗面在 Hugging Face 开放 Kimi K3.1 Pro 权重，登顶 Agent Arena 开源模型榜。"
+   },
+   "556f3d7336b0": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "清华姚期智团队提出代数世界模型",
+    "body": "清华姚期智团队提出代数世界模型，旨在解决 AI 训练数据污染问题。"
+   },
+   "3e0ed19517cb": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "TypeSafe AI 开源 Jev 工具",
+    "body": "TypeSafe AI 开源 Jev 工具，比 Clay 便宜 85%，能帮 Agent 筛选候选人信息。"
+   },
+   "9e4f87ab8e7d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Coding Agent 提升大模型推理性能",
+    "body": "Coding Agent 通过不断读取代码和调用工具，显著提升了大模型的推理性能。"
+   },
+   "8c325def8206": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI 智能体加速科研",
+    "body": "Agent 提升文献筛选和代码编写效率，但论文产出速度加快也加剧了成果鉴别与评审压力。"
+   },
+   "bbf9ac4ed5a3": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "不要让 AI 代表你",
+    "body": "周刊建议不要让 AI 代表自己，因为实验显示 AI 在处理复杂事务时可能引发混乱。"
+   },
+   "1335d9d33f0d": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "四大 AI 公司推行 AI 数据抓取退出标准",
+    "body": "OpenAI、谷歌、微软和 Anthropic 联手推行新标准，允许网站通过 robots.txt 统一声明拒绝 AI 抓取。"
+   }
+  }
+ }
+}

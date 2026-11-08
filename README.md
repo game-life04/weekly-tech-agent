@@ -12,61 +12,50 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.08（周日）
+## 每日快讯 · 11.09（周一）
 
-> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-08-kuaixun.md) · [公众号排版版](daily/2026/2026-11-08-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-08.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-09-kuaixun.md) · [公众号排版版](daily/2026/2026-11-09-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-09.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月8日 周日
-今日 AI 与开源要闻 16 条，3 分钟速读
+【每日科技快讯】11月9日 周一
+今日 AI 与开源要闻 12 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 5 次
-2. kernel_translation_review_skill 合并 1 个 PR
-3. hustsync.rs 提交 3 次
-
-【国内动态】
-4. 前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿
-→ Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿，支持用户自定义训练。
+1. 开放原子开源俱乐部合并 2 个 PR、提交 0 次
+2. Open-Source-Dashboard 合并 2 个 PR
+3. AtomGit-mobile4Harmony 新增 2 个 PR
 
 【开源项目】
-5. vLLM 迁移至 LibTorch Stable ABI
-→ vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。
-6. Xorbits inference 发布 v4.2.0 版本
-→ Xorbits inference 发布 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。
-7. rea-video：逆向分析视频制作方式
-→ rea-video项目逐镜拆解视频，分析拍摄、AI生成或编码方式，并给出复刻方案。
-8. voicebox：开源AI语音工作室
-→ voicebox是一个开源的AI语音工作室，支持克隆、语音转文字和语音创作。
-9. openai-cookbook：OpenAI API使用指南
-→ openai-cookbook提供了使用OpenAI API的示例和指南。
+4. Llama-modchip：在64GB内存上运行DeepSeek模型
+→ Llama-modchip项目允许在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。
+5. QwenLM/qwen-code 发布 v0.27.0 版本
+→ QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。
+6. Qwen/Qwen3.8-27B：图文理解模型
+→ Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。
+7. Concat：开源视频编辑器
+→ Concat 是一个真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。
+8. billion-context：上下文压缩插件
+→ billion-context 是一个上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。
 
 【学术前沿】
-10. ProQuant：边缘多模态大模型量化训练
-→ ProQuant提出渐进式量化感知训练框架，通过自标签重采样提升边缘多模态大模型在低比特量化下的表现。
-11. 认知共生体：迈向AI增强人类智能
-→ 论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，以增强人类智能。
-12. Anthropic 研究发现 AI 审计员误报率随搜索深度增加
-→ AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher…
-13. FlashOffloading：长上下文LLM低延迟KV缓存卸载
-→ FlashOffloading架构通过完全卸载KV缓存并优化管理，显著提升了长上下文LLM服务的推理吞吐量。
-
-【产业纵横】
-14. OpenAI 与 Hacktron 合作寻找系统漏洞
-→ OpenAI 与 Hacktron 合作测试与第三方服务的连接，旨在加强前沿 AI 的防御能力。
-15. GitHub 推出代号 Rubicon 的新 Git 存储架构
-→ GitHub 推出代号 Rubicon 的新架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。
-16. AICon 北京探讨工业 OT 场景下大模型落地
-→ AICon 北京大会强调工程能力是 Agent 规模化落地的关键，指出通用大模型在工业现场存在幻觉与失控问题。
+9. 斯坦福CS146S课程引发AI时代工程教育思考
+→ 斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。
+10. D3D：异步推测解码的解耦扩散草稿
+→ D3D 提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，实现长前缀接受。
+11. LoopVQ：循环Transformer的亚1比特KV缓存量化
+→ LoopVQ 针对循环 Transformer 的 KV 缓存提出了一种向量量化方法，在 0.5 比特每元素时优于现有方法。
+12. Confucius4-R2T2：实时转录的稳定前缀流式ASR模型
+→ Confucius4-R2T2通过引入最长稳定前缀概念，将全上下文ASR模型转化为稳定前缀流式模型，确保输出稳定且延迟低。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-08-kuaixun.md
+上周快讯（11.02–11.08）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W45.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-09-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -76,96 +65,88 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 5 次**<br>11月7日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 3 个、合并 1 个，提交 5 次，新增代码 662 行、删除 44 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 2 个 PR、提交 0 次**<br>11月8日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 6 个、合并 2 个，提交 0 次，新增代码 0 行、删除 0 行，5 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**kernel\_translation\_review\_skill 合并 1 个 PR**<br>11月7日，Linux内核SIG的 kernel\_translation\_review\_skill 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 5 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/kernel_translation_review_skill)）</sub>
+**Open-Source-Dashboard 合并 2 个 PR**<br>11月8日，数字基础设施维护 SIG的 Open-Source-Dashboard 仓库合并 2 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/Open-Source-Dashboard)）</sub>
 
-**hustsync.rs 提交 3 次**<br>11月7日，镜像站运维 SIG的 hustsync.rs 仓库提交 3 次、新增代码 657 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hustsync.rs)）</sub>
-
-#### 国内动态
-
-**前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿**<br>11月6日，Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿，支持用户自定义训练。<br><sub>（来源：[智东西](https://zhidx.com/p/608120.html)）</sub>
+**AtomGit-mobile4Harmony 新增 2 个 PR**<br>11月8日，Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 2 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
 
 #### 开源项目
 
-**vLLM 迁移至 LibTorch Stable ABI**<br>11月6日，vLLM 迁移至 LibTorch Stable ABI，无需重新编译即可兼容 PyTorch 升级。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-06-stable-abi-cuda)）</sub>
+**Llama-modchip：在64GB内存上运行DeepSeek模型**<br>11月8日，Llama-modchip项目允许在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。<br><sub>（来源：[Hacker News](https://github.com/synchopate/llama-modchip)）</sub>
 
-**Xorbits inference 发布 v4.2.0 版本**<br>11月7日，Xorbits inference 发布 v4.2.0 版本，新增 Xavier 前缀缓存共享功能，支持 Mooncake Store 存储。<br><sub>（来源：[GitHub 版本发布](https://github.com/xorbitsai/inference/releases/tag/v4.2.0)）</sub>
+**QwenLM/qwen-code 发布 v0.27.0 版本**<br>11月8日，QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0)）</sub>
 
-**rea-video：逆向分析视频制作方式**<br>11月8日消息，rea-video项目逐镜拆解视频，分析拍摄、AI生成或编码方式，并给出复刻方案。<br><sub>（来源：[GitHub 新项目](https://github.com/JuneYaooo/rea-video)）</sub>
+**Qwen/Qwen3.8-27B：图文理解模型**<br>11月9日消息，Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。<br><sub>（来源：[Hugging Face 热门模型](https://huggingface.co/Qwen/Qwen3.8-27B)）</sub>
 
-**voicebox：开源AI语音工作室**<br>11月8日消息，voicebox是一个开源的AI语音工作室，支持克隆、语音转文字和语音创作。<br><sub>（来源：[GitHub Trending](https://github.com/jamiepine/voicebox)）</sub>
+**Concat：开源视频编辑器**<br>11月9日消息，Concat 是一个真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。<br><sub>（来源：[GitHub Trending](https://github.com/jub0t/Concat)）</sub>
 
-**openai-cookbook：OpenAI API使用指南**<br>11月8日消息，openai-cookbook提供了使用OpenAI API的示例和指南。<br><sub>（来源：[GitHub Trending](https://github.com/openai/openai-cookbook)）</sub>
+**billion-context：上下文压缩插件**<br>11月9日消息，billion-context 是一个上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。<br><sub>（来源：[GitHub Trending](https://github.com/ranxianglei/billion-context)）</sub>
 
 #### 学术前沿
 
-**ProQuant：边缘多模态大模型量化训练**<br>11月6日，ProQuant提出渐进式量化感知训练框架，通过自标签重采样提升边缘多模态大模型在低比特量化下的表现。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.08216)）</sub>
+**斯坦福CS146S课程引发AI时代工程教育思考**<br>11月9日，斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。<br><sub>（来源：[Latent Space](https://latent.space/p/cs146s/)）</sub>
 
-**认知共生体：迈向AI增强人类智能**<br>11月8日消息，论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，以增强人类智能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.05376)）</sub>
+**D3D：异步推测解码的解耦扩散草稿**<br>11月9日消息，D3D 提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，实现长前缀接受。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.06425)）</sub>
 
-**Anthropic 研究发现 AI 审计员误报率随搜索深度增加**<br>11月8日，AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher…<br><sub>（来源：[The Decoder](https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/)）</sub>
+**LoopVQ：循环Transformer的亚1比特KV缓存量化**<br>11月9日消息，LoopVQ 针对循环 Transformer 的 KV 缓存提出了一种向量量化方法，在 0.5 比特每元素时优于现有方法。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.05304)）</sub>
 
-**FlashOffloading：长上下文LLM低延迟KV缓存卸载**<br>11月8日消息，FlashOffloading架构通过完全卸载KV缓存并优化管理，显著提升了长上下文LLM服务的推理吞吐量。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.07542)）</sub>
-
-#### 产业纵横
-
-**OpenAI 与 Hacktron 合作寻找系统漏洞**<br>11月6日，OpenAI 与 Hacktron 合作测试与第三方服务的连接，旨在加强前沿 AI 的防御能力。<br><sub>（来源：[OpenAI](https://openai.com/index/partnering-with-hacktron)）</sub>
-
-**GitHub 推出代号 Rubicon 的新 Git 存储架构**<br>11月7日，GitHub 推出代号 Rubicon 的新架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。<br><sub>（来源：[IT之家](https://www.ithome.com/1/023/823.htm)）</sub>
-
-**AICon 北京探讨工业 OT 场景下大模型落地**<br>11月7日，AICon 北京大会强调工程能力是 Agent 规模化落地的关键，指出通用大模型在工业现场存在幻觉与失控问题。<br><sub>（来源：[InfoQ 中文](https://www.infoq.cn/article/K1bCIbHxeu3wLIjdusgr?utm_source=rss&utm_medium=article)）</sub>
+**Confucius4-R2T2：实时转录的稳定前缀流式ASR模型**<br>11月9日消息，Confucius4-R2T2通过引入最长稳定前缀概念，将全上下文ASR模型转化为稳定前缀流式模型，确保输出稳定且延迟低。<br><sub>（来源：[arXiv · 语音](https://arxiv.org/abs/2611.06043)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月7日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-08 06:45（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月8日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-09 06:52（北京时间）自动生成。</sub>
 
-## 每周快讯 第 3 期 · 10.26–11.01
+## 每周快讯 第 4 期 · 11.02–11.08
 
-> 本期头条：Gemini 4 Carbon：下一代前沿模型<br>
-> 上周 AI 与开源要闻 **26** 条，5 分钟速读。<br>
-> [阅读全文](weekly/2026-W44.md) · [公众号排版版](weekly/2026-W44.html) · [往期快讯](weekly/README.md)
+> 本期头条：OpenAI 构建可扩展的 Git 后端<br>
+> 上周 AI 与开源要闻 **28** 条，5 分钟速读。<br>
+> [阅读全文](weekly/2026-W45.md) · [公众号排版版](weekly/2026-W45.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
-✨ [开放原子开源俱乐部一周合并 15 个 PR、提交 45 次](https://osd.openatom.club/)<br>
+✨ [开放原子开源俱乐部一周合并 12 个 PR、提交 20 次](https://osd.openatom.club/)<br>
 ✨ [AtomGit-Mobile4Android 一周合并 3 个 PR](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)<br>
-✨ [hustsync.rs 一周合并 3 个 PR](https://github.com/hust-open-atom-club/hustsync.rs)<br>
-✨ [AtomGit-mobile4Harmony 一周合并 2 个 PR](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)
+✨ [Open-Source-Dashboard 一周合并 2 个 PR](https://github.com/hust-open-atom-club/Open-Source-Dashboard)<br>
+✨ [AtomGit-mobile4Harmony 一周合并 1 个 PR](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)
+
+**政策动向**<br>
+✨ [何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展](https://www.gov.cn/yaowen/liebiao/202611/content_7085139.htm)
 
 **国内动态**<br>
-✨ [DeepSeek开源推理框架DeepInfer](https://www.leiphone.com/category/industrynews/IaMw7vRrTCadlbCY.html)<br>
-✨ [影溯想建成具身仿真数采中心](https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html)<br>
-✨ [DeepSeek 开源 Super-agent 架构](https://www.qbitai.com/2026/10/506904.html)<br>
-✨ [阿里千问集成至Apple智能](https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html)
+✨ [美团发布 LongCat-2.5 多模态模型](https://zhidx.com/p/606379.html)<br>
+✨ [我国AI推理数据量首超训练数据量，日均词元调用量超 175 万亿](https://www.ithome.com/1/020/809.htm)<br>
+✨ [Kimi K3.1 Pro 模型权重发布](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)<br>
+✨ [百度开源文心5.5 Flash Base](https://www.qbitai.com/2026/11/507787.html)<br>
+✨ [前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿](https://zhidx.com/p/608120.html)<br>
+✨ [GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送](https://www.ithome.com/1/023/823.htm)
 
 **海外动态**<br>
-✨ [英国设立AI生物安全实验室](https://36kr.com/newsflashes/4040790852719490?f=rss)<br>
-✨ [Google DeepMind 发布 Genie 4 世界模型](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)<br>
-✨ [Gemini 4 Carbon：下一代前沿模型](https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/)<br>
-✨ [Mistral Large 4 权重开源](https://mistral.ai/news/mistral-large-4-oss/)<br>
-✨ [苹果宣布接入阿里千问](http://www.geekpark.net/news/373220)
+✨ [OpenAI 构建可扩展的 Git 后端](https://openai.com/index/scaling-git-at-openai)<br>
+✨ [OpenAI 推出 Grid Protectors 计划](https://openai.com/index/grid-protectors-program)<br>
+✨ [Astra 读写权重改进 Qwen 的文章具有误导性](https://honnibal.dev/blog/astra-read-write-misleading)<br>
+✨ [OpenAI 自动修复 Linux 内核漏洞](https://openai.com/index/a-thousand-fewer-paths-to-root)<br>
+✨ [OpenAI 推出 GPT‑6 Cyber 模型](https://openai.com/index/introducing-gpt-6-cyber)<br>
+✨ [OpenAI 发布 BioBasicsBench 基准](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)
 
 **开源项目**<br>
-✨ [claude-seo：Claude Code 通用 SEO 技能库](https://github.com/AgriciDaniel/claude-seo)<br>
-✨ [cindy：开源开箱即用的 AI Agent](https://github.com/makecindy/cindy)<br>
-✨ [huggingface/transformers 发布 v5.22.0](https://github.com/huggingface/transformers/releases/tag/v5.22.0)<br>
-✨ [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
+✨ [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)<br>
+✨ [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)<br>
+✨ [JustVugg/colibri](https://github.com/JustVugg/colibri)<br>
+✨ [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop)
 
 **学术前沿**<br>
-✨ [OpenAI 分享 Kakeya 猜想等模型结果](https://openai.com/index/building-scientific-understanding-with-academic-communities)<br>
-✨ [10岁CNN在皮肤癌诊断上超越前沿大模型](https://lynchlab.net/llm-skin-cancer)<br>
-✨ [三体：多模态智能体递归自进化](https://arxiv.org/abs/2610.36077)
+✨ [LLM 可读写神经网络权重](https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/)<br>
+✨ [LLM 可读写神经网络权重](https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/)<br>
+✨ [Hy-Nomas：迈向自由形式交互式世界生成](https://arxiv.org/abs/2610.36729)
 
 **产业纵横**<br>
-✨ [OpenAI 和 Anthropic 大幅降低 LLM 价格](https://minimaxir.com/2026/10/cheap-llms/)<br>
-✨ [Cerebras 部署万亿参数 AI 模型](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras)<br>
-✨ [Momenta 集成世界模型指导芯片设计](https://www.qbitai.com/2026/10/506866.html)
+✨ [四大 AI 公司推行 AI 数据抓取退出标准](https://www.ithome.com/1/020/837.htm)
 
 **活动预告**<br>
-✨ [RECOMB 2027 论文截稿](https://recomb.org/recomb2027/)<br>
 ✨ [CVPR 2027 论文截稿](https://cvpr.thecvf.com/Conferences/2027)<br>
+✨ [EuroVis 2027 论文截稿](https://eurovis27.github.io/web/)<br>
 ✨ [ICAPS 2027 论文截稿](https://icaps27.icaps-conference.org/)
 
 <!-- wta:latest:end -->

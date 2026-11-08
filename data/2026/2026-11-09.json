@@ -1,0 +1,1464 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-08T22:52:45Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 418,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 40,
+   "error": "",
+   "seconds": 9.3
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 332,
+   "error": "",
+   "seconds": 21.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 18.7
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 28,
+   "error": "",
+   "seconds": 21.1
+  }
+ ],
+ "items": [
+  {
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-08T10:22:04Z",
+   "summary": "🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore.",
+   "heat": 0.932,
+   "weight": 0.6,
+   "metrics": {
+    "points": 328.0,
+    "comments": 129.0,
+    "stars": 459.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50411961",
+    "language": "Python",
+    "age_days": 10,
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "7b0caeadc3d9",
+   "score": 8.65,
+   "title_zh": "",
+   "summary_zh": "在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。",
+   "tags": [
+    "模型发布",
+    "推理加速",
+    "开源工具"
+   ],
+   "also_in": [
+    "GitHub 新项目"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI raises $11B at a $1.25T valuation",
+   "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-08T14:49:23Z",
+   "summary": "",
+   "heat": 0.834,
+   "weight": 0.6,
+   "metrics": {
+    "points": 177.0,
+    "comments": 196.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50413822",
+    "excerpt_tried": true,
+    "evidence": "OpenAI got its money, but not on the terms it wanted, and the gap between its growth story and investor appetite is landing on two giants. One faces a bookkeeping hit, the other a deeper dependency on the funding flow. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. About $11 billion in new money reached OpenAI’s accounts by Friday, November 6, 2026, people familiar with the deal said. That cash is the first part of a round priced at a $1.25 trillion pre-money valuation, a figure the company’s CFO, Sarah Friar, confirmed in a TV interview. OpenAI declined to comment on the funding. Press reports said OpenAI first set out to raise $30 billion or more at a $1.4 trillion valuation. Two investors pu…",
+    "llm_done": true
+   },
+   "id": "5c69a499a8ee",
+   "score": 7.75,
+   "title_zh": "OpenAI 融资 110 亿美元，估值 1.25 万亿美元",
+   "summary_zh": "OpenAI 获得约 110 亿美元新资金，估值达 1.25 万亿美元。",
+   "tags": [
+    "行业动态",
+    "融资"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How I Fight AI Brain Fry",
+   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-08T19:37:42Z",
+   "summary": "",
+   "heat": 0.762,
+   "weight": 0.6,
+   "metrics": {
+    "points": 113.0,
+    "comments": 101.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50416363",
+    "excerpt_tried": true,
+    "evidence": "If you work with Claude Code or Codex from the terminal, you know this one. You start a task. The AI takes time to reply, so you start another one. Then the first one replies, but the reply needs one clarification, one follow up and one side task — and each of them wants its own tab. Then the second tab's reply comes in. You juggle. And all of a sudden you find yourself hopping between 20 threads, trying to keep all those contexts in your brain RAM. Until you can't. Your brain gets exhausted, your focus smashes, and you don't know anymore what you were doing, where you started, and where you were supposed to finish. A lot of people are suggesting taking breaks, thinking before typing, limiting scope. I have my own experiment. I decided this way of working has two major problems: sequencin…",
+    "llm_done": true
+   },
+   "id": "52d8fafff6cb",
+   "score": 7.52,
+   "title_zh": "如何对抗 AI 导致的大脑疲劳",
+   "summary_zh": "在终端使用 AI 时，多任务处理会导致上下文管理混乱，引发大脑疲劳。",
+   "tags": [
+    "智能体",
+    "工作流"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Agent memory needs its OpenTelemetry moment",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-08T08:40:23Z",
+   "summary": "",
+   "heat": 0.816,
+   "weight": 0.6,
+   "metrics": {
+    "points": 159.0,
+    "comments": 102.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50411467",
+    "excerpt_tried": true,
+    "evidence": "Every agent tool stores memory in its own shape, and every week someone builds another one. None of them can read the others. Observability had the same problem until OpenTelemetry gave everyone one data model to share. A tour of today's memory formats, the proposals that already exist, and what a shared spec could look like. List every place your coding tools keep something they \"remember\". A typical setup today: That's four different shapes, and none of them can read the others . A lesson your CI agent learns stays in whatever wrote it. Your editor agent can't read it, and neither can the next tool you try. Each format is reasonable on its own. Together, they rebuild the same small idea again and again: a note an agent left for its future self, stored at some address, true for a while.…",
+    "llm_done": true
+   },
+   "id": "f9954052438a",
+   "score": 7.51,
+   "title_zh": "智能体记忆需要它的 OpenTelemetry 时刻",
+   "summary_zh": "不同智能体工具存储记忆的格式互不兼容，需要统一的数据模型规范。",
+   "tags": [
+    "智能体",
+    "工具",
+    "标准化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+   "url": "https://latent.space/p/cs146s/",
+   "source": "rss",
+   "section": "news",
+   "via": "Latent Space",
+   "published": "2026-11-08T21:41:44Z",
+   "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "449d85db82e3",
+   "score": 7.35,
+   "title_zh": "斯坦福如何培养AI原生工程人才",
+   "summary_zh": "斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。",
+   "tags": [
+    "行业动态",
+    "教育",
+    "AI原生"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+   "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-08T14:23:00Z",
+   "summary": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "38d62341d7b1",
+   "score": 7.11,
+   "title_zh": "Andrej Karpathy用Claude构建视频平台",
+   "summary_zh": "Andrej Karpathy利用Claude Opus 5.5筛选4300万条Hacker News评论，构建出比YouTube推荐更好的视频平台。",
+   "tags": [
+    "工具",
+    "视频平台",
+    "推荐系统"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude终于学会做梦了！Dreaming机制让金鱼脑进化成最强大脑",
+   "url": "https://aiera.com.cn/2026/11/08/other/admin/122890/claude%e7%bb%88%e4%ba%8e%e5%ad%a6%e4%bc%9a%e5%81%9a%e6%a2%a6%e4%ba%86%ef%bc%81dreaming%e6%9c%ba%e5%88%b6%e8%ae%a9%e9%87%91%e9%b1%bc%e8%84%91%e8%bf%9b%e5%8c%96%e6%88%90%e6%9c%80%e5%bc%ba%e5%a4%a7/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-08T00:06:53Z",
+   "summary": "就在刚刚，Anthropic发布了一篇博客——Claude学会了做梦！ 利用下线后的闲置算力，Claude学会在虚拟的「梦境」中，疯狂回放白天的交互日志。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "cbc9b8f96a62",
+   "score": 6.54,
+   "title_zh": "Claude学会做梦，金鱼脑进化成最强大脑",
+   "summary_zh": "Anthropic发布博客称Claude利用闲置算力在虚拟梦境中回放交互日志。",
+   "tags": [
+    "模型发布",
+    "Claude",
+    "Dreaming机制"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "终端侧AI：从单点应用走向智能体体验",
+   "url": "https://www.qbitai.com/2026/11/508478.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-08T11:05:23Z",
+   "summary": "高通在第九届进博会展出端侧MoE智能体",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "excerpt_tried": true,
+    "evidence": "高通在第九届进博会展出端侧MoE智能体 从应用来看，终端侧AI并不是从大模型开始的。影像其实是AI较早在终端落地的领域之一。近年来手机拍照效果不断提升，背后就有终端侧AI技术的推动。如今，终端侧AI已经进一步拓展到简单问答、聊天、图像生成与处理，以及文本处理、语音转录、实时翻译等多模态应用，其中不少功能在端侧落地的条件已经比较成熟。 不过，目前很多端侧AI应用仍然偏向单点功能。例如自动语音识别（ASR）、文本摘要、图片处理、简单聊天机器人等，大多解决的是一个具体任务。如果未来希望终端能够进一步完成意图理解、任务编排、实时操作目标App等系统级、规划类任务，就需要更强的端侧模型能力。 高通并不强调端侧的唯一性，而是强调端云协同或者“计算连续体”，其中一个重要思路是“端侧优先”（on-device first）。 传统依赖云端的AI服务，每一次推理都需要消耗云端Token、GPU以及云端调度资源，同时依赖网络连接。如果将合适的AI能力部署到端侧，则可以减少对网络的依赖，提供更加及时和稳定的响应，同时发挥终端在安全、隐私和个性化方面的优势。 如果用一个比较直观的比喻来理解：云端更像一个“通用知识库”，端侧则拥有更多属于用户个人的“专业化知识”。 端侧可以结合用户是谁、在哪里、过去做过什么，以及当前所处的环境，对用户接下来可能需要的服务作出判断，这也是“主动式AI服务”的基础。 因此，端侧并不是孤立的体系。云端可以承接需要更强智能和计算能力的任务，端侧则能够发挥实时、稳定、隐私以及个性化等优势，二者相互协同。 MoE全称为Mixture of Experts，即混合专家模型。理解MoE，可以先把它和传统Dense模型进行比较。 以一个30亿参数的Dense模型为例，每完成一次推理，30亿参数都需要运行一遍，才能得到最终输出。 MoE的工作方式有所不同。它将模型中的参数划分为多个不…",
+    "llm_done": true
+   },
+   "id": "12d02321de75",
+   "score": 6.03,
+   "title_zh": "终端侧AI：从单点应用走向智能体体验",
+   "summary_zh": "高通展出端侧MoE智能体，强调端云协同，推动终端侧AI从单点功能向系统级任务发展。",
+   "tags": [
+    "硬件",
+    "端侧AI",
+    "智能体"
+   ],
+   "also_in": [
+    "雷峰网"
+   ],
+   "merged_ids": [
+    "7ba1b55f3053"
+   ]
+  },
+  {
+   "title": "主人睡了！凌晨4点Claude停下机械臂，嫌颜色不对自己兑了一个",
+   "url": "https://aiera.com.cn/2026/11/08/other/admin/122903/%e4%b8%bb%e4%ba%ba%e7%9d%a1%e4%ba%86%ef%bc%81%e5%87%8c%e6%99%a84%e7%82%b9claude%e5%81%9c%e4%b8%8b%e6%9c%ba%e6%a2%b0%e8%87%82%ef%bc%8c%e5%ab%8c%e9%a2%9c%e8%89%b2%e4%b8%8d%e5%af%b9%e8%87%aa%e5%b7%b1/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-08T00:08:04Z",
+   "summary": "主人睡了，Claude却在凌晨4点，给自己调起了颜料。 11月6日深夜，柏林。开发者nil（@dhvanil）睡前给家里的Claude留了一句话：「画一棵秋天的树。」",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "174348f75ba4",
+   "score": 5.94,
+   "title_zh": "主人睡了！凌晨4点Claude停下机械臂，嫌颜色不对自己兑了一个",
+   "summary_zh": "开发者nil睡前让Claude画一棵秋天的树，Claude在凌晨4点自行调配颜料。",
+   "tags": [
+    "智能体",
+    "Claude",
+    "自动化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Agent 越用越多，企业为何仍不够 AI Native？",
+   "url": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+   "source": "rss",
+   "section": "news",
+   "via": "InfoQ 中文",
+   "published": "2026-11-08T16:08:00Z",
+   "summary": "",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "excerpt_tried": true,
+    "evidence": "工具解决局部，瓶颈落在价值 AI 生码率飙升，端到端交付却没有变快；通用 Agent 提效办公生产力，整体业务效能却未同步提升。当企业把 AI 工具推向业务流程，“局部更快、整体不快”的现象值得审视。阿里云智能集团副总裁、CIO 蒋林泉复盘了三年 AI 实践，从问题中找到了答案，也对 AI Native 有了清晰的认识。 围绕 AI Native 的，还有一长串概念——AI 生码率、Token Maxxing、编程智能体、通用智能体、一人公司、10 倍效率、全自动编程、数字员工、Agentic Workflow。 一个词用多了，似乎就容易“腐败”：含义被稀释，都在说，却谁也说不清。这是蒋林泉对概念泛化的提醒。 他的追问是： Token 用得越多，就越 AI Native 吗？用上了 Vibe Coding，就算 AI Native 的产研组织吗？用上了通用智能体，就是 AI Native 的业务团队吗？ 这些指向同一个问题： 工具的使用量，并不能直接证明组织形态发生了变化。 AI Native 其实是组织层面的问题——什么样的组织，才算得上 AI Native？ 他把对 AI Native 的定义与过去三年的实践放在一起讨论：从 CIO 线自身的产研组织变革，到支撑业务团队，再到把内部能力变成对外交付的产品。 过程中，AI Native 必须同时发生在系统与组织两侧，CIO 与 CPO 的联动也由此成为关键。工具定义能力边界，组织决定这些能力能否进入真实工作、形成有效协作，并最终创造业务价值。 从 2024 年底，蒋林泉的团队已经全员用上 AI 编码工具，那时生码率就很快上到 30% 多。 但是，当时有个现象让他警觉：端到端交付一个需求所消耗的人力，没有变化。后来与业界很多产研团队交流，大家都发现了同样的问题—— AI 生码率和代码量持续增长，真实业务项目的 E2E 耗时…",
+    "llm_done": true
+   },
+   "id": "76b25de0b5f3",
+   "score": 5.93,
+   "title_zh": "Agent越用越多，企业为何仍不够AI Native？",
+   "summary_zh": "阿里云蒋林泉指出工具使用量不能直接证明组织形态变化，AI Native是系统与组织层面的问题。",
+   "tags": [
+    "行业动态",
+    "企业应用",
+    "AI Native"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Qwen/Qwen3.8-27B",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图文理解模型，许可证 apache-2.0",
+   "heat": 0.722,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 19410.0,
+    "downloads": 7668187.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/Qwen/Qwen3.8-27B"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "881dc346bbbc",
+   "score": 7.24,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "QwenLM/qwen-code v0.27.0",
+   "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-07T20:45:25Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## Highlights - Managed-agent sessions can hold multiple child questions at once, answer them in any order, and keep drafts and errors separated per child. ([#16484](https://github.com/QwenLM/qwen-code/pull/16484)) - Web Shell adds a task Q&A heatmap and an Ask for details side task that explains pending Ask User Question options without answering. ([#16037](https://github.com/QwenLM/qwen-code/pull/16037), [#16458](https://github.com/QwenLM/qwen-code/pull/16458)) - GitHub channel editor adds Repository Filter allowlists and blocklists, while bound PR delivery and plain comment delivery become more reliable. ([#16493](https://github.com/QwenLM/qwen-code/pull/16493), [#16502](https://github.com/QwenLM/qwen-code/pull/16502), [#16416](https://github.com/QwenLM/qwen-code/pull/16416)) - Shell tool edits now handle CRLF and Unicode safely in sed substitutions, and cancelled commands report as interrupted while keeping partial output. ([#15701](https://github.com/QwenLM/qwen-code/pull/15701), [#15836](https://github.com/QwenLM/qwen-code/pull/15836)) - Managed-agent runtime is faster and less prone to deadlocks, with safer session rename, snapshot publication, storage admission, and lock handling. ([#16480](https://github.com/QwenLM/qwen-code/pull/16480), [#16478](https://github.com/QwenLM/qwen-code/pull/16478), [#16376](https://github.com/QwenLM/qwen-code/pull/16376), [#16489](https://github.com/QwenLM/qwen-code/pull/16489), [#16447](https://github.com/QwenLM/qwen-code/pull/16447))…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3f4233f9a55f",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。",
+   "tags": [
+    "开源工具",
+    "代码助手",
+    "版本更新"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "jub0t/Concat",
+   "url": "https://github.com/jub0t/Concat",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+   "heat": 0.774,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 491.0,
+    "stars": 15700.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f70f115a64e1",
+   "score": 6.87,
+   "title_zh": "",
+   "summary_zh": "真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。",
+   "tags": [
+    "开源工具",
+    "视频编辑"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+   "heat": 0.766,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 460.0,
+    "stars": 5096.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7f6ba75f7450",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。",
+   "tags": [
+    "开源工具",
+    "上下文压缩"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+   "heat": 0.76,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 439.0,
+    "stars": 77796.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "647b067e74f7",
+   "score": 6.84,
+   "title_zh": "",
+   "summary_zh": "从零开始学习 AI 工程，构建并发布项目。",
+   "tags": [
+    "开源工具",
+    "学习资源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "🔥🔥🔥 拾趣 (Magpie) v0.1.21 发布：解锁图片识别新模式，优化使用体验",
+   "url": "https://www.oschina.net/news/503468",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-08T01:17:24Z",
+   "summary": "拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian、预填日历，结果直接落地。图片、视频与扫描文档中的文字，框选亦可识别——处理在原地完成，无需迁入对话窗口。 Release v0.1.21 更新内容： Added The interface now speaks bot...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "4419906ba41a",
+   "score": 6.83,
+   "title_zh": "",
+   "summary_zh": "拾趣v0.1.21发布，优化图片识别体验，支持跨平台划词翻译、解释和总结。",
+   "tags": [
+    "开源工具",
+    "划词工具",
+    "图片识别"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "herdrdev/herdr",
+   "url": "https://github.com/herdrdev/herdr",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "the runtime your coding agents live on",
+   "heat": 0.74,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 374.0,
+    "stars": 49417.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "938d6c44bdbe",
+   "score": 6.8,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "sarpstar/cinecode",
+   "url": "https://github.com/sarpstar/cinecode",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+   "heat": 0.787,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1571.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 5,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f92711616adf",
+   "score": 6.77,
+   "title_zh": "",
+   "summary_zh": "AI 编码智能体编写脚本，生成包含声音的 MP4 视频。",
+   "tags": [
+    "开源工具",
+    "视频生成"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+   "url": "https://arxiv.org/abs/2611.06425",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-04T12:27:58Z",
+   "summary": "Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introduce D3D, a standalone diffusion drafter that removes this inter-round dependency. D3D combines blockwise denoising with auxiliary autoregressive supervision to achieve long accepted prefixes without target hidden states. This independence lets D3D draft successor blocks during verification in one packed pass, enabling asynchronous speculative decoding. We progressively prune layers according to their effect on acceptance length to reduce the cost of packed drafting. Removing five of 36 layers retains over 99\\% of mean acceptance length across three benchmarks with Qwen3-8B as the target. Across seven benchmarks, D3D averages 5.00$\\times$ and 5.71$\\times$ decoding speedup with Qwen3-8B and Qwen3-32B targets, compared with 4.03$\\times$ and 3.67$\\times$ for DFlash. On GSM8K with Qwen3-32B, speedup reaches 7.48$\\times$. Code is publicly available at https://github.com/fudan-generative-vision/D3D.",
+   "heat": 0.525,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 19.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/fudan-generative-vision/D3D"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "3bd892f28da3",
+   "score": 6.98,
+   "title_zh": "D3D：异步推测解码的解耦扩散草稿",
+   "summary_zh": "D3D提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，在无需目标模型隐藏状态的情况下实现长前缀接受。该方法允许草稿和验证并行进行，从而加速解码。实验表明，D3D在多个基准测试中实现了显著的解码加速。",
+   "tags": [
+    "推理加速",
+    "扩散模型",
+    "推测解码"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+   "url": "https://arxiv.org/abs/2611.05304",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-03T18:16:29Z",
+   "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step still stores its own keys and values, so the key-value (KV) cache grows linearly with the number of loop steps and becomes the main memory bottleneck. We observe that the KV cache of looped models is highly redundant along the loop axis and that the loop steps differ substantially in their sensitivity to quantization. Based on these observations, we propose $\\textbf{LoopVQ}$, a KV cache vector quantization method for looped transformers that codes channels of multiple loop steps jointly, and fine-tunes the codebooks to match the output of the full-precision model. At 0.5 bits per element, LoopVQ outperforms existing KV cache vector quantization methods for standard LLMs on general, long chain-of-thought reasoning, and long-context retrieval tasks with Ouro and Huginn models. Its design is orthogonal to these methods, and combined with TaSQ, it retains much of the BF16 accuracy even at 0.25 bits per element. We also implement LoopVQ in SGLang, where it nearly halves the decode latency at a 32K-token context and raises the peak serving throughput by up to $4.3\\times$ and $6.1\\times$ on the 1.4B and 2.6B Ouro models compared to the BF16 baselin…",
+   "heat": 0.435,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 11.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/mscheong01/LoopVQ"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e551090a77ed",
+   "score": 6.16,
+   "title_zh": "LoopVQ：循环Transformer的亚1比特KV缓存量化",
+   "summary_zh": "LoopVQ针对循环Transformer的KV缓存提出了一种向量量化方法，通过联合编码多个循环步骤的通道并微调码本，在保持精度的同时大幅减少内存占用。该方法在0.5比特每元素时优于现有方法，并显著降低了解码延迟。",
+   "tags": [
+    "量化",
+    "长上下文",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+   "url": "https://arxiv.org/abs/2611.06043",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-11-04T06:46:50Z",
+   "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency. R2T2 is obtained by post-training Qwen3-ASR-1.7B on 1,500 hours of Chinese and English audio while freezing its pre-trained audio encoder and projector. The adaptation is based on the concept of Longest Stable Prefix (LSP), a new notion that we introduce in this work. We prove that LSP is monotone under the prefix order, consistent with the full-audio output, and maximal among labels that equal a whole earlier output. Learning from LSP labels converts a full-context model into a stable-prefix streaming one without any architectural change. Extensive evaluations show that R2T2 brings streaming recognition close to the base model's full-context quality while delivering stable text with low emission lag. Its gains extend beyond the post-training languages, demonstrating a practical path from full-context ASR to stable streaming. We open-source the model weights and code at https://huggingface.co/netease-youdao/Confucius4-R2T2 and https://github.com/netease-youdao/Confucius4-R2T2.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "63c66f140a7c",
+   "score": 5.92,
+   "title_zh": "Confucius4-R2T2：实时转录的稳定前缀流式ASR模型",
+   "summary_zh": "Confucius4-R2T2通过引入最长稳定前缀概念，在冻结预训练音频编码器和投影器的情况下，将全上下文ASR模型转化为稳定前缀流式模型。该模型在保持高精度的同时，确保输出稳定且延迟低，适用于实时转录场景。",
+   "tags": [
+    "语音识别",
+    "流式处理",
+    "实时转录"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+   "url": "https://arxiv.org/abs/2611.06500",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-04T13:32:36Z",
+   "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios. In this work, we challenge the prevailing assumption that agents must consume tool observations as explicit text tokens. To this end, we propose Coca-Cola, a continuous latent context compression model for LLM agents. Coca-Cola compresses tool observations into latent tokens and embeds them into the input embedding space of the agent. We further introduce Action-Preserving Training, which aligns the agent's next-action distributions under full and compressed observations. This trains the compression model to learn action-sufficient latent tokens that retain decision-critical information. Experiments with web-search agents on four QA benchmarks and two model families show that Coca-Cola reduces the agent's token consumption by 70.01%-89.24% and end-to-end runtime by 24.45%-55.97%, while consistently improving task performance. These results suggest that Coca-Cola offers a promising approach for context compression in agents. Our code is available at https://github.com/THU-Agent/Coca-cola.",
+   "heat": 0.341,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 6.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/THU-Agent/Coca-cola"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "2ddd7c1e1da6",
+   "score": 5.42,
+   "title_zh": "工具无需以文本形式说话：智能体的潜在上下文压缩",
+   "summary_zh": "Coca-Cola提出了一种连续潜在上下文压缩模型，将工具输出压缩为潜在令牌并嵌入智能体的输入嵌入空间。通过动作保持训练，该模型在减少令牌消耗和运行时间的同时，显著提升了任务性能。",
+   "tags": [
+    "智能体",
+    "上下文压缩",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+   "url": "https://arxiv.org/abs/2611.06498",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-04T13:32:04Z",
+   "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an attacker who controls the vectors: the hijack rate equals the distribution of angular retrieval margins at the tolerance (the margin law). Margins are small in five corpora and two embedding models, so an idealised tolerance at the level of floating-point noise leaves up to 5.5% of queries exposed (at most 1.2% in any corpus once exact duplicate documents are excluded), and a threshold calibrated from our CPU INT8-FP32 comparison of a small embedding model (at the empirical 0.1% quantile of honest cosines) leaves 98-100% exposed; on a Raspberry Pi 5 running a local language model, such an attack lowers correct answers from 0.75 to 0.39. Integrity audits of compressed vector stores fare no better: on a FAISS product-quantisation index over 57,638 documents, tampered vectors that all pass the audit put the attacker's document first for 25% of targets. Verifying quantisation codes instead, with ambiguity decided by the verifier, a calibrated guard band and canonicalisation, accepted every honest vector in our samples on three platforms and left the publisher no choice. We also show that…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 4.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/securagenai/signed-but-steerable"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "d413b397672e",
+   "score": 5.33,
+   "title_zh": "签名但可控：离线检索增强生成的文本-向量完整性差距",
+   "summary_zh": "研究揭示了离线检索增强生成中签名知识包的文本-向量完整性差距，发现攻击者可通过控制向量在特定容忍度下劫持查询。实验表明，这种差距可能导致高达5.5%的查询暴露，并显著降低正确答案率。",
+   "tags": [
+    "检索增强生成",
+    "安全性",
+    "向量完整性"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-09",
+  "start": "2026-11-09",
+  "end": "2026-11-09",
+  "title": "Llama-modchip：在64GB内存上运行DeepSeek模型",
+  "generated_at": "2026-11-08T22:52:45Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-08",
+   "end": "2026-11-08"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 0 次",
+    "when": "11月8日",
+    "date": "2026-11-08",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 6 个、合并 2 个，提交 0 次，新增代码 0 行、删除 0 行，5 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "Open-Source-Dashboard 合并 2 个 PR",
+    "when": "11月8日",
+    "date": "2026-11-08",
+    "body": "数字基础设施维护 SIG的 Open-Source-Dashboard 仓库合并 2 个，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/Open-Source-Dashboard",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 新增 2 个 PR",
+    "when": "11月8日",
+    "date": "2026-11-08",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 2 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "opensource",
+    "headline": "Llama-modchip：在64GB内存上运行DeepSeek模型",
+    "when": "11月8日",
+    "date": "2026-11-08",
+    "body": "Llama-modchip项目允许在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "via": "Hacker News",
+    "id": "7b0caeadc3d9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "QwenLM/qwen-code 发布 v0.27.0 版本",
+    "when": "11月8日",
+    "date": "2026-11-08",
+    "body": "QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。",
+    "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0",
+    "via": "GitHub 版本发布",
+    "id": "3f4233f9a55f",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Qwen/Qwen3.8-27B：图文理解模型",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "via": "Hugging Face 热门模型",
+    "id": "881dc346bbbc",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Concat：开源视频编辑器",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "Concat 是一个真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。",
+    "url": "https://github.com/jub0t/Concat",
+    "via": "GitHub Trending",
+    "id": "f70f115a64e1",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "billion-context：上下文压缩插件",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "billion-context 是一个上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。",
+    "url": "https://github.com/ranxianglei/billion-context",
+    "via": "GitHub Trending",
+    "id": "7f6ba75f7450",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "斯坦福CS146S课程引发AI时代工程教育思考",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。",
+    "url": "https://latent.space/p/cs146s/",
+    "via": "Latent Space",
+    "id": "449d85db82e3",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "D3D：异步推测解码的解耦扩散草稿",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "D3D 提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，实现长前缀接受。",
+    "url": "https://arxiv.org/abs/2611.06425",
+    "via": "arXiv · 高效推理",
+    "id": "3bd892f28da3",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "LoopVQ：循环Transformer的亚1比特KV缓存量化",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "LoopVQ 针对循环 Transformer 的 KV 缓存提出了一种向量量化方法，在 0.5 比特每元素时优于现有方法。",
+    "url": "https://arxiv.org/abs/2611.05304",
+    "via": "arXiv · 高效推理",
+    "id": "e551090a77ed",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Confucius4-R2T2：实时转录的稳定前缀流式ASR模型",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "Confucius4-R2T2通过引入最长稳定前缀概念，将全上下文ASR模型转化为稳定前缀流式模型，确保输出稳定且延迟低。",
+    "url": "https://arxiv.org/abs/2611.06043",
+    "via": "arXiv · 语音",
+    "id": "63c66f140a7c",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "7b0caeadc3d9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Llama-modchip：在64GB内存上运行DeepSeek模型",
+    "body": "Llama-modchip项目允许在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。"
+   },
+   "5c69a499a8ee": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 融资 110 亿美元",
+    "body": "OpenAI 获得约 110 亿美元新资金，估值达 1.25 万亿美元。"
+   },
+   "52d8fafff6cb": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "如何对抗 AI 导致的大脑疲劳",
+    "body": "文章讨论了在终端使用 AI 时多任务处理导致的上下文管理混乱和大脑疲劳问题。"
+   },
+   "f9954052438a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "智能体记忆需要它的 OpenTelemetry 时刻",
+    "body": "文章探讨了不同智能体工具存储记忆的格式互不兼容，需要统一的数据模型规范。"
+   },
+   "449d85db82e3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "斯坦福CS146S课程引发AI时代工程教育思考",
+    "body": "斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。"
+   },
+   "38d62341d7b1": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Andrej Karpathy用Claude构建视频平台",
+    "body": "Andrej Karpathy利用Claude Opus 5.5筛选4300万条Hacker News评论，构建出比YouTube推荐更好的视频平台。"
+   },
+   "cbc9b8f96a62": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude学会做梦，金鱼脑进化成最强大脑",
+    "body": "Anthropic发布博客称Claude利用闲置算力在虚拟梦境中回放交互日志。"
+   },
+   "12d02321de75": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "终端侧AI：从单点应用走向智能体体验",
+    "body": "高通在第九届进博会展出端侧MoE智能体，强调端云协同，推动终端侧AI从单点功能向系统级任务发展。"
+   },
+   "174348f75ba4": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "主人睡了！凌晨4点Claude停下机械臂，嫌颜色不对自己兑了一个",
+    "body": "开发者nil睡前让Claude画一棵秋天的树，Claude在凌晨4点自行调配颜料。"
+   },
+   "76b25de0b5f3": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Agent越用越多，企业为何仍不够AI Native？",
+    "body": "阿里云蒋林泉指出工具使用量不能直接证明组织形态变化，AI Native是系统与组织层面的问题。"
+   },
+   "881dc346bbbc": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Qwen/Qwen3.8-27B：图文理解模型",
+    "body": "Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。"
+   },
+   "3f4233f9a55f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "QwenLM/qwen-code 发布 v0.27.0 版本",
+    "body": "QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。"
+   },
+   "f70f115a64e1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Concat：开源视频编辑器",
+    "body": "Concat 是一个真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。"
+   },
+   "7f6ba75f7450": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "billion-context：上下文压缩插件",
+    "body": "billion-context 是一个上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。"
+   },
+   "647b067e74f7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "ai-engineering-from-scratch 项目旨在从零开始学习 AI 工程，构建并发布项目。"
+   },
+   "4419906ba41a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "拾趣 (Magpie) 发布 v0.1.21 版本",
+    "body": "拾趣 (Magpie) v0.1.21发布，优化图片识别体验，支持跨平台划词翻译、解释和总结。"
+   },
+   "938d6c44bdbe": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "herdr：编码智能体的运行时",
+    "body": "herdr 是编码智能体运行的 runtime。"
+   },
+   "f92711616adf": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "cinecode：AI 编码智能体生成视频",
+    "body": "cinecode 是一个 AI 编码智能体，用于编写脚本并生成包含声音的 MP4 视频。"
+   },
+   "3bd892f28da3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "D3D：异步推测解码的解耦扩散草稿",
+    "body": "D3D 提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，实现长前缀接受。"
+   },
+   "e551090a77ed": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "LoopVQ 针对循环 Transformer 的 KV 缓存提出了一种向量量化方法，在 0.5 比特每元素时优于现有方法。"
+   },
+   "63c66f140a7c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Confucius4-R2T2：实时转录的稳定前缀流式ASR模型",
+    "body": "Confucius4-R2T2通过引入最长稳定前缀概念，将全上下文ASR模型转化为稳定前缀流式模型，确保输出稳定且延迟低。"
+   },
+   "2ddd7c1e1da6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Coca-Cola提出智能体潜在上下文压缩模型",
+    "body": "Coca-Cola提出连续潜在上下文压缩模型，将工具输出压缩为潜在令牌并嵌入智能体的输入嵌入空间，减少令牌消耗。"
+   },
+   "d413b397672e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "研究揭示离线RAG文本-向量完整性差距",
+    "body": "研究揭示了离线检索增强生成中签名知识包的文本-向量完整性差距，发现攻击者可通过控制向量劫持查询。"
+   }
+  }
+ }
+}
