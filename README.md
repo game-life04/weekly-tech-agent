@@ -102,7 +102,7 @@
 ## 每周快讯 第 4 期 · 11.02–11.08
 
 > 本期头条：OpenAI 构建可扩展的 Git 后端<br>
-> 上周 AI 与开源要闻 **28** 条，5 分钟速读。<br>
+> 上周 AI 与开源要闻 **26** 条，5 分钟速读。<br>
 > [阅读全文](weekly/2026-W45.md) · [公众号排版版](weekly/2026-W45.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
@@ -111,38 +111,34 @@
 ✨ [Open-Source-Dashboard 一周合并 2 个 PR](https://github.com/hust-open-atom-club/Open-Source-Dashboard)<br>
 ✨ [AtomGit-mobile4Harmony 一周合并 1 个 PR](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)
 
-**政策动向**<br>
-✨ [何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展](https://www.gov.cn/yaowen/liebiao/202611/content_7085139.htm)
-
 **国内动态**<br>
 ✨ [美团发布 LongCat-2.5 多模态模型](https://zhidx.com/p/606379.html)<br>
-✨ [我国AI推理数据量首超训练数据量，日均词元调用量超 175 万亿](https://www.ithome.com/1/020/809.htm)<br>
-✨ [Kimi K3.1 Pro 模型权重发布](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)<br>
-✨ [百度开源文心5.5 Flash Base](https://www.qbitai.com/2026/11/507787.html)<br>
-✨ [前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿](https://zhidx.com/p/608120.html)<br>
-✨ [GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送](https://www.ithome.com/1/023/823.htm)
+✨ [赛迪研究院：我国AI推理数据量首超训练数据量](https://www.ithome.com/1/020/809.htm)<br>
+✨ [月之暗面发布Kimi K3.1 Pro模型](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)<br>
+✨ [百度开源文心5.5 Flash Base](https://www.qbitai.com/2026/11/507787.html)
 
 **海外动态**<br>
 ✨ [OpenAI 构建可扩展的 Git 后端](https://openai.com/index/scaling-git-at-openai)<br>
 ✨ [OpenAI 推出 Grid Protectors 计划](https://openai.com/index/grid-protectors-program)<br>
-✨ [Astra 读写权重改进 Qwen 的文章具有误导性](https://honnibal.dev/blog/astra-read-write-misleading)<br>
 ✨ [OpenAI 自动修复 Linux 内核漏洞](https://openai.com/index/a-thousand-fewer-paths-to-root)<br>
 ✨ [OpenAI 推出 GPT‑6 Cyber 模型](https://openai.com/index/introducing-gpt-6-cyber)<br>
-✨ [OpenAI 发布 BioBasicsBench 基准](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)
+✨ [OpenAI 发布 BioBasicsBench 基准](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)<br>
+✨ [Gemini Omni 1.2 Flash：原生15秒视频生成与编辑](https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/)
 
 **开源项目**<br>
-✨ [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)<br>
-✨ [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)<br>
-✨ [JustVugg/colibri](https://github.com/JustVugg/colibri)<br>
-✨ [KKKKhazix/agent-autoloop](https://github.com/KKKKhazix/agent-autoloop)
+✨ [agent-desktop：AI 智能体的计算机使用 CLI](https://github.com/vercel-labs/agent-desktop)<br>
+✨ [auto-ontology：语义图推理层 Python 框架](https://github.com/NVIDIA/auto-ontology)<br>
+✨ [colibri：前沿 MoE 模型的分层推理引擎](https://github.com/JustVugg/colibri)<br>
+✨ [agent-autoloop：命令行 Agent 自动接活工具](https://github.com/KKKKhazix/agent-autoloop)
 
 **学术前沿**<br>
-✨ [LLM 可读写神经网络权重](https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/)<br>
+✨ [Astra：直接读写权重优化 Qwen](https://rikiyat.github.io/blog/weight-space-programming/)<br>
 ✨ [LLM 可读写神经网络权重](https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/)<br>
-✨ [Hy-Nomas：迈向自由形式交互式世界生成](https://arxiv.org/abs/2610.36729)
+✨ [Hy-Nomas：自由形式交互式世界生成](https://arxiv.org/abs/2610.36729)
 
 **产业纵横**<br>
-✨ [四大 AI 公司推行 AI 数据抓取退出标准](https://www.ithome.com/1/020/837.htm)
+✨ [四大 AI 公司推行 AI 数据抓取退出标准](https://www.ithome.com/1/020/837.htm)<br>
+✨ [Images 2.6](https://openai.com/index/introducing-images-2-6/)
 
 **活动预告**<br>
 ✨ [CVPR 2027 论文截稿](https://cvpr.thecvf.com/Conferences/2027)<br>

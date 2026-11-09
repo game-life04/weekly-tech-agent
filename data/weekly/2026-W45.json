@@ -6,13 +6,13 @@
   "start": "2026-11-02",
   "end": "2026-11-08",
   "title": "OpenAI 构建可扩展的 Git 后端",
-  "generated_at": "2026-11-08T22:52:45Z",
+  "generated_at": "2026-11-09T01:15:11Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 47,
+  "tries": 2,
+  "pending": 3,
   "club_period": {
    "start": "2026-11-02",
    "end": "2026-11-08"
@@ -75,17 +75,6 @@
     "via": "GitHub"
    },
    {
-    "cat": "policy",
-    "headline": "何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展",
-    "when": "11月5日",
-    "date": "2026-11-05",
-    "body": "据中国政府网消息：何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展。",
-    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085139.htm",
-    "via": "中国政府网",
-    "id": "4873b47dbc96",
-    "ai": false
-   },
-   {
     "cat": "domestic",
     "headline": "美团发布 LongCat-2.5 多模态模型",
     "when": "11月2日",
@@ -98,10 +87,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "我国AI推理数据量首超训练数据量，日均词元调用量超 175 万亿",
+    "headline": "赛迪研究院：我国AI推理数据量首超训练数据量",
     "when": "11月2日消息",
     "date": "2026-11-02",
-    "body": "赛迪研究院报告显示，我国AI推理数据量首次超过训练数据量，日均词元调用量超 175 万亿。",
+    "body": "赛迪研究院报告显示，我国人工智能推理数据量首次超过训练数据量，截至 6 月日均词元调用量超 175 万亿。",
     "url": "https://www.ithome.com/1/020/809.htm",
     "via": "IT之家",
     "id": "0143e488c1f2",
@@ -109,10 +98,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "Kimi K3.1 Pro 模型权重发布",
+    "headline": "月之暗面发布Kimi K3.1 Pro模型",
     "when": "11月4日",
     "date": "2026-11-04",
-    "body": "图文理解模型，许可证 other。",
+    "body": "月之暗面发布Kimi K3.1 Pro模型，这是一个包含2.8T参数的开放权重多模态模型。",
     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
     "via": "Hacker News",
     "id": "398ce84e273f",
@@ -127,28 +116,6 @@
     "url": "https://www.qbitai.com/2026/11/507787.html",
     "via": "量子位",
     "id": "4c0ed9ef0d8e",
-    "ai": true
-   },
-   {
-    "cat": "domestic",
-    "headline": "前OpenAI CTO推新模型，让用户自己训AI！创企估值被曝冲刺2600亿",
-    "when": "11月6日",
-    "date": "2026-11-06",
-    "body": "Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，支持用户自定义训练，参数量达 5940 亿。",
-    "url": "https://zhidx.com/p/608120.html",
-    "via": "智东西",
-    "id": "6fbf2e17a6b0",
-    "ai": true
-   },
-   {
-    "cat": "domestic",
-    "headline": "GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送",
-    "when": "11月7日",
-    "date": "2026-11-07",
-    "body": "新架构支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送，目前处于小范围内测阶段。",
-    "url": "https://www.ithome.com/1/023/823.htm",
-    "via": "IT之家",
-    "id": "3b4566e5809b",
     "ai": true
    },
    {
@@ -171,17 +138,6 @@
     "url": "https://openai.com/index/grid-protectors-program",
     "via": "OpenAI",
     "id": "d26c078b06e6",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Astra 读写权重改进 Qwen 的文章具有误导性",
-    "when": "11月3日",
-    "date": "2026-11-03",
-    "body": "该文章声称 Astra 能改进 Qwen，但实验使用的技术完全不同，结论不可信。",
-    "url": "https://honnibal.dev/blog/astra-read-write-misleading",
-    "via": "Hacker News",
-    "id": "d799a9ad6b1e",
     "ai": true
    },
    {
@@ -218,19 +174,30 @@
     "ai": true
    },
    {
-    "cat": "opensource",
-    "headline": "vercel-labs/agent-desktop",
-    "when": "11月3日消息",
-    "date": "2026-11-03",
-    "body": "Computer use CLI for AI agents。",
-    "url": "https://github.com/vercel-labs/agent-desktop",
-    "via": "GitHub Trending",
-    "id": "885299c2ed98",
-    "ai": false
+    "cat": "overseas",
+    "headline": "Gemini Omni 1.2 Flash：原生15秒视频生成与编辑",
+    "when": "11月6日",
+    "date": "2026-11-06",
+    "body": "Google DeepMind 发布 Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，价格降低30%。",
+    "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "via": "Google DeepMind",
+    "id": "84da4595d452",
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "NVIDIA/auto-ontology",
+    "headline": "agent-desktop：AI 智能体的计算机使用 CLI",
+    "when": "11月3日消息",
+    "date": "2026-11-03",
+    "body": "这是一个用于 AI 智能体控制计算机的命令行工具。",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "via": "GitHub Trending",
+    "id": "885299c2ed98",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "auto-ontology：语义图推理层 Python 框架",
     "when": "11月3日",
     "date": "2026-11-03",
     "body": "Auto Ontology 是一个用于构建语义图推理层的 Python 框架。",
@@ -241,7 +208,7 @@
    },
    {
     "cat": "opensource",
-    "headline": "JustVugg/colibri",
+    "headline": "colibri：前沿 MoE 模型的分层推理引擎",
     "when": "11月4日消息",
     "date": "2026-11-04",
     "body": "Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。",
@@ -252,24 +219,24 @@
    },
    {
     "cat": "opensource",
-    "headline": "KKKKhazix/agent-autoloop",
+    "headline": "agent-autoloop：命令行 Agent 自动接活工具",
     "when": "11月6日消息",
     "date": "2026-11-06",
-    "body": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "body": "让你的命令行 Agent 在后台自己接活、自己跟进到底。",
     "url": "https://github.com/KKKKhazix/agent-autoloop",
     "via": "GitHub 新项目",
     "id": "877d4e629548",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "LLM 可读写神经网络权重",
+    "headline": "Astra：直接读写权重优化 Qwen",
     "when": "11月3日",
     "date": "2026-11-03",
-    "body": "新论文发现前沿模型能直接读写神经网络的原始权重，实现“权重空间编程”。",
-    "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
-    "via": "Latent Space",
-    "id": "efc48dcf11c2",
+    "body": "GPT-6 Astra 能直接读取和修改神经网络权重，无需梯度即可优化模型。",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "via": "Hacker News",
+    "id": "cf0ceff712eb",
     "ai": true
    },
    {
@@ -285,10 +252,10 @@
    },
    {
     "cat": "papers",
-    "headline": "Hy-Nomas：迈向自由形式交互式世界生成",
+    "headline": "Hy-Nomas：自由形式交互式世界生成",
     "when": "11月4日消息",
     "date": "2026-11-04",
-    "body": "为了解决交互式世界生成中模型难以在多轮交互中保持历史和动作后果的问题，本文提出了Hy-Nomas视频世界模型。该方法通过结构化视频描述与动作感知因果注意力对齐，并引入视觉语言提示增强器，实现了基于文本指令和连续相机控制的自由形式交互。实验表明，Hy-Nomas在现有世界模型中表现更优。",
+    "body": "Hy-Nomas 是一个 8B 扩散模型的视频世界模型，支持基于文本指令和连续相机控制的自由形式交互。",
     "url": "https://arxiv.org/abs/2610.36729",
     "via": "Hugging Face 热门论文",
     "id": "d350ced903bf",
@@ -303,6 +270,17 @@
     "url": "https://www.ithome.com/1/020/837.htm",
     "via": "IT之家",
     "id": "1335d9d33f0d",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Images 2.6",
+    "when": "11月5日",
+    "date": "2026-11-05",
+    "body": "在 ChatGPT、Codex 和 API 中提供更快的图像生成、GIF 创建和更精确的编辑控制。",
+    "url": "https://openai.com/index/introducing-images-2-6/",
+    "via": "Hacker News",
+    "id": "06128555e5ab",
     "ai": true
    },
    {
@@ -352,6 +330,12 @@
     "headline": "OpenAI 推出 GPT‑6 Cyber 模型",
     "body": "OpenAI 推出 GPT‑6 Cyber 模型，用于发现可利用漏洞并开发修复方案，训练时保持在授权范围内。"
    },
+   "d799a9ad6b1e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
    "fdf1822c9e67": {
     "v": "4f7b2f10",
     "cat": "papers",
@@ -370,11 +354,83 @@
     "headline": "OpenAI 发布 BioBasicsBench 基准",
     "body": "OpenAI 发布 BioBasicsBench 基准，用于评估 AI 代理处理日常湿实验科学的能力。"
    },
+   "cf0ceff712eb": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
    "84da4595d452": {
     "v": "4f7b2f10",
     "cat": "domestic",
     "headline": "",
     "body": "Google DeepMind 发布 Gemini Omni 1.2 Flash，带来原生15秒视频生成与编辑功能，价格降低30%。"
+   },
+   "398ce84e273f": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面发布Kimi K3.1 Pro模型",
+    "body": "月之暗面发布Kimi K3.1 Pro模型，这是一个包含2.8T参数的开放权重多模态模型。"
+   },
+   "05265b6ef515": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "722e5324551a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "c9cdb82c58bd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "400cfa873183": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "2ed0ade1fe0e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "06128555e5ab": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "",
+    "body": ""
+   },
+   "e3ddeda1c9b7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "09c36e890f9c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "d6756f65c5e6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "0dc82cee4c58": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
    },
    "0bddb90eefff": {
     "v": "4f7b2f10",
@@ -382,11 +438,29 @@
     "headline": "Anthropic Model 4 超越 Opus5.5",
     "body": "第三方评估机构 METR 披露，Anthropic Model 4 在综合能力指数 AECI 上超过 Opus5.5。"
    },
+   "2170409ad0fc": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "96532b834190": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
    "0885eecb21cb": {
     "v": "4f7b2f10",
     "cat": "domestic",
     "headline": "Google 发布 2026 年 10 月 AI 更新",
     "body": "Google 发布了包括 Gemini 4 Argon、Carbon 和 Genie 4 在内的多项 AI 突破。"
+   },
+   "74565808bc1a": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "生成式 AI 基础：直观的数学入门",
+    "body": "本书推导了生成模型的核心数学原理，涵盖从 PCA 到扩散模型等主流架构。"
    },
    "4c0ed9ef0d8e": {
     "v": "4f7b2f10",
@@ -394,11 +468,59 @@
     "headline": "百度开源文心5.5 Flash Base",
     "body": "百度开源文心5.5 Flash Base，在知识、推理等多个基准测试中刷新同尺寸模型 SOTA 表现。"
    },
+   "221f22cf99c7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "ca5373b2a2fb": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
    "efc48dcf11c2": {
     "v": "4f7b2f10",
     "cat": "papers",
     "headline": "LLM 可读写神经网络权重",
     "body": "新论文发现前沿模型能直接读写神经网络的原始权重，实现“权重空间编程”。"
+   },
+   "5f69d0c634e0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "885299c2ed98": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agent-desktop：AI 智能体的计算机使用 CLI",
+    "body": "这是一个用于 AI 智能体控制计算机的命令行工具。"
+   },
+   "2a0662c2ca2c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "colibri：前沿 MoE 模型的分层推理引擎",
+    "body": "Colibri 是一个针对前沿 MoE 模型的分层推理引擎，支持 GPU、RAM 和 NVMe。"
+   },
+   "4a023c67da02": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "auto-ontology：语义图推理层 Python 框架",
+    "body": "Auto Ontology 是一个用于构建语义图推理层的 Python 框架。"
+   },
+   "877d4e629548": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agent-autoloop：命令行 Agent 自动接活工具",
+    "body": "让你的命令行 Agent 在后台自己接活、自己跟进到底。"
+   },
+   "3c29011e1d8e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "pixelfx：244 个像素艺术效果代码片段",
+    "body": "包含 244 个像素艺术效果的小代码片段，并提供 Claude Code 技能。"
    },
    "ca4b0726ece6": {
     "v": "4f7b2f10",
@@ -412,17 +534,113 @@
     "headline": "llama.cpp 发布 0.9.0 版本",
     "body": "llama.cpp 发布 0.9.0 版本，新增 OCP FP8 E4M3 量化支持。"
    },
+   "c4c29914b161": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Handy：离线语音转文字应用",
+    "body": "Handy 是一款免费、开源且可扩展的离线语音转文字应用。"
+   },
    "11da739f5709": {
     "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "vLLM 提供对 Kimi K3.1 Pro 的 Day-0 支持",
     "body": "vLLM 提供对 Kimi K3.1 Pro 的 Day-0 支持，支持稀疏注意力与 FP8 量化。"
    },
+   "51be4a286fed": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "scenario-labs/skills：AI 智能体资源获取",
+    "body": "scenario-labs/skills 提供生产就绪的图像、视频、音频和 3D 资产，帮助 AI 智能体获取资源。"
+   },
+   "d4f407fd878d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "garrytan/gstack：Claude Code 配置",
+    "body": "garrytan/gstack 提供包含 23 个工具的 Claude Code 精确配置，服务于 CEO、设计师等角色。"
+   },
+   "e393d6dea6fa": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "patchy631/ai-engineering-hub：AI 教程",
+    "body": "patchy631/ai-engineering-hub 提供关于 LLMs、RAGs 和真实世界 AI 智能体应用的深度教程。"
+   },
    "6903f7ab599b": {
     "v": "4f7b2f10",
     "cat": "",
     "headline": "百度开源 ERNIE 5.5 Flash Base 模型",
     "body": "百度开源 ERNIE 5.5 Flash Base 模型，采用 MoE 架构，总参数量 2800 亿。"
+   },
+   "c93f52228c0b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "HerdBuilderEstimate/roblox-studio-mcp 是 Roblox Studio 的 Model Context Protocol 服务器，连接 AI 助手编辑脚本。"
+   },
+   "79169a75e14d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "JosssphZhou/poki：iPhone 本地 MCP 服务器",
+    "body": "JosssphZhou/poki 是让 AI 智能体操作真实 iPhone 的本地 MCP 服务器。"
+   },
+   "7d9b91592a8f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "anthropics/skills：Agent Skills 仓库",
+    "body": "anthropics/skills 是 Agent Skills 的公共仓库。"
+   },
+   "f167b0f7640f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "cheaper-inference/OmniRoute：统一 AI 网关",
+    "body": "cheaper-inference/OmniRoute 提供统一端点接入 375 个提供商的 1400+ 模型。"
+   },
+   "0c2c5b9a4eb7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "qybaihe/bla：BLA 反编译防御",
+    "body": "qybaihe/bla 可保护二进制文件和 WebAssembly 免受 AI 反编译攻击。"
+   },
+   "e8534d9a3830": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "microsoft/TokenEconomizer：编码代理成本控制",
+    "body": "microsoft/TokenEconomizer 提供基于体验的编码代理黑盒成本控制。"
+   },
+   "ac9699ad1150": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "microsoft/VibeVoice：开源语音 AI",
+    "body": "microsoft/VibeVoice 是开源的前沿语音 AI。"
+   },
+   "d350ced903bf": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Hy-Nomas：自由形式交互式世界生成",
+    "body": "Hy-Nomas 是一个 8B 扩散模型的视频世界模型，支持基于文本指令和连续相机控制的自由形式交互。"
+   },
+   "bbe306731048": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "CUA-Master：扩展计算机使用智能体",
+    "body": "CUA-Master提出嵌套双循环递进改进框架，通过世界-数据-模型飞轮机制实现开放世界语料库的持续整合。"
+   },
+   "56d170ca3377": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "认知共生体：迈向AI增强人类智能",
+    "body": "论文提出认知共生体概念，旨在构建终身、嵌入式且主动的AI伴侣，通过外部设备感知用户状态以增强人类智能。"
+   },
+   "8fed4d5d35b3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "智能体计算机图形学进展综述",
+    "body": "综述分析了大语言模型智能体在图形代码生成和迭代优化方面的能力，讨论了跨任务协调和人机协作界面设计等挑战。"
+   },
+   "a318e9774b7d": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DreamX：视频扩散模型作为通用潜在动作学习器",
+    "body": "DreamX利用预训练视频扩散模型提取紧凑的潜在动作，在LARY-Bench上表现优异，支持跨具身和环境的动作迁移。"
    },
    "86e722add090": {
     "v": "4f7b2f10",
@@ -477,6 +695,30 @@
     "cat": "industry",
     "headline": "四大 AI 公司推行 AI 数据抓取退出标准",
     "body": "OpenAI、谷歌、微软和 Anthropic 联手推行新标准，允许网站通过 robots.txt 统一声明拒绝 AI 抓取。"
+   },
+   "3b4566e5809b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "GitHub 发布 Rubicon 新存储架构",
+    "body": "GitHub 推出代号“Rubicon”的新 Git 存储架构，支持单个仓库容纳 5000 个智能体并发协作，每秒处理 7200 次推送。"
+   },
+   "0143e488c1f2": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "赛迪研究院：我国AI推理数据量首超训练数据量",
+    "body": "赛迪研究院报告显示，我国人工智能推理数据量首次超过训练数据量，截至 6 月日均词元调用量超 175 万亿。"
+   },
+   "6fbf2e17a6b0": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "前 OpenAI CTO 米拉·穆拉蒂创办的 Thinking Machines Lab 发布通用多模态模型 Inkling 2 Small，参数量达 5940 亿。"
+   },
+   "4873b47dbc96": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
    }
   }
  }
