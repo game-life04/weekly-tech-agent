@@ -6,13 +6,13 @@
   "start": "2026-11-02",
   "end": "2026-11-08",
   "title": "OpenAI 构建可扩展的 Git 后端",
-  "generated_at": "2026-11-09T01:15:11Z",
+  "generated_at": "2026-11-09T07:58:03Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 2,
-  "pending": 3,
+  "tries": 3,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-02",
    "end": "2026-11-08"
@@ -641,6 +641,24 @@
     "cat": "papers",
     "headline": "DreamX：视频扩散模型作为通用潜在动作学习器",
     "body": "DreamX利用预训练视频扩散模型提取紧凑的潜在动作，在LARY-Bench上表现优异，支持跨具身和环境的动作迁移。"
+   },
+   "7dc1512049bf": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Apriel Voice 27B 预览：语音、推理与工具使用的开放模型",
+    "body": "Apriel Voice 27B 预览模型基于 Gemma 4 26B-A4B 检查点，统一了语音识别、上下文推理和工具调用能力。"
+   },
+   "1f57a957deeb": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "系统1与系统2协同设计：AGI的关键",
+    "body": "研究提出通过轻量级预测器系统1与系统2协同设计，仅执行高价值交互，显著降低执行计算量。"
+   },
+   "f9784a9ca794": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "FrontierPhysics：端到端物理研究智能体评测",
+    "body": "FrontierPhysics 引入 56 个由物理学家设计的任务，评估智能体在文献综述、实验和论文撰写中的表现。"
    },
    "86e722add090": {
     "v": "4f7b2f10",
