@@ -492,11 +492,12 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50422069",
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "c4681fd6747c",
    "score": 8.73,
-   "title_zh": "",
+   "title_zh": "Opus 5.5 思考模式变了？",
    "summary_zh": "",
    "tags": [],
    "also_in": [],
@@ -547,13 +548,17 @@
     "discussion": "https://news.ycombinator.com/item?id=50431144",
     "llm_score": 8.0,
     "excerpt_tried": true,
-    "evidence": "Analysis of Anthropic's Claude Fable 5.2 (Max, Default Fallback) and comparison to other AI models across key metrics including quality, price, performance (time per Intelligence Index task & time to first answer token), context window & more. Claude Fable 5.2 (Max, Default Fallback) is amongst the leading models in intelligence, but particularly expensive when comparing to other models of similar price. It's also notably slow per task and very verbose. The model supports text and image input, outputs text, and has a 1M tokens context window. Claude Fable 5.2 (Max, Default Fallback) scores 65 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 40). When evaluating the Intelligence Index, it generated 275M tokens, which is very verb…"
+    "evidence": "Analysis of Anthropic's Claude Fable 5.2 (Max, Default Fallback) and comparison to other AI models across key metrics including quality, price, performance (time per Intelligence Index task & time to first answer token), context window & more. Claude Fable 5.2 (Max, Default Fallback) is amongst the leading models in intelligence, but particularly expensive when comparing to other models of similar price. It's also notably slow per task and very verbose. The model supports text and image input, outputs text, and has a 1M tokens context window. Claude Fable 5.2 (Max, Default Fallback) scores 65 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 40). When evaluating the Intelligence Index, it generated 275M tokens, which is very verb…",
+    "llm_done": true
    },
    "id": "5e3c43f8b63b",
    "score": 8.08,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Claude Fable 5.2 评测得分最高",
+   "summary_zh": "Claude Fable 5.2 在 Artificial Analysis 评测中得分 65，是当前最高分。",
+   "tags": [
+    "模型发布",
+    "评测"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -574,13 +579,17 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50415628",
     "excerpt_tried": true,
-    "evidence": "In July, Goldman's tech chief was praising the tools traders built with AI coding agents. New internal guidance hands those agents back to the engineers, weeks before Goldman takes Anthropic public. Goldman Sachs has restricted Anthropic's Claude Code and Microsoft's GitHub to its engineers, cutting off traders and bankers who used the tools to track client flows and build market models. The bank barred its Hong Kong bankers from Claude in April and is now a lead underwriter on Anthropic's IPO. Most traders and bankers at Goldman Sachs can no longer use AI coding tools at work. Internal guidance updated in October restricts Anthropic's Claude Code and Microsoft's GitHub to the bank's engineers, Bloomberg News reported , following a review of productivity and risk concerns. Strats, who wor…"
+    "evidence": "In July, Goldman's tech chief was praising the tools traders built with AI coding agents. New internal guidance hands those agents back to the engineers, weeks before Goldman takes Anthropic public. Goldman Sachs has restricted Anthropic's Claude Code and Microsoft's GitHub to its engineers, cutting off traders and bankers who used the tools to track client flows and build market models. The bank barred its Hong Kong bankers from Claude in April and is now a lead underwriter on Anthropic's IPO. Most traders and bankers at Goldman Sachs can no longer use AI coding tools at work. Internal guidance updated in October restricts Anthropic's Claude Code and Microsoft's GitHub to the bank's engineers, Bloomberg News reported , following a review of productivity and risk concerns. Strats, who wor…",
+    "llm_done": true
    },
    "id": "98a50a037dfe",
    "score": 8.06,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "高盛限制员工使用 Claude Code",
+   "summary_zh": "高盛将 AI 编码工具的使用权限收回给工程师，不再允许交易员和银行家使用。",
+   "tags": [
+    "行业动态",
+    "企业应用"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -601,13 +610,16 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50410107",
     "excerpt_tried": true,
-    "evidence": "I’ve been a longtime Claude Code user, ever since it became available in the Claude Pro subscription plan over a year ago. I remember the first time I used it, feeling giddy as it spat out messy Python code for whatever random weekend project I was working on, all from a single prompt. I’m certain that in a few years we’ll all look back at its release as one of the major drivers of this new era of software development we’re in. Despite this, due to an accumulation of many small frustrations, I’ve finally decided to retire it as my main coding harness and migrate my development setup to use Pi instead. Someone at Anthropic must’ve caught wind… just a day after making my decision, they announced Claude Code would finally start supporting AGENTS.md files in an effort to get me to stay. Unfor…"
+    "evidence": "I’ve been a longtime Claude Code user, ever since it became available in the Claude Pro subscription plan over a year ago. I remember the first time I used it, feeling giddy as it spat out messy Python code for whatever random weekend project I was working on, all from a single prompt. I’m certain that in a few years we’ll all look back at its release as one of the major drivers of this new era of software development we’re in. Despite this, due to an accumulation of many small frustrations, I’ve finally decided to retire it as my main coding harness and migrate my development setup to use Pi instead. Someone at Anthropic must’ve caught wind… just a day after making my decision, they announced Claude Code would finally start supporting AGENTS.md files in an effort to get me to stay. Unfor…",
+    "llm_done": true
    },
    "id": "51524ff18223",
    "score": 7.82,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "用户转向 Pi",
+   "summary_zh": "用户因累积的挫败感，决定放弃 Claude Code 作为主要编码工具，转而使用 Pi。",
+   "tags": [
+    "应用动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -735,13 +747,17 @@
    },
    "extra": {
     "language": "C++",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "3b318862d7ee",
    "score": 7.51,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "MuJoCo 是一个通用的多关节动力学物理模拟器。",
+   "tags": [
+    "开源工具",
+    "仿真"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -761,13 +777,17 @@
    },
    "extra": {
     "language": "Python",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "fce1779d0a0d",
    "score": 7.48,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "LLM 驱动的多市场股票分析系统，支持多源行情、实时新闻和自动推送。",
+   "tags": [
+    "开源工具",
+    "金融"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -787,13 +807,17 @@
    },
    "extra": {
     "language": "TypeScript",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "a7f12d63ee0b",
    "score": 7.32,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Astryx 是一个完全可定制且专为智能体准备的开源设计系统。",
+   "tags": [
+    "开源工具",
+    "设计系统"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -813,13 +837,17 @@
    },
    "extra": {
     "language": "Python",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "13f516783de6",
    "score": 6.9,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。",
+   "tags": [
+    "开源工具",
+    "开发指南"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -839,7 +867,8 @@
    "extra": {
     "language": "Go",
     "age_days": 3,
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "3e20881c0a07",
    "score": 6.89,
@@ -892,13 +921,17 @@
    "extra": {
     "language": "Python",
     "age_days": 1,
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "5ed79a5a4c55",
    "score": 6.74,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Roblox Studio 的 MCP 服务器，连接 AI 助手读取对象树、自动化 Lua 脚本。",
+   "tags": [
+    "开源工具",
+    "游戏开发"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -923,7 +956,8 @@
       "https://hf-mirror.com/ccore/Qwen3.5-4B-3D-Coder"
      ]
     ],
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "51427f889c82",
    "score": 6.06,
@@ -953,13 +987,18 @@
       "https://github.com/GaryStack/Rethinking-Agent-RL"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "c1e7bcf35bdd",
    "score": 6.57,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "多轮强化学习在LLM智能体中的真实提升",
+   "summary_zh": "多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。提出BudgetMix RL方法，通过动态调整训练中的交互预算，在多种执行设置下实现了稳健的性能。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -983,13 +1022,18 @@
       "https://github.com/chip-ai-agent/PCBRouteAgent"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "5fef06aef3c6",
    "score": 6.54,
-   "title_zh": "",
+   "title_zh": "PCBRouteAgent：LLM智能体与PCB布线工程师的距离",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "智能体",
+    "PCB布线",
+    "多模态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1013,13 +1057,18 @@
       "https://github.com/George-Ling3/BestRand"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "a4f95935e39b",
    "score": 6.34,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "随机采样几乎足够？基于BestRand的稳定低成本基准压缩",
+   "summary_zh": "基准压缩通过子集评估减少模型评估成本。研究发现随机采样在高概率下表现良好，但存在不稳定的大误差尾部。提出BestRand方法，在70+基准上验证，相比竞争方法将高误差风险降低50.2%，估计误差降低16.4%，构建成本仅51.3%。",
+   "tags": [
+    "评测",
+    "基准压缩",
+    "模型压缩"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1043,13 +1092,18 @@
       "https://github.com/lowram-model/lowram"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "140dff1489fd",
    "score": 6.13,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "LowRAM：测试时可组合KV缓存压缩的低秩键与摊销值",
+   "summary_zh": "KV缓存内存随上下文长度线性增长。LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在解码步骤中仅重构选定的KV对子集。在4倍压缩下实现5倍峰值解码吞吐量，与量化结合后达到26.9倍压缩。",
+   "tags": [
+    "推理加速",
+    "KV缓存",
+    "模型压缩"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1067,13 +1121,18 @@
     "upvotes": 8.0
    },
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "c77697ef5f12",
    "score": 6.11,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "AutoCompress：自动化硬件引导的模型压缩",
+   "summary_zh": "LLM剪枝需在满足硬件约束的同时保持质量。AutoCompress通过硬件引导的压缩框架，将延迟、吞吐量和内存约束直接纳入可微分架构搜索。在RTX 5070、RTX 5080和H100上，相比Minitron框架平均准确率提升6.57、2.35和0.57个百分点。",
+   "tags": [
+    "模型压缩",
+    "推理加速",
+    "硬件优化"
+   ],
    "also_in": [],
    "merged_ids": []
   }
@@ -1084,13 +1143,13 @@
   "start": "2026-11-10",
   "end": "2026-11-10",
   "title": "Claude Fable 5.2 和 Claude Mythos 5.2 发布",
-  "generated_at": "2026-11-10T02:07:55Z",
+  "generated_at": "2026-11-10T03:52:34Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
-  "pending": 23,
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 5,
   "club_period": {
    "start": "2026-11-09",
    "end": "2026-11-09"
@@ -1145,17 +1204,6 @@
    },
    {
     "cat": "domestic",
-    "headline": "千问办公 2.0 上线团队协作功能",
-    "when": "11月9日",
-    "date": "2026-11-09",
-    "body": "千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。",
-    "url": "https://zhidx.com/p/608469.html",
-    "via": "智东西",
-    "id": "8ab2306cd1dd",
-    "ai": true
-   },
-   {
-    "cat": "domestic",
     "headline": "赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”",
     "when": "11月10日",
     "date": "2026-11-10",
@@ -1170,7 +1218,7 @@
     "headline": "Claude Fable 5.2 和 Claude Mythos 5.2 发布",
     "when": "11月9日",
     "date": "2026-11-09",
-    "body": "Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。",
+    "body": "Anthropic推出Claude Fable 5.2和Claude Mythos 5.2两款新模型，在编程、金融和科学领域表现优异。",
     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
     "via": "Anthropic",
     "id": "4b2ce90b1bbf",
@@ -1178,10 +1226,10 @@
    },
    {
     "cat": "overseas",
-    "headline": "OpenAI 推出 Control Room 管理系统",
+    "headline": "OpenAI推出Control Room管理系统",
     "when": "11月9日",
     "date": "2026-11-09",
-    "body": "OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。",
+    "body": "OpenAI发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。",
     "url": "https://openai.com/index/control-room",
     "via": "OpenAI",
     "id": "5161b66cebe7",
@@ -1189,124 +1237,113 @@
    },
    {
     "cat": "overseas",
-    "headline": "CodeRabbit 使用 OpenAI 模型提升开发效率",
+    "headline": "CodeRabbit利用OpenAI模型提升开发效率",
     "when": "11月9日",
     "date": "2026-11-09",
-    "body": "CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。",
+    "body": "CodeRabbit使用OpenAI模型治理AI生成代码，使团队交付量提升20倍。",
     "url": "https://openai.com/index/coderabbit-codex-daybreak",
     "via": "OpenAI",
     "id": "59b12428eb31",
     "ai": true
    },
    {
-    "cat": "overseas",
-    "headline": "Claude Code 意外泄露 GitHub 上的机密",
-    "when": "11月10日",
+    "cat": "opensource",
+    "headline": "MuJoCo：通用多关节动力学物理模拟器",
+    "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。",
-    "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-    "via": "Ars Technica",
-    "id": "b02731e370f5",
+    "body": "MuJoCo 是一个通用的多关节动力学物理模拟器，用于模拟多关节动力学与接触。",
+    "url": "https://github.com/google-deepmind/mujoco",
+    "via": "GitHub Trending",
+    "id": "3b318862d7ee",
     "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "google-deepmind/mujoco",
+    "headline": "daily_stock_analysis：LLM驱动的多市场股票分析系统",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-    "url": "https://github.com/google-deepmind/mujoco",
-    "via": "GitHub Trending",
-    "id": "3b318862d7ee",
-    "ai": false
-   },
-   {
-    "cat": "opensource",
-    "headline": "ZhuLinsen/daily_stock_analysis",
-    "when": "11月10日消息",
-    "date": "2026-11-10",
-    "body": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source mark…",
+    "body": "LLM驱动的多市场股票分析系统支持多源行情、实时新闻和自动推送，可零成本定时运行。",
     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "via": "GitHub Trending",
     "id": "fce1779d0a0d",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "meta/astryx",
+    "headline": "Astryx：专为智能体准备的开源设计系统",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "An open source design system that's fully customizable and agent ready。",
+    "body": "Astryx 是一个完全可定制且专为智能体准备的开源设计系统。",
     "url": "https://github.com/meta/astryx",
     "via": "GitHub Trending",
     "id": "a7f12d63ee0b",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "anthropics/claude-quickstarts",
+    "headline": "Anthropic Claude 快速入门项目集合",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "A collection of projects designed to help developers quickly get started with building deployable applications using th…",
+    "body": "Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。",
     "url": "https://github.com/anthropics/claude-quickstarts",
     "via": "GitHub Trending",
     "id": "13f516783de6",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "DIYgod/pinky",
+    "headline": "pinky：让AI智能体使用你的手机",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "Let AI agents use your phone, with you in the loop.",
+    "body": "pinky 是一个让 AI 智能体使用你的手机，且你在循环中的开源项目。",
     "url": "https://github.com/DIYgod/pinky",
     "via": "GitHub 新项目",
     "id": "3e20881c0a07",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+    "headline": "多轮强化学习在LLM智能体中的真实提升",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly…",
+    "body": "多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。",
     "url": "https://arxiv.org/abs/2611.06483",
     "via": "arXiv · 智能体",
     "id": "c1e7bcf35bdd",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+    "headline": "PCBRouteAgent：LLM智能体与PCB布线工程师的距离",
     "when": "11月10日消息",
     "date": "2026-11-10",
     "body": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…",
     "url": "https://arxiv.org/abs/2611.08175",
     "via": "arXiv · 智能体",
     "id": "5fef06aef3c6",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+    "headline": "随机采样几乎足够？基于BestRand的稳定低成本基准压缩",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…",
+    "body": "基准压缩通过子集评估减少模型评估成本。研究发现随机采样在高概率下表现良好，但存在不稳定的大误差尾部。提出BestRand方法，在70+基准上验证，相比竞争方法将高误差风险降低50.2%，估计误差降低16.4%，构建成本仅51.3%。",
     "url": "https://arxiv.org/abs/2611.00883",
     "via": "Hugging Face 热门论文",
     "id": "a4f95935e39b",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression…",
+    "headline": "LowRAM：测试时可组合KV缓存压缩的低秩键与摊销值",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…",
+    "body": "KV缓存内存随上下文长度线性增长。LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在解码步骤中仅重构选定的KV对子集。在4倍压缩下实现5倍峰值解码吞吐量，与量化结合后达到26.9倍压缩。",
     "url": "https://arxiv.org/abs/2611.07025",
     "via": "arXiv · 高效推理",
     "id": "140dff1489fd",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "events",
@@ -1318,6 +1355,115 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "4b2ce90b1bbf": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Anthropic推出Claude Fable 5.2和Claude Mythos 5.2两款新模型，在编程、金融和科学领域表现优异。"
+   },
+   "c4681fd6747c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "5161b66cebe7": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI推出Control Room管理系统",
+    "body": "OpenAI发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。"
+   },
+   "5e3c43f8b63b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "98a50a037dfe": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "51524ff18223": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "59b12428eb31": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "CodeRabbit利用OpenAI模型提升开发效率",
+    "body": "CodeRabbit使用OpenAI模型治理AI生成代码，使团队交付量提升20倍。"
+   },
+   "f974c4426bc5": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "b02731e370f5": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude Code意外泄露GitHub机密",
+    "body": "Claude Code的提示导致密码和API密钥等敏感信息被公开。"
+   },
+   "8ab2306cd1dd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "3b318862d7ee": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "MuJoCo：通用多关节动力学物理模拟器",
+    "body": "MuJoCo 是一个通用的多关节动力学物理模拟器，用于模拟多关节动力学与接触。"
+   },
+   "fce1779d0a0d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "daily_stock_analysis：LLM驱动的多市场股票分析系统",
+    "body": "LLM驱动的多市场股票分析系统支持多源行情、实时新闻和自动推送，可零成本定时运行。"
+   },
+   "a7f12d63ee0b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Astryx：专为智能体准备的开源设计系统",
+    "body": "Astryx 是一个完全可定制且专为智能体准备的开源设计系统。"
+   },
+   "13f516783de6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Anthropic Claude 快速入门项目集合",
+    "body": "Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。"
+   },
+   "3e20881c0a07": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "pinky：让AI智能体使用你的手机",
+    "body": "pinky 是一个让 AI 智能体使用你的手机，且你在循环中的开源项目。"
+   },
+   "5ed79a5a4c55": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "roblox-studio-mcp 是一个连接 AI 助手读取对象树、自动化 Lua 脚本的开源 AI 桥接服务器。"
+   },
+   "51427f889c82": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Qwen3.5-4B-3D-Coder：Apache-2.0 许可证",
+    "body": "ccore 发布的 Qwen3.5-4B-3D-Coder 模型采用 Apache-2.0 许可证。"
+   },
+   "c1e7bcf35bdd": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "多轮强化学习在LLM智能体中的真实提升",
+    "body": "多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。"
+   }
+  }
  }
 }

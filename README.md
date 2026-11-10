@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.10（周二）
 
-> 今日 AI 与开源要闻 **18** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-10-kuaixun.md) · [公众号排版版](daily/2026/2026-11-10-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-10.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,7 +22,7 @@
 
 ```text
 【每日科技快讯】11月10日 周二
-今日 AI 与开源要闻 18 条，3 分钟速读
+今日 AI 与开源要闻 16 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 2 个 PR、提交 3 次
@@ -30,42 +30,38 @@
 3. pwn.hust.college 合并 1 个 PR
 
 【国内动态】
-4. 千问办公 2.0 上线团队协作功能
-→ 千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。
-5. 赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”
+4. 赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”
 → Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。
 
 【海外动态】
-6. Claude Fable 5.2 和 Claude Mythos 5.2 发布
-→ Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。
-7. OpenAI 推出 Control Room 管理系统
-→ OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。
-8. CodeRabbit 使用 OpenAI 模型提升开发效率
-→ CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。
-9. Claude Code 意外泄露 GitHub 上的机密
-→ Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。
+5. Claude Fable 5.2 和 Claude Mythos 5.2 发布
+→ Anthropic推出Claude Fable 5.2和Claude Mythos 5.2两款新模型，在编程、金融和科学领域表现优异。
+6. OpenAI推出Control Room管理系统
+→ OpenAI发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。
+7. CodeRabbit利用OpenAI模型提升开发效率
+→ CodeRabbit使用OpenAI模型治理AI生成代码，使团队交付量提升20倍。
 
 【开源项目】
-10. google-deepmind/mujoco
-→ Multi-Joint dynamics with Contact. A general purpose physics simulator.
-11. ZhuLinsen/daily_stock_analysis
-→ LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source mark…
-12. meta/astryx
-→ An open source design system that's fully customizable and agent ready。
-13. anthropics/claude-quickstarts
-→ A collection of projects designed to help developers quickly get started with building deployable applications using th…
-14. DIYgod/pinky
-→ Let AI agents use your phone, with you in the loop.
+8. MuJoCo：通用多关节动力学物理模拟器
+→ MuJoCo 是一个通用的多关节动力学物理模拟器，用于模拟多关节动力学与接触。
+9. daily_stock_analysis：LLM驱动的多市场股票分析系统
+→ LLM驱动的多市场股票分析系统支持多源行情、实时新闻和自动推送，可零成本定时运行。
+10. Astryx：专为智能体准备的开源设计系统
+→ Astryx 是一个完全可定制且专为智能体准备的开源设计系统。
+11. Anthropic Claude 快速入门项目集合
+→ Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。
+12. pinky：让AI智能体使用你的手机
+→ pinky 是一个让 AI 智能体使用你的手机，且你在循环中的开源项目。
 
 【学术前沿】
-15. What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?
-→ While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly…
-16. PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?
+13. 多轮强化学习在LLM智能体中的真实提升
+→ 多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。
+14. PCBRouteAgent：LLM智能体与PCB布线工程师的距离
 → Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…
-17. Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand
-→ Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…
-18. LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression…
-→ Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…
+15. 随机采样几乎足够？基于BestRand的稳定低成本基准压缩
+→ 基准压缩通过子集评估减少模型评估成本。研究发现随机采样在高概率下表现良好，但存在不稳定的大误差尾部。提出BestRand方法，在70+基准上验证，相比竞争方法将高误差风险降低50.2%，估计误差降低16.4%，构建成本仅51.3%。
+16. LowRAM：测试时可组合KV缓存压缩的低秩键与摊销值
+→ KV缓存内存随上下文长度线性增长。LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在解码步骤中仅重构选定的KV对子集。在4倍压缩下实现5倍峰值解码吞吐量，与量化结合后达到26.9倍压缩。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
@@ -88,47 +84,43 @@
 
 #### 国内动态
 
-**千问办公 2.0 上线团队协作功能**<br>11月9日，千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。<br><sub>（来源：[智东西](https://zhidx.com/p/608469.html)）</sub>
-
 **赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”**<br>11月10日，Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。<br><sub>（来源：[智东西](https://zhidx.com/p/608593.html)）</sub>
 
 #### 海外动态
 
-**Claude Fable 5.2 和 Claude Mythos 5.2 发布**<br>11月9日，Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。<br><sub>（来源：[Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)）</sub>
+**Claude Fable 5.2 和 Claude Mythos 5.2 发布**<br>11月9日，Anthropic推出Claude Fable 5.2和Claude Mythos 5.2两款新模型，在编程、金融和科学领域表现优异。<br><sub>（来源：[Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)）</sub>
 
-**OpenAI 推出 Control Room 管理系统**<br>11月9日，OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。<br><sub>（来源：[OpenAI](https://openai.com/index/control-room)）</sub>
+**OpenAI推出Control Room管理系统**<br>11月9日，OpenAI发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。<br><sub>（来源：[OpenAI](https://openai.com/index/control-room)）</sub>
 
-**CodeRabbit 使用 OpenAI 模型提升开发效率**<br>11月9日，CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。<br><sub>（来源：[OpenAI](https://openai.com/index/coderabbit-codex-daybreak)）</sub>
-
-**Claude Code 意外泄露 GitHub 上的机密**<br>11月10日，Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。<br><sub>（来源：[Ars Technica](https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/)）</sub>
+**CodeRabbit利用OpenAI模型提升开发效率**<br>11月9日，CodeRabbit使用OpenAI模型治理AI生成代码，使团队交付量提升20倍。<br><sub>（来源：[OpenAI](https://openai.com/index/coderabbit-codex-daybreak)）</sub>
 
 #### 开源项目
 
-**google-deepmind/mujoco**<br>11月10日消息，Multi-Joint dynamics with Contact. A general purpose physics simulator.<br><sub>（来源：[GitHub Trending](https://github.com/google-deepmind/mujoco)）</sub>
+**MuJoCo：通用多关节动力学物理模拟器**<br>11月10日消息，MuJoCo 是一个通用的多关节动力学物理模拟器，用于模拟多关节动力学与接触。<br><sub>（来源：[GitHub Trending](https://github.com/google-deepmind/mujoco)）</sub>
 
-**ZhuLinsen/daily\_stock\_analysis**<br>11月10日消息，LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source mark…<br><sub>（来源：[GitHub Trending](https://github.com/ZhuLinsen/daily_stock_analysis)）</sub>
+**daily\_stock\_analysis：LLM驱动的多市场股票分析系统**<br>11月10日消息，LLM驱动的多市场股票分析系统支持多源行情、实时新闻和自动推送，可零成本定时运行。<br><sub>（来源：[GitHub Trending](https://github.com/ZhuLinsen/daily_stock_analysis)）</sub>
 
-**meta/astryx**<br>11月10日消息，An open source design system that's fully customizable and agent ready。<br><sub>（来源：[GitHub Trending](https://github.com/meta/astryx)）</sub>
+**Astryx：专为智能体准备的开源设计系统**<br>11月10日消息，Astryx 是一个完全可定制且专为智能体准备的开源设计系统。<br><sub>（来源：[GitHub Trending](https://github.com/meta/astryx)）</sub>
 
-**anthropics/claude-quickstarts**<br>11月10日消息，A collection of projects designed to help developers quickly get started with building deployable applications using th…<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/claude-quickstarts)）</sub>
+**Anthropic Claude 快速入门项目集合**<br>11月10日消息，Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/claude-quickstarts)）</sub>
 
-**DIYgod/pinky**<br>11月10日消息，Let AI agents use your phone, with you in the loop.<br><sub>（来源：[GitHub 新项目](https://github.com/DIYgod/pinky)）</sub>
+**pinky：让AI智能体使用你的手机**<br>11月10日消息，pinky 是一个让 AI 智能体使用你的手机，且你在循环中的开源项目。<br><sub>（来源：[GitHub 新项目](https://github.com/DIYgod/pinky)）</sub>
 
 #### 学术前沿
 
-**What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?**<br>11月10日消息，While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06483)）</sub>
+**多轮强化学习在LLM智能体中的真实提升**<br>11月10日消息，多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06483)）</sub>
 
-**PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?**<br>11月10日消息，Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.08175)）</sub>
+**PCBRouteAgent：LLM智能体与PCB布线工程师的距离**<br>11月10日消息，Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.08175)）</sub>
 
-**Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand**<br>11月10日消息，Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.00883)）</sub>
+**随机采样几乎足够？基于BestRand的稳定低成本基准压缩**<br>11月10日消息，基准压缩通过子集评估减少模型评估成本。研究发现随机采样在高概率下表现良好，但存在不稳定的大误差尾部。提出BestRand方法，在70+基准上验证，相比竞争方法将高误差风险降低50.2%，估计误差降低16.4%，构建成本仅51.3%。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.00883)）</sub>
 
-**LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression…**<br>11月10日消息，Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.07025)）</sub>
+**LowRAM：测试时可组合KV缓存压缩的低秩键与摊销值**<br>11月10日消息，KV缓存内存随上下文长度线性增长。LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在解码步骤中仅重构选定的KV对子集。在4倍压缩下实现5倍峰值解码吞吐量，与量化结合后达到26.9倍压缩。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.07025)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月9日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-10 10:07（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月9日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-10 11:52（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 
