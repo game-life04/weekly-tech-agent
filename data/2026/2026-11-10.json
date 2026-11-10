@@ -1,0 +1,1323 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T02:07:55Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 445,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 53,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.5
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 18.1
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 7.1
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 43,
+   "error": "",
+   "seconds": 9.6
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 328,
+   "error": "",
+   "seconds": 23.7
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 26.1
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 29,
+   "error": "",
+   "seconds": 20.9
+  }
+ ],
+ "items": [
+  {
+   "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic",
+   "published": "2026-11-09T00:00:00Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.9,
+   "metrics": {
+    "points": 957.0,
+    "comments": 584.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50429906",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges. Fable 5.2 sets a new bar in coding, finance, and the sciences. We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges. Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision. During prerelease testing they’ve helped our engineers complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made substantial progress on robotics evaluations, and formalized the proof of Fermat’s Last Theorem in 30 hours—among many other applications we’ll discuss below. Claude Fable and Claude Mythos are the…",
+    "llm_done": true
+   },
+   "id": "4b2ce90b1bbf",
+   "score": 9.03,
+   "title_zh": "Claude Fable 5.2 和 Claude Mythos 5.2 发布",
+   "summary_zh": "Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。",
+   "tags": [
+    "模型发布",
+    "Anthropic",
+    "Claude"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+   "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-09T07:04:25Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 755.0,
+    "comments": 477.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50422069",
+    "llm_score": 9.0
+   },
+   "id": "c4681fd6747c",
+   "score": 8.73,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+   "url": "https://openai.com/index/control-room",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-09T13:00:00Z",
+   "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5161b66cebe7",
+   "score": 8.34,
+   "title_zh": "OpenAI 推出 Control Room 管理系统",
+   "summary_zh": "OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。",
+   "tags": [
+    "OpenAI",
+    "安全",
+    "系统"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+   "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-09T20:04:55Z",
+   "summary": "",
+   "heat": 0.913,
+   "weight": 0.6,
+   "metrics": {
+    "points": 291.0,
+    "comments": 206.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50431144",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Analysis of Anthropic's Claude Fable 5.2 (Max, Default Fallback) and comparison to other AI models across key metrics including quality, price, performance (time per Intelligence Index task & time to first answer token), context window & more. Claude Fable 5.2 (Max, Default Fallback) is amongst the leading models in intelligence, but particularly expensive when comparing to other models of similar price. It's also notably slow per task and very verbose. The model supports text and image input, outputs text, and has a 1M tokens context window. Claude Fable 5.2 (Max, Default Fallback) scores 65 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 40). When evaluating the Intelligence Index, it generated 275M tokens, which is very verb…"
+   },
+   "id": "5e3c43f8b63b",
+   "score": 8.08,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-08T18:16:07Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 883.0,
+    "comments": 473.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50415628",
+    "excerpt_tried": true,
+    "evidence": "In July, Goldman's tech chief was praising the tools traders built with AI coding agents. New internal guidance hands those agents back to the engineers, weeks before Goldman takes Anthropic public. Goldman Sachs has restricted Anthropic's Claude Code and Microsoft's GitHub to its engineers, cutting off traders and bankers who used the tools to track client flows and build market models. The bank barred its Hong Kong bankers from Claude in April and is now a lead underwriter on Anthropic's IPO. Most traders and bankers at Goldman Sachs can no longer use AI coding tools at work. Internal guidance updated in October restricts Anthropic's Claude Code and Microsoft's GitHub to the bank's engineers, Bloomberg News reported , following a review of productivity and risk concerns. Strats, who wor…"
+   },
+   "id": "98a50a037dfe",
+   "score": 8.06,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Goodbye Claude, hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-08T03:11:48Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 805.0,
+    "comments": 485.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50410107",
+    "excerpt_tried": true,
+    "evidence": "I’ve been a longtime Claude Code user, ever since it became available in the Claude Pro subscription plan over a year ago. I remember the first time I used it, feeling giddy as it spat out messy Python code for whatever random weekend project I was working on, all from a single prompt. I’m certain that in a few years we’ll all look back at its release as one of the major drivers of this new era of software development we’re in. Despite this, due to an accumulation of many small frustrations, I’ve finally decided to retire it as my main coding harness and migrate my development setup to use Pi instead. Someone at Anthropic must’ve caught wind… just a day after making my decision, they announced Claude Code would finally start supporting AGENTS.md files in an effort to get me to stay. Unfor…"
+   },
+   "id": "51524ff18223",
+   "score": 7.82,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "CodeRabbit scales agentic software development and ships 20x more",
+   "url": "https://openai.com/index/coderabbit-codex-daybreak",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-09T08:00:00Z",
+   "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "59b12428eb31",
+   "score": 7.7,
+   "title_zh": "CodeRabbit 使用 OpenAI 模型提升开发效率",
+   "summary_zh": "CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。",
+   "tags": [
+    "工具",
+    "开发",
+    "效率"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”",
+   "url": "https://zhidx.com/p/608593.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-10T00:49:37Z",
+   "summary": "智东西 编译 | 程茜 王涵 编辑 | 心缘 迄今地表最强模型来了！？ 智东西11月10日消息，今日，Anthropic全新最强双模型 Claude Fable 5.2、Claude Mythos 5.2 正式登场，基准测试里 几乎碾压Fable 5.1、Opus 5.5、GPT-6 Astra 。 Claude Fable 5.2、Claude Mythos 5.2能干的事真的有点超出想象。Anthropic称，这两个模型在预发布测试中，帮工程师完成了原本无法实现的软件迁移、 从0设计出三台可用的电子设备 、解决了 两个黑洞物理学中的公开问题 ，甚至只用 30小时就完成了费马大定理的形式化证明 。 这俩模型一发布，就冲上Artificial Analysis Intelligence Index v5 排行榜第一 ，得分高达65分，比上一代的Fable 5.1高出16分。 这俩模型今日就能上手。Anthropic宣布，Claude Fable 5.2今日已在亚马逊云服务、谷歌云以及微软Azure平台上线，开发者可以在Claude平台上使用claude-fable-5-2。 本周，符…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "f974c4426bc5",
+   "score": 7.63,
+   "title_zh": "",
+   "summary_zh": "Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。",
+   "tags": [
+    "模型发布",
+    "Anthropic",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude Code is accidentally exposing secrets all over GitHub",
+   "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+   "source": "rss",
+   "section": "news",
+   "via": "Ars Technica",
+   "published": "2026-11-09T17:24:26Z",
+   "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "b02731e370f5",
+   "score": 7.11,
+   "title_zh": "Claude Code 意外泄露 GitHub 上的机密",
+   "summary_zh": "Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。",
+   "tags": [
+    "安全",
+    "Claude",
+    "漏洞"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "实测千问办公2.0：1个Team Agent和团队协作，2小时操盘一场热点营销",
+   "url": "https://zhidx.com/p/608469.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-09T14:46:09Z",
+   "summary": "智东西 作者 | 江宇 编辑 | 漠影 “我画地为牢啊，厉娜！” 最近，一档名为《后会友期》的综艺，几乎把整个互联网变成了大型“厉娜文学”创作现场。 有品牌靠节目里出现的一包鸭舌卖到断货，有品牌推出同款毛毯，还有节目中一闪而过的蛋糕，被网友扒出来后迅速成为热门商品。 一档爆款综艺，硬是带出了一场品牌抢流量的狂欢。 这次，我们决定让AI帮一个茶饮品牌“蹭一蹭流量”。 我们模拟了一家拥有3家门店的茶饮品牌，组建了一支由市场、运营、设计和门店负责人组成的4人团队，准备抓住《后会友期》的热度，在2小时的模拟筹备周期内，完成一场名为“请老朋友喝一杯”的周末营销活动。 过去，这类任务的标准解法是：4个人在群里讨论，一个人负责汇总，再把整理好的背景贴给AI，让AI写方案。AI很强，但它是“一个人的助手”，团队越大，信息中转的成本越高。 这一次，我们把整件事交给了刚发布的 千问办公2.0 。 今天，千问办公迎来上线三个月以来最大的一次升级，推出行业首个支持多人与Agent协作的功能“协作”，将Agent推进到Team Agent时代，同时上线“人机共创”“资料空间”“自动任务”“三端互联”五项核心能…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8ab2306cd1dd",
+   "score": 6.92,
+   "title_zh": "千问办公 2.0 上线团队协作功能",
+   "summary_zh": "千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。",
+   "tags": [
+    "工具",
+    "协作",
+    "千问"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "heat": 0.794,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 574.0,
+    "stars": 16939.0
+   },
+   "extra": {
+    "language": "C++",
+    "llm_score": 8.0
+   },
+   "id": "3b318862d7ee",
+   "score": 7.51,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "heat": 0.778,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 506.0,
+    "stars": 68921.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0
+   },
+   "id": "fce1779d0a0d",
+   "score": 7.48,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "An open source design system that's fully customizable and agent ready",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 3278.0,
+    "stars": 20227.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0
+   },
+   "id": "a7f12d63ee0b",
+   "score": 7.32,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "heat": 0.789,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 551.0,
+    "stars": 20046.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0
+   },
+   "id": "13f516783de6",
+   "score": 6.9,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DIYgod/pinky",
+   "url": "https://github.com/DIYgod/pinky",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Let AI agents use your phone, with you in the loop.",
+   "heat": 0.845,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1449.0
+   },
+   "extra": {
+    "language": "Go",
+    "age_days": 3,
+    "llm_score": 7.0
+   },
+   "id": "3e20881c0a07",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Stripe Built Kai on Deep Agents in 1 Week",
+   "url": "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-09T22:07:04Z",
+   "summary": "Learn how Stripe built Kai, a company-wide AI agent on LangChain, LangGraph, and Deep Agents, reaching 5,000 users in roughly 4 weeks.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3367cdb271d4",
+   "score": 6.87,
+   "title_zh": "",
+   "summary_zh": "Stripe 利用 LangChain、LangGraph 和 Deep Agents 构建了公司级 AI Agent。",
+   "tags": [
+    "开源",
+    "LangChain",
+    "Agent"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nanoutrolley/roblox-studio-mcp",
+   "url": "https://github.com/Nanoutrolley/roblox-studio-mcp",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Model Context Protocol (MCP) server for Roblox Studio. Connect AI assistants (Claude, Cursor, Cline) to read object trees, automate Lua scripting, and run playtests safely. Open-source AI bridge.",
+   "heat": 0.771,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 281.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 1,
+    "llm_score": 7.0
+   },
+   "id": "5ed79a5a4c55",
+   "score": 6.74,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ccore/Qwen3.5-4B-3D-Coder",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "许可证 apache-2.0",
+   "heat": 0.732,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 953.0,
+    "downloads": 289466.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/ccore/Qwen3.5-4B-3D-Coder"
+     ]
+    ],
+    "llm_score": 6.0
+   },
+   "id": "51427f889c82",
+   "score": 6.06,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+   "url": "https://arxiv.org/abs/2611.06483",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-04T13:24:54Z",
+   "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth $K$ and interaction depth $T$ via $Pass@(K,T)$, we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly elevate single-step decision quality; rather, its strength concentrates in error recovery and long-horizon resilience. To mitigate the deployment risks caused by this budget dependence, we provide a preliminary discussion on the benefits and limitations of process supervision signals and introduce BudgetMix RL as an alternative that varies interaction budgets during training. Experiments demonstrate that BudgetMix RL achieves robust performance across diverse execution settings. Project Page: https://rethinking-agentic-rl.github.io/",
+   "heat": 0.646,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 39.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/GaryStack/Rethinking-Agent-RL"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "c1e7bcf35bdd",
+   "score": 6.57,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+   "url": "https://arxiv.org/abs/2611.08175",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-05T15:31:15Z",
+   "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A Global Routing Planner combines board images and structured electrical and geometric information to specify connection topology, routing order, corridors, and layer transitions. A Detailed Routing Executor realizes these guides through KiCad's native routing engine and performs bounded local recovery. Unresolved failures are returned as structured feedback, enabling targeted guide revisions while preserving accepted routes. We evaluate PCBRouteAgent on 247 synthetic and real-world boards from four PCBWorld-Bench test splits. It achieves clean-pass rates of 100%, 94.9%, 100%, and 40% on D2, D3-A, D3-B, and D3-C, respectively. On the three real-world subsets, PCBRouteAgent outperforms the best evaluated baseline in clean-pass rate by 13.9, 36, and 10 percentage points, respectively.",
+   "heat": 0.602,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 30.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/chip-ai-agent/PCBRouteAgent"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "5fef06aef3c6",
+   "score": 6.54,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+   "url": "https://arxiv.org/abs/2611.00883",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-31T00:00:00Z",
+   "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger errors, resulting in a long-tailed distribution. This means random sampling alone can achieve surprisingly strong performance with high probability, but remains unstable due to rare large errors. We further show that this instability is inherent to modern foundation models and persists even as more models are evaluated. Based on these findings, we introduce BestRand, a stable and low-cost benchmark compression method that preserves the efficiency of random sampling while substantially reducing its high-error tail. We validate BestRand on 70+ text, multimodal, and agent benchmarks, and further extend it to VLA evaluation. Compared with competitive methods, BestRand reduces high-error risk by 50.2% and estimation error by 16.4% on average, while requiring only 51.3% of the construction cost. It further reduces OOD estimation error by 21.8% on average across score-range, model-family, and temporal shifts. Together, our theory provides practical guidance for understanding and predicting the accuracy and reliability of benchmark compression, while BestRand enables stable an…",
+   "heat": 0.696,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 52.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/George-Ling3/BestRand"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "a4f95935e39b",
+   "score": 6.34,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+   "url": "https://arxiv.org/abs/2611.07025",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-04T19:00:06Z",
+   "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We exploit this with value cache amortisation, which fits a lightweight per-head predictor at test time and stores residuals only for the tokens it reconstructs worst, giving $4\\times$ near-lossless value compression. The predictor can be initialised by meta-learning for substantially reduced prefill overhead, or fitted from scratch in settings that allow a one-off cost, such as multi-query inference. We pair value amortisation with cross-layer low-rank key compression to produce LowRAM, an asymmetric compression pipeline that stays close to lossless across three model families. By reconstructing only a selected subset of KV pairs at each decoding step, LowRAM can keep decoding overhead minimal and achieve up to $5\\times$ higher peak decode throughput at $4\\times$ compression. LowRAM further composes with quantisation and eviction, reaching $26.9\\times$ compression at $94.5\\%$ of baseline performance on long contexts. These results show that treating keys and values as structurally distinct enables efficient, aggressive, and composable KV cache compression.",
+   "heat": 0.42,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 10.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/lowram-model/lowram"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "140dff1489fd",
+   "score": 6.13,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AutoCompress: Automated Hardware-Guided Model Compression",
+   "url": "https://arxiv.org/abs/2611.08290",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-05T16:53:48Z",
+   "summary": "LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. However, parameter count alone does not predict these metrics, which depend on the model architecture, workload, hardware, and serving engine. We introduce AutoCompress, a hardware-guided compression framework that directly incorporates such constraints into differentiable architecture search. AutoCompress jointly optimizes global and per-layer structure to produce heterogeneous architectures, guided by serving-engine cost models validated against end-to-end latency, throughput, and memory measurements. We evaluate AutoCompress on long-context local coding, batched datacenter serving, and latency-sensitive in-game interaction. Compared to the state-of-the-art Minitron pruning framework, AutoCompress improves average accuracy across eight benchmarks by 6.57, 2.35, and 0.57 percentage points on RTX 5070, RTX 5080, and H100, respectively. AutoCompress also compresses Nemotron 3.5 Super from 120B to 74B parameters for single-B200 BF16 serving at 128K context, retaining 95% of its mean benchmark score.",
+   "heat": 0.385,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 8.0
+   },
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "c77697ef5f12",
+   "score": 6.11,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-10",
+  "start": "2026-11-10",
+  "end": "2026-11-10",
+  "title": "Claude Fable 5.2 和 Claude Mythos 5.2 发布",
+  "generated_at": "2026-11-10T02:07:55Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 23,
+  "club_period": {
+   "start": "2026-11-09",
+   "end": "2026-11-09"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 3 次",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 6 个有人参与开发，共新增 PR 6 个、合并 2 个，提交 3 次，新增代码 31 行、删除 0 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "pwnhustcollege_skill 合并 1 个 PR",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "pwn.hust.college SIG的 pwnhustcollege_skill 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 31 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwnhustcollege_skill",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "pwn.hust.college 合并 1 个 PR",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库合并 1 个、提交 1 次，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwn.hust.college",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "千问办公 2.0 上线团队协作功能",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。",
+    "url": "https://zhidx.com/p/608469.html",
+    "via": "智东西",
+    "id": "8ab2306cd1dd",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。",
+    "url": "https://zhidx.com/p/608593.html",
+    "via": "智东西",
+    "id": "f974c4426bc5",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Claude Fable 5.2 和 Claude Mythos 5.2 发布",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "via": "Anthropic",
+    "id": "4b2ce90b1bbf",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 推出 Control Room 管理系统",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。",
+    "url": "https://openai.com/index/control-room",
+    "via": "OpenAI",
+    "id": "5161b66cebe7",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "CodeRabbit 使用 OpenAI 模型提升开发效率",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。",
+    "url": "https://openai.com/index/coderabbit-codex-daybreak",
+    "via": "OpenAI",
+    "id": "59b12428eb31",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Claude Code 意外泄露 GitHub 上的机密",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。",
+    "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+    "via": "Ars Technica",
+    "id": "b02731e370f5",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "google-deepmind/mujoco",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "url": "https://github.com/google-deepmind/mujoco",
+    "via": "GitHub Trending",
+    "id": "3b318862d7ee",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "ZhuLinsen/daily_stock_analysis",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source mark…",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "via": "GitHub Trending",
+    "id": "fce1779d0a0d",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "meta/astryx",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "An open source design system that's fully customizable and agent ready。",
+    "url": "https://github.com/meta/astryx",
+    "via": "GitHub Trending",
+    "id": "a7f12d63ee0b",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "anthropics/claude-quickstarts",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "A collection of projects designed to help developers quickly get started with building deployable applications using th…",
+    "url": "https://github.com/anthropics/claude-quickstarts",
+    "via": "GitHub Trending",
+    "id": "13f516783de6",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "DIYgod/pinky",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "Let AI agents use your phone, with you in the loop.",
+    "url": "https://github.com/DIYgod/pinky",
+    "via": "GitHub 新项目",
+    "id": "3e20881c0a07",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly…",
+    "url": "https://arxiv.org/abs/2611.06483",
+    "via": "arXiv · 智能体",
+    "id": "c1e7bcf35bdd",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…",
+    "url": "https://arxiv.org/abs/2611.08175",
+    "via": "arXiv · 智能体",
+    "id": "5fef06aef3c6",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…",
+    "url": "https://arxiv.org/abs/2611.00883",
+    "via": "Hugging Face 热门论文",
+    "id": "a4f95935e39b",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression…",
+    "when": "11月10日消息",
+    "date": "2026-11-10",
+    "body": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…",
+    "url": "https://arxiv.org/abs/2611.07025",
+    "via": "arXiv · 高效推理",
+    "id": "140dff1489fd",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}

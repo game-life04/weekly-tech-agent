@@ -1,0 +1,51 @@
+【每日科技快讯】11月10日 周二
+今日 AI 与开源要闻 18 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 2 个 PR、提交 3 次
+2. pwnhustcollege_skill 合并 1 个 PR
+3. pwn.hust.college 合并 1 个 PR
+
+【国内动态】
+4. 千问办公 2.0 上线团队协作功能
+→ 千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。
+5. 赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”
+→ Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。
+
+【海外动态】
+6. Claude Fable 5.2 和 Claude Mythos 5.2 发布
+→ Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。
+7. OpenAI 推出 Control Room 管理系统
+→ OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。
+8. CodeRabbit 使用 OpenAI 模型提升开发效率
+→ CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。
+9. Claude Code 意外泄露 GitHub 上的机密
+→ Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。
+
+【开源项目】
+10. google-deepmind/mujoco
+→ Multi-Joint dynamics with Contact. A general purpose physics simulator.
+11. ZhuLinsen/daily_stock_analysis
+→ LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source mark…
+12. meta/astryx
+→ An open source design system that's fully customizable and agent ready。
+13. anthropics/claude-quickstarts
+→ A collection of projects designed to help developers quickly get started with building deployable applications using th…
+14. DIYgod/pinky
+→ Let AI agents use your phone, with you in the loop.
+
+【学术前沿】
+15. What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?
+→ While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly…
+16. PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?
+→ Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…
+17. Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand
+→ Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…
+18. LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression…
+→ Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-10-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

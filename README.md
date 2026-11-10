@@ -12,50 +12,65 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.09（周一）
+## 每日快讯 · 11.10（周二）
 
-> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-09-kuaixun.md) · [公众号排版版](daily/2026/2026-11-09-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-09.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **18** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-10-kuaixun.md) · [公众号排版版](daily/2026/2026-11-10-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-10.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月9日 周一
-今日 AI 与开源要闻 12 条，3 分钟速读
+【每日科技快讯】11月10日 周二
+今日 AI 与开源要闻 18 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 2 个 PR、提交 0 次
-2. Open-Source-Dashboard 合并 2 个 PR
-3. AtomGit-mobile4Harmony 新增 2 个 PR
+1. 开放原子开源俱乐部合并 2 个 PR、提交 3 次
+2. pwnhustcollege_skill 合并 1 个 PR
+3. pwn.hust.college 合并 1 个 PR
+
+【国内动态】
+4. 千问办公 2.0 上线团队协作功能
+→ 千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。
+5. 赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”
+→ Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。
+
+【海外动态】
+6. Claude Fable 5.2 和 Claude Mythos 5.2 发布
+→ Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。
+7. OpenAI 推出 Control Room 管理系统
+→ OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。
+8. CodeRabbit 使用 OpenAI 模型提升开发效率
+→ CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。
+9. Claude Code 意外泄露 GitHub 上的机密
+→ Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。
 
 【开源项目】
-4. Llama-modchip：在64GB内存上运行DeepSeek模型
-→ Llama-modchip项目允许在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。
-5. QwenLM/qwen-code 发布 v0.27.0 版本
-→ QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。
-6. Qwen/Qwen3.8-27B：图文理解模型
-→ Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。
-7. Concat：开源视频编辑器
-→ Concat 是一个真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。
-8. billion-context：上下文压缩插件
-→ billion-context 是一个上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。
+10. google-deepmind/mujoco
+→ Multi-Joint dynamics with Contact. A general purpose physics simulator.
+11. ZhuLinsen/daily_stock_analysis
+→ LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source mark…
+12. meta/astryx
+→ An open source design system that's fully customizable and agent ready。
+13. anthropics/claude-quickstarts
+→ A collection of projects designed to help developers quickly get started with building deployable applications using th…
+14. DIYgod/pinky
+→ Let AI agents use your phone, with you in the loop.
 
 【学术前沿】
-9. 斯坦福CS146S课程引发AI时代工程教育思考
-→ 斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。
-10. D3D：异步推测解码的解耦扩散草稿
-→ D3D 提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，实现长前缀接受。
-11. LoopVQ：循环Transformer的亚1比特KV缓存量化
-→ LoopVQ 针对循环 Transformer 的 KV 缓存提出了一种向量量化方法，在 0.5 比特每元素时优于现有方法。
-12. Confucius4-R2T2：实时转录的稳定前缀流式ASR模型
-→ Confucius4-R2T2通过引入最长稳定前缀概念，将全上下文ASR模型转化为稳定前缀流式模型，确保输出稳定且延迟低。
+15. What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?
+→ While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly…
+16. PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?
+→ Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…
+17. Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand
+→ Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…
+18. LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression…
+→ Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-上周快讯（11.02–11.08）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W45.md
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-09-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-10-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -65,39 +80,55 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 2 个 PR、提交 0 次**<br>11月8日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 6 个、合并 2 个，提交 0 次，新增代码 0 行、删除 0 行，5 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 2 个 PR、提交 3 次**<br>11月9日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 6 个有人参与开发，共新增 PR 6 个、合并 2 个，提交 3 次，新增代码 31 行、删除 0 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**Open-Source-Dashboard 合并 2 个 PR**<br>11月8日，数字基础设施维护 SIG的 Open-Source-Dashboard 仓库合并 2 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/Open-Source-Dashboard)）</sub>
+**pwnhustcollege\_skill 合并 1 个 PR**<br>11月9日，pwn.hust.college SIG的 pwnhustcollege\_skill 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 31 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwnhustcollege_skill)）</sub>
 
-**AtomGit-mobile4Harmony 新增 2 个 PR**<br>11月8日，Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 2 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
+**pwn.hust.college 合并 1 个 PR**<br>11月9日，pwn.hust.college SIG的 pwn.hust.college 仓库合并 1 个、提交 1 次，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwn.hust.college)）</sub>
+
+#### 国内动态
+
+**千问办公 2.0 上线团队协作功能**<br>11月9日，千问办公 2.0 推出 Team Agent 协作功能，支持多人与 Agent 协同工作。<br><sub>（来源：[智东西](https://zhidx.com/p/608469.html)）</sub>
+
+**赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”**<br>11月10日，Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。<br><sub>（来源：[智东西](https://zhidx.com/p/608593.html)）</sub>
+
+#### 海外动态
+
+**Claude Fable 5.2 和 Claude Mythos 5.2 发布**<br>11月9日，Anthropic 推出两款新模型，在编程、金融和科学领域表现优异。<br><sub>（来源：[Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)）</sub>
+
+**OpenAI 推出 Control Room 管理系统**<br>11月9日，OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。<br><sub>（来源：[OpenAI](https://openai.com/index/control-room)）</sub>
+
+**CodeRabbit 使用 OpenAI 模型提升开发效率**<br>11月9日，CodeRabbit 利用 OpenAI 模型治理 AI 生成代码，使团队交付量提升 20 倍。<br><sub>（来源：[OpenAI](https://openai.com/index/coderabbit-codex-daybreak)）</sub>
+
+**Claude Code 意外泄露 GitHub 上的机密**<br>11月10日，Claude Code 的“不再询问”提示导致密码和 API 密钥等敏感信息被公开。<br><sub>（来源：[Ars Technica](https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/)）</sub>
 
 #### 开源项目
 
-**Llama-modchip：在64GB内存上运行DeepSeek模型**<br>11月8日，Llama-modchip项目允许在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。<br><sub>（来源：[Hacker News](https://github.com/synchopate/llama-modchip)）</sub>
+**google-deepmind/mujoco**<br>11月10日消息，Multi-Joint dynamics with Contact. A general purpose physics simulator.<br><sub>（来源：[GitHub Trending](https://github.com/google-deepmind/mujoco)）</sub>
 
-**QwenLM/qwen-code 发布 v0.27.0 版本**<br>11月8日，QwenLM/qwen-code v0.27.0发布，支持托管代理会话管理、Web Shell任务热力图等功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0)）</sub>
+**ZhuLinsen/daily\_stock\_analysis**<br>11月10日消息，LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source mark…<br><sub>（来源：[GitHub Trending](https://github.com/ZhuLinsen/daily_stock_analysis)）</sub>
 
-**Qwen/Qwen3.8-27B：图文理解模型**<br>11月9日消息，Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。<br><sub>（来源：[Hugging Face 热门模型](https://huggingface.co/Qwen/Qwen3.8-27B)）</sub>
+**meta/astryx**<br>11月10日消息，An open source design system that's fully customizable and agent ready。<br><sub>（来源：[GitHub Trending](https://github.com/meta/astryx)）</sub>
 
-**Concat：开源视频编辑器**<br>11月9日消息，Concat 是一个真正免费、开源、本地优先、跨平台的视频编辑器，支持 JSON-RPC API 和 MCP。<br><sub>（来源：[GitHub Trending](https://github.com/jub0t/Concat)）</sub>
+**anthropics/claude-quickstarts**<br>11月10日消息，A collection of projects designed to help developers quickly get started with building deployable applications using th…<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/claude-quickstarts)）</sub>
 
-**billion-context：上下文压缩插件**<br>11月9日消息，billion-context 是一个上下文压缩插件，支持月级长会话和省 token，100k 上下文即可。<br><sub>（来源：[GitHub Trending](https://github.com/ranxianglei/billion-context)）</sub>
+**DIYgod/pinky**<br>11月10日消息，Let AI agents use your phone, with you in the loop.<br><sub>（来源：[GitHub 新项目](https://github.com/DIYgod/pinky)）</sub>
 
 #### 学术前沿
 
-**斯坦福CS146S课程引发AI时代工程教育思考**<br>11月9日，斯坦福CS146S课程让学生能一键完成往年作业，引发对AI时代工程教育的思考。<br><sub>（来源：[Latent Space](https://latent.space/p/cs146s/)）</sub>
+**What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?**<br>11月10日消息，While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06483)）</sub>
 
-**D3D：异步推测解码的解耦扩散草稿**<br>11月9日消息，D3D 提出了一种独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，实现长前缀接受。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.06425)）</sub>
+**PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?**<br>11月10日消息，Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.08175)）</sub>
 
-**LoopVQ：循环Transformer的亚1比特KV缓存量化**<br>11月9日消息，LoopVQ 针对循环 Transformer 的 KV 缓存提出了一种向量量化方法，在 0.5 比特每元素时优于现有方法。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.05304)）</sub>
+**Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand**<br>11月10日消息，Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small b…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.00883)）</sub>
 
-**Confucius4-R2T2：实时转录的稳定前缀流式ASR模型**<br>11月9日消息，Confucius4-R2T2通过引入最长稳定前缀概念，将全上下文ASR模型转化为稳定前缀流式模型，确保输出稳定且延迟低。<br><sub>（来源：[arXiv · 语音](https://arxiv.org/abs/2611.06043)）</sub>
+**LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression…**<br>11月10日消息，Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batc…<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.07025)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月8日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-09 06:52（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月9日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-10 10:07（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 
