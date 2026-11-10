@@ -56,12 +56,12 @@
 【学术前沿】
 13. 多轮强化学习在LLM智能体中的真实提升
 → 多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。
-14. PCBRouteAgent：LLM智能体与PCB布线工程师的距离
-→ Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…
-15. 随机采样几乎足够？基于BestRand的稳定低成本基准压缩
-→ 基准压缩通过子集评估减少模型评估成本。研究发现随机采样在高概率下表现良好，但存在不稳定的大误差尾部。提出BestRand方法，在70+基准上验证，相比竞争方法将高误差风险降低50.2%，估计误差降低16.4%，构建成本仅51.3%。
-16. LowRAM：测试时可组合KV缓存压缩的低秩键与摊销值
-→ KV缓存内存随上下文长度线性增长。LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在解码步骤中仅重构选定的KV对子集。在4倍压缩下实现5倍峰值解码吞吐量，与量化结合后达到26.9倍压缩。
+14. PCBRouteAgent：PCB布线智能体
+→ PCBRouteAgent利用多模态方法模拟人类工程师协调全局策略与局部执行，以解决复杂PCB布线问题。
+15. BestRand：基准压缩方法
+→ BestRand方法通过随机采样在高概率下表现良好，相比竞争方法将高误差风险降低50.2%。
+16. LowRAM：KV缓存压缩
+→ LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在4倍压缩下实现5倍峰值解码吞吐量。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
@@ -110,17 +110,17 @@
 
 **多轮强化学习在LLM智能体中的真实提升**<br>11月10日消息，多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06483)）</sub>
 
-**PCBRouteAgent：LLM智能体与PCB布线工程师的距离**<br>11月10日消息，Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.08175)）</sub>
+**PCBRouteAgent：PCB布线智能体**<br>11月10日消息，PCBRouteAgent利用多模态方法模拟人类工程师协调全局策略与局部执行，以解决复杂PCB布线问题。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.08175)）</sub>
 
-**随机采样几乎足够？基于BestRand的稳定低成本基准压缩**<br>11月10日消息，基准压缩通过子集评估减少模型评估成本。研究发现随机采样在高概率下表现良好，但存在不稳定的大误差尾部。提出BestRand方法，在70+基准上验证，相比竞争方法将高误差风险降低50.2%，估计误差降低16.4%，构建成本仅51.3%。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.00883)）</sub>
+**BestRand：基准压缩方法**<br>11月10日消息，BestRand方法通过随机采样在高概率下表现良好，相比竞争方法将高误差风险降低50.2%。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.00883)）</sub>
 
-**LowRAM：测试时可组合KV缓存压缩的低秩键与摊销值**<br>11月10日消息，KV缓存内存随上下文长度线性增长。LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在解码步骤中仅重构选定的KV对子集。在4倍压缩下实现5倍峰值解码吞吐量，与量化结合后达到26.9倍压缩。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.07025)）</sub>
+**LowRAM：KV缓存压缩**<br>11月10日消息，LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在4倍压缩下实现5倍峰值解码吞吐量。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.07025)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月9日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-10 11:52（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月9日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-10 16:25（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 

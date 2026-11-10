@@ -1143,13 +1143,13 @@
   "start": "2026-11-10",
   "end": "2026-11-10",
   "title": "Claude Fable 5.2 和 Claude Mythos 5.2 发布",
-  "generated_at": "2026-11-10T03:52:34Z",
+  "generated_at": "2026-11-10T08:25:01Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 5,
+  "tries": 2,
+  "pending": 1,
   "club_period": {
    "start": "2026-11-09",
    "end": "2026-11-09"
@@ -1314,10 +1314,10 @@
    },
    {
     "cat": "papers",
-    "headline": "PCBRouteAgent：LLM智能体与PCB布线工程师的距离",
+    "headline": "PCBRouteAgent：PCB布线智能体",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric…",
+    "body": "PCBRouteAgent利用多模态方法模拟人类工程师协调全局策略与局部执行，以解决复杂PCB布线问题。",
     "url": "https://arxiv.org/abs/2611.08175",
     "via": "arXiv · 智能体",
     "id": "5fef06aef3c6",
@@ -1325,10 +1325,10 @@
    },
    {
     "cat": "papers",
-    "headline": "随机采样几乎足够？基于BestRand的稳定低成本基准压缩",
+    "headline": "BestRand：基准压缩方法",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "基准压缩通过子集评估减少模型评估成本。研究发现随机采样在高概率下表现良好，但存在不稳定的大误差尾部。提出BestRand方法，在70+基准上验证，相比竞争方法将高误差风险降低50.2%，估计误差降低16.4%，构建成本仅51.3%。",
+    "body": "BestRand方法通过随机采样在高概率下表现良好，相比竞争方法将高误差风险降低50.2%。",
     "url": "https://arxiv.org/abs/2611.00883",
     "via": "Hugging Face 热门论文",
     "id": "a4f95935e39b",
@@ -1336,10 +1336,10 @@
    },
    {
     "cat": "papers",
-    "headline": "LowRAM：测试时可组合KV缓存压缩的低秩键与摊销值",
+    "headline": "LowRAM：KV缓存压缩",
     "when": "11月10日消息",
     "date": "2026-11-10",
-    "body": "KV缓存内存随上下文长度线性增长。LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在解码步骤中仅重构选定的KV对子集。在4倍压缩下实现5倍峰值解码吞吐量，与量化结合后达到26.9倍压缩。",
+    "body": "LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在4倍压缩下实现5倍峰值解码吞吐量。",
     "url": "https://arxiv.org/abs/2611.07025",
     "via": "arXiv · 高效推理",
     "id": "140dff1489fd",
@@ -1463,6 +1463,30 @@
     "cat": "papers",
     "headline": "多轮强化学习在LLM智能体中的真实提升",
     "body": "多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。"
+   },
+   "5fef06aef3c6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "PCBRouteAgent：PCB布线智能体",
+    "body": "PCBRouteAgent利用多模态方法模拟人类工程师协调全局策略与局部执行，以解决复杂PCB布线问题。"
+   },
+   "a4f95935e39b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "BestRand：基准压缩方法",
+    "body": "BestRand方法通过随机采样在高概率下表现良好，相比竞争方法将高误差风险降低50.2%。"
+   },
+   "140dff1489fd": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LowRAM：KV缓存压缩",
+    "body": "LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在4倍压缩下实现5倍峰值解码吞吐量。"
+   },
+   "c77697ef5f12": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AutoCompress：模型压缩",
+    "body": "AutoCompress通过硬件引导的压缩框架将延迟、吞吐量和内存约束纳入可微分架构搜索，提升模型性能。"
    }
   }
  }
