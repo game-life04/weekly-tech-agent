@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.11（周三）
 
-> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-11-kuaixun.md) · [公众号排版版](daily/2026/2026-11-11-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-11.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,7 +22,7 @@
 
 ```text
 【每日科技快讯】11月11日 周三
-今日 AI 与开源要闻 17 条，3 分钟速读
+今日 AI 与开源要闻 15 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 4 个 PR、提交 2 次
@@ -30,45 +30,42 @@
 3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-4. 突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造
-→ OpenAI 在11月4日刚上线的 Images 2.6 才过了几天，已有人喊出： GPT is cooked.
+4. MiniMax 开源 H3 Image 模型
+→ MiniMax 开源 H3 Image 模型，被称作最强开源模型。
 
 【海外动态】
-5. Import AI 480: Self-sustaining space economies; AI for science progress, and Me…
-→ Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers.…
-6. Introducing AlphaProof Code: a breakthrough in verifying complex software at de…
-→ AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.
-7. Locating the source of a mysterious beep with Claude
-→ Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago someth…
-8. Helping caregivers use AI in everyday life
-→ OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build pract…
-9. Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents
-→ Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model…
+5. Muse Ember：最小且高效的模型
+→ Muse Ember 是专为复杂推理设计的最小模型，性价比优于 Claude Haiku 5.5 或 GPT-6 Luna。
+6. Claude Whiteboards、Claude Sheets 和 Claude Data
+→ Claude 推出白板、电子表格和数据仪表盘功能，支持团队协作。
 
 【开源项目】
-10. opendatalab/MinerU mineru-4.2.0-released
-→ 次版本更新。
-11. homeassistant-ai/ha-mcp
-→ Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
-12. addyosmani/agent-skills
-→ Production-grade engineering skills for AI coding agents.
-13. opensandbox-group/OpenSandbox
-→ Secure, Fast, and Extensible Sandbox runtime for AI agents.
-14. expo/exact
-→ Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, an…
+7. MinerU 发布 4.2.0 版本
+→ MinerU 4.2.0 升级了 WebUI 交互与结果溯源，改善了复杂 PDF、公式和表格的解析质量。
+8. Modern Web Guidance：现代 Web 最佳实践
+→ Modern Web Guidance 帮助编码代理遵循最新的 Web 最佳实践，引导其远离遗留模式。
+9. ha-mcp：配置 Home Assistant
+→ ha-mcp 使用 Claude、ChatGPT 等助手配置和自动化 Home Assistant。
+10. agent-skills：AI 编码代理技能
+→ agent-skills 提供生产级的工程技能，帮助 AI 编码代理提升代码质量。
+11. OpenSandbox：AI 代理沙箱运行时
+→ OpenSandbox 是一个安全、快速且可扩展的沙箱运行时，用于 AI 代理。
 
 【学术前沿】
-15. Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery
-→ We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide…
-16. WorldFoundry: Towards Unified Infrastructure for World Intelligence
-→ Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet…
-17. P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors
-→ Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, wh…
+12. Sage-Taiyi：元认知科学发现架构
+→ Sage-Taiyi 是一种受元认知启发的架构，利用积累的科学理解来指导研究。
+13. DeepMind 验证 Signal 核心加密
+→ DeepMind 的 AlphaProof Code 代理在 Lean 中编写了三百万行证明来验证 Signal 的核心加密。
+14. WorldFoundry：世界智能统一基础设施
+→ WorldFoundry 定义了一个生成式世界模型，它维护环境的持久状态表示，并生成连贯轨迹。
+15. P^2-MOPD 加速多教师策略蒸馏
+→ P^2-MOPD 将学生和专家参数的线性组合视为可微模型，通过联合优化混合系数和学生权重来加速多教师策略蒸馏，使专家充当参数先验。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
 完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-11-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
 </details>
@@ -85,45 +82,41 @@
 
 #### 国内动态
 
-**突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造**<br>11月11日，OpenAI 在11月4日刚上线的 Images 2.6 才过了几天，已有人喊出： GPT is cooked.<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/11/other/admin/123309/%e7%aa%81%e5%8f%91%ef%bc%81%e3%80%8c%e6%ba%90%e7%a5%9e%e3%80%8d-minimax-%e5%bc%80%e6%ba%90h3-image%ef%bc%8c%e6%9c%80%e5%bc%ba%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%ad%e5%9b%bd%e9%80%a0/)）</sub>
+**MiniMax 开源 H3 Image 模型**<br>11月11日，MiniMax 开源 H3 Image 模型，被称作最强开源模型。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/11/other/admin/123309/%e7%aa%81%e5%8f%91%ef%bc%81%e3%80%8c%e6%ba%90%e7%a5%9e%e3%80%8d-minimax-%e5%bc%80%e6%ba%90h3-image%ef%bc%8c%e6%9c%80%e5%bc%ba%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%ad%e5%9b%bd%e9%80%a0/)）</sub>
 
 #### 海外动态
 
-**Import AI 480: Self-sustaining space economies; AI for science progress, and Me…**<br>11月9日，Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers.…<br><sub>（来源：[Import AI](https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/)）</sub>
+**Muse Ember：最小且高效的模型**<br>11月10日，Muse Ember 是专为复杂推理设计的最小模型，性价比优于 Claude Haiku 5.5 或 GPT-6 Luna。<br><sub>（来源：[Hacker News](https://research.meta.ai/blog/muse-ember)）</sub>
 
-**Introducing AlphaProof Code: a breakthrough in verifying complex software at de…**<br>11月10日，AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/introducing-alphaproof-code/)）</sub>
-
-**Locating the source of a mysterious beep with Claude**<br>11月10日，Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago someth…<br><sub>（来源：[Simon Willison](https://simonwillison.net/2026/Nov/9/mysterious-beeps/)）</sub>
-
-**Helping caregivers use AI in everyday life**<br>11月10日，OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build pract…<br><sub>（来源：[OpenAI](https://openai.com/index/helping-caregivers-use-ai-in-everyday-life)）</sub>
-
-**Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents**<br>11月11日，Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model…<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/)）</sub>
+**Claude Whiteboards、Claude Sheets 和 Claude Data**<br>11月11日，Claude 推出白板、电子表格和数据仪表盘功能，支持团队协作。<br><sub>（来源：[Hacker News](https://claude.com/resources/articles/sheets-whiteboards-data)）</sub>
 
 #### 开源项目
 
-**opendatalab/MinerU mineru-4.2.0-released**<br>11月10日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.0-released)）</sub>
+**MinerU 发布 4.2.0 版本**<br>11月10日，MinerU 4.2.0 升级了 WebUI 交互与结果溯源，改善了复杂 PDF、公式和表格的解析质量。<br><sub>（来源：[GitHub 版本发布](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.0-released)）</sub>
 
-**homeassistant-ai/ha-mcp**<br>11月11日消息，Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.<br><sub>（来源：[GitHub Trending](https://github.com/homeassistant-ai/ha-mcp)）</sub>
+**Modern Web Guidance：现代 Web 最佳实践**<br>11月11日，Modern Web Guidance 帮助编码代理遵循最新的 Web 最佳实践，引导其远离遗留模式。<br><sub>（来源：[Hacker News](https://github.com/GoogleChrome/modern-web-guidance)）</sub>
 
-**addyosmani/agent-skills**<br>11月11日消息，Production-grade engineering skills for AI coding agents.<br><sub>（来源：[GitHub Trending](https://github.com/addyosmani/agent-skills)）</sub>
+**ha-mcp：配置 Home Assistant**<br>11月11日消息，ha-mcp 使用 Claude、ChatGPT 等助手配置和自动化 Home Assistant。<br><sub>（来源：[GitHub Trending](https://github.com/homeassistant-ai/ha-mcp)）</sub>
 
-**opensandbox-group/OpenSandbox**<br>11月11日消息，Secure, Fast, and Extensible Sandbox runtime for AI agents.<br><sub>（来源：[GitHub Trending](https://github.com/opensandbox-group/OpenSandbox)）</sub>
+**agent-skills：AI 编码代理技能**<br>11月11日消息，agent-skills 提供生产级的工程技能，帮助 AI 编码代理提升代码质量。<br><sub>（来源：[GitHub Trending](https://github.com/addyosmani/agent-skills)）</sub>
 
-**expo/exact**<br>11月11日消息，Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, an…<br><sub>（来源：[GitHub 新项目](https://github.com/expo/exact)）</sub>
+**OpenSandbox：AI 代理沙箱运行时**<br>11月11日消息，OpenSandbox 是一个安全、快速且可扩展的沙箱运行时，用于 AI 代理。<br><sub>（来源：[GitHub Trending](https://github.com/opensandbox-group/OpenSandbox)）</sub>
 
 #### 学术前沿
 
-**Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery**<br>11月9日，We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.12762)）</sub>
+**Sage-Taiyi：元认知科学发现架构**<br>11月9日，Sage-Taiyi 是一种受元认知启发的架构，利用积累的科学理解来指导研究。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.12762)）</sub>
 
-**WorldFoundry: Towards Unified Infrastructure for World Intelligence**<br>11月11日消息，Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.10771)）</sub>
+**DeepMind 验证 Signal 核心加密**<br>11月10日，DeepMind 的 AlphaProof Code 代理在 Lean 中编写了三百万行证明来验证 Signal 的核心加密。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/introducing-alphaproof-code/)）</sub>
 
-**P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors**<br>11月11日消息，Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, wh…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.03953)）</sub>
+**WorldFoundry：世界智能统一基础设施**<br>11月11日消息，WorldFoundry 定义了一个生成式世界模型，它维护环境的持久状态表示，并生成连贯轨迹。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.10771)）</sub>
+
+**P^2-MOPD 加速多教师策略蒸馏**<br>11月11日消息，P^2-MOPD 将学生和专家参数的线性组合视为可微模型，通过联合优化混合系数和学生权重来加速多教师策略蒸馏，使专家充当参数先验。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.03953)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>俱乐部动态的统计日期为11月10日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-11 08:02（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月10日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-11 09:31（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 
