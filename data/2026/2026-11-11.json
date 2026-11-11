@@ -1,0 +1,1221 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T00:02:13Z",
+ "llm": null,
+ "candidates": 457,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 69,
+   "error": "",
+   "seconds": 4.4
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 6.7
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 50.8
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.0
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 45,
+   "error": "",
+   "seconds": 10.0
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 330,
+   "error": "",
+   "seconds": 25.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 22.7
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 9,
+   "error": "",
+   "seconds": 80.2
+  }
+ ],
+ "items": [
+  {
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-10T12:02:28Z",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "heat": 1.0,
+   "weight": 0.85,
+   "metrics": {
+    "points": 560.0,
+    "comments": 174.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50439193",
+    "llm_score": 9.0
+   },
+   "id": "4133c672faa8",
+   "score": 9.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+   "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+   "source": "rss",
+   "section": "news",
+   "via": "Microsoft Research",
+   "published": "2026-11-10T20:52:56Z",
+   "summary": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, […] The post Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents appeared first on Microsoft Research .",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0
+   },
+   "id": "88a8bd4f85ab",
+   "score": 8.4,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Locating the source of a mysterious beep with Claude",
+   "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+   "source": "rss",
+   "section": "news",
+   "via": "Simon Willison",
+   "published": "2026-11-09T23:57:21Z",
+   "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattere…",
+   "heat": 0.927,
+   "weight": 0.7,
+   "metrics": {
+    "points": 318.0,
+    "comments": 163.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50434310",
+    "llm_score": 8.0
+   },
+   "id": "ebf57632b448",
+   "score": 8.06,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-10T10:25:58Z",
+   "summary": "",
+   "heat": 0.942,
+   "weight": 0.6,
+   "metrics": {
+    "points": 349.0,
+    "comments": 383.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50438318",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "I can only speculate as to the reasons why I was laid off from Meta in May, but I suspect that one of the reasons is that I was a little bit more resistant to adopting AI/LLMs as coding tools than some of my peers. Don't get me wrong, I generated at least 90% of my code using AI in my last few months there, which was the minimum for a decent rating. But AI didn't 10X the amount of code I was writing. It didn't even 2X it. I was focused on code quality. I saw the code being pushed by some of my peers who were heavily reliant on AI, and I saw that it was brittle code. There were many subtle issues that would lead to tech debt in the long term, and even some glaring issues were ignored by very good programmers. For instance, I saw one of the best programmers on my team try to merge code that…"
+   },
+   "id": "30f899477579",
+   "score": 8.06,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-10T18:01:15Z",
+   "summary": "",
+   "heat": 0.875,
+   "weight": 0.6,
+   "metrics": {
+    "points": 229.0,
+    "comments": 65.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50443812",
+    "excerpt_tried": true,
+    "evidence": "Keep your coding agent up to date with the latest web best practices - GoogleChrome/modern-web-guidance Modern Web Guidance is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform. Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community. Documentation · Eval Dashboard · Source Code · Report an Issue This command runs an interactive wizard to install Modern Web Guidance. See Alternative Installation Methods below. Coding agents often default to older patterns because LLM training data contain…"
+   },
+   "id": "d2f04b262e1a",
+   "score": 8.01,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Muse Ember: Our smallest, most efficient model",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-09T17:58:46Z",
+   "summary": "",
+   "heat": 0.932,
+   "weight": 0.6,
+   "metrics": {
+    "points": 327.0,
+    "comments": 139.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50429024",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Muse Ember is our smallest and most efficient model, designed for complex reasoning execution and the work agents repeat all day. Today, we're introducing Muse Ember, our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. Muse Ember delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna at any reasoning setting: it matches Haiku's best score at about a third of the cost and beats every Luna setting. It also sits on the efficiency frontier of the full Artificial Analysis leaderboard: no model scores higher for less per task. Artificial Analysis Intelligence Index against cost per task at each reasoning effort, from the raw Artificial An…"
+   },
+   "id": "44624d8691e9",
+   "score": 7.9,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Helping caregivers use AI in everyday life",
+   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-10T12:00:00Z",
+   "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "e404dac8ec41",
+   "score": 7.75,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+   "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-10T17:55:07Z",
+   "summary": "",
+   "heat": 0.804,
+   "weight": 0.6,
+   "metrics": {
+    "points": 147.0,
+    "comments": 115.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50443716",
+    "excerpt_tried": true,
+    "evidence": "Brainstorm on a shared whiteboard, build a spreadsheet, and share dashboards with your team, all with Claude. Available today on all paid plans. Today we’re launching Claude Whiteboards and Claude Sheets in beta, and Claude Dashboards (opens in new tab) becomes generally available as Claude Data. Whiteboards is a shared board where your team brainstorms with Claude, Sheets is a spreadsheet Claude builds and edits with you, and Claude Data adds data stories, certified queries, and live sharing. These are available on all paid plans. Working with Claude on a project often meant moving the output over to another tool or program, where Claude didn’t have live access to follow progress and changes. Now, your documents, boards, sheets, and dashboards can stay in Claude, with access for your tea…"
+   },
+   "id": "956883dd2d03",
+   "score": 7.65,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+   "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
+   "source": "rss",
+   "section": "news",
+   "via": "Import AI",
+   "published": "2026-11-09T13:31:34Z",
+   "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI Science startup converts a quantum conjecture into a theorem:…An evocative taste of the singularity…In the same way a few years ago it went from remarkable […]",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "97b86cc11bb9",
+   "score": 7.37,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造",
+   "url": "https://aiera.com.cn/2026/11/11/other/admin/123309/%e7%aa%81%e5%8f%91%ef%bc%81%e3%80%8c%e6%ba%90%e7%a5%9e%e3%80%8d-minimax-%e5%bc%80%e6%ba%90h3-image%ef%bc%8c%e6%9c%80%e5%bc%ba%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%ad%e5%9b%bd%e9%80%a0/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-11T00:02:06Z",
+   "summary": "OpenAI 在11月4日刚上线的 Images 2.6 才过了几天，已有人喊出： GPT is cooked.",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true
+   },
+   "id": "fbb0d7980086",
+   "score": 7.36,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "heat": 0.833,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 790.0,
+    "stars": 6627.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0
+   },
+   "id": "ea86bb1e07bf",
+   "score": 7.59,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "opendatalab/MinerU mineru-4.2.0-released",
+   "url": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.0-released",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-10T11:45:47Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## 4.2.0 MinerU 4.2.0 重点升级 WebUI 交互与结果溯源，改善复杂 PDF、公式和表格的解析质量，并完善设备选择、模型缓存、服务管理与输入安全。以下为相对 4.1.0 的累计更新，包含 4.1.x 期间已发布的改进。 ### WebUI 交互与结果溯源 - **新增原文与结果双向定位**：点击 PDF 或图片中的区域，即可定位并高亮对应的解析内容；点击结果中的段落、标题、公式或图表，也可返回原文位置。跨页合并内容支持切换来源页。 - **增强布局可视化**：合并后的段落、列表和表格可关联多个原文区域，并通过连线展示合并关系，方便检查阅读顺序、内容归属和跨页合并结果。 - **新增结果目录导航**：根据标题生成可折叠目录，支持快速跳转到对应内容。 - **重新设计上传区域**：集中呈现文件选择、拖放、粘贴、文件类型、上传进度和取消操作，让上传过程更清晰。 - **重做档位与页范围控件**：采用更紧凑的布局，优化选择与拖动体验，并展示解析服务的 CPU/GPU 运行状态。 - **加快 PDF 预览**：选择本地 PDF 后，浏览器直接预览完整文档，并行完成上传，减少预览等待和重复传输。 - **保持解析前后的预览状态**：解析完成后复用已加载的查看器，保留缩放状态，并以叠加标框展示布局结果。 - **减少重复处理**：复用已准备的输入文件、语义结果和素材，减少原文 PDF、布局 PDF 及预览文件的重复生成，加快结果预览与导出。 ### PDF、公式与表格解析 - **改进行内公式识别**：Standard/Advanced 在 PDF 原生文本路径中，使用 VLM 识别表外行内公式区域；识别结果为空或无效时，保留局部公式识别模型回退。 - **保护脚注公式并改进页边区域处理**：修复脚注公式被错误改标或过滤的问题，减少公式、编号与正文之间的归属错误。 - **改进嵌套与重叠区域处理**：优化重复区域筛选与合并范围，减少重复文本和过度合并；修正图内标注的归属，并改善合并图片的阅读顺序。 - **统一布局检测行为**：恢复 ONNX 与 Torch 后端的逐类输出阈值，提高不同后端处理结果的一致性。 - **改善原生文本恢复**：完善空 ToUnicode 映射下的字符恢复，并在后置 OCR 和失败恢复后清理残留的 Unicode 私用区字符，减少缺字和乱码。 - **保留仿斜体正文**：修复整行字符经过倾斜变换时，正常正文被误判并丢失的问题。 - **修复旋转页面中的表格方向判断**：结合页面旋转信息解释原生文字方向，减少表格被错误旋转的问题。 - **保持表格内图片与公式完整**：避免表格恢复过程中将图片、公式拆散，或错误分配到多个单元格。 - **改善跨页表格输出**：保留单元格拼接处的文本边界，完善空白续接、稀疏空白行和共享跨行单元格的处理。 ### 原生文档解析 - **利用 Tagged PDF 结构语义**：Flash 原生 PDF 文本解析可利用 Tagged PDF/PDF/UA 文档中的结构信息与阅读顺序；未覆盖或不可信的内容继续由几何规则处理。 - **改进段落续接**：结合缩进、句末位置等页面证据，改善大写字母开头的续接判断，以及跨页、跨栏段落合并。 - **改进原生表格恢复**：修复异常字形边界导致的行划分错误，以及部分数字表格中跨行单元格的归属问题。 - **改善字体粗细判断**：增强嵌入字体的字重解析，减少正常正文被误判为粗体的情况。 - **改善 Office 图片异常处理**：对部分超出图片…",
+    "level": "minor",
+    "llm_score": 7.0
+   },
+   "id": "7cac67fa8c84",
+   "score": 7.01,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Production-grade engineering skills for AI coding agents.",
+   "heat": 0.767,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 465.0,
+    "stars": 115137.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "llm_score": 7.0
+   },
+   "id": "ee6c68beddbc",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "opensandbox-group/OpenSandbox",
+   "url": "https://github.com/opensandbox-group/OpenSandbox",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+   "heat": 0.722,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 323.0,
+    "stars": 17148.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0
+   },
+   "id": "7ed1cacfdc6f",
+   "score": 6.76,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "expo/exact",
+   "url": "https://github.com/expo/exact",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+   "heat": 0.766,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2156.0
+   },
+   "extra": {
+    "language": "Rust",
+    "age_days": 8,
+    "llm_score": 7.0
+   },
+   "id": "91ce8f5ef6bd",
+   "score": 6.73,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Imbad0202/academic-research-skills",
+   "url": "https://github.com/Imbad0202/academic-research-skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+   "heat": 0.677,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 225.0,
+    "stars": 56358.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0
+   },
+   "id": "4166290f2943",
+   "score": 6.67,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Agent skills",
+   "heat": 0.861,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3799.0
+   },
+   "extra": {
+    "language": "",
+    "age_days": 7,
+    "llm_score": 6.0
+   },
+   "id": "42d2a1cfda9d",
+   "score": 6.32,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "10x 工程师变成 100x 了，普通工程师还是那么普通",
+   "url": "https://www.oschina.net/news/503514",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-10T10:08:13Z",
+   "summary": "一位 CTO 用反证法证明：我们还没被 AI 取代，但理由可能和你想的不一样。 shaharglazner 是 keepalerting 的联合创始人兼 CTO，11 月 9 日他在 X 上发了篇长文《On Being an Engineer in 2026》，标题下面跟着一行小字：「我们还需要吗？」 他先承认了那种普遍的失控感。每隔一周，就有一块工作被交出去。最早是不写代码...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "55e5594eb181",
+   "score": 6.29,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+   "url": "https://arxiv.org/abs/2611.12762",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-09T00:00:00Z",
+   "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Taiyi-Bench, an AI co-scientist ideation benchmark comprising 265 tasks from 50 papers across ten disciplines, Sage-Taiyi ranks first on all eight metrics of historical rediscovery and open-ended ideation, achieving an Overall score of 54.0 compared with 47.9 for the strongest baseline, AI Scientist-v2. It also performs well on two external scientific ideation benchmarks. Five expert-guided collaborations further connect its proposals to experimental and computational validation across chemistry, materials science, and engineering. In chemistry, reaction-condition optimization raises the yield of cobalt-catalyzed carbonylation from trace amounts to 84% and photocatalytic allylic amination from 13% to 69%. These results support metacognitive regulation as an approach to scientific ideation and its progression toward practical validation.",
+   "heat": 0.692,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 51.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Alpha-Innovator/Sage-Taiyi"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "6249004e8552",
+   "score": 6.7,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+   "url": "https://arxiv.org/abs/2611.10771",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-07T14:59:22Z",
+   "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persistent, history-conditioned representation of an environment, updates that representation in response to actions or interventions, and generates temporally coherent trajectories that reflect outcomes under observed and counterfactual interventions. From this definition, we derive an intelligence-oriented framework spanning perceptual grounding, persistent state modeling, controllable transformation, dynamics-aware prediction, and closed-loop interaction. We present WorldFoundry, open-source infrastructure for reproducible inference and evaluation across video, 3D and 4D, embodied action, and interactive world systems. WorldFoundry unifies model and benchmark discovery, runtime and asset preparation, execution orchestration, artifact management, and interactive visualization, while modality-specific adapters preserve native inputs, execution semantics, output representations, and evaluation protocols. Explicit manifests, durable artifact contracts, and evidence-aware scorecards separate execution readiness from evaluative claims, making each claim traceable to its supporting artifacts. T…",
+   "heat": 0.699,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 53.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/OpenEnvision/WorldFoundry"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "43430aa80d84",
+   "score": 6.57,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+   "url": "https://arxiv.org/abs/2611.03953",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-02T20:53:15Z",
+   "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the same on-policy distillation objective. Unlike task arithmetic, which stays within the span of the frozen student and expert parameters for any choice of merging coefficients, P^2-MOPD keeps the student trainable, so the experts act as parameter priors without confining it to this span. Across four domains at 1.7B and 4B scales, P^2-MOPD achieves faster and more balanced recovery than MOPD from the same initialization, surpassing its final average recovery in half the training steps. At the end of training, our 1.7B model reaches 94.7% average recovery, versus 80.9% for MOPD.",
+   "heat": 0.692,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 51.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/SinuoWang/P2-MOPD"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "10a2c761a770",
+   "score": 6.35,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-11",
+  "start": "2026-11-11",
+  "end": "2026-11-11",
+  "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at de…",
+  "generated_at": "2026-11-11T00:02:13Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 21,
+  "club_period": {
+   "start": "2026-11-10",
+   "end": "2026-11-10"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 4 个 PR、提交 2 次",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 4 个，提交 2 次，新增代码 594 行、删除 264 行，2 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "homebrew-tap 合并 3 个 PR",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Agent SIG的 homebrew-tap 仓库新增 PR 1 个、合并 3 个、提交 1 次，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/homebrew-tap",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 594 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "OpenAI 在11月4日刚上线的 Images 2.6 才过了几天，已有人喊出： GPT is cooked.",
+    "url": "https://aiera.com.cn/2026/11/11/other/admin/123309/%e7%aa%81%e5%8f%91%ef%bc%81%e3%80%8c%e6%ba%90%e7%a5%9e%e3%80%8d-minimax-%e5%bc%80%e6%ba%90h3-image%ef%bc%8c%e6%9c%80%e5%bc%ba%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%ad%e5%9b%bd%e9%80%a0/",
+    "via": "新智元",
+    "id": "fbb0d7980086",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Import AI 480: Self-sustaining space economies; AI for science progress, and Me…",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers.…",
+    "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
+    "via": "Import AI",
+    "id": "97b86cc11bb9",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Introducing AlphaProof Code: a breakthrough in verifying complex software at de…",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "via": "Google DeepMind",
+    "id": "4133c672faa8",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Locating the source of a mysterious beep with Claude",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago someth…",
+    "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "via": "Simon Willison",
+    "id": "ebf57632b448",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Helping caregivers use AI in everyday life",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build pract…",
+    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "via": "OpenAI",
+    "id": "e404dac8ec41",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model…",
+    "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+    "via": "Microsoft Research",
+    "id": "88a8bd4f85ab",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "opendatalab/MinerU mineru-4.2.0-released",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "次版本更新。",
+    "url": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.0-released",
+    "via": "GitHub 版本发布",
+    "id": "7cac67fa8c84",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "homeassistant-ai/ha-mcp",
+    "when": "11月11日消息",
+    "date": "2026-11-11",
+    "body": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+    "url": "https://github.com/homeassistant-ai/ha-mcp",
+    "via": "GitHub Trending",
+    "id": "ea86bb1e07bf",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "addyosmani/agent-skills",
+    "when": "11月11日消息",
+    "date": "2026-11-11",
+    "body": "Production-grade engineering skills for AI coding agents.",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "via": "GitHub Trending",
+    "id": "ee6c68beddbc",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "opensandbox-group/OpenSandbox",
+    "when": "11月11日消息",
+    "date": "2026-11-11",
+    "body": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+    "url": "https://github.com/opensandbox-group/OpenSandbox",
+    "via": "GitHub Trending",
+    "id": "7ed1cacfdc6f",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "expo/exact",
+    "when": "11月11日消息",
+    "date": "2026-11-11",
+    "body": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, an…",
+    "url": "https://github.com/expo/exact",
+    "via": "GitHub 新项目",
+    "id": "91ce8f5ef6bd",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide…",
+    "url": "https://arxiv.org/abs/2611.12762",
+    "via": "Hugging Face 热门论文",
+    "id": "6249004e8552",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+    "when": "11月11日消息",
+    "date": "2026-11-11",
+    "body": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet…",
+    "url": "https://arxiv.org/abs/2611.10771",
+    "via": "Hugging Face 热门论文",
+    "id": "43430aa80d84",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+    "when": "11月11日消息",
+    "date": "2026-11-11",
+    "body": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, wh…",
+    "url": "https://arxiv.org/abs/2611.03953",
+    "via": "Hugging Face 热门论文",
+    "id": "10a2c761a770",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}

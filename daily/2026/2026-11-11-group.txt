@@ -1,0 +1,48 @@
+【每日科技快讯】11月11日 周三
+今日 AI 与开源要闻 17 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 4 个 PR、提交 2 次
+2. homebrew-tap 合并 3 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
+
+【国内动态】
+4. 突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造
+→ OpenAI 在11月4日刚上线的 Images 2.6 才过了几天，已有人喊出： GPT is cooked.
+
+【海外动态】
+5. Import AI 480: Self-sustaining space economies; AI for science progress, and Me…
+→ Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers.…
+6. Introducing AlphaProof Code: a breakthrough in verifying complex software at de…
+→ AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.
+7. Locating the source of a mysterious beep with Claude
+→ Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago someth…
+8. Helping caregivers use AI in everyday life
+→ OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build pract…
+9. Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents
+→ Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model…
+
+【开源项目】
+10. opendatalab/MinerU mineru-4.2.0-released
+→ 次版本更新。
+11. homeassistant-ai/ha-mcp
+→ Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
+12. addyosmani/agent-skills
+→ Production-grade engineering skills for AI coding agents.
+13. opensandbox-group/OpenSandbox
+→ Secure, Fast, and Extensible Sandbox runtime for AI agents.
+14. expo/exact
+→ Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, an…
+
+【学术前沿】
+15. Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery
+→ We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide…
+16. WorldFoundry: Towards Unified Infrastructure for World Intelligence
+→ Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet…
+17. P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors
+→ Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, wh…
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-11-kuaixun.md

@@ -12,62 +12,63 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.10（周二）
+## 每日快讯 · 11.11（周三）
 
-> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-10-kuaixun.md) · [公众号排版版](daily/2026/2026-11-10-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-10.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-11-kuaixun.md) · [公众号排版版](daily/2026/2026-11-11-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-11.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月10日 周二
-今日 AI 与开源要闻 16 条，3 分钟速读
+【每日科技快讯】11月11日 周三
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 2 个 PR、提交 3 次
-2. pwnhustcollege_skill 合并 1 个 PR
-3. pwn.hust.college 合并 1 个 PR
+1. 开放原子开源俱乐部合并 4 个 PR、提交 2 次
+2. homebrew-tap 合并 3 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-4. 赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”
-→ Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。
+4. 突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造
+→ OpenAI 在11月4日刚上线的 Images 2.6 才过了几天，已有人喊出： GPT is cooked.
 
 【海外动态】
-5. Claude Fable 5.2 和 Claude Mythos 5.2 发布
-→ Anthropic推出Claude Fable 5.2和Claude Mythos 5.2两款新模型，在编程、金融和科学领域表现优异。
-6. OpenAI推出Control Room管理系统
-→ OpenAI发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。
-7. CodeRabbit利用OpenAI模型提升开发效率
-→ CodeRabbit使用OpenAI模型治理AI生成代码，使团队交付量提升20倍。
+5. Import AI 480: Self-sustaining space economies; AI for science progress, and Me…
+→ Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers.…
+6. Introducing AlphaProof Code: a breakthrough in verifying complex software at de…
+→ AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.
+7. Locating the source of a mysterious beep with Claude
+→ Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago someth…
+8. Helping caregivers use AI in everyday life
+→ OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build pract…
+9. Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents
+→ Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model…
 
 【开源项目】
-8. MuJoCo：通用多关节动力学物理模拟器
-→ MuJoCo 是一个通用的多关节动力学物理模拟器，用于模拟多关节动力学与接触。
-9. daily_stock_analysis：LLM驱动的多市场股票分析系统
-→ LLM驱动的多市场股票分析系统支持多源行情、实时新闻和自动推送，可零成本定时运行。
-10. Astryx：专为智能体准备的开源设计系统
-→ Astryx 是一个完全可定制且专为智能体准备的开源设计系统。
-11. Anthropic Claude 快速入门项目集合
-→ Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。
-12. pinky：让AI智能体使用你的手机
-→ pinky 是一个让 AI 智能体使用你的手机，且你在循环中的开源项目。
+10. opendatalab/MinerU mineru-4.2.0-released
+→ 次版本更新。
+11. homeassistant-ai/ha-mcp
+→ Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
+12. addyosmani/agent-skills
+→ Production-grade engineering skills for AI coding agents.
+13. opensandbox-group/OpenSandbox
+→ Secure, Fast, and Extensible Sandbox runtime for AI agents.
+14. expo/exact
+→ Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, an…
 
 【学术前沿】
-13. 多轮强化学习在LLM智能体中的真实提升
-→ 多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。
-14. PCBRouteAgent：PCB布线智能体
-→ PCBRouteAgent利用多模态方法模拟人类工程师协调全局策略与局部执行，以解决复杂PCB布线问题。
-15. BestRand：基准压缩方法
-→ BestRand方法通过随机采样在高概率下表现良好，相比竞争方法将高误差风险降低50.2%。
-16. LowRAM：KV缓存压缩
-→ LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在4倍压缩下实现5倍峰值解码吞吐量。
+15. Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery
+→ We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide…
+16. WorldFoundry: Towards Unified Infrastructure for World Intelligence
+→ Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet…
+17. P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors
+→ Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, wh…
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-10-kuaixun.md
-标题和要点由 AI 整理，可能有误，请以原文为准。
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-11-kuaixun.md
 ```
 
 </details>
@@ -76,51 +77,53 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 2 个 PR、提交 3 次**<br>11月9日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 6 个有人参与开发，共新增 PR 6 个、合并 2 个，提交 3 次，新增代码 31 行、删除 0 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 4 个 PR、提交 2 次**<br>11月10日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 4 个，提交 2 次，新增代码 594 行、删除 264 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**pwnhustcollege\_skill 合并 1 个 PR**<br>11月9日，pwn.hust.college SIG的 pwnhustcollege\_skill 仓库新增 PR 1 个、合并 1 个、提交 2 次、新增代码 31 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwnhustcollege_skill)）</sub>
+**homebrew-tap 合并 3 个 PR**<br>11月10日，Agent SIG的 homebrew-tap 仓库新增 PR 1 个、合并 3 个、提交 1 次，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/homebrew-tap)）</sub>
 
-**pwn.hust.college 合并 1 个 PR**<br>11月9日，pwn.hust.college SIG的 pwn.hust.college 仓库合并 1 个、提交 1 次，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwn.hust.college)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月10日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 594 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
 #### 国内动态
 
-**赶在IPO前，Claude最强模型空降！宾大教授感慨“几乎达到AGI”**<br>11月10日，Anthropic 发布两款新模型，在基准测试中表现优异，已上线云服务。<br><sub>（来源：[智东西](https://zhidx.com/p/608593.html)）</sub>
+**突发！「源神」 MiniMax 开源H3 Image，最强开源模型中国造**<br>11月11日，OpenAI 在11月4日刚上线的 Images 2.6 才过了几天，已有人喊出： GPT is cooked.<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/11/other/admin/123309/%e7%aa%81%e5%8f%91%ef%bc%81%e3%80%8c%e6%ba%90%e7%a5%9e%e3%80%8d-minimax-%e5%bc%80%e6%ba%90h3-image%ef%bc%8c%e6%9c%80%e5%bc%ba%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%ad%e5%9b%bd%e9%80%a0/)）</sub>
 
 #### 海外动态
 
-**Claude Fable 5.2 和 Claude Mythos 5.2 发布**<br>11月9日，Anthropic推出Claude Fable 5.2和Claude Mythos 5.2两款新模型，在编程、金融和科学领域表现优异。<br><sub>（来源：[Anthropic](https://www.anthropic.com/claude-fable-and-mythos-5-2)）</sub>
+**Import AI 480: Self-sustaining space economies; AI for science progress, and Me…**<br>11月9日，Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers.…<br><sub>（来源：[Import AI](https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/)）</sub>
 
-**OpenAI推出Control Room管理系统**<br>11月9日，OpenAI发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。<br><sub>（来源：[OpenAI](https://openai.com/index/control-room)）</sub>
+**Introducing AlphaProof Code: a breakthrough in verifying complex software at de…**<br>11月10日，AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/introducing-alphaproof-code/)）</sub>
 
-**CodeRabbit利用OpenAI模型提升开发效率**<br>11月9日，CodeRabbit使用OpenAI模型治理AI生成代码，使团队交付量提升20倍。<br><sub>（来源：[OpenAI](https://openai.com/index/coderabbit-codex-daybreak)）</sub>
+**Locating the source of a mysterious beep with Claude**<br>11月10日，Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago someth…<br><sub>（来源：[Simon Willison](https://simonwillison.net/2026/Nov/9/mysterious-beeps/)）</sub>
+
+**Helping caregivers use AI in everyday life**<br>11月10日，OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build pract…<br><sub>（来源：[OpenAI](https://openai.com/index/helping-caregivers-use-ai-in-everyday-life)）</sub>
+
+**Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents**<br>11月11日，Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model…<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/)）</sub>
 
 #### 开源项目
 
-**MuJoCo：通用多关节动力学物理模拟器**<br>11月10日消息，MuJoCo 是一个通用的多关节动力学物理模拟器，用于模拟多关节动力学与接触。<br><sub>（来源：[GitHub Trending](https://github.com/google-deepmind/mujoco)）</sub>
+**opendatalab/MinerU mineru-4.2.0-released**<br>11月10日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.0-released)）</sub>
 
-**daily\_stock\_analysis：LLM驱动的多市场股票分析系统**<br>11月10日消息，LLM驱动的多市场股票分析系统支持多源行情、实时新闻和自动推送，可零成本定时运行。<br><sub>（来源：[GitHub Trending](https://github.com/ZhuLinsen/daily_stock_analysis)）</sub>
+**homeassistant-ai/ha-mcp**<br>11月11日消息，Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.<br><sub>（来源：[GitHub Trending](https://github.com/homeassistant-ai/ha-mcp)）</sub>
 
-**Astryx：专为智能体准备的开源设计系统**<br>11月10日消息，Astryx 是一个完全可定制且专为智能体准备的开源设计系统。<br><sub>（来源：[GitHub Trending](https://github.com/meta/astryx)）</sub>
+**addyosmani/agent-skills**<br>11月11日消息，Production-grade engineering skills for AI coding agents.<br><sub>（来源：[GitHub Trending](https://github.com/addyosmani/agent-skills)）</sub>
 
-**Anthropic Claude 快速入门项目集合**<br>11月10日消息，Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/claude-quickstarts)）</sub>
+**opensandbox-group/OpenSandbox**<br>11月11日消息，Secure, Fast, and Extensible Sandbox runtime for AI agents.<br><sub>（来源：[GitHub Trending](https://github.com/opensandbox-group/OpenSandbox)）</sub>
 
-**pinky：让AI智能体使用你的手机**<br>11月10日消息，pinky 是一个让 AI 智能体使用你的手机，且你在循环中的开源项目。<br><sub>（来源：[GitHub 新项目](https://github.com/DIYgod/pinky)）</sub>
+**expo/exact**<br>11月11日消息，Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, an…<br><sub>（来源：[GitHub 新项目](https://github.com/expo/exact)）</sub>
 
 #### 学术前沿
 
-**多轮强化学习在LLM智能体中的真实提升**<br>11月10日消息，多轮强化学习在长任务上表现优异，但性能受交互预算限制。研究发现其优势集中在错误恢复和长时程韧性，而非单步决策质量。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.06483)）</sub>
+**Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery**<br>11月9日，We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.12762)）</sub>
 
-**PCBRouteAgent：PCB布线智能体**<br>11月10日消息，PCBRouteAgent利用多模态方法模拟人类工程师协调全局策略与局部执行，以解决复杂PCB布线问题。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.08175)）</sub>
+**WorldFoundry: Towards Unified Infrastructure for World Intelligence**<br>11月11日消息，Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.10771)）</sub>
 
-**BestRand：基准压缩方法**<br>11月10日消息，BestRand方法通过随机采样在高概率下表现良好，相比竞争方法将高误差风险降低50.2%。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.00883)）</sub>
-
-**LowRAM：KV缓存压缩**<br>11月10日消息，LowRAM通过值缓存摊销和跨层低秩键压缩实现高效压缩，在4倍压缩下实现5倍峰值解码吞吐量。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.07025)）</sub>
+**P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors**<br>11月11日消息，Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, wh…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.03953)）</sub>
 
 ### 活动预告
 
-**CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 20-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
+**CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月9日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-10 16:25（北京时间）自动生成。</sub>
+<sub>俱乐部动态的统计日期为11月10日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-11 08:02（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 
