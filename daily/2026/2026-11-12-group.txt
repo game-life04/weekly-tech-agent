@@ -1,5 +1,5 @@
 【每日科技快讯】11月12日 周四
-今日 AI 与开源要闻 15 条，3 分钟速读
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
@@ -9,38 +9,43 @@
 → 据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。
 
 【海外动态】
-3. AlphaGenome 2: Deciphering how cells read DNA to better understand disease
-→ Predicting how DNA sequences and their variations impact specific human cell types and disease.
-4. JioStar’s chief architect on AI discovery at 500M-user scale
-→ JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…
-5. ChatGPT Plus for veterans and servicemembers
-→ More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…
-6. Gemini Decisions API: Fast, calibrated multimodal decisions
-→ Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…
+3. Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元
+→ Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。
+4. Gemini 4 Carbon 现已上线
+→ Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。
+5. AlphaGenome 2：解码细胞如何读取 DNA 以理解疾病
+→ 预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。
+6. Apple has new Mac app coming to make running local AI models easy
+→ Apple 正在开发一款名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。
+7. Atuin Threads：跨机器同步所有智能体会话
+→ Atuin Threads 提供一个可搜索、同步的智能体会话历史，方便在不同机器上继续任务。
+8. JioStar 首席架构师谈 5 亿用户规模下的 AI 发现
+→ JioStar 的 Vijay Seshadri 分享了在 5 亿用户规模下进行 AI 发现的经验。
 
 【开源项目】
-7. Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD
-→ Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…
-8. langchain-ai/langchain langchain==1.5.0
-→ 次版本更新。
-9. browser-use/browser-use
-→ Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
-10. FrigadeHQ/yogurt
+9. Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD
+→ vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。
+10. langchain-ai/langchain langchain==1.5.0
+→ langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。
+11. browser-use/browser-use
+→ browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。
+12. FrigadeHQ/yogurt
 → Private AI meeting notes. Free and open source.
-11. How our GTM Agent builds consistent, high-quality sales artifacts
-→ Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…
+13. How our GTM Agent builds consistent, high-quality sales artifacts
+→ LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。
 
 【学术前沿】
-12. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
+14. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
 → Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…
-13. Few-Step Streaming Video Generation via Condition Shifting
+15. Few-Step Streaming Video Generation via Condition Shifting
 → Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…
-14. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…
+16. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…
 → External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…
-15. ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…
+17. ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…
 → External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
 完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-12-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

@@ -1,7 +1,10 @@
 {
  "date": "2026-11-12",
  "generated_at": "2026-11-12T01:31:52Z",
- "llm": null,
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
  "candidates": 466,
  "sources": [
   {
@@ -456,13 +459,17 @@
     "discussion": "https://news.ycombinator.com/item?id=50442303",
     "llm_score": 9.0,
     "excerpt_tried": true,
-    "evidence": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Developers, enterprises, scientists, and consumers can now try our latest frontier model. SVP, Google DeepMind and Chief AI Architect, Google Your browser does not support the audio element. Two weeks ago , we released Carbon to a set of cybersecurity defenders via our Fairwind Program . Following our recent launch of Gemini 4 Argon , Carbon pushes the frontier even further. Argon remains the ideal choice for the majority of software engineering and knowledge work, while Carbon is built for tasks that test the limits of a model’s intelligence like complex, multi-step coding and debugging and open-ended scientific research and discovery — using more tokens than Argon to explore thoroughly,…"
+    "evidence": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Developers, enterprises, scientists, and consumers can now try our latest frontier model. SVP, Google DeepMind and Chief AI Architect, Google Your browser does not support the audio element. Two weeks ago , we released Carbon to a set of cybersecurity defenders via our Fairwind Program . Following our recent launch of Gemini 4 Argon , Carbon pushes the frontier even further. Argon remains the ideal choice for the majority of software engineering and knowledge work, while Carbon is built for tasks that test the limits of a model’s intelligence like complex, multi-step coding and debugging and open-ended scientific research and discovery — using more tokens than Argon to explore thoroughly,…",
+    "llm_done": true
    },
    "id": "e55418bb424c",
    "score": 8.74,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Gemini 4 Carbon 现已上线",
+   "summary_zh": "Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。",
+   "tags": [
+    "模型发布",
+    "Google Deep…"
+   ],
    "also_in": [
     "Hacker News"
    ],
@@ -482,13 +489,17 @@
    "weight": 0.85,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "25575f358142",
    "score": 8.21,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "AlphaGenome 2：解码细胞如何读取 DNA 以理解疾病",
+   "summary_zh": "预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。",
+   "tags": [
+    "论文",
+    "生物科技"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -510,13 +521,18 @@
     "discussion": "https://news.ycombinator.com/item?id=50446520",
     "llm_score": 8.0,
     "excerpt_tried": true,
-    "evidence": "Leaker Aaron Perris has discovered evidence of a new Mac app in the works at Apple that makes it easy to run local AI models. The Mac has been getting a lot more popular this year, both because of budget-friendly options like MacBook Neo but also as a tool for running AI models locally on Mac Studio, Mac mini, and more. It seems Apple plans to lean harder into the latter use case, as leaker Aaron Perris has discovered a new Mac app called Harbor that’s been designed to turn your Mac into a private AI inference server. Here’s Perris’s post on X with the details: Apple is working on a new app called Harbor Harbor turns your Mac into a private AI inference server. Run open-weight models locally on Apple silicon—your data never leaves your hardware, and nothing reaches the cloud. Connect mult…"
+    "evidence": "Leaker Aaron Perris has discovered evidence of a new Mac app in the works at Apple that makes it easy to run local AI models. The Mac has been getting a lot more popular this year, both because of budget-friendly options like MacBook Neo but also as a tool for running AI models locally on Mac Studio, Mac mini, and more. It seems Apple plans to lean harder into the latter use case, as leaker Aaron Perris has discovered a new Mac app called Harbor that’s been designed to turn your Mac into a private AI inference server. Here’s Perris’s post on X with the details: Apple is working on a new app called Harbor Harbor turns your Mac into a private AI inference server. Run open-weight models locally on Apple silicon—your data never leaves your hardware, and nothing reaches the cloud. Connect mult…",
+    "llm_done": true
    },
    "id": "c16a54fe8aae",
    "score": 8.05,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Apple 正在开发一款名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。",
+   "tags": [
+    "模型发布",
+    "本地部署",
+    "苹果"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -537,13 +553,18 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50436640",
     "excerpt_tried": true,
-    "evidence": "Two Amazon engineers swapped Claude Sonnet 4.6 for a decision model in one of the world's biggest internal ticketing systems. For a while, Amazon and AWS teams relied on Claude Sonnet 4.6 to label tickets in an internal system without breaking the bank. Sonnet 4.6 fit the goldilocks choice of balancing intelligence with cost. Considering it dealt with one of the world’s largest internal ticketing systems, the nine month old model did well. However, two Amazon engineers recently swapped out Sonnet 4.6 for Strands Decider , a decision model we launched a month ago, that performed just as well at 98% less cost . This change will save millions of dollars of token costs in a year. Carr and Mehul, who work on the internal ticketing system, walk through how this happened below. We had Sonnet 4.6…"
+    "evidence": "Two Amazon engineers swapped Claude Sonnet 4.6 for a decision model in one of the world's biggest internal ticketing systems. For a while, Amazon and AWS teams relied on Claude Sonnet 4.6 to label tickets in an internal system without breaking the bank. Sonnet 4.6 fit the goldilocks choice of balancing intelligence with cost. Considering it dealt with one of the world’s largest internal ticketing systems, the nine month old model did well. However, two Amazon engineers recently swapped out Sonnet 4.6 for Strands Decider , a decision model we launched a month ago, that performed just as well at 98% less cost . This change will save millions of dollars of token costs in a year. Carr and Mehul, who work on the internal ticketing system, walk through how this happened below. We had Sonnet 4.6…",
+    "llm_done": true
    },
    "id": "215708108cfd",
    "score": 7.87,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元",
+   "summary_zh": "Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。",
+   "tags": [
+    "行业动态",
+    "模型替换",
+    "成本优化"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -564,13 +585,18 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50453637",
     "excerpt_tried": true,
-    "evidence": "Atuin Threads: one searchable, synced history for every agent session, on every machine Start a task in Claude Code, then resume it in Codex Over the past year or two, how I use my terminal has changed dramatically. For years I was the sole user of my shell, and everything in my Atuin history was authored by me. Now, more than half the commands running on my machines weren’t written by me. These days, much of my work happens through a coding agent, typed into a little “Topsy-turvying” text box. But while my shell history follows me everywhere, my agent sessions do not. They're scattered across different tools and machines (a laptop, a dev server, ephemeral instances on exe.dev , a surprisingly cheap bare metal box in Germany), difficult to search, and often forgotten once I've moved on. I…"
+    "evidence": "Atuin Threads: one searchable, synced history for every agent session, on every machine Start a task in Claude Code, then resume it in Codex Over the past year or two, how I use my terminal has changed dramatically. For years I was the sole user of my shell, and everything in my Atuin history was authored by me. Now, more than half the commands running on my machines weren’t written by me. These days, much of my work happens through a coding agent, typed into a little “Topsy-turvying” text box. But while my shell history follows me everywhere, my agent sessions do not. They're scattered across different tools and machines (a laptop, a dev server, ephemeral instances on exe.dev , a surprisingly cheap bare metal box in Germany), difficult to search, and often forgotten once I've moved on. I…",
+    "llm_done": true
    },
    "id": "854ab69c9144",
    "score": 7.72,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Atuin Threads：跨机器同步所有智能体会话",
+   "summary_zh": "Atuin Threads 提供一个可搜索、同步的智能体会话历史，方便在不同机器上继续任务。",
+   "tags": [
+    "工具",
+    "智能体",
+    "会话管理"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -586,13 +612,17 @@
    "weight": 0.9,
    "metrics": {},
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "724511390a57",
    "score": 7.63,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "JioStar 首席架构师谈 5 亿用户规模下的 AI 发现",
+   "summary_zh": "JioStar 的 Vijay Seshadri 分享了在 5 亿用户规模下进行 AI 发现的经验。",
+   "tags": [
+    "行业动态",
+    "OpenAI"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -612,13 +642,17 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50456791",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "4b7190847ad2",
    "score": 7.61,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Gemini Decisions API：快速、校准的多模态决策",
+   "summary_zh": "Google AI 推出基于 Gemini Decision 模型的 API，提供快速且校准的多模态决策能力。",
+   "tags": [
+    "工具发布",
+    "Google AI"
+   ],
    "also_in": [
     "Hacker News"
    ],
@@ -641,13 +675,18 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50455633",
     "excerpt_tried": true,
-    "evidence": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG). Given a… Faster Retrieval for Better, More Efficient RAG As the number of keys grows to millions and vector dimensions reach thousands, the computational cost of running an exhaustive comparison of the query to all keys grows dramatically. Numerous approximate methods have been proposed to trade off accuracy for speed using clustering and quantization. While these baseline methods focus on the properties of the set of keys to build up clever indexing structures, their geometric arguments loosely assume that the set of queries itself will resemble that found in keys, or bypass any considerations about what the queries will look like. This can be problematic on t…"
+    "evidence": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG). Given a… Faster Retrieval for Better, More Efficient RAG As the number of keys grows to millions and vector dimensions reach thousands, the computational cost of running an exhaustive comparison of the query to all keys grows dramatically. Numerous approximate methods have been proposed to trade off accuracy for speed using clustering and quantization. While these baseline methods focus on the properties of the set of keys to build up clever indexing structures, their geometric arguments loosely assume that the set of queries itself will resemble that found in keys, or bypass any considerations about what the queries will look like. This can be problematic on t…",
+    "llm_done": true
    },
    "id": "f49a26309dda",
    "score": 7.61,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "加速检索以提升 RAG 效率",
+   "summary_zh": "文章讨论了在向量维度增加时，如何通过近似方法优化检索性能。",
+   "tags": [
+    "技术",
+    "RAG",
+    "检索优化"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -663,13 +702,17 @@
    "weight": 0.9,
    "metrics": {},
    "extra": {
-    "llm_score": 5.0
+    "llm_score": 5.0,
+    "llm_done": true
    },
    "id": "700082c54602",
    "score": 6.5,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "ChatGPT Plus 免费提供给退伍军人和现役军人",
+   "summary_zh": "超过 20,000 名退伍军人和转业军人已领取了一年的 ChatGPT Plus 免费使用。",
+   "tags": [
+    "行业动态",
+    "OpenAI"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -687,13 +730,18 @@
    "extra": {
     "llm_score": 6.0,
     "excerpt_tried": true,
-    "evidence": "A Blog post by QVAC on Hugging Face Frontier cloud LLMs carry high operational costs that can fluctuate unexpectedly, and relying on such third-party models introduces vulnerabilities, as providers can modify, deny, or deprecate access at any time. Furthermore, proprietary models offer limited customization for specific workflows, while posing risks to privacy, data control, and transparency. Besides, not every task demands frontier-level intelligence: small, specialized agents can be equally capable on specific tasks and significantly cheaper to run, since many routine or smaller workloads can be processed efficiently on-device. As intelligence per parameter continues to improve rapidly, we aim to stand at the forefront of this shift toward performant, privacy-focused, self-hosted models…"
+    "evidence": "A Blog post by QVAC on Hugging Face Frontier cloud LLMs carry high operational costs that can fluctuate unexpectedly, and relying on such third-party models introduces vulnerabilities, as providers can modify, deny, or deprecate access at any time. Furthermore, proprietary models offer limited customization for specific workflows, while posing risks to privacy, data control, and transparency. Besides, not every task demands frontier-level intelligence: small, specialized agents can be equally capable on specific tasks and significantly cheaper to run, since many routine or smaller workloads can be processed efficiently on-device. As intelligence per parameter continues to improve rapidly, we aim to stand at the forefront of this shift toward performant, privacy-focused, self-hosted models…",
+    "llm_done": true
    },
    "id": "09936140454c",
    "score": 6.27,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "BotPsy：端侧个人助理",
+   "summary_zh": "QVAC 发布 BotPsy，一个拥有十亿参数以下的智能体语言模型，旨在降低云端大模型运行成本并提升隐私安全。",
+   "tags": [
+    "模型发布",
+    "端侧部署",
+    "隐私安全"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -709,13 +757,18 @@
    "weight": 0.7,
    "metrics": {},
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "4030459ec2f9",
    "score": 6.99,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。",
+   "tags": [
+    "推理加速",
+    "多模态",
+    "开源工具"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -735,13 +788,18 @@
    },
    "extra": {
     "language": "Python",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "cf269aa52cfc",
    "score": 6.61,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。",
+   "tags": [
+    "开源工具",
+    "浏览器智能体",
+    "Python"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -759,13 +817,18 @@
    "extra": {
     "evidence": "**`langchain` 1.5.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain` 1.4.x. Changes since langchain==1.4.10 release(langchain): 1.5.0 (#41798) fix(langchain): mark `ModelRouterMiddleware` as beta (#41797) feat(langchain): Remove EOL'd Python 3.10 from langchain_v1 (#41301) feat(langchain): add model router and auto mode middleware (#41766) docs(langchain): explain Baseten minimum version (#41777)",
     "level": "minor",
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "d763bb79b5e4",
    "score": 6.44,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。",
+   "tags": [
+    "开源工具",
+    "版本更新",
+    "Python"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -807,13 +870,18 @@
    "weight": 0.6,
    "metrics": {},
    "extra": {
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "c3ded05745eb",
    "score": 6.24,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。",
+   "tags": [
+    "智能体",
+    "销售工具",
+    "行业应用"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1044,8 +1112,8 @@
   "day": "2026-11-12",
   "start": "2026-11-12",
   "end": "2026-11-12",
-  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-  "generated_at": "2026-11-12T01:31:52Z",
+  "title": "Gemini 4 Carbon 现已上线",
+  "generated_at": "2026-11-12T02:40:53Z",
   "models": [
    "glm-4.7-flash"
   ],
@@ -1099,80 +1167,102 @@
    },
    {
     "cat": "overseas",
-    "headline": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "headline": "Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。",
+    "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+    "via": "Hacker News",
+    "id": "215708108cfd",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Gemini 4 Carbon 现已上线",
     "when": "11月11日",
     "date": "2026-11-11",
-    "body": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+    "body": "Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+    "via": "Google DeepMind",
+    "id": "e55418bb424c",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "AlphaGenome 2：解码细胞如何读取 DNA 以理解疾病",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。",
     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
     "via": "Google DeepMind",
     "id": "25575f358142",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "overseas",
-    "headline": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "headline": "Apple has new Mac app coming to make running local AI models easy",
     "when": "11月11日",
     "date": "2026-11-11",
-    "body": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…",
+    "body": "Apple 正在开发一款名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。",
+    "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+    "via": "Hacker News",
+    "id": "c16a54fe8aae",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Atuin Threads：跨机器同步所有智能体会话",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "Atuin Threads 提供一个可搜索、同步的智能体会话历史，方便在不同机器上继续任务。",
+    "url": "https://blog.atuin.sh/threads-agent-sessions/",
+    "via": "Hacker News",
+    "id": "854ab69c9144",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "JioStar 首席架构师谈 5 亿用户规模下的 AI 发现",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "JioStar 的 Vijay Seshadri 分享了在 5 亿用户规模下进行 AI 发现的经验。",
     "url": "https://openai.com/index/jiostar-vijay-seshadri",
     "via": "OpenAI",
     "id": "724511390a57",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "ChatGPT Plus for veterans and servicemembers",
-    "when": "11月11日",
-    "date": "2026-11-11",
-    "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…",
-    "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-    "via": "OpenAI",
-    "id": "700082c54602",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-    "when": "11月12日",
-    "date": "2026-11-12",
-    "body": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-    "via": "Google AI",
-    "id": "4b7190847ad2",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
     "when": "11月11日",
     "date": "2026-11-11",
-    "body": "Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…",
+    "body": "vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。",
     "url": "https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd",
     "via": "vLLM 博客",
     "id": "4030459ec2f9",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "langchain-ai/langchain langchain==1.5.0",
     "when": "11月11日",
     "date": "2026-11-11",
-    "body": "次版本更新。",
+    "body": "langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。",
     "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
     "via": "GitHub 版本发布",
     "id": "d763bb79b5e4",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "browser-use/browser-use",
     "when": "11月12日消息",
     "date": "2026-11-12",
-    "body": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+    "body": "browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。",
     "url": "https://github.com/browser-use/browser-use",
     "via": "GitHub Trending",
     "id": "cf269aa52cfc",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
@@ -1190,11 +1280,11 @@
     "headline": "How our GTM Agent builds consistent, high-quality sales artifacts",
     "when": "11月12日",
     "date": "2026-11-12",
-    "body": "Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…",
+    "body": "LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。",
     "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
     "via": "LangChain 博客",
     "id": "c3ded05745eb",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",

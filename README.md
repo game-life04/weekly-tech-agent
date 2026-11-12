@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.12（周四）
 
-> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-12-kuaixun.md) · [公众号排版版](daily/2026/2026-11-12-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-12.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,7 +22,7 @@
 
 ```text
 【每日科技快讯】11月12日 周四
-今日 AI 与开源要闻 15 条，3 分钟速读
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
@@ -32,41 +32,46 @@
 → 据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。
 
 【海外动态】
-3. AlphaGenome 2: Deciphering how cells read DNA to better understand disease
-→ Predicting how DNA sequences and their variations impact specific human cell types and disease.
-4. JioStar’s chief architect on AI discovery at 500M-user scale
-→ JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…
-5. ChatGPT Plus for veterans and servicemembers
-→ More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…
-6. Gemini Decisions API: Fast, calibrated multimodal decisions
-→ Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…
+3. Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元
+→ Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。
+4. Gemini 4 Carbon 现已上线
+→ Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。
+5. AlphaGenome 2：解码细胞如何读取 DNA 以理解疾病
+→ 预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。
+6. Apple has new Mac app coming to make running local AI models easy
+→ Apple 正在开发一款名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。
+7. Atuin Threads：跨机器同步所有智能体会话
+→ Atuin Threads 提供一个可搜索、同步的智能体会话历史，方便在不同机器上继续任务。
+8. JioStar 首席架构师谈 5 亿用户规模下的 AI 发现
+→ JioStar 的 Vijay Seshadri 分享了在 5 亿用户规模下进行 AI 发现的经验。
 
 【开源项目】
-7. Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD
-→ Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…
-8. langchain-ai/langchain langchain==1.5.0
-→ 次版本更新。
-9. browser-use/browser-use
-→ Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
-10. FrigadeHQ/yogurt
+9. Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD
+→ vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。
+10. langchain-ai/langchain langchain==1.5.0
+→ langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。
+11. browser-use/browser-use
+→ browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。
+12. FrigadeHQ/yogurt
 → Private AI meeting notes. Free and open source.
-11. How our GTM Agent builds consistent, high-quality sales artifacts
-→ Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…
+13. How our GTM Agent builds consistent, high-quality sales artifacts
+→ LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。
 
 【学术前沿】
-12. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
+14. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
 → Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…
-13. Few-Step Streaming Video Generation via Condition Shifting
+15. Few-Step Streaming Video Generation via Condition Shifting
 → Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…
-14. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…
+16. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…
 → External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…
-15. ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…
+17. ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…
 → External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
 完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-12-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
 </details>
@@ -83,25 +88,29 @@
 
 #### 海外动态
 
-**AlphaGenome 2: Deciphering how cells read DNA to better understand disease**<br>11月11日，Predicting how DNA sequences and their variations impact specific human cell types and disease.<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/)）</sub>
+**Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元**<br>11月10日，Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。<br><sub>（来源：[Hacker News](https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/)）</sub>
 
-**JioStar’s chief architect on AI discovery at 500M-user scale**<br>11月11日，JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…<br><sub>（来源：[OpenAI](https://openai.com/index/jiostar-vijay-seshadri)）</sub>
+**Gemini 4 Carbon 现已上线**<br>11月11日，Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/gemini-4-carbon-is-now-available/)）</sub>
 
-**ChatGPT Plus for veterans and servicemembers**<br>11月11日，More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…<br><sub>（来源：[OpenAI](https://openai.com/index/chatgpt-plus-for-veterans)）</sub>
+**AlphaGenome 2：解码细胞如何读取 DNA 以理解疾病**<br>11月11日，预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/)）</sub>
 
-**Gemini Decisions API: Fast, calibrated multimodal decisions**<br>11月12日，Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…<br><sub>（来源：[Google AI](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/)）</sub>
+**Apple has new Mac app coming to make running local AI models easy**<br>11月11日，Apple 正在开发一款名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。<br><sub>（来源：[Hacker News](https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/)）</sub>
+
+**Atuin Threads：跨机器同步所有智能体会话**<br>11月11日，Atuin Threads 提供一个可搜索、同步的智能体会话历史，方便在不同机器上继续任务。<br><sub>（来源：[Hacker News](https://blog.atuin.sh/threads-agent-sessions/)）</sub>
+
+**JioStar 首席架构师谈 5 亿用户规模下的 AI 发现**<br>11月11日，JioStar 的 Vijay Seshadri 分享了在 5 亿用户规模下进行 AI 发现的经验。<br><sub>（来源：[OpenAI](https://openai.com/index/jiostar-vijay-seshadri)）</sub>
 
 #### 开源项目
 
-**Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD**<br>11月11日，Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd)）</sub>
+**Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD**<br>11月11日，vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd)）</sub>
 
-**langchain-ai/langchain langchain==1.5.0**<br>11月11日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0)）</sub>
+**langchain-ai/langchain langchain==1.5.0**<br>11月11日，langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。<br><sub>（来源：[GitHub 版本发布](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0)）</sub>
 
-**browser-use/browser-use**<br>11月12日消息，Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.<br><sub>（来源：[GitHub Trending](https://github.com/browser-use/browser-use)）</sub>
+**browser-use/browser-use**<br>11月12日消息，browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。<br><sub>（来源：[GitHub Trending](https://github.com/browser-use/browser-use)）</sub>
 
 **FrigadeHQ/yogurt**<br>11月12日消息，Private AI meeting notes. Free and open source.<br><sub>（来源：[GitHub 新项目](https://github.com/FrigadeHQ/yogurt)）</sub>
 
-**How our GTM Agent builds consistent, high-quality sales artifacts**<br>11月12日，Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts)）</sub>
+**How our GTM Agent builds consistent, high-quality sales artifacts**<br>11月12日，LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts)）</sub>
 
 #### 学术前沿
 
@@ -117,7 +126,7 @@
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>俱乐部动态的统计日期为11月11日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-12 09:31（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月11日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-12 10:40（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 
