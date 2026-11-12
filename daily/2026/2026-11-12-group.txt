@@ -1,0 +1,46 @@
+【每日科技快讯】11月12日 周四
+今日 AI 与开源要闻 15 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
+
+【政策动向】
+2. “十五五”时期我国将深化拓展“人工智能+”行动
+→ 据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。
+
+【海外动态】
+3. AlphaGenome 2: Deciphering how cells read DNA to better understand disease
+→ Predicting how DNA sequences and their variations impact specific human cell types and disease.
+4. JioStar’s chief architect on AI discovery at 500M-user scale
+→ JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…
+5. ChatGPT Plus for veterans and servicemembers
+→ More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…
+6. Gemini Decisions API: Fast, calibrated multimodal decisions
+→ Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…
+
+【开源项目】
+7. Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD
+→ Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…
+8. langchain-ai/langchain langchain==1.5.0
+→ 次版本更新。
+9. browser-use/browser-use
+→ Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
+10. FrigadeHQ/yogurt
+→ Private AI meeting notes. Free and open source.
+11. How our GTM Agent builds consistent, high-quality sales artifacts
+→ Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…
+
+【学术前沿】
+12. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
+→ Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…
+13. Few-Step Streaming Video Generation via Condition Shifting
+→ Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…
+14. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…
+→ External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…
+15. ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…
+→ External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-12-kuaixun.md

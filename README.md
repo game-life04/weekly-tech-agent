@@ -12,60 +12,61 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.11（周三）
+## 每日快讯 · 11.12（周四）
 
 > 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-11-kuaixun.md) · [公众号排版版](daily/2026/2026-11-11-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-11.md) · [往期日报](daily/README.md)
+> [单独打开](daily/2026/2026-11-12-kuaixun.md) · [公众号排版版](daily/2026/2026-11-12-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-12.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月11日 周三
+【每日科技快讯】11月12日 周四
 今日 AI 与开源要闻 15 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 4 个 PR、提交 2 次
-2. homebrew-tap 合并 3 个 PR
-3. AtomGit-Mobile4Android 合并 1 个 PR
+1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
 
-【国内动态】
-4. MiniMax 开源 H3 Image 模型
-→ MiniMax 开源 H3 Image 模型，被称作最强开源模型。
+【政策动向】
+2. “十五五”时期我国将深化拓展“人工智能+”行动
+→ 据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。
 
 【海外动态】
-5. Muse Ember：最小且高效的模型
-→ Muse Ember 是专为复杂推理设计的最小模型，性价比优于 Claude Haiku 5.5 或 GPT-6 Luna。
-6. Claude Whiteboards、Claude Sheets 和 Claude Data
-→ Claude 推出白板、电子表格和数据仪表盘功能，支持团队协作。
+3. AlphaGenome 2: Deciphering how cells read DNA to better understand disease
+→ Predicting how DNA sequences and their variations impact specific human cell types and disease.
+4. JioStar’s chief architect on AI discovery at 500M-user scale
+→ JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…
+5. ChatGPT Plus for veterans and servicemembers
+→ More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…
+6. Gemini Decisions API: Fast, calibrated multimodal decisions
+→ Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…
 
 【开源项目】
-7. MinerU 发布 4.2.0 版本
-→ MinerU 4.2.0 升级了 WebUI 交互与结果溯源，改善了复杂 PDF、公式和表格的解析质量。
-8. Modern Web Guidance：现代 Web 最佳实践
-→ Modern Web Guidance 帮助编码代理遵循最新的 Web 最佳实践，引导其远离遗留模式。
-9. ha-mcp：配置 Home Assistant
-→ ha-mcp 使用 Claude、ChatGPT 等助手配置和自动化 Home Assistant。
-10. agent-skills：AI 编码代理技能
-→ agent-skills 提供生产级的工程技能，帮助 AI 编码代理提升代码质量。
-11. OpenSandbox：AI 代理沙箱运行时
-→ OpenSandbox 是一个安全、快速且可扩展的沙箱运行时，用于 AI 代理。
+7. Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD
+→ Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…
+8. langchain-ai/langchain langchain==1.5.0
+→ 次版本更新。
+9. browser-use/browser-use
+→ Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.
+10. FrigadeHQ/yogurt
+→ Private AI meeting notes. Free and open source.
+11. How our GTM Agent builds consistent, high-quality sales artifacts
+→ Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…
 
 【学术前沿】
-12. Sage-Taiyi：元认知科学发现架构
-→ Sage-Taiyi 是一种受元认知启发的架构，利用积累的科学理解来指导研究。
-13. DeepMind 验证 Signal 核心加密
-→ DeepMind 的 AlphaProof Code 代理在 Lean 中编写了三百万行证明来验证 Signal 的核心加密。
-14. WorldFoundry：世界智能统一基础设施
-→ WorldFoundry 定义了一个生成式世界模型，它维护环境的持久状态表示，并生成连贯轨迹。
-15. P^2-MOPD 加速多教师策略蒸馏
-→ P^2-MOPD 将学生和专家参数的线性组合视为可微模型，通过联合优化混合系数和学生权重来加速多教师策略蒸馏，使专家充当参数先验。
+12. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
+→ Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…
+13. Few-Step Streaming Video Generation via Condition Shifting
+→ Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…
+14. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…
+→ External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…
+15. ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…
+→ External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-11-kuaixun.md
-标题和要点由 AI 整理，可能有误，请以原文为准。
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-12-kuaixun.md
 ```
 
 </details>
@@ -74,49 +75,49 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 4 个 PR、提交 2 次**<br>11月10日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 4 个，提交 2 次，新增代码 594 行、删除 264 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 0 个 PR、提交 0 次**<br>11月11日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 0 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**homebrew-tap 合并 3 个 PR**<br>11月10日，Agent SIG的 homebrew-tap 仓库新增 PR 1 个、合并 3 个、提交 1 次，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/homebrew-tap)）</sub>
+#### 政策动向
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月10日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 594 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
-
-#### 国内动态
-
-**MiniMax 开源 H3 Image 模型**<br>11月11日，MiniMax 开源 H3 Image 模型，被称作最强开源模型。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/11/other/admin/123309/%e7%aa%81%e5%8f%91%ef%bc%81%e3%80%8c%e6%ba%90%e7%a5%9e%e3%80%8d-minimax-%e5%bc%80%e6%ba%90h3-image%ef%bc%8c%e6%9c%80%e5%bc%ba%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%ad%e5%9b%bd%e9%80%a0/)）</sub>
+**“十五五”时期我国将深化拓展“人工智能+”行动**<br>11月11日，据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。<br><sub>（来源：[中国政府网](https://www.gov.cn/yaowen/liebiao/202611/content_7085824.htm)）</sub>
 
 #### 海外动态
 
-**Muse Ember：最小且高效的模型**<br>11月10日，Muse Ember 是专为复杂推理设计的最小模型，性价比优于 Claude Haiku 5.5 或 GPT-6 Luna。<br><sub>（来源：[Hacker News](https://research.meta.ai/blog/muse-ember)）</sub>
+**AlphaGenome 2: Deciphering how cells read DNA to better understand disease**<br>11月11日，Predicting how DNA sequences and their variations impact specific human cell types and disease.<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/)）</sub>
 
-**Claude Whiteboards、Claude Sheets 和 Claude Data**<br>11月11日，Claude 推出白板、电子表格和数据仪表盘功能，支持团队协作。<br><sub>（来源：[Hacker News](https://claude.com/resources/articles/sheets-whiteboards-data)）</sub>
+**JioStar’s chief architect on AI discovery at 500M-user scale**<br>11月11日，JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…<br><sub>（来源：[OpenAI](https://openai.com/index/jiostar-vijay-seshadri)）</sub>
+
+**ChatGPT Plus for veterans and servicemembers**<br>11月11日，More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…<br><sub>（来源：[OpenAI](https://openai.com/index/chatgpt-plus-for-veterans)）</sub>
+
+**Gemini Decisions API: Fast, calibrated multimodal decisions**<br>11月12日，Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…<br><sub>（来源：[Google AI](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/)）</sub>
 
 #### 开源项目
 
-**MinerU 发布 4.2.0 版本**<br>11月10日，MinerU 4.2.0 升级了 WebUI 交互与结果溯源，改善了复杂 PDF、公式和表格的解析质量。<br><sub>（来源：[GitHub 版本发布](https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.0-released)）</sub>
+**Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD**<br>11月11日，Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd)）</sub>
 
-**Modern Web Guidance：现代 Web 最佳实践**<br>11月11日，Modern Web Guidance 帮助编码代理遵循最新的 Web 最佳实践，引导其远离遗留模式。<br><sub>（来源：[Hacker News](https://github.com/GoogleChrome/modern-web-guidance)）</sub>
+**langchain-ai/langchain langchain==1.5.0**<br>11月11日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0)）</sub>
 
-**ha-mcp：配置 Home Assistant**<br>11月11日消息，ha-mcp 使用 Claude、ChatGPT 等助手配置和自动化 Home Assistant。<br><sub>（来源：[GitHub Trending](https://github.com/homeassistant-ai/ha-mcp)）</sub>
+**browser-use/browser-use**<br>11月12日消息，Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.<br><sub>（来源：[GitHub Trending](https://github.com/browser-use/browser-use)）</sub>
 
-**agent-skills：AI 编码代理技能**<br>11月11日消息，agent-skills 提供生产级的工程技能，帮助 AI 编码代理提升代码质量。<br><sub>（来源：[GitHub Trending](https://github.com/addyosmani/agent-skills)）</sub>
+**FrigadeHQ/yogurt**<br>11月12日消息，Private AI meeting notes. Free and open source.<br><sub>（来源：[GitHub 新项目](https://github.com/FrigadeHQ/yogurt)）</sub>
 
-**OpenSandbox：AI 代理沙箱运行时**<br>11月11日消息，OpenSandbox 是一个安全、快速且可扩展的沙箱运行时，用于 AI 代理。<br><sub>（来源：[GitHub Trending](https://github.com/opensandbox-group/OpenSandbox)）</sub>
+**How our GTM Agent builds consistent, high-quality sales artifacts**<br>11月12日，Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts)）</sub>
 
 #### 学术前沿
 
-**Sage-Taiyi：元认知科学发现架构**<br>11月9日，Sage-Taiyi 是一种受元认知启发的架构，利用积累的科学理解来指导研究。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.12762)）</sub>
+**Tree-Ising: Repairing Language Models with Bit-Level Ising Edits**<br>11月10日，Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.14210)）</sub>
 
-**DeepMind 验证 Signal 核心加密**<br>11月10日，DeepMind 的 AlphaProof Code 代理在 Lean 中编写了三百万行证明来验证 Signal 的核心加密。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/introducing-alphaproof-code/)）</sub>
+**Few-Step Streaming Video Generation via Condition Shifting**<br>11月10日，Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.14033)）</sub>
 
-**WorldFoundry：世界智能统一基础设施**<br>11月11日消息，WorldFoundry 定义了一个生成式世界模型，它维护环境的持久状态表示，并生成连贯轨迹。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.10771)）</sub>
+**Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…**<br>11月11日，External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.14320)）</sub>
 
-**P^2-MOPD 加速多教师策略蒸馏**<br>11月11日消息，P^2-MOPD 将学生和专家参数的线性组合视为可微模型，通过联合优化混合系数和学生权重来加速多教师策略蒸馏，使专家充当参数先验。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.03953)）</sub>
+**ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…**<br>11月12日消息，External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.10175)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月10日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-11 09:31（北京时间）自动生成。</sub>
+<sub>俱乐部动态的统计日期为11月11日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-12 09:31（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 

@@ -1,0 +1,1255 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T01:31:52Z",
+ "llm": null,
+ "candidates": 466,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 63,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 3.1
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 28.3
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 13.1
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 6.7
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 6.5
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 36,
+   "error": "",
+   "seconds": 9.5
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 331,
+   "error": "",
+   "seconds": 22.9
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 18.6
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 33,
+   "error": "",
+   "seconds": 20.3
+  }
+ ],
+ "items": [
+  {
+   "title": "Gemini 4 Carbon is now available",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-10T16:03:47Z",
+   "summary": "",
+   "heat": 0.913,
+   "weight": 0.85,
+   "metrics": {
+    "points": 291.0,
+    "comments": 164.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50442303",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers. Developers, enterprises, scientists, and consumers can now try our latest frontier model. SVP, Google DeepMind and Chief AI Architect, Google Your browser does not support the audio element. Two weeks ago , we released Carbon to a set of cybersecurity defenders via our Fairwind Program . Following our recent launch of Gemini 4 Argon , Carbon pushes the frontier even further. Argon remains the ideal choice for the majority of software engineering and knowledge work, while Carbon is built for tasks that test the limits of a model’s intelligence like complex, multi-step coding and debugging and open-ended scientific research and discovery — using more tokens than Argon to explore thoroughly,…"
+   },
+   "id": "e55418bb424c",
+   "score": 8.74,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": [
+    "1eb783cac913"
+   ]
+  },
+  {
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-11T15:00:15Z",
+   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "25575f358142",
+   "score": 8.21,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Apple has new Mac app coming to make running local AI models easy",
+   "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-10T21:25:03Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 516.0,
+    "comments": 525.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50446520",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Leaker Aaron Perris has discovered evidence of a new Mac app in the works at Apple that makes it easy to run local AI models. The Mac has been getting a lot more popular this year, both because of budget-friendly options like MacBook Neo but also as a tool for running AI models locally on Mac Studio, Mac mini, and more. It seems Apple plans to lean harder into the latter use case, as leaker Aaron Perris has discovered a new Mac app called Harbor that’s been designed to turn your Mac into a private AI inference server. Here’s Perris’s post on X with the details: Apple is working on a new app called Harbor Harbor turns your Mac into a private AI inference server. Run open-weight models locally on Apple silicon—your data never leaves your hardware, and nothing reaches the cloud. Connect mult…"
+   },
+   "id": "c16a54fe8aae",
+   "score": 8.05,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-10T06:01:08Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 720.0,
+    "comments": 257.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50436640",
+    "excerpt_tried": true,
+    "evidence": "Two Amazon engineers swapped Claude Sonnet 4.6 for a decision model in one of the world's biggest internal ticketing systems. For a while, Amazon and AWS teams relied on Claude Sonnet 4.6 to label tickets in an internal system without breaking the bank. Sonnet 4.6 fit the goldilocks choice of balancing intelligence with cost. Considering it dealt with one of the world’s largest internal ticketing systems, the nine month old model did well. However, two Amazon engineers recently swapped out Sonnet 4.6 for Strands Decider , a decision model we launched a month ago, that performed just as well at 98% less cost . This change will save millions of dollars of token costs in a year. Carr and Mehul, who work on the internal ticketing system, walk through how this happened below. We had Sonnet 4.6…"
+   },
+   "id": "215708108cfd",
+   "score": 7.87,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Atuin Threads: All your agent sessions on every machine",
+   "url": "https://blog.atuin.sh/threads-agent-sessions/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-11T14:10:46Z",
+   "summary": "",
+   "heat": 0.845,
+   "weight": 0.6,
+   "metrics": {
+    "points": 190.0,
+    "comments": 72.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50453637",
+    "excerpt_tried": true,
+    "evidence": "Atuin Threads: one searchable, synced history for every agent session, on every machine Start a task in Claude Code, then resume it in Codex Over the past year or two, how I use my terminal has changed dramatically. For years I was the sole user of my shell, and everything in my Atuin history was authored by me. Now, more than half the commands running on my machines weren’t written by me. These days, much of my work happens through a coding agent, typed into a little “Topsy-turvying” text box. But while my shell history follows me everywhere, my agent sessions do not. They're scattered across different tools and machines (a laptop, a dev server, ephemeral instances on exe.dev , a surprisingly cheap bare metal box in Germany), difficult to search, and often forgotten once I've moved on. I…"
+   },
+   "id": "854ab69c9144",
+   "score": 7.72,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-11T00:00:00Z",
+   "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "724511390a57",
+   "score": 7.63,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google AI",
+   "published": "2026-11-11T18:00:00Z",
+   "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+   "heat": 0.896,
+   "weight": 0.75,
+   "metrics": {
+    "points": 262.0,
+    "comments": 81.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50456791",
+    "llm_score": 7.0
+   },
+   "id": "4b7190847ad2",
+   "score": 7.61,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Faster Retrieval for Better, More Efficient RAG",
+   "url": "https://machinelearning.apple.com/research/faster-retrieval",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-11T16:57:45Z",
+   "summary": "",
+   "heat": 0.809,
+   "weight": 0.6,
+   "metrics": {
+    "points": 152.0,
+    "comments": 26.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50455633",
+    "excerpt_tried": true,
+    "evidence": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG). Given a… Faster Retrieval for Better, More Efficient RAG As the number of keys grows to millions and vector dimensions reach thousands, the computational cost of running an exhaustive comparison of the query to all keys grows dramatically. Numerous approximate methods have been proposed to trade off accuracy for speed using clustering and quantization. While these baseline methods focus on the properties of the set of keys to build up clever indexing structures, their geometric arguments loosely assume that the set of queries itself will resemble that found in keys, or bypass any considerations about what the queries will look like. This can be problematic on t…"
+   },
+   "id": "f49a26309dda",
+   "score": 7.61,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-11T08:00:00Z",
+   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 5.0
+   },
+   "id": "700082c54602",
+   "score": 6.5,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "url": "https://huggingface.co/blog/qvac/botpsy",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-11-11T05:01:16Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by QVAC on Hugging Face Frontier cloud LLMs carry high operational costs that can fluctuate unexpectedly, and relying on such third-party models introduces vulnerabilities, as providers can modify, deny, or deprecate access at any time. Furthermore, proprietary models offer limited customization for specific workflows, while posing risks to privacy, data control, and transparency. Besides, not every task demands frontier-level intelligence: small, specialized agents can be equally capable on specific tasks and significantly cheaper to run, since many routine or smaller workloads can be processed efficiently on-device. As intelligence per parameter continues to improve rapidly, we aim to stand at the forefront of this shift toward performant, privacy-focused, self-hosted models…"
+   },
+   "id": "09936140454c",
+   "score": 6.27,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
+   "url": "https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-11T00:00:00Z",
+   "summary": "Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote embedding transfer, cross-encoder caching, and lower-overhead EPD routing.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "4030459ec2f9",
+   "score": 6.99,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "browser-use/browser-use",
+   "url": "https://github.com/browser-use/browser-use",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+   "heat": 0.644,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 172.0,
+    "stars": 120743.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0
+   },
+   "id": "cf269aa52cfc",
+   "score": 6.61,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "langchain-ai/langchain langchain==1.5.0",
+   "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-11T15:47:22Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "**`langchain` 1.5.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain` 1.4.x. Changes since langchain==1.4.10 release(langchain): 1.5.0 (#41798) fix(langchain): mark `ModelRouterMiddleware` as beta (#41797) feat(langchain): Remove EOL'd Python 3.10 from langchain_v1 (#41301) feat(langchain): add model router and auto mode middleware (#41766) docs(langchain): explain Baseten minimum version (#41777)",
+    "level": "minor",
+    "llm_score": 6.0
+   },
+   "id": "d763bb79b5e4",
+   "score": 6.44,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "FrigadeHQ/yogurt",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Private AI meeting notes. Free and open source.",
+   "heat": 0.824,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 414.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 1,
+    "llm_score": 6.0
+   },
+   "id": "65bb0dae27a7",
+   "score": 6.25,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How our GTM Agent builds consistent, high-quality sales artifacts",
+   "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-11T18:27:26Z",
+   "summary": "Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business context.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0
+   },
+   "id": "c3ded05745eb",
+   "score": 6.24,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MiniMaxAI/MiniMax-H3-Image",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "文生图模型，许可证 other",
+   "heat": 0.819,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 723.0,
+    "downloads": 142989.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/MiniMaxAI/MiniMax-H3-Image"
+     ]
+    ],
+    "llm_score": 6.0
+   },
+   "id": "46a9ff30f52a",
+   "score": 6.24,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "garrytan/gbrain",
+   "url": "https://github.com/garrytan/gbrain",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+   "heat": 0.687,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 243.0,
+    "stars": 32701.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 6.0
+   },
+   "id": "e0e2cc7e249c",
+   "score": 6.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Sandflow-ai/sand3d",
+   "url": "https://github.com/Sandflow-ai/sand3d",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "3D modeling in Python, built for LLMs.",
+   "heat": 0.745,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1856.0
+   },
+   "extra": {
+    "language": "HTML",
+    "age_days": 8,
+    "llm_score": 6.0
+   },
+   "id": "a769c6d51a07",
+   "score": 6.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ASCENT: Scale-Complementary External State for Frozen Long-Context Language Models",
+   "url": "https://arxiv.org/abs/2611.10175",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-06T19:54:55Z",
+   "summary": "External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memory utility at a single model scale. This paper formulates scale complementarity: the absolute gain from external state increases when reader capacity and a compact state budget are jointly scaled. ASCENT realizes this principle with a target-blind causal writer, nested typed state, and a bounded query-conditioned readout; every language model remains frozen. Under log loss, the value of a nested refinement equals its target-relevant conditional information; a full factorial makes the reader-by-state interaction identifiable. Official 16K BABILong experiments show Qwen2.5 accuracy gains of 10.50, 78.88, and 82.63 percentage points at 0.5B, 1.5B, and 3B parameters, with both adjacent directional contrasts significant after family-wise correction. At 7B, Foundation accuracy rises to 33.25% while four-slot ASCENT answers every question, which caps the gain at 66.75 points; the 3B-to-7B accuracy increment is -15.88 points [-20.55, -11.20]. The accuracy-side claim is therefore established from 0.5B to 3B; the 7B conclusion rests on the non-saturated negative-log-likelihood factorial. A three-model by three-state factorial yields co-scaled negative log-likelihood gains of 0.388, 2.099, and 7.406 nats at 1.5B, 3B, and 7B; all interaction and gain contrasts retain positive simultaneous lower bounds. Five public 7B-8B readers obtain 66.75-85.63 point gains, and ASCENT…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 9.0
+   },
+   "id": "b5e88360fa0d",
+   "score": 7.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+   "url": "https://arxiv.org/abs/2611.14320",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-10T16:46:59Z",
+   "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled only with task success or failure, yet are typically provided without the trajectories they came from, leaving the agent no way to check them. To address this, we introduce WikiTrace, an evidence-linked memory system designed to let agents check each lesson against its original trajectory. Specifically, motivated by the finding that a trajectory often still holds the evidence needed to catch an erroneous lesson, WikiTrace stores each lesson as a concise insight linked to a summary of why its trajectory succeeded or failed and to the raw trajectory itself. Then, on a new task, the agent starts from all insights and, whenever one lacks details needed to act, conflicts with another, or comes from a failed task, descends through its links with terminal tools to fill in missing details or correct the insight before acting. We validate WikiTrace on five agentic benchmarks, showing that it consistently outperforms existing memory approaches and a baseline given the same insights alone, while also reducing memory-induced degradation. Our code is available at https://github.c…",
+   "heat": 0.682,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 48.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/yukyeongleee/wikitrace"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "7a3b1b2f654c",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+   "url": "https://arxiv.org/abs/2611.14210",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-10T00:00:00Z",
+   "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own BF16 weights. Forward statistics define an objective that weakens a loop direction, strengthens a concluding direction, and preserves the layer's output on productive tokens. Within a state-tree representation, where lossless BF16 storage acts as a special case, the admissible edits are sign flips and exponent shifts that preserve all shared group exponents and mantissas. We decompose this objective exactly into independent QUBO (Ising) problems, one per output row, which we solve on a GPU using simulated annealing or quantum-inspired simulated bifurcation. On the agent's two layers, Tree-Ising achieves 54.6% on MATH-500, outperforming the agent's edit (51.7%) under the same evaluation protocol, while the base model scores 7.9% as reported. The simulated bifurcation solver yields a statistically indistinguishable repair at 55.1%. Both solvers outperform the agent edit across all five math benchmarks, with statistically significant improvements on MATH-500 and GSM8K after correcting for multiple comparisons. Our approach modifies 13% to 17% fewer weights and reduce…",
+   "heat": 0.759,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 75.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/TheQuantumGOAT/Tree-Ising"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "c0ca62487255",
+   "score": 6.83,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Few-Step Streaming Video Generation via Condition Shifting",
+   "url": "https://arxiv.org/abs/2611.14033",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-10T00:00:00Z",
+   "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text condition selects generation, while a shifted condition selects fake estimation using the same parameters. This removes the independent fake network while retaining S2-Avatar's frozen reference teacher, Self-Replay Forcing, and perceptual regularization. We evaluate APEX on 180-second videos using three backbone evaluations per block and a one-step spatial Refiner, with a 70-case human study and a 320-case StreamAV-Bench comparison. Compared with S2-Avatar, APEX achieves higher video instruction fulfillment on the Progressive track (3.856 versus 3.831) and higher visual aesthetics across both tracks (0.641898 versus 0.632606). Human raters favor APEX most strongly on instruction following, with +30.0% net preference, followed by consistency and video quality at +4.3% each. Motion quality favors S2-Avatar, audiovisual synchronization is predominantly tied, and usability is unchanged. Separate measurements under matched training settings show 4.4% lower peak allocated GPU memory per GPU and 9.2% shorter mean iteration time than DMD.",
+   "heat": 0.737,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 66.0
+   },
+   "extra": {
+    "llm_score": 6.0
+   },
+   "id": "04dc57421a57",
+   "score": 6.19,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+   "url": "https://arxiv.org/abs/2611.11995",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-09T07:24:54Z",
+   "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation horizon, while 135 of the 150 runs achieve further improvements during the second half of their budgets. These findings indicate that shorter evaluations can overlook both optimization gains and changes in relative model performance. We also find agents can discover solutions that outperform human-designed baselines: Claude Opus 5.5 increases the mean KV-cache compression ratio from 6.82% with the human-designed Quant-VideoGen codec to 19.86%. Analysis of agent trajectories identifies task violations, unreliable testing, and premature completion as barriers to sustained improvement. Together, Our Infrathon framework provide resources for constructing long-horizon tasks, evaluating frontier agents, and discovering good infrastructure solutions.",
+   "heat": 0.618,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 33.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/InfrathonX/Infrathon"
+     ]
+    ],
+    "llm_score": 6.0
+   },
+   "id": "122e19513905",
+   "score": 6.1,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-12",
+  "start": "2026-11-12",
+  "end": "2026-11-12",
+  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+  "generated_at": "2026-11-12T01:31:52Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 24,
+  "club_period": {
+   "start": "2026-11-11",
+   "end": "2026-11-11"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 0 个 PR、提交 0 次",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 0 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "policy",
+    "headline": "“十五五”时期我国将深化拓展“人工智能+”行动",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。",
+    "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085824.htm",
+    "via": "中国政府网",
+    "id": "c89e81c1799c",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "via": "Google DeepMind",
+    "id": "25575f358142",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "JioStar’s chief architect on AI discovery at 500M-user scale",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI…",
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "via": "OpenAI",
+    "id": "724511390a57",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "ChatGPT Plus for veterans and servicemembers",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use…",
+    "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+    "via": "OpenAI",
+    "id": "700082c54602",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal de…",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "via": "Google AI",
+    "id": "4b7190847ad2",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "Recent advances in vLLM encoder disaggregation: metadata-only multimodal requests, dedicated encoder execution, remote…",
+    "url": "https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd",
+    "via": "vLLM 博客",
+    "id": "4030459ec2f9",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "langchain-ai/langchain langchain==1.5.0",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "次版本更新。",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+    "via": "GitHub 版本发布",
+    "id": "d763bb79b5e4",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "browser-use/browser-use",
+    "when": "11月12日消息",
+    "date": "2026-11-12",
+    "body": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+    "url": "https://github.com/browser-use/browser-use",
+    "via": "GitHub Trending",
+    "id": "cf269aa52cfc",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "FrigadeHQ/yogurt",
+    "when": "11月12日消息",
+    "date": "2026-11-12",
+    "body": "Private AI meeting notes. Free and open source.",
+    "url": "https://github.com/FrigadeHQ/yogurt",
+    "via": "GitHub 新项目",
+    "id": "65bb0dae27a7",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "How our GTM Agent builds consistent, high-quality sales artifacts",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "Learn how LangChain built GTM Agent on Deep Agents to build high-quality, custom sales artifacts trained on business co…",
+    "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+    "via": "LangChain 博客",
+    "id": "c3ded05745eb",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…",
+    "url": "https://arxiv.org/abs/2611.14210",
+    "via": "Hugging Face 热门论文",
+    "id": "c0ca62487255",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Few-Step Streaming Video Generation via Condition Shifting",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…",
+    "url": "https://arxiv.org/abs/2611.14033",
+    "via": "Hugging Face 热门论文",
+    "id": "04dc57421a57",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…",
+    "url": "https://arxiv.org/abs/2611.14320",
+    "via": "arXiv · 智能体",
+    "id": "7a3b1b2f654c",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…",
+    "when": "11月12日消息",
+    "date": "2026-11-12",
+    "body": "External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…",
+    "url": "https://arxiv.org/abs/2611.10175",
+    "via": "arXiv · 长上下文与检索",
+    "id": "b5e88360fa0d",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
