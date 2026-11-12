@@ -1,48 +1,44 @@
 【每日科技快讯】11月12日 周四
-今日 AI 与开源要闻 17 条，3 分钟速读
+今日 AI 与开源要闻 14 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
 
 【政策动向】
-2. “十五五”时期我国将深化拓展“人工智能+”行动
-→ 据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。
+2. 国家发改委提出深化拓展“人工智能+”行动
+→ 国家发展改革委表示我国人工智能发展速度、应用规模全球领先，在塑造经济发展新动能、增进民生福祉、提升政府治理水平方面取得积极成效。
 
 【海外动态】
-3. Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元
-→ Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。
-4. Gemini 4 Carbon 现已上线
+3. Gemini 4 Carbon 现已上线
 → Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。
-5. AlphaGenome 2：解码细胞如何读取 DNA 以理解疾病
-→ 预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。
-6. Apple has new Mac app coming to make running local AI models easy
-→ Apple 正在开发一款名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。
-7. Atuin Threads：跨机器同步所有智能体会话
-→ Atuin Threads 提供一个可搜索、同步的智能体会话历史，方便在不同机器上继续任务。
-8. JioStar 首席架构师谈 5 亿用户规模下的 AI 发现
-→ JioStar 的 Vijay Seshadri 分享了在 5 亿用户规模下进行 AI 发现的经验。
+4. Google AI 推出 Gemini Decisions API
+→ Google AI 推出基于 Gemini Decision 模型的 API，提供快速且校准的多模态决策能力。
 
 【开源项目】
-9. Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD
+5. vLLM 推出编码器解耦技术 EPD
 → vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。
-10. langchain-ai/langchain langchain==1.5.0
+6. langchain 发布 1.5.0 版本
 → langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。
-11. browser-use/browser-use
+7. QVAC 发布 BotPsy 端侧个人助理
+→ QVAC 发布 BotPsy，一个拥有十亿参数以下的智能体语言模型，旨在降低云端大模型运行成本并提升隐私安全。
+8. browser-use：AI 浏览器智能体库
 → browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。
-12. FrigadeHQ/yogurt
-→ Private AI meeting notes. Free and open source.
-13. How our GTM Agent builds consistent, high-quality sales artifacts
-→ LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。
+9. yogurt：私有 AI 会议记录
+→ yogert 是一个免费开源的私有 AI 会议记录工具。
 
 【学术前沿】
-14. Tree-Ising: Repairing Language Models with Bit-Level Ising Edits
-→ Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…
-15. Few-Step Streaming Video Generation via Condition Shifting
-→ Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…
-16. Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…
-→ External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…
-17. ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…
-→ External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…
+10. Tree-Ising：位级 Ising 编辑修复模型
+→ 论文提出 Tree-Ising 方法，将语言模型修复转化为稀疏离散优化问题，在 MATH-500 基准测试中达到 54.6%。
+11. Google DeepMind 发布 AlphaGenome 2
+→ Google DeepMind 发布 AlphaGenome 2，用于预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。
+12. WikiTrace：证据链接记忆系统
+→ 论文提出 WikiTrace 证据链接记忆系统，将记忆与原始轨迹关联，减少记忆诱导的退化。
+13. ASCENT：长上下文模型外部状态
+→ 论文提出互补缩放原理，通过目标盲因果写入器和嵌套类型状态实现，所有语言模型保持冻结。
+
+【产业纵横】
+14. OpenAI 分享 JioStar 5 亿用户规模下的 AI 发现经验
+→ OpenAI 分享了 JioStar 在 5 亿用户规模下进行 AI 发现的经验，包括评估和护栏设置。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿

@@ -848,7 +848,8 @@
    "extra": {
     "language": "TypeScript",
     "age_days": 1,
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "65bb0dae27a7",
    "score": 6.25,
@@ -906,7 +907,8 @@
       "https://hf-mirror.com/MiniMaxAI/MiniMax-H3-Image"
      ]
     ],
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "46a9ff30f52a",
    "score": 6.24,
@@ -932,7 +934,8 @@
    },
    "extra": {
     "language": "TypeScript",
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "e0e2cc7e249c",
    "score": 6.09,
@@ -958,7 +961,8 @@
    "extra": {
     "language": "HTML",
     "age_days": 8,
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "a769c6d51a07",
    "score": 6.09,
@@ -982,13 +986,17 @@
     "upvotes": 0.0
    },
    "extra": {
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "b5e88360fa0d",
    "score": 7.09,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "ASCENT：长上下文模型的互补外部状态",
+   "summary_zh": "论文提出互补缩放原理，旨在解决长上下文模型在单一规模下的记忆效用评估问题。方法通过目标盲因果写入器和嵌套类型状态实现，所有语言模型保持冻结。实验在16K BABILong数据集上验证，模型参数从0.5B到3B时准确率增益分别为10.50、78.88和82.63个百分点。",
+   "tags": [
+    "长上下文",
+    "评测"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1012,13 +1020,17 @@
       "https://github.com/yukyeongleee/wikitrace"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "7a3b1b2f654c",
    "score": 7.02,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "论文针对LLM智能体因错误记忆导致性能下降的问题，提出WikiTrace证据链接记忆系统。该方法将记忆与原始轨迹关联，允许智能体在执行前检查并修正记忆。在五个智能体基准测试中，WikiTrace consistently outperforms现有方法，同时减少了记忆诱导的退化。",
+   "tags": [
+    "智能体",
+    "记忆"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1042,13 +1054,17 @@
       "https://github.com/TheQuantumGOAT/Tree-Ising"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "c0ca62487255",
    "score": 6.83,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Tree-Ising：基于位级Ising编辑修复语言模型",
+   "summary_zh": "论文提出Tree-Ising方法，将语言模型修复转化为稀疏离散优化问题。通过定义目标函数和状态树表示，使用模拟退火或量子启发模拟分叉求解器在GPU上运行。在MATH-500基准测试中，Tree-Ising达到54.6%，优于GPT-6 Astra代理的51.7%。",
+   "tags": [
+    "模型修复",
+    "优化"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1066,13 +1082,17 @@
     "upvotes": 66.0
    },
    "extra": {
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "04dc57421a57",
    "score": 6.19,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "论文扩展APEX框架以实现流式视频生成，通过条件转移估计生成分布的速度场。方法移除了独立的假分数网络，同时保留S2-Avatar的冻结参考教师和自重放强制。在180秒视频评估中，APEX在指令遵循和视觉美学上均优于S2-Avatar。",
+   "tags": [
+    "视频生成",
+    "流式"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1096,13 +1116,17 @@
       "https://github.com/InfrathonX/Infrathon"
      ]
     ],
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "122e19513905",
    "score": 6.1,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Infrathon：真实世界长周期AI基础设施优化基准",
+   "summary_zh": "论文引入Infrathon基准，评估前沿智能体在长周期AI基础设施优化任务中的表现。实验覆盖150次运行和24小时预算，发现模型排名随评估周期变化。Claude Opus 5.5在KV-cache压缩比上从6.82%提升至19.86%，超过人类设计基线。",
+   "tags": [
+    "智能体",
+    "基准测试"
+   ],
    "also_in": [],
    "merged_ids": []
   }
@@ -1113,13 +1137,13 @@
   "start": "2026-11-12",
   "end": "2026-11-12",
   "title": "Gemini 4 Carbon 现已上线",
-  "generated_at": "2026-11-12T02:40:53Z",
+  "generated_at": "2026-11-12T08:21:01Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
-  "pending": 24,
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-11",
    "end": "2026-11-11"
@@ -1156,24 +1180,13 @@
    },
    {
     "cat": "policy",
-    "headline": "“十五五”时期我国将深化拓展“人工智能+”行动",
+    "headline": "国家发改委提出深化拓展“人工智能+”行动",
     "when": "11月11日",
     "date": "2026-11-11",
-    "body": "据中国政府网消息：“十五五”时期我国将深化拓展“人工智能+”行动。",
+    "body": "国家发展改革委表示我国人工智能发展速度、应用规模全球领先，在塑造经济发展新动能、增进民生福祉、提升政府治理水平方面取得积极成效。",
     "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085824.htm",
     "via": "中国政府网",
     "id": "c89e81c1799c",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元",
-    "when": "11月10日",
-    "date": "2026-11-10",
-    "body": "Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。",
-    "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-    "via": "Hacker News",
-    "id": "215708108cfd",
     "ai": true
    },
    {
@@ -1189,51 +1202,18 @@
    },
    {
     "cat": "overseas",
-    "headline": "AlphaGenome 2：解码细胞如何读取 DNA 以理解疾病",
-    "when": "11月11日",
-    "date": "2026-11-11",
-    "body": "预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。",
-    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-    "via": "Google DeepMind",
-    "id": "25575f358142",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Apple has new Mac app coming to make running local AI models easy",
-    "when": "11月11日",
-    "date": "2026-11-11",
-    "body": "Apple 正在开发一款名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。",
-    "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-    "via": "Hacker News",
-    "id": "c16a54fe8aae",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Atuin Threads：跨机器同步所有智能体会话",
-    "when": "11月11日",
-    "date": "2026-11-11",
-    "body": "Atuin Threads 提供一个可搜索、同步的智能体会话历史，方便在不同机器上继续任务。",
-    "url": "https://blog.atuin.sh/threads-agent-sessions/",
-    "via": "Hacker News",
-    "id": "854ab69c9144",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "JioStar 首席架构师谈 5 亿用户规模下的 AI 发现",
-    "when": "11月11日",
-    "date": "2026-11-11",
-    "body": "JioStar 的 Vijay Seshadri 分享了在 5 亿用户规模下进行 AI 发现的经验。",
-    "url": "https://openai.com/index/jiostar-vijay-seshadri",
-    "via": "OpenAI",
-    "id": "724511390a57",
+    "headline": "Google AI 推出 Gemini Decisions API",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "Google AI 推出基于 Gemini Decision 模型的 API，提供快速且校准的多模态决策能力。",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "via": "Google AI",
+    "id": "4b7190847ad2",
     "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "Encoder Disaggregation in vLLM: Scaling Multimodal Serving with EPD",
+    "headline": "vLLM 推出编码器解耦技术 EPD",
     "when": "11月11日",
     "date": "2026-11-11",
     "body": "vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。",
@@ -1244,7 +1224,7 @@
    },
    {
     "cat": "opensource",
-    "headline": "langchain-ai/langchain langchain==1.5.0",
+    "headline": "langchain 发布 1.5.0 版本",
     "when": "11月11日",
     "date": "2026-11-11",
     "body": "langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。",
@@ -1255,7 +1235,18 @@
    },
    {
     "cat": "opensource",
-    "headline": "browser-use/browser-use",
+    "headline": "QVAC 发布 BotPsy 端侧个人助理",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "QVAC 发布 BotPsy，一个拥有十亿参数以下的智能体语言模型，旨在降低云端大模型运行成本并提升隐私安全。",
+    "url": "https://huggingface.co/blog/qvac/botpsy",
+    "via": "Hugging Face 博客",
+    "id": "09936140454c",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "browser-use：AI 浏览器智能体库",
     "when": "11月12日消息",
     "date": "2026-11-12",
     "body": "browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。",
@@ -1266,69 +1257,69 @@
    },
    {
     "cat": "opensource",
-    "headline": "FrigadeHQ/yogurt",
+    "headline": "yogurt：私有 AI 会议记录",
     "when": "11月12日消息",
     "date": "2026-11-12",
-    "body": "Private AI meeting notes. Free and open source.",
+    "body": "yogert 是一个免费开源的私有 AI 会议记录工具。",
     "url": "https://github.com/FrigadeHQ/yogurt",
     "via": "GitHub 新项目",
     "id": "65bb0dae27a7",
-    "ai": false
-   },
-   {
-    "cat": "opensource",
-    "headline": "How our GTM Agent builds consistent, high-quality sales artifacts",
-    "when": "11月12日",
-    "date": "2026-11-12",
-    "body": "LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。",
-    "url": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
-    "via": "LangChain 博客",
-    "id": "c3ded05745eb",
     "ai": true
    },
    {
     "cat": "papers",
-    "headline": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+    "headline": "Tree-Ising：位级 Ising 编辑修复模型",
     "when": "11月10日",
     "date": "2026-11-10",
-    "body": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a networ…",
+    "body": "论文提出 Tree-Ising 方法，将语言模型修复转化为稀疏离散优化问题，在 MATH-500 基准测试中达到 54.6%。",
     "url": "https://arxiv.org/abs/2611.14210",
     "via": "Hugging Face 热门论文",
     "id": "c0ca62487255",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "Few-Step Streaming Video Generation via Condition Shifting",
-    "when": "11月10日",
-    "date": "2026-11-10",
-    "body": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises f…",
-    "url": "https://arxiv.org/abs/2611.14033",
-    "via": "Hugging Face 热门论文",
-    "id": "04dc57421a57",
-    "ai": false
-   },
-   {
-    "cat": "papers",
-    "headline": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Deg…",
+    "headline": "Google DeepMind 发布 AlphaGenome 2",
     "when": "11月11日",
     "date": "2026-11-11",
-    "body": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise les…",
+    "body": "Google DeepMind 发布 AlphaGenome 2，用于预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "via": "Google DeepMind",
+    "id": "25575f358142",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "WikiTrace：证据链接记忆系统",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "论文提出 WikiTrace 证据链接记忆系统，将记忆与原始轨迹关联，减少记忆诱导的退化。",
     "url": "https://arxiv.org/abs/2611.14320",
     "via": "arXiv · 智能体",
     "id": "7a3b1b2f654c",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "ASCENT: Scale-Complementary External State for Frozen Long-Context Language Mod…",
+    "headline": "ASCENT：长上下文模型外部状态",
     "when": "11月12日消息",
     "date": "2026-11-12",
-    "body": "External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memor…",
+    "body": "论文提出互补缩放原理，通过目标盲因果写入器和嵌套类型状态实现，所有语言模型保持冻结。",
     "url": "https://arxiv.org/abs/2611.10175",
     "via": "arXiv · 长上下文与检索",
     "id": "b5e88360fa0d",
-    "ai": false
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "OpenAI 分享 JioStar 5 亿用户规模下的 AI 发现经验",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "OpenAI 分享了 JioStar 在 5 亿用户规模下进行 AI 发现的经验，包括评估和护栏设置。",
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "via": "OpenAI",
+    "id": "724511390a57",
+    "ai": true
    },
    {
     "cat": "events",
@@ -1340,6 +1331,151 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "e55418bb424c": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。"
+   },
+   "25575f358142": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Google DeepMind 发布 AlphaGenome 2",
+    "body": "Google DeepMind 发布 AlphaGenome 2，用于预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。"
+   },
+   "c16a54fe8aae": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Apple 开发 Harbor Mac 应用",
+    "body": "Apple 正在开发名为 Harbor 的 Mac 应用，旨在将 Mac 转化为私有 AI 推理服务器。"
+   },
+   "215708108cfd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。"
+   },
+   "854ab69c9144": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Atuin Threads 跨机器同步会话",
+    "body": "Atuin Threads 提供可搜索、同步的智能体会话历史，方便在不同机器上继续任务。"
+   },
+   "724511390a57": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "OpenAI 分享 JioStar 5 亿用户规模下的 AI 发现经验",
+    "body": "OpenAI 分享了 JioStar 在 5 亿用户规模下进行 AI 发现的经验，包括评估和护栏设置。"
+   },
+   "4b7190847ad2": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google AI 推出 Gemini Decisions API",
+    "body": "Google AI 推出基于 Gemini Decision 模型的 API，提供快速且校准的多模态决策能力。"
+   },
+   "f49a26309dda": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "文章讨论了在向量维度增加时，如何通过近似方法优化检索性能。"
+   },
+   "700082c54602": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 为退伍军人提供 ChatGPT Plus",
+    "body": "超过 20,000 名退伍军人和转业军人已领取了一年的 ChatGPT Plus 免费使用。"
+   },
+   "09936140454c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "QVAC 发布 BotPsy 端侧个人助理",
+    "body": "QVAC 发布 BotPsy，一个拥有十亿参数以下的智能体语言模型，旨在降低云端大模型运行成本并提升隐私安全。"
+   },
+   "4030459ec2f9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 推出编码器解耦技术 EPD",
+    "body": "vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。"
+   },
+   "cf269aa52cfc": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "browser-use：AI 浏览器智能体库",
+    "body": "browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。"
+   },
+   "d763bb79b5e4": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "langchain 发布 1.5.0 版本",
+    "body": "langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。"
+   },
+   "65bb0dae27a7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "yogurt：私有 AI 会议记录",
+    "body": "yogert 是一个免费开源的私有 AI 会议记录工具。"
+   },
+   "c3ded05745eb": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "LangChain 基于 Deep Agents 构建了 GTM Agent，能够根据业务背景生成高质量、定制化的销售文档。"
+   },
+   "46a9ff30f52a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "MiniMax-H3-Image 文生图模型",
+    "body": "MiniMaxAI 发布了 MiniMax-H3-Image 文生图模型，许可证为 other。"
+   },
+   "e0e2cc7e249c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "gbrain：Hermes 智能体大脑",
+    "body": "garrytan 开发了 Garry's Opinionated OpenClaw/Hermes Agent Brain。"
+   },
+   "a769c6d51a07": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "sand3d：LLM 专用 3D 建模",
+    "body": "Sandflow-ai 推出了 sand3d，这是一个为 LLM 构建的 Python 3D 建模工具。"
+   },
+   "b5e88360fa0d": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "ASCENT：长上下文模型外部状态",
+    "body": "论文提出互补缩放原理，通过目标盲因果写入器和嵌套类型状态实现，所有语言模型保持冻结。"
+   },
+   "7a3b1b2f654c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WikiTrace：证据链接记忆系统",
+    "body": "论文提出 WikiTrace 证据链接记忆系统，将记忆与原始轨迹关联，减少记忆诱导的退化。"
+   },
+   "c0ca62487255": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Tree-Ising：位级 Ising 编辑修复模型",
+    "body": "论文提出 Tree-Ising 方法，将语言模型修复转化为稀疏离散优化问题，在 MATH-500 基准测试中达到 54.6%。"
+   },
+   "04dc57421a57": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "APEX扩展实现流式视频生成",
+    "body": "论文扩展APEX框架以实现流式视频生成，通过条件转移估计生成分布的速度场，在180秒视频评估中优于S2-Avatar。"
+   },
+   "122e19513905": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Infrathon基准评估长周期AI优化",
+    "body": "论文引入Infrathon基准评估前沿智能体在长周期AI基础设施优化任务中的表现，Claude Opus 5.5在KV-cache压缩比上表现优异。"
+   },
+   "c89e81c1799c": {
+    "v": "4f7b2f10",
+    "cat": "policy",
+    "headline": "国家发改委提出深化拓展“人工智能+”行动",
+    "body": "国家发展改革委表示我国人工智能发展速度、应用规模全球领先，在塑造经济发展新动能、增进民生福祉、提升政府治理水平方面取得积极成效。"
+   }
+  }
  }
 }
