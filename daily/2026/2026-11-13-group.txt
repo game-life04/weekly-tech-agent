@@ -1,0 +1,48 @@
+【每日科技快讯】11月13日 周五
+今日 AI 与开源要闻 15 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
+2. pwntools-dojo 新增 1 个 PR
+
+【国内动态】
+3. MiniMax开源H3-Image生图模型
+→ MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。
+
+【海外动态】
+4. 谷歌推出Gemini 4 Hydrogen模型
+→ 谷歌推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计，提供高效智能。
+5. 谷歌发布多模态决策模型Gemini Decision 1
+→ 谷歌发布多模态决策模型Gemini Decision 1，输出全免费。
+
+【开源项目】
+6. smolmaxxing：让旧设备运行大型语言模型
+→ smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。
+7. vLLM部署DeepSeek-V4.1-Flash
+→ vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。
+8. OpenAI 发布 Codex Security CLI 和 SDK
+→ OpenAI 发布 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。
+9. LangChain介绍评估驱动开发
+→ LangChain介绍评估驱动开发，通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。
+10. agentes-chat：自托管的开源 Slack 替代品
+→ agentes-chat 是自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。
+
+【学术前沿】
+11. REAL Loss 优化推测解码的期望接受长度
+→ REAL Loss 通过路径权重和无偏估计直接优化推测解码中的期望接受长度，在 Qwen3.6-35B-A3B 目标模型上优于其他基线方法。
+12. 姚期智与杨植麟刷新图论纪录
+→ 姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。
+13. TOME-Math 数据集提升数学证明监督效果
+→ TOME-Math 数据集将大学数学教材转化为约 38 万条结构化证明监督记录，微调后的模型在基准测试中平均得分提升了 16.7 个百分点。
+14. BioXArena-Pro：生物医学智能体评测基准
+→ 论文构建了包含64个研究级建模任务的BioXArena-Pro基准，用于评测生物医学智能体。研究发现智能体在适应新数据时表现优于直接复现方法。
+
+【产业纵横】
+15. Amplitude用OpenAI实现快速产品改进
+→ Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-13-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

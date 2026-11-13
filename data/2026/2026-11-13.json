@@ -1,0 +1,1476 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13T00:21:55Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 458,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 58,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 21.9
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 5.6
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 44,
+   "error": "",
+   "seconds": 9.8
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 325,
+   "error": "",
+   "seconds": 23.6
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 20.0
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 33,
+   "error": "",
+   "seconds": 18.2
+  }
+ ],
+ "items": [
+  {
+   "title": "Introducing Gemini 4 Hydrogen",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-12T18:00:50Z",
+   "summary": "",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Google introduces Gemini 4 Hydrogen, a fast, cost-efficient model built for reliable agentic workflows and everyday tasks. Get the details. Hydrogen brings cutting-edge intelligence to everyone. SVP, Google DeepMind and Chief AI Architect, Google Your browser does not support the audio element. Today, we’re introducing Gemini 4 Hydrogen, bringing cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows. While our frontier models, Gemini 4 Carbon and Gemini 4 Argon , excel at deep, long-horizon reasoning on your hardest problems, Hydrogen is built for rapid execution across diverse agentic workflows. With Hydrogen, we’re also bringing Gemini 4 to everyone — for all tiers of Google AI Studio , the Gemini API, Gemini for business , the Gemin…",
+    "llm_done": true
+   },
+   "id": "720825c8bbb0",
+   "score": 8.85,
+   "title_zh": "Gemini 4 Hydrogen：面向代理工作流的高效模型",
+   "summary_zh": "Google推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计。",
+   "tags": [
+    "模型发布",
+    "谷歌",
+    "代理工作流"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+   "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google AI",
+   "published": "2026-11-12T18:00:00Z",
+   "summary": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "e836720e11a9",
+   "score": 8.53,
+   "title_zh": "谷歌搜索升级：引入Gemini 4 Hydrogen",
+   "summary_zh": "谷歌搜索引入Gemini 4 Hydrogen，提供更直观、可视化的回答。",
+   "tags": [
+    "行业动态",
+    "谷歌",
+    "搜索"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Gemini 4 Hydrogen and Orchestrator",
+   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-12T18:52:01Z",
+   "summary": "",
+   "heat": 0.899,
+   "weight": 0.6,
+   "metrics": {
+    "points": 267.0,
+    "comments": 61.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50472260",
+    "excerpt_tried": true,
+    "evidence": "Today, we're rolling out Gemini 4 Hydrogen inside Google Antigravity alongside a new model dropdown option called Orchestrator, which pairs Hydrogen with… Today, we’re rolling out Gemini 4 Hydrogen inside Google Antigravity alongside a new model dropdown option called Orchestrator, which pairs Hydrogen with our strongest models for long-horizon tasks, including Gemini 4 Carbon, in an optimized balance of quality, efficiency, and latency. Selecting Orchestrator (Carbon) from the model selector in Google Antigravity. Earlier this week, we introduced Gemini 4 Carbon alongside /swarm for tackling massive, multi-worktree engineering tasks with parallel agent teams. In just a couple of days, tens of thousands of swarms have been launched on Antigravity, pushing frontier intelligence on the hard…",
+    "llm_done": true
+   },
+   "id": "3933d801d102",
+   "score": 8.14,
+   "title_zh": "Gemini 4 Hydrogen 和 Orchestrator",
+   "summary_zh": "Google Antigravity 推出 Gemini 4 Hydrogen 模型，并新增 Orchestrator 选项，将 Hydrogen 与最强模型搭配用于长周期任务。",
+   "tags": [
+    "模型发布",
+    "Google",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "\"Humble Bundle just killed most of their security through vibecoding\"",
+   "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-12T06:52:48Z",
+   "summary": "",
+   "heat": 0.95,
+   "weight": 0.6,
+   "metrics": {
+    "points": 366.0,
+    "comments": 218.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50463899",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "cc60441eda65",
+   "score": 8.1,
+   "title_zh": "Humble Bundle 通过 vibecoding 杀死了大部分安全",
+   "summary_zh": "",
+   "tags": [
+    "行业动态",
+    "安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-12T15:23:10Z",
+   "summary": "",
+   "heat": 0.902,
+   "weight": 0.6,
+   "metrics": {
+    "points": 272.0,
+    "comments": 89.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50468888",
+    "excerpt_tried": true,
+    "evidence": "maxxing the ability to run different LLMs on the smallest devices possible - hyperionaidev/smolmaxxing Run the biggest language model you can on the smallest hardware you own. TV boxes, old tablets, single-board computers and routers all have a CPU, some RAM and flash storage that sit idle most of the day. smolmaxxing finds the biggest model each of them can really run, then pushes it further with custom kernels, careful memory use and weights streamed from flash. Every number in this repo was measured on the device itself. Both devices run 8B and 16B mixture-of-experts models on about 1 GB of RAM by keeping only part of each model in memory and reading the rest from flash as it's needed. More devices (phones, single-board computers, routers) are coming. The techniques aren't tied to one…",
+    "llm_done": true
+   },
+   "id": "d8da2629e743",
+   "score": 8.07,
+   "title_zh": "让 LLM 在小设备上运行",
+   "summary_zh": "smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "小模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "My AI agents found an unmapped Maya site?",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-11T12:05:22Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1026.0,
+    "comments": 390.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50452455",
+    "excerpt_tried": true,
+    "evidence": "AI agents analyzed public lidar data overnight and found a Maya site under the jungle. It turned out archaeologists had mapped it already, but it wasn't in Mexico's official register yet. Update (11 November): it turns out the site had already been mapped in Estrada-Belli et al. 2025 . The agents missed it while going through the literature, so they rediscovered it rather than discovered it (it just wasn't in the register of Mexico's National Institute of Anthropology and History, INAH, yet). Still work to do then! The rest of the story still holds. By analyzing NASA lidar data, my AI agents found a Maya site in Mexico that wasn't in the official register. (It turned out archaeologists had mapped it already, more on that at the end.) It took less than 72 hours to go from a random thought…",
+    "llm_done": true
+   },
+   "id": "22b2364bb772",
+   "score": 7.98,
+   "title_zh": "AI 代理发现未登记的玛雅遗址",
+   "summary_zh": "AI 代理分析 NASA 激光雷达数据，发现了一处未被墨西哥官方登记的玛雅遗址。",
+   "tags": [
+    "AI 代理",
+    "考古",
+    "应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-12T20:00:00Z",
+   "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "88ce5596f3fa",
+   "score": 7.83,
+   "title_zh": "Amplitude：如何用OpenAI在1-2天内交付产品改进",
+   "summary_zh": "Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。",
+   "tags": [
+    "行业动态",
+    "应用案例",
+    "OpenAI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "姚期智杨植麟首次联手给 AI 出的博士级题目，Kimi 多画出了「关键一条边」",
+   "url": "https://www.leiphone.com/category/ai/3vRqaeAILJdgRlhL.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-11-12T09:09:00Z",
+   "summary": "Kimi 刷新 629 条边图论参考纪录，只多加了1条边，为什么数学界等了这么多年？ 作者丨 郑佳美 编辑丨岑 峰 给 124 个点连线，不能出现三角形，也不能出现四边形。此前的参考记录是 629 条——数学界认为这已经接近极限。而Kimi K3 构造出了 630 条边的图，并通过程序验证。 多1条边，听起来不多。但在组合数学里，你每试图多塞进一条边，都需要在全图 124 个点之间重新完成一次精密的结构大重构。这1条边意味着AI第一次在“极值构造”这类研究级任务上，把人类参考纪录往前推了一步。 这项成果来自图灵奖得主、中科院院士、清华大学交叉信息研究院院长姚期智与月之暗面创始人杨植麟等人的联合研究。他们真正想回答的问题是： AI到底能不能做数学研究，而不只是做数学题？ 01 「多 1 条边」算不算真突破？ 姚期智，图灵奖得主、清华大学交叉信息研究院院长，是中国理论计算机科学的奠基者之一；杨植麟，月之暗面创始人，Kimi背后的推动者。 两代人、两种身份：一位是理论计算机科学的泰斗，一位是大模型创业的一线操盘手，第一次联合署名。 这个组合本身就说明了一件事：AI做科研，已经不是“实验室里…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "aa9ad5f86580",
+   "score": 7.64,
+   "title_zh": "姚期智与杨植麟联手：Kimi刷新图论纪录",
+   "summary_zh": "姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。",
+   "tags": [
+    "论文",
+    "Kimi",
+    "图论"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "谷歌发布首个决策模型！输出全免费，百万Token低至0.1美元",
+   "url": "https://aiera.com.cn/2026/11/13/other/admin/123638/%e8%b0%b7%e6%ad%8c%e5%8f%91%e5%b8%83%e9%a6%96%e4%b8%aa%e5%86%b3%e7%ad%96%e6%a8%a1%e5%9e%8b%ef%bc%81%e8%be%93%e5%87%ba%e5%85%a8%e5%85%8d%e8%b4%b9%ef%bc%8c%e7%99%be%e4%b8%87token%e4%bd%8e%e8%87%b30-1/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-13T00:05:23Z",
+   "summary": "等了半天，Gemini 4 Hydrogen没来。 昨晚谷歌端上来的，是多模态决策模型Gemini Decision 1。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "bc977b9ee1f5",
+   "score": 7.36,
+   "title_zh": "",
+   "summary_zh": "谷歌发布多模态决策模型Gemini Decision 1，输出全免费。",
+   "tags": [
+    "模型发布",
+    "谷歌",
+    "决策模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+   "url": "https://www.qbitai.com/2026/11/509440.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-12T11:36:20Z",
+   "summary": "「CAD拆解」",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "「CAD拆解」 继开源视频旗舰H3广受好评后，最新的图像模型—— H3-Image，再次席卷全网 。 热度最高的是「CAD拆解」，丢一张参考图，H3-Image能给你小手办直接开盒了。。。 除此之外，海外网友测下来，其他类型的复杂生图任务也是能Handle住的，比如—— 游戏 。 过去我们一提到AI生图，脑子里第一个反应：油光满面，皮肤光滑得像剥了壳的鸡蛋，眼神呆滞，伪人感极重。 此外，像镜子上的水泽和灰尘，闪光灯打在镜头上形成的光晕，这些细节也处理得非常离谱，真就跟小某书首页刷到的一样。 即便从仰视角度也能看出不少面部细节，就比如下面这张 桌子即ins照片 的时尚杂志封面，你仔细看人物的眼神，和微妙的面部肌肉牵引，都是非常符合现实社交逻辑的。 这也是我测H3-Image时最大的一个感受，很多我丢给老模型做过的提示词，H3-Image都能给出全新诠释。 放大看根本不会露馅，手指上的皮肤纹理、关节褶皱，甚至指甲边缘的自然光泽与质感，都还原得一清二楚。 我觉得，H3-Image之所以AI味这么少，可能很大程度上就取决于这些 刻意为之的「瑕疵」 。 任何人类主观创造的作品，必然充斥着随机性，过分追求完美反而不符合人类大脑接收信息的习惯。 现在看来，似乎只要能把其中的Trick摸清楚，很多人类引以为傲的品质，可能真的没那么神秘…… 让H3-Image画个机械拆解的爆炸图，它能精准遵循机械的装配逻辑，把零件给你分层清晰地炸开，甚至连组件引线都给你标上。 当然，对于这类功能属性明显的图片，指令遵循能力也是非常重要的， 光「画」其实难度不是很大 ，主要是考验模型规划、推理的能力。 当然了，真要打严肃生产力场景的话，标准肯定是要拉很高的，商业用途必须准确传达信息。 凭借鄙人勉强结业的高数知识储备，我大概看了一下，发现答案居然是对的，还有解题步骤！？？ 现在不是流行Coding吃掉一切吗，…",
+    "llm_done": true
+   },
+   "id": "c0ef70ca1538",
+   "score": 7.23,
+   "title_zh": "",
+   "summary_zh": "MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。",
+   "tags": [
+    "开源工具",
+    "生图模型",
+    "MiniMax"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash on Vera Rubin NVL72: 58x Throughput vs. GB300 NVL72 at 387 tokens/s",
+   "url": "https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-12T00:00:00Z",
+   "summary": "On one NVIDIA Vera Rubin NVL72 rack, vLLM serves DeepSeek-V4.1-Flash on SemiAnalysis AgentX at 1.7M tokens/s per GPU at a P90 of 387 tokens/s per user, 58x GB300 NVL72 at the same interactivity.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "9ff0faa469a6",
+   "score": 7.6,
+   "title_zh": "",
+   "summary_zh": "vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "vLLM"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/codex-security",
+   "url": "https://github.com/openai/codex-security",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+   "heat": 0.808,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 643.0,
+    "stars": 12407.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "60b4017b3f94",
+   "score": 7.54,
+   "title_zh": "",
+   "summary_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。",
+   "tags": [
+    "开源工具",
+    "安全",
+    "开发工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "What Is Eval-Driven Development? How to Improve AI Agents",
+   "url": "https://www.langchain.com/blog/what-is-eval-driven-development",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-12T20:31:46Z",
+   "summary": "Eval-driven development helps you build AI agents against a consistent set of metrics. Define good behavior, write the eval first, then compare experiments.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "835252b1309e",
+   "score": 6.88,
+   "title_zh": "",
+   "summary_zh": "评估驱动开发通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "agentes-chat/agentes-chat",
+   "url": "https://github.com/agentes-chat/agentes-chat",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+   "heat": 0.815,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1162.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 3,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "b65581bea54a",
+   "score": 6.83,
+   "title_zh": "",
+   "summary_zh": "自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "协作"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "shanselman/gputaskman",
+   "url": "https://github.com/shanselman/gputaskman",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+   "heat": 0.781,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2711.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 9,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6b9d43038f03",
+   "score": 6.76,
+   "title_zh": "",
+   "summary_zh": "跨平台 GPU 任务管理器，提供进程显存、GPU 活动和 LLM 模型 KV 缓存洞察。",
+   "tags": [
+    "开源工具",
+    "GPU",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "QwenLM/qwen-code",
+   "url": "https://github.com/QwenLM/qwen-code",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "An open-source AI coding agent that lives in your terminal.",
+   "heat": 0.627,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 151.0,
+    "stars": 29799.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "20fdf8242c42",
+   "score": 6.57,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "heat": 0.586,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 108.0,
+    "stars": 864.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "49e6434c81fc",
+   "score": 6.49,
+   "title_zh": "",
+   "summary_zh": "多层级 AI 代理技能评估框架，包含质量门禁、语义重叠检测和实时评估。",
+   "tags": [
+    "开源工具",
+    "评测",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "davila7/claude-code-templates",
+   "url": "https://github.com/davila7/claude-code-templates",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+   "heat": 0.579,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 102.0,
+    "stars": 33430.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "8f13960f6071",
+   "score": 6.48,
+   "title_zh": "",
+   "summary_zh": "Claude Code 组件的开源注册表和 CLI，包含代理、命令、技能、钩子等。",
+   "tags": [
+    "开源工具",
+    "开发工具",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+   "url": "https://arxiv.org/abs/2610.40394",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-10-29T00:00:00Z",
+   "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured proof-supervision records while preserving chapter order, proposition-proof links, dependency references, and source provenance. Leveraging these structural signals, we explore curriculum learning across multiple mathematical subjects and characterize scaling patterns with supervision volume and source breadth. At full scale, fine-tuning on TOME-Math raises the unweighted mean score across our held-out evaluations and established public benchmarks by 16.7 percentage points over the base model, while exceeding all three public instruction-data baselines evaluated in aggregate. Our findings highlight structured textbooks as both a scalable source of mathematical supervision and an empirical framework for studying the impact of data organization on mathematical reasoning. We will release the corpus to facilitate further research on structured mathematical supervision.",
+   "heat": 0.646,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 39.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "cb11945349f7",
+   "score": 6.22,
+   "title_zh": "",
+   "summary_zh": "为了解决数学监督数据缺乏结构化组织的问题，该论文提出了TOME-Math数据集，将大学数学教材转化为约38万条结构化证明监督记录。实验表明，基于该数据集微调的模型在基准测试中平均得分提升了16.7个百分点。",
+   "tags": [
+    "数学推理",
+    "数据集",
+    "监督学习"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding",
+   "url": "https://arxiv.org/abs/2611.14399",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-10T17:45:12Z",
+   "summary": "Speculative decoding accelerates LLM inference by having a draft model propose multiple tokens for the target model to verify in one pass. The speedup is governed by the expected acceptance length (EAL), yet standard training objectives such as cross-entropy, KL divergence, and total variation focus only on distribution matching or single-step overlap. Recent studies instead propose block-level training objectives, aiming to optimize EAL directly. However, these objectives remain surrogates rather than exact formulations of EAL. For example, some average later acceptance over target-distributed continuations rather than the verification branches selected by accepted tokens, introducing a covariance gap that can reverse the gradient direction. We analyze this gap and derive REAL, a real EAL training loss that uses path weights for unbiased estimation and Rao-Blackwellization for variance reduction. In a controlled loss-level comparison with a Qwen3.6-35B-A3B target and a Domino drafter, REAL outperforms WTV, VSD, DBLast, and the static LK baseline on probabilistic serving acceptance length across 9 task subsets and 5 evaluation seeds. These gains require only a change to the training loss, with no modification to the drafter architecture or inference procedure, demonstrating the practicality of real EAL training. A reference implementation of the REAL loss is available at https://github.com/King-ty/speculators/tree/real-loss.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "172df121019b",
+   "score": 6.12,
+   "title_zh": "REAL Loss：优化推理加速的期望接受长度",
+   "summary_zh": "针对推测解码中期望接受长度（EAL）优化不精确的问题，该论文提出了REAL损失函数，通过路径权重和无偏估计来直接优化EAL。在Qwen3.6-35B-A3B目标模型和Domino起草者的对比中，REAL在多个任务子集上优于其他基线方法。",
+   "tags": [
+    "推理加速",
+    "推测解码",
+    "损失函数"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "BioXArena-Pro: a research-grade benchmark for autonomous biomedical machine learning agents",
+   "url": "https://arxiv.org/abs/2611.13994",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-10T12:39:35Z",
+   "summary": "Coding agents are increasingly proposed as autonomous builders of biomedical models, but existing benchmarks are small, near saturation or open to leaked information. We present BioXArena-Pro, 64 research-level modelling tasks from eight biomedical domains, each rebuilt from a published study; most hold out whole biological units such as species or cohorts. Across 22 agent configurations, the best scores 55.1 of 100, and the scaffold matters almost as much as the model. We re-ran a published method for every task: where the published recipe applies unchanged, the best agent and the methods tie; on rebuilt tasks the methods trail by 8.2 points, suggesting that agents gain by adapting to new data. Pretrained models (including biological foundation models) matter where the strongest agent uses them: forbidding them decreases its score on those tasks by 9 points. Every task was audited in several AI-assisted rounds and a final human review.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0032ce09ec87",
+   "score": 6.1,
+   "title_zh": "BioXArena-Pro：生物医学智能体评测基准",
+   "summary_zh": "为了解决现有生物医学智能体评测基准规模小或易泄露信息的问题，该论文构建了包含64个研究级建模任务的BioXArena-Pro基准。研究发现，智能体在适应新数据时表现优于直接复现方法，且预训练模型对特定任务至关重要。",
+   "tags": [
+    "智能体",
+    "评测基准",
+    "生物医学"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpticalRAG: Pixel-Space Compression for Token-Efficient Retrieval-Augmented Generation",
+   "url": "https://arxiv.org/abs/2611.13675",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-10T07:24:50Z",
+   "summary": "Retrieval-augmented generation (RAG) is bottlenecked by the token budget of large language models: feeding long documents into the context window is expensive, while aggressive textual compression discards fine-grained information that is irreversibly lost in a one-dimensional token sequence. We argue that this bottleneck is not fundamental to information density but to the choice of compression \\emph{modality}. Modern visual encoders can pack the contents of a rendered text page into roughly a hundred visual tokens with little semantic loss, opening a new compression-fidelity tradeoff that purely textual methods cannot reach. We present \\textbf{OpticalRAG}, a framework that renders documents as page images, encodes them with a frozen vision encoder, and distills the retrieved visual tokens into as few as $16$ injected tokens before passing them to the LLM. Two ingredients make this work without expensive cross-modal training: (i) \\emph{Encoder-Bridged Retrieval}, which projects text-query states into the visual feature space of the frozen encoder, through a projection shared with the compressor, to retrieve visual tokens from a text query, with no contrastive training; and (ii) \\emph{Query-Driven Distillation}, a lightweight cross-attention compressor that condenses the retrieved visual tokens into a small set of query-conditioned prefix tokens. On LongBench-v2, BAMBOO, and LooGLE-v2, OpticalRAG achieves the best compression-aware accuracy (CAP) on all three benchmarks whil…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6fb33fd6ca16",
+   "score": 6.07,
+   "title_zh": "OpticalRAG：基于像素空间的检索增强生成",
+   "summary_zh": "针对长文档输入成本高和文本压缩丢失信息的问题，该论文提出了OpticalRAG框架，通过视觉编码器将文档渲染为图像并压缩为少量注入令牌。在多个基准测试中，该方法在保持高压缩感知准确率的同时，显著降低了计算开销。",
+   "tags": [
+    "检索增强生成",
+    "多模态",
+    "长上下文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+   "url": "https://arxiv.org/abs/2611.13410",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-10T00:45:58Z",
+   "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while its own rollouts may provide few correct responses in those contexts. We introduce SteerDistill, a quantization-aware distillation method in which a full-precision teacher guides the student to revise failed responses and iteratively refines its guidance using feedback from student execution. This closed-loop teacher steering produces locally verified behavioral corrections. We internalize these corrections by training the student without guidance to match the steered student's predictions at corrected turns and the full-precision teacher's at other turns, enabling unassisted inference. Across five agentic benchmarks and three models, SteerDistill exceeds the strongest quantized baseline by 1.67--2.18 points in average score under W4A16 and stays within one point of BF16. On $τ^2$-Bench, it outperforms QeRL by 1.84 percentage points in success rate using 67% fewer training GPU hours and produces shorter successful trajectories than the quantized baselines.",
+   "heat": 0.607,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 31.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/air-embodied-brain/SteerDistill"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "0073617c1eb1",
+   "score": 6.06,
+   "title_zh": "SteerDistill：通过闭环教师引导量化智能体",
+   "summary_zh": "为了解决低比特量化导致智能体任务成功率下降的问题，该论文提出了SteerDistill方法，通过全精度教师引导量化学生修正失败响应。实验表明，该方法在保持高准确率的同时，显著减少了训练GPU使用时间并生成了更短的成功轨迹。",
+   "tags": [
+    "智能体",
+    "量化",
+    "蒸馏"
+   ],
+   "also_in": [
+    "arXiv · 高效推理"
+   ],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-13",
+  "start": "2026-11-13",
+  "end": "2026-11-13",
+  "title": "谷歌推出Gemini 4 Hydrogen模型",
+  "generated_at": "2026-11-13T00:21:55Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-12",
+   "end": "2026-11-12"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 0 个 PR、提交 0 次",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行，2 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "pwntools-dojo 新增 1 个 PR",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "pwn.hust.college SIG的 pwntools-dojo 仓库新增 PR 1 个，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwntools-dojo",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "MiniMax开源H3-Image生图模型",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。",
+    "url": "https://www.qbitai.com/2026/11/509440.html",
+    "via": "量子位",
+    "id": "c0ef70ca1538",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "谷歌推出Gemini 4 Hydrogen模型",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "谷歌推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计，提供高效智能。",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "via": "Google DeepMind",
+    "id": "720825c8bbb0",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "谷歌发布多模态决策模型Gemini Decision 1",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "谷歌发布多模态决策模型Gemini Decision 1，输出全免费。",
+    "url": "https://aiera.com.cn/2026/11/13/other/admin/123638/%e8%b0%b7%e6%ad%8c%e5%8f%91%e5%b8%83%e9%a6%96%e4%b8%aa%e5%86%b3%e7%ad%96%e6%a8%a1%e5%9e%8b%ef%bc%81%e8%be%93%e5%87%ba%e5%85%a8%e5%85%8d%e8%b4%b9%ef%bc%8c%e7%99%be%e4%b8%87token%e4%bd%8e%e8%87%b30-1/",
+    "via": "新智元",
+    "id": "bc977b9ee1f5",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "smolmaxxing：让旧设备运行大型语言模型",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。",
+    "url": "https://github.com/hyperionaidev/smolmaxxing/",
+    "via": "Hacker News",
+    "id": "d8da2629e743",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM部署DeepSeek-V4.1-Flash",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。",
+    "url": "https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin",
+    "via": "vLLM 博客",
+    "id": "9ff0faa469a6",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "OpenAI 发布 Codex Security CLI 和 SDK",
+    "when": "11月13日消息",
+    "date": "2026-11-13",
+    "body": "OpenAI 发布 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。",
+    "url": "https://github.com/openai/codex-security",
+    "via": "GitHub Trending",
+    "id": "60b4017b3f94",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "LangChain介绍评估驱动开发",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "LangChain介绍评估驱动开发，通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。",
+    "url": "https://www.langchain.com/blog/what-is-eval-driven-development",
+    "via": "LangChain 博客",
+    "id": "835252b1309e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "agentes-chat：自托管的开源 Slack 替代品",
+    "when": "11月13日消息",
+    "date": "2026-11-13",
+    "body": "agentes-chat 是自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。",
+    "url": "https://github.com/agentes-chat/agentes-chat",
+    "via": "GitHub 新项目",
+    "id": "b65581bea54a",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "REAL Loss 优化推测解码的期望接受长度",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "REAL Loss 通过路径权重和无偏估计直接优化推测解码中的期望接受长度，在 Qwen3.6-35B-A3B 目标模型上优于其他基线方法。",
+    "url": "https://arxiv.org/abs/2611.14399",
+    "via": "arXiv · 高效推理",
+    "id": "172df121019b",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "姚期智与杨植麟刷新图论纪录",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。",
+    "url": "https://www.leiphone.com/category/ai/3vRqaeAILJdgRlhL.html",
+    "via": "雷峰网",
+    "id": "aa9ad5f86580",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "TOME-Math 数据集提升数学证明监督效果",
+    "when": "11月13日消息",
+    "date": "2026-11-13",
+    "body": "TOME-Math 数据集将大学数学教材转化为约 38 万条结构化证明监督记录，微调后的模型在基准测试中平均得分提升了 16.7 个百分点。",
+    "url": "https://arxiv.org/abs/2610.40394",
+    "via": "Hugging Face 热门论文",
+    "id": "cb11945349f7",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "BioXArena-Pro：生物医学智能体评测基准",
+    "when": "11月13日消息",
+    "date": "2026-11-13",
+    "body": "论文构建了包含64个研究级建模任务的BioXArena-Pro基准，用于评测生物医学智能体。研究发现智能体在适应新数据时表现优于直接复现方法。",
+    "url": "https://arxiv.org/abs/2611.13994",
+    "via": "arXiv · 智能体",
+    "id": "0032ce09ec87",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Amplitude用OpenAI实现快速产品改进",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。",
+    "url": "https://openai.com/business/customer-stories/amplitude",
+    "via": "OpenAI",
+    "id": "88ce5596f3fa",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "720825c8bbb0": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "谷歌推出Gemini 4 Hydrogen模型",
+    "body": "谷歌推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计，提供高效智能。"
+   },
+   "e836720e11a9": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "谷歌搜索引入Gemini 4 Hydrogen",
+    "body": "谷歌搜索引入Gemini 4 Hydrogen，提供更直观、可视化的回答。"
+   },
+   "3933d801d102": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Google Antigravity 推出 Gemini 4 Hydrogen 模型，并新增 Orchestrator 选项，将 Hydrogen 与最强模型搭配用于长周期任务。"
+   },
+   "cc60441eda65": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Humble Bundle 通过 vibecoding 杀死了大部分安全",
+    "body": "Humble Bundle 通过 vibecoding 杀死了大部分安全。"
+   },
+   "d8da2629e743": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "smolmaxxing：让旧设备运行大型语言模型",
+    "body": "smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。"
+   },
+   "22b2364bb772": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI 代理发现未登记的玛雅遗址",
+    "body": "AI 代理分析 NASA 激光雷达数据，发现了一处未被墨西哥官方登记的玛雅遗址。"
+   },
+   "88ce5596f3fa": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Amplitude用OpenAI实现快速产品改进",
+    "body": "Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。"
+   },
+   "aa9ad5f86580": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "姚期智与杨植麟刷新图论纪录",
+    "body": "姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。"
+   },
+   "bc977b9ee1f5": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "谷歌发布多模态决策模型Gemini Decision 1",
+    "body": "谷歌发布多模态决策模型Gemini Decision 1，输出全免费。"
+   },
+   "c0ef70ca1538": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "MiniMax开源H3-Image生图模型",
+    "body": "MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。"
+   },
+   "9ff0faa469a6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM部署DeepSeek-V4.1-Flash",
+    "body": "vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。"
+   },
+   "60b4017b3f94": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenAI 发布 Codex Security CLI 和 SDK",
+    "body": "OpenAI 发布 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。"
+   },
+   "835252b1309e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain介绍评估驱动开发",
+    "body": "LangChain介绍评估驱动开发，通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。"
+   },
+   "b65581bea54a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agentes-chat：自托管的开源 Slack 替代品",
+    "body": "agentes-chat 是自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。"
+   },
+   "6b9d43038f03": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "shanselman/gputaskman：跨平台 GPU 任务管理器",
+    "body": "shanselman/gputaskman 是跨平台 GPU 任务管理器，提供进程显存、GPU 活动和 LLM 模型 KV 缓存洞察。"
+   },
+   "20fdf8242c42": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "QwenLM/qwen-code：开源 AI 编码代理",
+    "body": "QwenLM/qwen-code 是一个开源的 AI 编码代理，运行在终端中。"
+   },
+   "49e6434c81fc": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "NVIDIA 发布 SkillEvaluator 评估框架",
+    "body": "NVIDIA 发布 SkillEvaluator 多层级 AI 代理技能评估框架，包含质量门禁和实时评估。"
+   },
+   "8f13960f6071": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "davila7 发布 Claude Code 组件注册表",
+    "body": "davila7 发布 claude-code-templates 开源注册表和 CLI，包含代理、命令、技能和钩子等组件。"
+   },
+   "cb11945349f7": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "TOME-Math 数据集提升数学证明监督效果",
+    "body": "TOME-Math 数据集将大学数学教材转化为约 38 万条结构化证明监督记录，微调后的模型在基准测试中平均得分提升了 16.7 个百分点。"
+   },
+   "172df121019b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "REAL Loss 优化推测解码的期望接受长度",
+    "body": "REAL Loss 通过路径权重和无偏估计直接优化推测解码中的期望接受长度，在 Qwen3.6-35B-A3B 目标模型上优于其他基线方法。"
+   },
+   "0032ce09ec87": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "BioXArena-Pro：生物医学智能体评测基准",
+    "body": "论文构建了包含64个研究级建模任务的BioXArena-Pro基准，用于评测生物医学智能体。研究发现智能体在适应新数据时表现优于直接复现方法。"
+   },
+   "6fb33fd6ca16": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpticalRAG：基于像素空间的检索增强生成",
+    "body": "论文提出了OpticalRAG框架，通过视觉编码器将文档渲染为图像并压缩为少量注入令牌。该方法在保持高压缩感知准确率的同时降低了计算开销。"
+   },
+   "0073617c1eb1": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SteerDistill：通过闭环教师引导量化智能体",
+    "body": "论文提出了SteerDistill方法，通过全精度教师引导量化学生修正失败响应。该方法在保持高准确率的同时减少了训练GPU使用时间。"
+   }
+  }
+ }
+}

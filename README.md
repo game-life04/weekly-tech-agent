@@ -12,61 +12,62 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.12（周四）
+## 每日快讯 · 11.13（周五）
 
-> 今日 AI 与开源要闻 **14** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-12-kuaixun.md) · [公众号排版版](daily/2026/2026-11-12-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-12.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-13-kuaixun.md) · [公众号排版版](daily/2026/2026-11-13-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-13.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月12日 周四
-今日 AI 与开源要闻 14 条，3 分钟速读
+【每日科技快讯】11月13日 周五
+今日 AI 与开源要闻 15 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
+2. pwntools-dojo 新增 1 个 PR
 
-【政策动向】
-2. 国家发改委提出深化拓展“人工智能+”行动
-→ 国家发展改革委表示我国人工智能发展速度、应用规模全球领先，在塑造经济发展新动能、增进民生福祉、提升政府治理水平方面取得积极成效。
+【国内动态】
+3. MiniMax开源H3-Image生图模型
+→ MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。
 
 【海外动态】
-3. Gemini 4 Carbon 现已上线
-→ Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。
-4. Google AI 推出 Gemini Decisions API
-→ Google AI 推出基于 Gemini Decision 模型的 API，提供快速且校准的多模态决策能力。
+4. 谷歌推出Gemini 4 Hydrogen模型
+→ 谷歌推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计，提供高效智能。
+5. 谷歌发布多模态决策模型Gemini Decision 1
+→ 谷歌发布多模态决策模型Gemini Decision 1，输出全免费。
 
 【开源项目】
-5. vLLM 推出编码器解耦技术 EPD
-→ vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。
-6. langchain 发布 1.5.0 版本
-→ langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。
-7. QVAC 发布 BotPsy 端侧个人助理
-→ QVAC 发布 BotPsy，一个拥有十亿参数以下的智能体语言模型，旨在降低云端大模型运行成本并提升隐私安全。
-8. browser-use：AI 浏览器智能体库
-→ browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。
-9. yogurt：私有 AI 会议记录
-→ yogert 是一个免费开源的私有 AI 会议记录工具。
+6. smolmaxxing：让旧设备运行大型语言模型
+→ smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。
+7. vLLM部署DeepSeek-V4.1-Flash
+→ vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。
+8. OpenAI 发布 Codex Security CLI 和 SDK
+→ OpenAI 发布 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。
+9. LangChain介绍评估驱动开发
+→ LangChain介绍评估驱动开发，通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。
+10. agentes-chat：自托管的开源 Slack 替代品
+→ agentes-chat 是自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。
 
 【学术前沿】
-10. Tree-Ising：位级 Ising 编辑修复模型
-→ 论文提出 Tree-Ising 方法，将语言模型修复转化为稀疏离散优化问题，在 MATH-500 基准测试中达到 54.6%。
-11. Google DeepMind 发布 AlphaGenome 2
-→ Google DeepMind 发布 AlphaGenome 2，用于预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。
-12. WikiTrace：证据链接记忆系统
-→ 论文提出 WikiTrace 证据链接记忆系统，将记忆与原始轨迹关联，减少记忆诱导的退化。
-13. ASCENT：长上下文模型外部状态
-→ 论文提出互补缩放原理，通过目标盲因果写入器和嵌套类型状态实现，所有语言模型保持冻结。
+11. REAL Loss 优化推测解码的期望接受长度
+→ REAL Loss 通过路径权重和无偏估计直接优化推测解码中的期望接受长度，在 Qwen3.6-35B-A3B 目标模型上优于其他基线方法。
+12. 姚期智与杨植麟刷新图论纪录
+→ 姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。
+13. TOME-Math 数据集提升数学证明监督效果
+→ TOME-Math 数据集将大学数学教材转化为约 38 万条结构化证明监督记录，微调后的模型在基准测试中平均得分提升了 16.7 个百分点。
+14. BioXArena-Pro：生物医学智能体评测基准
+→ 论文构建了包含64个研究级建模任务的BioXArena-Pro基准，用于评测生物医学智能体。研究发现智能体在适应新数据时表现优于直接复现方法。
 
 【产业纵横】
-14. OpenAI 分享 JioStar 5 亿用户规模下的 AI 发现经验
-→ OpenAI 分享了 JioStar 在 5 亿用户规模下进行 AI 发现的经验，包括评估和护栏设置。
+15. Amplitude用OpenAI实现快速产品改进
+→ Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-12-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-13-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -76,49 +77,51 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 0 个 PR、提交 0 次**<br>11月11日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 0 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 0 个 PR、提交 0 次**<br>11月12日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-#### 政策动向
+**pwntools-dojo 新增 1 个 PR**<br>11月12日，pwn.hust.college SIG的 pwntools-dojo 仓库新增 PR 1 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwntools-dojo)）</sub>
 
-**国家发改委提出深化拓展“人工智能+”行动**<br>11月11日，国家发展改革委表示我国人工智能发展速度、应用规模全球领先，在塑造经济发展新动能、增进民生福祉、提升政府治理水平方面取得积极成效。<br><sub>（来源：[中国政府网](https://www.gov.cn/yaowen/liebiao/202611/content_7085824.htm)）</sub>
+#### 国内动态
+
+**MiniMax开源H3-Image生图模型**<br>11月12日，MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/509440.html)）</sub>
 
 #### 海外动态
 
-**Gemini 4 Carbon 现已上线**<br>11月11日，Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/gemini-4-carbon-is-now-available/)）</sub>
+**谷歌推出Gemini 4 Hydrogen模型**<br>11月13日，谷歌推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计，提供高效智能。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/introducing-gemini-4-hydrogen/)）</sub>
 
-**Google AI 推出 Gemini Decisions API**<br>11月12日，Google AI 推出基于 Gemini Decision 模型的 API，提供快速且校准的多模态决策能力。<br><sub>（来源：[Google AI](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/)）</sub>
+**谷歌发布多模态决策模型Gemini Decision 1**<br>11月13日，谷歌发布多模态决策模型Gemini Decision 1，输出全免费。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/13/other/admin/123638/%e8%b0%b7%e6%ad%8c%e5%8f%91%e5%b8%83%e9%a6%96%e4%b8%aa%e5%86%b3%e7%ad%96%e6%a8%a1%e5%9e%8b%ef%bc%81%e8%be%93%e5%87%ba%e5%85%a8%e5%85%8d%e8%b4%b9%ef%bc%8c%e7%99%be%e4%b8%87token%e4%bd%8e%e8%87%b30-1/)）</sub>
 
 #### 开源项目
 
-**vLLM 推出编码器解耦技术 EPD**<br>11月11日，vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务的扩展性。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-11-encoder-disaggregation-epd)）</sub>
+**smolmaxxing：让旧设备运行大型语言模型**<br>11月12日，smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。<br><sub>（来源：[Hacker News](https://github.com/hyperionaidev/smolmaxxing/)）</sub>
 
-**langchain 发布 1.5.0 版本**<br>11月11日，langchain-ai 发布 langchain==1.5.0，移除对已停止维护的 Python 3.10 的支持，最低要求 Python 3.11。<br><sub>（来源：[GitHub 版本发布](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0)）</sub>
+**vLLM部署DeepSeek-V4.1-Flash**<br>11月12日，vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin)）</sub>
 
-**QVAC 发布 BotPsy 端侧个人助理**<br>11月11日，QVAC 发布 BotPsy，一个拥有十亿参数以下的智能体语言模型，旨在降低云端大模型运行成本并提升隐私安全。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/qvac/botpsy)）</sub>
+**OpenAI 发布 Codex Security CLI 和 SDK**<br>11月13日消息，OpenAI 发布 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。<br><sub>（来源：[GitHub Trending](https://github.com/openai/codex-security)）</sub>
 
-**browser-use：AI 浏览器智能体库**<br>11月12日消息，browser-use 是一个开源的 Python 库，用于 AI 浏览器智能体，并提供云端 API。<br><sub>（来源：[GitHub Trending](https://github.com/browser-use/browser-use)）</sub>
+**LangChain介绍评估驱动开发**<br>11月13日，LangChain介绍评估驱动开发，通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/what-is-eval-driven-development)）</sub>
 
-**yogurt：私有 AI 会议记录**<br>11月12日消息，yogert 是一个免费开源的私有 AI 会议记录工具。<br><sub>（来源：[GitHub 新项目](https://github.com/FrigadeHQ/yogurt)）</sub>
+**agentes-chat：自托管的开源 Slack 替代品**<br>11月13日消息，agentes-chat 是自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。<br><sub>（来源：[GitHub 新项目](https://github.com/agentes-chat/agentes-chat)）</sub>
 
 #### 学术前沿
 
-**Tree-Ising：位级 Ising 编辑修复模型**<br>11月10日，论文提出 Tree-Ising 方法，将语言模型修复转化为稀疏离散优化问题，在 MATH-500 基准测试中达到 54.6%。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.14210)）</sub>
+**REAL Loss 优化推测解码的期望接受长度**<br>11月11日，REAL Loss 通过路径权重和无偏估计直接优化推测解码中的期望接受长度，在 Qwen3.6-35B-A3B 目标模型上优于其他基线方法。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.14399)）</sub>
 
-**Google DeepMind 发布 AlphaGenome 2**<br>11月11日，Google DeepMind 发布 AlphaGenome 2，用于预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/)）</sub>
+**姚期智与杨植麟刷新图论纪录**<br>11月12日，姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/ai/3vRqaeAILJdgRlhL.html)）</sub>
 
-**WikiTrace：证据链接记忆系统**<br>11月11日，论文提出 WikiTrace 证据链接记忆系统，将记忆与原始轨迹关联，减少记忆诱导的退化。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.14320)）</sub>
+**TOME-Math 数据集提升数学证明监督效果**<br>11月13日消息，TOME-Math 数据集将大学数学教材转化为约 38 万条结构化证明监督记录，微调后的模型在基准测试中平均得分提升了 16.7 个百分点。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.40394)）</sub>
 
-**ASCENT：长上下文模型外部状态**<br>11月12日消息，论文提出互补缩放原理，通过目标盲因果写入器和嵌套类型状态实现，所有语言模型保持冻结。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.10175)）</sub>
+**BioXArena-Pro：生物医学智能体评测基准**<br>11月13日消息，论文构建了包含64个研究级建模任务的BioXArena-Pro基准，用于评测生物医学智能体。研究发现智能体在适应新数据时表现优于直接复现方法。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.13994)）</sub>
 
 #### 产业纵横
 
-**OpenAI 分享 JioStar 5 亿用户规模下的 AI 发现经验**<br>11月11日，OpenAI 分享了 JioStar 在 5 亿用户规模下进行 AI 发现的经验，包括评估和护栏设置。<br><sub>（来源：[OpenAI](https://openai.com/index/jiostar-vijay-seshadri)）</sub>
+**Amplitude用OpenAI实现快速产品改进**<br>11月13日，Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。<br><sub>（来源：[OpenAI](https://openai.com/business/customer-stories/amplitude)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月11日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-12 16:21（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月12日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-13 08:21（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 
