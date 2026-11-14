@@ -1,0 +1,1440 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "2026-11-14T22:58:20Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 467,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 61,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 3.0
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 12.8
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.2
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 46,
+   "error": "",
+   "seconds": 8.3
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 343,
+   "error": "",
+   "seconds": 22.0
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 20.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 42.5
+  }
+ ],
+ "items": [
+  {
+   "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-13T15:08:44Z",
+   "summary": "",
+   "heat": 0.984,
+   "weight": 0.6,
+   "metrics": {
+    "points": 453.0,
+    "comments": 656.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50484658",
+    "llm_done": true
+   },
+   "id": "215dc0c4303e",
+   "score": 7.98,
+   "title_zh": "Jonathan Blow：如果 AI 解决了编程，为什么我的软件还是老样子？",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "url": "https://status.claude.com/incidents/nn11wk485zfn",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-13T10:18:13Z",
+   "summary": "",
+   "heat": 0.998,
+   "weight": 0.6,
+   "metrics": {
+    "points": 493.0,
+    "comments": 390.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50481187",
+    "excerpt_tried": true,
+    "evidence": "Claude's Status Page - Elevated errors on claude.ai, Claude Code, and platform.claude.com.",
+    "llm_done": true
+   },
+   "id": "d40417cf3664",
+   "score": 7.97,
+   "title_zh": "Claude 平台出现 elevated errors",
+   "summary_zh": "Claude 的 claude.ai、Claude Code 和 platform.claude.com 出现 elevated errors。",
+   "tags": [
+    "平台动态",
+    "故障"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-13T17:30:10Z",
+   "summary": "",
+   "heat": 0.972,
+   "weight": 0.6,
+   "metrics": {
+    "points": 421.0,
+    "comments": 107.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50486748",
+    "excerpt_tried": true,
+    "evidence": "Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems The Austrian logician Kurt Gödel was one of the most original thinkers of the 20th century. His two incompleteness theorems , published in 1931, transformed mathematics and paved the way for the digital age. After his seminal results of the 1930s, Gödel published only a few papers. His unpublished work, however, runs to tens of thousands of pages, and is of great interest to historians of science. Since 2017, the Finnish logician Jan von Plato has led a project at Helsinki University to understand the contents of 16 notebooks that Gödel wrote in the early 1940s. This material – the “workbooks” – is 1,009 pages of densely written text about ma…",
+    "llm_done": true
+   },
+   "id": "fca2b3d26517",
+   "score": 7.97,
+   "title_zh": "AI 解锁哥德尔手稿，据说包含数百个已证明的定理",
+   "summary_zh": "AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。",
+   "tags": [
+    "论文",
+    "数学"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+   "url": "https://www.qbitai.com/2026/11/510232.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-14T09:58:22Z",
+   "summary": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了 这回不刷题了，就直接给AI一组实验条件，让它 自己研究、提前猜真实湿实验的结果 …… 比如，同一个反应换几种条件，哪种能得到更多目标产物？一批抗体变体，哪个表达量更高？ 这两年， AI for Science 的方式越来越深入，AI已经能自主查文献、用软件，为完成一项分析任务连续做上几小时也不在话下。 它需要AI理解实验目标，并从已有知识中挖掘出相关机制，才能更好地帮助研究人员筛选值得进一步探索的研究方向。 UniPat AI牵头推出的新基准 Science Prediction Universe （简称SPU），便敏锐地察觉到这一点。 116个任务，4207个湿实验，覆盖化学、材料科学、生物和医学，基准顾问与湿实验合作成员也来自斯坦福、康奈尔、哈佛等高校，以及业内前沿科研机构和生物技术公司。 模型践行每次工作8小时制，配有一块H20，然后自主决定怎样利用检索与计算资源形成实验预测。 即使强如Opus 5.5、GPT-6 Astra，数据上 距离真正能实现预测还都很遥远 。。。 科学史上有过很多这样的时刻，一个判断在实验之前被给出，然后交给过程去裁决，对了就留下，错了就推翻。 毕竟光一次湿实验，做化学的要配试剂、设定反应条件，再分离产物；做生物的也要经过漫长的蛋白表达……时间成本、工具费用本身就价格不菲，结果不理想还得反反复复做好几轮。 只不过区别在于，过去这件事纯靠科学家自己，现在到了AI时代，模型也需要有这项能力，并且还需要一张能为之打分的试卷。 现有的基准还无法完全覆盖 ，比如BrainBench让模型直接判断实验结果，ScienceAgentBench侧重在已有数据上完成分析，Terminal-Bench 4.0和Long-Horizon-TB这类长程任务基准，则主要用预设测试检查任务产物。 它更强调把AI自主研究…",
+    "llm_done": true
+   },
+   "id": "d9ccfe9c1761",
+   "score": 7.82,
+   "title_zh": "",
+   "summary_zh": "斯坦福等团队推出新基准SPU，测试AI在化学、生物等领域的湿实验预测能力。",
+   "tags": [
+    "基准发布",
+    "AI for Scie…",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "数学界震动！Claude一口气写下19万行源码，揪出13年前证明错误",
+   "url": "https://aiera.com.cn/2026/11/14/other/admin/123766/%e6%95%b0%e5%ad%a6%e7%95%8c%e9%9c%87%e5%8a%a8%ef%bc%81claude%e4%b8%80%e5%8f%a3%e6%b0%94%e5%86%99%e4%b8%8b19%e4%b8%87%e8%a1%8c%e6%ba%90%e7%a0%81%ef%bc%8c%e6%8f%aa%e5%87%ba13%e5%b9%b4%e5%89%8d%e8%af%81/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-14T00:07:43Z",
+   "summary": "这是真要把人类数学家，逼上绝路啊...... 费马大定理，30个小时1000个Claude Fable 5.2组队，完成了完整的形式化证明。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "4c23f242cac6",
+   "score": 7.74,
+   "title_zh": "Claude完成费马大定理形式化证明",
+   "summary_zh": "Claude Fable 5.2在30小时内完成费马大定理的形式化证明，发现13年前证明错误。",
+   "tags": [
+    "数学",
+    "证明",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "After 600 experiments, here's what I discovered about JEPA world models",
+   "url": "https://haddyalchaer.com/jepa",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-13T17:55:28Z",
+   "summary": "",
+   "heat": 0.91,
+   "weight": 0.6,
+   "metrics": {
+    "points": 286.0,
+    "comments": 48.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50487185",
+    "excerpt_tried": true,
+    "evidence": "There's a big debate in AI right now about what a world model should be. Most of the attention goes to generative world models, which predict the future by generating it, usually in pixels. Solving long-horizon tasks without any extra training The proposed alternative is JEPA, the joint-embedding predictive architecture. It has three parts: an encoder, a predictor and a planner. The encoder turns each frame of observation into a learned embedding, a compact vector that describes the scene. The predictor takes that embedding plus an action and predicts the embedding of the next frame. The planner then tries hundreds of action sequences inside the predictor and picks the one whose predicted end state lands closest to the embedding of the goal. The whole loop runs in embedding space, so the…",
+    "llm_done": true
+   },
+   "id": "1bb0b89509dd",
+   "score": 7.66,
+   "title_zh": "经过 600 次实验，我发现了关于 JEPA 世界模型的结论",
+   "summary_zh": "JEPA 是一种联合嵌入预测架构，用于解决长时域任务。",
+   "tags": [
+    "论文",
+    "模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Open-source AI without Jensen",
+   "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+   "source": "rss",
+   "section": "news",
+   "via": "Interconnects",
+   "published": "2026-11-14T12:23:15Z",
+   "summary": "A decapitation. It’s time to rebuild.",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "A decapitation. It’s time to rebuild. The resignation of Nvidia CEO Jensen Huang is a major setback for the US development of an open model ecosystem. Nvidia still has the financial interests in supporting open models, which are to avoid concentration in power among a few customers who would develop their own chips and reduce Nvidia’s profits, but supporting the open ecosystem is a tricky puzzle more than an engineering problem to grind out a solution on. Nvidia’s business operations are famously extremely dependent on Jensen as an operator, so it is a consensus opinion that there are challenges ahead (or even more high-profile departures through chip-smuggling investigations or plain-old sharks circling more poachable talent). Nvidia’s number one goal is to stabilize the ship, deliver to…",
+    "llm_done": true
+   },
+   "id": "ba1e55febf6c",
+   "score": 7.57,
+   "title_zh": "",
+   "summary_zh": "Nvidia CEO Jensen Huang辞职，可能影响美国开源AI模型生态的发展。",
+   "tags": [
+    "行业动态",
+    "开源",
+    "Nvidia"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-13T08:00:00Z",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "be02ca9585a6",
+   "score": 7.54,
+   "title_zh": "Shield：OpenAI助力IT技术人员交接工作",
+   "summary_zh": "Shield利用OpenAI帮助IT技术人员在遗留门户系统中交接工作，让技术人员专注于需要判断的问题。",
+   "tags": [
+    "工具",
+    "OpenAI",
+    "办公自动化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+   "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-14T19:05:17Z",
+   "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. The article Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a rec…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3d2092dbd070",
+   "score": 6.56,
+   "title_zh": "Anthropic CEO：未来一年充满不确定性",
+   "summary_zh": "Anthropic CEO Amodei在IPO前表示，购买算力是公司面临的最深商业困境，未来收入能否证明成本合理尚不明确。",
+   "tags": [
+    "行业动态",
+    "Anthropic",
+    "IPO"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城",
+   "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
+   "source": "rss",
+   "section": "news",
+   "via": "爱范儿",
+   "published": "2026-11-13T10:04:55Z",
+   "summary": "世界模型的竞争要开始了吗 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "李飞飞创办的 World Labs 正式开放世界模型 Atlas，同步上线网页应用和开发者 API。实测通过一句提示词搭建重庆山城，体验 Viewfinder、Chisel 等工具如何生成场景、规划镜头，并导出三维资产。 之前凭借「一张图片生成整个 3D 世界」刷屏的李飞飞世界模型，现在终于向所有人开放了。 就在今天，由「AI 教母」李飞飞创办的 World Labs 正式开放世界模型 Atlas，同步上线网页应用和开发者 API，新用户注册即送 10000 积分。 现在，我们也能亲自体验这项曾经只能在演示视频里看到的能力：随手画几栋房子、一条小路，AI 就能把草图变成一个可以自由探索的 3D 世界。甚至还能调整场景布局、规划镜头、生成视频，最后导出到 Blender 或游戏引擎里继续加工。 这次开放还带来了两款全新的 Web 应用 Viewfinder 和 Chisel ，进入 Atlas 网页直接就能上手体验。 李飞飞转发 World Labs 宣布开放的推文并难掩兴奋，表示「Atlas 现已向所有人开放！！我非常期待看到用户能用我们最新的世界模型构建出什么！🤩🌎」 a16z 合伙人 Martin Casado 对这次发布也给出了超高的评价，他认为这是自生成式 AI 兴起以来，3D 生成/重建领域最大的一步。 登录 Atlas 需要手机号验证，我们测试使用 +86 手机号也能正常收到验证码，不过在之后选择使用区域内，要记得选择美国或加拿大，以确保后续体验正常。 新用户登录之后，能看到首页包含四个工具，Viewfinger、Chisel、Relight 和 Splat to mesh，看起来都是很专业的词汇，但其实就是在实现「世界」从生成的工程化的完整链路。 Viewfinder 的作用是从图片到场景，给它照片或文生成图，它就可以建立场景，让我们探索新的视角、设置相机路…",
+    "llm_done": true
+   },
+   "id": "38e1f2be4cd0",
+   "score": 6.55,
+   "title_zh": "",
+   "summary_zh": "李飞飞创办的World Labs开放世界模型Atlas，用户可通过提示词生成3D场景并导出。",
+   "tags": [
+    "模型发布",
+    "3D生成",
+    "李飞飞"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Topkiflare74/ai--manus2.0",
+   "url": "https://github.com/Topkiflare74/ai--manus2.0",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+   "heat": 0.892,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 678.0
+   },
+   "extra": {
+    "language": "",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ab46b4892965",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "trackboatwrightplan/GitHub-Copilot-app",
+   "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories.",
+   "heat": 0.891,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 673.0
+   },
+   "extra": {
+    "language": "",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d0265fe5de40",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "GitHub Copilot app 是一个面向 GitHub 仓库的 agent 原生桌面体验，用于查找、运行、引导和落地软件工作。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Chrome DevTools for coding agents",
+   "heat": 0.813,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 673.0,
+    "stars": 56257.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1dd761cb6975",
+   "score": 6.95,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Goal Engineering",
+   "url": "https://www.langchain.com/blog/goal-engineering",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-14T16:00:01Z",
+   "summary": "The future of agents is them taking on open ended goals and driving towards completion of those goals. Learn more.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "92baf8e671f4",
+   "score": 6.84,
+   "title_zh": "",
+   "summary_zh": "智能体将承担开放性目标并驱动其完成，这是智能体发展的未来方向。",
+   "tags": [
+    "智能体",
+    "开源",
+    "未来趋势"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "rasbt/LLMs-from-scratch",
+   "url": "https://github.com/rasbt/LLMs-from-scratch",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+   "heat": 0.511,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 59.0,
+    "stars": 108414.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a866b09b0052",
+   "score": 6.34,
+   "title_zh": "",
+   "summary_zh": "使用 PyTorch 从零开始逐步实现一个类似 ChatGPT 的 LLM。",
+   "tags": [
+    "开源工具",
+    "教程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "heat": 0.79,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 556.0,
+    "stars": 4763.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "4c6326b8d7aa",
+   "score": 6.3,
+   "title_zh": "",
+   "summary_zh": "Claude Code 技能，用于股票投资者和交易者的市场分析、技术图表、经济日历、筛选器和交易策略开发。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+   "heat": 0.775,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 495.0,
+    "stars": 24449.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "12221ab3bb24",
+   "score": 6.27,
+   "title_zh": "",
+   "summary_zh": "Univer Office SDK，用于构建自己的 AI 办公套件，支持编辑、计算、协作和文件处理。",
+   "tags": [
+    "开源工具",
+    "办公"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "phimint v0.10.0 发布：卡在「等你输入」的命令上，agent 能自己接上",
+   "url": "https://www.oschina.net/news/503576",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-14T04:24:27Z",
+   "summary": "phimint v0.10.0 已发布（2026-11-14）。phimint 是一个用 Rust 写的终端轻量AI 编码 agent——一条命令装上，配好 API key 就能在终端里把需求变成跑通的代码。 终端里跑一条命令，它停下来问你「确定吗？」——以前这类命令只能干等到超时。现在 agent 会读屏幕，判断这个提问是什么形状（是/否？选单？要密码？），再...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "81824d05a098",
+   "score": 6.25,
+   "title_zh": "",
+   "summary_zh": "phimint v0.10.0发布，Rust编写的终端AI编码agent能自主处理终端交互。",
+   "tags": [
+    "开源工具",
+    "编码",
+    "终端"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+   "url": "https://arxiv.org/abs/2611.16748",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-12T00:00:00Z",
+   "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to support physically grounded self-improvement in video generation models. The harness guides and constrains LLMs throughout video generation, selection, and correction, distilling their physical knowledge into physically consistent videos. The framework supports controllable training-data construction and inference-time video repair. By identifying and correcting failures, PhysLoop marks a key milestone toward recursive self-improvement (RSI) in video generation models with limited human intervention. We release 100K videos spanning diverse, realistic indoor and outdoor scenes, along with generation tools and two evaluation datasets: PhysLoop-Gen and PhysLoop-Repair. We evaluate controllable generation and localized repair on these datasets, respectively, and assess physical behavior on the external Physics-IQ Verified benchmark.",
+   "heat": 0.675,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 46.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/DAGroup-PKU/PhysLoop"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "eb0a8524a4c8",
+   "score": 6.56,
+   "title_zh": "PhysLoop：利用大模型物理感知实现视频生成模型自我改进",
+   "summary_zh": "视频生成模型难以处理物理动态和因果一致性。PhysLoop 框架利用大模型的物理知识，通过引导和约束生成过程，将物理知识蒸馏为物理一致的视频。该方法实现了可控训练数据构建和推理时视频修复。",
+   "tags": [
+    "视频生成",
+    "大模型",
+    "物理一致性"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
+   "url": "https://arxiv.org/abs/2611.16933",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-11-12T15:19:35Z",
+   "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people into one track per person with the original length and timing; overlaps and short replies (\"yeah\", \"mm-hm\") stay on the track of the person who said them. Kezek decides who speaks when and who is who once for the whole recording (stage 1: a two-voice activity model guided by a speaker fingerprint trained to be insensitive to phase), and a conditioned time-domain separator only carries out that decision (stage 2), with outputs that always sum to the input. Standard separation metrics miss the failures that matter for dialogue data, so we report short-reply retention, leakage onto the other person's solo, channel swaps and coverage. Against the open pipeline pyannote -> DialogueSidon on the same recordings, Kezek keeps more short replies (0.83 vs. 0.69 on Open Yap test; 0.80 vs. 0.71 over the other's speech on unseen telephone speech from CallHome English), mostly because it returns the whole recording while the external pipeline drops part of it (on the audio both return, reply retention is about the same: 0.859 vs. 0.865 on Open Yap); it also leaks less, swaps channels less often, and runs 4-5 times faster (about 230 hours of audio per GPU-hour). We also report negative results and an ideal-mask ceiling…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "31b8ebf90bca",
+   "score": 6.12,
+   "title_zh": "Kezek：双声道对话音频分离模型",
+   "summary_zh": "现有双工对话模型难以处理单声道混音数据。Kezek 模型将双人的单声道录音分离为每人一条轨道，保留重叠和简短回复。实验表明，Kezek 在保留短回复、减少泄漏和运行速度上优于现有管道。",
+   "tags": [
+    "语音分离",
+    "双工对话",
+    "音频处理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Beyond Word Error Rate: A Failure Taxonomy of Streaming Dictation ASR",
+   "url": "https://arxiv.org/abs/2611.16919",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-11-12T15:09:15Z",
+   "summary": "Speech recognition (ASR) systems are usually compared by word error rate (WER) on recorded files, after punctuation, capital letters and number format are removed. In dictation, the audio is streamed live and the text goes into the user's message as written, so what matters is which mistakes the user has to fix. The test set, streamed to eleven ASR systems, comprises 106 scripted English dictations from one speaker (read in a quiet room, with a fan on, and whispered), 20 clips in each of eleven other language and dialect sets, and 400 recordings that join clips in two languages. Every error was sorted by a fixed rule into four levels: recognition, output formatting, language handling and, for the self-hosted models, audio dropped before the model. Systems with similar WER failed in different ways. Zoom Scribe and OpenAI's GPT-Live-Transcribe have almost the same WER on quiet English (7.4% and 7.3%), but 34.7% and 8.8% on whispered English. Zoom and both AssemblyAI models left out 26-28% of whispered words, and still 21-26% with their end-of-turn detection relaxed or off; seven other systems left out at most 3%. Qwen3-ASR's 32% came from the speech detection in our own deployment (6% when relaxed). Across 107 EARS speakers, the same four systems lost 7-31% of whispered words, while six others lost under 2%. With only English selected, Gemini, Deepgram and our self-hosted Whisper lost the non-English part of a two-language recording in 86-99% of recordings, against 33-46% with…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e762953b67d6",
+   "score": 6.12,
+   "title_zh": "超越词错误率：流式听写 ASR 失败分类法",
+   "summary_zh": "流式听写 ASR 系统的评估不应仅依赖词错误率。本文提出一种失败分类法，将错误分为识别、输出格式、语言处理等四个级别。实验发现，不同 WER 的系统在处理低信噪比或多语言时失败方式各异。",
+   "tags": [
+    "语音识别",
+    "流式处理",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Towards Green Text Generation: Memory-Based Speculative Decoding",
+   "url": "https://arxiv.org/abs/2611.16714",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-12T12:32:14Z",
+   "summary": "Speculative decoding accelerates text generation with large language models by letting a cheap draft model propose tokens that a large verifier checks in a single forward pass. We introduce Olifant, a draft model built on a memory-based classifier. It predicts the next token from a four-token window in under 0.3 ms on CPU, requiring no GPU, no backpropagation, and no accelerator memory. We measure throughput and energy under two verifier regimes on consumer hardware. Without a KV cache, drafting is nearly free: a domain-matched Olifant model reaches 38.1% acceptance on EU legal text, delivering 2.43x throughput and 2.51x lower energy per token than the neural verifier model alone. With a KV-cached verifier, itself a ~10x energy saver, drafting costs matter: a TinyLlama draft model halves throughput and triples energy despite high acceptance, whereas Olifant still yields 1.25x throughput and the lowest energy in the study (93 J per 100 tokens, 14x below the uncached baseline). We further show that KV caching decouples time from energy: verification of longer drafts raises power draw, shifting the energy-optimal draft length below the speed-optimal one. Speculative decoding is not dead in the age of fast verifiers, provided drafting is nearly free.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d7bc8e598342",
+   "score": 6.1,
+   "title_zh": "",
+   "summary_zh": "推测解码通过廉价草稿模型加速大模型生成。Olifant 是一个基于内存分类器的草稿模型，在 CPU 上预测下一个 token。实验显示，在无 KV 缓存时，Olifant 能显著提升吞吐量和降低能耗。",
+   "tags": [
+    "高效推理",
+    "推测解码",
+    "能耗优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SignRot: LLM Quantization with Massive Outlier-Aware Sign-Adjusted Rotation",
+   "url": "https://arxiv.org/abs/2611.16502",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-12T09:05:14Z",
+   "summary": "While quantization compresses LLMs and accelerates inference, outlier activations impede efficient low-bit representation. In particular, massive outliers cause substantial performance degradation. Although rotation-based methods that rely on randomized Hadamard transforms for online inference aim to mitigate this, they can produce fragmented distributions with empty bins when a massive outlier dominates a token's activation. This fragmentation severely undermines uniform quantization performance. Moreover, massive outliers concentrate in the down-projection input, where the preceding nonlinearity requires the rotation to be applied at inference time. This constraint prevents training-based approaches such as SpinQuant from learning the online rotation at this position, as a learned dense matrix cannot use the Fast Walsh-Hadamard Transform and would require a full matrix multiplication during inference. To address this, we propose SignRot (Sign-adjusted Rotation), which identifies massive outlier channels and constructs a sign adjustment vector that unifies the signs of the corresponding Hadamard row, collapsing the bimodal distribution into a unimodal profile amenable to quantization. Since the aligned outlier shifts the activation mean away from zero, we pair SignRot with asymmetric activation quantization, whose zero-point absorbs this shift. As a lightweight, drop-in improvement compatible with any Hadamard-based quantization method, SignRot requires only a single calibr…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "37f5ee6937fa",
+   "score": 6.09,
+   "title_zh": "SignRot：大规模异常值感知的符号调整旋转量化",
+   "summary_zh": "LLM 量化中的异常值会降低性能。SignRot 方法通过识别异常通道并构建符号调整向量，将双峰分布压缩为单峰分布，使其适合量化。该方法与不对称激活量化结合，实现了轻量级的量化改进。",
+   "tags": [
+    "模型量化",
+    "高效推理",
+    "异常值处理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-15",
+  "start": "2026-11-15",
+  "end": "2026-11-15",
+  "title": "AI 解锁哥德尔手稿",
+  "generated_at": "2026-11-14T22:58:20Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-14",
+   "end": "2026-11-14"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 3 个 PR、提交 4 次",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 2 个、合并 3 个，提交 4 次，新增代码 1690 行、删除 82 行，5 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "pwnhustcollege_skill 合并 1 个 PR",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "pwn.hust.college SIG的 pwnhustcollege_skill 仓库新增 PR 2 个、合并 1 个、提交 2 次、新增代码 16 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwnhustcollege_skill",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 1674 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "李飞飞世界模型Atlas正式开放",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "李飞飞创办的World Labs正式开放世界模型Atlas，用户可通过提示词生成3D场景。",
+    "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "via": "爱范儿",
+    "id": "38e1f2be4cd0",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "ai--manus2.0：通用 AI Agent 系统",
+    "when": "11月15日消息",
+    "date": "2026-11-15",
+    "body": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。",
+    "url": "https://github.com/Topkiflare74/ai--manus2.0",
+    "via": "GitHub 新项目",
+    "id": "ab46b4892965",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "GitHub Copilot app：agent 原生桌面体验",
+    "when": "11月15日消息",
+    "date": "2026-11-15",
+    "body": "GitHub Copilot app 是一个面向 GitHub 仓库的 agent 原生桌面体验，用于查找、运行、引导和落地软件工作。",
+    "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
+    "via": "GitHub 新项目",
+    "id": "d0265fe5de40",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "ChromeDevTools/chrome-devtools-mcp",
+    "when": "11月15日消息",
+    "date": "2026-11-15",
+    "body": "Chrome DevTools for coding agents。",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "via": "GitHub Trending",
+    "id": "1dd761cb6975",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "LangChain博客讨论Goal Engineering",
+    "when": "11月15日",
+    "date": "2026-11-15",
+    "body": "LangChain博客指出智能体承担开放性目标并驱动其完成是未来发展方向。",
+    "url": "https://www.langchain.com/blog/goal-engineering",
+    "via": "LangChain 博客",
+    "id": "92baf8e671f4",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "LLMs-from-scratch：从零实现 LLM",
+    "when": "11月15日消息",
+    "date": "2026-11-15",
+    "body": "使用 PyTorch 从零开始逐步实现一个类似 ChatGPT 的 LLM。",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "via": "GitHub Trending",
+    "id": "a866b09b0052",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "AI 解锁哥德尔手稿",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。",
+    "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+    "via": "Hacker News",
+    "id": "fca2b3d26517",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "斯坦福等团队发布SPU湿实验预测基准",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "斯坦福等团队推出Science Prediction Universe基准，测试AI在化学、生物等领域的湿实验预测能力。",
+    "url": "https://www.qbitai.com/2026/11/510232.html",
+    "via": "量子位",
+    "id": "d9ccfe9c1761",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Claude完成费马大定理形式化证明",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "Claude Fable 5.2在30小时内完成费马大定理的形式化证明，并发现13年前证明中的错误。",
+    "url": "https://aiera.com.cn/2026/11/14/other/admin/123766/%e6%95%b0%e5%ad%a6%e7%95%8c%e9%9c%87%e5%8a%a8%ef%bc%81claude%e4%b8%80%e5%8f%a3%e6%b0%94%e5%86%99%e4%b8%8b19%e4%b8%87%e8%a1%8c%e6%ba%90%e7%a0%81%ef%bc%8c%e6%8f%aa%e5%87%ba13%e5%b9%b4%e5%89%8d%e8%af%81/",
+    "via": "新智元",
+    "id": "4c23f242cac6",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "600 次实验发现 JEPA 世界模型",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "JEPA 是一种联合嵌入预测架构，用于解决长时域任务，包含编码器、预测器和规划器。",
+    "url": "https://haddyalchaer.com/jepa",
+    "via": "Hacker News",
+    "id": "1bb0b89509dd",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "215dc0c4303e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "d40417cf3664": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "fca2b3d26517": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AI 解锁哥德尔手稿",
+    "body": "AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。"
+   },
+   "d9ccfe9c1761": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "斯坦福等团队发布SPU湿实验预测基准",
+    "body": "斯坦福等团队推出Science Prediction Universe基准，测试AI在化学、生物等领域的湿实验预测能力。"
+   },
+   "4c23f242cac6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Claude完成费马大定理形式化证明",
+    "body": "Claude Fable 5.2在30小时内完成费马大定理的形式化证明，并发现13年前证明中的错误。"
+   },
+   "1bb0b89509dd": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "600 次实验发现 JEPA 世界模型",
+    "body": "JEPA 是一种联合嵌入预测架构，用于解决长时域任务，包含编码器、预测器和规划器。"
+   },
+   "ba1e55febf6c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Nvidia CEO辞职影响开源AI生态",
+    "body": "Nvidia CEO Jensen Huang辞职可能影响美国开源AI模型生态的发展。"
+   },
+   "be02ca9585a6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI Shield助力IT技术人员交接工作",
+    "body": "Shield利用OpenAI帮助IT技术人员在遗留门户系统中交接工作。"
+   },
+   "3d2092dbd070": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic CEO称未来一年充满不确定性",
+    "body": "Anthropic CEO Amodei在IPO前表示，购买算力是公司面临的最深商业困境。"
+   },
+   "38e1f2be4cd0": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "李飞飞世界模型Atlas正式开放",
+    "body": "李飞飞创办的World Labs正式开放世界模型Atlas，用户可通过提示词生成3D场景。"
+   },
+   "ab46b4892965": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ai--manus2.0：通用 AI Agent 系统",
+    "body": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。"
+   },
+   "d0265fe5de40": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "GitHub Copilot app：agent 原生桌面体验",
+    "body": "GitHub Copilot app 是一个面向 GitHub 仓库的 agent 原生桌面体验，用于查找、运行、引导和落地软件工作。"
+   },
+   "1dd761cb6975": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "92baf8e671f4": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain博客讨论Goal Engineering",
+    "body": "LangChain博客指出智能体承担开放性目标并驱动其完成是未来发展方向。"
+   },
+   "a866b09b0052": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LLMs-from-scratch：从零实现 LLM",
+    "body": "使用 PyTorch 从零开始逐步实现一个类似 ChatGPT 的 LLM。"
+   },
+   "4c6326b8d7aa": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "claude-trading-skills：交易技能",
+    "body": "Claude Code 技能，用于股票投资者和交易者的市场分析、技术图表、经济日历、筛选器和交易策略开发。"
+   },
+   "12221ab3bb24": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "univer：AI 办公套件 SDK",
+    "body": "Univer Office SDK 用于构建自己的 AI 办公套件，支持编辑、计算、协作和文件处理。"
+   },
+   "81824d05a098": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "phimint v0.10.0发布",
+    "body": "phimint v0.10.0发布，Rust编写的终端AI编码agent能自主处理终端交互。"
+   },
+   "eb0a8524a4c8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "PhysLoop：物理感知视频生成",
+    "body": "PhysLoop 框架利用大模型的物理知识，通过引导和约束生成过程，将物理知识蒸馏为物理一致的视频。"
+   },
+   "31b8ebf90bca": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Kezek：双声道对话音频分离",
+    "body": "Kezek 模型将双人的单声道录音分离为每人一条轨道，保留重叠和简短回复。"
+   },
+   "e762953b67d6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "流式听写 ASR 失败分类法",
+    "body": "流式听写 ASR 系统的评估不应仅依赖词错误率，本文提出一种失败分类法，将错误分为识别、输出格式、语言处理等四个级别。"
+   },
+   "d7bc8e598342": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "基于内存分类器的推测解码加速生成",
+    "body": "Olifant 是一个基于内存分类器的草稿模型，在 CPU 上预测下一个 token，实验显示其在无 KV 缓存时能显著提升吞吐量和降低能耗。"
+   },
+   "37f5ee6937fa": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SignRot 量化方法改进 LLM",
+    "body": "SignRot 方法通过识别异常通道并构建符号调整向量，将双峰分布压缩为单峰分布，与不对称激活量化结合实现了轻量级的量化改进。"
+   }
+  }
+ }
+}

@@ -12,65 +12,53 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.14（周六）
+## 每日快讯 · 11.15（周日）
 
-> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-14-kuaixun.md) · [公众号排版版](daily/2026/2026-11-14-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-14.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-15-kuaixun.md) · [公众号排版版](daily/2026/2026-11-15-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-15.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月14日 周六
-今日 AI 与开源要闻 17 条，3 分钟速读
+【每日科技快讯】11月15日 周日
+今日 AI 与开源要闻 13 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 5 个 PR、提交 5 次
-2. pwntools-dojo 合并 2 个 PR
-3. hust-mirrors 合并 2 个 PR
+1. 开放原子开源俱乐部合并 3 个 PR、提交 4 次
+2. pwnhustcollege_skill 合并 1 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-4. DeepSeek 开放全家桶应用 API
-→ DeepSeek 正式开放全家桶应用 API，将联网搜索、深度思考、文件输入等能力整合进原有 API，开发者可调用相关功能。
-
-【海外动态】
-5. Google 推出 Gemini 4 Hydrogen 模型
-→ Google 推出 Gemini 4 Hydrogen 模型，专为可靠智能体工作流和日常任务设计，提供速度和效率。
-6. OpenAI 推出 ChatGPT Wallet
-→ OpenAI 发布了 ChatGPT Wallet，允许 ChatGPT Work、Codex 和 Dots 中的代理在用户批准下完成购买。
-7. 利用 Antigravity 的 /teamwork 推进科学与工程
-→ Google Research 展示了 Antigravity 的 /teamwork 多智能体系统，与人类专家合作解决数学、化学等领域的开放问题。
+4. 李飞飞世界模型Atlas正式开放
+→ 李飞飞创办的World Labs正式开放世界模型Atlas，用户可通过提示词生成3D场景。
 
 【开源项目】
-8. llama.cpp 发布 v1.0.0 版本
-→ llama.cpp v1.0.0 移除了废弃的公共 API，并添加了 OCP FP8 KV caches、host-memory MoE expert cache 等新功能。
-9. transformers 发布 v5.23.0 版本
-→ transformers v5.23.0 新增了 Inkling 2 Small 多模态模型，该模型接受文本和图像输入并生成文本输出。
-10. GoogleChrome/modern-web-guidance-src
-→ modern-web-guidance-src 保持编码代理与最新 Web 最佳实践同步。
-11. alibaba/open-code-review
-→ alibaba/open-code-review 开源混合架构代码审查工具，支持多语言规则集和 LLM 代理。
-12. alexeyw/lot-map Claude Code 实时地图
-→ alexeyw/lot-map 是 Claude Code 实时地图，可视化展示工具调用和模型步骤。
+5. ai--manus2.0：通用 AI Agent 系统
+→ AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。
+6. GitHub Copilot app：agent 原生桌面体验
+→ GitHub Copilot app 是一个面向 GitHub 仓库的 agent 原生桌面体验，用于查找、运行、引导和落地软件工作。
+7. ChromeDevTools/chrome-devtools-mcp
+→ Chrome DevTools for coding agents。
+8. LangChain博客讨论Goal Engineering
+→ LangChain博客指出智能体承担开放性目标并驱动其完成是未来发展方向。
+9. LLMs-from-scratch：从零实现 LLM
+→ 使用 PyTorch 从零开始逐步实现一个类似 ChatGPT 的 LLM。
 
 【学术前沿】
-13. Anthropic 分享安全评估建议
-→ Anthropic分享了设计、运行和报告安全评估的建议，强调评估对模型部署和训练的重要性。
-14. Actor, Judge, or Teacher？理解长时智能体中的决策模型
-→ Actor, Judge, or Teacher 研究决策模型在长时智能体中的三种角色：Actor、Judge和Teacher。
-15. MACaQ 提出模型无关的快速校准量化方法
-→ MACaQ 是一种 MXFP4 W4A4 训练后量化方法，通过在线应用通道缩放和块哈达玛变换来减少内存和计算成本。
-16. SO-Arena评测系统一模型能力谱系与可靠性
-→ SO-Arena是一个评测系统一模型能力谱系和决策可靠性的基准，涵盖11个领域和五个能力家族。
-
-【产业纵横】
-17. Anthropic 递交 IPO 申请
-→ Anthropic 申请成为上市公司，致力于确保 AI 的益处并缓解其风险。
+10. AI 解锁哥德尔手稿
+→ AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。
+11. 斯坦福等团队发布SPU湿实验预测基准
+→ 斯坦福等团队推出Science Prediction Universe基准，测试AI在化学、生物等领域的湿实验预测能力。
+12. Claude完成费马大定理形式化证明
+→ Claude Fable 5.2在30小时内完成费马大定理的形式化证明，并发现13年前证明中的错误。
+13. 600 次实验发现 JEPA 世界模型
+→ JEPA 是一种联合嵌入预测架构，用于解决长时域任务，包含编码器、预测器和规划器。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-14-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-15-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -80,55 +68,43 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 5 个 PR、提交 5 次**<br>11月13日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 6 个、合并 5 个，提交 5 次，新增代码 1463 行、删除 1462 行，9 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 3 个 PR、提交 4 次**<br>11月14日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 2 个、合并 3 个，提交 4 次，新增代码 1690 行、删除 82 行，5 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**pwntools-dojo 合并 2 个 PR**<br>11月13日，pwn.hust.college SIG的 pwntools-dojo 仓库新增 PR 1 个、合并 2 个、提交 3 次、新增代码 168 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwntools-dojo)）</sub>
+**pwnhustcollege\_skill 合并 1 个 PR**<br>11月14日，pwn.hust.college SIG的 pwnhustcollege\_skill 仓库新增 PR 2 个、合并 1 个、提交 2 次、新增代码 16 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwnhustcollege_skill)）</sub>
 
-**hust-mirrors 合并 2 个 PR**<br>11月13日，镜像站运维 SIG的 hust-mirrors 仓库新增 PR 1 个、合并 2 个、提交 2 次、新增代码 1295 行，4 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mirrors)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月14日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 1674 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
 #### 国内动态
 
-**DeepSeek 开放全家桶应用 API**<br>11月13日，DeepSeek 正式开放全家桶应用 API，将联网搜索、深度思考、文件输入等能力整合进原有 API，开发者可调用相关功能。<br><sub>（来源：[智东西](https://zhidx.com/p/610514.html)）</sub>
-
-#### 海外动态
-
-**Google 推出 Gemini 4 Hydrogen 模型**<br>11月13日，Google 推出 Gemini 4 Hydrogen 模型，专为可靠智能体工作流和日常任务设计，提供速度和效率。<br><sub>（来源：[Hacker News](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)）</sub>
-
-**OpenAI 推出 ChatGPT Wallet**<br>11月13日，OpenAI 发布了 ChatGPT Wallet，允许 ChatGPT Work、Codex 和 Dots 中的代理在用户批准下完成购买。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-chatgpt-wallet)）</sub>
-
-**利用 Antigravity 的 /teamwork 推进科学与工程**<br>11月14日，Google Research 展示了 Antigravity 的 /teamwork 多智能体系统，与人类专家合作解决数学、化学等领域的开放问题。<br><sub>（来源：[Google Research](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)）</sub>
+**李飞飞世界模型Atlas正式开放**<br>11月13日，李飞飞创办的World Labs正式开放世界模型Atlas，用户可通过提示词生成3D场景。<br><sub>（来源：[爱范儿](https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=)）</sub>
 
 #### 开源项目
 
-**llama.cpp 发布 v1.0.0 版本**<br>11月13日，llama.cpp v1.0.0 移除了废弃的公共 API，并添加了 OCP FP8 KV caches、host-memory MoE expert cache 等新功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0)）</sub>
+**ai--manus2.0：通用 AI Agent 系统**<br>11月15日消息，AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。<br><sub>（来源：[GitHub 新项目](https://github.com/Topkiflare74/ai--manus2.0)）</sub>
 
-**transformers 发布 v5.23.0 版本**<br>11月13日，transformers v5.23.0 新增了 Inkling 2 Small 多模态模型，该模型接受文本和图像输入并生成文本输出。<br><sub>（来源：[GitHub 版本发布](https://github.com/huggingface/transformers/releases/tag/v5.23.0)）</sub>
+**GitHub Copilot app：agent 原生桌面体验**<br>11月15日消息，GitHub Copilot app 是一个面向 GitHub 仓库的 agent 原生桌面体验，用于查找、运行、引导和落地软件工作。<br><sub>（来源：[GitHub 新项目](https://github.com/trackboatwrightplan/GitHub-Copilot-app)）</sub>
 
-**GoogleChrome/modern-web-guidance-src**<br>11月14日消息，modern-web-guidance-src 保持编码代理与最新 Web 最佳实践同步。<br><sub>（来源：[GitHub Trending](https://github.com/GoogleChrome/modern-web-guidance-src)）</sub>
+**ChromeDevTools/chrome-devtools-mcp**<br>11月15日消息，Chrome DevTools for coding agents。<br><sub>（来源：[GitHub Trending](https://github.com/ChromeDevTools/chrome-devtools-mcp)）</sub>
 
-**alibaba/open-code-review**<br>11月14日消息，alibaba/open-code-review 开源混合架构代码审查工具，支持多语言规则集和 LLM 代理。<br><sub>（来源：[GitHub Trending](https://github.com/alibaba/open-code-review)）</sub>
+**LangChain博客讨论Goal Engineering**<br>11月15日，LangChain博客指出智能体承担开放性目标并驱动其完成是未来发展方向。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/goal-engineering)）</sub>
 
-**alexeyw/lot-map Claude Code 实时地图**<br>11月14日消息，alexeyw/lot-map 是 Claude Code 实时地图，可视化展示工具调用和模型步骤。<br><sub>（来源：[GitHub 新项目](https://github.com/alexeyw/lot-map)）</sub>
+**LLMs-from-scratch：从零实现 LLM**<br>11月15日消息，使用 PyTorch 从零开始逐步实现一个类似 ChatGPT 的 LLM。<br><sub>（来源：[GitHub Trending](https://github.com/rasbt/LLMs-from-scratch)）</sub>
 
 #### 学术前沿
 
-**Anthropic 分享安全评估建议**<br>11月13日，Anthropic分享了设计、运行和报告安全评估的建议，强调评估对模型部署和训练的重要性。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/building-strong-safety-evaluations)）</sub>
+**AI 解锁哥德尔手稿**<br>11月14日，AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。<br><sub>（来源：[Hacker News](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths)）</sub>
 
-**Actor, Judge, or Teacher？理解长时智能体中的决策模型**<br>11月13日，Actor, Judge, or Teacher 研究决策模型在长时智能体中的三种角色：Actor、Judge和Teacher。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.17167)）</sub>
+**斯坦福等团队发布SPU湿实验预测基准**<br>11月14日，斯坦福等团队推出Science Prediction Universe基准，测试AI在化学、生物等领域的湿实验预测能力。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/510232.html)）</sub>
 
-**MACaQ 提出模型无关的快速校准量化方法**<br>11月14日消息，MACaQ 是一种 MXFP4 W4A4 训练后量化方法，通过在线应用通道缩放和块哈达玛变换来减少内存和计算成本。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.10649)）</sub>
+**Claude完成费马大定理形式化证明**<br>11月14日，Claude Fable 5.2在30小时内完成费马大定理的形式化证明，并发现13年前证明中的错误。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/14/other/admin/123766/%e6%95%b0%e5%ad%a6%e7%95%8c%e9%9c%87%e5%8a%a8%ef%bc%81claude%e4%b8%80%e5%8f%a3%e6%b0%94%e5%86%99%e4%b8%8b19%e4%b8%87%e8%a1%8c%e6%ba%90%e7%a0%81%ef%bc%8c%e6%8f%aa%e5%87%ba13%e5%b9%b4%e5%89%8d%e8%af%81/)）</sub>
 
-**SO-Arena评测系统一模型能力谱系与可靠性**<br>11月14日消息，SO-Arena是一个评测系统一模型能力谱系和决策可靠性的基准，涵盖11个领域和五个能力家族。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.15777)）</sub>
-
-#### 产业纵横
-
-**Anthropic 递交 IPO 申请**<br>11月12日，Anthropic 申请成为上市公司，致力于确保 AI 的益处并缓解其风险。<br><sub>（来源：[Hacker News](https://ipo.anthropic.com/us/)）</sub>
+**600 次实验发现 JEPA 世界模型**<br>11月14日，JEPA 是一种联合嵌入预测架构，用于解决长时域任务，包含编码器、预测器和规划器。<br><sub>（来源：[Hacker News](https://haddyalchaer.com/jepa)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月13日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-14 08:19（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月14日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-15 06:58（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 

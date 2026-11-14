@@ -1,0 +1,39 @@
+【每日科技快讯】11月15日 周日
+今日 AI 与开源要闻 13 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 3 个 PR、提交 4 次
+2. pwnhustcollege_skill 合并 1 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
+
+【国内动态】
+4. 李飞飞世界模型Atlas正式开放
+→ 李飞飞创办的World Labs正式开放世界模型Atlas，用户可通过提示词生成3D场景。
+
+【开源项目】
+5. ai--manus2.0：通用 AI Agent 系统
+→ AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。
+6. GitHub Copilot app：agent 原生桌面体验
+→ GitHub Copilot app 是一个面向 GitHub 仓库的 agent 原生桌面体验，用于查找、运行、引导和落地软件工作。
+7. ChromeDevTools/chrome-devtools-mcp
+→ Chrome DevTools for coding agents。
+8. LangChain博客讨论Goal Engineering
+→ LangChain博客指出智能体承担开放性目标并驱动其完成是未来发展方向。
+9. LLMs-from-scratch：从零实现 LLM
+→ 使用 PyTorch 从零开始逐步实现一个类似 ChatGPT 的 LLM。
+
+【学术前沿】
+10. AI 解锁哥德尔手稿
+→ AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。
+11. 斯坦福等团队发布SPU湿实验预测基准
+→ 斯坦福等团队推出Science Prediction Universe基准，测试AI在化学、生物等领域的湿实验预测能力。
+12. Claude完成费马大定理形式化证明
+→ Claude Fable 5.2在30小时内完成费马大定理的形式化证明，并发现13年前证明中的错误。
+13. 600 次实验发现 JEPA 世界模型
+→ JEPA 是一种联合嵌入预测架构，用于解决长时域任务，包含编码器、预测器和规划器。
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-15-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
