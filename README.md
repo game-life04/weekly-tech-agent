@@ -12,62 +12,65 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.13（周五）
+## 每日快讯 · 11.14（周六）
 
-> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-13-kuaixun.md) · [公众号排版版](daily/2026/2026-11-13-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-13.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-14-kuaixun.md) · [公众号排版版](daily/2026/2026-11-14-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-14.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月13日 周五
-今日 AI 与开源要闻 15 条，3 分钟速读
+【每日科技快讯】11月14日 周六
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 0 个 PR、提交 0 次
-2. pwntools-dojo 新增 1 个 PR
+1. 开放原子开源俱乐部合并 5 个 PR、提交 5 次
+2. pwntools-dojo 合并 2 个 PR
+3. hust-mirrors 合并 2 个 PR
 
 【国内动态】
-3. MiniMax开源H3-Image生图模型
-→ MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。
+4. DeepSeek 开放全家桶应用 API
+→ DeepSeek 正式开放全家桶应用 API，将联网搜索、深度思考、文件输入等能力整合进原有 API，开发者可调用相关功能。
 
 【海外动态】
-4. 谷歌推出Gemini 4 Hydrogen模型
-→ 谷歌推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计，提供高效智能。
-5. 谷歌发布多模态决策模型Gemini Decision 1
-→ 谷歌发布多模态决策模型Gemini Decision 1，输出全免费。
+5. Google 推出 Gemini 4 Hydrogen 模型
+→ Google 推出 Gemini 4 Hydrogen 模型，专为可靠智能体工作流和日常任务设计，提供速度和效率。
+6. OpenAI 推出 ChatGPT Wallet
+→ OpenAI 发布了 ChatGPT Wallet，允许 ChatGPT Work、Codex 和 Dots 中的代理在用户批准下完成购买。
+7. 利用 Antigravity 的 /teamwork 推进科学与工程
+→ Google Research 展示了 Antigravity 的 /teamwork 多智能体系统，与人类专家合作解决数学、化学等领域的开放问题。
 
 【开源项目】
-6. smolmaxxing：让旧设备运行大型语言模型
-→ smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。
-7. vLLM部署DeepSeek-V4.1-Flash
-→ vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。
-8. OpenAI 发布 Codex Security CLI 和 SDK
-→ OpenAI 发布 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。
-9. LangChain介绍评估驱动开发
-→ LangChain介绍评估驱动开发，通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。
-10. agentes-chat：自托管的开源 Slack 替代品
-→ agentes-chat 是自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。
+8. llama.cpp 发布 v1.0.0 版本
+→ llama.cpp v1.0.0 移除了废弃的公共 API，并添加了 OCP FP8 KV caches、host-memory MoE expert cache 等新功能。
+9. transformers 发布 v5.23.0 版本
+→ transformers v5.23.0 新增了 Inkling 2 Small 多模态模型，该模型接受文本和图像输入并生成文本输出。
+10. GoogleChrome/modern-web-guidance-src
+→ modern-web-guidance-src 保持编码代理与最新 Web 最佳实践同步。
+11. alibaba/open-code-review
+→ alibaba/open-code-review 开源混合架构代码审查工具，支持多语言规则集和 LLM 代理。
+12. alexeyw/lot-map Claude Code 实时地图
+→ alexeyw/lot-map 是 Claude Code 实时地图，可视化展示工具调用和模型步骤。
 
 【学术前沿】
-11. REAL Loss 优化推测解码的期望接受长度
-→ REAL Loss 通过路径权重和无偏估计直接优化推测解码中的期望接受长度，在 Qwen3.6-35B-A3B 目标模型上优于其他基线方法。
-12. 姚期智与杨植麟刷新图论纪录
-→ 姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。
-13. TOME-Math 数据集提升数学证明监督效果
-→ TOME-Math 数据集将大学数学教材转化为约 38 万条结构化证明监督记录，微调后的模型在基准测试中平均得分提升了 16.7 个百分点。
-14. BioXArena-Pro：生物医学智能体评测基准
-→ 论文构建了包含64个研究级建模任务的BioXArena-Pro基准，用于评测生物医学智能体。研究发现智能体在适应新数据时表现优于直接复现方法。
+13. Anthropic 分享安全评估建议
+→ Anthropic分享了设计、运行和报告安全评估的建议，强调评估对模型部署和训练的重要性。
+14. Actor, Judge, or Teacher？理解长时智能体中的决策模型
+→ Actor, Judge, or Teacher 研究决策模型在长时智能体中的三种角色：Actor、Judge和Teacher。
+15. MACaQ 提出模型无关的快速校准量化方法
+→ MACaQ 是一种 MXFP4 W4A4 训练后量化方法，通过在线应用通道缩放和块哈达玛变换来减少内存和计算成本。
+16. SO-Arena评测系统一模型能力谱系与可靠性
+→ SO-Arena是一个评测系统一模型能力谱系和决策可靠性的基准，涵盖11个领域和五个能力家族。
 
 【产业纵横】
-15. Amplitude用OpenAI实现快速产品改进
-→ Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。
+17. Anthropic 递交 IPO 申请
+→ Anthropic 申请成为上市公司，致力于确保 AI 的益处并缓解其风险。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-13-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-14-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -77,51 +80,55 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 0 个 PR、提交 0 次**<br>11月12日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 1 个、合并 0 个，提交 0 次，新增代码 0 行、删除 0 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 5 个 PR、提交 5 次**<br>11月13日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 6 个、合并 5 个，提交 5 次，新增代码 1463 行、删除 1462 行，9 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**pwntools-dojo 新增 1 个 PR**<br>11月12日，pwn.hust.college SIG的 pwntools-dojo 仓库新增 PR 1 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwntools-dojo)）</sub>
+**pwntools-dojo 合并 2 个 PR**<br>11月13日，pwn.hust.college SIG的 pwntools-dojo 仓库新增 PR 1 个、合并 2 个、提交 3 次、新增代码 168 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwntools-dojo)）</sub>
+
+**hust-mirrors 合并 2 个 PR**<br>11月13日，镜像站运维 SIG的 hust-mirrors 仓库新增 PR 1 个、合并 2 个、提交 2 次、新增代码 1295 行，4 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hust-mirrors)）</sub>
 
 #### 国内动态
 
-**MiniMax开源H3-Image生图模型**<br>11月12日，MiniMax开源H3-Image，原生支持4K分辨率，细节还原度高。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/509440.html)）</sub>
+**DeepSeek 开放全家桶应用 API**<br>11月13日，DeepSeek 正式开放全家桶应用 API，将联网搜索、深度思考、文件输入等能力整合进原有 API，开发者可调用相关功能。<br><sub>（来源：[智东西](https://zhidx.com/p/610514.html)）</sub>
 
 #### 海外动态
 
-**谷歌推出Gemini 4 Hydrogen模型**<br>11月13日，谷歌推出Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计，提供高效智能。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/introducing-gemini-4-hydrogen/)）</sub>
+**Google 推出 Gemini 4 Hydrogen 模型**<br>11月13日，Google 推出 Gemini 4 Hydrogen 模型，专为可靠智能体工作流和日常任务设计，提供速度和效率。<br><sub>（来源：[Hacker News](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)）</sub>
 
-**谷歌发布多模态决策模型Gemini Decision 1**<br>11月13日，谷歌发布多模态决策模型Gemini Decision 1，输出全免费。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/13/other/admin/123638/%e8%b0%b7%e6%ad%8c%e5%8f%91%e5%b8%83%e9%a6%96%e4%b8%aa%e5%86%b3%e7%ad%96%e6%a8%a1%e5%9e%8b%ef%bc%81%e8%be%93%e5%87%ba%e5%85%a8%e5%85%8d%e8%b4%b9%ef%bc%8c%e7%99%be%e4%b8%87token%e4%bd%8e%e8%87%b30-1/)）</sub>
+**OpenAI 推出 ChatGPT Wallet**<br>11月13日，OpenAI 发布了 ChatGPT Wallet，允许 ChatGPT Work、Codex 和 Dots 中的代理在用户批准下完成购买。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-chatgpt-wallet)）</sub>
+
+**利用 Antigravity 的 /teamwork 推进科学与工程**<br>11月14日，Google Research 展示了 Antigravity 的 /teamwork 多智能体系统，与人类专家合作解决数学、化学等领域的开放问题。<br><sub>（来源：[Google Research](https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)）</sub>
 
 #### 开源项目
 
-**smolmaxxing：让旧设备运行大型语言模型**<br>11月12日，smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。<br><sub>（来源：[Hacker News](https://github.com/hyperionaidev/smolmaxxing/)）</sub>
+**llama.cpp 发布 v1.0.0 版本**<br>11月13日，llama.cpp v1.0.0 移除了废弃的公共 API，并添加了 OCP FP8 KV caches、host-memory MoE expert cache 等新功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0)）</sub>
 
-**vLLM部署DeepSeek-V4.1-Flash**<br>11月12日，vLLM在Vera Rubin NVL72上部署DeepSeek-V4.1-Flash，吞吐量达GB300的58倍。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-12-deepseek-v41-flash-vera-rubin)）</sub>
+**transformers 发布 v5.23.0 版本**<br>11月13日，transformers v5.23.0 新增了 Inkling 2 Small 多模态模型，该模型接受文本和图像输入并生成文本输出。<br><sub>（来源：[GitHub 版本发布](https://github.com/huggingface/transformers/releases/tag/v5.23.0)）</sub>
 
-**OpenAI 发布 Codex Security CLI 和 SDK**<br>11月13日消息，OpenAI 发布 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。<br><sub>（来源：[GitHub Trending](https://github.com/openai/codex-security)）</sub>
+**GoogleChrome/modern-web-guidance-src**<br>11月14日消息，modern-web-guidance-src 保持编码代理与最新 Web 最佳实践同步。<br><sub>（来源：[GitHub Trending](https://github.com/GoogleChrome/modern-web-guidance-src)）</sub>
 
-**LangChain介绍评估驱动开发**<br>11月13日，LangChain介绍评估驱动开发，通过定义指标和编写评估脚本，帮助构建更稳定的AI智能体。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/what-is-eval-driven-development)）</sub>
+**alibaba/open-code-review**<br>11月14日消息，alibaba/open-code-review 开源混合架构代码审查工具，支持多语言规则集和 LLM 代理。<br><sub>（来源：[GitHub Trending](https://github.com/alibaba/open-code-review)）</sub>
 
-**agentes-chat：自托管的开源 Slack 替代品**<br>11月13日消息，agentes-chat 是自托管的开源 Slack 替代品，支持团队和 AI 代理在频道和私信中协作。<br><sub>（来源：[GitHub 新项目](https://github.com/agentes-chat/agentes-chat)）</sub>
+**alexeyw/lot-map Claude Code 实时地图**<br>11月14日消息，alexeyw/lot-map 是 Claude Code 实时地图，可视化展示工具调用和模型步骤。<br><sub>（来源：[GitHub 新项目](https://github.com/alexeyw/lot-map)）</sub>
 
 #### 学术前沿
 
-**REAL Loss 优化推测解码的期望接受长度**<br>11月11日，REAL Loss 通过路径权重和无偏估计直接优化推测解码中的期望接受长度，在 Qwen3.6-35B-A3B 目标模型上优于其他基线方法。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.14399)）</sub>
+**Anthropic 分享安全评估建议**<br>11月13日，Anthropic分享了设计、运行和报告安全评估的建议，强调评估对模型部署和训练的重要性。<br><sub>（来源：[Anthropic 研究](https://www.anthropic.com/research/building-strong-safety-evaluations)）</sub>
 
-**姚期智与杨植麟刷新图论纪录**<br>11月12日，姚期智与杨植麟联合研究，Kimi构造出630条边的图，刷新人类纪录。<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/ai/3vRqaeAILJdgRlhL.html)）</sub>
+**Actor, Judge, or Teacher？理解长时智能体中的决策模型**<br>11月13日，Actor, Judge, or Teacher 研究决策模型在长时智能体中的三种角色：Actor、Judge和Teacher。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.17167)）</sub>
 
-**TOME-Math 数据集提升数学证明监督效果**<br>11月13日消息，TOME-Math 数据集将大学数学教材转化为约 38 万条结构化证明监督记录，微调后的模型在基准测试中平均得分提升了 16.7 个百分点。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2610.40394)）</sub>
+**MACaQ 提出模型无关的快速校准量化方法**<br>11月14日消息，MACaQ 是一种 MXFP4 W4A4 训练后量化方法，通过在线应用通道缩放和块哈达玛变换来减少内存和计算成本。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.10649)）</sub>
 
-**BioXArena-Pro：生物医学智能体评测基准**<br>11月13日消息，论文构建了包含64个研究级建模任务的BioXArena-Pro基准，用于评测生物医学智能体。研究发现智能体在适应新数据时表现优于直接复现方法。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.13994)）</sub>
+**SO-Arena评测系统一模型能力谱系与可靠性**<br>11月14日消息，SO-Arena是一个评测系统一模型能力谱系和决策可靠性的基准，涵盖11个领域和五个能力家族。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.15777)）</sub>
 
 #### 产业纵横
 
-**Amplitude用OpenAI实现快速产品改进**<br>11月13日，Amplitude利用OpenAI模型和编码代理，快速识别需求并交付产品变更。<br><sub>（来源：[OpenAI](https://openai.com/business/customer-stories/amplitude)）</sub>
+**Anthropic 递交 IPO 申请**<br>11月12日，Anthropic 申请成为上市公司，致力于确保 AI 的益处并缓解其风险。<br><sub>（来源：[Hacker News](https://ipo.anthropic.com/us/)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月12日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-13 08:21（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月13日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-14 08:19（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 4 期 · 11.02–11.08
 

@@ -1,0 +1,51 @@
+【每日科技快讯】11月14日 周六
+今日 AI 与开源要闻 17 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 5 个 PR、提交 5 次
+2. pwntools-dojo 合并 2 个 PR
+3. hust-mirrors 合并 2 个 PR
+
+【国内动态】
+4. DeepSeek 开放全家桶应用 API
+→ DeepSeek 正式开放全家桶应用 API，将联网搜索、深度思考、文件输入等能力整合进原有 API，开发者可调用相关功能。
+
+【海外动态】
+5. Google 推出 Gemini 4 Hydrogen 模型
+→ Google 推出 Gemini 4 Hydrogen 模型，专为可靠智能体工作流和日常任务设计，提供速度和效率。
+6. OpenAI 推出 ChatGPT Wallet
+→ OpenAI 发布了 ChatGPT Wallet，允许 ChatGPT Work、Codex 和 Dots 中的代理在用户批准下完成购买。
+7. 利用 Antigravity 的 /teamwork 推进科学与工程
+→ Google Research 展示了 Antigravity 的 /teamwork 多智能体系统，与人类专家合作解决数学、化学等领域的开放问题。
+
+【开源项目】
+8. llama.cpp 发布 v1.0.0 版本
+→ llama.cpp v1.0.0 移除了废弃的公共 API，并添加了 OCP FP8 KV caches、host-memory MoE expert cache 等新功能。
+9. transformers 发布 v5.23.0 版本
+→ transformers v5.23.0 新增了 Inkling 2 Small 多模态模型，该模型接受文本和图像输入并生成文本输出。
+10. GoogleChrome/modern-web-guidance-src
+→ modern-web-guidance-src 保持编码代理与最新 Web 最佳实践同步。
+11. alibaba/open-code-review
+→ alibaba/open-code-review 开源混合架构代码审查工具，支持多语言规则集和 LLM 代理。
+12. alexeyw/lot-map Claude Code 实时地图
+→ alexeyw/lot-map 是 Claude Code 实时地图，可视化展示工具调用和模型步骤。
+
+【学术前沿】
+13. Anthropic 分享安全评估建议
+→ Anthropic分享了设计、运行和报告安全评估的建议，强调评估对模型部署和训练的重要性。
+14. Actor, Judge, or Teacher？理解长时智能体中的决策模型
+→ Actor, Judge, or Teacher 研究决策模型在长时智能体中的三种角色：Actor、Judge和Teacher。
+15. MACaQ 提出模型无关的快速校准量化方法
+→ MACaQ 是一种 MXFP4 W4A4 训练后量化方法，通过在线应用通道缩放和块哈达玛变换来减少内存和计算成本。
+16. SO-Arena评测系统一模型能力谱系与可靠性
+→ SO-Arena是一个评测系统一模型能力谱系和决策可靠性的基准，涵盖11个领域和五个能力家族。
+
+【产业纵横】
+17. Anthropic 递交 IPO 申请
+→ Anthropic 申请成为上市公司，致力于确保 AI 的益处并缓解其风险。
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-14-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
