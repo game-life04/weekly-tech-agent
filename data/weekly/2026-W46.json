@@ -1,0 +1,733 @@
+{
+ "kuaixun": {
+  "kind": "weekly",
+  "week": "2026-W46",
+  "number": 5,
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "title": "DeepMind 推出 AlphaProof Code 验证复杂软件",
+  "generated_at": "2026-11-15T23:22:40Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 1,
+  "club_period": {
+   "start": "2026-11-09",
+   "end": "2026-11-15"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部一周合并 15 个 PR、提交 16 次",
+    "when": "11月9日至15日",
+    "date": "2026-11-15",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 10 个有人参与开发，共新增 PR 18 个、合并 15 个，提交 16 次，新增代码 4086 行、删除 1831 行，10 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "pwnhustcollege_skill 一周合并 3 个 PR",
+    "when": "11月9日至15日",
+    "date": "2026-11-15",
+    "body": "pwn.hust.college SIG的 pwnhustcollege_skill 仓库新增 PR 3 个、合并 3 个、提交 4 次、新增代码 47 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwnhustcollege_skill",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "pwn.hust.college 一周合并 3 个 PR",
+    "when": "11月9日至15日",
+    "date": "2026-11-15",
+    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库新增 PR 2 个、合并 3 个、提交 2 次，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwn.hust.college",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "homebrew-tap 一周合并 3 个 PR",
+    "when": "11月9日至15日",
+    "date": "2026-11-15",
+    "body": "Agent SIG的 homebrew-tap 仓库新增 PR 2 个、合并 3 个、提交 1 次，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/homebrew-tap",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "千问办公2.0上线Team Agent协作功能",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "千问办公2.0推出Team Agent协作功能，支持多人与Agent协同工作，提升团队信息处理效率。",
+    "url": "https://zhidx.com/p/608469.html",
+    "via": "智东西",
+    "id": "8ab2306cd1dd",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "梁圣再放大招：人人都能手搓 DeepSeek App 了",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "DeepSeek 正式开放全家桶应用 API，开发者可调用联网搜索、深度思考、文件输入等能力，甚至 1:1 复刻 DeepSeek App。",
+    "url": "https://zhidx.com/p/610514.html",
+    "via": "智东西",
+    "id": "b572820d2175",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Claude Fable 5.2 和 Claude Mythos 5.2 发布",
+    "when": "11月9日",
+    "date": "2026-11-09",
+    "body": "Anthropic 推出 Claude Fable 5.2 和 Claude Mythos 5.2，在编程、金融和科学领域表现优异。",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "via": "Anthropic",
+    "id": "4b2ce90b1bbf",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Muse Ember：最小且高效的模型",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Muse Ember 是专为复杂推理设计的最小模型，性价比优于 Claude Haiku 5.5 或 GPT-6 Luna。",
+    "url": "https://research.meta.ai/blog/muse-ember",
+    "via": "Hacker News",
+    "id": "44624d8691e9",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Gemini 4 Carbon 现已上线",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+    "via": "Google DeepMind",
+    "id": "e55418bb424c",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Gemini 4 Hydrogen：面向代理工作流的高效模型",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "Google DeepMind 推出 Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计。",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "via": "Google DeepMind",
+    "id": "720825c8bbb0",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "李飞飞World Labs开放Atlas世界模型",
+    "when": "11月13日",
+    "date": "2026-11-13",
+    "body": "李飞飞创办的World Labs正式开放世界模型Atlas，用户可通过提示词生成3D场景并导出。",
+    "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "via": "爱范儿",
+    "id": "38e1f2be4cd0",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "Llama-modchip 项目在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "via": "Hacker News",
+    "id": "7b0caeadc3d9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Show HN：将你的编码代理迁移到现代 Web 原语",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "Modern Web Guidance 是一组嵌入 Web 平台专业知识、最佳实践和浏览器兼容性数据的技能，帮助编码代理远离遗留模式，转向利用现代 Web 平台能力的解决方案。",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance",
+    "via": "Hacker News",
+    "id": "d2f04b262e1a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "smolmaxxing：让旧设备运行大型语言模型",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。",
+    "url": "https://github.com/hyperionaidev/smolmaxxing/",
+    "via": "Hacker News",
+    "id": "d8da2629e743",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "GoogleChrome/modern-web-guidance-src",
+    "when": "11月14日消息",
+    "date": "2026-11-14",
+    "body": "Modern Web Guidance-src 保持编码代理与最新 Web 最佳实践同步。",
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "via": "GitHub Trending",
+    "id": "3cb99331b74e",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "DeepMind 推出 AlphaProof Code 验证复杂软件",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "DeepMind 推出 AlphaProof Code，在 Lean 中编写三百万行证明来验证 Signal 的核心加密。",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "via": "Google DeepMind",
+    "id": "4133c672faa8",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "DeepMind 发布 AlphaGenome 2 解码 DNA",
+    "when": "11月11日",
+    "date": "2026-11-11",
+    "body": "DeepMind 发布 AlphaGenome 2，预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "via": "Google DeepMind",
+    "id": "25575f358142",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "AI 解锁哥德尔手稿，据说包含数百个已证明的定理",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。",
+    "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+    "via": "Hacker News",
+    "id": "fca2b3d26517",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "高通展示端侧MoE智能体",
+    "when": "11月9日消息",
+    "date": "2026-11-09",
+    "body": "高通在进博会展出端侧MoE智能体，强调端云协同，推动终端侧AI从单点功能向系统级任务发展。",
+    "url": "https://www.qbitai.com/2026/11/508478.html",
+    "via": "量子位",
+    "id": "12d02321de75",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元",
+    "when": "11月10日",
+    "date": "2026-11-10",
+    "body": "Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。",
+    "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+    "via": "Hacker News",
+    "id": "215708108cfd",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 递交 IPO 申请",
+    "when": "11月12日",
+    "date": "2026-11-12",
+    "body": "Anthropic 申请成为上市公司，致力于确保 AI 的益处并缓解其风险。",
+    "url": "https://ipo.anthropic.com/us/",
+    "via": "Hacker News",
+    "id": "b9fd564218ef",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "AAMAS 2027 论文截稿",
+    "when": "12月12日",
+    "date": "2026-12-12",
+    "body": "International Conference on Autonomous Agents and Multiagent Systems（AAMAS 2027，CCF-B 类，人工智能）AAAI fast track; eligible AAAI-27 Main…的论文提交截止时间为北京时间12月12日 19:59。会议将于 May 3-7, 2027 在 Hanoi, Vietnam 举行。",
+    "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "ICAPS 2027 论文截稿",
+    "when": "12月15日",
+    "date": "2026-12-15",
+    "body": "International Conference on Automated Planning and Scheduling（ICAPS 2027，CCF-B 类，人工智能）论文提交截止时间为北京时间12月15日 19:59，摘要截止时间为12月8日 19:59。会议将于 June 27 - July 2, 2027 在 Columbia, SC, USA 举行。",
+    "url": "https://icaps27.icaps-conference.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "COLING 2027 论文截稿",
+    "when": "12月24日",
+    "date": "2026-12-24",
+    "body": "International Conference on Computational Linguistics（COLING 2027，CCF-B 类，人工智能）Commitment deadline for long and short…的论文提交截止时间为北京时间12月24日 19:59。会议将于 May 9-14 (in-person) and 6-7 (virtual),… 在 Macau SAR, China / Online 举行。",
+    "url": "https://2027.coling-iccl.org/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "4133c672faa8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DeepMind 推出 AlphaProof Code 验证复杂软件",
+    "body": "DeepMind 推出 AlphaProof Code，在 Lean 中编写三百万行证明来验证 Signal 的核心加密。"
+   },
+   "4b2ce90b1bbf": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": "Anthropic 推出 Claude Fable 5.2 和 Claude Mythos 5.2，在编程、金融和科学领域表现优异。"
+   },
+   "720825c8bbb0": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": "Google DeepMind 推出 Gemini 4 Hydrogen，专为可靠代理工作流和日常任务设计。"
+   },
+   "e55418bb424c": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": "Google DeepMind 推出最新前沿模型 Gemini 4 Carbon，面向开发者、企业和消费者开放。"
+   },
+   "c4681fd6747c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "7b0caeadc3d9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "Llama-modchip 项目在纯64GB CPU上运行284B DeepSeek-V4-Flash和30B MoEs模型，无需GPU。"
+   },
+   "e836720e11a9": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "谷歌搜索引入 Gemini 4 Hydrogen",
+    "body": "谷歌搜索引入 Gemini 4 Hydrogen，提供更直观、可视化的回答。"
+   },
+   "88a8bd4f85ab": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "微软发现 AI 代理后门技术 Lazarus",
+    "body": "微软研究人员发现 Lazarus 技术，可在 AI 模型休眠神经元中植入后门。"
+   },
+   "5161b66cebe7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 发布 Control Room 管理系统",
+    "body": "OpenAI 发布了用于追踪和停止研究基础设施中模型工作负载的中央系统。"
+   },
+   "25575f358142": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DeepMind 发布 AlphaGenome 2 解码 DNA",
+    "body": "DeepMind 发布 AlphaGenome 2，预测 DNA 序列及其变异如何影响特定人类细胞类型和疾病。"
+   },
+   "3933d801d102": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "cc60441eda65": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "aa44dcddf72c": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google 推出 Gemini 4 Hydrogen 模型",
+    "body": "Google 推出 Gemini 4 Hydrogen 模型，专为可靠智能体工作流和日常任务设计，提供速度和效率。"
+   },
+   "5e3c43f8b63b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "bb5dd27fe82b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 分享安全评估建议",
+    "body": "Anthropic 分享了设计、运行和报告安全评估的建议，强调评估对模型部署和训练的重要性。"
+   },
+   "d8da2629e743": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "smolmaxxing：让旧设备运行大型语言模型",
+    "body": "smolmaxxing 项目通过自定义内核和内存管理，让旧设备运行大型语言模型。"
+   },
+   "a755882e609e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "5a94a143eec0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "98a50a037dfe": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "ebf57632b448": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "作者用 Claude 构建蜂鸣声定位系统",
+    "body": "作者利用 Claude Code 构建了 Beep Locator 系统，通过多设备三角定位来追踪家中神秘蜂鸣声。"
+   },
+   "30f899477579": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "c16a54fe8aae": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "d2f04b262e1a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "Modern Web Guidance 是一组嵌入 Web 平台专业知识、最佳实践和浏览器兼容性数据的技能，帮助编码代理远离遗留模式，转向利用现代 Web 平台能力的解决方案。"
+   },
+   "22b2364bb772": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI 代理发现未登记的玛雅遗址",
+    "body": "AI 代理分析 NASA 激光雷达数据，发现了一处未被墨西哥官方登记的玛雅遗址。"
+   },
+   "b9fd564218ef": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Anthropic 递交 IPO 申请",
+    "body": "Anthropic 申请成为上市公司，致力于确保 AI 的益处并缓解其风险。"
+   },
+   "215dc0c4303e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "Jonathan Blow 讨论了 AI 解决编程问题后软件现状的思考。"
+   },
+   "d40417cf3664": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude 平台出现 elevated errors",
+    "body": "Claude 的 claude.ai、Claude Code 和 platform.claude.com 出现 elevated errors。"
+   },
+   "fca2b3d26517": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AI 解锁哥德尔手稿，据说包含数百个已证明的定理",
+    "body": "AI 帮助解读库尔特·哥德尔留下的 1,009 页手稿，其中包含数百个已证明的定理。"
+   },
+   "44624d8691e9": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "Muse Ember 是专为复杂推理设计的最小模型，性价比优于 Claude Haiku 5.5 或 GPT-6 Luna。"
+   },
+   "215708108cfd": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "",
+    "body": "Amazon 在其最大的内部工单系统中用 Strands Decider 替换了 Claude Sonnet 4.6，性能相当。"
+   },
+   "3cb99331b74e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "Modern Web Guidance-src 保持编码代理与最新 Web 最佳实践同步。"
+   },
+   "9ff0faa469a6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "vLLM 在 Vera Rubin NVL72 上部署 DeepSeek-V4.1-Flash，吞吐量达 GB300 的 58 倍。"
+   },
+   "ea86bb1e07bf": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ha-mcp：使用 AI 助手配置和自动化 Home Assistant",
+    "body": "使用 Claude、ChatGPT 等助手配置和自动化 Home Assistant。"
+   },
+   "add97d367de3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "llama.cpp 发布 1.0.0 版本",
+    "body": "llama.cpp v1.0.0 移除了废弃的公共 API，并添加了 OCP FP8 KV caches 等新功能。"
+   },
+   "60b4017b3f94": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "codex-security：查找、验证和修复安全漏洞",
+    "body": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于查找、验证和修复安全漏洞。"
+   },
+   "3b318862d7ee": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "mujoco：通用的多关节动力学物理模拟器",
+    "body": "MuJoCo 是一个通用的多关节动力学物理模拟器。"
+   },
+   "fce1779d0a0d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "daily_stock_analysis：LLM驱动的多市场股票分析系统",
+    "body": "ZhuLinsen/daily_stock_analysis 是一个 LLM 驱动的多市场股票分析系统，支持多源行情、实时新闻和自动推送。"
+   },
+   "a7f12d63ee0b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "meta/astryx：专为智能体准备的开源设计系统",
+    "body": "meta/astryx 是一个完全可定制且专为智能体准备的开源设计系统。"
+   },
+   "769164b4a13a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "alibaba/open-code-review 是阿里开源的混合架构代码审查工具，支持多语言规则集和 LLM 代理。"
+   },
+   "881dc346bbbc": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Qwen3.8-27B：图文理解模型",
+    "body": "Qwen/Qwen3.8-27B 是一个图文理解模型，许可证为 apache-2.0。"
+   },
+   "29b05418a325": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "alexeyw/lot-map：Claude Code 实时地图",
+    "body": "alexeyw/lot-map 是一个可视化展示工具，用于实时展示 Claude Code 的工具调用和模型步骤。"
+   },
+   "9b62cc4a39e3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "transformers 发布 v5.23.0 版本",
+    "body": "Hugging Face 发布 Transformers v5.23.0，新增 Inkling 2 Small 多模态模型。"
+   },
+   "7cac67fa8c84": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "MinerU 发布 4.2.0 版本",
+    "body": "MinerU 发布 4.2.0 版本，升级 WebUI 交互与结果溯源，改善复杂 PDF 解析质量。"
+   },
+   "4030459ec2f9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 推出 EPD 编码器解耦技术",
+    "body": "vLLM 推出编码器解耦技术 EPD，通过元数据请求和专用编码器执行，提升多模态服务扩展性。"
+   },
+   "ab46b4892965": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "Topkiflare74/ai--manus2.0 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。"
+   },
+   "d0265fe5de40": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "trackboatwrightplan/GitHub-Copilot-app 是一个面向 GitHub 仓库的 agent 原生桌面体验，用于查找、运行、引导和落地软件工作。"
+   },
+   "1dd761cb6975": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "ChromeDevTools/chrome-devtools-mcp 为编码智能体提供 Chrome DevTools 支持。"
+   },
+   "13f516783de6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "anthropics/claude-quickstarts 是 Anthropic 提供的 Claude 快速入门项目集合，帮助开发者快速构建可部署应用。"
+   },
+   "3f4233f9a55f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "qwen-code 发布 v0.27.0 版本",
+    "body": "QwenLM 发布 qwen-code v0.27.0，支持托管代理会话管理与 Web Shell 任务热力图。"
+   },
+   "3e20881c0a07": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "DIYgod/pinky：让 AI Agent 使用你的手机",
+    "body": "DIYgod/pinky 是一个让 AI Agent 使用你的手机的项目，支持你在循环中参与。"
+   },
+   "b5e88360fa0d": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "ASCENT：长上下文模型的互补外部状态",
+    "body": "论文提出互补缩放原理，旨在解决长上下文模型在单一规模下的记忆效用评估问题。"
+   },
+   "4369998f7325": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "MACaQ：模型无关的快速校准量化方法",
+    "body": "MACaQ 是一种 MXFP4 W4A4 训练后量化方法，通过在线应用通道缩放和块哈达玛变换来减少内存和计算成本。"
+   },
+   "7a3b1b2f654c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WikiTrace：证据链接记忆系统",
+    "body": "论文提出WikiTrace证据链接记忆系统，将记忆与原始轨迹关联，允许智能体在执行前检查并修正记忆，减少记忆诱导的退化。"
+   },
+   "3bd892f28da3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "D3D：异步推测解码的解耦扩散草稿",
+    "body": "D3D提出独立的扩散草稿模型，通过结合分块去噪和辅助自回归监督，在无需目标模型隐藏状态的情况下实现长前缀接受，加速解码。"
+   },
+   "23fa06e2eaf6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "研究决策模型在长时智能体中的三种角色，发现表现不佳的模型作为Judge或Teacher时仍能有效评估动作或提升策略成功率。"
+   },
+   "c0ca62487255": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Tree-Ising：基于位级Ising编辑修复语言模型",
+    "body": "论文提出Tree-Ising方法，将语言模型修复转化为稀疏离散优化问题，在MATH-500基准测试中达到54.6%。"
+   },
+   "07479e65c6d5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SO-Arena：系统一模型的能力谱系与可靠性评测",
+    "body": "SO-Arena是一个评测系统一模型能力谱系和决策可靠性的基准，涵盖11个领域和五个能力家族。"
+   },
+   "6249004e8552": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Sage-Taiyi：元认知科学发现架构",
+    "body": "Sage-Taiyi是一种受元认知启发的架构，利用积累的科学理解来指导研究，在Taiyi-Bench上八个指标排名第一。"
+   },
+   "d9ccfe9c1761": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "斯坦福等团队发布 SPU 湿实验预测基准",
+    "body": "斯坦福等团队推出 Science Prediction Universe 基准，测试 AI 在化学、生物等领域的湿实验预测能力。"
+   },
+   "4c23f242cac6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude 完成 19 万行源码形式化证明",
+    "body": "Claude Fable 5.2 在 30 小时内完成费马大定理的形式化证明，发现 13 年前证明错误。"
+   },
+   "aa9ad5f86580": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "姚期智与杨植麟联手刷新图论纪录",
+    "body": "姚期智与杨植麟联合研究，Kimi 构造出 630 条边的图，刷新人类纪录。"
+   },
+   "f974c4426bc5": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 发布 Claude Fable 5.2 模型",
+    "body": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2 模型，在基准测试中表现优异。"
+   },
+   "fbb0d7980086": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "MiniMax 开源 H3 Image 模型",
+    "body": "MiniMax 开源 H3 Image 模型，原生支持 4K 分辨率，细节还原度高。"
+   },
+   "bc977b9ee1f5": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "谷歌发布 Gemini Decision 1 模型",
+    "body": "谷歌发布多模态决策模型 Gemini Decision 1，输出全免费。"
+   },
+   "c0ef70ca1538": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "8ab2306cd1dd": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "千问办公2.0上线Team Agent协作功能",
+    "body": "千问办公2.0推出Team Agent协作功能，支持多人与Agent协同工作，提升团队信息处理效率。"
+   },
+   "38e1f2be4cd0": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "李飞飞World Labs开放Atlas世界模型",
+    "body": "李飞飞创办的World Labs正式开放世界模型Atlas，用户可通过提示词生成3D场景并导出。"
+   },
+   "cbc9b8f96a62": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Anthropic发布Claude Dreaming机制",
+    "body": "Anthropic发布博客称Claude利用闲置算力在虚拟梦境中回放交互日志。"
+   },
+   "12d02321de75": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "高通展示端侧MoE智能体",
+    "body": "高通在进博会展出端侧MoE智能体，强调端云协同，推动终端侧AI从单点功能向系统级任务发展。"
+   },
+   "c89e81c1799c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "“十五五”时期深化拓展“人工智能+”行动",
+    "body": "国家发展改革委表示我国人工智能发展速度、应用规模全球领先。"
+   }
+  }
+ }
+}

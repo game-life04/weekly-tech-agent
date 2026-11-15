@@ -1,0 +1,1496 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-15T23:22:40Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 438,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 43,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.0
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 44,
+   "error": "",
+   "seconds": 9.2
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 354,
+   "error": "",
+   "seconds": 23.0
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 17.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 33,
+   "error": "",
+   "seconds": 20.9
+  }
+ ],
+ "items": [
+  {
+   "title": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-15T22:00:01Z",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a0bfa3d07038",
+   "score": 7.86,
+   "title_zh": "",
+   "summary_zh": "探索标准模型在格点上的非微扰定义，借助 GPT-6 Astra 将想法转化为详细证明。",
+   "tags": [
+    "论文",
+    "科学计算"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-14T02:52:59Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1098.0,
+    "comments": 646.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50493251",
+    "excerpt_tried": true,
+    "evidence": "Following the departure of now-former NVIDIA CEO, Jensen Huang, a new report by The Wall Street Journal (via Wccftech) has emerged alleging that NVIDIA artificially inflated the ongoing GPU and memory shortage by investing in AI startups that would go on to buy NVIDIA GPUs and build data centers....",
+    "llm_done": true
+   },
+   "id": "ceff632aeaf0",
+   "score": 7.85,
+   "title_zh": "英伟达被指通过投资初创公司制造 GPU 短缺",
+   "summary_zh": "华尔街日报报道，英伟达通过投资 AI 初创公司来购买其 GPU，人为推高了 GPU 和内存短缺。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+   "url": "https://unsloth.ai/docs/models/qwen3.8",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-14T00:06:04Z",
+   "summary": "",
+   "heat": 0.893,
+   "weight": 0.6,
+   "metrics": {
+    "points": 257.0,
+    "comments": 84.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50491980",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Guide to running Qwen3.8 quants including Qwen3.8-27B on your local setup. Qwen3.8-27B is a 27B parameter dense model Qwen, featuring vision and reasoning capabilities, a 256K context window, and runs locally on 17GB RAM/VRAM setups. Qwen3.8 excels at agentic coding, vision and chat tasks, and can now run via Unsloth GGUFs, NVFP4 and Unsloth Desktop . Nov 11 Update: Qwen3.8-27B GGUFs now use Unsloth Dynamic V3.1 which improves average accuracy by 5-10% accuracy at comparable sizes including Terminal Bench, DeepSWE and more benchmarks. We're working on an even better version of Dynamic quants which will be applied to Qwen4 and future models. Thank you Qwen for day zero access. Unsloth quants also include: Developer Role Support for agentic tools like Codex Tool calling: Improved parsing ne…",
+    "llm_done": true
+   },
+   "id": "f8a09352da9b",
+   "score": 7.71,
+   "title_zh": "Unsloth 推出 Qwen3.8-27B 动态量化 v3.1",
+   "summary_zh": "Unsloth 发布 Qwen3.8-27B 的动态量化 v3.1，在 Terminal Bench 等基准测试中平均准确率提升 5-10%。",
+   "tags": [
+    "模型发布",
+    "量化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "All AI-generated code should be Open Source",
+   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-15T14:46:58Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1029.0,
+    "comments": 568.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50507303",
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "All code generated with help from AI should be Open Source or on Creative Commons Zero (CC0) license. This may be a hot take, but I strongly believe that all code generated by AI should be Open Source. And here's why. First of all, AI models were trained on a massive corpus of Open Source code written since RMS announced the GNU Project and the Free Software Movement. That code was simply scraped from the internet and used without permission or proper attribution. The models were also trained on Stack Overflow and Stack Exchange sister projects, which are released under Creative Commons licenses that legally require attribution. Turning this collective knowledge into proprietary, closed-source code feels like license laundering. The second reason is legal: purely AI -generated code is not…",
+    "llm_done": true
+   },
+   "id": "60acde86d78c",
+   "score": 7.63,
+   "title_zh": "所有 AI 生成的代码都应开源",
+   "summary_zh": "作者认为 AI 模型训练使用了大量开源代码，因此所有 AI 生成的代码都应采用开源或 CC0 许可证。",
+   "tags": [
+    "观点",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-14T15:04:15Z",
+   "summary": "",
+   "heat": 0.902,
+   "weight": 0.6,
+   "metrics": {
+    "points": 272.0,
+    "comments": 27.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50497589",
+    "excerpt_tried": true,
+    "evidence": "DeepSeek V3 (MLA, DeepSeekMoE, aux-loss-free balancing, MTP) in 190 lines of pure JAX, trained on a MacBook Air. Write-up: vaibhaav.in/writing/deepseek-v3-jax - Vaibhaav-Tiwari/deepseek-v3-jax The architecture from the DeepSeek-V3 technical report in 190 lines of pure JAX , pretrained from scratch on a MacBook Air on public-domain detective fiction. No Flax, no Equinox, no PyTorch. Params are plain dicts of arrays and every part of the model is a function you can read top to bottom in deepseek_v3.py . Read the write-up: DeepSeek V3 in 190 lines of pure JAX , with diagrams, the code explained piece by piece, and the results. One run of the default config on a MacBook Air M5 (24 GB): With balancing on and off, validation loss at step 2000 was the same (3.921 vs 3.923). The bias evens out th…",
+    "llm_done": true
+   },
+   "id": "25b360ab0cbe",
+   "score": 7.56,
+   "title_zh": "",
+   "summary_zh": "开发者用 190 行纯 JAX 代码在 MacBook Air 上从头预训练了 DeepSeek V3，展示了其架构细节。",
+   "tags": [
+    "开源",
+    "代码实现"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "source": "rss",
+   "section": "news",
+   "via": "Ahead of AI",
+   "published": "2026-11-15T12:10:37Z",
+   "summary": "The Methods Behind How LLMs Represent Token Positions",
+   "heat": 0.844,
+   "weight": 0.7,
+   "metrics": {
+    "points": 189.0,
+    "comments": 24.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50506376",
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "The Methods Behind How LLMs Represent Token Positions This article explains how LLMs encode and process token position information by covering classic and contemporary methods like RoPE. It’s essentially a comprehensive journey where we will work through the mechanisms with visual examples, a little math, and a small PyTorch implementation. And, of course, we will then also look at how modern architectures adapt or omit explicit positional encodings. Below, you can find a preview of which positional embedding choices are used in 2026 open-weight models. We will discuss these choices later after covering the underlying mechanisms. But why spending so much time writing/reading about this rather minor building block? LLMs keep evolving, and as I was preparing a new article on the latest LLM…",
+    "llm_done": true
+   },
+   "id": "e047ece72776",
+   "score": 7.41,
+   "title_zh": "现代大模型中的位置编码解析",
+   "summary_zh": "深入解析 RoPE 等方法如何编码和处理 Token 位置信息，并探讨现代架构的适配。",
+   "tags": [
+    "大模型",
+    "位置编码"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "刚刚，DeepSeek全家桶API正式开放！你也能造一个DeepSeek了",
+   "url": "https://aiera.com.cn/2026/11/15/other/admin/123914/%e5%88%9a%e5%88%9a%ef%bc%8cdeepseek%e5%85%a8%e5%ae%b6%e6%a1%b6api%e6%ad%a3%e5%bc%8f%e5%bc%80%e6%94%be%ef%bc%81%e4%bd%a0%e4%b9%9f%e8%83%bd%e9%80%a0%e4%b8%80%e4%b8%aadeepseek%e4%ba%86/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-15T00:07:24Z",
+   "summary": "就在大周五晚上，DeepSeek又搞事情了！ DeepSeek正式开放全家桶应用 API！～",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "bdd4b2467aa3",
+   "score": 7.13,
+   "title_zh": "DeepSeek全家桶API正式开放",
+   "summary_zh": "",
+   "tags": [
+    "API发布",
+    "DeepSeek"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级",
+   "url": "https://www.ithome.com/1/027/450.htm",
+   "source": "rss",
+   "section": "news",
+   "via": "IT之家",
+   "published": "2026-11-15T13:16:54Z",
+   "summary": "IT之家 11 月 15 日消息，华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。 该模型围绕 Agent 开发、AI 编码和推理优化 三大方向进行能力升级，在深度研究、鸿蒙系统操控、鸿蒙 App 开发、昇腾算子生成及推理链路优化等场景实现增强。 在 Agent 能力方面 ，openPangu-2.1-Pro 基于 10 万余条专项数据优化 Skills 触发、工具选择与调用能力，提升复杂任务规划和执行效果，在深度研究及鸿蒙系统操控等场景实现能力增强。 在代码能力方面 ，新模型重点面向鸿蒙 App 开发和昇腾算子生成进行优化适配。围绕鸿蒙 ArkTS 语言及相关开发任务，持续提升代码生成的准确性和应用可用性；针对昇腾算子开发流程进行专项优化，增强专业代码生成能力，为开发者降低开发门槛、提升研发效率提供支持。 openPangu-2.1-Pro 通过关键算子和推理链路优化，在典型部署场景下实现吞吐效率大幅提升，以更高的资源利用效率支撑高并发应用。同时，通过华为云 MaaS 提供的预置模型 API、调用限流、用量统计及性能监控能力…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ae52997e367b",
+   "score": 6.77,
+   "title_zh": "openPangu-2.1-Pro 上线华为云",
+   "summary_zh": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码和推理优化方向能力升级。",
+   "tags": [
+    "模型发布",
+    "华为云",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Our new blog for science",
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-15T22:00:00Z",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 5.0,
+    "llm_done": true
+   },
+   "id": "8110ba64280a",
+   "score": 6.66,
+   "title_zh": "OpenAI 科学博客上线",
+   "summary_zh": "OpenAI 科学博客上线，分享新发现、实用方法和研究人员的一手经验。",
+   "tags": [
+    "OpenAI",
+    "科学博客"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "百度词元所发布首日：供应商暴增超100家，客户新增超1000家",
+   "url": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-11-14T05:45:00Z",
+   "summary": "11月14日，从百度获悉，百度词元所发布首日，新增申请入驻的供应商已超过100家，新增超过1000家客户接入。 词元所在11月12日举行的百度世界2026上正式发布，百度创始人李彦宏将其称为“大模型的交易所”。据介绍，词元所一端汇聚模型和模型提供商，另一端服务企业和个人，让用户便捷地找到、购买和使用可信的模型Token。 词元所主打验真与征信两大能力：模型入平台前需通过模型指纹比对、模型能力测试、性能指标与可用性测试等准入核验，上线后接受定期抽检拨测与全链路实时监测，相关结果沉淀为供应商的信用评级。 李彦宏提到，今年前9个月几乎每天都有不止一款新模型发布，调用需求同步爆发，而市面上的词元中转站不对模型效果、服务稳定性、响应速度负责，连模型真实性也无从考证，词元所要解决的是这一环节的信任问题。 试运行期间，词元所入驻供应资源已经超过100个，日均调用次数突破5000万次。目前平台已上架40余款模型，覆盖DeepSeek、Kimi、智谱GLM、MiniMax等主流模型及视频模型，也包括百度自研文心系列；入驻方既有模型原厂，也有第三方推理服务商。 工信部信息通信经济专家委员会委员盘和林表示…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "bbcd5fe408be",
+   "score": 6.24,
+   "title_zh": "百度词元所发布首日数据亮眼",
+   "summary_zh": "百度词元所发布首日，新增供应商超100家，客户超1000家，日均调用次数突破5000万次。",
+   "tags": [
+    "行业动态",
+    "百度"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+   "heat": 0.844,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 860.0,
+    "stars": 11807.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6797d826b586",
+   "score": 7.01,
+   "title_zh": "",
+   "summary_zh": "用于管理智能体工作流、代码审查和团队协作的桌面工具。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+   "heat": 0.772,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 484.0,
+    "stars": 1444.0
+   },
+   "extra": {
+    "language": "Go",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c65fc7444d65",
+   "score": 6.86,
+   "title_zh": "",
+   "summary_zh": "腾讯开源的代码智能体工作流编排工具，支持本地化部署。",
+   "tags": [
+    "开源工具",
+    "工作流"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ag-ui-protocol/ag-ui",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+   "heat": 0.746,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 393.0,
+    "stars": 17816.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "62130df1ba3f",
+   "score": 6.81,
+   "title_zh": "",
+   "summary_zh": "Agent-User 交互协议，旨在将智能体集成到前端应用中。",
+   "tags": [
+    "开源工具",
+    "前端"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "wisemeadowlarkspike/Gemini-Config-Checker-",
+   "url": "https://github.com/wisemeadowlarkspike/Gemini-Config-Checker-",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "heat": 0.842,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 473.0
+   },
+   "extra": {
+    "language": "Go",
+    "age_days": 1,
+    "llm_done": true
+   },
+   "id": "135260d3a91a",
+   "score": 6.71,
+   "title_zh": "",
+   "summary_zh": "谷歌 AI Studio 和 Gemini 的代理配置扫描器，支持多平台。",
+   "tags": [
+    "开源工具",
+    "代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Watchlespeed/Gemini-Config-Checker-",
+   "url": "https://github.com/Watchlespeed/Gemini-Config-Checker-",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "heat": 0.842,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 473.0
+   },
+   "extra": {
+    "language": "Makefile",
+    "age_days": 1,
+    "llm_done": true
+   },
+   "id": "8332e8733120",
+   "score": 6.71,
+   "title_zh": "",
+   "summary_zh": "谷歌 AI Studio 和 Gemini 的代理配置扫描器，支持多平台。",
+   "tags": [
+    "开源工具",
+    "代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "heat": 0.689,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 248.0,
+    "stars": 9266.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "828729b7e7ea",
+   "score": 6.7,
+   "title_zh": "",
+   "summary_zh": "与 Stitch MCP 服务器配合使用的 Agent Skills 库，兼容多种编码智能体。",
+   "tags": [
+    "开源工具",
+    "技能"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/codex rust-v0.169.0",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-13T08:37:05Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## New Features - The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. (#59784, #60152, #60181) - Search older tasks from the agent command center by name, prompt preview, or working directory. (#60286) - Turn on **Collapse turn details** in the full-screen transcript to fold completed activity beneath each prompt while keeping answers visible and tool output searchable. (#60554, #60555, #60556, #60557) - Add or edit custom model providers from the terminal. With custom gateway onboarding enabled, you can create a provider during sign-in and use a device code for supported gateways over SSH or without a local browser. (#59779, #60009, #60186, #60486, #60662) - Press `Ctrl+S` in the terminal report editor to save a diagnostic ZIP locally, even when uploads are disabled. (#60542) - With the opt-in Cloud connection on macOS and Linux, send images, choose a model and reasoning effort, and archive or restore Cloud conversations from the terminal. (#59828, #60061, #60635, #60651) ## Bug Fixes - `codex exec` keeps project configuration and MCP servers disabled in untrusted directories, even with `--sandbox workspace-write`. Use `--trust` with `codex exec` or `codex review` to explicitly save project trust. (#60041) - **Yes, clear context and implement** now hands the full approved plan to the fresh session and keeps the current session open if the handoff fails. (#60…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "34ebb4c43533",
+   "score": 6.66,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "Codex"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Comfy-Org/MiniMax-H3-Image",
+   "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "文生图模型，许可证 other",
+   "heat": 0.739,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 411.0,
+    "downloads": 1973388.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/Comfy-Org/MiniMax-H3-Image"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "326814f380c9",
+   "score": 6.08,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Beyond Compressing Everything: Contrastive Memory Learning for Selective Context Compression",
+   "url": "https://arxiv.org/abs/2611.16384",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-12T06:51:49Z",
+   "summary": "As large language models (LLMs) advance toward increasingly long inputs, soft context compression offers a promising approach to efficient inference by converting long inputs into compact memory slots. Under limited memory budgets, effective context compression remains challenging because task-relevant evidence varies substantially across queries, ranging from localized evidence to multiple distant spans or information dispersed throughout the full document. Instead of compressing everything indiscriminately, we propose CoMem, a query-guided selective context compression framework that learns memory representations conditioned on both the document and the query. CoMem develops Contrastive Compressor Learning to achieve query-sensitive yet context-preserving memory representations. To inject a strong prior over query-dependent evidence distributions, we devise a same-context hard negative mining strategy by pairing a single document with multiple queries, requiring the compressor to selectively retain information according to each query's distinct evidence needs. To address the restricted information flow imposed by causal masking, we further enable bidirectional attention among memory slots. Experiments demonstrate that CoMem consistently outperforms existing context compression methods across compression ratios on question answering and RULER-NIAH benchmarks. Our code is available at https://github.com/scar-on/CoMem.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ae29936c9d0f",
+   "score": 5.98,
+   "title_zh": "超越全量压缩：基于对比记忆学习的选择性上下文压缩",
+   "summary_zh": "针对长上下文推理中任务相关证据分布差异大的问题，提出CoMem框架。通过查询引导的对比压缩学习，在有限内存预算下实现查询敏感且保留上下文的记忆表示。",
+   "tags": [
+    "长上下文",
+    "压缩",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+   "url": "https://arxiv.org/abs/2611.15569",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-11T14:54:19Z",
+   "summary": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradigm that stores low-dimensional latents of KV states and can be combined with quantization. However, existing low-rank methods often induce growing predictive policy drift from the dense model when compressing reasoning KV states, resulting in reasoning failures. We identify two key causes of this degradation: calibration-state mismatch between static contexts and on-policy reasoning states, and unequal error sensitivity across KV states. To address these challenges, we propose TraceKV, a training-free low-rank KV compression framework that unifies on-policy calibration, sensitivity-aware SVD, and global rank allocation under a single policy-preserving principle, substantially reducing policy-KL divergence during reasoning. Experiments across multiple VLMs and visual reasoning benchmarks demonstrate superior accuracy--memory trade-offs, achieving near-lossless reasoning accuracy with 5.64$\\times$ KV cache compression when combined with quantization. Optimized low-rank attention kernels further deliver up to 1.83$\\times$ end-to-end decoding speedup. Code will be available at https://github.com/AK-DREAM/TraceKV.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a1865f8db600",
+   "score": 5.94,
+   "title_zh": "TraceKV：推理视觉语言模型的保策略低秩KV缓存压缩",
+   "summary_zh": "针对推理过程中KV缓存压缩导致的预测策略漂移问题，提出TraceKV框架。通过统一在线校准和敏感度感知SVD，在保持推理准确性的同时实现5.64倍KV缓存压缩。",
+   "tags": [
+    "推理加速",
+    "视觉语言模型",
+    "KV缓存"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MIGRO: A Decoupled and Portable Long-Term Memory System for Language Models",
+   "url": "https://arxiv.org/abs/2611.15315",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-11T10:52:21Z",
+   "summary": "Language models evolve, but the observations, revisions, and context accumulated through user interactions should remain usable. Each new model must be able to retrieve past evidence, track revisions, and add new observations. We present MIGRO, a decoupled long-term memory system that treats experience as a persistent state shared across successive language models. MIGRO follows a simple principle: preserve historical evidence exactly, organize it approximately, and decide what to retrieve only when the question is known. We call this asymmetric fidelity with deferred selectivity. A shared semantic index supports retrieval, while exact records retain observations and their historical relationships. Because models differ in vocabulary and tokenization, host-specific interfaces convert selected evidence into inputs the receiving model can use. Reversible encoding reduces archival storage while enabling exact recovery. The shared state and its access interfaces let successive hosts read and extend the accumulated experience. On matched LoCoMo states, MIGRO scores 7.3% higher and uses 99.3% less private memory than the strongest quality baseline. After handoff, continued writing retains 99.9% of full-history rebuilding quality by extending the inherited state. On million-token BEAM histories, MIGRO uses 57.5% less private storage on average than the most compact baseline. MIGRO combines high answer quality, continued memory growth across hosts, and low storage cost. Code is avai…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5871284915fc",
+   "score": 5.93,
+   "title_zh": "MIGRO：语言模型的解耦可移植长期记忆系统",
+   "summary_zh": "为解决模型演进中历史记忆的可用性问题，提出MIGRO系统。通过非对称保真度和延迟选择性原则，在保持历史证据完整性的同时实现高效存储和跨模型记忆共享。",
+   "tags": [
+    "长上下文",
+    "记忆系统",
+    "模型演进"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+   "url": "https://arxiv.org/abs/2611.16009",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-11T21:08:31Z",
+   "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart and test them in one framework, along the harness around the model, the action interface, the reuse of experience and the scene geometry given to the model. A lean harness that keeps the full episode history and stops each motion early goes a long way. Reusing experience changes how the model acts but is not a free lunch, and scene geometry helps most, even when depth is predicted from RGB alone. JustRUA starts from the official L3 harness and keeps only what matters most. Even with no learned policy, self-improvement loop or task-specific tuning, this simple harness raises the score on the RoboDojo simulation benchmark substantially, from 29.7 to 50.3.",
+   "heat": 0.314,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 5.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/ZefanW/JustRUA"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "2a90ab2f268e",
+   "score": 5.38,
+   "title_zh": "JustRUA：GPT-6机器人使用智能体的受控研究",
+   "summary_zh": "针对机器人使用智能体设计差异难以归因的问题，提出JustRUA框架。通过简化机械臂固定装置和优化场景几何信息，在无需学习策略的情况下显著提升RoboDojo基准测试分数。",
+   "tags": [
+    "智能体",
+    "机器人",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Dynamic Block-Online Streaming ASR for Low-Resource Agglutinative Code-Switching Speech with Morphology-Aware Evaluation",
+   "url": "https://arxiv.org/abs/2611.15691",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-11-11T16:30:22Z",
+   "summary": "Low-resource, agglutinative languages challenge low-latency ASR, as fixed lookahead windows fail when grapheme order diverges, suffixes cross code-switch boundaries, or code-switching data is imbalanced. We present the first comprehensive study of streaming ASR for intra-sentential Bangla-English code-switching, identifying a mismatch between strict causal streaming and long-range morphological dependencies. We introduce a Dynamic Block-Online framework with VAD-aligned inference that balances semantics, latency, and context, enabling global bidirectional attention to preserve morphological integrity. To mitigate data scarcity, we propose Script-Anchored Loanword Injection, augmenting training text with English loanwords to model phonotactic transitions. We introduce CS-WER to diagnose switch, root, and suffix errors, and show that flexible latency budgets enhance recognition of agglutinative and mixed-language speech, with successful transfer to menstrual-medical domains.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "6cc99f156bf4",
+   "score": 5.34,
+   "title_zh": "低资源粘着语种动态块在线流式ASR",
+   "summary_zh": "针对粘着语种代码切换语音识别中的数据稀缺和形态依赖问题，提出动态块在线框架。通过脚本锚定借词注入和灵活延迟预算，提升混合语言语音识别准确率。",
+   "tags": [
+    "语音识别",
+    "流式处理",
+    "代码切换"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-16",
+  "start": "2026-11-16",
+  "end": "2026-11-16",
+  "title": "OpenAI 探索标准模型在格点上的非微扰定义",
+  "generated_at": "2026-11-15T23:22:40Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-15",
+   "end": "2026-11-15"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 0 次",
+    "when": "11月15日",
+    "date": "2026-11-15",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 1 个，提交 0 次，新增代码 0 行、删除 0 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "pwnhustcollege_skill 合并 1 个 PR",
+    "when": "11月15日",
+    "date": "2026-11-15",
+    "body": "pwn.hust.college SIG的 pwnhustcollege_skill 仓库合并 1 个，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwnhustcollege_skill",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 新增 1 个 PR",
+    "when": "11月15日",
+    "date": "2026-11-15",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "百度词元所发布首日数据亮眼",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "百度词元所发布首日新增供应商超100家，客户超1000家，日均调用次数突破5000万次。",
+    "url": "https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html",
+    "via": "雷峰网",
+    "id": "bbcd5fe408be",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "DeepSeek 开放全家桶应用 API",
+    "when": "11月15日",
+    "date": "2026-11-15",
+    "body": "DeepSeek 正式开放全家桶应用 API，方便开发者调用。",
+    "url": "https://aiera.com.cn/2026/11/15/other/admin/123914/%e5%88%9a%e5%88%9a%ef%bc%8cdeepseek%e5%85%a8%e5%ae%b6%e6%a1%b6api%e6%ad%a3%e5%bc%8f%e5%bc%80%e6%94%be%ef%bc%81%e4%bd%a0%e4%b9%9f%e8%83%bd%e9%80%a0%e4%b8%80%e4%b8%aadeepseek%e4%ba%86/",
+    "via": "新智元",
+    "id": "bdd4b2467aa3",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "华为云上线 openPangu-2.1-Pro 模型",
+    "when": "11月15日",
+    "date": "2026-11-15",
+    "body": "华为云 MaaS 平台上线开源盘古模型 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码和推理优化方向能力升级。",
+    "url": "https://www.ithome.com/1/027/450.htm",
+    "via": "IT之家",
+    "id": "ae52997e367b",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 科学博客上线",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "OpenAI 上线科学博客，分享新发现、实用方法和研究人员的一手经验。",
+    "url": "https://openai.com/index/our-new-blog-for-science",
+    "via": "OpenAI",
+    "id": "8110ba64280a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Unsloth 发布 Qwen3.8-27B 动态量化 v3.1",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "Unsloth 发布 Qwen3.8-27B 的动态量化 v3.1，在 Terminal Bench 等基准测试中平均准确率提升 5-10%。",
+    "url": "https://unsloth.ai/docs/models/qwen3.8",
+    "via": "Hacker News",
+    "id": "f8a09352da9b",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "plannotator：管理智能体工作流和代码审查",
+    "when": "11月16日消息",
+    "date": "2026-11-16",
+    "body": "plannotator 是一个用于管理智能体工作流、代码审查和团队协作的桌面工具。",
+    "url": "https://github.com/backnotprop/plannotator",
+    "via": "GitHub Trending",
+    "id": "6797d826b586",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "腾讯 LoopForge：代码智能体工作流编排工具",
+    "when": "11月16日消息",
+    "date": "2026-11-16",
+    "body": "腾讯开源的代码智能体工作流编排工具，支持本地化部署，可编排 Codex 和 Claude Code。",
+    "url": "https://github.com/Tencent/LoopForge",
+    "via": "GitHub Trending",
+    "id": "c65fc7444d65",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "ag-ui：Agent-User 交互协议",
+    "when": "11月16日消息",
+    "date": "2026-11-16",
+    "body": "ag-ui-protocol/ag-ui 是 Agent-User 交互协议，旨在将智能体集成到前端应用中。",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "via": "GitHub Trending",
+    "id": "62130df1ba3f",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "stitch-skills：Agent Skills 库",
+    "when": "11月16日消息",
+    "date": "2026-11-16",
+    "body": "google-labs-code/stitch-skills 是与 Stitch MCP 服务器配合使用的 Agent Skills 库，兼容多种编码智能体。",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "via": "GitHub Trending",
+    "id": "828729b7e7ea",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "DeepSeek V3 在 190 行纯 JAX 代码中实现",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "开发者用 190 行纯 JAX 代码在 MacBook Air 上从头预训练了 DeepSeek V3，展示了其架构细节。",
+    "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+    "via": "Hacker News",
+    "id": "25b360ab0cbe",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "现代大模型中的位置编码解析",
+    "when": "11月15日",
+    "date": "2026-11-15",
+    "body": "文章深入解析 RoPE 等方法如何编码和处理 Token 位置信息，并探讨现代架构的适配。",
+    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+    "via": "Ahead of AI",
+    "id": "e047ece72776",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI 探索标准模型在格点上的非微扰定义",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "OpenAI 探索标准模型在格点上的非微扰定义，借助 GPT-6 Astra 将想法转化为详细证明。",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "via": "OpenAI",
+    "id": "a0bfa3d07038",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "CoMem：基于对比记忆学习的选择性上下文压缩",
+    "when": "11月16日消息",
+    "date": "2026-11-16",
+    "body": "针对长上下文推理中任务相关证据分布差异大的问题，提出 CoMem 框架，通过查询引导的对比压缩学习实现高效推理。",
+    "url": "https://arxiv.org/abs/2611.16384",
+    "via": "arXiv · 长上下文与检索",
+    "id": "ae29936c9d0f",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "英伟达被指通过投资初创公司制造 GPU 短缺",
+    "when": "11月14日",
+    "date": "2026-11-14",
+    "body": "华尔街日报报道，英伟达通过投资 AI 初创公司来购买其 GPU，人为推高了 GPU 和内存短缺。",
+    "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+    "via": "Hacker News",
+    "id": "ceff632aeaf0",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "a0bfa3d07038": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI 探索标准模型在格点上的非微扰定义",
+    "body": "OpenAI 探索标准模型在格点上的非微扰定义，借助 GPT-6 Astra 将想法转化为详细证明。"
+   },
+   "ceff632aeaf0": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "英伟达被指通过投资初创公司制造 GPU 短缺",
+    "body": "华尔街日报报道，英伟达通过投资 AI 初创公司来购买其 GPU，人为推高了 GPU 和内存短缺。"
+   },
+   "f8a09352da9b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Unsloth 发布 Qwen3.8-27B 动态量化 v3.1",
+    "body": "Unsloth 发布 Qwen3.8-27B 的动态量化 v3.1，在 Terminal Bench 等基准测试中平均准确率提升 5-10%。"
+   },
+   "60acde86d78c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "所有 AI 生成的代码都应开源",
+    "body": "作者认为 AI 模型训练使用了大量开源代码，因此所有 AI 生成的代码都应采用开源或 CC0 许可证。"
+   },
+   "25b360ab0cbe": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DeepSeek V3 在 190 行纯 JAX 代码中实现",
+    "body": "开发者用 190 行纯 JAX 代码在 MacBook Air 上从头预训练了 DeepSeek V3，展示了其架构细节。"
+   },
+   "e047ece72776": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "现代大模型中的位置编码解析",
+    "body": "文章深入解析 RoPE 等方法如何编码和处理 Token 位置信息，并探讨现代架构的适配。"
+   },
+   "bdd4b2467aa3": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "DeepSeek 开放全家桶应用 API",
+    "body": "DeepSeek 正式开放全家桶应用 API，方便开发者调用。"
+   },
+   "ae52997e367b": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "华为云上线 openPangu-2.1-Pro 模型",
+    "body": "华为云 MaaS 平台上线开源盘古模型 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码和推理优化方向能力升级。"
+   },
+   "8110ba64280a": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "OpenAI 科学博客上线",
+    "body": "OpenAI 上线科学博客，分享新发现、实用方法和研究人员的一手经验。"
+   },
+   "bbcd5fe408be": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "百度词元所发布首日数据亮眼",
+    "body": "百度词元所发布首日新增供应商超100家，客户超1000家，日均调用次数突破5000万次。"
+   },
+   "6797d826b586": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "plannotator：管理智能体工作流和代码审查",
+    "body": "plannotator 是一个用于管理智能体工作流、代码审查和团队协作的桌面工具。"
+   },
+   "c65fc7444d65": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "腾讯 LoopForge：代码智能体工作流编排工具",
+    "body": "腾讯开源的代码智能体工作流编排工具，支持本地化部署，可编排 Codex 和 Claude Code。"
+   },
+   "62130df1ba3f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ag-ui：Agent-User 交互协议",
+    "body": "ag-ui-protocol/ag-ui 是 Agent-User 交互协议，旨在将智能体集成到前端应用中。"
+   },
+   "135260d3a91a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "wisemeadowlarkspike/Gemini-Config-Checker- 是谷歌 AI Studio 和 Gemini 的代理配置扫描器，支持多平台。"
+   },
+   "8332e8733120": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "Watchlespeed/Gemini-Config-Checker- 是谷歌 AI Studio 和 Gemini 的代理配置扫描器，支持多平台。"
+   },
+   "828729b7e7ea": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "stitch-skills：Agent Skills 库",
+    "body": "google-labs-code/stitch-skills 是与 Stitch MCP 服务器配合使用的 Agent Skills 库，兼容多种编码智能体。"
+   },
+   "34ebb4c43533": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai/codex rust 发布 0.169.0 版本",
+    "body": "openai/codex rust 发布 0.169.0 版本，支持多侧边栏标签页、搜索历史任务和折叠对话详情。"
+   },
+   "326814f380c9": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "MiniMax-H3-Image：文生图模型",
+    "body": "Comfy-Org/MiniMax-H3-Image 是一个文生图模型，许可证为 other。"
+   },
+   "ae29936c9d0f": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "CoMem：基于对比记忆学习的选择性上下文压缩",
+    "body": "针对长上下文推理中任务相关证据分布差异大的问题，提出 CoMem 框架，通过查询引导的对比压缩学习实现高效推理。"
+   },
+   "a1865f8db600": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "TraceKV：保策略低秩KV缓存压缩",
+    "body": "TraceKV框架通过统一在线校准和敏感度感知SVD，在保持推理准确性的同时实现5.64倍KV缓存压缩。"
+   },
+   "5871284915fc": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "MIGRO：语言模型解耦可移植长期记忆系统",
+    "body": "MIGRO系统通过非对称保真度和延迟选择性原则，在保持历史证据完整性的同时实现高效存储和跨模型记忆共享。"
+   },
+   "2a90ab2f268e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "JustRUA：GPT-6机器人使用智能体受控研究",
+    "body": "JustRUA框架通过简化机械臂固定装置和优化场景几何信息，在无需学习策略的情况下显著提升RoboDojo基准测试分数。"
+   },
+   "6cc99f156bf4": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "动态块在线流式ASR用于低资源粘着语种",
+    "body": "动态块在线框架通过脚本锚定借词注入和灵活延迟预算，提升混合语言语音识别准确率。"
+   }
+  }
+ }
+}

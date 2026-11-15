@@ -1,0 +1,52 @@
+【每日科技快讯】11月16日 周一
+今日 AI 与开源要闻 17 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 1 个 PR、提交 0 次
+2. pwnhustcollege_skill 合并 1 个 PR
+3. AtomGit-Mobile4Android 新增 1 个 PR
+
+【国内动态】
+4. 百度词元所发布首日数据亮眼
+→ 百度词元所发布首日新增供应商超100家，客户超1000家，日均调用次数突破5000万次。
+5. DeepSeek 开放全家桶应用 API
+→ DeepSeek 正式开放全家桶应用 API，方便开发者调用。
+6. 华为云上线 openPangu-2.1-Pro 模型
+→ 华为云 MaaS 平台上线开源盘古模型 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码和推理优化方向能力升级。
+
+【海外动态】
+7. OpenAI 科学博客上线
+→ OpenAI 上线科学博客，分享新发现、实用方法和研究人员的一手经验。
+
+【开源项目】
+8. Unsloth 发布 Qwen3.8-27B 动态量化 v3.1
+→ Unsloth 发布 Qwen3.8-27B 的动态量化 v3.1，在 Terminal Bench 等基准测试中平均准确率提升 5-10%。
+9. plannotator：管理智能体工作流和代码审查
+→ plannotator 是一个用于管理智能体工作流、代码审查和团队协作的桌面工具。
+10. 腾讯 LoopForge：代码智能体工作流编排工具
+→ 腾讯开源的代码智能体工作流编排工具，支持本地化部署，可编排 Codex 和 Claude Code。
+11. ag-ui：Agent-User 交互协议
+→ ag-ui-protocol/ag-ui 是 Agent-User 交互协议，旨在将智能体集成到前端应用中。
+12. stitch-skills：Agent Skills 库
+→ google-labs-code/stitch-skills 是与 Stitch MCP 服务器配合使用的 Agent Skills 库，兼容多种编码智能体。
+
+【学术前沿】
+13. DeepSeek V3 在 190 行纯 JAX 代码中实现
+→ 开发者用 190 行纯 JAX 代码在 MacBook Air 上从头预训练了 DeepSeek V3，展示了其架构细节。
+14. 现代大模型中的位置编码解析
+→ 文章深入解析 RoPE 等方法如何编码和处理 Token 位置信息，并探讨现代架构的适配。
+15. OpenAI 探索标准模型在格点上的非微扰定义
+→ OpenAI 探索标准模型在格点上的非微扰定义，借助 GPT-6 Astra 将想法转化为详细证明。
+16. CoMem：基于对比记忆学习的选择性上下文压缩
+→ 针对长上下文推理中任务相关证据分布差异大的问题，提出 CoMem 框架，通过查询引导的对比压缩学习实现高效推理。
+
+【产业纵横】
+17. 英伟达被指通过投资初创公司制造 GPU 短缺
+→ 华尔街日报报道，英伟达通过投资 AI 初创公司来购买其 GPU，人为推高了 GPU 和内存短缺。
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+上周快讯（11.09–11.15）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W46.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-16-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
