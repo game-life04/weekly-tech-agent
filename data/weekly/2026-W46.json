@@ -6,13 +6,13 @@
   "start": "2026-11-09",
   "end": "2026-11-15",
   "title": "DeepMind 推出 AlphaProof Code 验证复杂软件",
-  "generated_at": "2026-11-16T01:26:06Z",
+  "generated_at": "2026-11-16T07:58:01Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 2,
-  "pending": 1,
+  "tries": 3,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-09",
    "end": "2026-11-15"
@@ -87,10 +87,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "梁圣再放大招：人人都能手搓 DeepSeek App 了",
+    "headline": "DeepSeek开放全家桶应用API",
     "when": "11月13日",
     "date": "2026-11-13",
-    "body": "DeepSeek 正式开放全家桶应用 API，开发者可调用联网搜索、深度思考、文件输入等能力，甚至 1:1 复刻 DeepSeek App。",
+    "body": "DeepSeek开放全家桶应用API，将联网搜索、深度思考等能力整合进原有接口，开发者可调用相关功能。",
     "url": "https://zhidx.com/p/610514.html",
     "via": "智东西",
     "id": "b572820d2175",
@@ -302,7 +302,7 @@
     "headline": "COLING 2027 论文截稿",
     "when": "12月24日",
     "date": "2026-12-24",
-    "body": "International Conference on Computational Linguistics（COLING 2027，CCF-B 类，人工智能）Commitment deadline for long and short…的论文提交截止时间为北京时间12月24日 19:59。会议将于 May 9-14 (in-person) and 6-7 (virtual),… 在 Macau SAR, China / Online 举行。",
+    "body": "International Conference on Computational Linguistics（COLING 2027，CCF-B 类，人工智能）Commitment deadline for long research p…的论文提交截止时间为北京时间12月24日 19:59。会议将于 May 9-14 (in-person) and 6-7 (virtual),… 在 Macau SAR, China / Online 举行。",
     "url": "https://2027.coling-iccl.org/",
     "via": "会议官网"
    }
@@ -697,6 +697,12 @@
     "cat": "skip",
     "headline": "",
     "body": ""
+   },
+   "b572820d2175": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "DeepSeek开放全家桶应用API",
+    "body": "DeepSeek开放全家桶应用API，将联网搜索、深度思考等能力整合进原有接口，开发者可调用相关功能。"
    },
    "8ab2306cd1dd": {
     "v": "4f7b2f10",

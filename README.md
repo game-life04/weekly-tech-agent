@@ -145,7 +145,7 @@
 
 **国内动态**<br>
 ✨ [千问办公2.0上线Team Agent协作功能](https://zhidx.com/p/608469.html)<br>
-✨ [梁圣再放大招：人人都能手搓 DeepSeek App 了](https://zhidx.com/p/610514.html)
+✨ [DeepSeek开放全家桶应用API](https://zhidx.com/p/610514.html)
 
 **海外动态**<br>
 ✨ [Claude Fable 5.2 和 Claude Mythos 5.2 发布](https://www.anthropic.com/claude-fable-and-mythos-5-2)<br>
