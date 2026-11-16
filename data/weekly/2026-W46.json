@@ -6,12 +6,12 @@
   "start": "2026-11-09",
   "end": "2026-11-15",
   "title": "DeepMind 推出 AlphaProof Code 验证复杂软件",
-  "generated_at": "2026-11-15T23:22:40Z",
+  "generated_at": "2026-11-16T01:26:06Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
+  "tries": 2,
   "pending": 1,
   "club_period": {
    "start": "2026-11-09",
