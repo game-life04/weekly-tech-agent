@@ -1,0 +1,53 @@
+【每日科技快讯】11月17日 周二
+今日 AI 与开源要闻 19 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 1 个 PR、提交 5 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
+3. hustmirrors-waf-backend 提交 4 次
+
+【国内动态】
+4. 刚刚，华为首个具身世界模型来了！国产算力训出，拿下双冠
+→ 国产算力训练的CloudRobo-WM1.2在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。
+
+【海外动态】
+5. 科学家如何使用ChatGPT
+→ 探索1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。
+6. Windows 11 收集开发工具使用数据
+→ 逆向工程发现 Windows 11 的诊断报告中包含 codex.exe、claude.exe 等编码代理和开发工具的使用记录。
+7. 扩大对科学家的AI访问权限
+→ OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。
+8. TokenEconomizer：让AI编程代理更高效
+→ 开源插件TokenEconomizer通过利用历史会话减少重复学习，降低成本并保持任务成功。
+9. OpenAI的GPT-6 Astra攻克标准模型难题
+→ OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。
+10. Claude反手给自己写了8.7万词规章
+→ 沃顿教授让Anthropic的Fable 5.2带着AI去造3D世界，展现接近AGI的能力。
+
+【开源项目】
+11. vllm-project/vllm v0.34.0
+→ vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。
+12. From tasks to goals
+→ LangChain CEO分享如何从任务特定代理转向目标导向代理。
+13. hitkeeen/blender-ai-mcp-addon
+→ Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。
+14. YellowLaborerMarket/Gemini-Config-Checker-
+→ Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。
+15. google-research/paper-orchestra
+→ PaperOrchestra 是一个用于自动撰写 AI 研究论文的多智能体框架。
+
+【学术前沿】
+16. Envisioning Agentic Robotics：智能体机器人新纪元
+→ 本文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。作者提出了一个评估框架来测量模型能力和闭环系统性能，并展望了实现可靠物理自主的研究路线图。
+17. Gamer：通用视觉-语言-动作基础模型
+→ Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。通过在大量键盘鼠标轨迹上继续预训练和稀疏思维指令微调，该模型在多个 3D 开放世界游戏中表现出与熟练玩家相当的性能。
+18. MIRIX-2.0：多智能体记忆系统
+→ MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。它在多个基准测试中表现出最高的准确性和效率，无需微调即可在所有计时基准测试中比 HyperMem 回答得更快。
+19. Mobile AI Factory：构建移动端专用语言模型
+→ Mobile AI Factory 是一个智能体系统，能够根据任务和手机规格自动构建、微调并量化专用小语言模型。在十个任务和四款安卓手机上的评估显示，其设备端模型在五个任务上优于两个五次提示的前沿模型，且搜索过程仅使用了 19 倍的 GPU 时间。
+
+【活动预告】
+· 11月17日 CVPR 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-17-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

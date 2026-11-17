@@ -12,66 +12,67 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.16（周一）
+## 每日快讯 · 11.17（周二）
 
-> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-16-kuaixun.md) · [公众号排版版](daily/2026/2026-11-16-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-16.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **19** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-17-kuaixun.md) · [公众号排版版](daily/2026/2026-11-17-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-17.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月16日 周一
-今日 AI 与开源要闻 17 条，3 分钟速读
+【每日科技快讯】11月17日 周二
+今日 AI 与开源要闻 19 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 0 次
-2. pwnhustcollege_skill 合并 1 个 PR
-3. AtomGit-Mobile4Android 新增 1 个 PR
+1. 开放原子开源俱乐部合并 1 个 PR、提交 5 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
+3. hustmirrors-waf-backend 提交 4 次
 
 【国内动态】
-4. 百度词元所发布首日数据亮眼
-→ 百度词元所发布首日新增供应商超100家，客户超1000家，日均调用次数突破5000万次。
-5. DeepSeek 开放全家桶应用 API
-→ DeepSeek 正式开放全家桶应用 API，方便开发者调用。
-6. 华为云上线 openPangu-2.1-Pro 模型
-→ 华为云 MaaS 平台上线开源盘古模型 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码和推理优化方向能力升级。
+4. 刚刚，华为首个具身世界模型来了！国产算力训出，拿下双冠
+→ 国产算力训练的CloudRobo-WM1.2在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。
 
 【海外动态】
-7. OpenAI 科学博客上线
-→ OpenAI 上线科学博客，分享新发现、实用方法和研究人员的一手经验。
+5. 科学家如何使用ChatGPT
+→ 探索1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。
+6. Windows 11 收集开发工具使用数据
+→ 逆向工程发现 Windows 11 的诊断报告中包含 codex.exe、claude.exe 等编码代理和开发工具的使用记录。
+7. 扩大对科学家的AI访问权限
+→ OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。
+8. TokenEconomizer：让AI编程代理更高效
+→ 开源插件TokenEconomizer通过利用历史会话减少重复学习，降低成本并保持任务成功。
+9. OpenAI的GPT-6 Astra攻克标准模型难题
+→ OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。
+10. Claude反手给自己写了8.7万词规章
+→ 沃顿教授让Anthropic的Fable 5.2带着AI去造3D世界，展现接近AGI的能力。
 
 【开源项目】
-8. Unsloth 发布 Qwen3.8-27B 动态量化 v3.1
-→ Unsloth 发布 Qwen3.8-27B 的动态量化 v3.1，在 Terminal Bench 等基准测试中平均准确率提升 5-10%。
-9. plannotator：管理智能体工作流和代码审查
-→ plannotator 是一个用于管理智能体工作流、代码审查和团队协作的桌面工具。
-10. 腾讯 LoopForge：代码智能体工作流编排工具
-→ 腾讯开源的代码智能体工作流编排工具，支持本地化部署，可编排 Codex 和 Claude Code。
-11. ag-ui：Agent-User 交互协议
-→ ag-ui-protocol/ag-ui 是 Agent-User 交互协议，旨在将智能体集成到前端应用中。
-12. stitch-skills：Agent Skills 库
-→ google-labs-code/stitch-skills 是与 Stitch MCP 服务器配合使用的 Agent Skills 库，兼容多种编码智能体。
+11. vllm-project/vllm v0.34.0
+→ vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。
+12. From tasks to goals
+→ LangChain CEO分享如何从任务特定代理转向目标导向代理。
+13. hitkeeen/blender-ai-mcp-addon
+→ Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。
+14. YellowLaborerMarket/Gemini-Config-Checker-
+→ Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。
+15. google-research/paper-orchestra
+→ PaperOrchestra 是一个用于自动撰写 AI 研究论文的多智能体框架。
 
 【学术前沿】
-13. DeepSeek V3 在 190 行纯 JAX 代码中实现
-→ 开发者用 190 行纯 JAX 代码在 MacBook Air 上从头预训练了 DeepSeek V3，展示了其架构细节。
-14. 现代大模型中的位置编码解析
-→ 文章深入解析 RoPE 等方法如何编码和处理 Token 位置信息，并探讨现代架构的适配。
-15. OpenAI 探索标准模型在格点上的非微扰定义
-→ OpenAI 探索标准模型在格点上的非微扰定义，借助 GPT-6 Astra 将想法转化为详细证明。
-16. CoMem：基于对比记忆学习的选择性上下文压缩
-→ 针对长上下文推理中任务相关证据分布差异大的问题，提出 CoMem 框架，通过查询引导的对比压缩学习实现高效推理。
-
-【产业纵横】
-17. 英伟达被指通过投资初创公司制造 GPU 短缺
-→ 华尔街日报报道，英伟达通过投资 AI 初创公司来购买其 GPU，人为推高了 GPU 和内存短缺。
+16. Envisioning Agentic Robotics：智能体机器人新纪元
+→ 本文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。作者提出了一个评估框架来测量模型能力和闭环系统性能，并展望了实现可靠物理自主的研究路线图。
+17. Gamer：通用视觉-语言-动作基础模型
+→ Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。通过在大量键盘鼠标轨迹上继续预训练和稀疏思维指令微调，该模型在多个 3D 开放世界游戏中表现出与熟练玩家相当的性能。
+18. MIRIX-2.0：多智能体记忆系统
+→ MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。它在多个基准测试中表现出最高的准确性和效率，无需微调即可在所有计时基准测试中比 HyperMem 回答得更快。
+19. Mobile AI Factory：构建移动端专用语言模型
+→ Mobile AI Factory 是一个智能体系统，能够根据任务和手机规格自动构建、微调并量化专用小语言模型。在十个任务和四款安卓手机上的评估显示，其设备端模型在五个任务上优于两个五次提示的前沿模型，且搜索过程仅使用了 19 倍的 GPU 时间。
 
 【活动预告】
 · 11月17日 CVPR 2027 论文截稿
 
-上周快讯（11.09–11.15）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W46.md
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-16-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-17-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -81,55 +82,57 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 0 次**<br>11月15日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 1 个、合并 1 个，提交 0 次，新增代码 0 行、删除 0 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 1 个 PR、提交 5 次**<br>11月16日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 2 个、合并 1 个，提交 5 次，新增代码 1843 行、删除 215 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**pwnhustcollege\_skill 合并 1 个 PR**<br>11月15日，pwn.hust.college SIG的 pwnhustcollege\_skill 仓库合并 1 个，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwnhustcollege_skill)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月16日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 616 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
-**AtomGit-Mobile4Android 新增 1 个 PR**<br>11月15日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+**hustmirrors-waf-backend 提交 4 次**<br>11月16日，镜像站运维 SIG的 hustmirrors-waf-backend 仓库提交 4 次、新增代码 1227 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hustmirrors-waf-backend)）</sub>
 
 #### 国内动态
 
-**百度词元所发布首日数据亮眼**<br>11月14日，百度词元所发布首日新增供应商超100家，客户超1000家，日均调用次数突破5000万次。<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/industrynews/cqPXhF38rM4VcVa7.html)）</sub>
-
-**DeepSeek 开放全家桶应用 API**<br>11月15日，DeepSeek 正式开放全家桶应用 API，方便开发者调用。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/15/other/admin/123914/%e5%88%9a%e5%88%9a%ef%bc%8cdeepseek%e5%85%a8%e5%ae%b6%e6%a1%b6api%e6%ad%a3%e5%bc%8f%e5%bc%80%e6%94%be%ef%bc%81%e4%bd%a0%e4%b9%9f%e8%83%bd%e9%80%a0%e4%b8%80%e4%b8%aadeepseek%e4%ba%86/)）</sub>
-
-**华为云上线 openPangu-2.1-Pro 模型**<br>11月15日，华为云 MaaS 平台上线开源盘古模型 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码和推理优化方向能力升级。<br><sub>（来源：[IT之家](https://www.ithome.com/1/027/450.htm)）</sub>
+**刚刚，华为首个具身世界模型来了！国产算力训出，拿下双冠**<br>11月17日，国产算力训练的CloudRobo-WM1.2在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。<br><sub>（来源：[智东西](https://zhidx.com/p/610813.html)）</sub>
 
 #### 海外动态
 
-**OpenAI 科学博客上线**<br>11月16日，OpenAI 上线科学博客，分享新发现、实用方法和研究人员的一手经验。<br><sub>（来源：[OpenAI](https://openai.com/index/our-new-blog-for-science)）</sub>
+**科学家如何使用ChatGPT**<br>11月16日，探索1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。<br><sub>（来源：[OpenAI](https://openai.com/index/science-at-the-frontier)）</sub>
+
+**Windows 11 收集开发工具使用数据**<br>11月17日，逆向工程发现 Windows 11 的诊断报告中包含 codex.exe、claude.exe 等编码代理和开发工具的使用记录。<br><sub>（来源：[Hacker News](https://xusheng.dev/posts/windows-coding-agent-telemetry/)）</sub>
+
+**扩大对科学家的AI访问权限**<br>11月17日，OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。<br><sub>（来源：[OpenAI](https://openai.com/index/expanding-chatgpt-for-academic-researchers)）</sub>
+
+**TokenEconomizer：让AI编程代理更高效**<br>11月17日，开源插件TokenEconomizer通过利用历史会话减少重复学习，降低成本并保持任务成功。<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/)）</sub>
+
+**OpenAI的GPT-6 Astra攻克标准模型难题**<br>11月17日，OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。<br><sub>（来源：[The Decoder](https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/)）</sub>
+
+**Claude反手给自己写了8.7万词规章**<br>11月17日，沃顿教授让Anthropic的Fable 5.2带着AI去造3D世界，展现接近AGI的能力。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/17/other/admin/124152/%e6%b2%83%e9%a1%bf%e6%95%99%e6%8e%88%e4%b8%80%e5%8f%a5%e3%80%8c%e6%89%93%e7%a3%a8%e3%80%8d%ef%bc%8cclaude%e5%8f%8d%e6%89%8b%e7%bb%99%e8%87%aa%e5%b7%b1%e5%86%99%e4%ba%868-7%e4%b8%87%e8%af%8d%e8%a7%84/)）</sub>
 
 #### 开源项目
 
-**Unsloth 发布 Qwen3.8-27B 动态量化 v3.1**<br>11月14日，Unsloth 发布 Qwen3.8-27B 的动态量化 v3.1，在 Terminal Bench 等基准测试中平均准确率提升 5-10%。<br><sub>（来源：[Hacker News](https://unsloth.ai/docs/models/qwen3.8)）</sub>
+**vllm-project/vllm v0.34.0**<br>11月17日，vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。<br><sub>（来源：[GitHub 版本发布](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)）</sub>
 
-**plannotator：管理智能体工作流和代码审查**<br>11月16日消息，plannotator 是一个用于管理智能体工作流、代码审查和团队协作的桌面工具。<br><sub>（来源：[GitHub Trending](https://github.com/backnotprop/plannotator)）</sub>
+**From tasks to goals**<br>11月17日，LangChain CEO分享如何从任务特定代理转向目标导向代理。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/from-tasks-to-goals)）</sub>
 
-**腾讯 LoopForge：代码智能体工作流编排工具**<br>11月16日消息，腾讯开源的代码智能体工作流编排工具，支持本地化部署，可编排 Codex 和 Claude Code。<br><sub>（来源：[GitHub Trending](https://github.com/Tencent/LoopForge)）</sub>
+**hitkeeen/blender-ai-mcp-addon**<br>11月17日消息，Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。<br><sub>（来源：[GitHub 新项目](https://github.com/hitkeeen/blender-ai-mcp-addon)）</sub>
 
-**ag-ui：Agent-User 交互协议**<br>11月16日消息，ag-ui-protocol/ag-ui 是 Agent-User 交互协议，旨在将智能体集成到前端应用中。<br><sub>（来源：[GitHub Trending](https://github.com/ag-ui-protocol/ag-ui)）</sub>
+**YellowLaborerMarket/Gemini-Config-Checker-**<br>11月17日消息，Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。<br><sub>（来源：[GitHub 新项目](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-)）</sub>
 
-**stitch-skills：Agent Skills 库**<br>11月16日消息，google-labs-code/stitch-skills 是与 Stitch MCP 服务器配合使用的 Agent Skills 库，兼容多种编码智能体。<br><sub>（来源：[GitHub Trending](https://github.com/google-labs-code/stitch-skills)）</sub>
+**google-research/paper-orchestra**<br>11月17日消息，PaperOrchestra 是一个用于自动撰写 AI 研究论文的多智能体框架。<br><sub>（来源：[GitHub Trending](https://github.com/google-research/paper-orchestra)）</sub>
 
 #### 学术前沿
 
-**DeepSeek V3 在 190 行纯 JAX 代码中实现**<br>11月14日，开发者用 190 行纯 JAX 代码在 MacBook Air 上从头预训练了 DeepSeek V3，展示了其架构细节。<br><sub>（来源：[Hacker News](https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax)）</sub>
+**Envisioning Agentic Robotics：智能体机器人新纪元**<br>11月17日消息，本文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。作者提出了一个评估框架来测量模型能力和闭环系统性能，并展望了实现可靠物理自主的研究路线图。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.18359)）</sub>
 
-**现代大模型中的位置编码解析**<br>11月15日，文章深入解析 RoPE 等方法如何编码和处理 Token 位置信息，并探讨现代架构的适配。<br><sub>（来源：[Ahead of AI](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings)）</sub>
+**Gamer：通用视觉-语言-动作基础模型**<br>11月17日消息，Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。通过在大量键盘鼠标轨迹上继续预训练和稀疏思维指令微调，该模型在多个 3D 开放世界游戏中表现出与熟练玩家相当的性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.18397)）</sub>
 
-**OpenAI 探索标准模型在格点上的非微扰定义**<br>11月16日，OpenAI 探索标准模型在格点上的非微扰定义，借助 GPT-6 Astra 将想法转化为详细证明。<br><sub>（来源：[OpenAI](https://openai.com/index/step-toward-defining-the-standard-model)）</sub>
+**MIRIX-2.0：多智能体记忆系统**<br>11月17日消息，MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。它在多个基准测试中表现出最高的准确性和效率，无需微调即可在所有计时基准测试中比 HyperMem 回答得更快。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.12068)）</sub>
 
-**CoMem：基于对比记忆学习的选择性上下文压缩**<br>11月16日消息，针对长上下文推理中任务相关证据分布差异大的问题，提出 CoMem 框架，通过查询引导的对比压缩学习实现高效推理。<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.16384)）</sub>
-
-#### 产业纵横
-
-**英伟达被指通过投资初创公司制造 GPU 短缺**<br>11月14日，华尔街日报报道，英伟达通过投资 AI 初创公司来购买其 GPU，人为推高了 GPU 和内存短缺。<br><sub>（来源：[Hacker News](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus)）</sub>
+**Mobile AI Factory：构建移动端专用语言模型**<br>11月17日消息，Mobile AI Factory 是一个智能体系统，能够根据任务和手机规格自动构建、微调并量化专用小语言模型。在十个任务和四款安卓手机上的评估显示，其设备端模型在五个任务上优于两个五次提示的前沿模型，且搜索过程仅使用了 19 倍的 GPU 时间。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.13509)）</sub>
 
 ### 活动预告
 
 **CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月15日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-16 07:22（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月16日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-17 10:28（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 5 期 · 11.09–11.15
 

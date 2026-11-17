@@ -1,0 +1,1382 @@
+{
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T02:28:13Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 455,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 46,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 43,
+   "error": "",
+   "seconds": 9.5
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 358,
+   "error": "",
+   "seconds": 21.9
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 18.5
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 33,
+   "error": "",
+   "seconds": 16.5
+  }
+ ],
+ "items": [
+  {
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-16T12:00:00Z",
+   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a5206efda457",
+   "score": 8.33,
+   "title_zh": "科学家如何使用ChatGPT",
+   "summary_zh": "探索1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。",
+   "tags": [
+    "行业动态",
+    "科研应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-16T22:58:20Z",
+   "summary": "",
+   "heat": 0.9,
+   "weight": 0.6,
+   "metrics": {
+    "points": 268.0,
+    "comments": 148.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50524736",
+    "excerpt_tried": true,
+    "evidence": "Reverse engineering Windows 11's MissionControlAggregator reveals coding-agent and developer-tool usage bits in a diagnostic ETW report. I recently asked AI to help me look through the latest Windows binaries for undocumented features and functionality. Among the leads it turned up, one list immediately caught my attention: coding agents such as codex.exe , claude.exe , copilot.exe , and cursor.exe , alongside familiar developer tools such as python.exe , dotnet.exe , gcc.exe , and code.exe . Why would a Windows system DLL need a list of coding agents and developer tools? The names were in MissionControlAggregator.dll . I asked the agent to follow the references and dig into what the DLL actually does. That led from a handful of string comparisons to a running Windows component that recor…",
+    "llm_done": true
+   },
+   "id": "9af8c07a164f",
+   "score": 8.2,
+   "title_zh": "Windows 11 收集开发工具使用数据",
+   "summary_zh": "逆向工程发现 Windows 11 的诊断报告中包含 codex.exe、claude.exe 等编码代理和开发工具的使用记录。",
+   "tags": [
+    "行业动态",
+    "隐私",
+    "Windows"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Broadening access to AI for scientists",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-16T17:00:00Z",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c0e4d197c876",
+   "score": 7.78,
+   "title_zh": "扩大对科学家的AI访问权限",
+   "summary_zh": "OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。",
+   "tags": [
+    "行业动态",
+    "科研应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+   "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+   "source": "rss",
+   "section": "news",
+   "via": "Microsoft Research",
+   "published": "2026-11-16T17:01:35Z",
+   "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only how to solve tasks, but also how to spend computation more effectively. The post TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient appeared first on Microsoft Research .",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "209164698d14",
+   "score": 7.74,
+   "title_zh": "TokenEconomizer：让AI编程代理更高效",
+   "summary_zh": "开源插件TokenEconomizer通过利用历史会话减少重复学习，降低成本并保持任务成功。",
+   "tags": [
+    "开源工具",
+    "编程代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+   "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-16T19:19:56Z",
+   "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before realistic simulations are possible. The article OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "e341d01bb9f5",
+   "score": 7.72,
+   "title_zh": "OpenAI的GPT-6 Astra攻克标准模型难题",
+   "summary_zh": "OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。",
+   "tags": [
+    "模型发布",
+    "科研突破"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "沃顿教授一句「打磨」，Claude反手给自己写了8.7万词规章！",
+   "url": "https://aiera.com.cn/2026/11/17/other/admin/124152/%e6%b2%83%e9%a1%bf%e6%95%99%e6%8e%88%e4%b8%80%e5%8f%a5%e3%80%8c%e6%89%93%e7%a3%a8%e3%80%8d%ef%bc%8cclaude%e5%8f%8d%e6%89%8b%e7%bb%99%e8%87%aa%e5%b7%b1%e5%86%99%e4%ba%868-7%e4%b8%87%e8%af%8d%e8%a7%84/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-17T00:08:59Z",
+   "summary": "这几乎就是AGI了，不过是「锯齿版」的！ 最近，沃顿商学院教授Ethan Mollick干了一件事：让Anthropic刚发布的Fable 5.2带着一群AI去造3D世界。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8004820aa9c9",
+   "score": 7.33,
+   "title_zh": "Claude反手给自己写了8.7万词规章",
+   "summary_zh": "沃顿教授让Anthropic的Fable 5.2带着AI去造3D世界，展现接近AGI的能力。",
+   "tags": [
+    "模型发布",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+   "url": "https://latent.space/p/bfl/",
+   "source": "rss",
+   "section": "news",
+   "via": "Latent Space",
+   "published": "2026-11-16T21:38:03Z",
+   "summary": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5689602445cd",
+   "score": 7.31,
+   "title_zh": "构建视觉智能",
+   "summary_zh": "Black Forest Labs提出从像素、运动和声音中学习AGI的路径。",
+   "tags": [
+    "模型发布",
+    "视觉智能"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Billions in Safe Insurance Money Is Being Bet on A.I. Debt",
+   "url": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-16T17:25:35Z",
+   "summary": "",
+   "heat": 0.709,
+   "weight": 0.6,
+   "metrics": {
+    "points": 81.0,
+    "comments": 40.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50520148",
+    "excerpt_tried": true,
+    "evidence": "Insurance companies are investing billions of their customers’ money into A.I. deals as analysts warn of mounting risks. When Elon Musk needed help financing a large purchase of artificial intelligence chips earlier this year, Wall Street offered an elegant solution. Mr. Musk and his team of advisers created a financial entity that would borrow billions to buy the chips and then lease them back to xAI, his artificial intelligence effort. This way, xAI wasn’t technically the borrower, which helped make its official debt load look smaller to investors. To help fund this complicated arrangement, $2.4 billion of the debt was sold to an insurance company called Athene, which manages life insurance policies and annuities for retirees, according to a Moody’s Ratings report. The deal was part of…",
+    "llm_done": true
+   },
+   "id": "b6154301c58f",
+   "score": 7.1,
+   "title_zh": "数十亿保险资金押注 AI 债务",
+   "summary_zh": "保险公司将客户资金投入 AI 交易，分析师警告风险上升，Elon Musk 通过特殊金融实体购买 AI 芯片。",
+   "tags": [
+    "行业动态",
+    "投资",
+    "AI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "刚刚，华为首个具身世界模型来了！国产算力训出，拿下双冠",
+   "url": "https://zhidx.com/p/610813.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-17T00:43:27Z",
+   "summary": "智东西 作者 | 三北 编辑 | 心缘 智东西11月16日报道，今日，华为云推出其 首款 昇腾原生具身世界模型CloudRobo-WM1.2 ，并宣布于11月30日正式开放WM1.2模型权重、推理后训练代码及预训练最佳实践。 该模型采用共享世界模型骨干网络实现预测增强的世界表征，基于世界模型原生DualAct架构实现世界模型原生动作生成，在 RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。 现场，华为云展示了基于CloudRobo-WM1.2的机器人完成 工业级搬运连续作业、轴承毛刺清洁 等真实工业场景实验，以及在 无人零售场景 中完成了物品上架、礼物入柜等收纳任务。 会上，华为云透露：“ 华为昇腾云在具身智能市场格局中国第一 ，已有 80% 的中国具身智能企业选择昇腾云，重点高校基本实现全覆盖。”这里的“格局第一”应该是企业自身统计口径下的生态渗透率、客户覆盖度国内第一，不是第三方机构营收口径。 同时，华为云宣布与环卫装备龙头企业福龙马集团联合研制的 智能清扫机器人 已启动预售。 一、直面五大挑战，华为用五项技术给机器人“补脑” 华为云具身产品线总裁/具身智能…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "e012aa59eeec",
+   "score": 7.02,
+   "title_zh": "",
+   "summary_zh": "国产算力训练的CloudRobo-WM1.2在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。",
+   "tags": [
+    "模型发布",
+    "具身智能"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+   "url": "https://www.hntrends.com/2026/november.html",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-16T01:31:30Z",
+   "summary": "",
+   "heat": 0.733,
+   "weight": 0.6,
+   "metrics": {
+    "points": 94.0,
+    "comments": 86.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50512950",
+    "excerpt_tried": true,
+    "evidence": "Hacker News \"Who is Hiring?\" job postings sit near 12-year lows while AI appears in more than half of all postings. Most popular programming languages and technologies for November 2026. It's been two and a half years since the last update, so this one covers a lot of ground. As of November 14, November's thread has 244 job postings, down 37% from 387 at the same point last year. Every thread since July has landed between 224 and 255 postings, and August's 224 was the fewest since January 2014. So far 2026 averages 287 postings a month, the lowest yearly average since 2013. At the same time, AI is now mentioned in more than half of all postings (51.6%), up from 30% two years ago. AI appears in 51.6% of November's postings, second only to Remote. It crossed 50% for the first time in June 2…",
+    "llm_done": true
+   },
+   "id": "5e13ac379c76",
+   "score": 6.86,
+   "title_zh": "招聘帖数降至 12 年低点",
+   "summary_zh": "Hacker News 招聘帖数降至 12 年低点，AI 已出现在超过一半的职位描述中。",
+   "tags": [
+    "行业动态",
+    "就业",
+    "AI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "vllm-project/vllm v0.34.0",
+   "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-16T23:22:00Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most models get a bigger cache and more throughput. - **Model Runner V1 is gone.** Model Runner V2 is now the only GPU runner. - **Big speedups** on Blackwell and MI355X: up to 1.95× decode (Step5 on GB200), 1.6× throughput (GLM-5.3-Flash), 1.24–1.40× faster long-prompt TTFT (GLM-5.3). - **Upgrade check:** default block size is now 64, ROCm 7.2 images are gone, and `huggingface_hub >= 2.0.0` is required. See [Before you upgrade](#before-you-upgrade). ## Before you upgrade > [!IMPORTANT] > These changes can break existing setups. | Change | What to do | PR | |---|---|---| | Model Runner V1 removed | Remove `VLLM_USE_V2_MODEL_RUNNER=0`; it now fails at startup. Port V1 logits processors to `vllm.v1.worker.gpu.sample.logits_processor`. | #63373 | | Default `--block-size` is 64 (was 16) | Pass `--block-size 16` to keep the old behavior. ROCm paged attention still uses 16. | #63231 | | Extensible KV cache on by default; `gpu_memory_utilization` defaults to 1.0 | To keep the old sizing, pass `--gpu-memory-utilization 0.9` or `--no-enable-extensible-kv-cache`. | #56492 | | ROCm 7.2 artifacts dropped | Use the ROCm 10.0 wheels and images. `-rocm72` is no longer published. | #61939 | | `huggingface_hub…",
+    "level": "minor",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "55c9424bdd59",
+   "score": 7.7,
+   "title_zh": "",
+   "summary_zh": "vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "From tasks to goals",
+   "url": "https://www.langchain.com/blog/from-tasks-to-goals",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-16T23:53:29Z",
+   "summary": "LangChain CEO and Co-founder Harrison Chase shares how we're moving from task-specific agents to goal-focused agents. Learn more.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3338922d21eb",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "LangChain CEO分享如何从任务特定代理转向目标导向代理。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "hitkeeen/blender-ai-mcp-addon",
+   "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "heat": 0.865,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2229.0
+   },
+   "extra": {
+    "language": "",
+    "age_days": 4,
+    "llm_done": true
+   },
+   "id": "f33a8460d294",
+   "score": 6.83,
+   "title_zh": "",
+   "summary_zh": "Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。",
+   "tags": [
+    "开源工具",
+    "3D",
+    "Blender"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+   "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "heat": 0.843,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 474.0
+   },
+   "extra": {
+    "language": "Makefile",
+    "age_days": 1,
+    "llm_done": true
+   },
+   "id": "cc6c2fb65285",
+   "score": 6.71,
+   "title_zh": "",
+   "summary_zh": "Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。",
+   "tags": [
+    "开源工具",
+    "网络",
+    "代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google-research/paper-orchestra",
+   "url": "https://github.com/google-research/paper-orchestra",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+   "heat": 0.718,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 313.0,
+    "stars": 1604.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_done": true
+   },
+   "id": "8f6c4b21b6a9",
+   "score": 6.39,
+   "title_zh": "",
+   "summary_zh": "PaperOrchestra 是一个用于自动撰写 AI 研究论文的多智能体框架。",
+   "tags": [
+    "开源工具",
+    "论文",
+    "研究"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "elie222/rakazo",
+   "url": "https://github.com/elie222/rakazo",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+   "heat": 0.698,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 266.0,
+    "stars": 8853.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_done": true
+   },
+   "id": "535c3bb77743",
+   "score": 6.29,
+   "title_zh": "",
+   "summary_zh": "开源 Grok Bot 替代品，支持自定义模型和沙箱。",
+   "tags": [
+    "开源工具",
+    "聊天机器人",
+    "Grok"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Zyphra/ZONOS3-Mini",
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "语音合成模型，许可证 apache-2.0",
+   "heat": 0.75,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 473.0,
+    "downloads": 69946.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/Zyphra/ZONOS3-Mini"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "30fdfa7f284e",
+   "score": 6.25,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "3D",
+    "Zyphra"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MiniMax/MiniMax-H3-Image",
+   "url": "https://www.modelscope.cn/models/MiniMax/MiniMax-H3-Image",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "魔搭 ModelScope 热门模型",
+   "published": "",
+   "summary": "text-to-image-synthesis模型",
+   "heat": 0.739,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 274.0,
+    "downloads": 16758.0
+   },
+   "extra": {
+    "llm_done": true
+   },
+   "id": "0ec15586aa07",
+   "score": 6.19,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "图像",
+    "MiniMax"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+   "url": "https://arxiv.org/abs/2611.18359",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-13T16:07:26Z",
+   "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task, invoking skills and tools, verifying outcomes, and adapting its strategy. Despite these advances, the community has yet to converge on a shared definition, a reliable evaluation framework, or a research roadmap. We argue that Embodied System 2, realized by a foundation model together with an embodied harness, forms the decision-making core of agentic robotics. Its central challenge is to translate general-purpose reasoning into effective and verifiable actions under physical constraints such as limited reaction time, mechanical limits, unpredictable environment changes, and irreversible consequences. Motivated by this perspective, we propose an evaluation framework that measures both model capabilities and closed-loop system performance. Furthermore, we identify the principles that carry over from digital to physical agents and the challenges that must be addressed to achieve reliable physical autonomy. On top of the Embodied System 2 and the evaluation framework, we envision a research roadmap toward sust…",
+   "heat": 0.825,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 110.0
+   },
+   "extra": {
+    "llm_done": true
+   },
+   "id": "51a89fc6c0e5",
+   "score": 7.13,
+   "title_zh": "Envisioning Agentic Robotics：智能体机器人新纪元",
+   "summary_zh": "本文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。作者提出了一个评估框架来测量模型能力和闭环系统性能，并展望了实现可靠物理自主的研究路线图。",
+   "tags": [
+    "智能体",
+    "机器人",
+    "评测"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+   "url": "https://arxiv.org/abs/2611.18397",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-13T16:39:30Z",
+   "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support subs…",
+   "heat": 0.788,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 89.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/RainBowLuoCS/Gamer"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "e8789b7765a5",
+   "score": 6.95,
+   "title_zh": "Gamer：通用视觉-语言-动作基础模型",
+   "summary_zh": "Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。通过在大量键盘鼠标轨迹上继续预训练和稀疏思维指令微调，该模型在多个 3D 开放世界游戏中表现出与熟练玩家相当的性能。",
+   "tags": [
+    "智能体",
+    "游戏",
+    "多模态"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "MIRIX-2.0: Multi-Agent Memory System",
+   "url": "https://arxiv.org/abs/2611.12068",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-09T00:00:00Z",
+   "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It reaches 91.4% on LoCoMo and 72.6% on LongMemEval-S, where it leads the strongest baseline by 14.3 points, and with AutoDream disabled it gains 31.0 and 22.0 points over HyperMem on single-hop and multi-hop document QA. As procedural memory, it yields the highest mean success among the compared memory methods on ALFWorld and WebShop and reaches 49.2% on MetaClaw-Bench, against 44.0% for MetaClaw's skill library. Six typed memory agents keep complete records as the system of record, and a provenance hypergraph indexes episodic and semantic records with n-ary frames that cite their rows. Retrieval runs under explicit budgets, so the evidence a question inspects does not grow with the history. AutoDream merges duplicate anchors outside the write path without rewriting any record, and it distills task sessions into skills. With AutoDream disabled, MIRIX-2.0 answers faster than HyperMem on all five timed benchmarks. It needs no fine-tuning, runs with closed and open models, and its code is public.",
+   "heat": 0.675,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 46.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Mirix-AI/MIRIX"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "af4aa3643852",
+   "score": 5.3,
+   "title_zh": "MIRIX-2.0：多智能体记忆系统",
+   "summary_zh": "MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。它在多个基准测试中表现出最高的准确性和效率，无需微调即可在所有计时基准测试中比 HyperMem 回答得更快。",
+   "tags": [
+    "智能体",
+    "记忆",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+   "url": "https://arxiv.org/abs/2611.13509",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-10T03:29:29Z",
+   "summary": "Small language models (SLMs) running on mobile devices can keep user data private and work without connectivity. But they perform well only when fine-tuned for the target task and sized for the target device, a process that today requires repeated expert tuning. We present {\\it Mobile AI Factory}, an agentic system that builds a fine-tuned, quantized SLM for a given task and phone. Given a task specification and a target phone, an orchestrator LLM chooses whether to tune hyperparameters, mine real data, or generate synthetic examples, while fixed rules roll back changes that hurt accuracy. The factory searches from small to large models across base models and quantizations, adapts its accuracy goal as it searches, and uses real measurements of the target phone across inference engines and backends. We evaluate Mobile AI Factory on ten tasks and four Android phones. On an unseen testset, its on-device models outperform two five-shot frontier models on five tasks, by up to 0.34, and match them on three more. Its search comes within 0.03 of exhaustively training all 27 model variants on an entity extraction task, while using 19$\\times$ less GPU time. Phone measurements also matter: the best configuration changes across phones. Without phone measurements, Claude Opus 5.5, given the full hardware and model specifications, misses the app's requirements in 25\\% of easy and moderate cases and in 60\\% of hard ones. Code is available at: https://github.com/evanly-gh/SLM_Factory.",
+   "heat": 0.525,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 19.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/evanly-gh/SLM_Factory"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "6a34d147d088",
+   "score": 5.2,
+   "title_zh": "Mobile AI Factory：构建移动端专用语言模型",
+   "summary_zh": "Mobile AI Factory 是一个智能体系统，能够根据任务和手机规格自动构建、微调并量化专用小语言模型。在十个任务和四款安卓手机上的评估显示，其设备端模型在五个任务上优于两个五次提示的前沿模型，且搜索过程仅使用了 19 倍的 GPU 时间。",
+   "tags": [
+    "移动端",
+    "小模型",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+   "url": "https://arxiv.org/abs/2611.13001",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-08T00:00:00Z",
+   "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned data splits and explicit task contracts. We compare task ranks on aligned support, train five backbones under all seven non-empty objective combinations on five datasets with three seeds, and contrast fixed-model profiles with specialist portfolios. Rank comparisons connect imputation and prediction through numerical recovery and dependence preservation, and link generation to both through predictive utility; distributional fidelity follows different, sometimes opposing, rankings. Objective interventions show the largest pooled gains from including the recipient's own objective. Generation has the broadest coverage of positive pooled auxiliary effects, while prediction shows potential to improve imputation and synthetic-data utility, with responses that vary across backbones. Cross-addition effects reveal that objective benefits need not add and depend on the objectives already present. Fixed-model comparisons expose corresponding utility--fidelity trade-offs: some generalists surpass specialist portfolios on utility, while fidelity continues to favor specialization. Frozen foundatio…",
+   "heat": 0.651,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 40.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/limix-ldm-ai/OTBench"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "344bf2bb35b5",
+   "score": 5.14,
+   "title_zh": "One Table, Many Queries：通用表格模型基准测试",
+   "summary_zh": "本文引入 One Table Benchmark，涵盖 56 个数据集和 20 个能力轴，用于评估生成、插值和预测任务。研究发现不同任务间的能力共享和训练目标交互复杂，固定模型比较揭示了效用与保真度之间的权衡。",
+   "tags": [
+    "表格模型",
+    "评测",
+    "基准测试"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-17",
+  "start": "2026-11-17",
+  "end": "2026-11-17",
+  "title": "科学家如何使用ChatGPT",
+  "generated_at": "2026-11-17T02:28:13Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 23,
+  "club_period": {
+   "start": "2026-11-16",
+   "end": "2026-11-16"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 5 次",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 2 个、合并 1 个，提交 5 次，新增代码 1843 行、删除 215 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 616 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "hustmirrors-waf-backend 提交 4 次",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "镜像站运维 SIG的 hustmirrors-waf-backend 仓库提交 4 次、新增代码 1227 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hustmirrors-waf-backend",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "刚刚，华为首个具身世界模型来了！国产算力训出，拿下双冠",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "国产算力训练的CloudRobo-WM1.2在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。",
+    "url": "https://zhidx.com/p/610813.html",
+    "via": "智东西",
+    "id": "e012aa59eeec",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "科学家如何使用ChatGPT",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "探索1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。",
+    "url": "https://openai.com/index/science-at-the-frontier",
+    "via": "OpenAI",
+    "id": "a5206efda457",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Windows 11 收集开发工具使用数据",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "逆向工程发现 Windows 11 的诊断报告中包含 codex.exe、claude.exe 等编码代理和开发工具的使用记录。",
+    "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+    "via": "Hacker News",
+    "id": "9af8c07a164f",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "扩大对科学家的AI访问权限",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "via": "OpenAI",
+    "id": "c0e4d197c876",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "TokenEconomizer：让AI编程代理更高效",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "开源插件TokenEconomizer通过利用历史会话减少重复学习，降低成本并保持任务成功。",
+    "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+    "via": "Microsoft Research",
+    "id": "209164698d14",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI的GPT-6 Astra攻克标准模型难题",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。",
+    "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+    "via": "The Decoder",
+    "id": "e341d01bb9f5",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Claude反手给自己写了8.7万词规章",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "沃顿教授让Anthropic的Fable 5.2带着AI去造3D世界，展现接近AGI的能力。",
+    "url": "https://aiera.com.cn/2026/11/17/other/admin/124152/%e6%b2%83%e9%a1%bf%e6%95%99%e6%8e%88%e4%b8%80%e5%8f%a5%e3%80%8c%e6%89%93%e7%a3%a8%e3%80%8d%ef%bc%8cclaude%e5%8f%8d%e6%89%8b%e7%bb%99%e8%87%aa%e5%b7%b1%e5%86%99%e4%ba%868-7%e4%b8%87%e8%af%8d%e8%a7%84/",
+    "via": "新智元",
+    "id": "8004820aa9c9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vllm-project/vllm v0.34.0",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。",
+    "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "via": "GitHub 版本发布",
+    "id": "55c9424bdd59",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "From tasks to goals",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "LangChain CEO分享如何从任务特定代理转向目标导向代理。",
+    "url": "https://www.langchain.com/blog/from-tasks-to-goals",
+    "via": "LangChain 博客",
+    "id": "3338922d21eb",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "hitkeeen/blender-ai-mcp-addon",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。",
+    "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+    "via": "GitHub 新项目",
+    "id": "f33a8460d294",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。",
+    "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+    "via": "GitHub 新项目",
+    "id": "cc6c2fb65285",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "google-research/paper-orchestra",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "PaperOrchestra 是一个用于自动撰写 AI 研究论文的多智能体框架。",
+    "url": "https://github.com/google-research/paper-orchestra",
+    "via": "GitHub Trending",
+    "id": "8f6c4b21b6a9",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Envisioning Agentic Robotics：智能体机器人新纪元",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "本文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。作者提出了一个评估框架来测量模型能力和闭环系统性能，并展望了实现可靠物理自主的研究路线图。",
+    "url": "https://arxiv.org/abs/2611.18359",
+    "via": "arXiv · 智能体",
+    "id": "51a89fc6c0e5",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Gamer：通用视觉-语言-动作基础模型",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。通过在大量键盘鼠标轨迹上继续预训练和稀疏思维指令微调，该模型在多个 3D 开放世界游戏中表现出与熟练玩家相当的性能。",
+    "url": "https://arxiv.org/abs/2611.18397",
+    "via": "arXiv · 智能体",
+    "id": "e8789b7765a5",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "MIRIX-2.0：多智能体记忆系统",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。它在多个基准测试中表现出最高的准确性和效率，无需微调即可在所有计时基准测试中比 HyperMem 回答得更快。",
+    "url": "https://arxiv.org/abs/2611.12068",
+    "via": "Hugging Face 热门论文",
+    "id": "af4aa3643852",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Mobile AI Factory：构建移动端专用语言模型",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "Mobile AI Factory 是一个智能体系统，能够根据任务和手机规格自动构建、微调并量化专用小语言模型。在十个任务和四款安卓手机上的评估显示，其设备端模型在五个任务上优于两个五次提示的前沿模型，且搜索过程仅使用了 19 倍的 GPU 时间。",
+    "url": "https://arxiv.org/abs/2611.13509",
+    "via": "arXiv · 高效推理",
+    "id": "6a34d147d088",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "CVPR 2027 论文截稿",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。",
+    "url": "https://cvpr.thecvf.com/Conferences/2027",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
