@@ -1131,14 +1131,14 @@
   "day": "2026-11-17",
   "start": "2026-11-17",
   "end": "2026-11-17",
-  "title": "科学家如何使用ChatGPT",
-  "generated_at": "2026-11-17T02:28:13Z",
+  "title": "OpenAI发布科学家使用ChatGPT研究报告",
+  "generated_at": "2026-11-17T04:12:09Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 23,
+  "tries": 2,
+  "pending": 2,
   "club_period": {
    "start": "2026-11-16",
    "end": "2026-11-16"
@@ -1193,10 +1193,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "刚刚，华为首个具身世界模型来了！国产算力训出，拿下双冠",
+    "headline": "华为云发布CloudRobo-WM1.2具身世界模型",
     "when": "11月17日",
     "date": "2026-11-17",
-    "body": "国产算力训练的CloudRobo-WM1.2在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。",
+    "body": "华为云推出首款昇腾原生具身世界模型CloudRobo-WM1.2，在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。",
     "url": "https://zhidx.com/p/610813.html",
     "via": "智东西",
     "id": "e012aa59eeec",
@@ -1204,73 +1204,18 @@
    },
    {
     "cat": "overseas",
-    "headline": "科学家如何使用ChatGPT",
-    "when": "11月16日",
-    "date": "2026-11-16",
-    "body": "探索1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。",
-    "url": "https://openai.com/index/science-at-the-frontier",
-    "via": "OpenAI",
-    "id": "a5206efda457",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Windows 11 收集开发工具使用数据",
+    "headline": "TokenEconomizer开源插件发布",
     "when": "11月17日",
     "date": "2026-11-17",
-    "body": "逆向工程发现 Windows 11 的诊断报告中包含 codex.exe、claude.exe 等编码代理和开发工具的使用记录。",
-    "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-    "via": "Hacker News",
-    "id": "9af8c07a164f",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "扩大对科学家的AI访问权限",
-    "when": "11月17日",
-    "date": "2026-11-17",
-    "body": "OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。",
-    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-    "via": "OpenAI",
-    "id": "c0e4d197c876",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "TokenEconomizer：让AI编程代理更高效",
-    "when": "11月17日",
-    "date": "2026-11-17",
-    "body": "开源插件TokenEconomizer通过利用历史会话减少重复学习，降低成本并保持任务成功。",
+    "body": "微软开源插件TokenEconomizer通过利用历史会话减少重复学习，降低AI编程代理的成本并保持任务成功。",
     "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
     "via": "Microsoft Research",
     "id": "209164698d14",
     "ai": true
    },
    {
-    "cat": "overseas",
-    "headline": "OpenAI的GPT-6 Astra攻克标准模型难题",
-    "when": "11月17日",
-    "date": "2026-11-17",
-    "body": "OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。",
-    "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-    "via": "The Decoder",
-    "id": "e341d01bb9f5",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Claude反手给自己写了8.7万词规章",
-    "when": "11月17日",
-    "date": "2026-11-17",
-    "body": "沃顿教授让Anthropic的Fable 5.2带着AI去造3D世界，展现接近AGI的能力。",
-    "url": "https://aiera.com.cn/2026/11/17/other/admin/124152/%e6%b2%83%e9%a1%bf%e6%95%99%e6%8e%88%e4%b8%80%e5%8f%a5%e3%80%8c%e6%89%93%e7%a3%a8%e3%80%8d%ef%bc%8cclaude%e5%8f%8d%e6%89%8b%e7%bb%99%e8%87%aa%e5%b7%b1%e5%86%99%e4%ba%868-7%e4%b8%87%e8%af%8d%e8%a7%84/",
-    "via": "新智元",
-    "id": "8004820aa9c9",
-    "ai": true
-   },
-   {
     "cat": "opensource",
-    "headline": "vllm-project/vllm v0.34.0",
+    "headline": "vLLM发布v0.34.0版本",
     "when": "11月17日",
     "date": "2026-11-17",
     "body": "vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。",
@@ -1281,21 +1226,10 @@
    },
    {
     "cat": "opensource",
-    "headline": "From tasks to goals",
-    "when": "11月17日",
-    "date": "2026-11-17",
-    "body": "LangChain CEO分享如何从任务特定代理转向目标导向代理。",
-    "url": "https://www.langchain.com/blog/from-tasks-to-goals",
-    "via": "LangChain 博客",
-    "id": "3338922d21eb",
-    "ai": true
-   },
-   {
-    "cat": "opensource",
-    "headline": "hitkeeen/blender-ai-mcp-addon",
+    "headline": "blender-ai-mcp-addon：Blender AI 助手",
     "when": "11月17日消息",
     "date": "2026-11-17",
-    "body": "Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。",
+    "body": "hitkeeen 发布 Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。",
     "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
     "via": "GitHub 新项目",
     "id": "f33a8460d294",
@@ -1303,10 +1237,10 @@
    },
    {
     "cat": "opensource",
-    "headline": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "headline": "Gemini-Config-Checker-：Chain 区域扫描器",
     "when": "11月17日消息",
     "date": "2026-11-17",
-    "body": "Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。",
+    "body": "YellowLaborerMarket 发布 Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。",
     "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
     "via": "GitHub 新项目",
     "id": "cc6c2fb65285",
@@ -1314,13 +1248,46 @@
    },
    {
     "cat": "opensource",
-    "headline": "google-research/paper-orchestra",
+    "headline": "paper-orchestra：自动撰写 AI 论文框架",
     "when": "11月17日消息",
     "date": "2026-11-17",
-    "body": "PaperOrchestra 是一个用于自动撰写 AI 研究论文的多智能体框架。",
+    "body": "google-research 发布 PaperOrchestra，这是一个用于自动撰写 AI 研究论文的多智能体框架。",
     "url": "https://github.com/google-research/paper-orchestra",
     "via": "GitHub Trending",
     "id": "8f6c4b21b6a9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "rakazo：开源 Grok Bot 替代品",
+    "when": "11月17日消息",
+    "date": "2026-11-17",
+    "body": "elie222 发布开源 Grok Bot 替代品，支持自定义模型和沙箱。",
+    "url": "https://github.com/elie222/rakazo",
+    "via": "GitHub Trending",
+    "id": "535c3bb77743",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI发布科学家使用ChatGPT研究报告",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "OpenAI发布报告，分析了1800多名科学家利用ChatGPT进行研究的工作流程、生产力及发现预期。",
+    "url": "https://openai.com/index/science-at-the-frontier",
+    "via": "OpenAI",
+    "id": "a5206efda457",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI GPT-6 Astra攻克标准模型难题",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。",
+    "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+    "via": "The Decoder",
+    "id": "e341d01bb9f5",
     "ai": true
    },
    {
@@ -1328,7 +1295,7 @@
     "headline": "Envisioning Agentic Robotics：智能体机器人新纪元",
     "when": "11月17日消息",
     "date": "2026-11-17",
-    "body": "本文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。作者提出了一个评估框架来测量模型能力和闭环系统性能，并展望了实现可靠物理自主的研究路线图。",
+    "body": "论文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。",
     "url": "https://arxiv.org/abs/2611.18359",
     "via": "arXiv · 智能体",
     "id": "51a89fc6c0e5",
@@ -1339,32 +1306,10 @@
     "headline": "Gamer：通用视觉-语言-动作基础模型",
     "when": "11月17日消息",
     "date": "2026-11-17",
-    "body": "Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。通过在大量键盘鼠标轨迹上继续预训练和稀疏思维指令微调，该模型在多个 3D 开放世界游戏中表现出与熟练玩家相当的性能。",
+    "body": "Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。",
     "url": "https://arxiv.org/abs/2611.18397",
     "via": "arXiv · 智能体",
     "id": "e8789b7765a5",
-    "ai": true
-   },
-   {
-    "cat": "papers",
-    "headline": "MIRIX-2.0：多智能体记忆系统",
-    "when": "11月17日消息",
-    "date": "2026-11-17",
-    "body": "MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。它在多个基准测试中表现出最高的准确性和效率，无需微调即可在所有计时基准测试中比 HyperMem 回答得更快。",
-    "url": "https://arxiv.org/abs/2611.12068",
-    "via": "Hugging Face 热门论文",
-    "id": "af4aa3643852",
-    "ai": true
-   },
-   {
-    "cat": "papers",
-    "headline": "Mobile AI Factory：构建移动端专用语言模型",
-    "when": "11月17日消息",
-    "date": "2026-11-17",
-    "body": "Mobile AI Factory 是一个智能体系统，能够根据任务和手机规格自动构建、微调并量化专用小语言模型。在十个任务和四款安卓手机上的评估显示，其设备端模型在五个任务上优于两个五次提示的前沿模型，且搜索过程仅使用了 19 倍的 GPU 时间。",
-    "url": "https://arxiv.org/abs/2611.13509",
-    "via": "arXiv · 高效推理",
-    "id": "6a34d147d088",
     "ai": true
    },
    {
@@ -1377,6 +1322,133 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "a5206efda457": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI发布科学家使用ChatGPT研究报告",
+    "body": "OpenAI发布报告，分析了1800多名科学家利用ChatGPT进行研究的工作流程、生产力及发现预期。"
+   },
+   "9af8c07a164f": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Windows 11 收集开发工具使用数据",
+    "body": "逆向工程发现 Windows 11 的诊断报告中包含 codex.exe、claude.exe 等编码代理和开发工具的使用记录。"
+   },
+   "c0e4d197c876": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "OpenAI扩大ChatGPT学术研究人员计划",
+    "body": "OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。"
+   },
+   "209164698d14": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "TokenEconomizer开源插件发布",
+    "body": "微软开源插件TokenEconomizer通过利用历史会话减少重复学习，降低AI编程代理的成本并保持任务成功。"
+   },
+   "e341d01bb9f5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI GPT-6 Astra攻克标准模型难题",
+    "body": "OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。"
+   },
+   "8004820aa9c9": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic Fable 5.2展现接近AGI的能力",
+    "body": "沃顿商学院教授让Anthropic的Fable 5.2带着AI去造3D世界，展现接近AGI的能力。"
+   },
+   "5689602445cd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Black Forest Labs提出构建视觉智能路径",
+    "body": "Black Forest Labs提出从像素、运动和声音中学习AGI的路径。"
+   },
+   "b6154301c58f": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "数十亿保险资金押注 AI 债务",
+    "body": "保险公司将客户资金投入 AI 交易，分析师警告风险上升，Elon Musk 通过特殊金融实体购买 AI 芯片。"
+   },
+   "e012aa59eeec": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "华为云发布CloudRobo-WM1.2具身世界模型",
+    "body": "华为云推出首款昇腾原生具身世界模型CloudRobo-WM1.2，在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。"
+   },
+   "5e13ac379c76": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "招聘帖数降至 12 年低点",
+    "body": "Hacker News 招聘帖数降至 12 年低点，AI 已出现在超过一半的职位描述中。"
+   },
+   "55c9424bdd59": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM发布v0.34.0版本",
+    "body": "vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。"
+   },
+   "3338922d21eb": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "LangChain CEO分享代理架构演进",
+    "body": "LangChain CEO分享如何从任务特定代理转向目标导向代理。"
+   },
+   "f33a8460d294": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "blender-ai-mcp-addon：Blender AI 助手",
+    "body": "hitkeeen 发布 Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。"
+   },
+   "cc6c2fb65285": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Gemini-Config-Checker-：Chain 区域扫描器",
+    "body": "YellowLaborerMarket 发布 Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。"
+   },
+   "8f6c4b21b6a9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "paper-orchestra：自动撰写 AI 论文框架",
+    "body": "google-research 发布 PaperOrchestra，这是一个用于自动撰写 AI 研究论文的多智能体框架。"
+   },
+   "535c3bb77743": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "rakazo：开源 Grok Bot 替代品",
+    "body": "elie222 发布开源 Grok Bot 替代品，支持自定义模型和沙箱。"
+   },
+   "30fdfa7f284e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ZONOS3-Mini：语音合成模型",
+    "body": "Zyphra 发布语音合成模型 ZONOS3-Mini，许可证为 apache-2.0。"
+   },
+   "0ec15586aa07": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "MiniMax-H3-Image：文本生成图像模型",
+    "body": "MiniMax 发布 text-to-image-synthesis 模型。"
+   },
+   "51a89fc6c0e5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "论文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。"
+   },
+   "e8789b7765a5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Gamer：通用视觉-语言-动作基础模型",
+    "body": "Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。"
+   },
+   "af4aa3643852": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "MIRIX-2.0：多智能体记忆系统",
+    "body": "MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。"
+   }
+  }
  }
 }
