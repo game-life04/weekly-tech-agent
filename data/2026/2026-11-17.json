@@ -1132,13 +1132,13 @@
   "start": "2026-11-17",
   "end": "2026-11-17",
   "title": "OpenAI发布科学家使用ChatGPT研究报告",
-  "generated_at": "2026-11-17T04:12:09Z",
+  "generated_at": "2026-11-17T09:12:11Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 2,
-  "pending": 2,
+  "tries": 3,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-16",
    "end": "2026-11-16"
@@ -1448,6 +1448,18 @@
     "cat": "papers",
     "headline": "MIRIX-2.0：多智能体记忆系统",
     "body": "MIRIX-2.0 是一个旨在实用、准确且高效的多智能体记忆系统，通过六个类型化的记忆智能体和溯源超图索引来管理记忆。"
+   },
+   "6a34d147d088": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Mobile AI Factory：构建移动端专用语言模型",
+    "body": "Mobile AI Factory 是一个智能体系统，能够根据任务和手机规格自动构建、微调并量化专用小语言模型。"
+   },
+   "344bf2bb35b5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "One Table, Many Queries：通用表格模型基准测试",
+    "body": "One Table Benchmark 涵盖 56 个数据集和 20 个能力轴，用于评估生成、插值和预测任务。"
    }
   }
  }
