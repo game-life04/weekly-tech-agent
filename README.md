@@ -12,57 +12,55 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.17（周二）
+## 每日快讯 · 11.18（周三）
 
 > 今日 AI 与开源要闻 **14** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-17-kuaixun.md) · [公众号排版版](daily/2026/2026-11-17-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-17.md) · [往期日报](daily/README.md)
+> [单独打开](daily/2026/2026-11-18-kuaixun.md) · [公众号排版版](daily/2026/2026-11-18-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-18.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月17日 周二
+【每日科技快讯】11月18日 周三
 今日 AI 与开源要闻 14 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 5 次
-2. AtomGit-Mobile4Android 合并 1 个 PR
-3. hustmirrors-waf-backend 提交 4 次
+1. 开放原子开源俱乐部合并 1 个 PR、提交 3 次
+2. pwn.hust.college 合并 1 个 PR
 
 【国内动态】
-4. 华为云发布CloudRobo-WM1.2具身世界模型
-→ 华为云推出首款昇腾原生具身世界模型CloudRobo-WM1.2，在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。
+3. 阿里通义千问发布Qwen4-Max模型
+→ 阿里通义千问发布Qwen4-Max模型，支持聊天、多模态理解、图像生成、文档处理和工具调用等功能。
 
 【海外动态】
-5. TokenEconomizer开源插件发布
-→ 微软开源插件TokenEconomizer通过利用历史会话减少重复学习，降低AI编程代理的成本并保持任务成功。
+4. OpenAI发布GPT-6.2 Astra和Sol模型
+→ OpenAI发布GPT-6.2 Astra和Sol，在专业输出、编程和效率上有所提升，成本更低。
+5. Google Gemini Tasks功能免费
+→ Google在六个国家免费提供Gemini Tasks功能，并新增美国功能和更深的Google Workspace集成。
 
 【开源项目】
-6. vLLM发布v0.34.0版本
-→ vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。
-7. blender-ai-mcp-addon：Blender AI 助手
-→ hitkeeen 发布 Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。
-8. Gemini-Config-Checker-：Chain 区域扫描器
-→ YellowLaborerMarket 发布 Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。
-9. paper-orchestra：自动撰写 AI 论文框架
-→ google-research 发布 PaperOrchestra，这是一个用于自动撰写 AI 研究论文的多智能体框架。
-10. rakazo：开源 Grok Bot 替代品
-→ elie222 发布开源 Grok Bot 替代品，支持自定义模型和沙箱。
+6. Claude-BugHunter 技能包包含 82 个技能
+→ Claude-BugHunter 技能包包含 82 个技能和 681 个已披露漏洞模式，用于漏洞挖掘和外部红队工作。
+7. Datasette Lite在浏览器运行
+→ Datasette Lite使用WebAssembly和Pyodide，在浏览器中运行完整的Python应用。
+8. inference-optimisation-skill 技能包
+→ inference-optimisation-skill 技能包用于在任意硬件上优化本地 LLM 推理速度。
+9. LangChain指南：如何为AI智能体选择安全沙箱
+→ LangChain提供为AI智能体选择安全沙箱的指南，包括文件系统隔离、网络访问和资源限制。
+10. usestrix/strix
+→ 开源 AI 渗透测试工具，用于发现和修复应用漏洞。
 
 【学术前沿】
-11. OpenAI发布科学家使用ChatGPT研究报告
-→ OpenAI发布报告，分析了1800多名科学家利用ChatGPT进行研究的工作流程、生产力及发现预期。
-12. OpenAI GPT-6 Astra攻克标准模型难题
-→ OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。
-13. Envisioning Agentic Robotics：智能体机器人新纪元
-→ 论文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。
-14. Gamer：通用视觉-语言-动作基础模型
-→ Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。
+11. SWE-CoWork：评测组织中的数字员工
+→ 本文提出SWE-CoWork基准，模拟软件组织环境评测编码智能体。实验发现模型在部分实现与任务交付间存在巨大差距，即使提供完整需求也难以显著提升成功率。
+12. K2-Horizon：开源语言模型前沿舰队
+→ K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。引入Mixture-of-Value Attention和softplus注意力门控，36B-A4B模型在相同数据下接近32B密集模型性能。
+13. Sage S2.1 Flash 技术报告
+→ We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over…
+14. VibePrevisBench：评测Blender中的4D场景生成
+→ 本文提出VibePrevisBench基准，评估智能体在Blender中重建4D场景的能力。通过规则和视觉语言模型双重检查，发现多模态理解是关键，且智能体在错误修正上存在不足。
 
-【活动预告】
-· 11月17日 CVPR 2027 论文截稿
-
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-17-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-18-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -72,47 +70,43 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 5 次**<br>11月16日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 2 个、合并 1 个，提交 5 次，新增代码 1843 行、删除 215 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 1 个 PR、提交 3 次**<br>11月17日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 2 个、合并 1 个，提交 3 次，新增代码 19 行、删除 28 行，1 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月16日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 616 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
-
-**hustmirrors-waf-backend 提交 4 次**<br>11月16日，镜像站运维 SIG的 hustmirrors-waf-backend 仓库提交 4 次、新增代码 1227 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/hustmirrors-waf-backend)）</sub>
+**pwn.hust.college 合并 1 个 PR**<br>11月17日，pwn.hust.college SIG的 pwn.hust.college 仓库新增 PR 1 个、合并 1 个、提交 3 次、新增代码 19 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/pwn.hust.college)）</sub>
 
 #### 国内动态
 
-**华为云发布CloudRobo-WM1.2具身世界模型**<br>11月17日，华为云推出首款昇腾原生具身世界模型CloudRobo-WM1.2，在RoboTwin 2.0、LiberoPro 2.0评测中均位列第一。<br><sub>（来源：[智东西](https://zhidx.com/p/610813.html)）</sub>
+**阿里通义千问发布Qwen4-Max模型**<br>11月16日，阿里通义千问发布Qwen4-Max模型，支持聊天、多模态理解、图像生成、文档处理和工具调用等功能。<br><sub>（来源：[Hacker News](https://qwen.ai/blog?id=qwen4-max)）</sub>
 
 #### 海外动态
 
-**TokenEconomizer开源插件发布**<br>11月17日，微软开源插件TokenEconomizer通过利用历史会话减少重复学习，降低AI编程代理的成本并保持任务成功。<br><sub>（来源：[Microsoft Research](https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/)）</sub>
+**OpenAI发布GPT-6.2 Astra和Sol模型**<br>11月18日，OpenAI发布GPT-6.2 Astra和Sol，在专业输出、编程和效率上有所提升，成本更低。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-gpt-6-2-astra-sol)）</sub>
+
+**Google Gemini Tasks功能免费**<br>11月18日，Google在六个国家免费提供Gemini Tasks功能，并新增美国功能和更深的Google Workspace集成。<br><sub>（来源：[Google AI](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/)）</sub>
 
 #### 开源项目
 
-**vLLM发布v0.34.0版本**<br>11月17日，vLLM v0.34.0发布，新增10个模型，默认开启可扩展KV缓存，提供Blackwell和MI355X加速。<br><sub>（来源：[GitHub 版本发布](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)）</sub>
+**Claude-BugHunter 技能包包含 82 个技能**<br>11月18日消息，Claude-BugHunter 技能包包含 82 个技能和 681 个已披露漏洞模式，用于漏洞挖掘和外部红队工作。<br><sub>（来源：[GitHub Trending](https://github.com/elementalsouls/Claude-BugHunter)）</sub>
 
-**blender-ai-mcp-addon：Blender AI 助手**<br>11月17日消息，hitkeeen 发布 Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。<br><sub>（来源：[GitHub 新项目](https://github.com/hitkeeen/blender-ai-mcp-addon)）</sub>
+**Datasette Lite在浏览器运行**<br>11月18日，Datasette Lite使用WebAssembly和Pyodide，在浏览器中运行完整的Python应用。<br><sub>（来源：[Simon Willison](https://simonwillison.net/2026/Nov/17/datasette-lite/)）</sub>
 
-**Gemini-Config-Checker-：Chain 区域扫描器**<br>11月17日消息，YellowLaborerMarket 发布 Chain 区域扫描器，用于查找能进入 Google AI Studio 和 Gemini 的代理配置。<br><sub>（来源：[GitHub 新项目](https://github.com/YellowLaborerMarket/Gemini-Config-Checker-)）</sub>
+**inference-optimisation-skill 技能包**<br>11月18日消息，inference-optimisation-skill 技能包用于在任意硬件上优化本地 LLM 推理速度。<br><sub>（来源：[GitHub 新项目](https://github.com/sybil-solutions/inference-optimisation-skill)）</sub>
 
-**paper-orchestra：自动撰写 AI 论文框架**<br>11月17日消息，google-research 发布 PaperOrchestra，这是一个用于自动撰写 AI 研究论文的多智能体框架。<br><sub>（来源：[GitHub Trending](https://github.com/google-research/paper-orchestra)）</sub>
+**LangChain指南：如何为AI智能体选择安全沙箱**<br>11月18日，LangChain提供为AI智能体选择安全沙箱的指南，包括文件系统隔离、网络访问和资源限制。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent)）</sub>
 
-**rakazo：开源 Grok Bot 替代品**<br>11月17日消息，elie222 发布开源 Grok Bot 替代品，支持自定义模型和沙箱。<br><sub>（来源：[GitHub Trending](https://github.com/elie222/rakazo)）</sub>
+**usestrix/strix**<br>11月18日消息，开源 AI 渗透测试工具，用于发现和修复应用漏洞。<br><sub>（来源：[GitHub Trending](https://github.com/usestrix/strix)）</sub>
 
 #### 学术前沿
 
-**OpenAI发布科学家使用ChatGPT研究报告**<br>11月16日，OpenAI发布报告，分析了1800多名科学家利用ChatGPT进行研究的工作流程、生产力及发现预期。<br><sub>（来源：[OpenAI](https://openai.com/index/science-at-the-frontier)）</sub>
+**SWE-CoWork：评测组织中的数字员工**<br>11月16日，本文提出SWE-CoWork基准，模拟软件组织环境评测编码智能体。实验发现模型在部分实现与任务交付间存在巨大差距，即使提供完整需求也难以显著提升成功率。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.20218)）</sub>
 
-**OpenAI GPT-6 Astra攻克标准模型难题**<br>11月17日，OpenAI物理学家利用GPT-6 Astra将粒子物理学25年未解的数学问题转化为可工作的证明。<br><sub>（来源：[The Decoder](https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/)）</sub>
+**K2-Horizon：开源语言模型前沿舰队**<br>11月16日，K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。引入Mixture-of-Value Attention和softplus注意力门控，36B-A4B模型在相同数据下接近32B密集模型性能。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.21003)）</sub>
 
-**Envisioning Agentic Robotics：智能体机器人新纪元**<br>11月17日消息，论文提出 embodied System 2 作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.18359)）</sub>
+**Sage S2.1 Flash 技术报告**<br>11月16日，We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.21072)）</sub>
 
-**Gamer：通用视觉-语言-动作基础模型**<br>11月17日消息，Gamer 是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.18397)）</sub>
+**VibePrevisBench：评测Blender中的4D场景生成**<br>11月18日消息，本文提出VibePrevisBench基准，评估智能体在Blender中重建4D场景的能力。通过规则和视觉语言模型双重检查，发现多模态理解是关键，且智能体在错误修正上存在不足。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.15789)）</sub>
 
-### 活动预告
-
-**CVPR 2027 论文截稿**<br>11月17日，IEEE/CVF Conference on Computer Vision and Pattern Recognition（CVPR 2027，CCF-A 类，人工智能）论文提交截止时间为北京时间11月17日 19:59，摘要截止时间为11月11日 19:59。会议将于 June 22-25, 2027 在 Seattle, WA, United States 举行。<br><sub>（来源：[会议官网](https://cvpr.thecvf.com/Conferences/2027)）</sub>
-
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月16日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-17 17:12（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月17日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-18 09:36（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 5 期 · 11.09–11.15
 

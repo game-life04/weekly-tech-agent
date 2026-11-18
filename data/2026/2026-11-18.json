@@ -1,0 +1,1409 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T01:36:41Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 496,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 73,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 40.2
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.6
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 3.4
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 57,
+   "error": "",
+   "seconds": 10.3
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 355,
+   "error": "",
+   "seconds": 23.0
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 18.7
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 36,
+   "error": "",
+   "seconds": 63.3
+  }
+ ],
+ "items": [
+  {
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-17T17:45:00Z",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "heat": 1.0,
+   "weight": 0.9,
+   "metrics": {
+    "points": 1077.0,
+    "comments": 689.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50535230",
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "9235aaac8965",
+   "score": 9.19,
+   "title_zh": "GPT-6.2 Astra和Sol发布",
+   "summary_zh": "GPT-6.2 Astra和Sol在专业输出、编程和效率上有所提升，成本更低。",
+   "tags": [
+    "模型发布"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Qwen4-Max",
+   "url": "https://qwen.ai/blog?id=qwen4-max",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-16T02:14:44Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 874.0,
+    "comments": 483.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50513215",
+    "needs_review": true,
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Qwen offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+    "llm_done": true
+   },
+   "id": "cc9bba557c5a",
+   "score": 8.52,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+   "url": "https://www.cs.cmu.edu/learn/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-16T20:43:36Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 2280.0,
+    "comments": 308.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50522980",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Free lectures from Carnegie Mellon's Kenneth C. Griffin School of Computer Science, now on YouTube. Self-paced courseware comes next. Watch our faculty teach across AI, robotics, systems, biology, and more, from seven departments that lead their fields. Jeffrey Gennari and Christopher Timperley Mor Harchol-Balter, Weina Wang and Feras Saad Subscribe on YouTube to catch every new course. Full classroom lectures from Carnegie Mellon faculty, free to watch. Lessons built from real CMU courses. Get instant feedback and earn a badge. AI tutoring is coming to the courseware experience to help you work through questions and get unstuck. Our faculty lead labs in AI, robotics, systems, and more. Go deeper with graded work and an official credential through CMU Online. Bring Carnegie Mellon compute…",
+    "llm_done": true
+   },
+   "id": "c1680f86a1e7",
+   "score": 8.05,
+   "title_zh": "卡内基梅隆大学在 YouTube 上免费发布计算机科学课程",
+   "summary_zh": "卡内基梅隆大学在 YouTube 上免费发布计算机科学课程，涵盖 AI、机器人等领域。",
+   "tags": [
+    "教育",
+    "课程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How the Claude Code team thinks about verification",
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-17T10:20:40Z",
+   "summary": "",
+   "heat": 0.896,
+   "weight": 0.6,
+   "metrics": {
+    "points": 262.0,
+    "comments": 205.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50529612",
+    "excerpt_tried": true,
+    "evidence": "How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest. On the Claude Code team, the vast majority of our code (~90%) is written and reviewed by Claude . At this scale, how we equip our agents to verify their work with evidence becomes extremely important. Verification loops are the building block that lets you delegate more work to Claude. Without them, you can really only run one or two Claudes at a time, because you have to check everything yourself. With them, you can run dozens or hundreds in parallel. That’s because giving agents a way to verify their output is an effective way to improve quality. In internal testing around structured file generation, having a separate grader…",
+    "llm_done": true
+   },
+   "id": "9906b3971e30",
+   "score": 7.88,
+   "title_zh": "Claude Code 团队如何思考验证",
+   "summary_zh": "Claude Code 团队利用端到端、属性和差异测试来验证代码代理的工作，并保持验证器的诚实。",
+   "tags": [
+    "智能体",
+    "验证"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+   "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-17T14:19:59Z",
+   "summary": "",
+   "heat": 0.841,
+   "weight": 0.6,
+   "metrics": {
+    "points": 185.0,
+    "comments": 239.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50531751",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "14ae95e80d6f",
+   "score": 7.7,
+   "title_zh": "百度、小米 CEO 警告 AI 热度与回报差距扩大",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
+   "url": "https://www.qbitai.com/2026/11/510707.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-18T00:49:14Z",
+   "summary": "Sol逼近旗舰性能",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Sol逼近旗舰性能 GPT-6.2 Astra 和 GPT-6.2 Sol ，这次一起等来了！！！（欢呼.jpg） 来看这个， Astra化身网页设计师，从布局到配图一手包办，还能为不同网站量身打造专属视觉风格： 再看这个，仅凭照片和手册，Astra就把遥控汽车连发动机都建模了，组装动画也一并搞定，有点厉害哈： 在AA-3D评测中，更是以1318 Elo登顶榜单，精细的3D模型说搓就搓，沉浸式交互场景也能直接生成，be like： 6.2 Sol维持原价，API输入、输出每百万Token分别为2美元和10美元。 目前，两款模型已经登陆ChatGPT Work、Codex和API，Plus、Pro等订阅用户均可使用。 从公布的成绩来看，Astra最明显的进步集中在复杂任务执行、科研、编程和视觉设计上—— 在Agents’ Last Exam评测中，GPT-6.2 Astra比GPT-6 Astra提高5.2个百分点。 与Claude Fable 5.2相比，也领先5.5个百分点，而单任务成本仅为后者的5%，确实有点东西啊。。。 在Terminal-Bench-Science 0.1中，Astra比前代提升9个百分点，任务成本同样降至三分之一以下。 Vals Science Index也刷新了成绩，其要求模型理解真实生物数据设计实验，并通过实验推断模拟系统的运行规律。 在第三方评测机构Artificial Analysis的综合智能指数中，Astra拿下62分，较前代提升5分。 3D生成更是亮眼，Astra以1318 Elo登顶AA-3D榜单，超过Claude Fable 5.2的1271分，Sol也拿下1259分。 它能逐个处理机械零件，检查各个组件之间的连接关系，连这种需要精细操作的工程任务也能自己动手完成： 它先创建3D模型，再编写Python程序模拟轮胎与悬挂系统的运…",
+    "llm_done": true
+   },
+   "id": "d3f167e811d7",
+   "score": 7.35,
+   "title_zh": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
+   "summary_zh": "GPT-6.2 Astra在AA-3D评测中登顶，能生成精细3D模型和交互场景。",
+   "tags": [
+    "模型发布",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "反超谷歌王牌模型！决策新王拿下全球榜首，全尺寸开源",
+   "url": "https://aiera.com.cn/2026/11/18/other/admin/124254/%e5%8f%8d%e8%b6%85%e8%b0%b7%e6%ad%8c%e7%8e%8b%e7%89%8c%e6%a8%a1%e5%9e%8b%ef%bc%81%e5%86%b3%e7%ad%96%e6%96%b0%e7%8e%8b%e6%8b%bf%e4%b8%8b%e5%85%a8%e7%90%83%e6%a6%9c%e9%a6%96%ef%bc%8c%e5%85%a8%e5%b0%ba/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-18T00:06:57Z",
+   "summary": "硅谷最卷的新赛道，刚刚杀出了一位开源新王！ 最近，即将敲钟的Anthropic在IPO材料中曝出天价算力缺口，给狂卷参数的AI行业当头浇下一盆冷水。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "bf1c4553081b",
+   "score": 7.34,
+   "title_zh": "反超谷歌王牌模型！决策新王拿下全球榜首，全尺寸开源",
+   "summary_zh": "开源模型在决策能力上反超谷歌王牌，拿下全球榜首。",
+   "tags": [
+    "开源",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Put Gemini to work for you",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google AI",
+   "published": "2026-11-17T17:00:00Z",
+   "summary": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ec2fa1f89550",
+   "score": 7.31,
+   "title_zh": "",
+   "summary_zh": "Gemini Tasks功能在六个国家免费，并新增美国功能和更深的Google Workspace集成。",
+   "tags": [
+    "产品更新"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+   "source": "rss",
+   "section": "news",
+   "via": "Simon Willison",
+   "published": "2026-11-17T16:48:33Z",
+   "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to…",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "2954a75ce154",
+   "score": 7.14,
+   "title_zh": "",
+   "summary_zh": "Datasette Lite使用WebAssembly和Pyodide，在浏览器中运行完整的Python应用。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+   "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-17T20:30:50Z",
+   "summary": "OpenAI releases GPT-6.2 Astra and Sol, two new models that are more capable and cheaper than their predecessors. In the independent Artificial Analysis Intelligence Index, Astra ranks second behind Claude Fable 5.2, and it is the first released model to reach the High threshold for AI self-improvement on OpenAI's own scale. OpenAI itself classifies that as a risk. The article OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d20ea99ec69d",
+   "score": 7.14,
+   "title_zh": "OpenAI发布GPT-6.2 Astra和Sol",
+   "summary_zh": "OpenAI发布GPT-6.2 Astra和Sol，更强大且更便宜，Astra在独立评测中排名第二。",
+   "tags": [
+    "模型发布",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "heat": 0.863,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 1005.0,
+    "stars": 9367.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5e5b7a517335",
+   "score": 7.65,
+   "title_zh": "",
+   "summary_zh": "Claude Code 技能包，包含 82 个技能和 681 个已披露漏洞模式。",
+   "tags": [
+    "安全",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "sybil-solutions/inference-optimisation-skill",
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "heat": 0.935,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 932.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d9098f7bc351",
+   "score": 7.07,
+   "title_zh": "",
+   "summary_zh": "Agent 技能，用于在任意硬件上优化本地 LLM 推理速度。",
+   "tags": [
+    "推理加速",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How to Choose the Right Sandbox for AI Agents",
+   "url": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-18T00:46:14Z",
+   "summary": "Learn how to choose a secure sandbox for AI agents, with guidance on filesystem isolation, network access, resource limits, and microVMs.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "be0e601cc549",
+   "score": 6.91,
+   "title_zh": "",
+   "summary_zh": "如何为AI智能体选择安全沙箱，包括文件系统隔离、网络访问和资源限制。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "usestrix/strix",
+   "url": "https://github.com/usestrix/strix",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+   "heat": 0.727,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 337.0,
+    "stars": 76352.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1dd1a6e64705",
+   "score": 6.77,
+   "title_zh": "",
+   "summary_zh": "开源 AI 渗透测试工具，用于发现和修复应用漏洞。",
+   "tags": [
+    "安全",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+   "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+   "heat": 0.748,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 473.0
+   },
+   "extra": {
+    "language": "Makefile",
+    "age_days": 2,
+    "llm_done": true
+   },
+   "id": "a67113098685",
+   "score": 6.24,
+   "title_zh": "",
+   "summary_zh": "链式区域扫描器，用于查找能访问 Google AI Studio 和 Gemini 的代理配置。",
+   "tags": [
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "farion1231/cc-switch",
+   "url": "https://github.com/farion1231/cc-switch",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+   "heat": 0.719,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 315.0,
+    "stars": 155234.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "703b40d00e31",
+   "score": 6.16,
+   "title_zh": "",
+   "summary_zh": "跨平台桌面 All-in-One 助手，支持 Claude Code、Codex 等多个模型。",
+   "tags": [
+    "工具",
+    "助手"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+   "heat": 0.657,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 192.0,
+    "stars": 66003.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "3b240d3ecbe7",
+   "score": 6.03,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/openai-agents-python v0.25.0",
+   "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.25.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-18T00:22:25Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## [0.25.0](https://github.com/openai/openai-agents-python/compare/v0.24.0...v0.25.0) (2026-11-17) ### Features * expose utilities for third-party session adapters ([#5428](https://github.com/openai/openai-agents-python/issues/5428)) ([16fdb20](https://github.com/openai/openai-agents-python/commit/16fdb2091d0b18cc1200d26ba6a20ee6f1962455)) * **sandbox:** remove Runloop provider ([#5369](https://github.com/openai/openai-agents-python/issues/5369)) ([12ce34d](https://github.com/openai/openai-agents-python/commit/12ce34d8438d6f1f7c964a261b89e069e8a0b3d3)) ### Bug Fixes * add opt-in handoff error recovery ([#5418](https://github.com/openai/openai-agents-python/issues/5418)) ([a6ed84f](https://github.com/openai/openai-agents-python/commit/a6ed84f38ed374585fb3969a8177a76755d58d94)) * align implicit settings with provider-selected models ([#5425](https://github.com/openai/openai-agents-python/issues/5425)) ([a88d291](https://github.com/openai/openai-agents-python/commit/a88d2919631dbd93801a79eb0f97011ef9b451b7)) * align model defaults with TS SDK ([#6064](https://github.com/openai/openai-agents-python/issues/6064)) ([d5287b7](https://github.com/openai/openai-agents-python/commit/d5287b741dfd93de3ce1625f98b342cd0c4c455e)) * allow concurrent Streamable HTTP requests on MCP v2 ([#5641](https://github.com/openai/openai-agents-python/issues/5641)) ([2b90566](https://github.com/openai/openai-agents-python/commit/2b90566eb2adc7d94e8fd8f234b007a937a98989)) * default GPT-6 Chat Completions…",
+    "level": "minor",
+    "llm_score": 5.0,
+    "llm_done": true
+   },
+   "id": "4283f0fcf835",
+   "score": 5.93,
+   "title_zh": "",
+   "summary_zh": "openai-agents-python v0.25.0发布，移除Runloop provider，增加第三方会话适配器工具。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+   "url": "https://arxiv.org/abs/2611.20218",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-15T19:39:01Z",
+   "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior. Starting from a brief handoff, agents must recover requirements distributed across colleagues and workplace records, reconcile conflicting evidence, and implement changes evaluated by private executable tests. We evaluate eleven models and find a substantial gap between partial implementation and complete task delivery. The two leading models satisfy approximately 63% of fail-to-pass (F2P) tests but complete fewer than 8% of assignments. Providing complete requirements upfront improves F2P by approximately 16 percentage points for Seed Evolving and GPT-6 Astra, yet leaves complete task success unchanged. Requirement-level trajectory analysis reveals failures throughout the delivery process: Claude-Opus-5.5 directs a mean of 93% of first questions about queried cards to their accountable owners across runs but obtains only 64% of colleague-held requirements. Deferred questions go unfollowed, implementations remain incomplete even after requirements are acquired, and 31% of requirements reported as…",
+   "heat": 0.671,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 45.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/TokenWave-AI/swe-cowork-bench"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ff9c5718ce01",
+   "score": 6.87,
+   "title_zh": "SWE-CoWork：评测组织中的数字员工",
+   "summary_zh": "本文提出SWE-CoWork基准，模拟软件组织环境评测编码智能体。实验发现模型在部分实现与任务交付间存在巨大差距，即使提供完整需求也难以显著提升成功率。",
+   "tags": [
+    "智能体",
+    "评测",
+    "代码"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "url": "https://arxiv.org/abs/2611.21003",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-16T00:00:00Z",
+   "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we introduce Mixture-of-Value Attention (MoVA), applying MoE to attention value projections, and softplus attention gating, a more flexible, theoretically motivated gate. Our 36B-A4B model uses both and nearly matches a 32B dense model trained on the same data, with one-seventh the active parameters. We also introduce Uno, lossless diffusion adapters that speed up decoding by up to 2.2x without a separate draft model. Our release follows the LLM360 definition of open source for transparency and reproducibility: the full development history, including intermediate checkpoints from every training stage, pre-training data, training logs, and all training, evaluation, and infrastructure code, notably our production-scale xLLM framework for dense and MoE training and the RL360 reinforcement-learning stack. Beyond the data itself, we release and document in detail every pipeline that built it, the part of model development that open releases most rarely disclose. These pipelines produced roughly 10T synthetic pre-training tokens, showing that synthetic data can be a major ingred…",
+   "heat": 0.752,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 72.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ece054558356",
+   "score": 6.81,
+   "title_zh": "K2-Horizon：开源语言模型前沿舰队",
+   "summary_zh": "K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。引入Mixture-of-Value Attention和softplus注意力门控，36B-A4B模型在相同数据下接近32B密集模型性能。",
+   "tags": [
+    "开源模型",
+    "推理",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Sage S2.1 Flash Technical Report",
+   "url": "https://arxiv.org/abs/2611.21072",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-16T00:00:00Z",
+   "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbone, which processes them alongside text and images. To develop the model's agent capabilities, we construct verifiable environments for tool use, search, and coding, as well as specialized workflows involving machine learning experiments and scientific software. Task completion is checked against execution results, changes in environment state, or submitted artifacts. We evaluate Sage S1.5 Flash on 33 benchmarks across seven domains. In the primary comparison against five baselines, it ranks first on OfficeQA Pro (72.2), MLE-bench Lite (90.3 HumanRank), Harvey LAB, and SpreadsheetBench~2, and second on OSWorld-Verified (85.2), WebArena-Verified (67.6), and DeepResearch Bench~II (54.2). These results show particular strengths in using documentary evidence, producing verifiable workbooks, and carrying out machine learning tasks, alongside competitive performance in desktop and browser workflows that require the model to act on visual feedback.",
+   "heat": 0.78,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 85.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/InternLM/Sage-S2.1-Flash"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "d7c6ad7aa1f9",
+   "score": 6.27,
+   "title_zh": "Sage S2.1 Flash 技术报告",
+   "summary_zh": "",
+   "tags": [
+    "评测",
+    "科学推理",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+   "url": "https://arxiv.org/abs/2611.15789",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-11T18:02:07Z",
+   "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including scripts, photos, continuations, and reference videos. Each delivery is scored along two evaluation dimensions. Rule-based Scene Check re-runs the code and compares the exported 4D scene with hidden ground truth facts in nine dimensions. VLM-based Screen Check asks a VLM judge whether the facts that pass can be recognized in the proxy video. We analyze the evaluation results and trajectories of 11 frontier coding agents and identify three key observations. First, multimodal understanding separates the agents, especially in understanding space and camera motion. Second, all agents seem to already master basic camera work and staging, and fail at challenging requests. Third, agents inspect their own renders but fail to correct their errors. Agents thus need better visual understanding of space and camera, explicit checks for challenging requests, and item-by-item verification of renders against the brief.",
+   "heat": 0.786,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 88.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/vibeprevisbench/vibeprevisbench"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "d55822e05081",
+   "score": 6.22,
+   "title_zh": "VibePrevisBench：评测Blender中的4D场景生成",
+   "summary_zh": "本文提出VibePrevisBench基准，评估智能体在Blender中重建4D场景的能力。通过规则和视觉语言模型双重检查，发现多模态理解是关键，且智能体在错误修正上存在不足。",
+   "tags": [
+    "智能体",
+    "评测",
+    "多模态"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+   "url": "https://arxiv.org/abs/2611.21218",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-16T00:00:00Z",
+   "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks from 388 candidates through structured audits and independent reproduction. With InclusionMed-DxFiles, our private diagnostic reasoning benchmark, the Atlas contains five benchmarks covering three of its nine role--capability cells. We evaluated frontier large language models on the Atlas and aggregated their results into the InclusionMed Index, with overall scores ranging from 17.5 to 49.1 out of 100. The Index also reports scores by healthcare role and AI capability, showing that a model's rank varied with the role or capability considered. A within-benchmark analysis using task-level tags showed that the ten highest-ranked models in the Index all scored higher on patient communication than on clinical decision-making. Models with similar Index scores also differed substantially in estimated inference cost. These findings highlight the need for evaluation covering more diverse healthcare needs and for context-specific model selection. Through open collaboration and community contributions, InclusionMed seeks to ensure that diverse healthcare needs worldwide shape…",
+   "heat": 0.726,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 62.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/panuvi/inclusionmed"
+     ]
+    ],
+    "llm_score": 5.0,
+    "llm_done": true
+   },
+   "id": "2d3dd1595668",
+   "score": 5.56,
+   "title_zh": "InclusionMed：评测包容性医疗的AI",
+   "summary_zh": "InclusionMed是一个包容性医疗的开放AI评测倡议，组织了跨医疗角色和能力的基准测试。评估发现模型在患者沟通和临床决策上表现差异显著，且推理成本差异较大。",
+   "tags": [
+    "评测",
+    "医疗AI",
+    "包容性"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-18",
+  "start": "2026-11-18",
+  "end": "2026-11-18",
+  "title": "OpenAI发布GPT-6.2 Astra和Sol模型",
+  "generated_at": "2026-11-18T01:36:41Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 9,
+  "club_period": {
+   "start": "2026-11-17",
+   "end": "2026-11-17"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 3 次",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 2 个、合并 1 个，提交 3 次，新增代码 19 行、删除 28 行，1 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "pwn.hust.college 合并 1 个 PR",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "pwn.hust.college SIG的 pwn.hust.college 仓库新增 PR 1 个、合并 1 个、提交 3 次、新增代码 19 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/pwn.hust.college",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "阿里通义千问发布Qwen4-Max模型",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "阿里通义千问发布Qwen4-Max模型，支持聊天、多模态理解、图像生成、文档处理和工具调用等功能。",
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "via": "Hacker News",
+    "id": "cc9bba557c5a",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI发布GPT-6.2 Astra和Sol模型",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "OpenAI发布GPT-6.2 Astra和Sol，在专业输出、编程和效率上有所提升，成本更低。",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "via": "OpenAI",
+    "id": "9235aaac8965",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google Gemini Tasks功能免费",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "Google在六个国家免费提供Gemini Tasks功能，并新增美国功能和更深的Google Workspace集成。",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+    "via": "Google AI",
+    "id": "ec2fa1f89550",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Claude-BugHunter 技能包包含 82 个技能",
+    "when": "11月18日消息",
+    "date": "2026-11-18",
+    "body": "Claude-BugHunter 技能包包含 82 个技能和 681 个已披露漏洞模式，用于漏洞挖掘和外部红队工作。",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "via": "GitHub Trending",
+    "id": "5e5b7a517335",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Datasette Lite在浏览器运行",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "Datasette Lite使用WebAssembly和Pyodide，在浏览器中运行完整的Python应用。",
+    "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+    "via": "Simon Willison",
+    "id": "2954a75ce154",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "inference-optimisation-skill 技能包",
+    "when": "11月18日消息",
+    "date": "2026-11-18",
+    "body": "inference-optimisation-skill 技能包用于在任意硬件上优化本地 LLM 推理速度。",
+    "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+    "via": "GitHub 新项目",
+    "id": "d9098f7bc351",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "LangChain指南：如何为AI智能体选择安全沙箱",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "LangChain提供为AI智能体选择安全沙箱的指南，包括文件系统隔离、网络访问和资源限制。",
+    "url": "https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent",
+    "via": "LangChain 博客",
+    "id": "be0e601cc549",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "usestrix/strix",
+    "when": "11月18日消息",
+    "date": "2026-11-18",
+    "body": "开源 AI 渗透测试工具，用于发现和修复应用漏洞。",
+    "url": "https://github.com/usestrix/strix",
+    "via": "GitHub Trending",
+    "id": "1dd1a6e64705",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "SWE-CoWork：评测组织中的数字员工",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "本文提出SWE-CoWork基准，模拟软件组织环境评测编码智能体。实验发现模型在部分实现与任务交付间存在巨大差距，即使提供完整需求也难以显著提升成功率。",
+    "url": "https://arxiv.org/abs/2611.20218",
+    "via": "arXiv · 智能体",
+    "id": "ff9c5718ce01",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "K2-Horizon：开源语言模型前沿舰队",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。引入Mixture-of-Value Attention和softplus注意力门控，36B-A4B模型在相同数据下接近32B密集模型性能。",
+    "url": "https://arxiv.org/abs/2611.21003",
+    "via": "Hugging Face 热门论文",
+    "id": "ece054558356",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Sage S2.1 Flash 技术报告",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over…",
+    "url": "https://arxiv.org/abs/2611.21072",
+    "via": "Hugging Face 热门论文",
+    "id": "d7c6ad7aa1f9",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "VibePrevisBench：评测Blender中的4D场景生成",
+    "when": "11月18日消息",
+    "date": "2026-11-18",
+    "body": "本文提出VibePrevisBench基准，评估智能体在Blender中重建4D场景的能力。通过规则和视觉语言模型双重检查，发现多模态理解是关键，且智能体在错误修正上存在不足。",
+    "url": "https://arxiv.org/abs/2611.15789",
+    "via": "arXiv · 智能体",
+    "id": "d55822e05081",
+    "ai": true
+   }
+  ],
+  "written": {
+   "9235aaac8965": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI发布GPT-6.2 Astra和Sol模型",
+    "body": "OpenAI发布GPT-6.2 Astra和Sol，在专业输出、编程和效率上有所提升，成本更低。"
+   },
+   "cc9bba557c5a": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "阿里通义千问发布Qwen4-Max模型",
+    "body": "阿里通义千问发布Qwen4-Max模型，支持聊天、多模态理解、图像生成、文档处理和工具调用等功能。"
+   },
+   "c1680f86a1e7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "卡内基梅隆大学在 YouTube 上免费发布计算机科学课程",
+    "body": "卡内基梅隆大学在 YouTube 上免费发布计算机科学课程，涵盖 AI、机器人等领域。"
+   },
+   "9906b3971e30": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude Code 团队如何思考验证",
+    "body": "Claude Code 团队利用端到端、属性和差异测试来验证代码代理的工作，并保持验证器的诚实。"
+   },
+   "14ae95e80d6f": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "百度、小米 CEO 警告 AI 热度与回报差距扩大",
+    "body": "百度、小米 CEO 警告 AI 热度与回报差距扩大。"
+   },
+   "d3f167e811d7": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "",
+    "body": "",
+    "same": "9235aaac8965"
+   },
+   "bf1c4553081b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "开源模型反超谷歌王牌模型",
+    "body": "开源模型在决策能力上反超谷歌王牌，拿下全球榜首。"
+   },
+   "ec2fa1f89550": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google Gemini Tasks功能免费",
+    "body": "Google在六个国家免费提供Gemini Tasks功能，并新增美国功能和更深的Google Workspace集成。"
+   },
+   "2954a75ce154": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Datasette Lite在浏览器运行",
+    "body": "Datasette Lite使用WebAssembly和Pyodide，在浏览器中运行完整的Python应用。"
+   },
+   "d20ea99ec69d": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI发布GPT-6.2 Astra和Sol模型",
+    "body": "OpenAI发布GPT-6.2 Astra和Sol，更强大且更便宜，Astra在独立评测中排名第二。",
+    "same": "9235aaac8965"
+   },
+   "5e5b7a517335": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Claude-BugHunter 技能包包含 82 个技能",
+    "body": "Claude-BugHunter 技能包包含 82 个技能和 681 个已披露漏洞模式，用于漏洞挖掘和外部红队工作。"
+   },
+   "d9098f7bc351": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "inference-optimisation-skill 技能包",
+    "body": "inference-optimisation-skill 技能包用于在任意硬件上优化本地 LLM 推理速度。"
+   },
+   "be0e601cc549": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain指南：如何为AI智能体选择安全沙箱",
+    "body": "LangChain提供为AI智能体选择安全沙箱的指南，包括文件系统隔离、网络访问和资源限制。"
+   },
+   "4283f0fcf835": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai-agents-python发布0.25.0版本",
+    "body": "openai-agents-python发布0.25.0版本，移除Runloop provider，增加第三方会话适配器工具。"
+   }
+  }
+ }
+}
