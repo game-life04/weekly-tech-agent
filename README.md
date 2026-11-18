@@ -47,18 +47,18 @@
 → inference-optimisation-skill 技能包用于在任意硬件上优化本地 LLM 推理速度。
 9. LangChain指南：如何为AI智能体选择安全沙箱
 → LangChain提供为AI智能体选择安全沙箱的指南，包括文件系统隔离、网络访问和资源限制。
-10. usestrix/strix
-→ 开源 AI 渗透测试工具，用于发现和修复应用漏洞。
+10. strix：AI渗透测试工具
+→ strix是一个开源AI渗透测试工具，用于发现和修复应用漏洞。
 
 【学术前沿】
 11. SWE-CoWork：评测组织中的数字员工
-→ 本文提出SWE-CoWork基准，模拟软件组织环境评测编码智能体。实验发现模型在部分实现与任务交付间存在巨大差距，即使提供完整需求也难以显著提升成功率。
+→ SWE-CoWork基准模拟软件组织环境评测编码智能体，发现模型在实现与任务交付间存在差距。
 12. K2-Horizon：开源语言模型前沿舰队
-→ K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。引入Mixture-of-Value Attention和softplus注意力门控，36B-A4B模型在相同数据下接近32B密集模型性能。
+→ K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。
 13. Sage S2.1 Flash 技术报告
 → We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over…
 14. VibePrevisBench：评测Blender中的4D场景生成
-→ 本文提出VibePrevisBench基准，评估智能体在Blender中重建4D场景的能力。通过规则和视觉语言模型双重检查，发现多模态理解是关键，且智能体在错误修正上存在不足。
+→ VibePrevisBench基准评估智能体在Blender中重建4D场景的能力，发现多模态理解是关键。
 
 完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-18-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
@@ -94,19 +94,19 @@
 
 **LangChain指南：如何为AI智能体选择安全沙箱**<br>11月18日，LangChain提供为AI智能体选择安全沙箱的指南，包括文件系统隔离、网络访问和资源限制。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/how-to-choose-the-right-sandbox-for-your-agent)）</sub>
 
-**usestrix/strix**<br>11月18日消息，开源 AI 渗透测试工具，用于发现和修复应用漏洞。<br><sub>（来源：[GitHub Trending](https://github.com/usestrix/strix)）</sub>
+**strix：AI渗透测试工具**<br>11月18日消息，strix是一个开源AI渗透测试工具，用于发现和修复应用漏洞。<br><sub>（来源：[GitHub Trending](https://github.com/usestrix/strix)）</sub>
 
 #### 学术前沿
 
-**SWE-CoWork：评测组织中的数字员工**<br>11月16日，本文提出SWE-CoWork基准，模拟软件组织环境评测编码智能体。实验发现模型在部分实现与任务交付间存在巨大差距，即使提供完整需求也难以显著提升成功率。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.20218)）</sub>
+**SWE-CoWork：评测组织中的数字员工**<br>11月16日，SWE-CoWork基准模拟软件组织环境评测编码智能体，发现模型在实现与任务交付间存在差距。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.20218)）</sub>
 
-**K2-Horizon：开源语言模型前沿舰队**<br>11月16日，K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。引入Mixture-of-Value Attention和softplus注意力门控，36B-A4B模型在相同数据下接近32B密集模型性能。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.21003)）</sub>
+**K2-Horizon：开源语言模型前沿舰队**<br>11月16日，K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.21003)）</sub>
 
 **Sage S2.1 Flash 技术报告**<br>11月16日，We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.21072)）</sub>
 
-**VibePrevisBench：评测Blender中的4D场景生成**<br>11月18日消息，本文提出VibePrevisBench基准，评估智能体在Blender中重建4D场景的能力。通过规则和视觉语言模型双重检查，发现多模态理解是关键，且智能体在错误修正上存在不足。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.15789)）</sub>
+**VibePrevisBench：评测Blender中的4D场景生成**<br>11月18日消息，VibePrevisBench基准评估智能体在Blender中重建4D场景的能力，发现多模态理解是关键。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.15789)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月17日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-18 09:36（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月17日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-18 11:10（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 5 期 · 11.09–11.15
 

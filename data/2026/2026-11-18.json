@@ -1134,13 +1134,13 @@
   "start": "2026-11-18",
   "end": "2026-11-18",
   "title": "OpenAI发布GPT-6.2 Astra和Sol模型",
-  "generated_at": "2026-11-18T01:36:41Z",
+  "generated_at": "2026-11-18T03:10:03Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 9,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-17",
    "end": "2026-11-17"
@@ -1263,10 +1263,10 @@
    },
    {
     "cat": "opensource",
-    "headline": "usestrix/strix",
+    "headline": "strix：AI渗透测试工具",
     "when": "11月18日消息",
     "date": "2026-11-18",
-    "body": "开源 AI 渗透测试工具，用于发现和修复应用漏洞。",
+    "body": "strix是一个开源AI渗透测试工具，用于发现和修复应用漏洞。",
     "url": "https://github.com/usestrix/strix",
     "via": "GitHub Trending",
     "id": "1dd1a6e64705",
@@ -1277,7 +1277,7 @@
     "headline": "SWE-CoWork：评测组织中的数字员工",
     "when": "11月16日",
     "date": "2026-11-16",
-    "body": "本文提出SWE-CoWork基准，模拟软件组织环境评测编码智能体。实验发现模型在部分实现与任务交付间存在巨大差距，即使提供完整需求也难以显著提升成功率。",
+    "body": "SWE-CoWork基准模拟软件组织环境评测编码智能体，发现模型在实现与任务交付间存在差距。",
     "url": "https://arxiv.org/abs/2611.20218",
     "via": "arXiv · 智能体",
     "id": "ff9c5718ce01",
@@ -1288,7 +1288,7 @@
     "headline": "K2-Horizon：开源语言模型前沿舰队",
     "when": "11月16日",
     "date": "2026-11-16",
-    "body": "K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。引入Mixture-of-Value Attention和softplus注意力门控，36B-A4B模型在相同数据下接近32B密集模型性能。",
+    "body": "K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。",
     "url": "https://arxiv.org/abs/2611.21003",
     "via": "Hugging Face 热门论文",
     "id": "ece054558356",
@@ -1310,7 +1310,7 @@
     "headline": "VibePrevisBench：评测Blender中的4D场景生成",
     "when": "11月18日消息",
     "date": "2026-11-18",
-    "body": "本文提出VibePrevisBench基准，评估智能体在Blender中重建4D场景的能力。通过规则和视觉语言模型双重检查，发现多模态理解是关键，且智能体在错误修正上存在不足。",
+    "body": "VibePrevisBench基准评估智能体在Blender中重建4D场景的能力，发现多模态理解是关键。",
     "url": "https://arxiv.org/abs/2611.15789",
     "via": "arXiv · 智能体",
     "id": "d55822e05081",
@@ -1398,11 +1398,65 @@
     "headline": "LangChain指南：如何为AI智能体选择安全沙箱",
     "body": "LangChain提供为AI智能体选择安全沙箱的指南，包括文件系统隔离、网络访问和资源限制。"
    },
+   "1dd1a6e64705": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "strix：AI渗透测试工具",
+    "body": "strix是一个开源AI渗透测试工具，用于发现和修复应用漏洞。"
+   },
+   "a67113098685": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Gemini-Config-Checker-：链式区域扫描器",
+    "body": "Gemini-Config-Checker-是一个链式区域扫描器，用于查找能访问Google AI Studio和Gemini的代理配置。"
+   },
+   "703b40d00e31": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "cc-switch：跨平台桌面助手",
+    "body": "cc-switch是一个跨平台桌面All-in-One助手，支持Claude Code、Codex等多个模型。"
+   },
+   "3b240d3ecbe7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "minimind：训练64M参数LLM",
+    "body": "minimind项目可以在2小时内从头训练一个64M参数的LLM。"
+   },
    "4283f0fcf835": {
     "v": "4f7b2f10",
     "cat": "opensource",
     "headline": "openai-agents-python发布0.25.0版本",
     "body": "openai-agents-python发布0.25.0版本，移除Runloop provider，增加第三方会话适配器工具。"
+   },
+   "ff9c5718ce01": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SWE-CoWork：评测组织中的数字员工",
+    "body": "SWE-CoWork基准模拟软件组织环境评测编码智能体，发现模型在实现与任务交付间存在差距。"
+   },
+   "ece054558356": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "K2-Horizon：开源语言模型前沿舰队",
+    "body": "K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。"
+   },
+   "d7c6ad7aa1f9": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Sage S2.1 Flash 技术报告",
+    "body": ""
+   },
+   "d55822e05081": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "VibePrevisBench：评测Blender中的4D场景生成",
+    "body": "VibePrevisBench基准评估智能体在Blender中重建4D场景的能力，发现多模态理解是关键。"
+   },
+   "2d3dd1595668": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "InclusionMed：评测包容性医疗的AI",
+    "body": "InclusionMed是一个包容性医疗的开放AI评测倡议，评估模型在患者沟通和临床决策上的表现。"
    }
   }
  }
