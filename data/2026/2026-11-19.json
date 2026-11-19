@@ -1,0 +1,1457 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T01:12:44Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 500,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 76,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.0
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 5.4
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 46,
+   "error": "",
+   "seconds": 10.7
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 354,
+   "error": "",
+   "seconds": 23.3
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 6,
+   "error": "",
+   "seconds": 19.5
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 37,
+   "error": "",
+   "seconds": 39.1
+  }
+ ],
+ "items": [
+  {
+   "title": "Research acceleration: The jagged frontier",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-18T08:00:00Z",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "e41150d27145",
+   "score": 8.9,
+   "title_zh": "研究加速：参差不齐的前沿",
+   "summary_zh": "OpenAI 分析了编码智能体如何加速 AI 研究，指出其性能参差不齐，并探讨了递归自我改进的信号。",
+   "tags": [
+    "行业动态",
+    "智能体",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The Silent Consensus",
+   "url": "https://openai.com/index/the-silent-consensus",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-18T10:00:00Z",
+   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "b94ea9316e1d",
+   "score": 8.32,
+   "title_zh": "沉默的共识",
+   "summary_zh": "OpenAI 战略未来负责人 Dean Ball 探讨了更强大的 AI 如何重塑社会，以及人们如何保留对机构的控制。",
+   "tags": [
+    "行业动态",
+    "智能体",
+    "深度思考"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+   "url": "https://github.com/microsoft/onnxruntime",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-17T23:18:49Z",
+   "summary": "",
+   "heat": 0.983,
+   "weight": 0.6,
+   "metrics": {
+    "points": 450.0,
+    "comments": 98.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50539610",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "7f64bb79a0d6",
+   "score": 8.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+   "url": "https://calif.io/java4shell/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-17T21:11:28Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1155.0,
+    "comments": 321.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50538240",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Java4Shell (CVE-2026-114938): a memory-corruption vulnerability in OpenJDK's Base64 decoder. Discovered and reported by Calif. A memory-corruption vulnerability in OpenJDK's Base64 decoder. A remote attacker with no credentials can overwrite heap memory, read it in the style of Heartbleed, and reach remote code execution. Begin ↓ Technical write-up ↘ Check your servers ↘ Recommendations ↘ After we disclosed PHP2Shell , we realized many people didn't know what PHP was. So we decided to go after something a little more familiar: Java. Today, we are disclosing Java4Shell (CVE-2026-114938), a memory-corruption vulnerability in OpenJDK's Base64 decoder. OpenJDK is the most popular Java runtime. Under CVSS 4.0, this vulnerability scores 9.2 out of 10 (CRITICAL). While PHP is a high-level web te…",
+    "llm_done": true
+   },
+   "id": "28346a6e35a7",
+   "score": 8.05,
+   "title_zh": "Java4Shell：OpenJDK Base64 解码器的内存破坏漏洞",
+   "summary_zh": "OpenJDK Base64 解码器存在内存破坏漏洞，攻击者无需凭证即可远程执行代码。",
+   "tags": [
+    "安全漏洞",
+    "Java",
+    "远程代码执行"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-17T21:16:12Z",
+   "summary": "",
+   "heat": 0.928,
+   "weight": 0.6,
+   "metrics": {
+    "points": 319.0,
+    "comments": 439.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50538303",
+    "excerpt_tried": true,
+    "evidence": "Harvard study: AI coding agents raised code output 30 percent; finished work did not measurably rise, and getting code through review took 49 percent longer. Editor’s Note: Engineers at firms that adopted AI coding agents added about 30 percent more code, yet finished work did not measurably rise and getting code through review took 49 percent longer, according to a working paper by Harvard Ph.D. candidates Fiona Chen and James Stratton covering 718 firms. The paper, a job-market paper with no indication of completed peer review, measures what happens at the human checkpoint once drafting speeds up. Harvey’s motion-to-dismiss workflow and Cooley’s redaction agent, still in development with Google Cloud, both keep a lawyer at a comparable checkpoint, and neither announcement reports a meas…",
+    "llm_done": true
+   },
+   "id": "364ff6cabb94",
+   "score": 7.78,
+   "title_zh": "哈佛研究：AI 编码代理将瓶颈转移至代码审查",
+   "summary_zh": "",
+   "tags": [
+    "行业动态",
+    "AI 编码",
+    "代码审查"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Why is Gemini 4 Carbon taking so long?",
+   "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-18T04:14:04Z",
+   "summary": "",
+   "heat": 0.898,
+   "weight": 0.6,
+   "metrics": {
+    "points": 264.0,
+    "comments": 138.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50541790",
+    "excerpt_tried": true,
+    "evidence": "Gemini 4 Carbon spent close to an hour on tasks that Opus and Astra finished in minutes. We traced every step of its runs to find out why. While benchmarking Gemini 4 Carbon on one of our private evals, we found something surprising: it spent close to an hour completing tasks that routinely took Opus and Astra only a few minutes: Time and cost per trial Turns out we weren't alone in noticing this. I don't really know how to properly emphasize this. Gemini 4 Carbon is unacceptably slow in real world usage. Gemini 4 Carbon low: 22m21s Opus 5.5 high: 9m33s i really love gemini 4 carbon but its too slow. im losing my mind waiting just to stay focused and learn simple things carbon is nearly unusable because of how slow it is, but people are majorly sleeping on it To find out why, we traced ev…",
+    "llm_done": true
+   },
+   "id": "e13a5a4dae3c",
+   "score": 7.77,
+   "title_zh": "Gemini 4 Carbon 为何耗时如此之久？",
+   "summary_zh": "Gemini 4 Carbon 在某些任务上耗时接近一小时，而 Opus 和 Astra 仅需几分钟，实际使用中速度不可接受。",
+   "tags": [
+    "模型评测",
+    "Gemini",
+    "性能问题"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+   "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-18T21:03:23Z",
+   "summary": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models. The article Google ships Gemini 4 Neon, its fourth new Gemini model in a month appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "04b0992aad3c",
+   "score": 7.15,
+   "title_zh": "Google 发布 Gemini 4 Neon",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "多模态",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-11-18T19:54:56Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by RadixArk on Hugging Face Today we are releasing DaisyRose-27B , RadixArk’s first model, built on Qwen3.8-27B and trained with reinforcement learning using Miles . We trained it on long-horizon agent tasks with sessions up to 1M tokens, with just 1,200 curated tasks in 18 days on 144 H200 GPUs. DaisyRose-27B improves Terminal-Bench 4.1 pass@1 from 5.6% to 12.0% . Beyond Terminal-Bench 4.1, it also delivers gains on a variety of other reasoning, instruction following, and coding benchmarks. The checkpoints are available under Apache 2.0 : The model retains Qwen3.8-27B’s architecture, tokenizer, chat template, image understanding, and 256K-token context window . The longer training sessions use harness summarization to span multiple trajectories. See the model card for model p…",
+    "llm_done": true
+   },
+   "id": "8a6b5c2794b6",
+   "score": 7.02,
+   "title_zh": "DaisyRose-27B：推动后训练效率前沿",
+   "summary_zh": "RadixArk 发布 DaisyRose-27B，在 144 块 H200 GPU 上训练 18 天，Terminal-Bench 4.1 pass@1 提升至 12.0%。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-11-18T18:53:43Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by Dharma-AI on Hugging Face Predicting end-to-end fine-tuning time on shared GPU clusters, from 272 production runs. A preview of our upcoming paper, Predicting End-to-End Fine-Tuning Time for Generative Language Models . The full version will be on arXiv soon. GPUs are among the most expensive and scarcest resources in AI today. Anyone running a shared cluster has to decide, every day, which jobs go on which GPUs and in what order. That plan is only as good as the estimate of how long each job will take. When a job finishes hours early, GPUs sit idle until the next one is dispatched. When it runs hours late, everything queued behind it slips, experiments wait and delivery dates move. Better duration estimates turn this into planning instead of guesswork: what runs, when, and…",
+    "llm_done": true
+   },
+   "id": "974cfba453ba",
+   "score": 7.01,
+   "title_zh": "为何微调耗时比 FLOPs 说得长",
+   "summary_zh": "Dharma-AI 分析了 272 个生产环境微调案例，预测端到端微调时间，解决共享 GPU 集群调度难题。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "全球首个医疗健康AI独立评测与分析平台InclusionMed正式上线",
+   "url": "https://www.qbitai.com/2026/11/510916.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-18T07:24:50Z",
+   "summary": "近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线 近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线，并同步推出医疗 AI 评测图谱 InclusionMed Atlas 和首期医疗 AI 评测指数 InclusionMed Index，旨在为医疗健康 AI 提供更加系统的评估依据。该平台由来自斯坦福大学、哈佛大学、北京协和医学院、蚂蚁集团、InclusionMed.AI等29家机构的研究人员共同建设，被视作医疗健康领域的Artificial Analysis（AA），填补了全球医疗健康 AI 综合测评的空白。 一个在健康问答中表现出色的 AI，能否同样做好复杂的专业医疗任务？如何识别疑难病例中的关键线索、在电子病历系统中准确完成操作、处理医学研究与医疗运营中的多步骤任务？每一种场景，都对模型提出了不同要求。针对具体医疗任务下的模型能力，业内已有多种评测基准，但单项测试成绩难以完整反映模型在不同医疗任务中的表现。 据了解，InclusionMed Atlas 围绕“面向谁”和“考察什么能力”两个维度，将患者与公众、医疗专业人员、医疗管理人员三类角色，与知识、推理、任务执行三类能力交叉，形成九宫格评测图谱。每项基准按其主要评测内容归入相应位置，帮助使用者看清当前评测覆盖了哪些医疗需求、哪些方面仍需补充。InclusionMed Index 则汇集纳入基准的评测结果，呈现模型的综合表现及其在不同任务中的优势与不足。 首期评测聚焦临床诊疗与医疗管理两大方向，纳入五项评测基准、1034项任务，对国内外11家厂商的22个模型进行系统比较，并经过独立复测，综合考察医疗相关性、评测可信度、场景互补性等因素，最终选出四项公开评测基准，与团队自建的 InclusionMed-DxFiles 共同构成首期指数。其中，Inclu…",
+    "llm_done": true
+   },
+   "id": "420d14f9c6e8",
+   "score": 6.58,
+   "title_zh": "全球首个医疗健康 AI 独立评测平台 InclusionMed 上线",
+   "summary_zh": "InclusionMed 平台上线，提供评测图谱和指数，由 29 家机构共建，填补全球医疗健康 AI 综合测评空白。",
+   "tags": [
+    "行业动态",
+    "评测",
+    "医疗"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Keeping Agents Fast: High-Interactivity Decode with FlyDSL MonoKernels in vLLM",
+   "url": "https://vllm.ai/blog/2026-11-18-flydsl-monokernels",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-18T00:00:00Z",
+   "summary": "How FlyDSL MonoKernels keep agents responsive with high-interactivity decode in vLLM on AMD Instinct GPUs, using model-specific fusion, data-ready handoffs, and specialized-decode integration.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "977c9bf880de",
+   "score": 7.6,
+   "title_zh": "",
+   "summary_zh": "vLLM 使用 FlyDSL MonoKernels 在 AMD Instinct GPU 上实现高交互性解码，提升智能体响应速度。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mudler/LocalAI v5.0.0",
+   "url": "https://github.com/mudler/LocalAI/releases/tag/v5.0.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-18T17:00:23Z",
+   "summary": "主版本更新",
+   "heat": 0.9,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "Run open models for chat, images, speech and video on your own machines. The API speaks the OpenAI and Anthropic formats. Your team gets chats, files and documents on top, and the assistant can write and run code. 5.0 adds a desktop app, Projects, a Files page, Office documents, a Python sandbox, team sharing and an add-on library, all built on chats that now run on the server. **Highlights:** - 🖥️ **Desktop app**: a new app for macOS (Apple silicon) and Linux (x86-64 and ARM64) installs, updates, starts and stops LocalAI, or connects to a LocalAI server somewhere else. - 🗂️ **Projects**: group chats around one folder, with notes the chats read and that you confirm before they are saved. - 💬 **Chats on the server**: a chat keeps working when you close the tab. Steer it while it works, hand work to sub-agents, set a `/goal`, or talk to it hands-free with Live. - 📁 **Files**: upload, preview, search, extract archives, Trash, and a History tab that undoes any change, yours or the model's. - 📄 **Office documents from a chat**: the Simple Office add-on reads, edits and creates Word, Excel and PowerPoint files, and reads and creates PDF. - 🐍 **Sandbox**: run Python and shell commands on your files in an isolated runtime with no network by default. Linux only in this release. - 👥 **Team and sharing**: accounts and roles, plus sharing of folders, saved agents, Knowledge collections and connections with one person or with everyone. - 🧩 **Add-ons**: a library of separate programs that…",
+    "level": "major",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7b692ce84d0e",
+   "score": 7.55,
+   "title_zh": "",
+   "summary_zh": "LocalAI v5.0.0 新增桌面应用、项目管理和 Python 沙箱，支持 Office 文档和团队共享。",
+   "tags": [
+    "开源工具",
+    "本地部署",
+    "多模态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/whisper",
+   "url": "https://github.com/openai/whisper",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Robust Speech Recognition via Large-Scale Weak Supervision",
+   "heat": 0.66,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 197.0,
+    "stars": 113016.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "f32a2b193e81",
+   "score": 7.24,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "bojieli/ai-agent-book",
+   "url": "https://github.com/bojieli/ai-agent-book",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+   "heat": 0.637,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 163.0,
+    "stars": 58712.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "4f44f430a76e",
+   "score": 7.19,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "colbymchenry/codegraph",
+   "url": "https://github.com/colbymchenry/codegraph",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+   "heat": 0.598,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 119.0,
+    "stars": 77994.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "4012fee7db34",
+   "score": 7.12,
+   "title_zh": "",
+   "summary_zh": "预索引代码知识图谱，自动同步代码变更，支持 Claude Code、Codex 等多个智能体，减少 Token 消耗。",
+   "tags": [
+    "开源工具",
+    "代码知识图谱",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "p-e-w/heretic",
+   "url": "https://github.com/p-e-w/heretic",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+   "heat": 0.78,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 515.0,
+    "stars": 41983.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "83d079a8ca05",
+   "score": 6.88,
+   "title_zh": "",
+   "summary_zh": "无需训练的语言模型修改工具，可移除审查、抑制废话、减少谄媚行为。",
+   "tags": [
+    "开源工具",
+    "模型修改",
+    "LLM"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LangSmith for Coding Agents: Now track spend by outcome",
+   "url": "https://www.langchain.com/blog/langsmith-coding-agents-roi",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-18T16:27:01Z",
+   "summary": "LangSmith now offers reporting built for coding agents, along with new capabilities that tie their spend to the pull requests they produce.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "29baccefa316",
+   "score": 6.82,
+   "title_zh": "",
+   "summary_zh": "LangSmith 新增编码智能体报告功能，将支出与生成的拉取请求关联，便于追踪成本。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "benjitaylor/skills",
+   "url": "https://github.com/benjitaylor/skills",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Skills for AI coding agents.",
+   "heat": 0.698,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 3763.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 23,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "05b0a9b7c101",
+   "score": 6.6,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+   "url": "https://arxiv.org/abs/2611.22115",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-17T02:58:31Z",
+   "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of a 285B-parameter model on 8,192 Ascend 910C cards, providing a concrete setting for the architectural and systems studies. For post-training, we introduce TeleGym, a unified agent execution platform that connects execution, evaluation, and trajectory construction to policy optimization. Disaggregated asynchronous execution, bounded oversampling, and partial rollout accommodate heterogeneous task durations while preserving trajectory continuity across policy updates. Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model s…",
+   "heat": 0.879,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 150.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "42b8e181477f",
+   "score": 7.93,
+   "title_zh": "Xing4：基于国产芯片与框架的前沿智能体模型",
+   "summary_zh": "Xing4系列大语言模型通过在昇腾芯片上的架构和训练基础设施的协同改进，扩展了TeleChat谱系。论文介绍了稀疏激活、注意力设计等设计原则，并构建了支持285B参数模型预训练的基础设施。此外，还引入了TeleGym统一智能体执行平台。",
+   "tags": [
+    "智能体",
+    "国产芯片",
+    "大模型"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Weight-Space Programming Doesn't Need Transformers",
+   "url": "https://arxiv.org/abs/2611.22055",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-17T00:00:00Z",
+   "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed architecture or designing the architecture themselves. When free to design, all three compile plain-text facts into a sparse table queried by a fixed procedure, reaching up to 54.4% test accuracy. An LLM-designed model achieves higher test accuracy than the most accurate released Transformer that the same LLM wrote while using about 1,800x fewer parameters. Without gradients, they choose a table, in which the LLM can state what each weight means and can find and rewrite a wrong one. Each wrong answer points to one row, and removing a row changes about one other answer. From this, we propose an associative-memory-based model up to 17x faster on GPUs than a same-sized Transformer. We also test pretrained weights, other benchmarks, and tasks where models generate answers. Pretrained LLMs remain more accurate; the claim concerns which structure to build when writing weights.",
+   "heat": 0.678,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 47.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/effl-lab/Weight-Space-Programming"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d9ad411eca75",
+   "score": 6.67,
+   "title_zh": "权重空间编程无需Transformer",
+   "summary_zh": "研究探讨了在无需梯度训练的情况下，大语言模型如何通过手动编写目标权重来设计模型结构。实验发现，LLM设计的模型在测试准确率上优于同LLM编写的Transformer，且参数量减少约1800倍。基于关联记忆的模型在GPU上比同尺寸Transformer快17倍。",
+   "tags": [
+    "权重空间编程",
+    "模型设计",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+   "url": "https://arxiv.org/abs/2611.17621",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-13T00:00:00Z",
+   "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases whose data types and tensor shapes are collected from real-world training and inference tasks. Consequently, performance improvements on AscendGYM map directly to the corresponding workloads. In terms of usability, two evaluation modes are supported in AscendGYM: model evaluation and model-harness evaluation. The kernel optimization capabilities of both trained models and custom agents are allowed to be measured. It provides a complete execution environment that closely reproduces how Ascend kernels are invoked in practical pipelines. For model evaluation, it additionally includes a built-in harness equipped with search orchestration and experience accumulation. Finally, we propose a new metric, the Speedup-Token Score (STS), which quantifies performance gains relative to token cost. By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget. AscendGYM is available at https://github.com/S…",
+   "heat": 0.792,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 91.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/SLAI-AITP/AscendGYM"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "ac082902b21c",
+   "score": 6.0,
+   "title_zh": "AscendGYM：Ascend NPU上成本感知的内核优化基准",
+   "summary_zh": "AscendGYM是一个针对Ascend NPU上真实工作负载的内核优化基准，包含48个内核和三个难度级别。它支持模型评估和模型Harness评估两种模式，并提出了速度提升-令牌分数（STS）指标，用于量化性能提升与令牌成本的相对关系。",
+   "tags": [
+    "内核优化",
+    "基准测试",
+    "Ascend"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "VoxMel TTS Technical Report",
+   "url": "https://arxiv.org/abs/2611.20254",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-11-15T21:16:55Z",
+   "summary": "Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like mel-spectrograms eliminate encoder overhead, yet their potential for autoregressive generation remains largely underexplored. In this work, we propose VoxMel, a tokenizer-free framework for autoregressive TTS that makes stable mel modeling tractable through a fixed, exactly invertible two-axis Haar transform. The transform first decomposes each mel spectrogram along frequency into local averages and a frequency residual, then splits the averaged component along time into Coarse-Mel and a temporal residual. A language-model backbone with a flow-matching head autoregressively generates Coarse-Mel. Non-autoregressive residual tiers then predict the temporal residual from Coarse-Mel, followed by the frequency residual conditioned on the reconstructed Frequency-Averaged Mel. Neither residual is fed back into the autoregressive history. Trained on 100K hours of Emilia, the supervised 0.6B model obtains 1.51\\% WER and 0.738 speaker similarity (SIM) on test-en, and 1.29\\% CER and 0.755 SIM on test-zh. GRPO improves these results to 1.15\\% WER / 0.753 SIM and 1.17\\% CER / 0.776 SIM, respectively. We…",
+   "heat": 0.506,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 17.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/VoxDance-Lab/VoxMel"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "cd91450b6c4a",
+   "score": 5.84,
+   "title_zh": "VoxMel TTS技术报告",
+   "summary_zh": "",
+   "tags": [
+    "语音合成",
+    "自回归",
+    "TTS"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+   "url": "https://arxiv.org/abs/2611.17814",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-13T06:53:56Z",
+   "summary": "With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce. However, the user needs continue to change as new product categories, procurement scenarios, and feature requests emerge. At the same time, the product's execution harness-including its tools, skills, and operating procedures-continues to evolve to support increasingly sophisticated interactions. These changes create two practical challenges: 1) Demand drift alters the distribution, intent, and complexity of user requests, causing a model trained once to fall behind; 2) Harness evolution requires the model to use newly introduced capabilities correctly without losing behavior that users already rely on. Periodic manual retraining is too delayed and labor-intensive for this setting. To address these challenges, we present G-CAST, a governed continual self-training system that converts daily production evidence under evolving demand and capability contracts into reward-routed, entropy-prioritized training data and governed reward evolution. Governed checkpoint transition under cumulative evaluation controls each model update, enabling the agent to learn newly introduced behaviors without sacrificing previously accepted capabilities. Experiments on a real production e-commerce agent show that G-CAST achieves stronger adaptation to newly introduced demand while better preserving previously accepted behavior compare…",
+   "heat": 0.533,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 20.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "099d3df2149b",
+   "score": 5.73,
+   "title_zh": "G-CAST：面向电商智能体的受控持续自训练",
+   "summary_zh": "G-CAST是一个受控持续自训练系统，用于应对电商智能体在需求变化和工具演进中的挑战。系统将生产证据转化为奖励路由和熵优先的训练数据，并通过受控检查点转换控制模型更新，使智能体在引入新行为的同时保留已接受的能力。",
+   "tags": [
+    "智能体",
+    "持续学习",
+    "电商"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-19",
+  "start": "2026-11-19",
+  "end": "2026-11-19",
+  "title": "OpenAI 分析编码智能体加速研究",
+  "generated_at": "2026-11-19T01:12:44Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-18",
+   "end": "2026-11-18"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 4 次",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 5 个有人参与开发，共新增 PR 9 个、合并 2 个，提交 4 次，新增代码 51 行、删除 16 行，5 位贡献者参与，其中 1 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "Open-Source-Dashboard 合并 2 个 PR",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "数字基础设施维护 SIG的 Open-Source-Dashboard 仓库新增 PR 3 个、合并 2 个、提交 4 次、新增代码 51 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/Open-Source-Dashboard",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 新增 4 个 PR",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 4 个，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "RadixArk 发布 DaisyRose-27B 模型",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "RadixArk 发布 DaisyRose-27B 模型，在 Terminal-Bench 4.1 上 pass@1 提升至 12.0%。",
+    "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+    "via": "Hugging Face 博客",
+    "id": "8a6b5c2794b6",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google 发布 Gemini 4 Neon 模型",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Google 发布 Gemini 4 Neon 模型，支持文本、图像、视频、音频和 PDF，上下文窗口为一百万个 token。",
+    "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+    "via": "The Decoder",
+    "id": "04b0992aad3c",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM 使用 FlyDSL MonoKernels",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "vLLM 使用 FlyDSL MonoKernels 在 AMD Instinct GPU 上实现高交互性解码，提升智能体响应速度。",
+    "url": "https://vllm.ai/blog/2026-11-18-flydsl-monokernels",
+    "via": "vLLM 博客",
+    "id": "977c9bf880de",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "LocalAI 发布 5.0.0 版本",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "LocalAI 发布 5.0.0 版本，新增桌面应用、项目管理和 Python 沙箱，支持 Office 文档和团队共享。",
+    "url": "https://github.com/mudler/LocalAI/releases/tag/v5.0.0",
+    "via": "GitHub 版本发布",
+    "id": "7b692ce84d0e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "openai/whisper：鲁棒语音识别",
+    "when": "11月19日消息",
+    "date": "2026-11-19",
+    "body": "whisper 项目通过大规模弱监督实现鲁棒语音识别，支持多种语言和任务。",
+    "url": "https://github.com/openai/whisper",
+    "via": "GitHub Trending",
+    "id": "f32a2b193e81",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "bojieli/ai-agent-book：AI Agent 开源书籍",
+    "when": "11月19日消息",
+    "date": "2026-11-19",
+    "body": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库，包含正文、PDF 与配套代码。",
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "via": "GitHub Trending",
+    "id": "4f44f430a76e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "colbymchenry/codegraph：代码知识图谱",
+    "when": "11月19日消息",
+    "date": "2026-11-19",
+    "body": "codegraph 提供预索引代码知识图谱，自动同步代码变更，支持多个智能体，减少 Token 消耗。",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "via": "GitHub Trending",
+    "id": "4012fee7db34",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Xing4：基于国产芯片与框架的前沿智能体模型",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "Xing4 系列大语言模型通过在昇腾芯片上的架构和训练基础设施改进，扩展了 TeleChat 谱系。",
+    "url": "https://arxiv.org/abs/2611.22115",
+    "via": "arXiv · 智能体",
+    "id": "42b8e181477f",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "权重空间编程无需 Transformer",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "研究探讨了在无需梯度训练的情况下，大语言模型如何通过手动编写目标权重来设计模型结构。",
+    "url": "https://arxiv.org/abs/2611.22055",
+    "via": "Hugging Face 热门论文",
+    "id": "d9ad411eca75",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI 分析编码智能体加速研究",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "OpenAI 分析了编码智能体如何加速 AI 研究，指出其性能参差不齐，并探讨了递归自我改进的信号。",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "via": "OpenAI",
+    "id": "e41150d27145",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Dharma-AI 分析微调耗时预测",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Dharma-AI 分析了 272 个生产环境微调案例，预测端到端微调时间，解决共享 GPU 集群调度难题。",
+    "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+    "via": "Hugging Face 博客",
+    "id": "974cfba453ba",
+    "ai": true
+   }
+  ],
+  "written": {
+   "e41150d27145": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI 分析编码智能体加速研究",
+    "body": "OpenAI 分析了编码智能体如何加速 AI 研究，指出其性能参差不齐，并探讨了递归自我改进的信号。"
+   },
+   "b94ea9316e1d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 探讨 AI 重塑社会",
+    "body": "OpenAI 战略未来负责人 Dean Ball 探讨了更强大的 AI 如何重塑社会，以及人们如何保留对机构的控制。"
+   },
+   "7f64bb79a0d6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Microsoft ONNX Runtime 从 GitHub 消失",
+    "body": "微软的 ONNX Runtime 项目从 GitHub 上消失了，具体原因不明。"
+   },
+   "28346a6e35a7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Java4Shell：OpenJDK Base64 解码器漏洞",
+    "body": "OpenJDK Base64 解码器存在内存破坏漏洞，攻击者无需凭证即可远程执行代码。"
+   },
+   "364ff6cabb94": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "哈佛研究：AI 编码代理将瓶颈转移至代码审查",
+    "body": ""
+   },
+   "e13a5a4dae3c": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Gemini 4 Carbon 为何耗时如此之久？",
+    "body": "Gemini 4 Carbon 在某些任务上耗时接近一小时，而 Opus 和 Astra 仅需几分钟，实际使用中速度不可接受。"
+   },
+   "04b0992aad3c": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google 发布 Gemini 4 Neon 模型",
+    "body": "Google 发布 Gemini 4 Neon 模型，支持文本、图像、视频、音频和 PDF，上下文窗口为一百万个 token。"
+   },
+   "8a6b5c2794b6": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "RadixArk 发布 DaisyRose-27B 模型",
+    "body": "RadixArk 发布 DaisyRose-27B 模型，在 Terminal-Bench 4.1 上 pass@1 提升至 12.0%。"
+   },
+   "974cfba453ba": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Dharma-AI 分析微调耗时预测",
+    "body": "Dharma-AI 分析了 272 个生产环境微调案例，预测端到端微调时间，解决共享 GPU 集群调度难题。"
+   },
+   "420d14f9c6e8": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "InclusionMed 平台上线",
+    "body": "全球首个医疗健康 AI 独立评测与分析平台 InclusionMed 正式上线，提供评测图谱和指数。"
+   },
+   "977c9bf880de": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 使用 FlyDSL MonoKernels",
+    "body": "vLLM 使用 FlyDSL MonoKernels 在 AMD Instinct GPU 上实现高交互性解码，提升智能体响应速度。"
+   },
+   "7b692ce84d0e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LocalAI 发布 5.0.0 版本",
+    "body": "LocalAI 发布 5.0.0 版本，新增桌面应用、项目管理和 Python 沙箱，支持 Office 文档和团队共享。"
+   },
+   "f32a2b193e81": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai/whisper：鲁棒语音识别",
+    "body": "whisper 项目通过大规模弱监督实现鲁棒语音识别，支持多种语言和任务。"
+   },
+   "4f44f430a76e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "bojieli/ai-agent-book：AI Agent 开源书籍",
+    "body": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库，包含正文、PDF 与配套代码。"
+   },
+   "4012fee7db34": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "colbymchenry/codegraph：代码知识图谱",
+    "body": "codegraph 提供预索引代码知识图谱，自动同步代码变更，支持多个智能体，减少 Token 消耗。"
+   },
+   "83d079a8ca05": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "p-e-w/heretic：无需训练的语言模型修改工具",
+    "body": "heretic 是一个无需训练的语言模型修改工具，可移除审查、抑制废话、减少谄媚行为。"
+   },
+   "29baccefa316": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangSmith 新增编码智能体报告",
+    "body": "LangSmith 新增编码智能体报告功能，将支出与生成的拉取请求关联，便于追踪成本。"
+   },
+   "05b0a9b7c101": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "benjitaylor/skills：AI 编码代理技能",
+    "body": "skills 项目为 AI 编码代理提供技能支持，帮助代理完成更复杂的编程任务。"
+   },
+   "42b8e181477f": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Xing4：基于国产芯片与框架的前沿智能体模型",
+    "body": "Xing4 系列大语言模型通过在昇腾芯片上的架构和训练基础设施改进，扩展了 TeleChat 谱系。"
+   },
+   "d9ad411eca75": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "权重空间编程无需 Transformer",
+    "body": "研究探讨了在无需梯度训练的情况下，大语言模型如何通过手动编写目标权重来设计模型结构。"
+   },
+   "ac082902b21c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AscendGYM：Ascend NPU 上成本感知的内核优化基准",
+    "body": "AscendGYM 是针对 Ascend NPU 上真实工作负载的内核优化基准，包含 48 个内核和三个难度级别。"
+   },
+   "cd91450b6c4a": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "VoxMel 提出无分词器自回归语音合成框架",
+    "body": "VoxMel 提出一种无分词器的自回归语音合成框架，旨在解决现有方法依赖复杂编码器的问题，以提升生成保真度。"
+   },
+   "099d3df2149b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "G-CAST 实现电商智能体受控持续自训练",
+    "body": "G-CAST 系统通过受控检查点转换和奖励路由，使电商智能体在引入新行为的同时保留已接受的能力。"
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+【每日科技快讯】11月19日 周四
+今日 AI 与开源要闻 14 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 2 个 PR、提交 4 次
+2. Open-Source-Dashboard 合并 2 个 PR
+3. AtomGit-mobile4Harmony 新增 4 个 PR
+
+【国内动态】
+4. RadixArk 发布 DaisyRose-27B 模型
+→ RadixArk 发布 DaisyRose-27B 模型，在 Terminal-Bench 4.1 上 pass@1 提升至 12.0%。
+
+【海外动态】
+5. Google 发布 Gemini 4 Neon 模型
+→ Google 发布 Gemini 4 Neon 模型，支持文本、图像、视频、音频和 PDF，上下文窗口为一百万个 token。
+
+【开源项目】
+6. vLLM 使用 FlyDSL MonoKernels
+→ vLLM 使用 FlyDSL MonoKernels 在 AMD Instinct GPU 上实现高交互性解码，提升智能体响应速度。
+7. LocalAI 发布 5.0.0 版本
+→ LocalAI 发布 5.0.0 版本，新增桌面应用、项目管理和 Python 沙箱，支持 Office 文档和团队共享。
+8. openai/whisper：鲁棒语音识别
+→ whisper 项目通过大规模弱监督实现鲁棒语音识别，支持多种语言和任务。
+9. bojieli/ai-agent-book：AI Agent 开源书籍
+→ 《深入理解 AI Agent：设计原理与工程实践》开源主仓库，包含正文、PDF 与配套代码。
+10. colbymchenry/codegraph：代码知识图谱
+→ codegraph 提供预索引代码知识图谱，自动同步代码变更，支持多个智能体，减少 Token 消耗。
+
+【学术前沿】
+11. Xing4：基于国产芯片与框架的前沿智能体模型
+→ Xing4 系列大语言模型通过在昇腾芯片上的架构和训练基础设施改进，扩展了 TeleChat 谱系。
+12. 权重空间编程无需 Transformer
+→ 研究探讨了在无需梯度训练的情况下，大语言模型如何通过手动编写目标权重来设计模型结构。
+13. OpenAI 分析编码智能体加速研究
+→ OpenAI 分析了编码智能体如何加速 AI 研究，指出其性能参差不齐，并探讨了递归自我改进的信号。
+14. Dharma-AI 分析微调耗时预测
+→ Dharma-AI 分析了 272 个生产环境微调案例，预测端到端微调时间，解决共享 GPU 集群调度难题。
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-19-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
