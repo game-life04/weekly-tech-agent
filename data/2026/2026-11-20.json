@@ -1,0 +1,1493 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T01:15:37Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 496,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 74,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.8
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 23.3
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 9.9
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 347,
+   "error": "",
+   "seconds": 23.7
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 19.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 21.2
+  }
+ ],
+ "items": [
+  {
+   "title": "Genie 4 is now available",
+   "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-18T18:13:42Z",
+   "summary": "",
+   "heat": 0.911,
+   "weight": 0.85,
+   "metrics": {
+    "points": 287.0,
+    "comments": 182.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50550415",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Google AI Ultra subscribers can now access Genie 4 to generate interactive worlds with real-time audio and editing. See what’s new in Project Genie. Explore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery. We are rolling out Genie 4 to eligible Google AI Ultra subscribers, offering more responsive, social, and interactive world generation. You can now use natural language to edit environments in real time, add native audio, and share your creations in our new community gallery. Visit the Project Genie website to start building your own worlds or join the waitlist if you are a Google AI Pro member. We are updating Project Genie to help you create and explore interactive digital worlds. With our new Genie 4…",
+    "llm_done": true
+   },
+   "id": "db8651fe3ff5",
+   "score": 8.75,
+   "title_zh": "Genie 4 现已上线",
+   "summary_zh": "Google AI Ultra 订阅用户可使用 Genie 4 生成具有实时音频和编辑功能的交互式世界。",
+   "tags": [
+    "模型发布",
+    "交互式世界"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": [
+    "3357ad0fa2b1"
+   ]
+  },
+  {
+   "title": "Introducing Gemini 4 Neon",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-18T21:35:43Z",
+   "summary": "",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Google introduces Gemini 4 Neon, delivering frontier-level intelligence for complex coding and analysis at a lower cost. See what's new. Bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. SVP, Google DeepMind and Chief AI Architect, Google Today, we’re introducing Gemini 4 Neon — bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Neon ranks ahead of comparable models and #3 overall with a score of 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, landing just behind larger, slower models. On the Vals Index , Neon ranks #2 and lands on the Pareto frontier. Beyond just…",
+    "llm_done": true
+   },
+   "id": "52640666a81a",
+   "score": 8.66,
+   "title_zh": "Gemini 4 Neon 介绍",
+   "summary_zh": "Google 推出 Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能。",
+   "tags": [
+    "模型发布",
+    "编程分析"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-18T21:34:07Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1014.0,
+    "comments": 761.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50552424",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Google introduces Gemini 4 Neon, delivering frontier-level intelligence for complex coding and analysis at a lower cost. See what's new. Bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. SVP, Google DeepMind and Chief AI Architect, Google Today, we’re introducing Gemini 4 Neon — bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. Neon ranks ahead of comparable models and #3 overall with a score of 61 on the Artificial Analysis Intelligence Index at its xhigh thinking level, landing just behind larger, slower models. On the Vals Index , Neon ranks #2 and lands on the Pareto frontier. Beyond just…",
+    "llm_done": true
+   },
+   "id": "b1f27447c28c",
+   "score": 8.66,
+   "title_zh": "Gemini 4 Neon：复杂任务完成更高效",
+   "summary_zh": "Google 推出 Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能和快速端到端任务完成能力。",
+   "tags": [
+    "模型发布",
+    "编程",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-19T17:30:44Z",
+   "summary": "",
+   "heat": 0.953,
+   "weight": 0.6,
+   "metrics": {
+    "points": 373.0,
+    "comments": 173.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50563148",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity. Modern physics rests on two frameworks: general relativity and quantum mechanics. General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms. Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible. Finding a theory that unites them—“quantum gravity”—is one of the field’s biggest goals. Black holes are a natural testing ground, because they’re one of the few areas where both relativity and quantum mechanics matter—they pack immense mass into a very small space. One of the most useful tools for studying quantum gravity is called holograp…",
+    "llm_done": true
+   },
+   "id": "5dce429552ea",
+   "score": 8.14,
+   "title_zh": "Claude 解决黑洞物理两个开放问题",
+   "summary_zh": "Claude Fable 5.2 解决了理论物理中关于黑洞和量子引力理论搜索的两个开放问题。",
+   "tags": [
+    "论文",
+    "物理",
+    "推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic prices initial public offering",
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-18T23:30:09Z",
+   "summary": "",
+   "heat": 0.969,
+   "weight": 0.6,
+   "metrics": {
+    "points": 411.0,
+    "comments": 774.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50553843",
+    "excerpt_tried": true,
+    "evidence": "Today Anthropic, PBC priced its initial public offering of its Class A common stock. The shares are expected to begin trading on the Nasdaq Global Select Market on November 19, 2026 under the symbol “ANT.” The offering is expected to close on November 20, 2026, subject to the satisfaction of customary closing conditions. In addition, Anthropic has granted the underwriters a 30-day option to purchase up to an additional 147,000,000 shares of its Class A common stock. A registration statement relating to these securities was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department,…",
+    "llm_done": true
+   },
+   "id": "84700ae2e457",
+   "score": 8.02,
+   "title_zh": "Anthropic 定价首次公开募股",
+   "summary_zh": "Anthropic 定价其首次公开募股，股票预计于 2026 年 11 月 19 日在纳斯达克全球精选市场交易。",
+   "tags": [
+    "行业动态",
+    "融资"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-18T15:49:34Z",
+   "summary": "",
+   "heat": 0.994,
+   "weight": 0.6,
+   "metrics": {
+    "points": 483.0,
+    "comments": 249.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50547777",
+    "excerpt_tried": true,
+    "evidence": "LONDON, November 18, 2026 — Artificial intelligence has taken another significant step into the world of professional services after KPMG revealed that AI The experiment, conducted by KPMG UK using more than 100 AI agents, marks an important development in the application of artificial intelligence to one of the most labour-intensive areas of the financial services industry. It also raises an uncomfortable question for the accountancy profession: if machines can increasingly perform the analytical work traditionally undertaken by highly trained professionals, how quickly will the economics of auditing change? According to the Financial Times , the project, codenamed Project Exponential, examined the financial statements of an unnamed FTSE 250 company. The AI agents worked alongside a conv…",
+    "llm_done": true
+   },
+   "id": "2069295c6caf",
+   "score": 8.0,
+   "title_zh": "AI 代理审计提问优于 KPMG 会计师",
+   "summary_zh": "KPMG 使用超过 100 个 AI 代理进行审计试验，AI 代理在提问方面表现优于会计师。",
+   "tags": [
+    "智能体",
+    "评测",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "全新Gemini 4 Neon震撼上线！编程Agent夺冠，暴击Opus 5.5",
+   "url": "https://aiera.com.cn/2026/11/20/other/admin/124552/%e5%85%a8%e6%96%b0gemini-4-neon%e9%9c%87%e6%92%bc%e4%b8%8a%e7%ba%bf%ef%bc%81%e7%bc%96%e7%a8%8bagent%e5%a4%ba%e5%86%a0%ef%bc%8c%e6%9a%b4%e5%87%bbopus-5-5/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-20T00:03:41Z",
+   "summary": "又更了，又更了，AI圈简直天天在过年！ 就在刚刚，谷歌Gemini 4家族的第四位成员Neon正式上线。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "ddd18b1766da",
+   "score": 7.95,
+   "title_zh": "全新Gemini 4 Neon震撼上线！编程Agent夺冠，暴击Opus 5.5",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "不用训练！Opus 5.5直接手写Transformer权重，13类任务全拿100%",
+   "url": "https://aiera.com.cn/2026/11/20/other/admin/124534/%e4%b8%8d%e7%94%a8%e8%ae%ad%e7%bb%83%ef%bc%81opus-5-5%e7%9b%b4%e6%8e%a5%e6%89%8b%e5%86%99transformer%e6%9d%83%e9%87%8d%ef%bc%8c13%e7%b1%bb%e4%bb%bb%e5%8a%a1%e5%85%a8%e6%8b%bf100/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-20T00:03:10Z",
+   "summary": "在13类复杂的算法任务、26次独立运行中，一个全新的神经网络在隐藏测试集上全部达到了100%的准确率。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "6d1d3704f5d8",
+   "score": 7.95,
+   "title_zh": "不用训练！Opus 5.5直接手写Transformer权重，13类任务全拿100%",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-19T08:00:00Z",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6321c7fbb2e0",
+   "score": 7.7,
+   "title_zh": "OpenAI 如何保持 ChatGPT 快速",
+   "summary_zh": "OpenAI 建立了 Performance Factory 系统，通过 Codex 驱动的工作流发现并修复性能问题。",
+   "tags": [
+    "推理加速",
+    "系统优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
+   "url": "http://www.geekpark.net/news/374235",
+   "source": "rss",
+   "section": "news",
+   "via": "极客公园",
+   "published": "2026-11-20T01:04:08Z",
+   "summary": "「史上最大 IPO」：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元 11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市， 首日股价以 97.17 美元（现汇率约合 649.2 元人民币）收盘，较 83 美元（现汇率约合 554.5 元人民币）的发行价上涨 17.07%。 该股开盘即报 111.5 美元（现汇率约合 744.9 元人民币），较发行价高出约 34.3%；盘中一度突破 115 美元（现汇率约合 768.3 元人民币），随后回落至 100 美元（现汇率约合 668.1 元人民币）下方。 按收盘价计算，Anthropic 市值约为 1.27 万亿美元（现汇率约合 8.48 万亿元人民币），成为全球最受关注的 AI 公司之一。不过，其每股收益为 -59.62 美元（现汇率约合 -398.3 元人民币），意味着公司仍处于高投入、尚未实现稳定盈利的阶段；市场目前更多是在为 AI 基础模型、企业级应用及未来商业化能力定价。 按照「IPO 募资额」计算，Anthropic 本次上市募资 813 亿美元（现汇…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "llm_done": true
+   },
+   "id": "b7881527eda5",
+   "score": 7.48,
+   "title_zh": "Anthropic 上市市值 1.27 万亿美元",
+   "summary_zh": "Anthropic 上市首日大涨 17%，市值达 1.27 万亿美元，成为最受关注的 AI 公司之一。",
+   "tags": [
+    "行业动态",
+    "IPO"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "huggingface/peft v0.22.0",
+   "url": "https://github.com/huggingface/peft/releases/tag/v0.22.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-19T15:30:52Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# Highlights ## New methods ### PaCA (Partial Connection Adaptation) [PaCA documentation](https://huggingface.co/docs/peft/main/en/package_reference/paca) ([Partial Connection Adaptation](https://huggingface.co/papers/2503.01905), ICLR 2025), added in #3927 by @WooSunghyeon, is a PEFT method that fine-tunes randomly selected input columns (\"partial connections\") of the pretrained weights instead of adding adapter layers. This eliminates the sequential computation of adapter layers and stores only partial activations for the backward pass. Therefore, PaCA trains faster and uses less memory than LoRA with comparable accuracy (from the paper: 22% less training time, 16% less memory, 23% longer sequences). Use it when training time or activation memory is the bottleneck, also with quantized models (QPaCA). It is less effective when there are few tokens per step or only light modules such as q/v are adapted, and it supports only nn.Linear layers. ### Astra initialization for LoRA Astra ([Activation-Space Tail-Eigenvector Low-Rank Adaptation of Large Language Models](https://huggingface.co/papers/2602.19111)), added in by @LyoAI in #3725, uses a small task-specific calibration dataset to estimate each target layer's output-activation covariance. It initializes LoRA in the subspace of the covariance matrix's lowest-variance directions, giving the adapter a task-aware starting point. Set `init_lora_weights=\"astra\"` and run `preprocess_astra` before injecting the adapter. ### NoRA in…",
+    "level": "minor",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e84ee482a22d",
+   "score": 7.03,
+   "title_zh": "",
+   "summary_zh": "huggingface/peft v0.22.0 新增 PaCA 方法，通过微调预训练权重的随机输入列来加速训练。",
+   "tags": [
+    "开源工具",
+    "微调加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+   "heat": 0.865,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 560.0
+   },
+   "extra": {
+    "language": "",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6e0c1990836e",
+   "score": 6.93,
+   "title_zh": "",
+   "summary_zh": "Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。",
+   "tags": [
+    "开源工具",
+    "3D",
+    "插件"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mdiri-ai/SoduWork",
+   "url": "https://github.com/mdiri-ai/SoduWork",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "heat": 0.726,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 4229.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 21,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3e6af3d8c19d",
+   "score": 6.65,
+   "title_zh": "",
+   "summary_zh": "面向团队和智能体的原生 AI 引擎，支持多框架、多智能体和自托管。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "引擎"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "earendil-works/pi",
+   "url": "https://github.com/earendil-works/pi",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+   "heat": 0.659,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 194.0,
+    "stars": 122937.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "48b28923bbeb",
+   "score": 6.64,
+   "title_zh": "",
+   "summary_zh": "AI 智能体工具包，提供统一 LLM API、智能体循环、TUI 和编码智能体 CLI。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "CLI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/codex rust-v0.171.0",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-20T00:44:47Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## New Features - Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. (#62106) - Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation. (#61352, #61888, #61889, #61919, #62157) - Added configurable undo and redo shortcuts to the non-Vim prompt composer, including restoration of attachments and large pastes. (#61954) - Added `codex exec --remote <ADDR>` to start or resume noninteractive sessions on an existing app server. (#61707) - Added `/rc` and `/remote` to manage local remote control and display device pairing codes from the TUI. (#62121) - Added custom MCP status line selection and authoring through `/statusline` when `tui_extensions_statusline` is enabled. (#61979, #61988, #62037) ## Bug Fixes - Preserved drafts, queued follow-ups, and interrupted input with their original threads when switching or resuming sessions. (#61216) - Kept permission profiles intact when changing working directories. (#61195) - Prevented late completion events from cancelling approvals for a newer turn. (#61801) - Preserved earlier edits in aggregate diffs when steering an active turn. (#61820) - Fixed scrolling that inserted stray characters, composer caret jumps, and redraws using stale terminal dimensions. (#62139, #62174, #62175) - Fixed enterprise MCP sign-in for identity providers that issue ID tokens without refresh tokens. (#62129) ## Chores - Updated sourc…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "65de76921469",
+   "score": 6.53,
+   "title_zh": "",
+   "summary_zh": "openai/codex rust-v0.171.0 新增 GPT-6.2 Sol 和 Astra 模型，默认启用 TUI 工作区。",
+   "tags": [
+    "开源工具",
+    "模型更新"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "google/adk-python v2.15.0",
+   "url": "https://github.com/google/adk-python/releases/tag/v2.15.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-19T22:59:36Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## [2.15.0](https://github.com/google/adk-python/compare/v2.14.1...v2.15.0) (2026-11-19) ### Highlights This release keeps voice streams and agent turns responsive under slow tools and session storage, measures multi-run reliability and partial tool-call accuracy, isolates sandboxes per user or session, adds Google Maps and project-wide BigQuery table discovery, and speeds up RAG memory search up to 6x. It also removes the interactive Visual Agent Builder from ADK Web. * **Integrations**: * Verify addresses, reverse-geocode coordinates, and fetch Street View imagery directly from an agent with `GoogleMapsToolset` (`get_street_view_image`, `validate_address`, and `reverse_geocode`). See the [unit guide](https://github.com/google/adk-python/blob/main/docs/guides/integrations/google_maps/index.md) and [sample](https://github.com/google/adk-python/tree/main/contributing/samples/integrations/google_maps_photo_audit) for more details. ([5371bb1](https://github.com/google/adk-python/commit/5371bb12fdb58303ed956912c145972e469543b4)) * Answer open-ended analytics questions without knowing exact `table_references` upfront: `BigQueryToolset`'s `ask_data_insights` now accepts `search_scope` (`includeProjectIds` and `includeDatasetReferences`) to discover relevant tables across projects or datasets. ([9eb6d9d](https://github.com/google/adk-python/commit/9eb6d9d93aff15278f27337348a3cb8e527624fb)) * **Sessions and artifacts**: * Keep slow database or network writes off the critical path of…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "7e01de631630",
+   "score": 6.51,
+   "title_zh": "",
+   "summary_zh": "google/adk-python v2.15.0 提升语音流和智能体响应速度，RAG 内存搜索速度提升 6 倍。",
+   "tags": [
+    "开源工具",
+    "性能优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SWE-agent/mini-swe-agent",
+   "url": "https://github.com/SWE-agent/mini-swe-agent",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified!",
+   "heat": 0.555,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 84.0,
+    "stars": 9862.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "3be8f377a401",
+   "score": 6.43,
+   "title_zh": "",
+   "summary_zh": "100 行 AI 智能体，可解决 GitHub 问题或在命令行中提供帮助，在 SWE-bench 上得分超过 74%。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "代码"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Why agent governance starts with observability",
+   "url": "https://www.langchain.com/blog/agent-governance-observability",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-20T00:57:43Z",
+   "summary": "A strong AI agent governance strategy",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "a0354209a097",
+   "score": 6.32,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "智能体",
+    "治理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Multi-Branch Transformer",
+   "url": "https://arxiv.org/abs/2611.19800",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-15T00:00:00Z",
+   "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their outputs before shared final layers. At comparable training compute, we study three MBT variants: Wide-Shallow preserves block width, Narrow-Deep preserves sequential depth, and Balanced interpolates between them. In controlled pretraining experiments at four mixture-of-experts scales (0.8B to 2.1B total parameters), 2-branch Wide-Shallow MBTs consistently outperform sequential Transformers under matched parameter and training-compute budgets. Balanced MBTs improve further and retain comparable quality as the number of branches increases. To improve inference efficiency at long contexts, we introduce Joint-KV, which constructs a shared KV cache from branch representations at each depth. Our final recipe combines Balanced MBTs with Joint-KV, supported by an inference engine that exploits branch grouping and shared-cache reuse. Fitted scaling curves indicate that standard Transformers require up to 1.26x as much training body compute to match our final models' validation loss. These models reduce full-model KV-cache storage by up to 34% and deliver up to 51.4% higher dec…",
+   "heat": 0.667,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 44.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/GaotangLi/Multi-Branch-Transformer"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1bf685c5bde5",
+   "score": 6.39,
+   "title_zh": "多分支 Transformer：并行化架构",
+   "summary_zh": "本文提出多分支 Transformer，通过并行执行独立参数分支来扩展模型。实验表明，在参数和训练计算量匹配的情况下，多分支模型在预训练任务上表现优于传统模型，并显著降低了推理时的 KV 缓存存储。",
+   "tags": [
+    "模型架构",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "QDA: Closed-Loop LLM Quantization Design with Agents",
+   "url": "https://arxiv.org/abs/2611.23388",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-17T19:00:09Z",
+   "summary": "Post-training quantization is the standard way to serve large language models at low cost. However, the best quantization recipe differs across models and precisions. As a result, experts must redesign it for every new model, which is time-consuming and often sub-optimal. Fortunately, an LLM agent can take over this design by refining the recipe over rounds of building and evaluating candidates, so that more rounds lead to better recipes. However, evaluating one quantized reasoning model takes tens of GPU-hours, and combining methods from different codebases means porting each to the new architecture by hand. We present QDA, a system in which an agent designs the recipe for each model and precision. To make evaluation fast, QDA scores each candidate in minutes by its output KL divergence from the original model on reasoning traces that the agent never sees, and checks promising ones with long generations to catch failures such as repetition loops. To make building fast, QDA provides a library of public PTQ methods that are compatible with one another and with new model architectures. Across four reasoning models, QDA improves accuracy over the strongest public recipe by 0.9, 1.4 and 2.2 percentage points on average at W4A16, W4A8 and W3A16, using 64 GPU-hours per search. On the 320B-parameter MoE model GLM-5.3-Flash at NVFP4 W4A4, it recovers 98.3% of the FP8 model's accuracy, against 96.9% for the best vendor checkpoint. Every QDA checkpoint also runs on existing serving ke…",
+   "heat": 0.385,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 8.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0c074e8f4b84",
+   "score": 6.3,
+   "title_zh": "QDA：基于智能体的闭环 LLM 量化设计",
+   "summary_zh": "针对不同模型和精度需要重新设计量化方案的问题，本文提出 QDA 系统，利用智能体通过多轮评估优化量化配方。该方法在多个推理模型上提升了量化精度，并在 320B 参数模型上恢复了 98.3% 的原始准确率。",
+   "tags": [
+    "量化",
+    "智能体",
+    "推理优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+   "url": "https://arxiv.org/abs/2611.07222",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-04T00:00:00Z",
+   "summary": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker's text and adds model calls to every step. Provenance defenses keep the model off the final check but need a model to plan or route each task first. Where an action goes can instead be read from the tools' typed returns: an email's sender or a payment's account arrives in a typed field, while injected instructions arrive as free text. SPILLWAY turns this observation into a deterministic floor with no per-task plan. The check admits a call when each target value that appears in tool output but not in the user's task was returned by a read-only tool in a typed field or is covered by a fixed delegation rule. A deterministic sanitizer removes instruction-like regions its fixed rules match before the model reads them and retains the removed spans as evidence, and a local judge may restore a refused call, never one whose target lies in the removed text. Across three backbones, and seven task suites on one of them, no standard templated injection redirects an action to an attacker's target under SPILLWAY, at the highest observed mean utility and composite scores (NRP, ERS) of the defenses we run under that attack. A forged chat template also produces a raw zero, and mean…",
+   "heat": 0.667,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 44.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/saintmachines/spillway"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6c090610c5e4",
+   "score": 6.26,
+   "title_zh": "SPILLWAY：防御工具使用智能体的提示注入攻击",
+   "summary_zh": "本文提出 SPILLWAY 方法，通过分离目标准入与清洗过程来防御工具使用智能体的提示注入攻击。该方法利用工具输出的类型化字段和固定委托规则进行确定性检查，在多种攻击场景下有效阻止了恶意指令的执行。",
+   "tags": [
+    "智能体",
+    "安全防御",
+    "提示注入"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LEDGE: An Efficient Simulator for Distributed LLM Serving on Heterogeneous Edge Devices",
+   "url": "https://arxiv.org/abs/2611.24085",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-18T09:11:43Z",
+   "summary": "Evaluating distributed large language model (LLM) serving on heterogeneous edge devices requires exploring diverse model partitions, device placements, and network conditions, making repeated physical experiments costly. An efficient simulator for edge LLM serving must support diverse, fine-grained placement configurations, capture runtime behavior, and accurately predict execution times while keeping simulation overhead low. We present LEDGE, a lightweight simulator for fast, fine-grained evaluation of distributed LLM serving on heterogeneous edge devices without executing tensor operations. LEDGE constructs event graphs supporting non-uniform tensor and pipeline parallelism, estimates execution costs using reusable performance models calibrated from end-to-end measurements, and simulates shared-link contention. We evaluate LEDGE on a heterogeneous testbed of 10 Jetson and Raspberry Pi devices, covering 17 model--precision combinations across 4 LLM families. On Qwen deployments, LEDGE achieves request-level mean absolute percentage errors below 3.6% and a 135.3 times aggregate speedup over physical inference. Performance model calibrated on one LLM family yield 7.44% zero-shot end-to-end latency MAPE across three other families. Further simulations show how shared-link contention affects placement decisions and network topology constrains scaling. Across four edge environments, LEDGE completes 26,773 simulation runs in 83.8 minutes, enabling efficient exploration of deploym…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "22bc9eec0b92",
+   "score": 6.21,
+   "title_zh": "LEDGE：异构边缘设备分布式LLM服务高效模拟器",
+   "summary_zh": "本文提出了一种轻量级模拟器LEDGE，用于在异构边缘设备上评估分布式大语言模型服务。该方法构建了支持非均匀张量和流水线并行的事件图，并利用可重用的性能模型估算执行成本。实验表明，在Qwen部署上，LEDGE在请求级别的平均绝对百分比误差低于3.6%，且相比物理推理实现了135.3倍的加速。",
+   "tags": [
+    "智能体",
+    "推理加速",
+    "边缘计算"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+   "url": "https://arxiv.org/abs/2611.23068",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-17T16:57:03Z",
+   "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods fail to propose better artifacts, but because noisy evaluations cannot reliably identify them. Across seven evolution methods and six models (over 10M LLM calls), we find support for the hypothesis at both levels where evaluation scores are used. At the candidate level (choosing artifacts), helpful candidate artifacts exist, but selection is no better than random at telling them from harmful ones, so errors accumulate across rounds. At the method level (ranking methods), typical margins of a few percentage points are smaller than the difference between two independent runs of the same method, so published rankings often rest on luck. Together, these findings indicate that agent evolution is often bottlenecked by reliably identifying improvements. This calls for a shift in how we develop and evaluate self-improving agents, from designing ever more candidate improvement systems to making true improvements detectable and accumulable.",
+   "heat": 0.628,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 35.0
+   },
+   "extra": {
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "1490b11b6c4c",
+   "score": 6.17,
+   "title_zh": "解决假设：智能体进化的关键在于识别改进",
+   "summary_zh": "本文提出解决假设，指出智能体进化往往因评估噪声无法可靠识别改进而停滞。作者在七个进化方法和六个模型上验证了该假设，发现候选选择和模型排名的误差都大于随机水平。研究建议开发自改进智能体时，应致力于使真正的改进可被检测和累积。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-20",
+  "start": "2026-11-20",
+  "end": "2026-11-20",
+  "title": "Google DeepMind 推出 Genie 4",
+  "generated_at": "2026-11-20T01:15:37Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-19",
+   "end": "2026-11-19"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 7 个 PR、提交 11 次",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 2 个、合并 7 个，提交 11 次，新增代码 8845 行、删除 139 行，4 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 合并 6 个 PR",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库合并 6 个、提交 10 次、新增代码 8725 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "hust-mirrors 合并 1 个 PR",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "镜像站运维 SIG的 hust-mirrors 仓库合并 1 个、提交 1 次、新增代码 120 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/hust-mirrors",
+    "via": "GitHub"
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google DeepMind 推出 Genie 4",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Google DeepMind 为 Google AI Ultra 订阅用户提供 Genie 4，可生成具有实时音频和编辑功能的交互式世界。",
+    "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "via": "Google DeepMind",
+    "id": "db8651fe3ff5",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google DeepMind 发布 Gemini 4 Neon",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Google DeepMind 推出 Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能。",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "via": "Google DeepMind",
+    "id": "52640666a81a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "huggingface/peft 发布 0.22.0 版本",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "huggingface/peft 新增 PaCA 方法，通过微调预训练权重的随机输入列来加速训练。",
+    "url": "https://github.com/huggingface/peft/releases/tag/v0.22.0",
+    "via": "GitHub 版本发布",
+    "id": "e84ee482a22d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "blender-ai-mcp-addon：Blender AI 助手",
+    "when": "11月20日消息",
+    "date": "2026-11-20",
+    "body": "blender-ai-mcp-addon 是 Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。",
+    "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+    "via": "GitHub 新项目",
+    "id": "6e0c1990836e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "SoduWork：原生 AI 引擎",
+    "when": "11月20日消息",
+    "date": "2026-11-20",
+    "body": "SoduWork 是面向团队和智能体的原生 AI 引擎，支持多框架、多智能体和自托管。",
+    "url": "https://github.com/mdiri-ai/SoduWork",
+    "via": "GitHub 新项目",
+    "id": "3e6af3d8c19d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "pi：AI 智能体工具包",
+    "when": "11月20日消息",
+    "date": "2026-11-20",
+    "body": "pi 是 AI 智能体工具包，提供统一 LLM API、智能体循环、TUI 和编码智能体 CLI。",
+    "url": "https://github.com/earendil-works/pi",
+    "via": "GitHub Trending",
+    "id": "48b28923bbeb",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "openai/codex rust 发布 0.171.0 版本",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "openai/codex rust 新增 GPT-6.2 Sol 和 Astra 模型，默认启用 TUI 工作区。",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+    "via": "GitHub 版本发布",
+    "id": "65de76921469",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "QDA：基于智能体的闭环 LLM 量化设计",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "QDA 系统利用智能体通过多轮评估优化量化配方，在多个推理模型上提升了量化精度。",
+    "url": "https://arxiv.org/abs/2611.23388",
+    "via": "arXiv · 高效推理",
+    "id": "0c074e8f4b84",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Claude Fable 5.2 解决黑洞物理问题",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "Claude Fable 5.2 解决了理论物理中关于黑洞和量子引力理论搜索的两个开放问题。",
+    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+    "via": "Hacker News",
+    "id": "5dce429552ea",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Multi-Branch Transformer：并行化架构",
+    "when": "11月20日消息",
+    "date": "2026-11-20",
+    "body": "Multi-Branch Transformer 通过并行执行独立参数分支来扩展模型，在参数和训练计算量匹配的情况下表现优于传统模型。",
+    "url": "https://arxiv.org/abs/2611.19800",
+    "via": "Hugging Face 热门论文",
+    "id": "1bf685c5bde5",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "SPILLWAY：防御工具使用智能体",
+    "when": "11月20日消息",
+    "date": "2026-11-20",
+    "body": "SPILLWAY 方法通过分离目标准入与清洗过程来防御工具使用智能体的提示注入攻击。",
+    "url": "https://arxiv.org/abs/2611.07222",
+    "via": "Hugging Face 热门论文",
+    "id": "6c090610c5e4",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "KPMG 使用 AI 代理进行审计试验",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "KPMG 使用超过 100 个 AI 代理进行审计试验，AI 代理在提问方面表现优于会计师。",
+    "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+    "via": "Hacker News",
+    "id": "2069295c6caf",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 上市市值 1.27 万亿美元",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "Anthropic 上市首日大涨 17%，市值达 1.27 万亿美元，成为最受关注的 AI 公司之一。",
+    "url": "http://www.geekpark.net/news/374235",
+    "via": "极客公园",
+    "id": "b7881527eda5",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "db8651fe3ff5": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google DeepMind 推出 Genie 4",
+    "body": "Google DeepMind 为 Google AI Ultra 订阅用户提供 Genie 4，可生成具有实时音频和编辑功能的交互式世界。"
+   },
+   "52640666a81a": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google DeepMind 发布 Gemini 4 Neon",
+    "body": "Google DeepMind 推出 Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能。"
+   },
+   "b1f27447c28c": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google 推出 Gemini 4 Neon 模型",
+    "body": "Google 推出 Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能和快速端到端任务完成能力。"
+   },
+   "5dce429552ea": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Claude Fable 5.2 解决黑洞物理问题",
+    "body": "Claude Fable 5.2 解决了理论物理中关于黑洞和量子引力理论搜索的两个开放问题。"
+   },
+   "84700ae2e457": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 定价首次公开募股",
+    "body": "Anthropic 定价其首次公开募股，股票预计于 2026 年 11 月 19 日在纳斯达克全球精选市场交易。"
+   },
+   "2069295c6caf": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "KPMG 使用 AI 代理进行审计试验",
+    "body": "KPMG 使用超过 100 个 AI 代理进行审计试验，AI 代理在提问方面表现优于会计师。"
+   },
+   "ddd18b1766da": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Gemini 4 Neon 上线",
+    "body": "谷歌推出 Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能。"
+   },
+   "6d1d3704f5d8": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Opus 5.5 手写 Transformer 权重",
+    "body": "Opus 5.5 在隐藏测试集上达到 100% 的准确率。"
+   },
+   "6321c7fbb2e0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "OpenAI 建立了 Performance Factory 系统，通过 Codex 驱动的工作流发现并修复性能问题。"
+   },
+   "b7881527eda5": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Anthropic 上市市值 1.27 万亿美元",
+    "body": "Anthropic 上市首日大涨 17%，市值达 1.27 万亿美元，成为最受关注的 AI 公司之一。"
+   },
+   "e84ee482a22d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "huggingface/peft 发布 0.22.0 版本",
+    "body": "huggingface/peft 新增 PaCA 方法，通过微调预训练权重的随机输入列来加速训练。"
+   },
+   "6e0c1990836e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "blender-ai-mcp-addon：Blender AI 助手",
+    "body": "blender-ai-mcp-addon 是 Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。"
+   },
+   "3e6af3d8c19d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "SoduWork：原生 AI 引擎",
+    "body": "SoduWork 是面向团队和智能体的原生 AI 引擎，支持多框架、多智能体和自托管。"
+   },
+   "48b28923bbeb": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "pi：AI 智能体工具包",
+    "body": "pi 是 AI 智能体工具包，提供统一 LLM API、智能体循环、TUI 和编码智能体 CLI。"
+   },
+   "65de76921469": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai/codex rust 发布 0.171.0 版本",
+    "body": "openai/codex rust 新增 GPT-6.2 Sol 和 Astra 模型，默认启用 TUI 工作区。"
+   },
+   "7e01de631630": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "google/adk-python 发布 2.15.0 版本",
+    "body": "google/adk-python 提升语音流和智能体响应速度，RAG 内存搜索速度提升 6 倍。"
+   },
+   "3be8f377a401": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "mini-swe-agent：100 行 AI 智能体",
+    "body": "mini-swe-agent 是 100 行 AI 智能体，可解决 GitHub 问题或在命令行中提供帮助，在 SWE-bench 上得分超过 74%。"
+   },
+   "a0354209a097": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "LangChain 博客文章",
+    "body": "LangChain 博客讨论 AI 智能体治理策略。"
+   },
+   "1bf685c5bde5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Multi-Branch Transformer：并行化架构",
+    "body": "Multi-Branch Transformer 通过并行执行独立参数分支来扩展模型，在参数和训练计算量匹配的情况下表现优于传统模型。"
+   },
+   "0c074e8f4b84": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "QDA：基于智能体的闭环 LLM 量化设计",
+    "body": "QDA 系统利用智能体通过多轮评估优化量化配方，在多个推理模型上提升了量化精度。"
+   },
+   "6c090610c5e4": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SPILLWAY：防御工具使用智能体",
+    "body": "SPILLWAY 方法通过分离目标准入与清洗过程来防御工具使用智能体的提示注入攻击。"
+   },
+   "22bc9eec0b92": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LEDGE：异构边缘设备分布式 LLM 服务模拟器",
+    "body": "LEDGE 是一种轻量级模拟器，用于在异构边缘设备上评估分布式大语言模型服务。"
+   },
+   "1490b11b6c4c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "解决假设：智能体进化的关键",
+    "body": "论文提出解决假设，指出评估噪声导致智能体进化难以识别改进。研究在多个模型上验证了该假设，建议开发自改进智能体以使改进可被检测。"
+   }
+  }
+ }
+}

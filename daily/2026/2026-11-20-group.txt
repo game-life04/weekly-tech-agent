@@ -1,0 +1,47 @@
+【每日科技快讯】11月20日 周五
+今日 AI 与开源要闻 16 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 7 个 PR、提交 11 次
+2. AtomGit-mobile4Harmony 合并 6 个 PR
+3. hust-mirrors 合并 1 个 PR
+
+【海外动态】
+4. Google DeepMind 推出 Genie 4
+→ Google DeepMind 为 Google AI Ultra 订阅用户提供 Genie 4，可生成具有实时音频和编辑功能的交互式世界。
+5. Google DeepMind 发布 Gemini 4 Neon
+→ Google DeepMind 推出 Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能。
+
+【开源项目】
+6. huggingface/peft 发布 0.22.0 版本
+→ huggingface/peft 新增 PaCA 方法，通过微调预训练权重的随机输入列来加速训练。
+7. blender-ai-mcp-addon：Blender AI 助手
+→ blender-ai-mcp-addon 是 Blender AI 助手和 MCP 服务器，支持视觉聊天、场景工具和多智能体工作流。
+8. SoduWork：原生 AI 引擎
+→ SoduWork 是面向团队和智能体的原生 AI 引擎，支持多框架、多智能体和自托管。
+9. pi：AI 智能体工具包
+→ pi 是 AI 智能体工具包，提供统一 LLM API、智能体循环、TUI 和编码智能体 CLI。
+10. openai/codex rust 发布 0.171.0 版本
+→ openai/codex rust 新增 GPT-6.2 Sol 和 Astra 模型，默认启用 TUI 工作区。
+
+【学术前沿】
+11. QDA：基于智能体的闭环 LLM 量化设计
+→ QDA 系统利用智能体通过多轮评估优化量化配方，在多个推理模型上提升了量化精度。
+12. Claude Fable 5.2 解决黑洞物理问题
+→ Claude Fable 5.2 解决了理论物理中关于黑洞和量子引力理论搜索的两个开放问题。
+13. Multi-Branch Transformer：并行化架构
+→ Multi-Branch Transformer 通过并行执行独立参数分支来扩展模型，在参数和训练计算量匹配的情况下表现优于传统模型。
+14. SPILLWAY：防御工具使用智能体
+→ SPILLWAY 方法通过分离目标准入与清洗过程来防御工具使用智能体的提示注入攻击。
+
+【产业纵横】
+15. KPMG 使用 AI 代理进行审计试验
+→ KPMG 使用超过 100 个 AI 代理进行审计试验，AI 代理在提问方面表现优于会计师。
+16. Anthropic 上市市值 1.27 万亿美元
+→ Anthropic 上市首日大涨 17%，市值达 1.27 万亿美元，成为最受关注的 AI 公司之一。
+
+【活动预告】
+· 12月3日 EuroVis 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-20-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
