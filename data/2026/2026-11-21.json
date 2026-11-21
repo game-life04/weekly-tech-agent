@@ -1,0 +1,1441 @@
+{
+ "date": "2026-11-21",
+ "generated_at": "2026-11-21T00:47:19Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 487,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 70,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.0
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.9
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 10.7
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 346,
+   "error": "",
+   "seconds": 23.6
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 7,
+   "error": "",
+   "seconds": 19.8
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 21.4
+  }
+ ],
+ "items": [
+  {
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "url": "https://arxiv.org/abs/2611.21885",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-20T16:29:06Z",
+   "summary": "",
+   "heat": 0.932,
+   "weight": 0.6,
+   "metrics": {
+    "points": 328.0,
+    "comments": 106.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50577265",
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference that is gone once the task ends. We show a third way: to our knowledge for the first time, a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training. We call this self-rewriting: the model is its own optimizer. In earlier work, a frontier model edited a much smaller one; here an open 27B model, given its weights, its graded answers and the ability to run itself, diagnoses its own failure and rewrites the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on problems it never saw. It keeps getting better: it tests its edits on practice problems and sub…",
+    "llm_done": true
+   },
+   "id": "4deaf143f27a",
+   "score": 8.69,
+   "title_zh": "语言模型可自行重写权重",
+   "summary_zh": "模型通过自身推理重写权重，无需梯度和训练即可变强。",
+   "tags": [
+    "模型发布",
+    "自优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Combatting adversarial distillation",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-20T10:00:00Z",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 32.0,
+    "comments": 48.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50581242",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "bab9b9b98c77",
+   "score": 8.33,
+   "title_zh": "OpenAI 应对对抗蒸馏",
+   "summary_zh": "OpenAI 采用分层方法结合训练、防护、检测和执行，以防止能力提取。",
+   "tags": [
+    "模型发布",
+    "安全防护"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-20T10:01:41Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 617.0,
+    "comments": 322.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50572503",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Frostbite is a general-purpose CPU built around interaction nets, discovered, designed, and verified end-to-end by our AI systems, reaching 4.59x the performance-per-watt of a modern superscalar (dual-issue, in-order) CPU core. In our previous post, Redwood , we showed that given an architecture, our AI systems could implement, verify, and deploy an inference accelerator in record time. However, similar to other scientific domains, we believe that AI systems, given the correct freedom and guardrails, can co-design software and hardware together, making optimizations across the stack and opening a design space so large it was previously inaccessible. We set out to answer the question: “Could our AI systems & tools lead to a novel hardware discovery that radically outperforms human-made des…",
+    "llm_done": true
+   },
+   "id": "c68595a7dab2",
+   "score": 8.17,
+   "title_zh": "Frostbite：AI 发现并验证的新型 CPU 架构",
+   "summary_zh": "AI 系统发现并验证了 Frostbite CPU，能效比现代超标量 CPU 高 4.59 倍。",
+   "tags": [
+    "硬件",
+    "AI 发现"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic’s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-19T17:02:40Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1130.0,
+    "comments": 2295.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50562754",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "c6c8f53811c3",
+   "score": 8.06,
+   "title_zh": "Anthropic 在纳斯达克上市",
+   "summary_zh": "",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Fuck Your AI Safeguards",
+   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-19T16:30:18Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 597.0,
+    "comments": 246.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50562262",
+    "excerpt_tried": true,
+    "evidence": "You can't tell me that you found a security issue in my product and then refuse to fix it. While refrigerators were getting hacked in Estonia, I half-seriously took a project I’m working on and asked Claude Code if there are any low-hanging fruit regarding security that we could improve. It found one issue that was easy to fix, simple oversight with a one line fix, so I just went along with it. Then it got stopped because of bullshit “AI safeguards”. Oh no, how dare I , the senior product engineer with my product that I provably have control over, try to fix and prevent security issues and ensure compliance with local laws and regulations? “Oh but you can just apply to get an exemption from them here bla bla fucking blah ” First of all, you will have to wait for multiple business days to…",
+    "llm_done": true
+   },
+   "id": "5a677681d816",
+   "score": 8.05,
+   "title_zh": "",
+   "summary_zh": "作者因试图修复产品安全漏洞被 AI 安全机制阻止，引发对 AI 安全机制的讨论。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e4a4e3aa3282",
+   "score": 7.64,
+   "title_zh": "Hebbia 在金融研究中使用 GPT-6 Astra",
+   "summary_zh": "Hebbia 测试 GPT-6 Astra，发现其在来源覆盖、引用相关性和展示质量方面有提升。",
+   "tags": [
+    "模型发布",
+    "金融研究"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude自写推理引擎！等AI回第一个字，12秒砍到半秒",
+   "url": "https://aiera.com.cn/2026/11/21/other/admin/124673/claude%e8%87%aa%e5%86%99%e6%8e%a8%e7%90%86%e5%bc%95%e6%93%8e%ef%bc%81%e7%ad%89ai%e5%9b%9e%e7%ac%ac%e4%b8%80%e4%b8%aa%e5%ad%97%ef%bc%8c12%e7%a7%92%e7%a0%8d%e5%88%b0%e5%8d%8a%e7%a7%92/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-21T00:03:04Z",
+   "summary": "你让AI帮忙修一个登录报错。 照着它的建议改完代码，你重新跑了一遍登录测试。终端又弹出一行红字，报的还是同一个错。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "a079da582b37",
+   "score": 7.35,
+   "title_zh": "Claude 自写推理引擎！等 AI 回第一个字，12 秒砍到半秒",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "GPT-6.2自己造出全新证法！94分钟拿下20年前顶刊定理首证",
+   "url": "https://aiera.com.cn/2026/11/21/other/admin/124618/gpt-6-2%e8%87%aa%e5%b7%b1%e9%80%a0%e5%87%ba%e5%85%a8%e6%96%b0%e8%af%81%e6%b3%95%ef%bc%8194%e5%88%86%e9%92%9f%e6%8b%bf%e4%b8%8b20%e5%b9%b4%e5%89%8d%e9%a1%b6%e5%88%8a%e5%ae%9a%e7%90%86%e9%a6%96%e8%af%81/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-21T00:01:34Z",
+   "summary": "刚刚，第三方评测机构Vals AI放出了高难数学基准Autoform-Hard的最新榜单。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "041b00989cda",
+   "score": 7.35,
+   "title_zh": "GPT-6.2 自造全新证法！94 分钟拿下 20 年前顶刊定理首证",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "数学推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The most misunderstood graph in AI just got a major update",
+   "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "source": "rss",
+   "section": "news",
+   "via": "MIT 科技评论",
+   "published": "2026-11-20T18:15:15Z",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "12a96840525c",
+   "score": 7.29,
+   "title_zh": "AI 评估领域最被误解的图表更新",
+   "summary_zh": "METR 报告更新了时间跨度图，指出部分 AI 能力呈指数级提升，但模型在需要判断的任务上不如编程任务表现好。",
+   "tags": [
+    "评测",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+   "url": "https://www.qbitai.com/2026/11/511727.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-20T16:07:39Z",
+   "summary": "",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "刚刚，34岁的Anthropic数学家Levent Alpöge放出一份PDF文档， 声称自己与Claude合作，找到了黎曼猜想 （数学界最有名、悬赏100万美元的百年难题） 的证明。 Alpöge没有发表完整论文，选择公布了整套Lean形式化证明代码，分成14个压缩文件供外界下载。 Alpöge还在文档里表示， 研究到了最后阶段，Claude已经远远跑在了自己前面 ，连他本人都表示自己“在尚未掌握证明周边大量数学知识的情况下，就已经向外界展示了完整论证”。 No, Claude flew, and danced, and sparkled near that finish line. 按照Levent Alpöge的说法，这套方法还能够解决广义黎曼猜想 （GRH） ，并有望延伸到扩展黎曼猜想。 从1859年提出至今，黎曼猜想这道题已经悬而未决167年。多少数学家前赴后继，至今没人能交出完整答卷。 具体到解决黎曼猜想的数学方法上，这次证明思路借鉴了函数域中解决黎曼猜想类比命题的Stepanov方法。 在函数域里，数学家可以通过构造具有高重数零点的辅助函数推进证明。但将这套方法迁移到普通整数领域时，遇到了一个难题——整数没有与函数求导完全对应的自然结构。 Levent Alpöge在文档里表示，自己引导双方找到了一个合适的数学情境，之后Claude开始展现出令他惊叹的技术能力。 通过连续的Theta Lifts （Theta提升） ，在自守形式框架下逐步累积所需要的重数。 Claude 还提出了一个关键参数： 即对于长度为X的von Mangoldt求和，Theta提升链的长度应当达到√X。 除此之外，整套论证涉及了相对迹公式、Iwasawa理论、Bessel周期等多个现代数论工具。 Levent Alpöge表示，自己从学生时代起就计划用几十年时间研究黎曼猜想，因此一直在…",
+    "llm_done": true
+   },
+   "id": "550ba5112f8b",
+   "score": 7.27,
+   "title_zh": "黎曼猜想被证明？！Claude 加持，34 岁数学家放出 Lean 证明",
+   "summary_zh": "34 岁数学家 Levent Alpöge 与 Claude 合作，发布了黎曼猜想的 Lean 形式化证明代码。",
+   "tags": [
+    "模型发布",
+    "数学推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "zhouxiaoka/autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+   "heat": 0.86,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 979.0,
+    "stars": 12182.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "d941cdc9a6e3",
+   "score": 7.64,
+   "title_zh": "",
+   "summary_zh": "开源 AI 视频剪辑工具，一键将长视频剪成短视频并生成字幕。",
+   "tags": [
+    "开源工具",
+    "视频剪辑"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Inkling 2 Mini on vLLM: Day-0 Support for a Looped Model",
+   "url": "https://vllm.ai/blog/2026-11-20-inkling2-mini",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "vLLM supports Thinking Machines' Inkling 2 Mini from day 0: a looped MoE that runs its middle layers three times, with per-pass KV caches, gated messages between passes, fused kernels and DSpark speculative decoding.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "524fb8fc2e36",
+   "score": 7.6,
+   "title_zh": "",
+   "summary_zh": "vLLM 原生支持 Thinking Machines 的 Inkling 2 Mini，这是一种循环 MoE 模型。",
+   "tags": [
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "iamajmeena/neonclipping",
+   "url": "https://github.com/iamajmeena/neonclipping",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+   "heat": 0.974,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1244.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "b9a1ff778498",
+   "score": 7.15,
+   "title_zh": "",
+   "summary_zh": "本地开源剪辑引擎，粘贴链接即可在约 2 分钟内生成带字幕的 9:16 短视频。",
+   "tags": [
+    "开源工具",
+    "视频剪辑"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "agentscope-ai/agentscope",
+   "url": "https://github.com/agentscope-ai/agentscope",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Build and run agents you can see, understand and trust.",
+   "heat": 0.531,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 69.0,
+    "stars": 36383.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "7610dae89799",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "simplexai-labs/linger",
+   "url": "https://github.com/simplexai-labs/linger",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC. We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+   "heat": 0.775,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2889.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 10,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "eb91946ecbe1",
+   "score": 6.75,
+   "title_zh": "",
+   "summary_zh": "完全在本地运行的个人 AI 代理，旨在打破科技巨头对 AI 的控制。",
+   "tags": [
+    "开源工具",
+    "个人代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+   "heat": 0.578,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 101.0,
+    "stars": 45964.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "ace09be0a9c3",
+   "score": 6.48,
+   "title_zh": "",
+   "summary_zh": "完全离线的 ChatGPT 开源替代品，可在本地电脑运行。",
+   "tags": [
+    "开源工具",
+    "本地部署"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mjmirza/app-store-compliance",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+   "heat": 0.845,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 869.0,
+    "stars": 2741.0
+   },
+   "extra": {
+    "language": "Shell",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "420e52b47a4c",
+   "score": 6.41,
+   "title_zh": "",
+   "summary_zh": "开源指南，包含 117 种常见应用商店拒绝模式及修复方案。",
+   "tags": [
+    "开源工具",
+    "应用开发"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "langgenius/dify 1.20.0",
+   "url": "https://github.com/langgenius/dify/releases/tag/1.20.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-18T09:55:28Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "**Dify 1.20.0 keeps your traces flowing and your knowledge bases safer.** Export traces to any OpenTelemetry collector, keep Langfuse working after its legacy ingestion endpoint retirement, and scan uploaded knowledge files for malware before they are indexed. Chatflows can show Agent tool activity as it happens, and personal access tokens let scripts and agents call the Dify OpenAPI on your behalf. The bundled plugin daemon is upgraded to **0.6.15-local**. [New Features](#user-content-new-features) · [Configuration and Integration Changes](#user-content-configuration-and-integration-changes) · [Database Migrations](#user-content-database-migrations) · [Upgrade Guide](#user-content-upgrade-guide) ## New Features ### New HITL: bring approvals into your team's messaging tools **Integrate human review into your workflows via email and the messaging tools your team already uses.** New HITL introduces shared channels, centralized contacts, notification templates, and verified approval forms—allowing your team to configure recipients once and reuse them across Human Input nodes, and is now enabled by default (`NEXT_PUBLIC_ENABLE_HITL_IM=true`). (#44864, #45945) * **Reach approvers where they work.** Configure email and an IM platform—**Slack, Feishu/Lark, Microsoft Teams, DingTalk, or WeCom**—to deliver workflow review requests through your team's existing channels. * **Manage recipients in Contacts.** Sync IM directories and select approvers from a shared contact list. Workflows…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "295fc122b36a",
+   "score": 6.06,
+   "title_zh": "",
+   "summary_zh": "Dify 1.20.0 支持导出追踪数据到 OpenTelemetry 收集器，并扫描知识库文件中的恶意软件。",
+   "tags": [
+    "开源工具",
+    "知识库"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+   "url": "https://arxiv.org/abs/2611.20882",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-16T10:52:59Z",
+   "summary": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and permitted edits, leaving agents to choose where and how to optimize. Public testing supports iterative development, and a separate verifier scores the final submission. On benchmark version 1.1, we evaluate 16 coding agents, each pairing a model with a harness. Their Score@1 ranges from 25.5% to 67.4%. Most of their programs are correct, and the size of the speedup separates them: the two leading agents are at least 2x faster on 22 or more of the 32 tasks, while the other fourteen reach 2x on 8 to 17 and leave 125 of their 412 correct outcomes below 1.25x. Controlled replays show why coordination across an application matters: identical source code runs between 0.29x and 2.12x depending only on build and runtime settings, and one code change is worth 1.01x or 6.4x depending on another. Accelerate Bench pairs executable workloads with agents' programs and trajectories to evaluate both their gains and the process behind them.",
+   "heat": 0.525,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 19.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/AdAstraAbyssoque/accelerate-bench"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "51bab1455c66",
+   "score": 6.37,
+   "title_zh": "Accelerate Bench：应用级程序优化智能体评测",
+   "summary_zh": "为解决应用级程序优化中智能体发现有用变更并协调完整程序的问题，论文提出了 Accelerate Bench 基准。该基准包含 32 个 CPU 优化任务，评估了 16 个编码智能体。结果显示，智能体在 32 个任务上的 Score@1 范围为 25.5% 到 67.4%，领先者至少在 22 个任务上实现 2 倍加速。",
+   "tags": [
+    "智能体",
+    "评测",
+    "程序优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management",
+   "url": "https://arxiv.org/abs/2611.26427",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-19T17:05:55Z",
+   "summary": "Long-term agents accumulate large external memory stores as interactions unfold, increasing the costs of storage, retrieval, and response generation. Efficiency is constrained by two coupled factors: a growing record count increases retrieval overhead, while longer retrieved contexts increase prefill computation and decoding-time attention costs. Existing methods prune or consolidate records, but pruning can discard useful evidence, whereas consolidation may produce fewer yet longer retrieval units. We introduce MemFolder, a structure-guided memory folding framework that sequentially reduces record count and context length. The framework comprises two core components that share memory groups, using cross-record structure to guide both evidence consolidation and compact representation. RecordFolder grounds entity mentions, progressively selects representative yet complementary anchors, and combines semantic and entity affinity with temporal chaining to consolidate compatible records into fewer retrieval units. ContextFolder encodes the original records within these groups into compact text and uses verification feedback to revise encodings when key facts cannot be recovered. Experiments on the three text-based memory benchmarks LoCoMo, PersonaMem, and LongMemEval and the two multimodal benchmarks M3-Bench-web and M3-Bench-robot demonstrate the strong performance of our methods. Notably, on Mem0, RecordFolder retains 99.0% of the original average performance across the three t…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "585e3c3f7fab",
+   "score": 6.27,
+   "title_zh": "MemFolder：结构引导的记忆折叠",
+   "summary_zh": "为解决长期智能体记忆管理中存储、检索和响应生成成本增加的问题，论文提出了 MemFolder 框架。该框架通过 RecordFolder 和 ContextFolder 两个组件，利用跨记录结构引导证据整合和紧凑表示。实验表明，该方法在多个基准上表现良好，在 Mem0 上保持了 99.0% 的原始平均性能。",
+   "tags": [
+    "智能体",
+    "长上下文",
+    "记忆管理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NariQ: Sub-3-Bit Quantization for Long-Horizon Agentic Tasks",
+   "url": "https://arxiv.org/abs/2611.26157",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-19T14:13:27Z",
+   "summary": "Long-horizon agentic tasks require a model to call tools over many steps at contexts of 100K tokens or more, yet many low-bit quantization methods are calibrated on short web text and judged on perplexity. This mismatch is costly: existing quantizations of Qwen3.8-27B at or below 3 bits per weight match BF16 on shorter tasks like AIME, yet in published results solve at most 72% as many tasks as BF16 on DeepSWE, a long-horizon agentic benchmark. We propose NariQ, a trellis-coded post-training quantization method that calibrates on tokens generated by the BF16 model in agent sessions. On Qwen3.8-27B, NariQ at 3.0 and 2.5 bits per weight stays level with BF16 on two long-horizon agentic benchmarks, DeepSWE and Terminal Bench, as well as on AIME and RealWorldQA. Our checkpoint at 2.0 bits per weight trails this performance. To our knowledge, these are the first quantizations at or below 3 bits per weight shown to match their full-precision version on long-horizon agentic tasks. We release the files as Qwen3.8-27B-NariQ-GGUF (https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF), with inference available through our llama.cpp fork at https://github.com/nari-labs/nari-llama.cpp.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "7c178d59a2a5",
+   "score": 6.25,
+   "title_zh": "NariQ：长时序智能任务的亚 3 位量化",
+   "summary_zh": "为解决长时序智能任务中低比特量化方法在长上下文下性能下降的问题，论文提出了 NariQ 方法。该方法在 Qwen3.8-27B 模型上实现了 3.0 和 2.5 位权重的量化，在 DeepSWE 和 Terminal Bench 等长时序智能基准上与 BF16 性能持平。这是首次在长时序智能任务中展示的亚 3 位量化方法。",
+   "tags": [
+    "高效推理",
+    "量化",
+    "长上下文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+   "url": "https://arxiv.org/abs/2611.21373",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-16T16:36:14Z",
+   "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does not directly improve the forensic capabilities of fixed experts. We introduce WeVisForensics, an agentic framework in which a main investigator agent coordinates a self-evolving library of forensic inspector sub-agents spanning visual and audio cues. The investigator learns which artifact type to examine, over which window, and when to conclude, and these interactions provide shared feedback for both levels of agents. Our dual-timescale policy optimization strategy, DTPO, closes this loop through fast reinforcement learning of the investigator and slower refinement of the inspectors, guided by annotated artifact intervals, to report subtle artifacts they once dismissed. Furthermore, we curate ForenCue-30K, combining role-specific forensic annotations and interaction trajectories to supervise individual inspections and their coordination, with an accompanying reinforcement-learning pool. Experiments show that WeVisForensics averages 95.2% detection accuracy across in-domain, out-of-domain and agentic benchmarks, 9.0% above the strongest prior detector, while ground…",
+   "heat": 0.685,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 49.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Tencent/WeVisForensics"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "044cbece4c9d",
+   "score": 6.11,
+   "title_zh": "WeVisForensics：全 AI 生成视频检测的进化智能体",
+   "summary_zh": "为解决当前视频检测方法依赖单次推理或固定多智能体工作流的问题，论文提出了 WeVisForensics 框架。该框架包含一个主调查智能体和自进化检测子智能体库，通过双时间尺度策略优化策略 DTPO 进行强化学习。实验显示，该方法在多个基准上的检测准确率达到 95.2%，比最强先验检测器高 9.0%。",
+   "tags": [
+    "智能体",
+    "视频检测",
+    "多模态"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Sightline: Long-Window Speculative Decoding for Fast SVG Generation",
+   "url": "https://arxiv.org/abs/2611.23807",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-18T04:12:31Z",
+   "summary": "Scalable Vector Graphics (SVG) generation models write a graphic as code with one forward pass per token, so drawing is slow. Speculative decoding speeds them up losslessly, and block drafters guess many tokens per pass. On SVG, many of their rounds accept the whole draft and end only at the verification window. We find that their misses are rare and clumped, and that they stay accurate far deeper into a block than on natural language. A run-length identity and three propositions show that a longer window pays once the candidates are wide, up to the drafter's horizon. We propose Sightline, which pairs a window as long as the drafter's horizon with a draft tree wide enough to fill it. Experiments cover text-to-SVG and image-to-SVG with three models on six benchmarks from MMSVG, MMSVG-2M and SArena. In every setting, Sightline is the fastest of the compared lossless decoders. On SArena, it stays the fastest when every decoder shares one loop control. It also leads in almost every setting of six models from four other families, which write SVG code, compressed SVG tokens or Lottie JSON. Analyses trace the lead to rounds that shorter windows cut off, both in loop-free content and in loops. Speculative decoding also saves time for choosing samples by rendering, which beats choosing by likelihood. These results suggest that speculative decoding on vector graphics should verify as far as the drafter sees. Code and data are available at https://github.com/LiZaiyuan0619/Sightline.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "783b22effef8",
+   "score": 6.06,
+   "title_zh": "Sightline：SVG 生成的高速长窗口推测解码",
+   "summary_zh": "为解决 SVG 生成模型因逐 token 前向传播导致的速度慢问题，论文提出了 Sightline 方法。该方法通过长窗口与宽草稿树的结合，在 MMSVG、SArena 等六个基准上实现了最快的无损解码速度。实验表明，推测解码在矢量图形上应验证到草稿者的视野范围。",
+   "tags": [
+    "高效推理",
+    "SVG 生成",
+    "推测解码"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-21",
+  "start": "2026-11-21",
+  "end": "2026-11-21",
+  "title": "语言模型可自行重写权重",
+  "generated_at": "2026-11-21T00:47:19Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-20",
+   "end": "2026-11-20"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 2 个 PR、提交 4 次",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 2 个有人参与开发，共新增 PR 2 个、合并 2 个，提交 4 次，新增代码 3403 行、删除 593 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 2 个 PR",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 2 个、提交 2 次、新增代码 2851 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 提交 2 次",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库提交 2 次、新增代码 552 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM 原生支持 Inkling 2 Mini",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "vLLM 原生支持 Thinking Machines 的 Inkling 2 Mini，这是一种循环 MoE 模型。",
+    "url": "https://vllm.ai/blog/2026-11-20-inkling2-mini",
+    "via": "vLLM 博客",
+    "id": "524fb8fc2e36",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "autoclip：开源 AI 视频剪辑工具",
+    "when": "11月21日消息",
+    "date": "2026-11-21",
+    "body": "开源 AI 视频剪辑工具，一键将长视频剪成短视频并生成字幕。",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "via": "GitHub Trending",
+    "id": "d941cdc9a6e3",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "neonclipping：本地开源剪辑引擎",
+    "when": "11月21日消息",
+    "date": "2026-11-21",
+    "body": "本地开源剪辑引擎，粘贴链接即可在约 2 分钟内生成带字幕的 9:16 短视频。",
+    "url": "https://github.com/iamajmeena/neonclipping",
+    "via": "GitHub 新项目",
+    "id": "b9a1ff778498",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "agentscope：构建可理解可信任的智能体",
+    "when": "11月21日消息",
+    "date": "2026-11-21",
+    "body": "agentscope 是一个用于构建和运行智能体的框架。",
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "via": "GitHub Trending",
+    "id": "7610dae89799",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "linger：完全在本地运行的个人 AI 代理",
+    "when": "11月21日消息",
+    "date": "2026-11-21",
+    "body": "完全在本地运行的个人 AI 代理，旨在打破科技巨头对 AI 的控制。",
+    "url": "https://github.com/simplexai-labs/linger",
+    "via": "GitHub 新项目",
+    "id": "eb91946ecbe1",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI 提出对抗蒸馏分层防护方法",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "OpenAI 采用分层方法结合训练、防护、检测和执行，以防止能力提取。",
+    "url": "https://openai.com/index/combatting-adversarial-distillation",
+    "via": "OpenAI",
+    "id": "bab9b9b98c77",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Frostbite：AI 发现并验证的新型 CPU 架构",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "AI 系统发现并验证了 Frostbite CPU，能效比现代超标量 CPU 高 4.59 倍。",
+    "url": "https://architectlabs.com/blog/frostbite",
+    "via": "Hacker News",
+    "id": "c68595a7dab2",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "语言模型可自行重写权重",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "语言模型通过自身推理重写权重，无需梯度和训练即可变强。",
+    "url": "https://arxiv.org/abs/2611.21885",
+    "via": "Hacker News",
+    "id": "4deaf143f27a",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "METR 更新 AI 能力时间跨度图",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "METR 报告更新了时间跨度图，指出部分 AI 能力呈指数级提升，但模型在需要判断的任务上不如编程任务表现好。",
+    "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+    "via": "MIT 科技评论",
+    "id": "12a96840525c",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "4deaf143f27a": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "语言模型可自行重写权重",
+    "body": "语言模型通过自身推理重写权重，无需梯度和训练即可变强。"
+   },
+   "bab9b9b98c77": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI 提出对抗蒸馏分层防护方法",
+    "body": "OpenAI 采用分层方法结合训练、防护、检测和执行，以防止能力提取。"
+   },
+   "c68595a7dab2": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Frostbite：AI 发现并验证的新型 CPU 架构",
+    "body": "AI 系统发现并验证了 Frostbite CPU，能效比现代超标量 CPU 高 4.59 倍。"
+   },
+   "c6c8f53811c3": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 在纳斯达克上市",
+    "body": "Anthropic 在纳斯达克上市。"
+   },
+   "5a677681d816": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": "作者因试图修复产品安全漏洞被 AI 安全机制阻止，引发对 AI 安全机制的讨论。"
+   },
+   "e4a4e3aa3282": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Hebbia 测试 GPT-6 Astra",
+    "body": "Hebbia 测试 GPT-6 Astra，发现其在来源覆盖、引用相关性和展示质量方面有提升。"
+   },
+   "a079da582b37": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude 自写推理引擎",
+    "body": "你让 AI 帮忙修一个登录报错，照着它的建议改完代码，重新跑了一遍登录测试，终端又弹出一行红字，报的还是同一个错。"
+   },
+   "041b00989cda": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "GPT-6.2 自造全新证法",
+    "body": "刚刚，第三方评测机构 Vals AI 放出了高难数学基准 Autoform-Hard 的最新榜单。"
+   },
+   "12a96840525c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "METR 更新 AI 能力时间跨度图",
+    "body": "METR 报告更新了时间跨度图，指出部分 AI 能力呈指数级提升，但模型在需要判断的任务上不如编程任务表现好。"
+   },
+   "550ba5112f8b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "黎曼猜想被证明",
+    "body": "34 岁数学家 Levent Alpöge 与 Claude 合作，发布了黎曼猜想的 Lean 形式化证明代码。"
+   },
+   "d941cdc9a6e3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "autoclip：开源 AI 视频剪辑工具",
+    "body": "开源 AI 视频剪辑工具，一键将长视频剪成短视频并生成字幕。"
+   },
+   "524fb8fc2e36": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 原生支持 Inkling 2 Mini",
+    "body": "vLLM 原生支持 Thinking Machines 的 Inkling 2 Mini，这是一种循环 MoE 模型。"
+   },
+   "b9a1ff778498": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "neonclipping：本地开源剪辑引擎",
+    "body": "本地开源剪辑引擎，粘贴链接即可在约 2 分钟内生成带字幕的 9:16 短视频。"
+   },
+   "7610dae89799": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agentscope：构建可理解可信任的智能体",
+    "body": "agentscope 是一个用于构建和运行智能体的框架。"
+   },
+   "eb91946ecbe1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "linger：完全在本地运行的个人 AI 代理",
+    "body": "完全在本地运行的个人 AI 代理，旨在打破科技巨头对 AI 的控制。"
+   },
+   "ace09be0a9c3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "jan：完全离线的 ChatGPT 开源替代品",
+    "body": "完全离线的 ChatGPT 开源替代品，可在本地电脑运行。"
+   },
+   "420e52b47a4c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "app-store-compliance：开源应用商店合规指南",
+    "body": "开源指南，包含 117 种常见应用商店拒绝模式及修复方案。"
+   },
+   "295fc122b36a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Dify 发布 1.20.0 版本",
+    "body": "Dify 1.20.0 支持导出追踪数据到 OpenTelemetry 收集器，并扫描知识库文件中的恶意软件。"
+   },
+   "51bab1455c66": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Accelerate Bench：应用级程序优化智能体评测",
+    "body": "论文提出了 Accelerate Bench 基准，包含 32 个 CPU 优化任务，评估了 16 个编码智能体。"
+   },
+   "585e3c3f7fab": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "MemFolder：结构引导的记忆折叠",
+    "body": "论文提出了 MemFolder 框架，通过 RecordFolder 和 ContextFolder 组件解决长期智能体记忆管理问题。"
+   },
+   "7c178d59a2a5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "NariQ：长时序智能任务的亚3位量化",
+    "body": "论文提出NariQ方法，在Qwen3.8-27B模型上实现3.0和2.5位权重量化，在长时序智能基准上与BF16性能持平。"
+   },
+   "044cbece4c9d": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WeVisForensics：全AI生成视频检测的进化智能体",
+    "body": "论文提出WeVisForensics框架，包含主调查智能体和自进化检测子智能体库，在多个基准上的检测准确率达到95.2%。"
+   },
+   "783b22effef8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Sightline：SVG生成的高速长窗口推测解码",
+    "body": "论文提出Sightline方法，通过长窗口与宽草稿树结合，在MMSVG、SArena等六个基准上实现了最快的无损解码速度。"
+   }
+  }
+ }
+}

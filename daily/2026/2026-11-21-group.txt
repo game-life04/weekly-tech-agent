@@ -1,0 +1,35 @@
+【每日科技快讯】11月21日 周六
+今日 AI 与开源要闻 12 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 2 个 PR、提交 4 次
+2. AtomGit-Mobile4Android 合并 2 个 PR
+3. AtomGit-mobile4Harmony 提交 2 次
+
+【开源项目】
+4. vLLM 原生支持 Inkling 2 Mini
+→ vLLM 原生支持 Thinking Machines 的 Inkling 2 Mini，这是一种循环 MoE 模型。
+5. autoclip：开源 AI 视频剪辑工具
+→ 开源 AI 视频剪辑工具，一键将长视频剪成短视频并生成字幕。
+6. neonclipping：本地开源剪辑引擎
+→ 本地开源剪辑引擎，粘贴链接即可在约 2 分钟内生成带字幕的 9:16 短视频。
+7. agentscope：构建可理解可信任的智能体
+→ agentscope 是一个用于构建和运行智能体的框架。
+8. linger：完全在本地运行的个人 AI 代理
+→ 完全在本地运行的个人 AI 代理，旨在打破科技巨头对 AI 的控制。
+
+【学术前沿】
+9. OpenAI 提出对抗蒸馏分层防护方法
+→ OpenAI 采用分层方法结合训练、防护、检测和执行，以防止能力提取。
+10. Frostbite：AI 发现并验证的新型 CPU 架构
+→ AI 系统发现并验证了 Frostbite CPU，能效比现代超标量 CPU 高 4.59 倍。
+11. 语言模型可自行重写权重
+→ 语言模型通过自身推理重写权重，无需梯度和训练即可变强。
+12. METR 更新 AI 能力时间跨度图
+→ METR 报告更新了时间跨度图，指出部分 AI 能力呈指数级提升，但模型在需要判断的任务上不如编程任务表现好。
+
+【活动预告】
+· 12月3日 EuroVis 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-21-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
