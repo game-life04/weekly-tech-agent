@@ -1,0 +1,1437 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-21T23:47:25Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 446,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 50,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.8
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 8.5
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 50,
+   "error": "",
+   "seconds": 10.5
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 346,
+   "error": "",
+   "seconds": 22.1
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 6,
+   "error": "",
+   "seconds": 19.0
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 21.0
+  }
+ ],
+ "items": [
+  {
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "url": "https://openai.com/index/introducing-medchembench",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "8a4cf7fa5e14",
+   "score": 8.08,
+   "title_zh": "AI能否帮助科学家识别有前景的药物候选物？",
+   "summary_zh": "MedChemBench评估AI模型在早期药物发现中解读分子结构、从实验证据推理和选择化合物的能力。",
+   "tags": [
+    "模型发布",
+    "药物发现",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Inkling 2 Mini",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-20T20:12:19Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1362.0,
+    "comments": 277.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50581260",
+    "needs_review": true,
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Inkling 2 Mini is an open-weights model small enough to run on your laptop. It loops its middle layers to reason more per token and reach answers in fewer tokens. Today we are releasing Inkling 2 Mini, a fast, powerful model that’s small enough to run on your laptop. Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality. Inkling 2 Mini leads every open-weights model with less than 100B total parameters on benchmarks such as DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%). It runs faster than similarly performing models as well. Inkling 2 Mini is a Mixture-of-Experts mod…",
+    "llm_done": true
+   },
+   "id": "f8b92555d99d",
+   "score": 8.06,
+   "title_zh": "Inkling 2 Mini：可在笔记本运行的模型",
+   "summary_zh": "Inkling 2 Mini 是一个可在笔记本运行的轻量级开源模型，通过循环中间层提升推理能力。",
+   "tags": [
+    "模型发布",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-20T13:29:59Z",
+   "summary": "",
+   "heat": 0.998,
+   "weight": 0.6,
+   "metrics": {
+    "points": 493.0,
+    "comments": 857.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50574383",
+    "excerpt_tried": true,
+    "evidence": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout Who are Anthropic’s seven co-founders, now worth $180bn? As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with it. On Friday, the Nasdaq Composite erased all its gains for 2026 and closed down 5% from its value on 1 January. The Dow Jones Industrial Average and S&P 500 closed in correction territory. Anthropic’s record-breaking IPO failed to stem a global sell-off in AI-linked companies, and the tech-heavy Nasdaq erased some $4tn in market value this week, according to the Wall Street Journal. Shares in the frontier AI company behind the Claude chatbot, which floated in the US on Thursday, fell by 9% on F…",
+    "llm_done": true
+   },
+   "id": "8d519d600cfe",
+   "score": 8.01,
+   "title_zh": "纳斯达克抹去2026年涨幅，Anthropic上市次日股价下跌",
+   "summary_zh": "受AI板块抛售影响，纳斯达克指数抹去2026年所有涨幅，Anthropic的IPO未能提振市场。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+   "url": "https://signal.org/blog/protecting-your-privacy/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-20T09:42:16Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 570.0,
+    "comments": 336.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50572348",
+    "excerpt_tried": true,
+    "evidence": "Privacy is our mission; it’s why we exist, and we do everything we can to protect it. This means that we are restricting the latest AI agents built into mobile operating systems from potentially capturing and storing your Signal data. We’ve already had to do this once with Windows. Last year, we used screenshot blocking to prevent Microsoft’s Recall AI from taking and storing screenshots of your Signal messages on Windows 11 operating systems by default. 1 We will now be taking similar measures to restrict agentic systems built into iOS 27 and on Android versions where we can detect an AI assistant attempting to read your Signal screen. 2 The problem is similar to Microsoft Recall on Windows: Google and Apple are integrating agentic capabilities like Gemini Intelligence with Google Gemini…",
+    "llm_done": true
+   },
+   "id": "9a5c17e015f9",
+   "score": 7.95,
+   "title_zh": "移动操作系统限制AI代理捕获数据",
+   "summary_zh": "为保护隐私，移动操作系统限制AI代理捕获和存储Signal数据，类似措施已在Windows上实施。",
+   "tags": [
+    "隐私保护",
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Google workers tell their employer not to punish schools that don't want AI",
+   "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-20T16:59:27Z",
+   "summary": "",
+   "heat": 0.906,
+   "weight": 0.6,
+   "metrics": {
+    "points": 279.0,
+    "comments": 226.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50577901",
+    "excerpt_tried": true,
+    "evidence": "Executives are “convinced that resistance to AI\" just means schools \"don’t see the vision,” a Google staffer said. Chromebooks are distributed to students through a fence at a Los Angeles Unified School District high school for during the Covid quarantine. Sarah Reingewirtz/MediaNews Group/Pasadena Star-News/Getty Hundreds of workers at Google are pushing senior leadership to retract a policy that would block schools who turn off its Gemini AI tools from access to the company’s search engine starting next year. Google made the surprise announcement two weeks ago, on Election Day, with executives saying they wanted to address teachers and parents’ concerns around AI in the classroom. Since then, communities across the country have protested Google’s tight hold on tech in many schools. As I…",
+    "llm_done": true
+   },
+   "id": "3c812463abe1",
+   "score": 7.61,
+   "title_zh": "",
+   "summary_zh": "数百名谷歌员工要求公司撤回政策，不因学校关闭Gemini工具而切断其搜索引擎访问权限。",
+   "tags": [
+    "行业动态"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+   "url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+   "source": "rss",
+   "section": "news",
+   "via": "Apple 机器学习研究",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution. Depth Pro 2 produces dep…",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "2e19ab523196",
+   "score": 7.28,
+   "title_zh": "Depth Pro 2：清晰且时间一致的度量单目深度",
+   "summary_zh": "Depth Pro 2通过单一可扩展网络处理图像和视频，在全分辨率下预测深度图，克服了时间一致性和边界清晰度的权衡。",
+   "tags": [
+    "计算机视觉",
+    "模型发布",
+    "苹果"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+   "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-11-20T23:30:30Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "Yossi Matias, Vice President, Google & GM, Google Research, Yaniv Leviathan, Google Fellow, Google Research, and Janet Zhou, Group Product Manager, Google Maps When we introduced Google Duplex in 2018, it pioneered natural voice conversations between AI and local businesses over the phone. Since then, this technology has worked behind the scenes across many Google products. These capabilities are integrated directly in Tasks in Gemini . Completing tasks like making dinner reservations or booking a hair appointment is time consuming. Live phone conversations move fast and rarely follow a script. The person on the other end can say almost anything, often revising their thoughts mid-sentence – and people often rely on subtle tone changes to indicate whose turn it is to speak. Pause half a se…",
+    "llm_done": true
+   },
+   "id": "63b8e3d4c8d4",
+   "score": 7.16,
+   "title_zh": "Google Duplex 如何演变为在 Gemini 中帮你给商家打电话",
+   "summary_zh": "Google Duplex 技术已集成到 Gemini 的 Tasks 中，可自动完成晚餐预订等任务，无需人工干预。",
+   "tags": [
+    "行业动态",
+    "语音交互",
+    "Google"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nvidia researchers argue huge AI context windows are a dead end",
+   "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-21T16:23:45Z",
+   "summary": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even proposes a new class of models that works with short notes instead of long context. The article Nvidia researchers argue huge AI context windows are a dead end appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "816af3ca0938",
+   "score": 7.12,
+   "title_zh": "Nvidia 研究员认为巨大的 AI 上下文窗口是死胡同",
+   "summary_zh": "Nvidia 研究员提出替代方案，通过周期性摘要和关键词搜索匹配全上下文结果，并建议使用短上下文模型。",
+   "tags": [
+    "推理加速",
+    "行业动态",
+    "Nvidia"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "27B！穆拉蒂开源“循环脑”模型：笔记本跑Agent起飞！",
+   "url": "https://zhidx.com/p/613053.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-21T01:56:30Z",
+   "summary": "智东西 编译 | 李水青 编辑 | 心缘 智东西11月21日消息，今日，由前OpenAI CTO 米拉·穆拉蒂（Mira Murati） 联合创办的AI独角兽Thinking Machines Lab（简称：TML）推出一个新混合专家模型—— Inkling 2 Mini 。该模型总参数达 27B ，激活参数达 3.4B ，每个token有 5.4B 权重激活值以应对 循环 ，兼顾小体积、快速度和较强性能，可在 笔记本 电脑上运行。 穆拉蒂在社交平台X上称：“Inkling 2 Mini是一款可在笔记本上运行的 循环Transformer 。循环机制让模型 思考更多、输出更少 。在当前这个规模下，它的思考过程仍 可监控 ；但未来未必如此。我们还将放出一款 可变循环研究模型 ，供业界进一步研究。” ▲TML联合创始人兼CEO米拉·穆拉蒂在社交平台X上发文 Inkling 2 Mini总内存占用约 20GB ，可在消费级笔记本和台式AI计算机等本地设备运行。TML研究人员曾把它带到飞机上，在MacBook Pro上离线运行，并 在几分钟内构建了一个可玩的飞行模拟器。 在DeepSWE v…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ef804c9d3db0",
+   "score": 6.82,
+   "title_zh": "27B！穆拉蒂开源“循环脑”模型：笔记本跑Agent起飞！",
+   "summary_zh": "Thinking Machines Lab 推出 Inkling 2 Mini 模型，总参数 27B，激活参数 3.4B，支持循环机制，可在笔记本上运行。",
+   "tags": [
+    "模型发布",
+    "开源",
+    "循环Transform…"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "url": "https://huggingface.co/blog/inkling2mini",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "We’re on a journey to advance and democratize artificial intelligence through open source and open science. TLDR; Inkling 2 Mini is a new looped transformer model. It’s a multimodal Mixture-of-Experts with ~26B physical total and 3B active parameters per token. It uses a neat trick to increase capacity: some layers are visited in a loop that repeats three times, which makes it work like it had more parameters. It supports a 1M-token context size, accepts images and text inputs. Thinking Machines Lab ships the model in a mixed-precision format, with NVFP4 and MXFP8 expert weights. A DSpark drafter is also included for additional speed-up at a small memory cost. Inkling 2 Mini is much, much smaller than Inkling 2 Small, and is designed for local AI setups. We think this is a refreshingly ne…",
+    "llm_done": true
+   },
+   "id": "a4f31a72ec57",
+   "score": 6.68,
+   "title_zh": "欢迎 Inkling 2 Mini，为本地设置提供前沿性能",
+   "summary_zh": "Inkling 2 Mini 是 Thinking Machines Lab 推出的循环 Transformer 模型，支持 1M token 上下文和图像输入。",
+   "tags": [
+    "模型发布",
+    "开源",
+    "Mixture-of-…"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tracer-Cloud/opensre",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "The open-source agent for CI/CD reliability.",
+   "heat": 0.763,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 450.0,
+    "stars": 13981.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f6df913aa0ba",
+   "score": 6.85,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "How to build a knowledge factory for AI agents",
+   "url": "https://www.langchain.com/blog/knowledge-factory",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-21T16:45:08Z",
+   "summary": "The knowledge factory is how LangChain keeps its agents' company knowledge current: agents flag what's missing, and a curator agent fixes it in the background.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "36da3aef8edf",
+   "score": 6.84,
+   "title_zh": "",
+   "summary_zh": "知识工厂是 LangChain 保持智能体公司知识更新的方式，智能体标记缺失内容，策展智能体在后台修复。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "知识管理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "thinkingmachines/Inkling-2-Mini",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图文理解模型，许可证 apache-2.0",
+   "heat": 0.812,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 2680.0,
+    "downloads": 7944.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/thinkingmachines/Inkling-2-Mini"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "271b21f5036d",
+   "score": 6.82,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "魔搭 ModelScope 热门模型"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "heat": 0.664,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 202.0,
+    "stars": 11927.0
+   },
+   "extra": {
+    "language": "C++",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d96d67a4929c",
+   "score": 6.65,
+   "title_zh": "",
+   "summary_zh": "OpenVINO 是一个开源的AI推理优化和部署工具包，旨在提升模型在各类设备上的运行效率。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Fission-AI/OpenSpec",
+   "url": "https://github.com/Fission-AI/OpenSpec",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Spec-driven development (SDD) for AI coding assistants.",
+   "heat": 0.559,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 87.0,
+    "stars": 75424.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "151f8398c0a5",
+   "score": 6.44,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "huggingface/transformers v5.24.0",
+   "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-21T12:28:26Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# Release v5.24.0 ## New Model additions ### Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism in which layers 6 to 17 run three times. A learned message-passing mechanism mixes the residuals of the previous pass into the attention and mixture-of-experts inputs of each loop layer. The decoder has a hidden size of 2304 and routes each token to 8 of 128 experts. The image encoder, tokenizer and processor are the same as Inkling 2 Small's. A research checkpoint ([TML-d24-varloop-research](https://huggingface.co/thinkingmachines/TML-d24-varloop-research)) has the same architecture but supports a variable number of loop passes. Fewer passes are faster, and more passes improve quality. Both checkpoints contain NVFP4 and MXFP8 quantized layers, which are dequantized at load time. **Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/inkling2_loop) | [Blog Post](https://thinkingmachines.ai/news/inkling-2-mini/) | [HF Blog Post](https://huggingface.co/blog/inkling2mini) * Add Inkling2 Mini (#51050) by @guarin ### Apertus 1.5 Apertus 1.5 is a multimodal model from the Swiss AI Initiative that accepts text, images and audio and generates text. It extends the Apertus language model with the EMU3.5 vision tokenizer for images…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "76c545905db1",
+   "score": 6.42,
+   "title_zh": "",
+   "summary_zh": "huggingface/transformers v5.24.0 新增 Inkling 2 Mini 模型，支持文本和图像输入，具有循环机制和 128 个专家。",
+   "tags": [
+    "开源工具",
+    "模型发布",
+    "Transformers"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "danielwh2/sprite-stacking",
+   "url": "https://github.com/danielwh2/sprite-stacking",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
+   "heat": 0.806,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 362.0
+   },
+   "extra": {
+    "language": "HTML",
+    "age_days": 1,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "a2e5e20500d6",
+   "score": 6.21,
+   "title_zh": "",
+   "summary_zh": "Agent技能工具，可将四个像素艺术视图转换为可旋转的假3D精灵，支持多种代码编辑器。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ersinkoc/phonebox",
+   "url": "https://github.com/ersinkoc/phonebox",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+   "heat": 0.794,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 4637.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 14,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "ef783a273674",
+   "score": 6.19,
+   "title_zh": "",
+   "summary_zh": "将旧安卓手机改装为Windows、Linux和macOS的桌面控制面板，支持多种小部件和语言。",
+   "tags": [
+    "开源工具",
+    "硬件改造"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
+   "url": "https://arxiv.org/abs/2611.23751",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-18T03:05:41Z",
+   "summary": "Autonomous LLM agents incur substantial cost and latency by invoking a large model (System-2) at every step, even when many intermediate actions choose among a small set of known candidates. Existing dual-system agents offload such decisions to a lightweight System-1 model, but rely on workflow-specific hooks authored per environment. We present AnyS1, a framework that turns human-authored procedural skills, whose instructions naturally specify where choices arise and which options apply, into a shared, domain-general source of decision points. Offline, AnyS1 mines grounded enumerable decisions across over 1,000 public skills, gathers execution-grounded trajectory states inside isolated containers to construct Any-DP, and trains a single calibrated 4B pointer System-1 with label smoothing. At run time, compiled workflows resolve routine decisions in one forward pass and fall back to System-2 when confidence falls below a calibrated threshold. Across three unseen benchmarks and distinct System-2 model families, AnyS1 preserves task reliability while cutting episode cost by 75-91% and model-call time by 63-92% relative to an uncompiled System-2 agent, and maintains performance under zero-shot threshold transfer.",
+   "heat": 0.496,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 16.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/middle-chunjie/AnyS1"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "5338508548af",
+   "score": 6.36,
+   "title_zh": "",
+   "summary_zh": "现有双系统智能体依赖特定工作流钩子，AnyS1将人类编写的程序技能转化为共享的通用决策点。通过离线挖掘和训练，AnyS1在保持任务可靠性的同时，将成本和模型调用时间分别降低了75-91%和63-92%。",
+   "tags": [
+    "智能体",
+    "推理加速",
+    "系统设计"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+   "url": "https://arxiv.org/abs/2611.23835",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-18T04:40:10Z",
+   "summary": "Speculative decoding is widely used to speed up generation in large language models (LLMs), with a small draft model proposing tokens that one forward pass of the target model verifies. Draft models that read the target's hidden states, such as DFlash and EAGLE-3, typically inherit the target's hidden width. We show that the draft's whole residual stream can run at half or a quarter of that width while largely preserving acceptance. For DFlash, which borrows the target's vocabulary projection, the trained output adapter folds into it, giving one narrower projection with logits unchanged up to floating-point rounding. We test two drafter families, DFlash and EAGLE-3, on two targets, Qwen3-8B (NVFP4) and GPT-OSS-20B (MXFP4), in SGLang on a B200 and a DGX Spark (GB10). At batch size 1 and temperature 0, narrowing the draft to half or a quarter width speeds up end-to-end decoding by 1.06-1.12x on B200 and 1.13-1.44x on GB10. The speedup holds at larger batch sizes. From batch 32 to the largest batch each GPU fits, narrowing reaches up to 1.21x on both GPUs, and no narrow draft is slower than full width.",
+   "heat": 0.314,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 5.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "a989c418dc1c",
+   "score": 6.0,
+   "title_zh": "NarrowSpec：草案隐藏宽度不必匹配目标",
+   "summary_zh": "草案模型通常继承目标模型的隐藏宽度，NarrowSpec表明草案的残差流可以以一半或四分之一宽度运行，同时保持较高的接受率。在B200和DGX Spark上，将草案宽度减半或减至四分之一可分别实现1.06-1.12倍和1.13-1.44倍的速度提升。",
+   "tags": [
+    "推理加速",
+    "高效推理",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility",
+   "url": "https://arxiv.org/abs/2611.21478",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-16T17:50:53Z",
+   "summary": "Whether a stored memory helps answer a user's question often depends on world knowledge rather than surface similarity. Jetriever replaces similarity search with full-pool utility scoring: given a query, it uses Jev, an LLM-derived System One decision model, to score every stored memory for the probability that it is useful to the answer, ranking the memory pool directly by those probabilities. On InMind's 125 indirect-query tasks, Jetriever places the gold exchange first in 84.8% of cases (versus 1.6% for BM25 and 0.0% for MiniLM with user-turn indexing) and reaches 76.0% end-to-end Application, compared with at most 16.0% across published retrieval and memory systems. A controlled 20-question comparison disentangles recognizing implicit evidence from ranking it properly: Jev and Qwen3.5-9B both recover 90% of gold exchanges within the top 50 (versus 30% for the BERT-based decision model Laya), yet at rank 1 Jev reaches 85% while Qwen3.5-9B drops to 40%. On a dimension-proportional random sample of 60 MemoryAgentBench questions, Jetriever raises the four-dimension average from 44.3% (ReFind) to 55.4%, at a mean retrieval cost of USD 0.00834 per InMind query and USD 0.03103 per MAB query. Together, these results show that effective utility retrieval hinges on combining broad world knowledge, calibrated ranking probabilities, and affordable full-pool evaluation.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4e39ba9df723",
+   "score": 5.89,
+   "title_zh": "Jetriever：从相似性到效用",
+   "summary_zh": "Jetriever用效用评分替代相似性搜索，利用LLM决策模型对存储的记忆进行有用性评分。在InMind的125个间接查询任务中，Jetriever在84.8%的情况下将正确答案排在第一位，端到端应用准确率达到76.0%。",
+   "tags": [
+    "智能体",
+    "检索",
+    "长上下文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LoopFill: Pipelined Multi-Token Speculative Decoding for Looped Transformers",
+   "url": "https://arxiv.org/abs/2611.19649",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-14T22:35:41Z",
+   "summary": "Looped Transformers improve parameter efficiency by repeatedly applying the same Transformer layers. During autoregressive decoding, however, generating each token requires several sequential passes through these layers, leading to high decoding latency. Pipelined self-speculative methods use shallow-loop predictions to process tokens at different loops in the same batch, but each token must reach the drafting depth before the next can enter the pipeline. We introduce LoopFill, a training-free speculative decoding algorithm for looped LLM that combines multi-token suffix drafts with shallow-loop predictions in a single draft tree. Both drafters contribute to one tree, so a suffix lookup can immediately extend a shallow prediction and several future tokens can enter the pipeline together. The shared block computes the highest-scoring draft candidates at different loop depths in one batch, and full-depth verification preserves the model's autoregressive output distribution. Across seven benchmarks, LoopFill's average speedup over greedy autoregressive decoding is $5.85\\times$ on Ouro-2.6B and $5.13\\times$ on Huginn-3.5B. The speedups exceed those of LoopAhead, the strongest baseline, by \\(40\\%\\) on Ouro-2.6B and \\(25\\%\\) on Huginn-3.5B.",
+   "heat": 0.314,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 5.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "c40d66ad7ebe",
+   "score": 5.86,
+   "title_zh": "LoopFill：循环Transformer的流水线多令牌草案解码",
+   "summary_zh": "LoopFill是一种无训练的草案解码算法，结合多令牌后缀草案和浅层循环预测。在七个基准测试中，LoopFill在Ouro-2.6B和Huginn-3.5B上的平均加速比分别为5.85倍和5.13倍，超过最强基线LoopAhead。",
+   "tags": [
+    "推理加速",
+    "高效推理",
+    "Transformer"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Latency, Speech Recognition and Turn-Taking in Voice Agents for Spanish Phone Negotiation: An Externally Measured Comparison of Pipecat, LiveKit and GPT-Live",
+   "url": "https://arxiv.org/abs/2611.19118",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-11-14T03:02:24Z",
+   "summary": "A voice agent that negotiates by phone must answer quickly, understand spoken amounts and cope with a caller who talks over it. We compared three architectures for such an agent, negotiating freight rates in Spanish: two cascades (speech recognition, language model and speech synthesis) orchestrated by Pipecat and by LiveKit Agents, and GPT-Live, an OpenAI speech model that listens and speaks without separate stages. A program played the carrier with the same 47 recordings of one speaker for all agents, without the telephone network, in 77 calls per architecture over five negotiation scenarios, and measured latency on the listener's side with a validated instrument. Median latency to the content response was 2,616.0 ms (Pipecat), 3,090.0 ms (LiveKit) and 2,444.8 ms (GPT-Live); the confidence interval of GPT-Live's 171.2 ms advantage over Pipecat includes zero. According to its own timestamps, GPT-Live began to answer 800 ms after the end of the line, close to the 0.8 s published by OpenAI; most of the remaining wait, about 1,367 ms and nearly constant, is the audio's round trip through OpenAI's service. A tool call added 0.9-1.1 s in every architecture, more than any difference between them, and the frameworks' self-reported latency fell short of the listener's wait by 9% (Pipecat) and 22% (LiveKit). Word error rates were low (6.03, 4.93 and 1.47%), but the error on amounts was 13.01% and 12.61% in the cascades, against 2.86% in GPT-Live. With default settings, Pipecat and L…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "fb919c81601e",
+   "score": 5.81,
+   "title_zh": "语音代理延迟与识别对比",
+   "summary_zh": "研究比较了Pipecat、LiveKit和GPT-Live在西班牙语电话谈判中的延迟和语音识别表现。GPT-Live的端到端延迟最低，为2,444.8毫秒，词错误率最低，但金额识别错误率也最低。",
+   "tags": [
+    "语音",
+    "延迟优化",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-22",
+  "start": "2026-11-22",
+  "end": "2026-11-22",
+  "title": "OpenAI发布MedChemBench药物发现基准",
+  "generated_at": "2026-11-21T23:47:25Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-21",
+   "end": "2026-11-21"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 1 次",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 2 个、合并 1 个，提交 1 次，新增代码 2049 行、删除 32 行，2 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 2 个、合并 1 个、提交 1 次、新增代码 2049 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google Duplex 如何演变为在 Gemini 中帮你给商家打电话",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "Google Duplex 技术已集成到 Gemini 的 Tasks 中，可自动完成晚餐预订等任务，无需人工干预。",
+    "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+    "via": "Google Research",
+    "id": "63b8e3d4c8d4",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Inkling 2 Mini：轻量级推理模型",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "Inkling 2 Mini 是一个可在笔记本运行的轻量级开源模型，通过循环中间层提升推理能力。",
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "via": "Hacker News",
+    "id": "f8b92555d99d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "opensre：CI/CD可靠性智能体",
+    "when": "11月22日消息",
+    "date": "2026-11-22",
+    "body": "Tracer-Cloud开源opensre，这是一个用于CI/CD可靠性的智能体工具。",
+    "url": "https://github.com/Tracer-Cloud/opensre",
+    "via": "GitHub Trending",
+    "id": "f6df913aa0ba",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "LangChain发布知识工厂",
+    "when": "11月22日",
+    "date": "2026-11-22",
+    "body": "LangChain发布知识工厂，智能体标记缺失内容，策展智能体在后台修复，保持公司知识更新。",
+    "url": "https://www.langchain.com/blog/knowledge-factory",
+    "via": "LangChain 博客",
+    "id": "36da3aef8edf",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "OpenVINO：AI推理优化工具包",
+    "when": "11月22日消息",
+    "date": "2026-11-22",
+    "body": "openvinotoolkit开源OpenVINO，这是一个用于优化和部署AI推理的工具包。",
+    "url": "https://github.com/openvinotoolkit/openvino",
+    "via": "GitHub Trending",
+    "id": "d96d67a4929c",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "OpenSpec：AI编码助手规范驱动开发",
+    "when": "11月22日消息",
+    "date": "2026-11-22",
+    "body": "Fission-AI开源OpenSpec，为AI编码助手提供规范驱动的开发方式。",
+    "url": "https://github.com/Fission-AI/OpenSpec",
+    "via": "GitHub Trending",
+    "id": "151f8398c0a5",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI发布MedChemBench药物发现基准",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "OpenAI推出MedChemBench基准，用于评估AI模型在早期药物发现中解读分子结构和选择化合物的能力。",
+    "url": "https://openai.com/index/introducing-medchembench",
+    "via": "OpenAI",
+    "id": "8a4cf7fa5e14",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Apple发布Depth Pro 2单目深度模型",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "Apple发布Depth Pro 2，通过单一可扩展网络在全分辨率下预测深度图，克服了时间一致性和边界清晰度的权衡。",
+    "url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+    "via": "Apple 机器学习研究",
+    "id": "2e19ab523196",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "AnyS1：通用决策点框架",
+    "when": "11月22日消息",
+    "date": "2026-11-22",
+    "body": "AnyS1将人类编写的程序技能转化为共享的通用决策点，降低成本和模型调用时间。",
+    "url": "https://arxiv.org/abs/2611.23751",
+    "via": "arXiv · 智能体",
+    "id": "5338508548af",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "NarrowSpec：草案隐藏宽度优化",
+    "when": "11月22日消息",
+    "date": "2026-11-22",
+    "body": "NarrowSpec表明草案模型的残差流可以以一半或四分之一宽度运行，同时保持较高的接受率。",
+    "url": "https://arxiv.org/abs/2611.23835",
+    "via": "arXiv · 高效推理",
+    "id": "a989c418dc1c",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "8a4cf7fa5e14": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI发布MedChemBench药物发现基准",
+    "body": "OpenAI推出MedChemBench基准，用于评估AI模型在早期药物发现中解读分子结构和选择化合物的能力。"
+   },
+   "f8b92555d99d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Inkling 2 Mini：轻量级推理模型",
+    "body": ""
+   },
+   "8d519d600cfe": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic上市次日股价下跌",
+    "body": "Anthropic的IPO未能提振市场，纳斯达克指数抹去2026年涨幅。"
+   },
+   "9a5c17e015f9": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "移动操作系统限制AI代理捕获数据",
+    "body": "Signal限制移动操作系统中的AI代理捕获和存储数据，以保护用户隐私。"
+   },
+   "3c812463abe1": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "谷歌员工要求不惩罚关闭AI的学校",
+    "body": "数百名谷歌员工要求公司撤回政策，不因学校关闭Gemini工具而切断其搜索引擎访问权限。"
+   },
+   "2e19ab523196": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Apple发布Depth Pro 2单目深度模型",
+    "body": "Apple发布Depth Pro 2，通过单一可扩展网络在全分辨率下预测深度图，克服了时间一致性和边界清晰度的权衡。"
+   },
+   "63b8e3d4c8d4": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "",
+    "body": ""
+   },
+   "816af3ca0938": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Nvidia研究员讨论上下文窗口",
+    "body": "Nvidia研究员提出替代方案，通过周期性摘要和关键词搜索匹配全上下文结果，并建议使用短上下文模型。"
+   },
+   "ef804c9d3db0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a4f31a72ec57": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Hugging Face欢迎Inkling 2 Mini",
+    "body": "Hugging Face博客欢迎Thinking Machines Lab推出的Inkling 2 Mini，称其为支持1M token上下文和图像输入的循环Transformer模型。"
+   },
+   "f6df913aa0ba": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "opensre：CI/CD可靠性智能体",
+    "body": "Tracer-Cloud开源opensre，这是一个用于CI/CD可靠性的智能体工具。"
+   },
+   "36da3aef8edf": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain发布知识工厂",
+    "body": "LangChain发布知识工厂，智能体标记缺失内容，策展智能体在后台修复，保持公司知识更新。"
+   },
+   "271b21f5036d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Inkling-2-Mini：图文理解模型",
+    "body": "thinkingmachines发布Inkling-2-Mini图文理解模型，许可证为apache-2.0。"
+   },
+   "d96d67a4929c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenVINO：AI推理优化工具包",
+    "body": "openvinotoolkit开源OpenVINO，这是一个用于优化和部署AI推理的工具包。"
+   },
+   "151f8398c0a5": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenSpec：AI编码助手规范驱动开发",
+    "body": "Fission-AI开源OpenSpec，为AI编码助手提供规范驱动的开发方式。"
+   },
+   "76c545905db1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "transformers发布5.24.0版本",
+    "body": "huggingface/transformers发布5.24.0版本，新增Inkling 2 Mini模型，支持文本和图像输入，具有循环机制和128个专家。"
+   },
+   "a2e5e20500d6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "sprite-stacking：Agent技能工具",
+    "body": "danielwh2开源sprite-stacking，可将四个像素艺术视图转换为可旋转的假3D精灵。"
+   },
+   "ef783a273674": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "phonebox：旧安卓手机桌面控制面板",
+    "body": "ersinkoc开源phonebox，可将旧安卓手机改装为Windows、Linux和macOS的桌面控制面板。"
+   },
+   "5338508548af": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AnyS1：通用决策点框架",
+    "body": "AnyS1将人类编写的程序技能转化为共享的通用决策点，降低成本和模型调用时间。"
+   },
+   "a989c418dc1c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "NarrowSpec：草案隐藏宽度优化",
+    "body": "NarrowSpec表明草案模型的残差流可以以一半或四分之一宽度运行，同时保持较高的接受率。"
+   },
+   "4e39ba9df723": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Jetriever：从相似性到效用",
+    "body": "Jetriever用效用评分替代相似性搜索，利用LLM决策模型对存储的记忆进行有用性评分。"
+   },
+   "c40d66ad7ebe": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LoopFill：循环Transformer的流水线多令牌草案解码",
+    "body": "LoopFill是一种无训练的草案解码算法，结合多令牌后缀草案和浅层循环预测。"
+   },
+   "fb919c81601e": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "语音代理延迟与识别对比",
+    "body": "研究比较了Pipecat、LiveKit和GPT-Live在西班牙语电话谈判中的延迟和语音识别表现。"
+   }
+  }
+ }
+}

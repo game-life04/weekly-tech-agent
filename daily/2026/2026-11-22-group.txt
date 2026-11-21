@@ -1,0 +1,38 @@
+【每日科技快讯】11月22日 周日
+今日 AI 与开源要闻 12 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
+
+【海外动态】
+3. Google Duplex 如何演变为在 Gemini 中帮你给商家打电话
+→ Google Duplex 技术已集成到 Gemini 的 Tasks 中，可自动完成晚餐预订等任务，无需人工干预。
+
+【开源项目】
+4. Inkling 2 Mini：轻量级推理模型
+→ Inkling 2 Mini 是一个可在笔记本运行的轻量级开源模型，通过循环中间层提升推理能力。
+5. opensre：CI/CD可靠性智能体
+→ Tracer-Cloud开源opensre，这是一个用于CI/CD可靠性的智能体工具。
+6. LangChain发布知识工厂
+→ LangChain发布知识工厂，智能体标记缺失内容，策展智能体在后台修复，保持公司知识更新。
+7. OpenVINO：AI推理优化工具包
+→ openvinotoolkit开源OpenVINO，这是一个用于优化和部署AI推理的工具包。
+8. OpenSpec：AI编码助手规范驱动开发
+→ Fission-AI开源OpenSpec，为AI编码助手提供规范驱动的开发方式。
+
+【学术前沿】
+9. OpenAI发布MedChemBench药物发现基准
+→ OpenAI推出MedChemBench基准，用于评估AI模型在早期药物发现中解读分子结构和选择化合物的能力。
+10. Apple发布Depth Pro 2单目深度模型
+→ Apple发布Depth Pro 2，通过单一可扩展网络在全分辨率下预测深度图，克服了时间一致性和边界清晰度的权衡。
+11. AnyS1：通用决策点框架
+→ AnyS1将人类编写的程序技能转化为共享的通用决策点，降低成本和模型调用时间。
+12. NarrowSpec：草案隐藏宽度优化
+→ NarrowSpec表明草案模型的残差流可以以一半或四分之一宽度运行，同时保持较高的接受率。
+
+【活动预告】
+· 12月3日 EuroVis 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-22-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
