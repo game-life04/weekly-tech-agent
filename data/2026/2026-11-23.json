@@ -1112,13 +1112,13 @@
   "start": "2026-11-23",
   "end": "2026-11-23",
   "title": "OpenAI提出Perplexity衡量AI模型进展",
-  "generated_at": "2026-11-23T00:18:28Z",
+  "generated_at": "2026-11-23T02:00:06Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 1,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-22",
    "end": "2026-11-22"
@@ -1179,10 +1179,10 @@
    },
    {
     "cat": "opensource",
-    "headline": "EL4CTEO/fast-anything",
+    "headline": "fast-anything：用智能体加速慢速代码",
     "when": "11月23日消息",
     "date": "2026-11-23",
-    "body": "使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。",
+    "body": "fast-anything 项目利用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。",
     "url": "https://github.com/EL4CTEO/fast-anything",
     "via": "GitHub 新项目",
     "id": "71cbd0380775",
@@ -1330,6 +1330,12 @@
     "cat": "skip",
     "headline": "fast-anything：重写慢速代码",
     "body": "该条目为使用编码代理优化代码的工具，与人工智能和开源关系不大。"
+   },
+   "71cbd0380775": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "fast-anything：用智能体加速慢速代码",
+    "body": "fast-anything 项目利用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。"
    },
    "febe0d9b6d42": {
     "v": "4f7b2f10",

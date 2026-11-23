@@ -33,8 +33,8 @@
 → gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。
 3. 本地 AI 入门指南：Inkling、Qwen 和 Unsloth
 → 使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。
-4. EL4CTEO/fast-anything
-→ 使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。
+4. fast-anything：用智能体加速慢速代码
+→ fast-anything 项目利用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。
 5. anthropics/claude-cookbooks
 → anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。
 6. superdesigndev/treg：智能体工具的OpenRouter
@@ -72,7 +72,7 @@
 
 **本地 AI 入门指南：Inkling、Qwen 和 Unsloth**<br>11月23日，使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。<br><sub>（来源：[Hacker News](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)）</sub>
 
-**EL4CTEO/fast-anything**<br>11月23日消息，使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。<br><sub>（来源：[GitHub 新项目](https://github.com/EL4CTEO/fast-anything)）</sub>
+**fast-anything：用智能体加速慢速代码**<br>11月23日消息，fast-anything 项目利用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。<br><sub>（来源：[GitHub 新项目](https://github.com/EL4CTEO/fast-anything)）</sub>
 
 **anthropics/claude-cookbooks**<br>11月23日消息，anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/claude-cookbooks)）</sub>
 
@@ -92,7 +92,7 @@
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-23 08:18（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-23 10:00（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 

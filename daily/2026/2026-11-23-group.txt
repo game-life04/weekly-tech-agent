@@ -10,8 +10,8 @@
 → gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。
 3. 本地 AI 入门指南：Inkling、Qwen 和 Unsloth
 → 使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。
-4. EL4CTEO/fast-anything
-→ 使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。
+4. fast-anything：用智能体加速慢速代码
+→ fast-anything 项目利用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。
 5. anthropics/claude-cookbooks
 → anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。
 6. superdesigndev/treg：智能体工具的OpenRouter
