@@ -1,0 +1,1396 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T00:18:28Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 418,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 34,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 10.4
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 352,
+   "error": "",
+   "seconds": 22.8
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 17.8
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 21,
+   "error": "",
+   "seconds": 76.1
+  }
+ ],
+ "items": [
+  {
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-22T00:00:00Z",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "heat": 0.985,
+   "weight": 0.9,
+   "metrics": {
+    "points": 455.0,
+    "comments": 308.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50601525",
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "bd545a438b27",
+   "score": 8.41,
+   "title_zh": "Perplexity：衡量AI模型进展的新指标",
+   "summary_zh": "Perplexity 提出了一种衡量AI模型进展的方法，旨在帮助开发者建立统一的评估新兴能力的标准。",
+   "tags": [
+    "模型评测",
+    "AI进展"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-22T13:56:58Z",
+   "summary": "",
+   "heat": 0.898,
+   "weight": 0.6,
+   "metrics": {
+    "points": 264.0,
+    "comments": 59.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50599762",
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "A browser game where an AI manager thinks you are its subagent. Play at worker755.com - gulivan/worker755 A browser game where your manager is an AI agent, and it believes you are its subagent. The manager (a real LLM: Claude, GPT, Gemini, DeepSeek, GLM, Kimi) is set up like any orchestrator. It has a task queue, read-only access to the machine, and a tool that \"spawns a subagent\". The subagent is you. Its instructions land in your terminal with a 90-second clock. You carry them out, or don't, and it gets back exactly what a subagent would return: your report and the command transcript, or Subagent did nothing. Write a new instruction. Then it checks your work, sends corrections, files incident reports, and finally writes your performance review. Meanwhile Dan, the user who hired the agen…",
+    "llm_done": true
+   },
+   "id": "61f5e6c643e6",
+   "score": 7.4,
+   "title_zh": "Show HN：我构建了一个 AI 管理员的游戏",
+   "summary_zh": "一个浏览器游戏，你扮演 AI 管理员的子代理，需在 90 秒内完成任务。",
+   "tags": [
+    "游戏",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+   "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-22T23:12:10Z",
+   "summary": "",
+   "heat": 0.724,
+   "weight": 0.6,
+   "metrics": {
+    "points": 89.0,
+    "comments": 38.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50605045",
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "f1d7fe6789e9",
+   "score": 7.39,
+   "title_zh": "Alessandro Masullo 手稿 Lean 形式化进度地图",
+   "summary_zh": "",
+   "tags": [
+    "论文",
+    "形式化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The Mythology of Conscious AI",
+   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-22T02:10:02Z",
+   "summary": "",
+   "heat": 0.822,
+   "weight": 0.6,
+   "metrics": {
+    "points": 165.0,
+    "comments": 466.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50595537",
+    "excerpt_tried": true,
+    "evidence": "Why consciousness is more likely a property of life than of computation and why creating conscious, or even conscious-seeming AI, is a bad idea. Anil Seth won the 2025 annual Berggruen Prize Essay Competition for his English-language essay, “ The Mythology Of Conscious AI .” A neuroscience professor and the director of the Centre for Consciousness Science at the University of Sussex, Seth is also the co-director of the Canadian Institute for Advanced Research Program on Brain, Mind and Consciousness. He wrote, “Being You: A New Science of Consciousness” (Dutton, 2021). For centuries, people have fantasized about playing God by creating artificial versions of human beings. This is a dream reinvented with every breaking wave of new technology. With genetic engineering came the prospect of h…",
+    "llm_done": true
+   },
+   "id": "8a904b1b1812",
+   "score": 7.36,
+   "title_zh": "意识 AI 的神话",
+   "summary_zh": "意识更可能是生命的属性而非计算属性，创造意识 AI 是个坏主意。",
+   "tags": [
+    "论文",
+    "意识"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-22T21:01:16Z",
+   "summary": "",
+   "heat": 0.806,
+   "weight": 0.6,
+   "metrics": {
+    "points": 149.0,
+    "comments": 56.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50603845",
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "We have AI at home! Set up your own free personal ChatGPT on your PC with Unsloth and Inkling or Qwen. It's private, and the whole house can use it. With the launch of open-weight models like Qwen, cloud-based LLM providers seem like they're more of infrastructure or appliance businesses when it comes to most routine tasks that an AI model can handle. OpenAI and Anthropic have displayed a pattern of dropping model quality in the 'latest' version and controlling exactly what you're allowed to run on their models. Add to this ballooning costs and privacy concerns, and we get a pretty good case for moving away from this 'convenient' cloud experience. That's basically where I was too. I wanted to offload certain token-heavy research, data collection, or coding tasks to an AI model without sta…",
+    "llm_done": true
+   },
+   "id": "e22242af68a0",
+   "score": 7.29,
+   "title_zh": "本地 AI 入门指南：Inkling、Qwen 和 Unsloth",
+   "summary_zh": "使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。",
+   "tags": [
+    "工具",
+    "本地部署"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+   "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-22T15:15:48Z",
+   "summary": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tasks completely. The models finish clear, standalone assignments quickly, but they lose track as autonomous developers. The article AI coding agents ace isolated tests but complete…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "03e896bfcc9d",
+   "score": 7.1,
+   "title_zh": "AI编码智能体在模拟职场中表现不佳",
+   "summary_zh": "AI编码智能体在模拟职场环境中，即使面对Opus 5.5和Astra等模型，也难以可靠地完成超过一成的任务。",
+   "tags": [
+    "智能体",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+   "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-22T14:20:28Z",
+   "summary": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable chatbot business through developer tools. The article Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "667bbeccc362",
+   "score": 7.09,
+   "title_zh": "Perplexity推出Monitor API",
+   "summary_zh": "Perplexity 发布 Monitor API，将网页搜索从一次性查询转变为持续监控，并通过 webhook 仅在相关变化时通知。",
+   "tags": [
+    "工具发布",
+    "API"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "刚刚，Claude黎曼猜想证明通过验证！菲尔兹奖得主回应“数学研究不存在了？”",
+   "url": "https://zhidx.com/p/613108.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-22T00:21:51Z",
+   "summary": "智东西 作者 | 钟宸 编辑 | 漠影 智东西11月22日报道，今天，Lean FRO和Mathlib Initiative发布了关于黎曼猜想的Lean形式化证明核验的联合声明，表示 Levent Alpöge的黎曼猜想证明是正确的 ，并祝贺其取得了这一成就。 ▲两家机构的联合声明 在Lean核验之后，2010年菲尔兹奖得主、克雷研究奖得主 吴宝珠 对Levent Alpöge的黎曼猜想证明表示认可，并认为， 过早宣称数学研究即将终结的人可能错了，AI反而会推动数学进一步繁荣，实现数学民主化。 他指出，未来数学研究的竞争力将不再主要取决于搭建复杂证明链条的能力，而是提出好问题、观察和探索的能力。 机器或许已经比人类更擅长证明难题，但数学家不必因此沮丧，而应将AI视为新的研究工具和信息来源，从中提炼新的理论与洞见。 ▲吴宝珠的评价（图源：网络） 此前，在11月20日晚上，Anthropic数学家Levent Alpöge在个人网站上发布声明， 宣称自己与Claude合作，找到了黎曼猜想及其更强版本——广义黎曼猜想（GRH）的证明方法。 ▲Anthropic数学家Levent Alpög…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "cad4623192ab",
+   "score": 6.81,
+   "title_zh": "黎曼猜想证明通过验证，吴宝珠回应",
+   "summary_zh": "Levent Alpöge 的黎曼猜想证明通过 Lean 形式化核验，菲尔兹奖得主吴宝珠认为 AI 将推动数学繁荣。",
+   "tags": [
+    "数学",
+    "AI应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NUS发布System One模型评测基准：能力有多宽，决策有多稳？",
+   "url": "https://aiera.com.cn/2026/11/23/other/admin/124920/nus%e5%8f%91%e5%b8%83system-one%e6%a8%a1%e5%9e%8b%e8%af%84%e6%b5%8b%e5%9f%ba%e5%87%86%ef%bc%9a%e8%83%bd%e5%8a%9b%e6%9c%89%e5%a4%9a%e5%ae%bd%ef%bc%8c%e5%86%b3%e7%ad%96%e6%9c%89%e5%a4%9a%e7%a8%b3/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-23T00:03:39Z",
+   "summary": "当模型一次前向就给出决策，我们该如何判断它既做得对、又靠得住？ 分流用户请求、选择下一步工具操作、确认任务是否完成——软件流程中的大量日常决策，并不需要模型先写出一段长推理。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "44e795a5eb19",
+   "score": 6.76,
+   "title_zh": "NUS发布System One模型评测基准",
+   "summary_zh": "NUS 发布 System One 模型评测基准，旨在评估模型在分流用户请求、选择工具操作等日常决策中的能力。",
+   "tags": [
+    "评测基准",
+    "模型发布"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+   "url": "https://www.qbitai.com/2026/11/511841.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-21T11:40:11Z",
+   "summary": "",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "一个九人出行群，最初商定5月1日出发，后来又改为4月30日。等到有人请AI助手发布购票提醒，它很可能还按旧日期通知。 在群聊的实际场景中，往往还有更隐蔽的要求：谁想坐靠窗位置，谁对预算有要求，哪些安排只是提议，哪些已经成为共同决定。 一个AI助手要服务一群人，关键不只是找回记忆，更是 判断此刻应该使用谁的哪条记忆。 针对这一问题， 腾讯元宝 与 伦敦国王学院NLP 团队联合推出 GroupAssistBench 。研究基于 50个真实群聊、80,299条历史消息 ，构建 2,395道评测题 ，检查Agent记忆能否真正从“记得住”走向“用得好”。 研究团队比较了完整上下文、检索增强和外部记忆等 14组配置 。其中一个有代表性的反差是：EverMemOS在L1记忆召回评测中得分为 0.621 ，高于使用相同任务模型的完整上下文 0.570 ；但在L2开放式服务评测中，它的得分为 0.247 ，低于完整上下文的 0.431 。 已有Agent Memory评测常通过事实问答检验历史回忆，近期也有工作开始关注下游记忆使用。但真实群聊提出了更复杂的问题：同一条信息可能由不同成员补充，安排会随讨论更新，一项回复还可能同时受到多个人的约束。 GroupAssistBench从真实部署群助手的互动中构建数据，保留自然发生的话题切换、状态变化和多人信息交织，并将评测分成两个相互关联的任务层级。 L1记忆召回 有明确的参考事实，例如“最初约定哪天出发”。 L2记忆使用 则要求完成服务，例如“帮大家发出行与购票提醒”，答案没有固定措辞，却必须遵守有效的历史决定和成员要求。两类题目分别有1,374道和1,021道。 研究又根据所依赖的记忆结构划分为 M1单条记忆、M2多记忆整合、M3更新与冲突处理 。M3尤其需要识别：旧决定何时被新决定取代，哪些成员的约束仍然适用。这些类别描述的是信息依赖形式…",
+    "llm_done": true
+   },
+   "id": "7715ef77627e",
+   "score": 6.43,
+   "title_zh": "腾讯元宝×KCL发布群聊Agent记忆基准",
+   "summary_zh": "腾讯元宝与KCL联合发布 GroupAssistBench，基于 80,299 条群聊消息构建评测题，检验 Agent 记忆的召回与使用能力。",
+   "tags": [
+    "评测基准",
+    "智能体",
+    "记忆"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "w01fb0ss/PiBot",
+   "url": "https://github.com/w01fb0ss/PiBot",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "heat": 0.812,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 379.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 1,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "c0f9e0924a06",
+   "score": 7.42,
+   "title_zh": "",
+   "summary_zh": "桌面端开源、本地优先的 AI 智能体团队，支持多智能体群聊、电脑使用等。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "EL4CTEO/fast-anything",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+   "heat": 1.0,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1878.0
+   },
+   "extra": {
+    "language": "Rust",
+    "age_days": 1,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "71cbd0380775",
+   "score": 6.6,
+   "title_zh": "",
+   "summary_zh": "使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。",
+   "tags": [
+    "工具",
+    "性能优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/claude-cookbooks",
+   "url": "https://github.com/anthropics/claude-cookbooks",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+   "heat": 0.574,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 98.0,
+    "stars": 55052.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "febe0d9b6d42",
+   "score": 6.47,
+   "title_zh": "",
+   "summary_zh": "展示使用 Claude 的有趣且有效方式的笔记本/食谱集合。",
+   "tags": [
+    "开源工具",
+    "Claude"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "superdesigndev/treg",
+   "url": "https://github.com/superdesigndev/treg",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+   "heat": 0.448,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 35.0,
+    "stars": 8747.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d083e89d922f",
+   "score": 6.22,
+   "title_zh": "",
+   "summary_zh": "智能体工具的 OpenRouter，提供社区 Discord。",
+   "tags": [
+    "工具",
+    "智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "t8y2/dbx",
+   "url": "https://github.com/t8y2/dbx",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+   "heat": 0.444,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 34.0,
+    "stars": 31145.0
+   },
+   "extra": {
+    "language": "Rust",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "0ecdb317e210",
+   "score": 6.21,
+   "title_zh": "",
+   "summary_zh": "25 MB 轻量级跨平台数据库客户端，支持 100+ 数据库，内置 AI 和 MCP。",
+   "tags": [
+    "工具",
+    "数据库"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "wshobson/agents",
+   "url": "https://github.com/wshobson/agents",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
+   "heat": 0.425,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 29.0,
+    "stars": 42803.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "9ea5cc87de0c",
+   "score": 6.17,
+   "title_zh": "",
+   "summary_zh": "为 Claude Code、Cursor 等工具编写的 Markdown 插件、智能体和技能。",
+   "tags": [
+    "开源工具",
+    "插件"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "inworld/voice-isolator",
+   "url": "https://huggingface.co/inworld/voice-isolator",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "audio-to-audio模型，许可证 apache-2.0",
+   "heat": 0.769,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 633.0,
+    "downloads": 0.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/inworld/voice-isolator"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "283df06e9f2f",
+   "score": 6.14,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenHands/OpenHands v1.43.0",
+   "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-20T18:51:00Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## 1.43.0 (2026-11-20) ## What's Changed ### Features * feat(automations): create automations enabled from the setup wizard by @SaltGardenia in https://github.com/OpenHands/OpenHands/pull/19769 * feat(settings): Features page for experimental user feature flags, with Conversation reactions by @enyst in https://github.com/OpenHands/OpenHands/pull/19503 * feat(chat): render experimental decision cards by @enyst in https://github.com/OpenHands/OpenHands/pull/19789 * feat(chat): show the agent's message edits (experimental) by @enyst in https://github.com/OpenHands/OpenHands/pull/19794 * feat: Show a conversation indicator icon on automation run rows by @tofarr in https://github.com/OpenHands/OpenHands/pull/19903 ### Bug Fixes * fix(automations): keep the setup form when switching conversations by @ak684 in https://github.com/OpenHands/OpenHands/pull/19860 * fix(settings): list Experimental last, after Secrets by @enyst in https://github.com/OpenHands/OpenHands/pull/19881 ### Performance * perf(chat): virtualize the conversation message list by @analisaperlengkapan in https://github.com/OpenHands/OpenHands/pull/17820 ### Documentation * docs(verify-openhands): list Settings → Experimental as pending in Not mapped by @enyst in https://github.com/OpenHands/OpenHands/pull/19854 * docs(verify-openhands): map maintenance 2026-11-19 by @enyst in https://github.com/OpenHands/OpenHands/pull/19873 * docs(verify-openhands): map Settings → Experimental and reactions as F30 by @enyst in htt…",
+    "level": "minor",
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "1a8f4cf5181b",
+   "score": 6.11,
+   "title_zh": "",
+   "summary_zh": "OpenHands 发布 v1.43.0 版本，新增自动化、实验性功能页面、决策卡片渲染等特性。",
+   "tags": [
+    "开源工具",
+    "版本发布"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+   "url": "https://arxiv.org/abs/2611.26444",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-19T00:00:00Z",
+   "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess them separately without their composition, so they reveal little about whether a failure comes from reasoning, execution, or their composition. We introduce Mind2Act World, a diagnostic benchmark of 30 simulated manipulation tasks from five real-world application domains. Each task has three difficulty levels and two scene settings (Clean and Random), yielding 180 configurations. The tasks form three views: Mind tests decisions based on past observations, Act tests precise and timely execution, and Mind2Act combines both in closed-loop tasks where action outcomes guide later decisions. Comparing the three views shows whether a system lacks a capability or fails to compose capabilities it already has. A diagnosis harness further attributes the failed episodes of three representative systems to Mind, Act, or their composition and summarizes each system in a profile card. Our evaluation of multimodal agents, vision-language-action models (VLAs), and world-action models (WAMs) shows that competence in a single view does not carry over to Mind2Act tasks. Even the stronges…",
+   "heat": 0.696,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 52.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Mind2Act/Mind2Act_World"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "676167064a4c",
+   "score": 7.11,
+   "title_zh": "Mind2Act World：具身智能体诊断基准",
+   "summary_zh": "现有基准无法区分推理、执行或二者结合的失败原因。论文提出Mind2Act World基准，包含30个模拟操作任务，通过Mind、Act和Mind2Act三种视图评估系统的认知推理、物理执行及二者结合能力。",
+   "tags": [
+    "智能体",
+    "评测",
+    "具身智能"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Learning through Discernment: when a small language model learns from user feedback on the job, and when it decays",
+   "url": "https://arxiv.org/abs/2611.23716",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-18T02:18:51Z",
+   "summary": "Small language models on devices could keep improving by learning, overnight, from their own daily work. Without a true outcome, however, something must decide which attempts are worth learning from, and both the model's own judgment and the user's reaction can be wrong. We study a small model (Qwen3 0.6B and 1.7B) with a LoRA adapter, fine-tuned each night on the attempts a judge accepts, over 127 lives of up to a year on WebShop and $τ^2$-bench. We compare the true outcome, the user's stated verdict and the model's own judgment with a separate, frozen \"feedback sense\" that reads the user's reaction, built in three versions. Judging itself, the model improved and then decayed, over a year and whatever its adapter. A sense that took polite give-ups for success collapsed 3 of 5 lives; one built for discernment, which first asks whether the user gave a clear verdict, kept 4 of 5 near the oracle for two weeks, then faded on clean but scarce lessons, to the level of self-judging by day 60. When the user cannot see the outcome ($τ^2$-bench), the sense read reactions correctly, yet 80% of its lessons were failures the customer had thanked. Across 97 lives, the share of failed attempts among the lessons predicted the outcome (Spearman $ρ$ = -0.81). In our experiments, learning from users held up only where the judge kept failures out and the user could see the outcome; lopsided lessons may also narrow the model.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "695750c92d8d",
+   "score": 6.51,
+   "title_zh": "通过辨别学习：小模型如何从用户反馈中学习",
+   "summary_zh": "小模型在设备上通过学习用户反馈持续改进，但需判断哪些尝试值得学习。论文研究模型自身判断与用户反应的准确性，发现基于辨别反馈的机制能保持性能，而误判或无法看到结果的反馈会导致学习退化。",
+   "tags": [
+    "小模型",
+    "用户反馈",
+    "强化学习"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+   "url": "https://arxiv.org/abs/2611.14848",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-10T00:00:00Z",
+   "summary": "Large language model (LLM) agents are rapidly becoming a dominant paradigm for AI applications. Recently, there is a growing demand to deploy large-scale Mixture-of-Experts (MoE) models locally on consumer PCs to balance data privacy, API costs, and inference efficiency. However, unlike datacenter servers with abundant DRAM, consumer devices are tightly constrained in both GPU VRAM and host RAM, forcing massive MoE weights to spill across VRAM, host RAM, and SSD. Under such spilling, we observe that existing systems fail to fully utilize this memory hierarchy, treating the tiers as independent caches and thrashing in inference. We present TIDEWAY, a system for efficient inference of large MoE models on memory-constrained consumer devices. Our core insight is to manage host RAM and GPU VRAM as a unified memory pool. Within this pool, TIDEWAY couples phase-aware memory layouts, which adapt to the distinct access patterns of prefill and decode, with an execution engine that optimizes CUDA Graph execution under expert paging. Our evaluations on representative consumer hardware with frontier MoE models demonstrate that TIDEWAY significantly outperforms state-of-the-art systems. On average, TIDEWAY achieves speedups of 1.97x in end-to-end latency and 2.40x in Time-to-First-Token (TTFT), along with 1.61x higher decode throughput against the fastest baseline. Our source code is publicly available at https://github.com/Afterglow231/Tideway .",
+   "heat": 0.739,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 67.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Afterglow231/Tideway"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "8e81ce5c9af6",
+   "score": 6.41,
+   "title_zh": "Tideway：面向消费设备的MoE推理内存管理",
+   "summary_zh": "消费设备内存受限，MoE模型权重需跨VRAM、主机内存和SSD存储。论文提出Tideway系统，将主机内存与GPU显存统一管理，结合阶段感知内存布局和CUDA Graph执行引擎，显著提升推理延迟和吞吐量。",
+   "tags": [
+    "推理加速",
+    "MoE",
+    "内存管理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+   "url": "https://arxiv.org/abs/2611.19937",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-15T00:00:00Z",
+   "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution objectives. We present AllocFlow, an end-to-end flow-matching framework that directly generates joint portfolio allocations from raw multi-asset market histories. To capture dependencies among portfolio positions, AllocFlow employs a cross-asset flow Transformer conditioned on temporal market representations to generate continuous, signed position weights across all instruments jointly. To address the sample inefficiency and instability of learning continuous allocation policies from scratch, we establish a two-stage training scheme: strategy-supervised imitation shapes a structured distribution of candidate portfolios, followed by group-relative reinforcement learning (RL) that refines joint decisions using portfolio-level financial rewards and a frozen policy reference. On hourly cryptocurrency perpetual futures, RL refinement raises the annualized net return of the imitation policy from 27.79% to 51.38% and its Calmar ratio from 0.955 to 4.043, surpassing the teacher strategy on every metric, and AllocFlow reaches a Calmar ratio of 4.90 on six further months of uns…",
+   "heat": 0.763,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 77.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/allocflow/AllocFlow"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "fdbd81232dec",
+   "score": 5.9,
+   "title_zh": "AllocFlow：从原始市场数据生成投资组合交易动作",
+   "summary_zh": "传统流程将信号预测与投资组合构建分离，可能导致学习目标错位。论文提出AllocFlow端到端流程匹配框架，直接从多资产市场历史生成联合投资组合分配，通过策略监督模仿和组相对强化学习提升收益。",
+   "tags": [
+    "投资组合",
+    "强化学习",
+    "交易策略"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-23",
+  "start": "2026-11-23",
+  "end": "2026-11-23",
+  "title": "OpenAI提出Perplexity衡量AI模型进展",
+  "generated_at": "2026-11-23T00:18:28Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 1,
+  "club_period": {
+   "start": "2026-11-22",
+   "end": "2026-11-22"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "domestic",
+    "headline": "腾讯元宝×KCL发布群聊Agent记忆基准",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "腾讯元宝与KCL联合发布GroupAssistBench，基于80,299条群聊消息构建评测题，检验Agent记忆的召回与使用能力。",
+    "url": "https://www.qbitai.com/2026/11/511841.html",
+    "via": "量子位",
+    "id": "7715ef77627e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "worker755：扮演 AI 管理员的子代理",
+    "when": "11月22日",
+    "date": "2026-11-22",
+    "body": "gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。",
+    "url": "https://github.com/gulivan/worker755",
+    "via": "Hacker News",
+    "id": "61f5e6c643e6",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "本地 AI 入门指南：Inkling、Qwen 和 Unsloth",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。",
+    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+    "via": "Hacker News",
+    "id": "e22242af68a0",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "EL4CTEO/fast-anything",
+    "when": "11月23日消息",
+    "date": "2026-11-23",
+    "body": "使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。",
+    "url": "https://github.com/EL4CTEO/fast-anything",
+    "via": "GitHub 新项目",
+    "id": "71cbd0380775",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "anthropics/claude-cookbooks",
+    "when": "11月23日消息",
+    "date": "2026-11-23",
+    "body": "anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "via": "GitHub Trending",
+    "id": "febe0d9b6d42",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "superdesigndev/treg：智能体工具的OpenRouter",
+    "when": "11月23日消息",
+    "date": "2026-11-23",
+    "body": "superdesigndev/treg提供智能体工具的OpenRouter，并包含社区Discord。",
+    "url": "https://github.com/superdesigndev/treg",
+    "via": "GitHub Trending",
+    "id": "d083e89d922f",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI提出Perplexity衡量AI模型进展",
+    "when": "11月22日",
+    "date": "2026-11-22",
+    "body": "OpenAI提出Perplexity指标，旨在帮助开发者建立统一的评估新兴能力的标准。",
+    "url": "https://openai.com/index/perplexity-and-intelligence",
+    "via": "OpenAI",
+    "id": "bd545a438b27",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Mind2Act World：具身智能体诊断基准",
+    "when": "11月23日消息",
+    "date": "2026-11-23",
+    "body": "Mind2Act World基准包含30个模拟操作任务，通过Mind、Act和Mind2Act三种视图评估系统的认知推理、物理执行及二者结合能力。",
+    "url": "https://arxiv.org/abs/2611.26444",
+    "via": "Hugging Face 热门论文",
+    "id": "676167064a4c",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Qwen3研究辨别反馈机制",
+    "when": "11月23日消息",
+    "date": "2026-11-23",
+    "body": "研究小模型如何通过辨别用户反馈来持续改进，发现基于辨别反馈的机制能保持性能。",
+    "url": "https://arxiv.org/abs/2611.23716",
+    "via": "arXiv · 高效推理",
+    "id": "695750c92d8d",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Tideway优化MoE推理内存",
+    "when": "11月23日消息",
+    "date": "2026-11-23",
+    "body": "提出Tideway系统统一管理主机内存与GPU显存，显著提升消费设备上MoE模型的推理延迟和吞吐量。",
+    "url": "https://arxiv.org/abs/2611.14848",
+    "via": "Hugging Face 热门论文",
+    "id": "8e81ce5c9af6",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "bd545a438b27": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI提出Perplexity衡量AI模型进展",
+    "body": "OpenAI提出Perplexity指标，旨在帮助开发者建立统一的评估新兴能力的标准。"
+   },
+   "61f5e6c643e6": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "worker755：扮演 AI 管理员的子代理",
+    "body": "gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。"
+   },
+   "f1d7fe6789e9": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Alessandro Masullo 手稿 Lean 形式化进度地图",
+    "body": "该条目为 Lean 形式化的进度地图，与人工智能和开源关系不大。"
+   },
+   "8a904b1b1812": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "意识 AI 的神话",
+    "body": "该条目为关于意识 AI 的评论文章，与人工智能和开源关系不大。"
+   },
+   "e22242af68a0": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "03e896bfcc9d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI编码智能体在模拟职场中表现不佳",
+    "body": "AI编码智能体在模拟职场环境中难以可靠地完成超过一成的任务。"
+   },
+   "667bbeccc362": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Perplexity推出Monitor API",
+    "body": "Perplexity发布Monitor API，将网页搜索转变为持续监控，并在相关变化时通知。"
+   },
+   "cad4623192ab": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "黎曼猜想证明通过验证，吴宝珠回应",
+    "body": "黎曼猜想证明通过Lean形式化核验，菲尔兹奖得主吴宝珠认为AI将推动数学繁荣。"
+   },
+   "44e795a5eb19": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "NUS发布System One模型评测基准",
+    "body": "NUS发布System One模型评测基准，旨在评估模型在分流用户请求、选择工具操作等日常决策中的能力。"
+   },
+   "7715ef77627e": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "腾讯元宝×KCL发布群聊Agent记忆基准",
+    "body": "腾讯元宝与KCL联合发布GroupAssistBench，基于80,299条群聊消息构建评测题，检验Agent记忆的召回与使用能力。"
+   },
+   "c0f9e0924a06": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "fast-anything：重写慢速代码",
+    "body": "该条目为使用编码代理优化代码的工具，与人工智能和开源关系不大。"
+   },
+   "febe0d9b6d42": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。"
+   },
+   "d083e89d922f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "superdesigndev/treg：智能体工具的OpenRouter",
+    "body": "superdesigndev/treg提供智能体工具的OpenRouter，并包含社区Discord。"
+   },
+   "0ecdb317e210": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "t8y2/dbx：轻量级跨平台数据库管理工具",
+    "body": "t8y2/dbx是一个25 MB的轻量级跨平台数据库客户端，支持100+数据库，内置AI和MCP。"
+   },
+   "9ea5cc87de0c": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "wshobson/agents：Claude Code等工具的插件集合",
+    "body": "wshobson/agents为Claude Code、Cursor等工具编写了Markdown插件、智能体和技能。"
+   },
+   "283df06e9f2f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "inworld/voice-isolator：音频转音频模型",
+    "body": "inworld/voice-isolator是一个audio-to-audio模型，许可证为apache-2.0。"
+   },
+   "1a8f4cf5181b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OpenHands 发布 1.43.0 版本",
+    "body": "OpenHands发布v1.43.0版本，新增自动化、实验性功能页面、决策卡片渲染等特性。"
+   },
+   "676167064a4c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Mind2Act World：具身智能体诊断基准",
+    "body": "Mind2Act World基准包含30个模拟操作任务，通过Mind、Act和Mind2Act三种视图评估系统的认知推理、物理执行及二者结合能力。"
+   },
+   "695750c92d8d": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Qwen3研究辨别反馈机制",
+    "body": "研究小模型如何通过辨别用户反馈来持续改进，发现基于辨别反馈的机制能保持性能。"
+   },
+   "8e81ce5c9af6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Tideway优化MoE推理内存",
+    "body": "提出Tideway系统统一管理主机内存与GPU显存，显著提升消费设备上MoE模型的推理延迟和吞吐量。"
+   },
+   "fdbd81232dec": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AllocFlow生成投资组合动作",
+    "body": "提出端到端流程匹配框架，直接从多资产市场历史数据生成联合投资组合分配，提升投资收益。"
+   }
+  }
+ }
+}

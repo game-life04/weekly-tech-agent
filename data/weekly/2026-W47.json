@@ -1,0 +1,744 @@
+{
+ "kuaixun": {
+  "kind": "weekly",
+  "week": "2026-W47",
+  "number": 6,
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "title": "OpenAI发布GPT-6.2 Astra和Sol模型",
+  "generated_at": "2026-11-23T00:18:28Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-16",
+   "end": "2026-11-22"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部一周合并 16 个 PR、提交 28 次",
+    "when": "11月16日至22日",
+    "date": "2026-11-22",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 8 个有人参与开发，共新增 PR 20 个、合并 16 个，提交 28 次，新增代码 16210 行、删除 1023 行，10 位贡献者参与，其中 1 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 一周合并 8 个 PR",
+    "when": "11月16日至22日",
+    "date": "2026-11-22",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 5 个、合并 8 个、提交 12 次、新增代码 9277 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 一周合并 4 个 PR",
+    "when": "11月16日至22日",
+    "date": "2026-11-22",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 4 个、合并 4 个、提交 4 次、新增代码 5516 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "Open-Source-Dashboard 一周合并 2 个 PR",
+    "when": "11月16日至22日",
+    "date": "2026-11-22",
+    "body": "数字基础设施维护 SIG的 Open-Source-Dashboard 仓库新增 PR 3 个、合并 2 个、提交 4 次、新增代码 51 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/Open-Source-Dashboard",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "阿里通义千问发布 Qwen4-Max 模型",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "Qwen4-Max 提供全面的聊天、图像视频理解、图像生成、文档处理和工具利用功能。",
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "via": "Hacker News",
+    "id": "cc9bba557c5a",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "DeepSeek 开放全家桶应用 API",
+    "when": "11月16日消息",
+    "date": "2026-11-16",
+    "body": "DeepSeek 正式开放全家桶应用 API，用户可以通过 API 调用相关服务。",
+    "url": "https://aiera.com.cn/2026/11/15/other/admin/123914/%e5%88%9a%e5%88%9a%ef%bc%8cdeepseek%e5%85%a8%e5%ae%b6%e6%a1%b6api%e6%ad%a3%e5%bc%8f%e5%bc%80%e6%94%be%ef%bc%81%e4%bd%a0%e4%b9%9f%e8%83%bd%e9%80%a0%e4%b8%80%e4%b8%aadeepseek%e4%ba%86/",
+    "via": "新智元",
+    "id": "bdd4b2467aa3",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "华为云上线 openPangu-2.1-Pro 开源模型",
+    "when": "11月16日消息",
+    "date": "2026-11-16",
+    "body": "华为云 MaaS 平台正式上线开源盘古模型 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码和推理优化方向能力升级。",
+    "url": "https://www.ithome.com/1/027/450.htm",
+    "via": "IT之家",
+    "id": "ae52997e367b",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "华为云发布 CloudRobo-WM1.2 具身世界模型",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "华为云推出首款昇腾原生具身世界模型 CloudRobo-WM1.2，在多项评测中位列第一。",
+    "url": "https://zhidx.com/p/610813.html",
+    "via": "智东西",
+    "id": "e012aa59eeec",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI扩大对科学家的AI访问权限",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "via": "OpenAI",
+    "id": "c0e4d197c876",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI发布GPT-6.2 Astra和Sol模型",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "OpenAI推出GPT-6.2 Astra和Sol，在专业输出、编程和效率上有所提升，成本更低。",
+    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "via": "OpenAI",
+    "id": "9235aaac8965",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google DeepMind上线Genie 4",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Google DeepMind向Google AI Ultra订阅用户开放Genie 4，可生成具有实时音频和编辑功能的交互式世界。",
+    "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "via": "Google DeepMind",
+    "id": "db8651fe3ff5",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Google DeepMind发布Gemini 4 Neon",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Google推出Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能。",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "via": "Google DeepMind",
+    "id": "52640666a81a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM 发布 v0.34.0 版本",
+    "when": "11月17日",
+    "date": "2026-11-17",
+    "body": "vLLM 发布 v0.34.0 版本，新增 10 个模型，默认开启可扩展 KV 缓存，提供 Blackwell 和 MI355X 加速。",
+    "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+    "via": "GitHub 版本发布",
+    "id": "55c9424bdd59",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Claude-BugHunter 技能包",
+    "when": "11月18日消息",
+    "date": "2026-11-18",
+    "body": "Claude Code 技能包包含 82 个技能和 681 个已披露漏洞模式，用于漏洞挖掘和外部红队工作。",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "via": "GitHub Trending",
+    "id": "5e5b7a517335",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Inkling 2 Mini：可在笔记本运行的模型",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "Inkling 2 Mini 是一个可在笔记本运行的轻量级开源模型，通过循环中间层提升推理能力。",
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "via": "Hacker News",
+    "id": "f8b92555d99d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "autoclip 开源视频剪辑工具",
+    "when": "11月21日消息",
+    "date": "2026-11-21",
+    "body": "开源 AI 视频剪辑桌面工具，将长视频自动剪成短视频，生成字幕、封面和发布文案。",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "via": "GitHub Trending",
+    "id": "d941cdc9a6e3",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "科学家如何使用ChatGPT进行研究",
+    "when": "11月16日",
+    "date": "2026-11-16",
+    "body": "OpenAI探索了1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。",
+    "url": "https://openai.com/index/science-at-the-frontier",
+    "via": "OpenAI",
+    "id": "a5206efda457",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "OpenAI分析编码智能体如何加速AI研究",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "OpenAI分析了编码智能体如何加速AI研究，指出其性能参差不齐，并探讨了递归自我改进的信号。",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "via": "OpenAI",
+    "id": "e41150d27145",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "语言模型可自行重写权重",
+    "when": "11月21日",
+    "date": "2026-11-21",
+    "body": "模型通过自身推理重写权重，无需梯度和训练即可变强。",
+    "url": "https://arxiv.org/abs/2611.21885",
+    "via": "Hacker News",
+    "id": "4deaf143f27a",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "KPMG 使用 AI 代理进行审计",
+    "when": "11月18日",
+    "date": "2026-11-18",
+    "body": "KPMG 使用超过 100 个 AI 代理进行审计试验，AI 代理在提问方面表现优于会计师。",
+    "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+    "via": "Hacker News",
+    "id": "2069295c6caf",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 定价首次公开募股",
+    "when": "11月19日",
+    "date": "2026-11-19",
+    "body": "Anthropic 定价其首次公开募股，股票预计于 2026 年 11 月 19 日在纳斯达克全球精选市场交易。",
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "via": "Hacker News",
+    "id": "84700ae2e457",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Anthropic 上市次日股价下跌",
+    "when": "11月20日",
+    "date": "2026-11-20",
+    "body": "受 AI 板块抛售影响，纳斯达克抹去 2026 年所有涨幅，Anthropic 的 IPO 未能提振市场。",
+    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+    "via": "Hacker News",
+    "id": "8d519d600cfe",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "AAMAS 2027 论文截稿",
+    "when": "12月12日",
+    "date": "2026-12-12",
+    "body": "International Conference on Autonomous Agents and Multiagent Systems（AAMAS 2027，CCF-B 类，人工智能）AAAI fast track; eligible AAAI-27 Main…的论文提交截止时间为北京时间12月12日 19:59。会议将于 May 3-7, 2027 在 Hanoi, Vietnam 举行。",
+    "url": "https://warwick.ac.uk/fac/sci/dcs/aamas2027/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "ICAPS 2027 论文截稿",
+    "when": "12月15日",
+    "date": "2026-12-15",
+    "body": "International Conference on Automated Planning and Scheduling（ICAPS 2027，CCF-B 类，人工智能）论文提交截止时间为北京时间12月15日 19:59，摘要截止时间为12月8日 19:59。会议将于 June 30 - July 2, 2027 在 Columbia, SC, USA 举行。",
+    "url": "https://icaps27.icaps-conference.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "COLING 2027 论文截稿",
+    "when": "12月24日",
+    "date": "2026-12-24",
+    "body": "International Conference on Computational Linguistics（COLING 2027，CCF-B 类，人工智能）Commitment deadline for long research p…的论文提交截止时间为北京时间12月24日 19:59。会议将于 May 9-14 (in-person) and 6-7 (virtual),… 在 Macau SAR, China / Online 举行。",
+    "url": "https://2027.coling-iccl.org/",
+    "via": "会议官网"
+   },
+   {
+    "cat": "events",
+    "headline": "NAACL 2027 论文截稿",
+    "when": "12月24日",
+    "date": "2026-12-24",
+    "body": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics（NAACL 2027，CCF-B 类，人工智能）NAACL commitment after ARR meta-reviews…的论文提交截止时间为北京时间12月24日 19:59。会议将于 June 1-5, 2027 在 San Francisco, California, USA 举行。",
+    "url": "https://2027.naacl.org/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "9235aaac8965": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI发布GPT-6.2 Astra和Sol模型",
+    "body": "OpenAI推出GPT-6.2 Astra和Sol，在专业输出、编程和效率上有所提升，成本更低。"
+   },
+   "e41150d27145": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI分析编码智能体如何加速AI研究",
+    "body": "OpenAI分析了编码智能体如何加速AI研究，指出其性能参差不齐，并探讨了递归自我改进的信号。"
+   },
+   "db8651fe3ff5": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google DeepMind上线Genie 4",
+    "body": "Google DeepMind向Google AI Ultra订阅用户开放Genie 4，可生成具有实时音频和编辑功能的交互式世界。"
+   },
+   "4deaf143f27a": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "语言模型可自行重写权重",
+    "body": "模型通过自身推理重写权重，无需梯度和训练即可变强。"
+   },
+   "52640666a81a": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google DeepMind发布Gemini 4 Neon",
+    "body": "Google推出Gemini 4 Neon，在复杂软件工程、知识工作和科学工作流中提供前沿级智能。"
+   },
+   "b1f27447c28c": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "Google 发布 Gemini 4 Neon 模型",
+    "body": "Google 推出 Gemini 4 Neon，在复杂软件工程和科学工作流中提供前沿级智能和快速端到端任务完成能力。"
+   },
+   "cc9bba557c5a": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "阿里通义千问发布 Qwen4-Max 模型",
+    "body": "Qwen4-Max 提供全面的聊天、图像视频理解、图像生成、文档处理和工具利用功能。"
+   },
+   "a5206efda457": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "科学家如何使用ChatGPT进行研究",
+    "body": "OpenAI探索了1800多名科学家如何利用ChatGPT进行研究，了解其工作流程、生产力及发现预期。"
+   },
+   "bab9b9b98c77": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI采用分层方法应对对抗蒸馏",
+    "body": "OpenAI采用分层方法结合训练、防护、检测和执行，以防止能力提取。"
+   },
+   "b94ea9316e1d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "沉默的共识",
+    "body": "OpenAI战略未来负责人探讨更强大的AI如何重塑社会。"
+   },
+   "9af8c07a164f": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Windows 11 收集开发工具使用数据",
+    "body": "Windows 11 的诊断报告中包含编码代理和开发工具的使用记录。"
+   },
+   "c68595a7dab2": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI 发现并验证新型 CPU 架构 Frostbite",
+    "body": "AI 系统发现并验证了 Frostbite CPU，能效比现代超标量 CPU 高 4.59 倍。"
+   },
+   "5dce429552ea": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude 解决黑洞物理两个开放问题",
+    "body": "Claude Fable 5.2 解决了理论物理中关于黑洞和量子引力理论搜索的两个开放问题。"
+   },
+   "7f64bb79a0d6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Microsoft ONNX Runtime 从 GitHub 消失",
+    "body": "Microsoft 的 ONNX Runtime 项目从 GitHub 上消失了。"
+   },
+   "8a4cf7fa5e14": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AI能否帮助科学家识别有前景的药物候选物",
+    "body": "MedChemBench评估AI模型在早期药物发现中解读分子结构、从实验证据推理和选择化合物的能力。"
+   },
+   "c6c8f53811c3": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 在纳斯达克上市",
+    "body": "Anthropic 在纳斯达克上市。"
+   },
+   "f8b92555d99d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Inkling 2 Mini：可在笔记本运行的模型",
+    "body": "Inkling 2 Mini 是一个可在笔记本运行的轻量级开源模型，通过循环中间层提升推理能力。"
+   },
+   "c1680f86a1e7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "卡内基梅隆大学在 YouTube 上免费发布计算机科学课程",
+    "body": "卡内基梅隆大学在 YouTube 上免费发布计算机科学课程，涵盖 AI、机器人等领域。"
+   },
+   "28346a6e35a7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Java4Shell：OpenJDK Base64 解码器的内存破坏漏洞",
+    "body": "OpenJDK Base64 解码器存在内存破坏漏洞，攻击者无需凭证即可远程执行代码。"
+   },
+   "5a677681d816": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "作者因试图修复产品安全漏洞被 AI 安全机制阻止",
+    "body": "作者因试图修复产品安全漏洞被 AI 安全机制阻止，引发对 AI 安全机制的讨论。"
+   },
+   "84700ae2e457": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "",
+    "body": "Anthropic 定价其首次公开募股，股票预计于 2026 年 11 月 19 日在纳斯达克全球精选市场交易。"
+   },
+   "8d519d600cfe": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Anthropic 上市次日股价下跌",
+    "body": "受 AI 板块抛售影响，纳斯达克抹去 2026 年所有涨幅，Anthropic 的 IPO 未能提振市场。"
+   },
+   "2069295c6caf": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "KPMG 使用 AI 代理进行审计",
+    "body": "KPMG 使用超过 100 个 AI 代理进行审计试验，AI 代理在提问方面表现优于会计师。"
+   },
+   "ddd18b1766da": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "全新Gemini 4 Neon震撼上线",
+    "body": "新智元报道谷歌Gemini 4家族新成员Neon上线。"
+   },
+   "6d1d3704f5d8": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Opus 5.5直接手写Transformer权重",
+    "body": "新智元报道一个全新神经网络在隐藏测试集上达到100%准确率。"
+   },
+   "9a5c17e015f9": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "移动操作系统限制 AI 代理捕获数据",
+    "body": "移动操作系统限制 AI 代理捕获和存储 Signal 数据，类似措施已在 Windows 上实施。"
+   },
+   "9906b3971e30": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Claude Code 团队思考验证",
+    "body": "Claude Code 团队利用端到端、属性和差异测试来验证代码代理的工作，并保持验证器的诚实。"
+   },
+   "a0bfa3d07038": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "探索标准模型在格点上的非微扰定义",
+    "body": "OpenAI探索标准模型在格点上的非微扰定义，借助GPT-6 Astra将想法转化为详细证明。"
+   },
+   "ceff632aeaf0": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "英伟达被指人为制造 GPU 短缺",
+    "body": "华尔街日报报道，英伟达通过投资 AI 初创公司来购买其 GPU，人为推高了 GPU 和内存短缺。"
+   },
+   "c0e4d197c876": {
+    "v": "4f7b2f10",
+    "cat": "overseas",
+    "headline": "OpenAI扩大对科学家的AI访问权限",
+    "body": "OpenAI将ChatGPT学术研究人员计划扩展至全球20万名研究人员，提供前沿模型免费访问。"
+   },
+   "55c9424bdd59": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 发布 v0.34.0 版本",
+    "body": "vLLM 发布 v0.34.0 版本，新增 10 个模型，默认开启可扩展 KV 缓存，提供 Blackwell 和 MI355X 加速。"
+   },
+   "5e5b7a517335": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Claude-BugHunter 技能包",
+    "body": "Claude Code 技能包包含 82 个技能和 681 个已披露漏洞模式，用于漏洞挖掘和外部红队工作。"
+   },
+   "d941cdc9a6e3": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "autoclip 开源视频剪辑工具",
+    "body": "开源 AI 视频剪辑桌面工具，将长视频自动剪成短视频，生成字幕、封面和发布文案。"
+   },
+   "977c9bf880de": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 使用 FlyDSL MonoKernels 提升解码速度",
+    "body": "vLLM 使用 FlyDSL MonoKernels 在 AMD Instinct GPU 上实现高交互性解码，提升智能体响应速度。"
+   },
+   "524fb8fc2e36": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "vLLM 原生支持 Inkling 2 Mini",
+    "body": "vLLM 原生支持 Thinking Machines 的 Inkling 2 Mini，这是一种循环 MoE 模型。"
+   },
+   "7b692ce84d0e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LocalAI 发布 v5.0.0 版本",
+    "body": "LocalAI 发布 v5.0.0 版本，新增桌面应用、项目管理和 Python 沙箱，支持 Office 文档和团队共享。"
+   },
+   "f32a2b193e81": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": ""
+   },
+   "4f44f430a76e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "ai-agent-book 开源书籍",
+    "body": "《深入理解 AI Agent：设计原理与工程实践》开源主仓库，包含正文、编译版 PDF 与配套代码。"
+   },
+   "b9a1ff778498": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "neonclipping 本地剪辑引擎",
+    "body": "本地开源剪辑引擎，粘贴链接即可在约 2 分钟内生成带字幕的 9:16 短视频。"
+   },
+   "4012fee7db34": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "codegraph 代码知识图谱",
+    "body": "预索引代码知识图谱，自动同步代码变更，支持多个智能体，减少 Token 消耗。"
+   },
+   "d9098f7bc351": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "inference-optimisation-skill是一个Agent技能，用于在任意硬件上优化本地LLM推理速度。"
+   },
+   "e84ee482a22d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "PEFT 发布 v0.22.0 版本",
+    "body": "PEFT 发布 v0.22.0 版本，新增 PaCA 方法，通过微调预训练权重的随机输入列来加速训练。"
+   },
+   "6797d826b586": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "plannotator：管理智能体工作流",
+    "body": "plannotator是一个用于管理智能体工作流、代码审查和团队协作的桌面工具。"
+   },
+   "7610dae89799": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agentscope：构建可信智能体",
+    "body": "agentscope是一个用于构建、运行和调试智能体的开源框架。"
+   },
+   "6e0c1990836e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "blender-ai-mcp-addon：Blender AI助手",
+    "body": "blender-ai-mcp-addon是一个支持视觉聊天、场景工具和多智能体工作流的Blender AI助手。"
+   },
+   "be0e601cc549": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "如何为 AI 智能体选择安全沙箱",
+    "body": "文章介绍了为 AI 智能体选择安全沙箱的方法，包括文件系统隔离、网络访问和资源限制。"
+   },
+   "3338922d21eb": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "从任务特定代理转向目标导向代理",
+    "body": "LangChain CEO 分享了如何从任务特定代理转向目标导向代理。"
+   },
+   "83d079a8ca05": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "heretic：无需训练的语言模型修改工具",
+    "body": "heretic是一个无需训练的语言模型修改工具，可移除审查、抑制废话和减少谄媚行为。"
+   },
+   "c65fc7444d65": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LoopForge：代码智能体工作流编排工具",
+    "body": "LoopForge是腾讯开源的代码智能体工作流编排工具，支持本地化部署。"
+   },
+   "f6df913aa0ba": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "opensre：CI/CD可靠性智能体",
+    "body": "opensre是一个开源的CI/CD可靠性智能体。"
+   },
+   "42b8e181477f": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Xing4：基于国产芯片与框架的前沿智能体模型",
+    "body": "Xing4系列大语言模型通过在昇腾芯片上的架构和训练基础设施的协同改进，扩展了TeleChat谱系。"
+   },
+   "51a89fc6c0e5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "本文提出embodied System 2作为智能体机器人的决策核心，旨在解决通用推理在物理约束下转化为有效可验证动作的挑战。"
+   },
+   "e8789b7765a5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Gamer：通用视觉-语言-动作基础模型",
+    "body": "Gamer是一个专为复杂交互环境中的长时任务设计的通用智能体框架，结合了感知、记忆管理和多步推理。"
+   },
+   "ff9c5718ce01": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SWE-CoWork：评测组织中的数字员工",
+    "body": "SWE-CoWork基准模拟软件组织环境评测编码智能体，实验发现模型在部分实现与任务交付间存在巨大差距。"
+   },
+   "ece054558356": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "K2-Horizon：开源语言模型前沿舰队",
+    "body": "K2-Horizon包含从0.9B到375B-A23B的六款开源模型，用于通用推理和智能体工作。"
+   },
+   "d9ad411eca75": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "研究证明权重空间编程无需Transformer",
+    "body": "研究探讨了无需梯度训练的大语言模型设计方法，实验发现其测试准确率优于Transformer且参数量减少约1800倍。"
+   },
+   "1bf685c5bde5": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "多分支Transformer架构提升性能",
+    "body": "论文提出多分支Transformer架构，通过并行执行独立参数分支，在同等训练计算量下显著降低了推理时的KV缓存存储。"
+   },
+   "51bab1455c66": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Accelerate Bench评测应用级程序优化智能体",
+    "body": "论文提出Accelerate Bench基准，包含32个CPU优化任务，评估结果显示领先智能体在至少22个任务上实现2倍加速。"
+   },
+   "b7881527eda5": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 上市市值 1.27 万亿美元",
+    "body": "Anthropic 上市首日大涨 17%，市值达 1.27 万亿美元，成为最受关注的 AI 公司之一。"
+   },
+   "d3f167e811d7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "GPT-6.2 Astra 和 Sol 双发",
+    "body": "GPT-6.2 Astra 在 AA-3D 评测中登顶，能生成精细 3D 模型和交互场景。"
+   },
+   "a079da582b37": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude 自写推理引擎",
+    "body": "Claude 自写推理引擎，将响应时间从 12 秒砍到半秒。"
+   },
+   "041b00989cda": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "GPT-6.2 自造全新证法",
+    "body": "GPT-6.2 自造全新证法，94 分钟拿下 20 年前顶刊定理首证。"
+   },
+   "bf1c4553081b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "开源决策模型反超谷歌王牌",
+    "body": "开源模型在决策能力上反超谷歌王牌，拿下全球榜首。"
+   },
+   "8004820aa9c9": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "沃顿商学院教授 Ethan Mollick 让 Anthropic 的 Fable 5.2 带着一群 AI 去造 3D 世界，展现了接近 AGI 的能力。"
+   },
+   "550ba5112f8b": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "34 岁数学家 Levent Alpöge 与 Claude 合作，发布了黎曼猜想的 Lean 形式化证明代码，声称能够解决广义黎曼猜想。"
+   },
+   "bdd4b2467aa3": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "DeepSeek 开放全家桶应用 API",
+    "body": "DeepSeek 正式开放全家桶应用 API，用户可以通过 API 调用相关服务。"
+   },
+   "e012aa59eeec": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "华为云发布 CloudRobo-WM1.2 具身世界模型",
+    "body": "华为云推出首款昇腾原生具身世界模型 CloudRobo-WM1.2，在多项评测中位列第一。"
+   },
+   "ef804c9d3db0": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "Thinking Machines Lab 推出 Inkling 2 Mini 模型，总参数 27B，支持循环机制，可在笔记本上运行。"
+   },
+   "ae52997e367b": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "华为云上线 openPangu-2.1-Pro 开源模型",
+    "body": "华为云 MaaS 平台正式上线开源盘古模型 openPangu-2.1-Pro，围绕 Agent 开发、AI 编码和推理优化方向能力升级。"
+   },
+   "420d14f9c6e8": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "InclusionMed 平台上线",
+    "body": "全球首个医疗健康 AI 独立评测与分析平台 InclusionMed 正式上线。"
+   }
+  }
+ }
+}

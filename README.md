@@ -12,52 +12,49 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.22（周日）
+## 每日快讯 · 11.23（周一）
 
-> 今日 AI 与开源要闻 **12** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-22-kuaixun.md) · [公众号排版版](daily/2026/2026-11-22-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-22.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **10** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-23-kuaixun.md) · [公众号排版版](daily/2026/2026-11-23-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-23.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月22日 周日
-今日 AI 与开源要闻 12 条，3 分钟速读
+【每日科技快讯】11月23日 周一
+今日 AI 与开源要闻 10 条，3 分钟速读
 
-【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
-2. AtomGit-Mobile4Android 合并 1 个 PR
-
-【海外动态】
-3. Google Duplex 如何演变为在 Gemini 中帮你给商家打电话
-→ Google Duplex 技术已集成到 Gemini 的 Tasks 中，可自动完成晚餐预订等任务，无需人工干预。
+【国内动态】
+1. 腾讯元宝×KCL发布群聊Agent记忆基准
+→ 腾讯元宝与KCL联合发布GroupAssistBench，基于80,299条群聊消息构建评测题，检验Agent记忆的召回与使用能力。
 
 【开源项目】
-4. Inkling 2 Mini：轻量级推理模型
-→ Inkling 2 Mini 是一个可在笔记本运行的轻量级开源模型，通过循环中间层提升推理能力。
-5. opensre：CI/CD可靠性智能体
-→ Tracer-Cloud开源opensre，这是一个用于CI/CD可靠性的智能体工具。
-6. LangChain发布知识工厂
-→ LangChain发布知识工厂，智能体标记缺失内容，策展智能体在后台修复，保持公司知识更新。
-7. OpenVINO：AI推理优化工具包
-→ openvinotoolkit开源OpenVINO，这是一个用于优化和部署AI推理的工具包。
-8. OpenSpec：AI编码助手规范驱动开发
-→ Fission-AI开源OpenSpec，为AI编码助手提供规范驱动的开发方式。
+2. worker755：扮演 AI 管理员的子代理
+→ gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。
+3. 本地 AI 入门指南：Inkling、Qwen 和 Unsloth
+→ 使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。
+4. EL4CTEO/fast-anything
+→ 使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。
+5. anthropics/claude-cookbooks
+→ anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。
+6. superdesigndev/treg：智能体工具的OpenRouter
+→ superdesigndev/treg提供智能体工具的OpenRouter，并包含社区Discord。
 
 【学术前沿】
-9. OpenAI发布MedChemBench药物发现基准
-→ OpenAI推出MedChemBench基准，用于评估AI模型在早期药物发现中解读分子结构和选择化合物的能力。
-10. Apple发布Depth Pro 2单目深度模型
-→ Apple发布Depth Pro 2，通过单一可扩展网络在全分辨率下预测深度图，克服了时间一致性和边界清晰度的权衡。
-11. AnyS1：通用决策点框架
-→ AnyS1将人类编写的程序技能转化为共享的通用决策点，降低成本和模型调用时间。
-12. NarrowSpec：草案隐藏宽度优化
-→ NarrowSpec表明草案模型的残差流可以以一半或四分之一宽度运行，同时保持较高的接受率。
+7. OpenAI提出Perplexity衡量AI模型进展
+→ OpenAI提出Perplexity指标，旨在帮助开发者建立统一的评估新兴能力的标准。
+8. Mind2Act World：具身智能体诊断基准
+→ Mind2Act World基准包含30个模拟操作任务，通过Mind、Act和Mind2Act三种视图评估系统的认知推理、物理执行及二者结合能力。
+9. Qwen3研究辨别反馈机制
+→ 研究小模型如何通过辨别用户反馈来持续改进，发现基于辨别反馈的机制能保持性能。
+10. Tideway优化MoE推理内存
+→ 提出Tideway系统统一管理主机内存与GPU显存，显著提升消费设备上MoE模型的推理延迟和吞吐量。
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-22-kuaixun.md
+上周快讯（11.16–11.22）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W47.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-23-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -65,89 +62,84 @@
 
 ### 今日快讯
 
-#### 俱乐部动态
+#### 国内动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 1 次**<br>11月21日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 2 个、合并 1 个，提交 1 次，新增代码 2049 行、删除 32 行，2 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
-
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月21日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 2 个、合并 1 个、提交 1 次、新增代码 2049 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
-
-#### 海外动态
-
-**Google Duplex 如何演变为在 Gemini 中帮你给商家打电话**<br>11月21日，Google Duplex 技术已集成到 Gemini 的 Tasks 中，可自动完成晚餐预订等任务，无需人工干预。<br><sub>（来源：[Google Research](https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/)）</sub>
+**腾讯元宝×KCL发布群聊Agent记忆基准**<br>11月21日，腾讯元宝与KCL联合发布GroupAssistBench，基于80,299条群聊消息构建评测题，检验Agent记忆的召回与使用能力。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/511841.html)）</sub>
 
 #### 开源项目
 
-**Inkling 2 Mini：轻量级推理模型**<br>11月21日，Inkling 2 Mini 是一个可在笔记本运行的轻量级开源模型，通过循环中间层提升推理能力。<br><sub>（来源：[Hacker News](https://thinkingmachines.ai/news/inkling-2-mini/)）</sub>
+**worker755：扮演 AI 管理员的子代理**<br>11月22日，gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。<br><sub>（来源：[Hacker News](https://github.com/gulivan/worker755)）</sub>
 
-**opensre：CI/CD可靠性智能体**<br>11月22日消息，Tracer-Cloud开源opensre，这是一个用于CI/CD可靠性的智能体工具。<br><sub>（来源：[GitHub Trending](https://github.com/Tracer-Cloud/opensre)）</sub>
+**本地 AI 入门指南：Inkling、Qwen 和 Unsloth**<br>11月23日，使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。<br><sub>（来源：[Hacker News](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)）</sub>
 
-**LangChain发布知识工厂**<br>11月22日，LangChain发布知识工厂，智能体标记缺失内容，策展智能体在后台修复，保持公司知识更新。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/knowledge-factory)）</sub>
+**EL4CTEO/fast-anything**<br>11月23日消息，使用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。<br><sub>（来源：[GitHub 新项目](https://github.com/EL4CTEO/fast-anything)）</sub>
 
-**OpenVINO：AI推理优化工具包**<br>11月22日消息，openvinotoolkit开源OpenVINO，这是一个用于优化和部署AI推理的工具包。<br><sub>（来源：[GitHub Trending](https://github.com/openvinotoolkit/openvino)）</sub>
+**anthropics/claude-cookbooks**<br>11月23日消息，anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/claude-cookbooks)）</sub>
 
-**OpenSpec：AI编码助手规范驱动开发**<br>11月22日消息，Fission-AI开源OpenSpec，为AI编码助手提供规范驱动的开发方式。<br><sub>（来源：[GitHub Trending](https://github.com/Fission-AI/OpenSpec)）</sub>
+**superdesigndev/treg：智能体工具的OpenRouter**<br>11月23日消息，superdesigndev/treg提供智能体工具的OpenRouter，并包含社区Discord。<br><sub>（来源：[GitHub Trending](https://github.com/superdesigndev/treg)）</sub>
 
 #### 学术前沿
 
-**OpenAI发布MedChemBench药物发现基准**<br>11月20日，OpenAI推出MedChemBench基准，用于评估AI模型在早期药物发现中解读分子结构和选择化合物的能力。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-medchembench)）</sub>
+**OpenAI提出Perplexity衡量AI模型进展**<br>11月22日，OpenAI提出Perplexity指标，旨在帮助开发者建立统一的评估新兴能力的标准。<br><sub>（来源：[OpenAI](https://openai.com/index/perplexity-and-intelligence)）</sub>
 
-**Apple发布Depth Pro 2单目深度模型**<br>11月20日，Apple发布Depth Pro 2，通过单一可扩展网络在全分辨率下预测深度图，克服了时间一致性和边界清晰度的权衡。<br><sub>（来源：[Apple 机器学习研究](https://machinelearning.apple.com/research/depth-pro-2-monocular)）</sub>
+**Mind2Act World：具身智能体诊断基准**<br>11月23日消息，Mind2Act World基准包含30个模拟操作任务，通过Mind、Act和Mind2Act三种视图评估系统的认知推理、物理执行及二者结合能力。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.26444)）</sub>
 
-**AnyS1：通用决策点框架**<br>11月22日消息，AnyS1将人类编写的程序技能转化为共享的通用决策点，降低成本和模型调用时间。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.23751)）</sub>
+**Qwen3研究辨别反馈机制**<br>11月23日消息，研究小模型如何通过辨别用户反馈来持续改进，发现基于辨别反馈的机制能保持性能。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.23716)）</sub>
 
-**NarrowSpec：草案隐藏宽度优化**<br>11月22日消息，NarrowSpec表明草案模型的残差流可以以一半或四分之一宽度运行，同时保持较高的接受率。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.23835)）</sub>
+**Tideway优化MoE推理内存**<br>11月23日消息，提出Tideway系统统一管理主机内存与GPU显存，显著提升消费设备上MoE模型的推理延迟和吞吐量。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.14848)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月21日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-22 07:47（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-23 08:18（北京时间）自动生成。</sub>
 
-## 每周快讯 第 5 期 · 11.09–11.15
+## 每周快讯 第 6 期 · 11.16–11.22
 
-> 本期头条：DeepMind 推出 AlphaProof Code 验证复杂软件<br>
-> 上周 AI 与开源要闻 **26** 条，5 分钟速读。<br>
-> [阅读全文](weekly/2026-W46.md) · [公众号排版版](weekly/2026-W46.html) · [往期快讯](weekly/README.md)
+> 本期头条：OpenAI发布GPT-6.2 Astra和Sol模型<br>
+> 上周 AI 与开源要闻 **27** 条，5 分钟速读。<br>
+> [阅读全文](weekly/2026-W47.md) · [公众号排版版](weekly/2026-W47.html) · [往期快讯](weekly/README.md)
 
 **俱乐部动态**<br>
-✨ [开放原子开源俱乐部一周合并 15 个 PR、提交 16 次](https://osd.openatom.club/)<br>
-✨ [pwnhustcollege\_skill 一周合并 3 个 PR](https://github.com/hust-open-atom-club/pwnhustcollege_skill)<br>
-✨ [pwn.hust.college 一周合并 3 个 PR](https://github.com/hust-open-atom-club/pwn.hust.college)<br>
-✨ [homebrew-tap 一周合并 3 个 PR](https://github.com/hust-open-atom-club/homebrew-tap)
+✨ [开放原子开源俱乐部一周合并 16 个 PR、提交 28 次](https://osd.openatom.club/)<br>
+✨ [AtomGit-mobile4Harmony 一周合并 8 个 PR](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)<br>
+✨ [AtomGit-Mobile4Android 一周合并 4 个 PR](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)<br>
+✨ [Open-Source-Dashboard 一周合并 2 个 PR](https://github.com/hust-open-atom-club/Open-Source-Dashboard)
 
 **国内动态**<br>
-✨ [千问办公2.0上线Team Agent协作功能](https://zhidx.com/p/608469.html)<br>
-✨ [DeepSeek开放全家桶应用API](https://zhidx.com/p/610514.html)
+✨ [阿里通义千问发布 Qwen4-Max 模型](https://qwen.ai/blog?id=qwen4-max)<br>
+✨ [DeepSeek 开放全家桶应用 API](https://aiera.com.cn/2026/11/15/other/admin/123914/%e5%88%9a%e5%88%9a%ef%bc%8cdeepseek%e5%85%a8%e5%ae%b6%e6%a1%b6api%e6%ad%a3%e5%bc%8f%e5%bc%80%e6%94%be%ef%bc%81%e4%bd%a0%e4%b9%9f%e8%83%bd%e9%80%a0%e4%b8%80%e4%b8%aadeepseek%e4%ba%86/)<br>
+✨ [华为云上线 openPangu-2.1-Pro 开源模型](https://www.ithome.com/1/027/450.htm)<br>
+✨ [华为云发布 CloudRobo-WM1.2 具身世界模型](https://zhidx.com/p/610813.html)
 
 **海外动态**<br>
-✨ [Claude Fable 5.2 和 Claude Mythos 5.2 发布](https://www.anthropic.com/claude-fable-and-mythos-5-2)<br>
-✨ [Muse Ember：最小且高效的模型](https://research.meta.ai/blog/muse-ember)<br>
-✨ [Gemini 4 Carbon 现已上线](https://deepmind.google/blog/gemini-4-carbon-is-now-available/)<br>
-✨ [Gemini 4 Hydrogen：面向代理工作流的高效模型](https://deepmind.google/blog/introducing-gemini-4-hydrogen/)<br>
-✨ [李飞飞World Labs开放Atlas世界模型](https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=)
+✨ [OpenAI扩大对科学家的AI访问权限](https://openai.com/index/expanding-chatgpt-for-academic-researchers)<br>
+✨ [OpenAI发布GPT-6.2 Astra和Sol模型](https://openai.com/index/introducing-gpt-6-2-astra-sol)<br>
+✨ [Google DeepMind上线Genie 4](https://deepmind.google/blog/genie-4-is-now-available/)<br>
+✨ [Google DeepMind发布Gemini 4 Neon](https://deepmind.google/blog/introducing-gemini-4-neon/)
 
 **开源项目**<br>
-✨ [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip)<br>
-✨ [Show HN：将你的编码代理迁移到现代 Web 原语](https://github.com/GoogleChrome/modern-web-guidance)<br>
-✨ [smolmaxxing：让旧设备运行大型语言模型](https://github.com/hyperionaidev/smolmaxxing/)<br>
-✨ [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)
+✨ [vLLM 发布 v0.34.0 版本](https://github.com/vllm-project/vllm/releases/tag/v0.34.0)<br>
+✨ [Claude-BugHunter 技能包](https://github.com/elementalsouls/Claude-BugHunter)<br>
+✨ [Inkling 2 Mini：可在笔记本运行的模型](https://thinkingmachines.ai/news/inkling-2-mini/)<br>
+✨ [autoclip 开源视频剪辑工具](https://github.com/zhouxiaoka/autoclip)
 
 **学术前沿**<br>
-✨ [DeepMind 推出 AlphaProof Code 验证复杂软件](https://deepmind.google/blog/introducing-alphaproof-code/)<br>
-✨ [DeepMind 发布 AlphaGenome 2 解码 DNA](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/)<br>
-✨ [AI 解锁哥德尔手稿，据说包含数百个已证明的定理](https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths)
+✨ [科学家如何使用ChatGPT进行研究](https://openai.com/index/science-at-the-frontier)<br>
+✨ [OpenAI分析编码智能体如何加速AI研究](https://openai.com/index/research-acceleration-jagged-frontier)<br>
+✨ [语言模型可自行重写权重](https://arxiv.org/abs/2611.21885)
 
 **产业纵横**<br>
-✨ [高通展示端侧MoE智能体](https://www.qbitai.com/2026/11/508478.html)<br>
-✨ [Amazon 用 Strands Decider 替换 Sonnet 4.6，节省数百万美元](https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/)<br>
-✨ [Anthropic 递交 IPO 申请](https://ipo.anthropic.com/us/)
+✨ [KPMG 使用 AI 代理进行审计](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/)<br>
+✨ [Anthropic 定价首次公开募股](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)<br>
+✨ [Anthropic 上市次日股价下跌](https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off)
 
 **活动预告**<br>
-✨ [CVPR 2027 论文截稿](https://cvpr.thecvf.com/Conferences/2027)<br>
 ✨ [EuroVis 2027 论文截稿](https://eurovis27.github.io/web/)<br>
 ✨ [AAMAS 2027 论文截稿](https://warwick.ac.uk/fac/sci/dcs/aamas2027/)<br>
 ✨ [ICAPS 2027 论文截稿](https://icaps27.icaps-conference.org/)<br>
-✨ [COLING 2027 论文截稿](https://2027.coling-iccl.org/)
+✨ [COLING 2027 论文截稿](https://2027.coling-iccl.org/)<br>
+✨ [NAACL 2027 论文截稿](https://2027.naacl.org/)
 
 <!-- wta:latest:end -->
 
