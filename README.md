@@ -12,49 +12,68 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.23（周一）
+## 每日快讯 · 11.24（周二）
 
-> 今日 AI 与开源要闻 **10** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-23-kuaixun.md) · [公众号排版版](daily/2026/2026-11-23-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-23.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **19** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-24-kuaixun.md) · [公众号排版版](daily/2026/2026-11-24-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-24.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月23日 周一
-今日 AI 与开源要闻 10 条，3 分钟速读
+【每日科技快讯】11月24日 周二
+今日 AI 与开源要闻 19 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-1. 腾讯元宝×KCL发布群聊Agent记忆基准
-→ 腾讯元宝与KCL联合发布GroupAssistBench，基于80,299条群聊消息构建评测题，检验Agent记忆的召回与使用能力。
+3. 智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」
+→ 新智元报道，UIUC 等机构提出「记忆税」概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。
+4. 蚂蚁 Ling-3.2-air 模型发布并开源
+→ 蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。
+
+【海外动态】
+5. Anthropic 2028 年电力来源分析
+→ 分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。
+6. NariQ：10GB 文件中的 Qwen3.8-27B
+→ NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。
+7. AI 智能体群攻克 P vs NP
+→ AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。
+8. 利用智能体和形式验证寻找更快的量子算法
+→ Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。
+9. OpenAI 和 Cisco 推出 Shirudo
+→ OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。
+10. Anthropic 发布 Claude Ship
+→ Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。
 
 【开源项目】
-2. worker755：扮演 AI 管理员的子代理
-→ gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。
-3. 本地 AI 入门指南：Inkling、Qwen 和 Unsloth
-→ 使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。
-4. fast-anything：用智能体加速慢速代码
-→ fast-anything 项目利用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。
-5. anthropics/claude-cookbooks
-→ anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。
-6. superdesigndev/treg：智能体工具的OpenRouter
-→ superdesigndev/treg提供智能体工具的OpenRouter，并包含社区Discord。
+11. Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe
+→ vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。
+12. XinaTian/MROffice
+→ MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。
+13. erkamyaman/safe-anything
+→ safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。
+14. Ladybird 发布 alpha 版本，从零开发的开源浏览器引擎
+→ Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。
+15. phone-harness/phone-harness
+→ let your agent control your phone。
 
 【学术前沿】
-7. OpenAI提出Perplexity衡量AI模型进展
-→ OpenAI提出Perplexity指标，旨在帮助开发者建立统一的评估新兴能力的标准。
-8. Mind2Act World：具身智能体诊断基准
-→ Mind2Act World基准包含30个模拟操作任务，通过Mind、Act和Mind2Act三种视图评估系统的认知推理、物理执行及二者结合能力。
-9. Qwen3研究辨别反馈机制
-→ 研究小模型如何通过辨别用户反馈来持续改进，发现基于辨别反馈的机制能保持性能。
-10. Tideway优化MoE推理内存
-→ 提出Tideway系统统一管理主机内存与GPU显存，显著提升消费设备上MoE模型的推理延迟和吞吐量。
+16. cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction
+→ Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…
+17. WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding
+→ Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In t…
+18. Non-penetrating World Models
+→ We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…
+19. AutoPILOT: A Visual Agent Harness for Real-Time Gameplay
+→ Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps runni…
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
 
-上周快讯（11.16–11.22）已出：https://github.com/game-life04/weekly-tech-agent/blob/main/weekly/2026-W47.md
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-23-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-24-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -62,37 +81,59 @@
 
 ### 今日快讯
 
+#### 俱乐部动态
+
+**开放原子开源俱乐部合并 1 个 PR、提交 1 次**<br>11月23日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 0 个、合并 1 个，提交 1 次，新增代码 1807 行、删除 47 行，1 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月23日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 1807 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+
 #### 国内动态
 
-**腾讯元宝×KCL发布群聊Agent记忆基准**<br>11月21日，腾讯元宝与KCL联合发布GroupAssistBench，基于80,299条群聊消息构建评测题，检验Agent记忆的召回与使用能力。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/511841.html)）</sub>
+**智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」**<br>11月24日，新智元报道，UIUC 等机构提出「记忆税」概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/24/other/admin/125031/%e6%99%ba%e8%83%bd%e4%bd%93%e5%a4%8d%e6%9d%82%e8%ae%b0%e5%bf%86%e7%94%9a%e8%87%b3%e8%b7%91%e4%b8%8d%e8%bf%87%e5%8e%9f%e5%a7%8brag%ef%bc%9fuiuc%e7%ad%89%e9%a6%96%e6%8f%90%e3%80%8c%e8%ae%b0%e5%bf%86/)）</sub>
+
+**蚂蚁 Ling-3.2-air 模型发布并开源**<br>11月24日，蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。<br><sub>（来源：[IT之家](https://www.ithome.com/1/031/426.htm)）</sub>
+
+#### 海外动态
+
+**Anthropic 2028 年电力来源分析**<br>11月22日，分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。<br><sub>（来源：[Hacker News](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/)）</sub>
+
+**NariQ：10GB 文件中的 Qwen3.8-27B**<br>11月23日，NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。<br><sub>（来源：[Hacker News](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)）</sub>
+
+**AI 智能体群攻克 P vs NP**<br>11月23日，AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。<br><sub>（来源：[Hacker News](https://pequalnp.com/)）</sub>
+
+**利用智能体和形式验证寻找更快的量子算法**<br>11月24日，Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)）</sub>
+
+**OpenAI 和 Cisco 推出 Shirudo**<br>11月24日，OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-shirudo)）</sub>
+
+**Anthropic 发布 Claude Ship**<br>11月24日，Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。<br><sub>（来源：[TechCrunch](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/)）</sub>
 
 #### 开源项目
 
-**worker755：扮演 AI 管理员的子代理**<br>11月22日，gulivan 创建了一个浏览器游戏，玩家扮演 AI 管理员的子代理，需在 90 秒内完成任务。<br><sub>（来源：[Hacker News](https://github.com/gulivan/worker755)）</sub>
+**Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe**<br>11月23日，vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-23-skip-the-dram-tier)）</sub>
 
-**本地 AI 入门指南：Inkling、Qwen 和 Unsloth**<br>11月23日，使用 Unsloth 和 Inkling 或 Qwen 在 PC 上搭建免费私有的 ChatGPT。<br><sub>（来源：[Hacker News](https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth)）</sub>
+**XinaTian/MROffice**<br>11月24日消息，MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。<br><sub>（来源：[GitHub 新项目](https://github.com/XinaTian/MROffice)）</sub>
 
-**fast-anything：用智能体加速慢速代码**<br>11月23日消息，fast-anything 项目利用编码代理将 Python、Node 或 Ruby 应用中 5% 的慢速部分重写为 Rust。<br><sub>（来源：[GitHub 新项目](https://github.com/EL4CTEO/fast-anything)）</sub>
+**erkamyaman/safe-anything**<br>11月24日消息，safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。<br><sub>（来源：[GitHub 新项目](https://github.com/erkamyaman/safe-anything)）</sub>
 
-**anthropics/claude-cookbooks**<br>11月23日消息，anthropics/claude-cookbooks展示了使用Claude的有趣且有效方式的笔记本和食谱集合。<br><sub>（来源：[GitHub Trending](https://github.com/anthropics/claude-cookbooks)）</sub>
+**Ladybird 发布 alpha 版本，从零开发的开源浏览器引擎**<br>11月24日，Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503767/ladybird-alpha)）</sub>
 
-**superdesigndev/treg：智能体工具的OpenRouter**<br>11月23日消息，superdesigndev/treg提供智能体工具的OpenRouter，并包含社区Discord。<br><sub>（来源：[GitHub Trending](https://github.com/superdesigndev/treg)）</sub>
+**phone-harness/phone-harness**<br>11月24日消息，let your agent control your phone。<br><sub>（来源：[GitHub Trending](https://github.com/phone-harness/phone-harness)）</sub>
 
 #### 学术前沿
 
-**OpenAI提出Perplexity衡量AI模型进展**<br>11月22日，OpenAI提出Perplexity指标，旨在帮助开发者建立统一的评估新兴能力的标准。<br><sub>（来源：[OpenAI](https://openai.com/index/perplexity-and-intelligence)）</sub>
+**cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction**<br>11月24日消息，Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27193)）</sub>
 
-**Mind2Act World：具身智能体诊断基准**<br>11月23日消息，Mind2Act World基准包含30个模拟操作任务，通过Mind、Act和Mind2Act三种视图评估系统的认知推理、物理执行及二者结合能力。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.26444)）</sub>
+**WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding**<br>11月24日消息，Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In t…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.26409)）</sub>
 
-**Qwen3研究辨别反馈机制**<br>11月23日消息，研究小模型如何通过辨别用户反馈来持续改进，发现基于辨别反馈的机制能保持性能。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.23716)）</sub>
+**Non-penetrating World Models**<br>11月24日消息，We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27963)）</sub>
 
-**Tideway优化MoE推理内存**<br>11月23日消息，提出Tideway系统统一管理主机内存与GPU显存，显著提升消费设备上MoE模型的推理延迟和吞吐量。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.14848)）</sub>
+**AutoPILOT: A Visual Agent Harness for Real-Time Gameplay**<br>11月24日消息，Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps runni…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.28202)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-23 10:00（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月23日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-24 12:17（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 

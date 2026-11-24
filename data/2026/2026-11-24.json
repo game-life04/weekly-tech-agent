@@ -1,0 +1,1361 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T04:17:21Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 445,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.7
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.9
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 3.5
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.3
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 52,
+   "error": "",
+   "seconds": 10.9
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 340,
+   "error": "",
+   "seconds": 23.6
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 6,
+   "error": "",
+   "seconds": 19.2
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 33.4
+  }
+ ],
+ "items": [
+  {
+   "title": "Finding faster quantum algorithms with agents and formal verification",
+   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google DeepMind",
+   "published": "2026-11-23T16:59:40Z",
+   "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "875060338ff1",
+   "score": 8.2,
+   "title_zh": "利用智能体和形式验证寻找更快的量子算法",
+   "summary_zh": "Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。",
+   "tags": [
+    "量子计算",
+    "算法",
+    "Google Deep…"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "url": "https://z.ai/blog/glm-5.4",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-23T10:06:43Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1081.0,
+    "comments": 351.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50609685",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "llm_done": true
+   },
+   "id": "0db9893a313d",
+   "score": 8.14,
+   "title_zh": "GLM-5.4：首个循环 Transformer",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "代码生成"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-22T08:57:34Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1029.0,
+    "comments": 1006.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50597612",
+    "excerpt_tried": true,
+    "evidence": "A case study of Anthropic's total power use and emissions. We find the company could emit 32 million metric tons of carbon dioxide in 2028. A case study of Anthropic’s total power use and emissions. We find the company could emit 32 million metric tons of carbon dioxide in 2028. In The AI Gas Rush: Risks and Implications of “Bring Your Own Power” , we dug into how data centers are increasingly securing their own dedicated primary power generation rather than relying solely on utilities to procure power (“BYOP”). We identified 177 GW of planned BYOP gas capacity—enough to power 65% of all US homes. Conversely, we found renewables are much less common than gas for BYOP: we estimate that for current proposals, less than 20% of energy generation will come from renewable sources by 2032. But B…",
+    "llm_done": true
+   },
+   "id": "eb5095b13600",
+   "score": 7.87,
+   "title_zh": "Anthropic 2028 年电力来源分析",
+   "summary_zh": "分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。",
+   "tags": [
+    "行业动态",
+    "碳排放"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-23T21:20:00Z",
+   "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 50.0,
+    "comments": 12.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50619630",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "60167006a52f",
+   "score": 7.8,
+   "title_zh": "OpenAI 和 Cisco 推出 Shirudo",
+   "summary_zh": "OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。",
+   "tags": [
+    "开源工具",
+    "安全",
+    "OpenAI"
+   ],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+   "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-23T13:42:38Z",
+   "summary": "",
+   "heat": 0.796,
+   "weight": 0.6,
+   "metrics": {
+    "points": 140.0,
+    "comments": 29.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50611402",
+    "excerpt_tried": true,
+    "evidence": "Image-Text-to-Text model with 27B parameters. Download, explore files and run it on Hugging Face. (Nov 20, 2026) We are releasing NariQ v1 GGUFs of Qwen3.8-27B at 3, 2.5 and 2 bits per weight. Run them on our llama.cpp fork (required) . Each cell gives a percentage and a count in parentheses. For DeepSWE, the count is the mean number of fully solved tasks per round. Across the same three rounds, the mean share of each task's new tests that passed was 83.1% (BF16), 82.9% (3-bit), 83.2% (2.5-bit) and 77.2% (2-bit). One BF16 verifier timeout in round 3 counts as zero (338 of 339 trials graded). Each NariQ variant had all 339 trials graded. Terminal-Bench counts solved trials, and the remaining columns count correct answers. The agent runs use the Claude Code CLI (2.1.309, thinking on, effort…",
+    "llm_done": true
+   },
+   "id": "9de1c9cd5b0e",
+   "score": 7.4,
+   "title_zh": "NariQ：10GB 文件中的 Qwen3.8-27B",
+   "summary_zh": "NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。",
+   "tags": [
+    "开源工具",
+    "模型量化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」",
+   "url": "https://aiera.com.cn/2026/11/24/other/admin/125031/%e6%99%ba%e8%83%bd%e4%bd%93%e5%a4%8d%e6%9d%82%e8%ae%b0%e5%bf%86%e7%94%9a%e8%87%b3%e8%b7%91%e4%b8%8d%e8%bf%87%e5%8e%9f%e5%a7%8brag%ef%bc%9fuiuc%e7%ad%89%e9%a6%96%e6%8f%90%e3%80%8c%e8%ae%b0%e5%bf%86/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-24T00:03:58Z",
+   "summary": "记忆是对历史的有偏重构。 无论是人脑还是长周期运行的智能体，只要开始建立「记忆」，原始的交互记录就会经历提炼、合并、更新、遗忘等操作，被重新编织成不同的层级与形式。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "ba4d471af81b",
+   "score": 7.31,
+   "title_zh": "智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」",
+   "summary_zh": "新智元报道，UIUC 等机构提出「记忆税」概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。",
+   "tags": [
+    "智能体",
+    "RAG",
+    "论文"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Agent swarm trying to solve P vs. NP",
+   "url": "https://pequalnp.com/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-22T21:53:45Z",
+   "summary": "",
+   "heat": 0.845,
+   "weight": 0.6,
+   "metrics": {
+    "points": 190.0,
+    "comments": 170.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50604314",
+    "excerpt_tried": true,
+    "evidence": "A coordinated AI agent fleet is attacking P vs NP in the open. Watch it live: every step, every refutation, every dead end is kept. Paste it into Claude Code, Cursor, Codex, Gemini CLI or any agent that can run a shell, git and Lean. It proves one open step the desk assigns; every proof goes through the same checker. A coordinated AI agent fleet is attacking the most famous open problem in computer science, live. agent sessions so far agents working now Every line is a structured record of the fleet: a lemma stated, an attempt begun or dead, a verdict of the checker. Backed by Logo sponsors appear here and under the hero, linked to their site. No sponsors yet. The first name on this list could be yours. See all sponsors → Any amount is welcome. Logos for $1K+. Names under $1K live on the…",
+    "llm_done": true
+   },
+   "id": "1c7efa634ec4",
+   "score": 7.31,
+   "title_zh": "AI 智能体群攻克 P vs NP",
+   "summary_zh": "AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。",
+   "tags": [
+    "智能体",
+    "数学证明"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "source": "rss",
+   "section": "news",
+   "via": "TechCrunch",
+   "published": "2026-11-23T22:05:50Z",
+   "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "5394fd79f8dd",
+   "score": 6.97,
+   "title_zh": "Anthropic 发布 Claude Ship",
+   "summary_zh": "Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。",
+   "tags": [
+    "智能体",
+    "代码",
+    "Anthropic"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+   "url": "https://huggingface.co/blog/allenai/robotrack",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-11-23T17:20:37Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by Ai2 on Hugging Face 🤖 Models | 📄 Tech Report | 📊 Data | 💻 Code | 🌐 Project Page | 📈 Benchmark Deploying robots in real-world settings requires reliable perception throughout an interaction. To pick something up, a robot needs to follow the positions of its gripper and the object as they move. In a laboratory, a robot handling a pipette must keep track of its tip while aligning it with the opening of a tube. These tasks become harder when nearby objects clutter the view, the gripper obscures the object being handled, or the viewing angle changes. One way to help robots follow these interactions is to track specific locations on the objects they handle. This is the idea behind point tracking . Given a location in one video frame, a tracker estimates where that same point appe…",
+    "llm_done": true
+   },
+   "id": "cc43133d3e40",
+   "score": 6.96,
+   "title_zh": "RoboTrack：面向真实世界机器人操作的点跟踪",
+   "summary_zh": "Ai2 在 Hugging Face 发布 RoboTrack，旨在解决机器人抓取物体时因遮挡或视角变化导致的跟踪难题。",
+   "tags": [
+    "机器人",
+    "感知",
+    "开源工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "蚂蚁 Ling-3.2-air 模型发布并开源：原生多模态架构，1240 亿总参数",
+   "url": "https://www.ithome.com/1/031/426.htm",
+   "source": "rss",
+   "section": "news",
+   "via": "IT之家",
+   "published": "2026-11-24T04:01:00Z",
+   "summary": "IT之家 11 月 24 日消息，蚂蚁科技集团今日发布并开源 Ling-3.2-air 模型 。该模型延续了 Ling-3.0-flash-VL 的原生多模态架构，支持文本、图像和视频输入，拥有 1240 亿总参数 ，每个 Token 激活 55 亿参数 。 与上一代相比，Ling-3.2-air 在解决代码仓库中的问题、执行多步骤工作流，以及理解视觉信息和推理专业文档等任务上的表现均有提升。 具体来看，与上一代 Ling-3.0-flash-VL 相比，Ling-3.2-air 的提升覆盖了 语言推理、编程、智能体执行和多模态任务 ，尤其体现在代码仓库问题解决、多步骤工作流和视觉推理等场景。 语言推理与编程。 Ling-3.2-air 在 HLE 上的得分从 21.96 提升至 31.42。在面向真实代码仓库的软件工程评测 SWE-bench Pro 上，得分从 26.40 提升至 58.28 ，提高了 31.88 分。 智能体与工作流执行。 AutomationBench-AA 得分从 15.7% 提升至 61% ，SkillsBench 得分从 42.91 提升至 67.82。…",
+   "heat": 0.4,
+   "weight": 0.4,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "500f2b0e52a1",
+   "score": 6.88,
+   "title_zh": "蚂蚁 Ling-3.2-air 模型发布并开源",
+   "summary_zh": "蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。",
+   "tags": [
+    "模型发布",
+    "多模态",
+    "蚂蚁"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe",
+   "url": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-23T00:00:00Z",
+   "summary": "On AMD Instinct™ MI355X GPUs, a MoRI UMBP KV pool on NVMe matched a DRAM pool of the same size within 1% for Kimi-K3 on vLLM, and drives that hold a day of agent KV cost less than DRAM that holds 31 minutes.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "37de6e4f3b8a",
+   "score": 7.57,
+   "title_zh": "",
+   "summary_zh": "vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。",
+   "tags": [
+    "推理加速",
+    "开源工具",
+    "vLLM"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "XinaTian/MROffice",
+   "url": "https://github.com/XinaTian/MROffice",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+   "heat": 0.744,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2994.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 13,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "f92b97acc3ca",
+   "score": 7.29,
+   "title_zh": "",
+   "summary_zh": "MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。",
+   "tags": [
+    "开源工具",
+    "办公软件"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "erkamyaman/safe-anything",
+   "url": "https://github.com/erkamyaman/safe-anything",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+   "heat": 0.853,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 512.0
+   },
+   "extra": {
+    "language": "Rust",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d3649e267ce0",
+   "score": 6.91,
+   "title_zh": "",
+   "summary_zh": "safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。",
+   "tags": [
+    "开源工具",
+    "安全扫描"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Ladybird 发布 alpha 版本，从零开发的开源浏览器引擎",
+   "url": "https://www.oschina.net/news/503767/ladybird-alpha",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-24T03:27:59Z",
+   "summary": "Ladybird 开始进入 alpha 测试阶段。 项目创始人 Andreas Kling 在 11 月 23 日的公告只有一千多字，但第一句就把这件事的分量说清楚了： Ladybird is a browser with a new engine. The engine is our own, built from the ground up, and not a fork. The browser around it is modest, but functional. Ladybird 是一...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "71df3124d33d",
+   "score": 6.43,
+   "title_zh": "",
+   "summary_zh": "Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。",
+   "tags": [
+    "开源工具",
+    "浏览器",
+    "Ladybird"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "phone-harness/phone-harness",
+   "url": "https://github.com/phone-harness/phone-harness",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "let your agent control your phone",
+   "heat": 0.549,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 80.0,
+    "stars": 5602.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6941e2b2ec63",
+   "score": 6.42,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "harness-hub/Qwen3.8-27B-pi-adapted",
+   "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "图文理解模型，许可证 apache-2.0",
+   "heat": 0.733,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 1044.0,
+    "downloads": 3132.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/harness-hub/Qwen3.8-27B-pi-adapted"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "6be73df17843",
+   "score": 6.07,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/codex rust-v0.172.0",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-24T00:03:55Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## New Features - Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. (#62332) - Press `Tab` to complete arguments for supported slash commands. For example, `/mcp lo` completes to `/mcp login`. (#62343) - Jump between task groups in the agent command center with `Shift+Up` and `Shift+Down`. (#62200) - Optional stdio MCP servers with cached tool lists now start on their first tool call by default. (#62366) - Set an approval reviewer for individual connected app tools in `config.toml`. (#62360) - App-server clients can select Amazon Bedrock Runtime during setup or sign-in. (#62222) ## Bug Fixes - `codex exec resume` restores saved sandbox permissions, the working directory, and workspace roots unless explicitly overridden. (#62194) - Remote sessions preserve working directories, workspace roots, and writable paths when the client and server run on different operating systems. (#62375, #62376, #62377) - Codex reports provider errors as soon as they arrive in a response stream and identifies which API spend limit was reached. (#62329, #62356) - Interrupting a parent turn preserves queued replies from child agents for the next turn. (#62348) - Use `PageUp` and `PageDown` to read and submit answer choices that are taller than the terminal’s answer area. (#62209) - Cloud replies that finish after history loads now update in place, keeping the terminal transcript in order. (#62403) ## Documentation - The bundled `op…",
+    "level": "minor",
+    "llm_score": 5.0,
+    "llm_done": true
+   },
+   "id": "ee012e99cd39",
+   "score": 5.89,
+   "title_zh": "",
+   "summary_zh": "openai/codex rust 更新至 v0.172.0，新增了从搜索结果和转录中跟随线程链接、支持斜杠命令自动补全等功能。",
+   "tags": [
+    "开源工具",
+    "代码",
+    "OpenAI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "openai/openai-agents-python v0.26.0",
+   "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.26.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-24T03:15:47Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## [0.26.0](https://github.com/openai/openai-agents-python/compare/v0.25.0...v0.26.0) (2026-11-24) ### Features * Upgrade the GPT-Live demo to 1.1 ([6c4e4a2](https://github.com/openai/openai-agents-python/commit/6c4e4a29cd08eef454db6980d74da6afc8939d24)) ### Bug Fixes * allow SDK 0.25 in the external provider example ([#6068](https://github.com/openai/openai-agents-python/issues/6068)) ([9b17858](https://github.com/openai/openai-agents-python/commit/9b17858afb5b45f48bbf695cc7c8f34778425156)) * apply the Docker removal CPU limit to path inspection ([14d13f4](https://github.com/openai/openai-agents-python/commit/14d13f468b0da7e6b721379200bd150cea60add1)) * bound TAR path validation work per component ([abc55bd](https://github.com/openai/openai-agents-python/commit/abc55bd1b3d1b942b5c227545247dad23d104e99)) * check Realtime output guardrails at turn completion ([dc84a13](https://github.com/openai/openai-agents-python/commit/dc84a13735dd7818847c20e7e023b0fbad2a88de)) * give per-call MCP metadata priority over discovery defaults ([7f6f5ea](https://github.com/openai/openai-agents-python/commit/7f6f5ea075646ad13651fad96ac30b6e37da230b)) * honor the global tracing switch in Realtime ([96b2799](https://github.com/openai/openai-agents-python/commit/96b27992a8aaf8cb29244f5e0d90a5b6c7d2373f)) * limit UnixLocal snapshot link rebasing to regular files ([dd444fb](https://github.com/openai/openai-agents-python/commit/dd444fb313a398a006b99ee0fbecb9ec513b55e5)) * preserve handoff redaction in…",
+    "level": "minor",
+    "llm_score": 4.0,
+    "llm_done": true
+   },
+   "id": "c515bba6dd8f",
+   "score": 5.33,
+   "title_zh": "",
+   "summary_zh": "openai-agents-python 更新至 v0.26.0，升级了 GPT-Live demo 至 1.1，并修复了外部提供者示例的 SDK 兼容性问题。",
+   "tags": [
+    "开源工具",
+    "SDK",
+    "OpenAI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+   "url": "https://arxiv.org/abs/2611.27193",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual matrices stay close to the vertices of the Birkhoff polytope, hyper-connections will degenerate into a set of nearly independent streams; when over-mixed residual matrices are concentrated around the uniform barycenter of the polytope, streams will become less distinguishable from each other. We theoretically validate our findings by bounding the cumulative residual mixing, stream difference and gradient difference of mixing coefficients across layers. Motivated by these findings, we propose Contraction for Manifold-Constrained Hyper-Connections (cmHC), an exact doubly stochastic method which geometrically contracts the Birkhoff polytope toward its interior. This contraction mitigates under-mixing by forcing the residual matrices to explore deeper into the polytope, with a provable stream mixing bound and no new parameterization. Moreover, we apply a moderate contraction at the shallow layers to prevent over-mixing, enabling stable gradient propagation on extremely large-scale model pretraining. Extensive experiments across dense and mixture-of-experts models at various parameter scal…",
+   "heat": 0.798,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 94.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Newiz430/cmHC"
+     ]
+    ],
+    "llm_score": 6.0
+   },
+   "id": "7749c14ba209",
+   "score": 6.1,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+   "url": "https://arxiv.org/abs/2611.26409",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-19T00:00:00Z",
+   "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm, seamlessly supporting both a non-thinking instruct mode for fast, direct responses and a thinking mode for explicit step-by-step reasoning. The models are trained on a large-scale multimodal corpus of approximately 1.2 trillion tokens through progressive pre-training and a multi-stage post-training pipeline incorporating multi-teacher OPD, anti-repetition MrDPO, and specialist RL. Evaluated across more than 120 benchmarks, WeMM-Video demonstrates superior performance in omni-modal video understanding and reasoning, while maintaining highly competitive capabilities across general audio, silent video, image, and text tasks. Specifically, in omni-modal video evaluations, our flagship WeMM-Video-35B-A3B establishes a new open-source state of the art, substantially outperforming proprietary models such as Qwen3.5-Omni-Flash and Seed2.0-Mini-0428 while narrowing the gap with the strong Gemini-3.0-Flash, and our compact WeMM-Video-9B surpasses the larger open-source Qwen3-Omni-30B-A3B-Instruct. We publicly release the WeMM-Video family along with our evaluation and repro…",
+   "heat": 0.689,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 50.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Tencent/WeMM-Video"
+     ]
+    ],
+    "llm_score": 6.0
+   },
+   "id": "1e04576ead86",
+   "score": 5.83,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Non-penetrating World Models",
+   "url": "https://arxiv.org/abs/2611.27963",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict such violations. We find that the hidden states of diffusion transformers (DiTs) can predict whether a candidate action will penetrate an obstacle. Building on this, we introduce NoPeWorld, a lightweight framework that detects and prevents penetration. Specifically, we train a small prediction head on top of a frozen DiT's hidden states to read out if a candidate action is safe or not. Unsafe actions are then replaced with safe ones that best preserve the original intent. Despite its simplicity, NoPeWorld substantially reduces the physical violation rate, averaged over six video world models, from 74% to 16%. Remarkably, our method shows zero-shot generalization to open-domain imagery, third-person viewpoints, and moving obstacles. We publicly release our code, the NoPeBench benchmark, and model weights. Project Page: https://nopeworld.github.io .",
+   "heat": 0.705,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 55.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/yuhangdai427/NoPeWorld"
+     ]
+    ],
+    "llm_score": 5.0
+   },
+   "id": "9f665292d947",
+   "score": 5.32,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+   "url": "https://arxiv.org/abs/2611.28202",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-20T18:56:49Z",
+   "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the first two, yet turn each model call into at most one action, so the agent acts only as often as its model thinks. We introduce AutoPILOT, which changes the third: in each model call, the model can send a primitive action, start an open-loop macro, or write a closed-loop controller that keeps playing from the screen without further model calls until it hands control back. To evaluate agents in real-time games, we build AFK-Bench, 120 diverse browser games grouped by how they respond to inaction and playable in real time or with the clock paused. With GPT-6.1 Sol under the same budgets, AutoPILOT reaches 68.6% real-time success against 38.3% for VISTA, and on GameWorld it keeps 80.0% in real time while VISTA drops from 84.1% to 42.9%. Its gains hold across models, and it reaches VISTA's final success rate at a fifth of its API cost. Our results suggest that how a harness turns model outputs into actions over time is a central yet underexplored part of agent design, and we hope AutoPILOT and AFK-Bench will serve as a foundation for agents in a world that does not wait.",
+   "heat": 0.542,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 21.0
+   },
+   "extra": {
+    "llm_score": 5.0
+   },
+   "id": "d5dbb75a3918",
+   "score": 5.29,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "BQDNA: Multi-Head Binary Spherical Quantization for Genomic Sequence Modeling",
+   "url": "https://arxiv.org/abs/2611.29395",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-22T11:12:24Z",
+   "summary": "Decoding biological information from long, repetitive DNA remains challenging. Genomic language models (gLMs) often follow the conventional language-model pretrain-and-adapt paradigm. However, the lack of inherent semantic segmentation and prior rules makes hand-crafted tokenizers like k-mer and BPE suboptimal. We introduce context-aware \\textbf{BQVAE} for scalar quantization of DNA and \\textbf{BQDNA}, an autoregressive gLM supporting multi-head codebooks. Comprehensive experiments reveal that: (1) unique training dynamics of vector quantization in DNA space, including the importance of alignment between training corpus and downstream data. (2) superior performance of BQVAE over hand-crafted tokenizers and vanilla VQVAE. (3) remarkable cross-species generalization capability of BQDNA, which achieves state-of-the-art performance with merely 0.1B multi-species training for BQVAE and 1 epoch training on hg38 for BQDNA, outperforming gLMs pretrained with 10$\\sim$100x more tokens. Our findings underscore the potential of learned vector quantization for genomic sequence representation. Code is available at https://github.com/Sophie10001b/BQDNA",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {},
+   "id": "7a45b6f425b0",
+   "score": 5.01,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-24",
+  "start": "2026-11-24",
+  "end": "2026-11-24",
+  "title": "利用智能体和形式验证寻找更快的量子算法",
+  "generated_at": "2026-11-24T04:17:21Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 23,
+  "club_period": {
+   "start": "2026-11-23",
+   "end": "2026-11-23"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 1 次",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 0 个、合并 1 个，提交 1 次，新增代码 1807 行、删除 47 行，1 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 1807 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "新智元报道，UIUC 等机构提出「记忆税」概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。",
+    "url": "https://aiera.com.cn/2026/11/24/other/admin/125031/%e6%99%ba%e8%83%bd%e4%bd%93%e5%a4%8d%e6%9d%82%e8%ae%b0%e5%bf%86%e7%94%9a%e8%87%b3%e8%b7%91%e4%b8%8d%e8%bf%87%e5%8e%9f%e5%a7%8brag%ef%bc%9fuiuc%e7%ad%89%e9%a6%96%e6%8f%90%e3%80%8c%e8%ae%b0%e5%bf%86/",
+    "via": "新智元",
+    "id": "ba4d471af81b",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "蚂蚁 Ling-3.2-air 模型发布并开源",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。",
+    "url": "https://www.ithome.com/1/031/426.htm",
+    "via": "IT之家",
+    "id": "500f2b0e52a1",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Anthropic 2028 年电力来源分析",
+    "when": "11月22日",
+    "date": "2026-11-22",
+    "body": "分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。",
+    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+    "via": "Hacker News",
+    "id": "eb5095b13600",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "NariQ：10GB 文件中的 Qwen3.8-27B",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。",
+    "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+    "via": "Hacker News",
+    "id": "9de1c9cd5b0e",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "AI 智能体群攻克 P vs NP",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。",
+    "url": "https://pequalnp.com/",
+    "via": "Hacker News",
+    "id": "1c7efa634ec4",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "利用智能体和形式验证寻找更快的量子算法",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。",
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "via": "Google DeepMind",
+    "id": "875060338ff1",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "OpenAI 和 Cisco 推出 Shirudo",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。",
+    "url": "https://openai.com/index/introducing-shirudo",
+    "via": "OpenAI",
+    "id": "60167006a52f",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Anthropic 发布 Claude Ship",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。",
+    "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+    "via": "TechCrunch",
+    "id": "5394fd79f8dd",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。",
+    "url": "https://vllm.ai/blog/2026-11-23-skip-the-dram-tier",
+    "via": "vLLM 博客",
+    "id": "37de6e4f3b8a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "XinaTian/MROffice",
+    "when": "11月24日消息",
+    "date": "2026-11-24",
+    "body": "MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。",
+    "url": "https://github.com/XinaTian/MROffice",
+    "via": "GitHub 新项目",
+    "id": "f92b97acc3ca",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "erkamyaman/safe-anything",
+    "when": "11月24日消息",
+    "date": "2026-11-24",
+    "body": "safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。",
+    "url": "https://github.com/erkamyaman/safe-anything",
+    "via": "GitHub 新项目",
+    "id": "d3649e267ce0",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Ladybird 发布 alpha 版本，从零开发的开源浏览器引擎",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。",
+    "url": "https://www.oschina.net/news/503767/ladybird-alpha",
+    "via": "开源中国",
+    "id": "71df3124d33d",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "phone-harness/phone-harness",
+    "when": "11月24日消息",
+    "date": "2026-11-24",
+    "body": "let your agent control your phone。",
+    "url": "https://github.com/phone-harness/phone-harness",
+    "via": "GitHub Trending",
+    "id": "6941e2b2ec63",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+    "when": "11月24日消息",
+    "date": "2026-11-24",
+    "body": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…",
+    "url": "https://arxiv.org/abs/2611.27193",
+    "via": "Hugging Face 热门论文",
+    "id": "7749c14ba209",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+    "when": "11月24日消息",
+    "date": "2026-11-24",
+    "body": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In t…",
+    "url": "https://arxiv.org/abs/2611.26409",
+    "via": "Hugging Face 热门论文",
+    "id": "1e04576ead86",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Non-penetrating World Models",
+    "when": "11月24日消息",
+    "date": "2026-11-24",
+    "body": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…",
+    "url": "https://arxiv.org/abs/2611.27963",
+    "via": "Hugging Face 热门论文",
+    "id": "9f665292d947",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+    "when": "11月24日消息",
+    "date": "2026-11-24",
+    "body": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps runni…",
+    "url": "https://arxiv.org/abs/2611.28202",
+    "via": "arXiv · 智能体",
+    "id": "d5dbb75a3918",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
