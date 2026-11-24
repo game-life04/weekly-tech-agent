@@ -1135,13 +1135,13 @@
   "start": "2026-11-24",
   "end": "2026-11-24",
   "title": "DeepMind 利用智能体和形式验证改进量子算法",
-  "generated_at": "2026-11-24T05:36:12Z",
+  "generated_at": "2026-11-24T10:54:35Z",
   "models": [
    "glm-4.7-flash"
   ],
   "prompt": "4f7b2f10",
-  "tries": 1,
-  "pending": 1,
+  "tries": 2,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-23",
    "end": "2026-11-23"
@@ -1448,6 +1448,12 @@
     "cat": "papers",
     "headline": "AutoPILOT 实时游戏视觉智能体",
     "body": "AutoPILOT 智能体工具允许模型在单次调用中发送原语动作、启动开环宏或编写闭环控制器。"
+   },
+   "7a45b6f425b0": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "BQDNA：基因组序列建模的多头二值球量化",
+    "body": "BQDNA支持多头码本的自回归基因组语言模型，在0.1B多物种训练下实现了跨物种泛化能力。"
    }
   }
  }
