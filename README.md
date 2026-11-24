@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.24（周二）
 
-> 今日 AI 与开源要闻 **19** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-24-kuaixun.md) · [公众号排版版](daily/2026/2026-11-24-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-24.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,53 +22,41 @@
 
 ```text
 【每日科技快讯】11月24日 周二
-今日 AI 与开源要闻 19 条，3 分钟速读
+今日 AI 与开源要闻 13 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
 2. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-3. 智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」
-→ 新智元报道，UIUC 等机构提出「记忆税」概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。
-4. 蚂蚁 Ling-3.2-air 模型发布并开源
+3. 蚂蚁开源 Ling-3.2-air 模型
 → 蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。
 
 【海外动态】
-5. Anthropic 2028 年电力来源分析
-→ 分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。
-6. NariQ：10GB 文件中的 Qwen3.8-27B
-→ NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。
-7. AI 智能体群攻克 P vs NP
-→ AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。
-8. 利用智能体和形式验证寻找更快的量子算法
-→ Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。
-9. OpenAI 和 Cisco 推出 Shirudo
+4. OpenAI 和 Cisco 推出 Shirudo
 → OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。
-10. Anthropic 发布 Claude Ship
-→ Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。
 
 【开源项目】
-11. Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe
+5. Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe
 → vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。
-12. XinaTian/MROffice
+6. NariQ 发布 Qwen3.8-27B GGUF 版本
+→ NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。
+7. MR Office 开源浏览器办公套件
 → MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。
-13. erkamyaman/safe-anything
+8. safe-anything Rust 漏洞扫描器
 → safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。
-14. Ladybird 发布 alpha 版本，从零开发的开源浏览器引擎
-→ Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。
-15. phone-harness/phone-harness
-→ let your agent control your phone。
+9. openai/codex rust 更新至 v0.172.0
+→ openai/codex rust 更新至 v0.172.0，新增了从搜索结果和转录中跟随线程链接、支持斜杠命令自动补全等功能。
 
 【学术前沿】
-16. cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction
-→ Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…
-17. WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding
-→ Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In t…
-18. Non-penetrating World Models
-→ We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…
-19. AutoPILOT: A Visual Agent Harness for Real-Time Gameplay
-→ Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps runni…
+10. DeepMind 利用智能体和形式验证改进量子算法
+→ Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。
+11. cmHC 通过几何收缩平衡超连接
+→ 针对流混合残差矩阵在双随机多面体中混合不足或过度的问题，提出一种几何收缩方法。
+12. WeMM-Video 开源全模态视频理解
+→ WeMM-Video 是一个双语全模态基础模型，在 120 多个基准测试中表现优异。
+13. NoPeWorld 非穿透世界模型
+→ NoPeWorld 轻量级框架利用扩散变换器的隐藏状态预测动作安全性，降低物理违规率。
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
@@ -89,51 +77,39 @@
 
 #### 国内动态
 
-**智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」**<br>11月24日，新智元报道，UIUC 等机构提出「记忆税」概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/24/other/admin/125031/%e6%99%ba%e8%83%bd%e4%bd%93%e5%a4%8d%e6%9d%82%e8%ae%b0%e5%bf%86%e7%94%9a%e8%87%b3%e8%b7%91%e4%b8%8d%e8%bf%87%e5%8e%9f%e5%a7%8brag%ef%bc%9fuiuc%e7%ad%89%e9%a6%96%e6%8f%90%e3%80%8c%e8%ae%b0%e5%bf%86/)）</sub>
-
-**蚂蚁 Ling-3.2-air 模型发布并开源**<br>11月24日，蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。<br><sub>（来源：[IT之家](https://www.ithome.com/1/031/426.htm)）</sub>
+**蚂蚁开源 Ling-3.2-air 模型**<br>11月24日，蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。<br><sub>（来源：[IT之家](https://www.ithome.com/1/031/426.htm)）</sub>
 
 #### 海外动态
 
-**Anthropic 2028 年电力来源分析**<br>11月22日，分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。<br><sub>（来源：[Hacker News](https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/)）</sub>
-
-**NariQ：10GB 文件中的 Qwen3.8-27B**<br>11月23日，NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。<br><sub>（来源：[Hacker News](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)）</sub>
-
-**AI 智能体群攻克 P vs NP**<br>11月23日，AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。<br><sub>（来源：[Hacker News](https://pequalnp.com/)）</sub>
-
-**利用智能体和形式验证寻找更快的量子算法**<br>11月24日，Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)）</sub>
-
 **OpenAI 和 Cisco 推出 Shirudo**<br>11月24日，OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-shirudo)）</sub>
-
-**Anthropic 发布 Claude Ship**<br>11月24日，Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。<br><sub>（来源：[TechCrunch](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/)）</sub>
 
 #### 开源项目
 
 **Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe**<br>11月23日，vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-23-skip-the-dram-tier)）</sub>
 
-**XinaTian/MROffice**<br>11月24日消息，MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。<br><sub>（来源：[GitHub 新项目](https://github.com/XinaTian/MROffice)）</sub>
+**NariQ 发布 Qwen3.8-27B GGUF 版本**<br>11月23日，NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。<br><sub>（来源：[Hacker News](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)）</sub>
 
-**erkamyaman/safe-anything**<br>11月24日消息，safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。<br><sub>（来源：[GitHub 新项目](https://github.com/erkamyaman/safe-anything)）</sub>
+**MR Office 开源浏览器办公套件**<br>11月24日消息，MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。<br><sub>（来源：[GitHub 新项目](https://github.com/XinaTian/MROffice)）</sub>
 
-**Ladybird 发布 alpha 版本，从零开发的开源浏览器引擎**<br>11月24日，Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503767/ladybird-alpha)）</sub>
+**safe-anything Rust 漏洞扫描器**<br>11月24日消息，safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。<br><sub>（来源：[GitHub 新项目](https://github.com/erkamyaman/safe-anything)）</sub>
 
-**phone-harness/phone-harness**<br>11月24日消息，let your agent control your phone。<br><sub>（来源：[GitHub Trending](https://github.com/phone-harness/phone-harness)）</sub>
+**openai/codex rust 更新至 v0.172.0**<br>11月24日，openai/codex rust 更新至 v0.172.0，新增了从搜索结果和转录中跟随线程链接、支持斜杠命令自动补全等功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/openai/codex/releases/tag/rust-v0.172.0)）</sub>
 
 #### 学术前沿
 
-**cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction**<br>11月24日消息，Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27193)）</sub>
+**DeepMind 利用智能体和形式验证改进量子算法**<br>11月24日，Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)）</sub>
 
-**WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding**<br>11月24日消息，Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In t…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.26409)）</sub>
+**cmHC 通过几何收缩平衡超连接**<br>11月24日消息，针对流混合残差矩阵在双随机多面体中混合不足或过度的问题，提出一种几何收缩方法。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27193)）</sub>
 
-**Non-penetrating World Models**<br>11月24日消息，We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27963)）</sub>
+**WeMM-Video 开源全模态视频理解**<br>11月24日消息，WeMM-Video 是一个双语全模态基础模型，在 120 多个基准测试中表现优异。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.26409)）</sub>
 
-**AutoPILOT: A Visual Agent Harness for Real-Time Gameplay**<br>11月24日消息，Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps runni…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.28202)）</sub>
+**NoPeWorld 非穿透世界模型**<br>11月24日消息，NoPeWorld 轻量级框架利用扩散变换器的隐藏状态预测动作安全性，降低物理违规率。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27963)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月23日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-24 12:17（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月23日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-24 13:36（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 

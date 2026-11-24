@@ -986,13 +986,18 @@
       "https://github.com/Newiz430/cmHC"
      ]
     ],
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "7749c14ba209",
    "score": 6.1,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "cmHC：通过几何收缩平衡超连接中的流混合",
+   "summary_zh": "针对流混合残差矩阵在双随机多面体中混合不足或过度的问题，提出一种几何收缩方法。该方法通过收缩多面体内部，缓解了混合不足并防止了过度混合，实现了稳定梯度传播。",
+   "tags": [
+    "模型压缩",
+    "优化",
+    "深度学习"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1016,13 +1021,18 @@
       "https://github.com/Tencent/WeMM-Video"
      ]
     ],
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "1e04576ead86",
    "score": 5.83,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "WeMM-Video：开源全模态视频理解前沿",
+   "summary_zh": "针对多模态视频理解挑战，提出WeMM-Video系列双语全模态基础模型。该模型通过混合思维范式统一处理文本、图像、音频和视频，在120多个基准测试中表现优异，在35B-A3B变体上达到开源新纪录。",
+   "tags": [
+    "多模态",
+    "视频理解",
+    "大模型"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1046,13 +1056,18 @@
       "https://github.com/yuhangdai427/NoPeWorld"
      ]
     ],
-    "llm_score": 5.0
+    "llm_score": 5.0,
+    "llm_done": true
    },
    "id": "9f665292d947",
    "score": 5.32,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "非穿透世界模型",
+   "summary_zh": "针对交互式视频世界模型中物体穿透问题，提出NoPeWorld轻量级框架。该框架利用扩散变换器的隐藏状态预测动作安全性，通过替换不安全动作显著降低了物理违规率，并实现了零样本泛化。",
+   "tags": [
+    "物理模拟",
+    "世界模型",
+    "强化学习"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1070,13 +1085,18 @@
     "upvotes": 21.0
    },
    "extra": {
-    "llm_score": 5.0
+    "llm_score": 5.0,
+    "llm_done": true
    },
    "id": "d5dbb75a3918",
    "score": 5.29,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "AutoPILOT：实时游戏视觉智能体工具",
+   "summary_zh": "针对多模态基础模型在实时游戏中表现不佳的问题，提出AutoPILOT智能体工具。该工具允许模型在单次调用中发送原语动作、启动开环宏或编写闭环控制器，在AFK-Bench上实现了更高的实时成功率。",
+   "tags": [
+    "智能体",
+    "游戏",
+    "实时推理"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1093,12 +1113,18 @@
    "metrics": {
     "upvotes": 0.0
    },
-   "extra": {},
+   "extra": {
+    "llm_done": true
+   },
    "id": "7a45b6f425b0",
    "score": 5.01,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "BQDNA：基因组序列建模的多头二值球量化",
+   "summary_zh": "针对长重复DNA解码挑战，提出BQVAE和BQDNA方法。BQDNA支持多头码本的自回归基因组语言模型，在0.1B多物种训练和1个epoch训练下实现了跨物种泛化能力，优于传统方法。",
+   "tags": [
+    "基因组学",
+    "量化",
+    "高效推理"
+   ],
    "also_in": [],
    "merged_ids": []
   }
@@ -1108,14 +1134,14 @@
   "day": "2026-11-24",
   "start": "2026-11-24",
   "end": "2026-11-24",
-  "title": "利用智能体和形式验证寻找更快的量子算法",
-  "generated_at": "2026-11-24T04:17:21Z",
+  "title": "DeepMind 利用智能体和形式验证改进量子算法",
+  "generated_at": "2026-11-24T05:36:12Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
-  "pending": 23,
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 1,
   "club_period": {
    "start": "2026-11-23",
    "end": "2026-11-23"
@@ -1161,68 +1187,13 @@
    },
    {
     "cat": "domestic",
-    "headline": "智能体复杂记忆甚至跑不过原始RAG？UIUC等首提「记忆税」",
-    "when": "11月24日",
-    "date": "2026-11-24",
-    "body": "新智元报道，UIUC 等机构提出「记忆税」概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。",
-    "url": "https://aiera.com.cn/2026/11/24/other/admin/125031/%e6%99%ba%e8%83%bd%e4%bd%93%e5%a4%8d%e6%9d%82%e8%ae%b0%e5%bf%86%e7%94%9a%e8%87%b3%e8%b7%91%e4%b8%8d%e8%bf%87%e5%8e%9f%e5%a7%8brag%ef%bc%9fuiuc%e7%ad%89%e9%a6%96%e6%8f%90%e3%80%8c%e8%ae%b0%e5%bf%86/",
-    "via": "新智元",
-    "id": "ba4d471af81b",
-    "ai": true
-   },
-   {
-    "cat": "domestic",
-    "headline": "蚂蚁 Ling-3.2-air 模型发布并开源",
+    "headline": "蚂蚁开源 Ling-3.2-air 模型",
     "when": "11月24日",
     "date": "2026-11-24",
     "body": "蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。",
     "url": "https://www.ithome.com/1/031/426.htm",
     "via": "IT之家",
     "id": "500f2b0e52a1",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Anthropic 2028 年电力来源分析",
-    "when": "11月22日",
-    "date": "2026-11-22",
-    "body": "分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。",
-    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-    "via": "Hacker News",
-    "id": "eb5095b13600",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "NariQ：10GB 文件中的 Qwen3.8-27B",
-    "when": "11月23日",
-    "date": "2026-11-23",
-    "body": "NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。",
-    "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-    "via": "Hacker News",
-    "id": "9de1c9cd5b0e",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "AI 智能体群攻克 P vs NP",
-    "when": "11月23日",
-    "date": "2026-11-23",
-    "body": "AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。",
-    "url": "https://pequalnp.com/",
-    "via": "Hacker News",
-    "id": "1c7efa634ec4",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "利用智能体和形式验证寻找更快的量子算法",
-    "when": "11月24日",
-    "date": "2026-11-24",
-    "body": "Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。",
-    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-    "via": "Google DeepMind",
-    "id": "875060338ff1",
     "ai": true
    },
    {
@@ -1234,17 +1205,6 @@
     "url": "https://openai.com/index/introducing-shirudo",
     "via": "OpenAI",
     "id": "60167006a52f",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Anthropic 发布 Claude Ship",
-    "when": "11月24日",
-    "date": "2026-11-24",
-    "body": "Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。",
-    "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-    "via": "TechCrunch",
-    "id": "5394fd79f8dd",
     "ai": true
    },
    {
@@ -1260,7 +1220,18 @@
    },
    {
     "cat": "opensource",
-    "headline": "XinaTian/MROffice",
+    "headline": "NariQ 发布 Qwen3.8-27B GGUF 版本",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。",
+    "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+    "via": "Hacker News",
+    "id": "9de1c9cd5b0e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "MR Office 开源浏览器办公套件",
     "when": "11月24日消息",
     "date": "2026-11-24",
     "body": "MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。",
@@ -1271,7 +1242,7 @@
    },
    {
     "cat": "opensource",
-    "headline": "erkamyaman/safe-anything",
+    "headline": "safe-anything Rust 漏洞扫描器",
     "when": "11月24日消息",
     "date": "2026-11-24",
     "body": "safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。",
@@ -1282,69 +1253,58 @@
    },
    {
     "cat": "opensource",
-    "headline": "Ladybird 发布 alpha 版本，从零开发的开源浏览器引擎",
+    "headline": "openai/codex rust 更新至 v0.172.0",
     "when": "11月24日",
     "date": "2026-11-24",
-    "body": "Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。",
-    "url": "https://www.oschina.net/news/503767/ladybird-alpha",
-    "via": "开源中国",
-    "id": "71df3124d33d",
+    "body": "openai/codex rust 更新至 v0.172.0，新增了从搜索结果和转录中跟随线程链接、支持斜杠命令自动补全等功能。",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+    "via": "GitHub 版本发布",
+    "id": "ee012e99cd39",
     "ai": true
    },
    {
-    "cat": "opensource",
-    "headline": "phone-harness/phone-harness",
-    "when": "11月24日消息",
+    "cat": "papers",
+    "headline": "DeepMind 利用智能体和形式验证改进量子算法",
+    "when": "11月24日",
     "date": "2026-11-24",
-    "body": "let your agent control your phone。",
-    "url": "https://github.com/phone-harness/phone-harness",
-    "via": "GitHub Trending",
-    "id": "6941e2b2ec63",
-    "ai": false
+    "body": "Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。",
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "via": "Google DeepMind",
+    "id": "875060338ff1",
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+    "headline": "cmHC 通过几何收缩平衡超连接",
     "when": "11月24日消息",
     "date": "2026-11-24",
-    "body": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual p…",
+    "body": "针对流混合残差矩阵在双随机多面体中混合不足或过度的问题，提出一种几何收缩方法。",
     "url": "https://arxiv.org/abs/2611.27193",
     "via": "Hugging Face 热门论文",
     "id": "7749c14ba209",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+    "headline": "WeMM-Video 开源全模态视频理解",
     "when": "11月24日消息",
     "date": "2026-11-24",
-    "body": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In t…",
+    "body": "WeMM-Video 是一个双语全模态基础模型，在 120 多个基准测试中表现优异。",
     "url": "https://arxiv.org/abs/2611.26409",
     "via": "Hugging Face 热门论文",
     "id": "1e04576ead86",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "Non-penetrating World Models",
+    "headline": "NoPeWorld 非穿透世界模型",
     "when": "11月24日消息",
     "date": "2026-11-24",
-    "body": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing m…",
+    "body": "NoPeWorld 轻量级框架利用扩散变换器的隐藏状态预测动作安全性，降低物理违规率。",
     "url": "https://arxiv.org/abs/2611.27963",
     "via": "Hugging Face 热门论文",
     "id": "9f665292d947",
-    "ai": false
-   },
-   {
-    "cat": "papers",
-    "headline": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
-    "when": "11月24日消息",
-    "date": "2026-11-24",
-    "body": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps runni…",
-    "url": "https://arxiv.org/abs/2611.28202",
-    "via": "arXiv · 智能体",
-    "id": "d5dbb75a3918",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "events",
@@ -1356,6 +1316,139 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "875060338ff1": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DeepMind 利用智能体和形式验证改进量子算法",
+    "body": "Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。"
+   },
+   "0db9893a313d": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": ""
+   },
+   "eb5095b13600": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 2028 年电力来源分析",
+    "body": "分析 Anthropic 的总电力使用和排放，预计 2028 年将排放 3200 万公吨二氧化碳。"
+   },
+   "60167006a52f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。"
+   },
+   "9de1c9cd5b0e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "NariQ 发布 Qwen3.8-27B GGUF 版本",
+    "body": "NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。"
+   },
+   "ba4d471af81b": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "UIUC 等机构提出记忆税概念",
+    "body": "UIUC 等机构提出“记忆税”概念，指出智能体在建立记忆时，原始交互记录会被重新编织，导致性能下降。"
+   },
+   "1c7efa634ec4": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "AI 智能体群攻克 P vs NP",
+    "body": "AI 智能体群正在协同攻击计算机科学中最著名的开放问题 P vs NP。"
+   },
+   "5394fd79f8dd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 发布 Claude Ship",
+    "body": "Anthropic 推出 Claude Ship，允许 AI 智能体审查、修复和批准代码更改，旨在消除 AI 生成代码堆积带来的瓶颈。"
+   },
+   "cc43133d3e40": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Ai2 发布 RoboTrack 点跟踪项目",
+    "body": "Ai2 在 Hugging Face 发布 RoboTrack，旨在解决机器人抓取物体时因遮挡或视角变化导致的跟踪难题。"
+   },
+   "500f2b0e52a1": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "蚂蚁开源 Ling-3.2-air 模型",
+    "body": "蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。"
+   },
+   "37de6e4f3b8a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。"
+   },
+   "f92b97acc3ca": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "MR Office 开源浏览器办公套件",
+    "body": "MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。"
+   },
+   "d3649e267ce0": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "safe-anything Rust 漏洞扫描器",
+    "body": "safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。"
+   },
+   "71df3124d33d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Ladybird 浏览器引擎进入 alpha 测试",
+    "body": "Ladybird 浏览器引擎进入 alpha 测试阶段，这是一个从零开始开发的开源浏览器引擎。"
+   },
+   "6941e2b2ec63": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "phone-harness 手机控制工具",
+    "body": "phone-harness 允许智能体控制手机。"
+   },
+   "6be73df17843": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Qwen3.8-27B-pi-adapted 图文理解模型",
+    "body": "harness-hub 发布 Qwen3.8-27B-pi-adapted 图文理解模型，许可证 apache-2.0。"
+   },
+   "ee012e99cd39": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai/codex rust 更新至 v0.172.0",
+    "body": "openai/codex rust 更新至 v0.172.0，新增了从搜索结果和转录中跟随线程链接、支持斜杠命令自动补全等功能。"
+   },
+   "c515bba6dd8f": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openai-agents-python 更新至 v0.26.0",
+    "body": "openai-agents-python 更新至 v0.26.0，升级了 GPT-Live demo 至 1.1，并修复了外部提供者示例的 SDK 兼容性问题。"
+   },
+   "7749c14ba209": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "cmHC 通过几何收缩平衡超连接",
+    "body": "针对流混合残差矩阵在双随机多面体中混合不足或过度的问题，提出一种几何收缩方法。"
+   },
+   "1e04576ead86": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WeMM-Video 开源全模态视频理解",
+    "body": "WeMM-Video 是一个双语全模态基础模型，在 120 多个基准测试中表现优异。"
+   },
+   "9f665292d947": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "NoPeWorld 非穿透世界模型",
+    "body": "NoPeWorld 轻量级框架利用扩散变换器的隐藏状态预测动作安全性，降低物理违规率。"
+   },
+   "d5dbb75a3918": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AutoPILOT 实时游戏视觉智能体",
+    "body": "AutoPILOT 智能体工具允许模型在单次调用中发送原语动作、启动开环宏或编写闭环控制器。"
+   }
+  }
  }
 }
