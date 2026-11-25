@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.25（周三）
 
-> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **14** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-25-kuaixun.md) · [公众号排版版](daily/2026/2026-11-25-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-25.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,53 +22,48 @@
 
 ```text
 【每日科技快讯】11月25日 周三
-今日 AI 与开源要闻 17 条，3 分钟速读
+今日 AI 与开源要闻 14 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
+1. 开放原子开源俱乐部合并 1 个 PR、提交 4 次
 2. AtomGit-Mobile4Android 合并 1 个 PR
-3. AtomGit-mobile4Harmony 新增 1 个 PR
+3. .github 提交 3 次
 
 【国内动态】
-4. 智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期
-→ 纯代码手搓了一个MV！
-
-【海外动态】
-5. GPT-6 models demonstrate intrinsic protein-design capabilities
-→ GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…
-6. Searching for distant planets with Astra
-→ See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and…
-7. Three LLM inflection points in twelve months
-→ I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been…
-8. Claude Opus 5.6灰测效果来了
-→ 整体效率大约是此前Opus版本的2到3倍。
+4. 智谱发布全新架构GLM-5.4
+→ 智谱采用Loop Transformer架构发布GLM-5.4，非高峰时段最高可达200 Token/s。
 
 【开源项目】
-9. vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…
-→ vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel…
-10. The Agent Lake
-→ An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them…
-11. INK-Q/agy-fast
-→ Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%)…
-12. pierridotite/mobile-agent-testers
-→ 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and A…
-13. SulphurAI/Sulphur-3
-→ 许可证 other。
+5. vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…
+→ vLLM发布0.32.0版本，支持百度ERNIE 5.5 Flash Preview，提供插件部署和端到端推理加速。
+6. LangChain推出Agent Lake
+→ LangChain推出Agent Lake，用于存储和筛选智能体产生的轨迹，将其转化为修复方案和微调模型。
+7. agy-fast：Google Antigravity MCP 加速插件
+→ Google Antigravity 的非侵入式 MCP 加速插件可减少 LLM 轮次、代币配额和上传流量。
+8. pierridotite/mobile-agent-testers
+→ 在 GitHub 免费运行器上，20 个 Claude Code 智能体并行在 iOS 模拟器和 Android 模拟器中测试手机应用。
+9. Anthropic发布Python SDK v2.14.0
+→ Anthropic发布Python SDK v2.14.0，新增Google数据控制、合规审查支持，修复代理配置问题。
 
 【学术前沿】
-14. WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce
-→ We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while…
-15. What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym
-→ Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task colle…
-16. Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation
-→ Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…
-17. Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounde…
-→ In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsiste…
+10. WeMM-Ecom：微信电商多模态内容理解
+→ WeMM-Ecom 是一套多模态大语言模型，通过两阶段预训练和混合思维后训练提升电商能力。
+11. OpenAI提出GPT-6蛋白质设计新方法
+→ OpenAI利用推理和代码设计蛋白质结构和序列，实验室测试显示在五个目标上具有结合证据。
+12. Google提出DeepCrossAttention架构
+→ Google提出DeepCrossAttention架构，通过可学习权重和深度交叉注意力动态结合层输出，防止信息稀释。
+13. Nemotron-Labs-VisualCreation：像素即代码的智能体视觉创作
+→ Nemotron-Labs-VisualCreation 框架通过像素即代码连接视觉创作能力，使用离散视觉标记和显式程序表示图像。
+
+【产业纵横】
+14. Tidal 将禁止完全 AI 生成的音乐
+→ Tidal 将于 12 月 9 日起移除完全 AI 生成的曲目，成为首个全面禁止 AI 音乐的流媒体平台。
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
 
 完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-25-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
 </details>
@@ -77,53 +72,47 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 1 次**<br>11月24日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 1 个，提交 1 次，新增代码 1500 行、删除 130 行，3 位贡献者参与，其中 1 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 1 个 PR、提交 4 次**<br>11月24日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 1 个，提交 4 次，新增代码 1515 行、删除 131 行，3 位贡献者参与，其中 1 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
 **AtomGit-Mobile4Android 合并 1 个 PR**<br>11月24日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 1500 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
-**AtomGit-mobile4Harmony 新增 1 个 PR**<br>11月24日，Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 1 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
+**.github 提交 3 次**<br>11月24日，数字基础设施维护 SIG的 .github 仓库新增 PR 1 个、提交 3 次、新增代码 15 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/.github)）</sub>
 
 #### 国内动态
 
-**智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期**<br>11月24日，纯代码手搓了一个MV！<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512423.html)）</sub>
-
-#### 海外动态
-
-**GPT-6 models demonstrate intrinsic protein-design capabilities**<br>11月24日，GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…<br><sub>（来源：[OpenAI](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)）</sub>
-
-**Searching for distant planets with Astra**<br>11月24日，See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and…<br><sub>（来源：[OpenAI](https://openai.com/index/searching-for-distant-planets-with-astra)）</sub>
-
-**Three LLM inflection points in twelve months**<br>11月25日，I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been…<br><sub>（来源：[Simon Willison](https://simonwillison.net/2026/Nov/24/llm-inflection-points/)）</sub>
-
-**Claude Opus 5.6灰测效果来了**<br>11月25日，整体效率大约是此前Opus版本的2到3倍。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512478.html)）</sub>
+**智谱发布全新架构GLM-5.4**<br>11月24日，智谱采用Loop Transformer架构发布GLM-5.4，非高峰时段最高可达200 Token/s。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512423.html)）</sub>
 
 #### 开源项目
 
-**vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…**<br>11月24日，vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel…<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview)）</sub>
+**vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…**<br>11月24日，vLLM发布0.32.0版本，支持百度ERNIE 5.5 Flash Preview，提供插件部署和端到端推理加速。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview)）</sub>
 
-**The Agent Lake**<br>11月25日，An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them…<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/the-agent-lake)）</sub>
+**LangChain推出Agent Lake**<br>11月25日，LangChain推出Agent Lake，用于存储和筛选智能体产生的轨迹，将其转化为修复方案和微调模型。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/the-agent-lake)）</sub>
 
-**INK-Q/agy-fast**<br>11月25日消息，Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%)…<br><sub>（来源：[GitHub 新项目](https://github.com/INK-Q/agy-fast)）</sub>
+**agy-fast：Google Antigravity MCP 加速插件**<br>11月25日消息，Google Antigravity 的非侵入式 MCP 加速插件可减少 LLM 轮次、代币配额和上传流量。<br><sub>（来源：[GitHub 新项目](https://github.com/INK-Q/agy-fast)）</sub>
 
-**pierridotite/mobile-agent-testers**<br>11月25日消息，20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and A…<br><sub>（来源：[GitHub 新项目](https://github.com/pierridotite/mobile-agent-testers)）</sub>
+**pierridotite/mobile-agent-testers**<br>11月25日消息，在 GitHub 免费运行器上，20 个 Claude Code 智能体并行在 iOS 模拟器和 Android 模拟器中测试手机应用。<br><sub>（来源：[GitHub 新项目](https://github.com/pierridotite/mobile-agent-testers)）</sub>
 
-**SulphurAI/Sulphur-3**<br>11月25日消息，许可证 other。<br><sub>（来源：[Hugging Face 热门模型](https://huggingface.co/SulphurAI/Sulphur-3)）</sub>
+**Anthropic发布Python SDK v2.14.0**<br>11月25日，Anthropic发布Python SDK v2.14.0，新增Google数据控制、合规审查支持，修复代理配置问题。<br><sub>（来源：[GitHub 版本发布](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0)）</sub>
 
 #### 学术前沿
 
-**WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce**<br>11月23日，We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.30662)）</sub>
+**WeMM-Ecom：微信电商多模态内容理解**<br>11月23日，WeMM-Ecom 是一套多模态大语言模型，通过两阶段预训练和混合思维后训练提升电商能力。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.30662)）</sub>
 
-**What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym**<br>11月23日，Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task colle…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.30207)）</sub>
+**OpenAI提出GPT-6蛋白质设计新方法**<br>11月24日，OpenAI利用推理和代码设计蛋白质结构和序列，实验室测试显示在五个目标上具有结合证据。<br><sub>（来源：[OpenAI](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)）</sub>
 
-**Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation**<br>11月24日，Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.31358)）</sub>
+**Google提出DeepCrossAttention架构**<br>11月24日，Google提出DeepCrossAttention架构，通过可学习权重和深度交叉注意力动态结合层输出，防止信息稀释。<br><sub>（来源：[Google Research](https://research.google/blog/supercharging-transformer-residual-connections/)）</sub>
 
-**Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounde…**<br>11月24日，In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsiste…<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.32266)）</sub>
+**Nemotron-Labs-VisualCreation：像素即代码的智能体视觉创作**<br>11月24日，Nemotron-Labs-VisualCreation 框架通过像素即代码连接视觉创作能力，使用离散视觉标记和显式程序表示图像。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.31358)）</sub>
+
+#### 产业纵横
+
+**Tidal 将禁止完全 AI 生成的音乐**<br>11月25日，Tidal 将于 12 月 9 日起移除完全 AI 生成的曲目，成为首个全面禁止 AI 音乐的流媒体平台。<br><sub>（来源：[Hacker News](https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>俱乐部动态的统计日期为11月24日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-25 11:01（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月24日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-25 12:40（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 

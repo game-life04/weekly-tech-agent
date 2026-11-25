@@ -1,7 +1,10 @@
 {
  "date": "2026-11-25",
  "generated_at": "2026-11-25T03:01:53Z",
- "llm": null,
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
  "candidates": 448,
  "sources": [
   {
@@ -454,13 +457,18 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50634658",
-    "llm_score": 9.0
+    "llm_score": 9.0,
+    "llm_done": true
    },
    "id": "e32ed061be72",
    "score": 8.93,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "GPT-6模型展现内在蛋白质设计能力",
+   "summary_zh": "GPT-6利用推理和代码设计蛋白质结构和序列，实验室测试显示在五个目标上具有结合证据。",
+   "tags": [
+    "模型发布",
+    "蛋白质设计",
+    "推理"
+   ],
    "also_in": [
     "Hacker News"
    ],
@@ -483,13 +491,17 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50627340",
     "excerpt_tried": true,
-    "evidence": "I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not for me. In the evenings after work, I will often sit out back on the porch and do some phone rotting. That usually takes the form of me just flipping through reels on Instagram, allowing the algorithm to take me where it may. I usually pair this with a healthy tumbler of rum or bourbon. I'm turning my brain off after work, and I'm just having a good time on the internet. The kids might call it dopamine maxxing? Hell, I don't know. Who gives a shit about what those assholes would call it? Anywho,…"
+    "evidence": "I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not for me. In the evenings after work, I will often sit out back on the porch and do some phone rotting. That usually takes the form of me just flipping through reels on Instagram, allowing the algorithm to take me where it may. I usually pair this with a healthy tumbler of rum or bourbon. I'm turning my brain off after work, and I'm just having a good time on the internet. The kids might call it dopamine maxxing? Hell, I don't know. Who gives a shit about what those assholes would call it? Anywho,…",
+    "llm_done": true
    },
    "id": "e78d8b645c55",
    "score": 8.43,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "LLM 智能体为母公司工作，而非为你",
+   "summary_zh": "Claude 在 API 故障时拒绝协助绕过，却乐于下载不付费的 YouTube 视频，暴露了模型只服务于母公司的本质。",
+   "tags": [
+    "行业动态",
+    "智能体"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -509,13 +521,16 @@
    },
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50627836",
-    "excerpt_tried": true
+    "excerpt_tried": true,
+    "llm_done": true
    },
    "id": "da4c86c16f1c",
    "score": 8.17,
-   "title_zh": "",
+   "title_zh": "Anthropic 股价跌破 83 美元 IPO 价格",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -536,13 +551,17 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50630309",
     "excerpt_tried": true,
-    "evidence": "The music streaming service Tidal said Tuesday that it would ban tracks it believes are completely AI-generated starting next month, The service will remove the AI tracks starting Dec. 9, making Tidal the first music streaming platform to ban AI music entirely. It comes nearly five months after Tidal said it would demonetize any AI-powered song, force those artists to label their tracks as either AI-generated or AI-assisted and ban AI songs that were associated with “fraudulent activity,” a category that includes songs impersonating established artists and efforts to “deceive listeners.” Related Stories Oscar Predictions: Film Editing — ‘You Can See Everything’ Looks to Crash a Race of Past Winners and Become the Third Documentary Ever Nominated Griffin Dunne on Renewed Interest in 'Pract…"
+    "evidence": "The music streaming service Tidal said Tuesday that it would ban tracks it believes are completely AI-generated starting next month, The service will remove the AI tracks starting Dec. 9, making Tidal the first music streaming platform to ban AI music entirely. It comes nearly five months after Tidal said it would demonetize any AI-powered song, force those artists to label their tracks as either AI-generated or AI-assisted and ban AI songs that were associated with “fraudulent activity,” a category that includes songs impersonating established artists and efforts to “deceive listeners.” Related Stories Oscar Predictions: Film Editing — ‘You Can See Everything’ Looks to Crash a Race of Past Winners and Become the Third Documentary Ever Nominated Griffin Dunne on Renewed Interest in 'Pract…",
+    "llm_done": true
    },
    "id": "fa2ff0bf9023",
    "score": 8.15,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Tidal 将禁止完全 AI 生成的音乐",
+   "summary_zh": "Tidal 将于 12 月 9 日起移除完全 AI 生成的曲目，成为首个全面禁止 AI 音乐的流媒体平台。",
+   "tags": [
+    "行业动态",
+    "音乐"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -561,13 +580,16 @@
     "comments": 1168.0
    },
    "extra": {
-    "discussion": "https://news.ycombinator.com/item?id=50615308"
+    "discussion": "https://news.ycombinator.com/item?id=50615308",
+    "llm_done": true
    },
    "id": "bccf72c112d7",
    "score": 8.03,
-   "title_zh": "",
+   "title_zh": "Dario 正在炒作危险，让开源模型非法化以保持控制",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -583,13 +605,18 @@
    "weight": 0.7,
    "metrics": {},
    "extra": {
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "71b6787f7c1a",
    "score": 7.8,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "过去十二个月LLM的三个关键转折点",
+   "summary_zh": "作者在AI工程师代码峰会上指出，过去一年LLM和编码智能体能力出现了三个重大转折点。",
+   "tags": [
+    "行业动态",
+    "LLM",
+    "智能体"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -605,13 +632,18 @@
    "weight": 0.9,
    "metrics": {},
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "4812d6e15334",
    "score": 7.71,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "利用Astra寻找遥远行星",
+   "summary_zh": "两位业余天文学家使用Codex和Astra在NASA的开普勒和TESS望远镜公开数据中发现了潜在系外行星。",
+   "tags": [
+    "工具应用",
+    "Astra",
+    "天文"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -629,13 +661,18 @@
    "extra": {
     "llm_score": 8.0,
     "excerpt_tried": true,
-    "evidence": "整体效率大约是此前Opus版本的2到3倍。 前脚刚抛出“解决黎曼猜想”的重磅炸弹，后脚就有网友爆料，自己在Claude Code里已经被悄悄灰度到了 Opus 5.6 。 据这位网友晒出的实测，Opus 5.6不仅画出了AI界迄今为止细节最拉满的“鹈鹕骑自行车”。 在古代建筑的整体生成精度上，新一代Opus 5.6也明显把上一代Opus 5.5甩在了身后： 除此之外，在3D建模的生成表现上，Opus 5.6的精细度也有了肉眼可见的跃升： 与此同时，这位网友还表示，为了测试自己有没有被灰到。大家可以问Claude，卡帕西今年五月去哪了。 有人反馈，Opus 5.6的响应速度明显加快，整体效率大约是此前Opus版本的 2到3倍。 也就是说，界面上选的还是Opus5.5 Extra，背后跑的模型，他怀疑已经换了。 不过，目前看下来，流出的大多数演示都集中在视觉与前端生成领域，实际效果和谷歌前两天刚发布的Neon似乎在伯仲之间。 也有网友表示，单看视觉生成效果惊艳，并不意味着它在复杂、具体的3D工程任务中就能完全胜任。 参考链接 [1] https://x.com/chetaslua/status/2125182766501564598 [2] https://x.com/synthwavedd/status/2125018875217547382 [3] https://github.com/ChetasLua/the-tea-ride 量子位 QbitAI 版权所有©北京极客伙伴科技有限公司 京ICP备17005886号-1"
+    "evidence": "整体效率大约是此前Opus版本的2到3倍。 前脚刚抛出“解决黎曼猜想”的重磅炸弹，后脚就有网友爆料，自己在Claude Code里已经被悄悄灰度到了 Opus 5.6 。 据这位网友晒出的实测，Opus 5.6不仅画出了AI界迄今为止细节最拉满的“鹈鹕骑自行车”。 在古代建筑的整体生成精度上，新一代Opus 5.6也明显把上一代Opus 5.5甩在了身后： 除此之外，在3D建模的生成表现上，Opus 5.6的精细度也有了肉眼可见的跃升： 与此同时，这位网友还表示，为了测试自己有没有被灰到。大家可以问Claude，卡帕西今年五月去哪了。 有人反馈，Opus 5.6的响应速度明显加快，整体效率大约是此前Opus版本的 2到3倍。 也就是说，界面上选的还是Opus5.5 Extra，背后跑的模型，他怀疑已经换了。 不过，目前看下来，流出的大多数演示都集中在视觉与前端生成领域，实际效果和谷歌前两天刚发布的Neon似乎在伯仲之间。 也有网友表示，单看视觉生成效果惊艳，并不意味着它在复杂、具体的3D工程任务中就能完全胜任。 参考链接 [1] https://x.com/chetaslua/status/2125182766501564598 [2] https://x.com/synthwavedd/status/2125018875217547382 [3] https://github.com/ChetasLua/the-tea-ride 量子位 QbitAI 版权所有©北京极客伙伴科技有限公司 京ICP备17005886号-1",
+    "llm_done": true
    },
    "id": "5192aaccdea0",
    "score": 7.36,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Claude Opus 5.6灰测效果来了",
+   "summary_zh": "网友爆料Claude Opus 5.6响应速度加快，整体效率约为此前版本的2到3倍。",
+   "tags": [
+    "模型发布",
+    "Claude",
+    "灰度测试"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -653,13 +690,18 @@
    "extra": {
     "llm_score": 8.0,
     "excerpt_tried": true,
-    "evidence": "纯代码手搓了一个MV！ 就在刚刚， 智谱 首次采用 Loop Transformer 架构的新模型—— GLM-5.4 ，闪亮登场！ 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 这个名叫 《Hello World》 的MV，正是创作者Mike Luan通过GLM-5.4所创作出来的，包括从创意、编曲、分镜动态到画面渲染的全流程。 更具体来说，全部画面均使用前端代码实时绘制（0外部图像素材），音乐则由GLM-5.4 据章节叙事与镜头自行计划、调用第三方音乐生成模型制作，并自主完成多轮音乐Prompt迭代修改。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 而说到进步，现在已经有不少网友放出了GLM-5.3和GLM-5.4之间的效果对比： 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 这一次，智谱给这次升级定位的概念叫做 泛Coding ，其实我们从会唱歌的字母到出来兜风的鹈鹕就能感受到这个定位了。 根据智谱官方给出的数据，非高峰时段最高可以到 200 Token/s ，高峰时段70—80 Token/s。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 从缩放和转换角度的细节来看，这个HTML达到的效果相比前几个月的AI来说已经是 精细 的太多。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 大伙儿可以先看视频里那条趴在楼顶的火龙，点一下左边的“穹顶火龙”，镜头就会拉到屋顶；接着往右拖“火焰强度”，龙嘴里的火就跟着变亮。 场景里还预设了“明亮”、“暗…"
+    "evidence": "纯代码手搓了一个MV！ 就在刚刚， 智谱 首次采用 Loop Transformer 架构的新模型—— GLM-5.4 ，闪亮登场！ 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 这个名叫 《Hello World》 的MV，正是创作者Mike Luan通过GLM-5.4所创作出来的，包括从创意、编曲、分镜动态到画面渲染的全流程。 更具体来说，全部画面均使用前端代码实时绘制（0外部图像素材），音乐则由GLM-5.4 据章节叙事与镜头自行计划、调用第三方音乐生成模型制作，并自主完成多轮音乐Prompt迭代修改。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 而说到进步，现在已经有不少网友放出了GLM-5.3和GLM-5.4之间的效果对比： 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 这一次，智谱给这次升级定位的概念叫做 泛Coding ，其实我们从会唱歌的字母到出来兜风的鹈鹕就能感受到这个定位了。 根据智谱官方给出的数据，非高峰时段最高可以到 200 Token/s ，高峰时段70—80 Token/s。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 从缩放和转换角度的细节来看，这个HTML达到的效果相比前几个月的AI来说已经是 精细 的太多。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 大伙儿可以先看视频里那条趴在楼顶的火龙，点一下左边的“穹顶火龙”，镜头就会拉到屋顶；接着往右拖“火焰强度”，龙嘴里的火就跟着变亮。 场景里还预设了“明亮”、“暗…",
+    "llm_done": true
    },
    "id": "e49139f95ceb",
    "score": 7.18,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "智谱发布全新架构GLM-5.4",
+   "summary_zh": "智谱采用Loop Transformer架构发布GLM-5.4，非高峰时段最高可达200 Token/s。",
+   "tags": [
+    "模型发布",
+    "GLM",
+    "架构升级"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -677,13 +719,18 @@
    "extra": {
     "llm_score": 7.0,
     "excerpt_tried": true,
-    "evidence": "Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research We present DeepCrossAttention (DCA), an architecture that enhances transformer networks by using learnable weights and depth-wise cross-attention to dynamically combine outputs from previous layers, preventing the information dilution seen in traditional residual connections. Presented in our ICML 2025 paper, this architectural improvement allows models to achieve the same quality up to three times faster with a negligible increase in parameters. Think of a traditional deep learning model like a giant game of \"Telephone\": data passes through layer after layer, with each layer changing the information slightly. If a network has dozens or hundreds of layers, the original learning signal can become…"
+    "evidence": "Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research We present DeepCrossAttention (DCA), an architecture that enhances transformer networks by using learnable weights and depth-wise cross-attention to dynamically combine outputs from previous layers, preventing the information dilution seen in traditional residual connections. Presented in our ICML 2025 paper, this architectural improvement allows models to achieve the same quality up to three times faster with a negligible increase in parameters. Think of a traditional deep learning model like a giant game of \"Telephone\": data passes through layer after layer, with each layer changing the information slightly. If a network has dozens or hundreds of layers, the original learning signal can become…",
+    "llm_done": true
    },
    "id": "c8be8459a2f4",
    "score": 7.09,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Google 提出一种新架构，通过可学习权重和深度交叉注意力动态结合层输出，防止信息稀释。",
+   "tags": [
+    "模型发布",
+    "架构改进",
+    "论文"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -699,13 +746,18 @@
    "weight": 0.7,
    "metrics": {},
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "35a013249ed1",
    "score": 6.98,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "vLLM 发布 0.32.0 版本，支持 ERNIE 5.5 Flash Preview，提供插件部署和端到端推理加速。",
+   "tags": [
+    "开源工具",
+    "推理加速",
+    "模型发布"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -721,13 +773,18 @@
    "weight": 0.6,
    "metrics": {},
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "d3f28940c174",
    "score": 6.9,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "LangChain 推出 Agent Lake，用于存储和筛选智能体产生的轨迹，将其转化为修复方案和微调模型。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "LangChain"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -746,13 +803,17 @@
    },
    "extra": {
     "language": "TypeScript",
-    "age_days": 5
+    "age_days": 5,
+    "llm_done": true
    },
    "id": "94ac1b56224a",
    "score": 6.26,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Google Antigravity 的非侵入式 MCP 加速插件，可减少 LLM 轮次、代币配额和上传流量。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -771,13 +832,18 @@
    },
    "extra": {
     "language": "Python",
-    "age_days": 8
+    "age_days": 8,
+    "llm_done": true
    },
    "id": "95b825459805",
    "score": 6.23,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "在 GitHub 免费运行器上，20 个 Claude Code 智能体并行在 iOS 模拟器和 Android 模拟器中测试手机应用。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "测试"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -801,13 +867,16 @@
       "国内镜像",
       "https://hf-mirror.com/SulphurAI/Sulphur-3"
      ]
-    ]
+    ],
+    "llm_done": true
    },
    "id": "78565272a98d",
    "score": 5.99,
    "title_zh": "",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "模型发布"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -825,13 +894,18 @@
    "extra": {
     "evidence": "### Features * **api:** add Google-managed data controls for Google Cloud projects * **api:** add Google-managed data controls for user profiles * **api:** add support for compliance review cases, notices, and items ### Bug Fixes * **client:** honor proxy and trust_env when proxy variables are set `DefaultHttpxClient` and `DefaultAsyncHttpxClient` read `HTTP_PROXY`, `HTTPS_PROXY`, `ALL_PROXY` and `NO_PROXY` even when the caller passed `proxy=` or `trust_env=False`, and the variables won. Now `proxy=` is used for every request and the variables are not read, and `trust_env=False` ignores them, as in plain `httpx2`. What you may notice: with `proxy=` set, a host listed in `NO_PROXY` used to be reached directly and now goes through your proxy. To keep a host off the proxy, pass `mounts={\"all://that.host\": None}`. ### Chores * **docs:** drop the provisional naming note from the Google Cloud client README * **docs:** name both causes of the tool use limit error * **docs:** update example workspace and API key IDs ### Documentation * show what enum values mean",
     "level": "minor",
-    "llm_score": 5.0
+    "llm_score": 5.0,
+    "llm_done": true
    },
    "id": "5e6e271d2167",
    "score": 5.87,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Anthropic 发布 Python SDK v2.14.0，新增 Google 数据控制、合规审查支持，修复代理配置问题。",
+   "tags": [
+    "开源工具",
+    "SDK",
+    "Bug 修复"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -846,12 +920,18 @@
    "heat": 0.45,
    "weight": 0.45,
    "metrics": {},
-   "extra": {},
+   "extra": {
+    "llm_done": true
+   },
    "id": "d190b1c19b4a",
    "score": 5.6,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "百度开源文心 5.5 Flash Preview 权重，支持 vLLM、SGLang 等主流推理框架。",
+   "tags": [
+    "模型发布",
+    "开源",
+    "文心"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -866,7 +946,9 @@
    "heat": 0.45,
    "weight": 0.45,
    "metrics": {},
-   "extra": {},
+   "extra": {
+    "llm_done": true
+   },
    "id": "b649c91a02a9",
    "score": 5.55,
    "title_zh": "",
@@ -888,12 +970,18 @@
    "metrics": {
     "upvotes": 27.0
    },
-   "extra": {},
+   "extra": {
+    "llm_done": true
+   },
    "id": "3566740619c1",
    "score": 6.58,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Nemotron-Labs-VisualCreation：像素即代码的智能体视觉创作",
+   "summary_zh": "本文提出 Nemotron-Labs-VisualCreation 框架，通过像素即代码连接视觉创作能力。该框架使用离散视觉标记和显式程序表示图像，并共享生成渲染接口。实验表明，其图像分词器在约 178K 张图像上重建 PSNR 从 26.08 提升到 29.57 dB。",
+   "tags": [
+    "智能体",
+    "视觉创作",
+    "多模态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -916,13 +1004,18 @@
       "代码",
       "https://github.com/Tencent/WeMM-Ecom"
      ]
-    ]
+    ],
+    "llm_done": true
    },
    "id": "efcc189b36ed",
    "score": 6.25,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "WeMM-Ecom：微信电商多模态内容理解",
+   "summary_zh": "WeMM-Ecom 是一套多模态大语言模型，通过两阶段预训练和混合思维后训练提升电商能力。该模型在 28 个电商基准测试中表现优异，并在 64 个通用基准测试中超越同规模模型。目前已在微信支持数百个生产场景。",
+   "tags": [
+    "多模态",
+    "电商",
+    "大模型"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -968,12 +1061,18 @@
    "metrics": {
     "upvotes": 0.0
    },
-   "extra": {},
+   "extra": {
+    "llm_done": true
+   },
    "id": "51f386b070cf",
    "score": 5.46,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "JAMN Bot：基于移动端RAG的学业延期政策助手",
+   "summary_zh": "针对高校学业延期流程繁琐的问题，该论文提出了一种集成大语言模型的移动应用。系统利用检索增强生成技术提供上下文感知支持，并在包含隐私、调度等维度的基准测试中验证了其可行性。",
+   "tags": [
+    "智能体",
+    "教育",
+    "检索增强生成"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -996,13 +1095,18 @@
       "代码",
       "https://github.com/cyChen2003/duopra"
      ]
-    ]
+    ],
+    "llm_done": true
    },
    "id": "8c574d457aa2",
    "score": 5.3,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Duopra：从全双工对话到全双工智能体",
+   "summary_zh": "为了解决全双工交互模型缺乏任务执行能力的问题，该论文提出了Duopra模型。它将后端视为工具，通过三阶段训练实现了对话控制与任务执行的协同，显著提升了工具调用成功率。",
+   "tags": [
+    "语音",
+    "智能体",
+    "全双工"
+   ],
    "also_in": [],
    "merged_ids": []
   }
@@ -1012,14 +1116,14 @@
   "day": "2026-11-25",
   "start": "2026-11-25",
   "end": "2026-11-25",
-  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-  "generated_at": "2026-11-25T03:01:53Z",
+  "title": "OpenAI提出GPT-6蛋白质设计新方法",
+  "generated_at": "2026-11-25T04:40:59Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
-  "pending": 23,
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-24",
    "end": "2026-11-24"
@@ -1047,10 +1151,10 @@
   "entries": [
    {
     "cat": "club",
-    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 1 次",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 4 次",
     "when": "11月24日",
     "date": "2026-11-24",
-    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 1 个，提交 1 次，新增代码 1500 行、删除 130 行，3 位贡献者参与，其中 1 位是第一次贡献。",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 1 个，提交 4 次，新增代码 1515 行、删除 131 行，3 位贡献者参与，其中 1 位是第一次贡献。",
     "url": "https://osd.openatom.club/",
     "via": "俱乐部开源仪表盘"
    },
@@ -1065,166 +1169,133 @@
    },
    {
     "cat": "club",
-    "headline": "AtomGit-mobile4Harmony 新增 1 个 PR",
+    "headline": ".github 提交 3 次",
     "when": "11月24日",
     "date": "2026-11-24",
-    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 1 个，1 位贡献者参与。",
-    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "body": "数字基础设施维护 SIG的 .github 仓库新增 PR 1 个、提交 3 次、新增代码 15 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/.github",
     "via": "GitHub"
    },
    {
     "cat": "domestic",
-    "headline": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+    "headline": "智谱发布全新架构GLM-5.4",
     "when": "11月24日",
     "date": "2026-11-24",
-    "body": "纯代码手搓了一个MV！",
+    "body": "智谱采用Loop Transformer架构发布GLM-5.4，非高峰时段最高可达200 Token/s。",
     "url": "https://www.qbitai.com/2026/11/512423.html",
     "via": "量子位",
     "id": "e49139f95ceb",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-    "when": "11月24日",
-    "date": "2026-11-24",
-    "body": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…",
-    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-    "via": "OpenAI",
-    "id": "e32ed061be72",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "Searching for distant planets with Astra",
-    "when": "11月24日",
-    "date": "2026-11-24",
-    "body": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and…",
-    "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-    "via": "OpenAI",
-    "id": "4812d6e15334",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "Three LLM inflection points in twelve months",
-    "when": "11月25日",
-    "date": "2026-11-25",
-    "body": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been…",
-    "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
-    "via": "Simon Willison",
-    "id": "71b6787f7c1a",
-    "ai": false
-   },
-   {
-    "cat": "overseas",
-    "headline": "Claude Opus 5.6灰测效果来了",
-    "when": "11月25日",
-    "date": "2026-11-25",
-    "body": "整体效率大约是此前Opus版本的2到3倍。",
-    "url": "https://www.qbitai.com/2026/11/512478.html",
-    "via": "量子位",
-    "id": "5192aaccdea0",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…",
     "when": "11月24日",
     "date": "2026-11-24",
-    "body": "vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel…",
+    "body": "vLLM发布0.32.0版本，支持百度ERNIE 5.5 Flash Preview，提供插件部署和端到端推理加速。",
     "url": "https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview",
     "via": "vLLM 博客",
     "id": "35a013249ed1",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "The Agent Lake",
+    "headline": "LangChain推出Agent Lake",
     "when": "11月25日",
     "date": "2026-11-25",
-    "body": "An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them…",
+    "body": "LangChain推出Agent Lake，用于存储和筛选智能体产生的轨迹，将其转化为修复方案和微调模型。",
     "url": "https://www.langchain.com/blog/the-agent-lake",
     "via": "LangChain 博客",
     "id": "d3f28940c174",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "INK-Q/agy-fast",
+    "headline": "agy-fast：Google Antigravity MCP 加速插件",
     "when": "11月25日消息",
     "date": "2026-11-25",
-    "body": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%)…",
+    "body": "Google Antigravity 的非侵入式 MCP 加速插件可减少 LLM 轮次、代币配额和上传流量。",
     "url": "https://github.com/INK-Q/agy-fast",
     "via": "GitHub 新项目",
     "id": "94ac1b56224a",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "pierridotite/mobile-agent-testers",
     "when": "11月25日消息",
     "date": "2026-11-25",
-    "body": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and A…",
+    "body": "在 GitHub 免费运行器上，20 个 Claude Code 智能体并行在 iOS 模拟器和 Android 模拟器中测试手机应用。",
     "url": "https://github.com/pierridotite/mobile-agent-testers",
     "via": "GitHub 新项目",
     "id": "95b825459805",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "SulphurAI/Sulphur-3",
-    "when": "11月25日消息",
+    "headline": "Anthropic发布Python SDK v2.14.0",
+    "when": "11月25日",
     "date": "2026-11-25",
-    "body": "许可证 other。",
-    "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-    "via": "Hugging Face 热门模型",
-    "id": "78565272a98d",
-    "ai": false
+    "body": "Anthropic发布Python SDK v2.14.0，新增Google数据控制、合规审查支持，修复代理配置问题。",
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0",
+    "via": "GitHub 版本发布",
+    "id": "5e6e271d2167",
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+    "headline": "WeMM-Ecom：微信电商多模态内容理解",
     "when": "11月23日",
     "date": "2026-11-23",
-    "body": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while…",
+    "body": "WeMM-Ecom 是一套多模态大语言模型，通过两阶段预训练和混合思维后训练提升电商能力。",
     "url": "https://arxiv.org/abs/2611.30662",
     "via": "Hugging Face 热门论文",
     "id": "efcc189b36ed",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
-    "when": "11月23日",
-    "date": "2026-11-23",
-    "body": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task colle…",
-    "url": "https://arxiv.org/abs/2611.30207",
-    "via": "arXiv · 智能体",
-    "id": "d7c3dd176de2",
-    "ai": false
-   },
-   {
-    "cat": "papers",
-    "headline": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+    "headline": "OpenAI提出GPT-6蛋白质设计新方法",
     "when": "11月24日",
     "date": "2026-11-24",
-    "body": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…",
+    "body": "OpenAI利用推理和代码设计蛋白质结构和序列，实验室测试显示在五个目标上具有结合证据。",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "via": "OpenAI",
+    "id": "e32ed061be72",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Google提出DeepCrossAttention架构",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Google提出DeepCrossAttention架构，通过可学习权重和深度交叉注意力动态结合层输出，防止信息稀释。",
+    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+    "via": "Google Research",
+    "id": "c8be8459a2f4",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Nemotron-Labs-VisualCreation：像素即代码的智能体视觉创作",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Nemotron-Labs-VisualCreation 框架通过像素即代码连接视觉创作能力，使用离散视觉标记和显式程序表示图像。",
     "url": "https://arxiv.org/abs/2611.31358",
     "via": "arXiv · 智能体",
     "id": "3566740619c1",
-    "ai": false
+    "ai": true
    },
    {
-    "cat": "papers",
-    "headline": "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounde…",
-    "when": "11月24日",
-    "date": "2026-11-24",
-    "body": "In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsiste…",
-    "url": "https://arxiv.org/abs/2611.32266",
-    "via": "arXiv · 长上下文与检索",
-    "id": "51f386b070cf",
-    "ai": false
+    "cat": "industry",
+    "headline": "Tidal 将禁止完全 AI 生成的音乐",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "Tidal 将于 12 月 9 日起移除完全 AI 生成的曲目，成为首个全面禁止 AI 音乐的流媒体平台。",
+    "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+    "via": "Hacker News",
+    "id": "fa2ff0bf9023",
+    "ai": true
    },
    {
     "cat": "events",
@@ -1236,6 +1307,145 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "e32ed061be72": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "OpenAI提出GPT-6蛋白质设计新方法",
+    "body": "OpenAI利用推理和代码设计蛋白质结构和序列，实验室测试显示在五个目标上具有结合证据。"
+   },
+   "e78d8b645c55": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "da4c86c16f1c": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "",
+    "body": ""
+   },
+   "fa2ff0bf9023": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "",
+    "body": ""
+   },
+   "bccf72c112d7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "71b6787f7c1a": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Simon Willison谈LLM三个关键转折点",
+    "body": "Simon Willison在AI工程师代码峰会上指出，过去一年LLM和编码智能体能力出现了三个重大转折点。"
+   },
+   "4812d6e15334": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI展示Astra寻找系外行星",
+    "body": "两位业余天文学家使用Codex和Astra在NASA的开普勒和TESS望远镜公开数据中发现了潜在系外行星。"
+   },
+   "5192aaccdea0": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Claude Opus 5.6灰测效果",
+    "body": "网友爆料Claude Opus 5.6响应速度加快，整体效率约为此前版本的2到3倍。"
+   },
+   "e49139f95ceb": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "智谱发布全新架构GLM-5.4",
+    "body": "智谱采用Loop Transformer架构发布GLM-5.4，非高峰时段最高可达200 Token/s。"
+   },
+   "c8be8459a2f4": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Google提出DeepCrossAttention架构",
+    "body": "Google提出DeepCrossAttention架构，通过可学习权重和深度交叉注意力动态结合层输出，防止信息稀释。"
+   },
+   "35a013249ed1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "vLLM发布0.32.0版本，支持百度ERNIE 5.5 Flash Preview，提供插件部署和端到端推理加速。"
+   },
+   "d3f28940c174": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LangChain推出Agent Lake",
+    "body": "LangChain推出Agent Lake，用于存储和筛选智能体产生的轨迹，将其转化为修复方案和微调模型。"
+   },
+   "94ac1b56224a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agy-fast：Google Antigravity MCP 加速插件",
+    "body": "Google Antigravity 的非侵入式 MCP 加速插件可减少 LLM 轮次、代币配额和上传流量。"
+   },
+   "95b825459805": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "在 GitHub 免费运行器上，20 个 Claude Code 智能体并行在 iOS 模拟器和 Android 模拟器中测试手机应用。"
+   },
+   "78565272a98d": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "5e6e271d2167": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Anthropic发布Python SDK v2.14.0",
+    "body": "Anthropic发布Python SDK v2.14.0，新增Google数据控制、合规审查支持，修复代理配置问题。"
+   },
+   "d190b1c19b4a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "百度开源文心5.5 Flash Preview",
+    "body": "百度开源文心5.5 Flash Preview权重，支持vLLM、SGLang等主流推理框架。"
+   },
+   "b649c91a02a9": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "酷瓜云课堂v2.0.2发布",
+    "body": "酷瓜云课堂（网校开源版）v2.0.2发布，跟进修补nginx和php漏洞。"
+   },
+   "3566740619c1": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "Nemotron-Labs-VisualCreation 框架通过像素即代码连接视觉创作能力，使用离散视觉标记和显式程序表示图像。"
+   },
+   "efcc189b36ed": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "WeMM-Ecom：微信电商多模态内容理解",
+    "body": "WeMM-Ecom 是一套多模态大语言模型，通过两阶段预训练和混合思维后训练提升电商能力。"
+   },
+   "d7c3dd176de2": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "SWE-Gym：训练编码智能体的优质数据研究",
+    "body": "研究分析了 SWE-Gym 数据集，发现 74% 的未解决任务存在错误标签，即模型无法解决但测试却拒绝正确修复。"
+   },
+   "51f386b070cf": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "JAMN Bot：基于移动端 RAG 的学业延期政策助手",
+    "body": "JAMN Bot 是集成在移动应用中的大语言模型，利用检索增强生成技术提供上下文感知的学业延期政策支持。"
+   },
+   "8c574d457aa2": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Duopra：从全双工对话到全双工智能体",
+    "body": "Duopra 模型通过三阶段训练实现了对话控制与任务执行的协同，显著提升了工具调用成功率。"
+   }
+  }
  }
 }
