@@ -1038,13 +1038,18 @@
       "代码",
       "https://github.com/Arist12/SWE-Gym-Verified"
      ]
-    ]
+    ],
+    "llm_done": true
    },
    "id": "d7c3dd176de2",
    "score": 6.0,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "SWE-Gym：训练代码智能体的优质数据研究",
+   "summary_zh": "本文研究软件任务训练数据的质量问题，重点考察奖励标签的正确性。通过审计发现，未解决的74%任务存在错误标签，修复后模型在验证集上得分显著提升。",
+   "tags": [
+    "智能体",
+    "评测",
+    "强化学习"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1117,7 +1122,7 @@
   "start": "2026-11-25",
   "end": "2026-11-25",
   "title": "OpenAI提出GPT-6蛋白质设计新方法",
-  "generated_at": "2026-11-25T04:40:59Z",
+  "generated_at": "2026-11-25T09:51:01Z",
   "models": [
    "glm-4.7-flash"
   ],
