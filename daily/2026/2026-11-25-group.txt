@@ -1,0 +1,48 @@
+【每日科技快讯】11月25日 周三
+今日 AI 与开源要闻 17 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
+2. AtomGit-Mobile4Android 合并 1 个 PR
+3. AtomGit-mobile4Harmony 新增 1 个 PR
+
+【国内动态】
+4. 智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期
+→ 纯代码手搓了一个MV！
+
+【海外动态】
+5. GPT-6 models demonstrate intrinsic protein-design capabilities
+→ GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…
+6. Searching for distant planets with Astra
+→ See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and…
+7. Three LLM inflection points in twelve months
+→ I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been…
+8. Claude Opus 5.6灰测效果来了
+→ 整体效率大约是此前Opus版本的2到3倍。
+
+【开源项目】
+9. vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…
+→ vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel…
+10. The Agent Lake
+→ An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them…
+11. INK-Q/agy-fast
+→ Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%)…
+12. pierridotite/mobile-agent-testers
+→ 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and A…
+13. SulphurAI/Sulphur-3
+→ 许可证 other。
+
+【学术前沿】
+14. WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce
+→ We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while…
+15. What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym
+→ Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task colle…
+16. Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation
+→ Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…
+17. Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounde…
+→ In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsiste…
+
+【活动预告】
+· 12月3日 EuroVis 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-25-kuaixun.md

@@ -1,0 +1,1241 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T03:01:53Z",
+ "llm": null,
+ "candidates": 448,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 62,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 11.3
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": false,
+   "count": 0,
+   "error": "HttpError: 读取超时：https://www.geekpark.net/rss",
+   "seconds": 10.6
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.0
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 11.2
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 339,
+   "error": "",
+   "seconds": 24.1
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 22.4
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 25,
+   "error": "",
+   "seconds": 21.6
+  }
+ ],
+ "items": [
+  {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-24T13:00:00Z",
+   "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {
+    "points": 183.0,
+    "comments": 54.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50634658",
+    "llm_score": 9.0
+   },
+   "id": "e32ed061be72",
+   "score": 8.93,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "Hacker News"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-24T12:40:15Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 925.0,
+    "comments": 391.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50627340",
+    "excerpt_tried": true,
+    "evidence": "I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not for me. In the evenings after work, I will often sit out back on the porch and do some phone rotting. That usually takes the form of me just flipping through reels on Instagram, allowing the algorithm to take me where it may. I usually pair this with a healthy tumbler of rum or bourbon. I'm turning my brain off after work, and I'm just having a good time on the internet. The kids might call it dopamine maxxing? Hell, I don't know. Who gives a shit about what those assholes would call it? Anywho,…"
+   },
+   "id": "e78d8b645c55",
+   "score": 8.43,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic breaks below $83 IPO price",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-24T13:23:47Z",
+   "summary": "",
+   "heat": 0.946,
+   "weight": 0.6,
+   "metrics": {
+    "points": 357.0,
+    "comments": 702.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50627836",
+    "excerpt_tried": true
+   },
+   "id": "da4c86c16f1c",
+   "score": 8.17,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Tidal bans AI-generated music",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-24T16:12:38Z",
+   "summary": "",
+   "heat": 0.928,
+   "weight": 0.6,
+   "metrics": {
+    "points": 320.0,
+    "comments": 307.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50630309",
+    "excerpt_tried": true,
+    "evidence": "The music streaming service Tidal said Tuesday that it would ban tracks it believes are completely AI-generated starting next month, The service will remove the AI tracks starting Dec. 9, making Tidal the first music streaming platform to ban AI music entirely. It comes nearly five months after Tidal said it would demonetize any AI-powered song, force those artists to label their tracks as either AI-generated or AI-assisted and ban AI songs that were associated with “fraudulent activity,” a category that includes songs impersonating established artists and efforts to “deceive listeners.” Related Stories Oscar Predictions: Film Editing — ‘You Can See Everything’ Looks to Crash a Race of Past Winners and Become the Third Documentary Ever Nominated Griffin Dunne on Renewed Interest in 'Pract…"
+   },
+   "id": "fa2ff0bf9023",
+   "score": 8.15,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-23T17:07:26Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1985.0,
+    "comments": 1168.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50615308"
+   },
+   "id": "bccf72c112d7",
+   "score": 8.03,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Three LLM inflection points in twelve months",
+   "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "source": "rss",
+   "section": "news",
+   "via": "Simon Willison",
+   "published": "2026-11-24T23:02:07Z",
+   "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going to pull out the major inflection point theme and interrogate it more deeply. <lite-youtube videoid=\"9RKrSF9d2SE\" js-api=\"js-api\" title=\"2026 in LLMs — Simon Willison\" playlabel=\"Play: 2026 in LLMs — Simon Willison\"> </li…",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "71b6787f7c1a",
+   "score": 7.8,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Searching for distant planets with Astra",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "source": "rss",
+   "section": "news",
+   "via": "OpenAI",
+   "published": "2026-11-24T11:00:00Z",
+   "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "heat": 0.9,
+   "weight": 0.9,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "4812d6e15334",
+   "score": 7.71,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude Opus 5.6灰测效果来了",
+   "url": "https://www.qbitai.com/2026/11/512478.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-25T02:43:07Z",
+   "summary": "整体效率大约是此前Opus版本的2到3倍。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "整体效率大约是此前Opus版本的2到3倍。 前脚刚抛出“解决黎曼猜想”的重磅炸弹，后脚就有网友爆料，自己在Claude Code里已经被悄悄灰度到了 Opus 5.6 。 据这位网友晒出的实测，Opus 5.6不仅画出了AI界迄今为止细节最拉满的“鹈鹕骑自行车”。 在古代建筑的整体生成精度上，新一代Opus 5.6也明显把上一代Opus 5.5甩在了身后： 除此之外，在3D建模的生成表现上，Opus 5.6的精细度也有了肉眼可见的跃升： 与此同时，这位网友还表示，为了测试自己有没有被灰到。大家可以问Claude，卡帕西今年五月去哪了。 有人反馈，Opus 5.6的响应速度明显加快，整体效率大约是此前Opus版本的 2到3倍。 也就是说，界面上选的还是Opus5.5 Extra，背后跑的模型，他怀疑已经换了。 不过，目前看下来，流出的大多数演示都集中在视觉与前端生成领域，实际效果和谷歌前两天刚发布的Neon似乎在伯仲之间。 也有网友表示，单看视觉生成效果惊艳，并不意味着它在复杂、具体的3D工程任务中就能完全胜任。 参考链接 [1] https://x.com/chetaslua/status/2125182766501564598 [2] https://x.com/synthwavedd/status/2125018875217547382 [3] https://github.com/ChetasLua/the-tea-ride 量子位 QbitAI 版权所有©北京极客伙伴科技有限公司 京ICP备17005886号-1"
+   },
+   "id": "5192aaccdea0",
+   "score": 7.36,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+   "url": "https://www.qbitai.com/2026/11/512423.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-24T09:21:55Z",
+   "summary": "纯代码手搓了一个MV！",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "纯代码手搓了一个MV！ 就在刚刚， 智谱 首次采用 Loop Transformer 架构的新模型—— GLM-5.4 ，闪亮登场！ 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 这个名叫 《Hello World》 的MV，正是创作者Mike Luan通过GLM-5.4所创作出来的，包括从创意、编曲、分镜动态到画面渲染的全流程。 更具体来说，全部画面均使用前端代码实时绘制（0外部图像素材），音乐则由GLM-5.4 据章节叙事与镜头自行计划、调用第三方音乐生成模型制作，并自主完成多轮音乐Prompt迭代修改。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 而说到进步，现在已经有不少网友放出了GLM-5.3和GLM-5.4之间的效果对比： 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 这一次，智谱给这次升级定位的概念叫做 泛Coding ，其实我们从会唱歌的字母到出来兜风的鹈鹕就能感受到这个定位了。 根据智谱官方给出的数据，非高峰时段最高可以到 200 Token/s ，高峰时段70—80 Token/s。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 从缩放和转换角度的细节来看，这个HTML达到的效果相比前几个月的AI来说已经是 精细 的太多。 视频地址： https://mp.weixin.qq.com/s/ln8fIodXFxbow3kanPhcxA 大伙儿可以先看视频里那条趴在楼顶的火龙，点一下左边的“穹顶火龙”，镜头就会拉到屋顶；接着往右拖“火焰强度”，龙嘴里的火就跟着变亮。 场景里还预设了“明亮”、“暗…"
+   },
+   "id": "e49139f95ceb",
+   "score": 7.18,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Supercharging transformer residual connections",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-11-23T17:21:12Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research We present DeepCrossAttention (DCA), an architecture that enhances transformer networks by using learnable weights and depth-wise cross-attention to dynamically combine outputs from previous layers, preventing the information dilution seen in traditional residual connections. Presented in our ICML 2025 paper, this architectural improvement allows models to achieve the same quality up to three times faster with a negligible increase in parameters. Think of a traditional deep learning model like a giant game of \"Telephone\": data passes through layer after layer, with each layer changing the information slightly. If a network has dozens or hundreds of layers, the original learning signal can become…"
+   },
+   "id": "c8be8459a2f4",
+   "score": 7.09,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Inference Acceleration",
+   "url": "https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview",
+   "source": "rss",
+   "section": "opensource",
+   "via": "vLLM 博客",
+   "published": "2026-11-24T00:00:00Z",
+   "summary": "vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel, with structure-aware kernel fusion, FlashIndexer, W4A8 QAT and DSpark speculative decoding.",
+   "heat": 0.7,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "35a013249ed1",
+   "score": 6.98,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The Agent Lake",
+   "url": "https://www.langchain.com/blog/the-agent-lake",
+   "source": "rss",
+   "section": "opensource",
+   "via": "LangChain 博客",
+   "published": "2026-11-25T01:32:21Z",
+   "summary": "An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them into fixes and fine-tuned models.",
+   "heat": 0.6,
+   "weight": 0.6,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "d3f28940c174",
+   "score": 6.9,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "INK-Q/agy-fast",
+   "url": "https://github.com/INK-Q/agy-fast",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+   "heat": 0.753,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1230.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 5
+   },
+   "id": "94ac1b56224a",
+   "score": 6.26,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "pierridotite/mobile-agent-testers",
+   "url": "https://github.com/pierridotite/mobile-agent-testers",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+   "heat": 0.747,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1878.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 8
+   },
+   "id": "95b825459805",
+   "score": 6.23,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "SulphurAI/Sulphur-3",
+   "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "许可证 other",
+   "heat": 0.699,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 934.0,
+    "downloads": 160965.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/SulphurAI/Sulphur-3"
+     ]
+    ]
+   },
+   "id": "78565272a98d",
+   "score": 5.99,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "anthropics/anthropic-sdk-python v2.14.0",
+   "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-24T21:00:57Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "### Features * **api:** add Google-managed data controls for Google Cloud projects * **api:** add Google-managed data controls for user profiles * **api:** add support for compliance review cases, notices, and items ### Bug Fixes * **client:** honor proxy and trust_env when proxy variables are set `DefaultHttpxClient` and `DefaultAsyncHttpxClient` read `HTTP_PROXY`, `HTTPS_PROXY`, `ALL_PROXY` and `NO_PROXY` even when the caller passed `proxy=` or `trust_env=False`, and the variables won. Now `proxy=` is used for every request and the variables are not read, and `trust_env=False` ignores them, as in plain `httpx2`. What you may notice: with `proxy=` set, a host listed in `NO_PROXY` used to be reached directly and now goes through your proxy. To keep a host off the proxy, pass `mounts={\"all://that.host\": None}`. ### Chores * **docs:** drop the provisional naming note from the Google Cloud client README * **docs:** name both causes of the tool use limit error * **docs:** update example workspace and API key IDs ### Documentation * show what enum values mean",
+    "level": "minor",
+    "llm_score": 5.0
+   },
+   "id": "5e6e271d2167",
+   "score": 5.87,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "百度大模型文心 5.5 Flash Preview 正式开源",
+   "url": "https://www.oschina.net/news/503792",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-25T02:58:52Z",
+   "summary": "百度把文心 5.5 Flash Preview 的权重开放出来了。 11 月 24 日，官方发布开源公告，称面向全球开源社区开放文心 5.5 Flash Preview，开发者可在 Hugging Face、ModelScope 平台获取模型权重与配套资源，进行本地部署与二次开发，支持 vLLM、SGLang 等主流推理框架进行部署。 文心 5.5 Flash Preview 规格如下：总参数量...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {},
+   "id": "d190b1c19b4a",
+   "score": 5.6,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "酷瓜云课堂（网校开源版）v2.0.2 发布，跟进修补nginx和php漏洞",
+   "url": "https://www.oschina.net/news/503787",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-25T01:07:23Z",
+   "summary": "更新内容 【修正】限制设备同时在线 【优化】退款确认页权限检查 【优化】加速Setting配置信息读取 【优化】加速Error错误信息读取 【优化】PagerQuery默认参数 【更新】yansongda/pay版本 【更新】镜像 nginx:1.31.9-trixie 【更新】镜像 redis:8.10.3-trixie 【更新】镜像 php-fpm:8.4.28-trixie 升级步骤 应对近期 ph...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {},
+   "id": "b649c91a02a9",
+   "score": 5.55,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+   "url": "https://arxiv.org/abs/2611.31358",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-23T18:57:41Z",
+   "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects these representations to visual feedback across images, vector graphics, webpages, and documents. A Nemotron-native harness coordinates planning and raster candidate selection, with targeted repair for editable structured and hybrid artifacts. To support this interface, we develop Nemotron-Labs-Image-Tokenizer, the autoregressive raster generator Nemotron-Labs-Image-30B-A3B, and the structured-code model family Nemotron-Labs-VisionCode. On approximately 178K images spanning six visual domains, our tokenizer improves reconstruction PSNR from 26.08 to 29.57 dB over Emu3.5 IBQ. It also provides 7.13x faster encoding and 10.93x faster decoding at batch size one on A100. In standalone evaluation, one Nemotron-Labs-VisionCode variant surpasses Kimi K3.1 Pro on the aggregate across Chart2Code, MMSVG, Design2Code, and Image2Struct. At the system level, the Nemotron-native configuration raises GenEval2 Soft-TIFA GM from 31.71 to 52.56 using the same raster generator. With our best setting, Nemotron-Labs-VisualCreation achieves performance competitive with GPT Image 2 and Nano Banana Pro across mo…",
+   "heat": 0.584,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 27.0
+   },
+   "extra": {},
+   "id": "3566740619c1",
+   "score": 6.58,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+   "url": "https://arxiv.org/abs/2611.30662",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-23T00:00:00Z",
+   "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the proportion of e-commerce data within a diverse multimodal data mixture, followed by hybrid-thinking post-training that combines on-policy distillation and reinforcement learning to support both non-thinking and thinking modes. For evaluation, we construct a comprehensive suite of 28 e-commerce benchmarks (23 in-house and five open-source) covering eight business scenarios and complement it with 64 public general-purpose benchmarks. On the e-commerce suite, WeMM-Ecom-35B-A3B surpasses substantially larger open-source flagship models, including Qwen3.8-Flash-Next, HY4, and DeepSeek-V4.1-Flash. On the general-purpose suite, every WeMM-Ecom model surpasses its similarly sized Qwen3.5 counterpart, with the lightweight variants (e.g., WeMM-Ecom-2B) showing clear advantages over leading lightweight models such as Qwen3.5-2B, MiniCPM-V-4.7-1B, and LFM3-VL-2B. Beyond benchmarks, WeMM-Ecom now powers hundreds of production use cases in WeChat, including catalog management, multimodal product search, and livestream commerce, serving billion-scale requests per day. We publicly rele…",
+   "heat": 0.699,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 53.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Tencent/WeMM-Ecom"
+     ]
+    ]
+   },
+   "id": "efcc189b36ed",
+   "score": 6.25,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+   "url": "https://arxiv.org/abs/2611.30207",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-23T07:45:13Z",
+   "summary": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task collections check these tests only against the reference fix. We ask what makes a task good training data, focusing on the correctness of its reward labels. We audit SWE-Gym with two LLM families, and a suspected error counts only if execution reproduces it. We find that unsolved often means mislabelled: 74% of the tasks that a 9B base model never solves have a test that rejects correct fixes (a false negative), versus 20% of those it sometimes solves. We repair or remove such tasks, and the audited tasks that remain train better policies. At equal size and matched difficulty, models trained on them score 2.4 and 2.7 points higher on held-out tasks from SWE-bench Verified and SWE-bench Pro than models trained on the original tasks, whereas simply dropping the never-solved tasks shows no such gain. We further find that wrong patches that pass (false positives) make up about a quarter of all passing patches, and that new tests that catch a quarter of them do not change held-out scores detectably. A pass rate shows whether a task yields reward, not whether that reward is right, so the reward labels themselves must be checked. To this end, we release SWE-Gym-Verified with its 1,087 audited tasks, every verdict with its executed evidence, our training sets, and the full audit pipeline.",
+   "heat": 0.506,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 17.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Arist12/SWE-Gym-Verified"
+     ]
+    ]
+   },
+   "id": "d7c3dd176de2",
+   "score": 6.0,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded Policy Assistant",
+   "url": "https://arxiv.org/abs/2611.32266",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-24T09:37:55Z",
+   "summary": "In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsistent, which creates the need to implement novel digital systems. This paper presents Schedulater, a mobile app for managing university exam deferrals. JAMN Bot is a Large Language Model (LLM)-powered chatbot integrated into Schedulater that provides context-aware support to help users understand the deferral process. The system features a Retrieval-Augmented Generation (RAG) pipeline using Ollama (Llama 3.2 3B) for self-hosted inference which enables policy-grounded responses without sacrificing privacy. We evaluate the system using a 43-item benchmark spanning Exam Deferral, Privacy, Scheduling, Cross-Policy, and Adversarial & Out-of-Scope questions, and report inter-rater agreement among our human evaluators alongside retrieval hit-rate metrics. Subsequently, we utilize an LLM-as-a-judge approach with GPT-5.4, revealing slight-to-moderate alignment with our raters that improves with answer quality, and check the ranking against a panel including Gemini 3.5 Flash and Qwen3.5 397B. The results of our study display trade-offs between open-weight and frontier models, as well as LLM-human evaluation alignment with answer quality. Schedulater demonstrates the feasibility of integrating lightweight LLMs into university administrative workflows with structured retrieval.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {},
+   "id": "51f386b070cf",
+   "score": 5.46,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+   "url": "https://arxiv.org/abs/2611.25773",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 语音",
+   "published": "2026-11-19T09:09:23Z",
+   "summary": "Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions. However, completing tasks further requires task agency: timely tool invocation and argument revision following user corrections. Frontend-backend agents separate initiation from execution: the frontend decides whether and what to request, while the backend determines how. Execution can be offloaded, but unsent requests cannot be executed, and incomplete ones can misdirect the backend. On Full-Duplex-Bench v3 (FDB v3), most failures of Realtime-Venus-Audio + Harness in our streaming pipeline occur before a domain tool executes. We introduce Duopra, a full-duplex interaction model that learns task execution alongside conversational control. Duopra treats the backend as a tool, accepting a self-contained natural-language request. Direct calls and backend delegation share an action interface and requirements for faithful initiation and correct execution. Its three-stage training combines protocol SFT, full-duplex RL rewarding timely and complete execution, and projector-only repair of talker conditioning after thinker updates. With the same backend, Pass@1 rises from 4.7% to 44.7%; Duopra achieves 47.7% calling tools directly (26.0% after SFT) and 49.3% with a DeepSeek backend. It improves three FDB v1.0 takeover rates over the base model. These results show that task agency can coexist with key conversational agency.",
+   "heat": 0.525,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 19.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/cyChen2003/duopra"
+     ]
+    ]
+   },
+   "id": "8c574d457aa2",
+   "score": 5.3,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-25",
+  "start": "2026-11-25",
+  "end": "2026-11-25",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "generated_at": "2026-11-25T03:01:53Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 23,
+  "club_period": {
+   "start": "2026-11-24",
+   "end": "2026-11-24"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 1 个 PR、提交 1 次",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 1 个，提交 1 次，新增代码 1500 行、删除 130 行，3 位贡献者参与，其中 1 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 1500 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-mobile4Harmony 新增 1 个 PR",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 1 个，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "纯代码手搓了一个MV！",
+    "url": "https://www.qbitai.com/2026/11/512423.html",
+    "via": "量子位",
+    "id": "e49139f95ceb",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "via": "OpenAI",
+    "id": "e32ed061be72",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Searching for distant planets with Astra",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and…",
+    "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "via": "OpenAI",
+    "id": "4812d6e15334",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Three LLM inflection points in twelve months",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been…",
+    "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "via": "Simon Willison",
+    "id": "71b6787f7c1a",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Claude Opus 5.6灰测效果来了",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "整体效率大约是此前Opus版本的2到3倍。",
+    "url": "https://www.qbitai.com/2026/11/512478.html",
+    "via": "量子位",
+    "id": "5192aaccdea0",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel…",
+    "url": "https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview",
+    "via": "vLLM 博客",
+    "id": "35a013249ed1",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "The Agent Lake",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them…",
+    "url": "https://www.langchain.com/blog/the-agent-lake",
+    "via": "LangChain 博客",
+    "id": "d3f28940c174",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "INK-Q/agy-fast",
+    "when": "11月25日消息",
+    "date": "2026-11-25",
+    "body": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%)…",
+    "url": "https://github.com/INK-Q/agy-fast",
+    "via": "GitHub 新项目",
+    "id": "94ac1b56224a",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "pierridotite/mobile-agent-testers",
+    "when": "11月25日消息",
+    "date": "2026-11-25",
+    "body": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and A…",
+    "url": "https://github.com/pierridotite/mobile-agent-testers",
+    "via": "GitHub 新项目",
+    "id": "95b825459805",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "SulphurAI/Sulphur-3",
+    "when": "11月25日消息",
+    "date": "2026-11-25",
+    "body": "许可证 other。",
+    "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+    "via": "Hugging Face 热门模型",
+    "id": "78565272a98d",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while…",
+    "url": "https://arxiv.org/abs/2611.30662",
+    "via": "Hugging Face 热门论文",
+    "id": "efcc189b36ed",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+    "when": "11月23日",
+    "date": "2026-11-23",
+    "body": "Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task colle…",
+    "url": "https://arxiv.org/abs/2611.30207",
+    "via": "arXiv · 智能体",
+    "id": "d7c3dd176de2",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…",
+    "url": "https://arxiv.org/abs/2611.31358",
+    "via": "arXiv · 智能体",
+    "id": "3566740619c1",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounde…",
+    "when": "11月24日",
+    "date": "2026-11-24",
+    "body": "In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsiste…",
+    "url": "https://arxiv.org/abs/2611.32266",
+    "via": "arXiv · 长上下文与检索",
+    "id": "51f386b070cf",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}

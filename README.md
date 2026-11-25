@@ -12,57 +12,63 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.24（周二）
+## 每日快讯 · 11.25（周三）
 
-> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-24-kuaixun.md) · [公众号排版版](daily/2026/2026-11-24-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-24.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **17** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-25-kuaixun.md) · [公众号排版版](daily/2026/2026-11-25-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-25.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月24日 周二
-今日 AI 与开源要闻 13 条，3 分钟速读
+【每日科技快讯】11月25日 周三
+今日 AI 与开源要闻 17 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 1 个 PR、提交 1 次
 2. AtomGit-Mobile4Android 合并 1 个 PR
+3. AtomGit-mobile4Harmony 新增 1 个 PR
 
 【国内动态】
-3. 蚂蚁开源 Ling-3.2-air 模型
-→ 蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。
+4. 智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期
+→ 纯代码手搓了一个MV！
 
 【海外动态】
-4. OpenAI 和 Cisco 推出 Shirudo
-→ OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。
+5. GPT-6 models demonstrate intrinsic protein-design capabilities
+→ GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…
+6. Searching for distant planets with Astra
+→ See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and…
+7. Three LLM inflection points in twelve months
+→ I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been…
+8. Claude Opus 5.6灰测效果来了
+→ 整体效率大约是此前Opus版本的2到3倍。
 
 【开源项目】
-5. Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe
-→ vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。
-6. NariQ 发布 Qwen3.8-27B GGUF 版本
-→ NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。
-7. MR Office 开源浏览器办公套件
-→ MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。
-8. safe-anything Rust 漏洞扫描器
-→ safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。
-9. openai/codex rust 更新至 v0.172.0
-→ openai/codex rust 更新至 v0.172.0，新增了从搜索结果和转录中跟随线程链接、支持斜杠命令自动补全等功能。
+9. vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…
+→ vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel…
+10. The Agent Lake
+→ An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them…
+11. INK-Q/agy-fast
+→ Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%)…
+12. pierridotite/mobile-agent-testers
+→ 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and A…
+13. SulphurAI/Sulphur-3
+→ 许可证 other。
 
 【学术前沿】
-10. DeepMind 利用智能体和形式验证改进量子算法
-→ Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。
-11. cmHC 通过几何收缩平衡超连接
-→ 针对流混合残差矩阵在双随机多面体中混合不足或过度的问题，提出一种几何收缩方法。
-12. WeMM-Video 开源全模态视频理解
-→ WeMM-Video 是一个双语全模态基础模型，在 120 多个基准测试中表现优异。
-13. NoPeWorld 非穿透世界模型
-→ NoPeWorld 轻量级框架利用扩散变换器的隐藏状态预测动作安全性，降低物理违规率。
+14. WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce
+→ We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while…
+15. What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym
+→ Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task colle…
+16. Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation
+→ Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…
+17. Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounde…
+→ In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsiste…
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-24-kuaixun.md
-标题和要点由 AI 整理，可能有误，请以原文为准。
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-25-kuaixun.md
 ```
 
 </details>
@@ -71,45 +77,53 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 1 次**<br>11月23日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 0 个、合并 1 个，提交 1 次，新增代码 1807 行、删除 47 行，1 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 1 个 PR、提交 1 次**<br>11月24日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 1 个，提交 1 次，新增代码 1500 行、删除 130 行，3 位贡献者参与，其中 1 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月23日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 1807 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月24日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 1500 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+
+**AtomGit-mobile4Harmony 新增 1 个 PR**<br>11月24日，Agent SIG的 AtomGit-mobile4Harmony 仓库新增 PR 1 个，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-mobile4Harmony)）</sub>
 
 #### 国内动态
 
-**蚂蚁开源 Ling-3.2-air 模型**<br>11月24日，蚂蚁科技发布并开源 Ling-3.2-air 模型，拥有 1240 亿总参数，在代码仓库问题解决和多步骤工作流任务上表现提升。<br><sub>（来源：[IT之家](https://www.ithome.com/1/031/426.htm)）</sub>
+**智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期**<br>11月24日，纯代码手搓了一个MV！<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512423.html)）</sub>
 
 #### 海外动态
 
-**OpenAI 和 Cisco 推出 Shirudo**<br>11月24日，OpenAI 和 Cisco 推出了用于 Linux 的开源运行时 Shirudo，帮助团队在部署补丁时保护运行中的系统。<br><sub>（来源：[OpenAI](https://openai.com/index/introducing-shirudo)）</sub>
+**GPT-6 models demonstrate intrinsic protein-design capabilities**<br>11月24日，GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acro…<br><sub>（来源：[OpenAI](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)）</sub>
+
+**Searching for distant planets with Astra**<br>11月24日，See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and…<br><sub>（来源：[OpenAI](https://openai.com/index/searching-for-distant-planets-with-astra)）</sub>
+
+**Three LLM inflection points in twelve months**<br>11月25日，I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been…<br><sub>（来源：[Simon Willison](https://simonwillison.net/2026/Nov/24/llm-inflection-points/)）</sub>
+
+**Claude Opus 5.6灰测效果来了**<br>11月25日，整体效率大约是此前Opus版本的2到3倍。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512478.html)）</sub>
 
 #### 开源项目
 
-**Skip the DRAM Tier: MoRI UMBP Runs the Agentic KV Cache on NVMe**<br>11月23日，vLLM 博客介绍 MoRI UMBP，在 AMD Instinct MI355X GPU 上，NVMe 上的 MoRI UMBP KV 池性能与 DRAM 池相差不到 1%。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-23-skip-the-dram-tier)）</sub>
+**vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…**<br>11月24日，vLLM supports Baidu's ERNIE 5.5 Flash Preview on day 0 through the vLLM-ERNIE plugin on the released vllm==0.32.0 wheel…<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview)）</sub>
 
-**NariQ 发布 Qwen3.8-27B GGUF 版本**<br>11月23日，NariQ 提供 Qwen3.8-27B 的 GGUF 版本，支持 3、2.5 和 2 位量化。<br><sub>（来源：[Hacker News](https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF)）</sub>
+**The Agent Lake**<br>11月25日，An agent lake holds every trace your agents produce. See how LangSmith finds high-signal traces at scale and turns them…<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/the-agent-lake)）</sub>
 
-**MR Office 开源浏览器办公套件**<br>11月24日消息，MR Office 是浏览器中的开源办公套件，支持文档、表格、演示文稿、PDF 和代码编辑。<br><sub>（来源：[GitHub 新项目](https://github.com/XinaTian/MROffice)）</sub>
+**INK-Q/agy-fast**<br>11月25日消息，Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%)…<br><sub>（来源：[GitHub 新项目](https://github.com/INK-Q/agy-fast)）</sub>
 
-**safe-anything Rust 漏洞扫描器**<br>11月24日消息，safe-anything 是一个快速、100% Rust 编写的漏洞扫描器，支持多种漏洞检测。<br><sub>（来源：[GitHub 新项目](https://github.com/erkamyaman/safe-anything)）</sub>
+**pierridotite/mobile-agent-testers**<br>11月25日消息，20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and A…<br><sub>（来源：[GitHub 新项目](https://github.com/pierridotite/mobile-agent-testers)）</sub>
 
-**openai/codex rust 更新至 v0.172.0**<br>11月24日，openai/codex rust 更新至 v0.172.0，新增了从搜索结果和转录中跟随线程链接、支持斜杠命令自动补全等功能。<br><sub>（来源：[GitHub 版本发布](https://github.com/openai/codex/releases/tag/rust-v0.172.0)）</sub>
+**SulphurAI/Sulphur-3**<br>11月25日消息，许可证 other。<br><sub>（来源：[Hugging Face 热门模型](https://huggingface.co/SulphurAI/Sulphur-3)）</sub>
 
 #### 学术前沿
 
-**DeepMind 利用智能体和形式验证改进量子算法**<br>11月24日，Google DeepMind 使用智能体团队和形式验证来改进用于聚变和化学的量子算法。<br><sub>（来源：[Google DeepMind](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)）</sub>
+**WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce**<br>11月23日，We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.30662)）</sub>
 
-**cmHC 通过几何收缩平衡超连接**<br>11月24日消息，针对流混合残差矩阵在双随机多面体中混合不足或过度的问题，提出一种几何收缩方法。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27193)）</sub>
+**What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym**<br>11月23日，Reinforcement learning (RL) trains coding agents on software tasks whose hidden tests decide the reward, yet task colle…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.30207)）</sub>
 
-**WeMM-Video 开源全模态视频理解**<br>11月24日消息，WeMM-Video 是一个双语全模态基础模型，在 120 多个基准测试中表现优异。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.26409)）</sub>
+**Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation**<br>11月24日，Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.31358)）</sub>
 
-**NoPeWorld 非穿透世界模型**<br>11月24日消息，NoPeWorld 轻量级框架利用扩散变换器的隐藏状态预测动作安全性，降低物理违规率。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.27963)）</sub>
+**Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounde…**<br>11月24日，In some educational institutions, workflows such as the exam deferral process can be slow, inconvenient, and inconsiste…<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.32266)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月23日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-24 18:54（北京时间）自动生成。</sub>
+<sub>俱乐部动态的统计日期为11月24日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-25 11:01（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 
