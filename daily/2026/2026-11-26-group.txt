@@ -1,0 +1,39 @@
+【每日科技快讯】11月26日 周四
+今日 AI 与开源要闻 13 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 12 个 PR、提交 11 次
+2. homebrew-tap 合并 9 个 PR
+3. OpenAtomClub 合并 2 个 PR
+
+【国内动态】
+4. 可灵4.0全量上线 支持最长30秒视频
+→ 快手可灵4.0全量上线，支持单次原生生成最长30秒视频，重点补强大幅度动作和复杂运镜。
+
+【开源项目】
+5. PenGPT：基于文本生成手写和素描的生成式 Transformer
+→ PenGPT 是一个小型 Transformer 模型，专注于从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。
+6. Hy4 flash模型开源
+→ 腾讯混元开源Hy4 flash的GGUF量化权重，官方实测在48GB显存设备上生成速度最高到每秒89个token。
+7. Mastra：现代 TypeScript AI 应用框架
+→ Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。
+8. EdgeEver：AI 原生笔记应用
+→ EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。
+9. KuroCat：3D桌面打字小黑猫与AI编程伴侣
+→ KuroCat是一个开源的3D/2D桌面打字小黑猫与AI编程伴侣，支持多种AI模型和平台。
+
+【学术前沿】
+10. Lazy Agents：利用可验证信念强化学习
+→ 论文提出了可验证信念强化学习方法，利用模拟器计算后验概率指导智能体行动，提升长任务性能。
+11. AI能解决以前顶级物理学家一天的问题
+→ 前沿AI已经能解决以前顶级物理学家需要一整天才能解决的问题。
+12. Claude和ChatGPT挑战AlphaFold
+→ Anthropic最新版Claude在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI宣布其大模型成功设计出新蛋白质。
+13. NightWatch：计算机使用代理主动感知框架
+→ 论文提出了NightWatch框架，通过轻量级系统模型实时监控界面状态，减少感知滞后并提高任务成功率。
+
+【活动预告】
+· 12月3日 EuroVis 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-26-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

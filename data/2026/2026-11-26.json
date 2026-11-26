@@ -1,0 +1,1468 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T02:12:03Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 438,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 64,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.6
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.1
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 7.5
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": false,
+   "count": 0,
+   "error": "HttpError: 读取超时：https://www.geekpark.net/rss",
+   "seconds": 10.5
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 4.4
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 52,
+   "error": "",
+   "seconds": 10.6
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 332,
+   "error": "",
+   "seconds": 23.3
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 19.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 21.0
+  }
+ ],
+ "items": [
+  {
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-25T00:54:49Z",
+   "summary": "",
+   "heat": 0.961,
+   "weight": 0.6,
+   "metrics": {
+    "points": 392.0,
+    "comments": 77.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50637056",
+    "excerpt_tried": true,
+    "evidence": "A small transformer that writes and sketches from text. The effort was 80% data, 15% speed and 5% architecture: my first project that follows the Bitter Lesson. The text of this post (except the conclusion) was written by Claude. I plan to rewrite it in my own words over Thanksgiving Break but needed to get the project out. So apologies for this move - all of my other posts were written by me, and all future posts will be as well. Even if you find Claude more comprehensible than my meandering thoughts, meander nonetheless I shall. Last year Zach Wimpee and I trained a tiny GPT to write cursive . It worked but it only knew one hand (mine) and it learned from 3,500 words that I wrote on a trackpad. So here’s the obvious next question: can one small, ordinary transformer learn to hold a pen…",
+    "llm_done": true
+   },
+   "id": "09c2224b5dd7",
+   "score": 7.99,
+   "title_zh": "PenGPT：基于文本生成手写和素描的生成式 Transformer",
+   "summary_zh": "这是一个小型的 Transformer 模型，可以从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。",
+   "tags": [
+    "模型发布",
+    "生成式 AI",
+    "手写识别"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-25T21:18:02Z",
+   "summary": "",
+   "heat": 0.855,
+   "weight": 0.6,
+   "metrics": {
+    "points": 203.0,
+    "comments": 159.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50647673",
+    "excerpt_tried": true,
+    "evidence": "The New York Times is warning freelance photographers against using the latest version of Adobe Photoshop, saying it uses AI “in ways that may not be apparent to users.” An email sent to freelance photographers says Photoshop’s latest update uses AI ‘in ways that may not be apparent.’ An email sent to freelance photographers says Photoshop’s latest update uses AI ‘in ways that may not be apparent.’ The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI “in ways that may not be apparent to users.” In an email seen by The Verge and posted on Threads , two of the Times ’ photography leaders, Meaghan Looram and Josh Haner, write that the use of these features “can result in metadata identifying photograp…",
+    "llm_done": true
+   },
+   "id": "041144557241",
+   "score": 7.94,
+   "title_zh": "纽约时报警告摄影师不要更新 Photoshop",
+   "summary_zh": "纽约时报警告自由职业摄影师不要使用最新版 Photoshop，因为该版本使用了用户可能未察觉的 AI 功能。",
+   "tags": [
+    "行业动态",
+    "Adobe",
+    "AI 争议"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+   "url": "https://news.ycombinator.com/item?id=50630809",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-24T16:45:44Z",
+   "summary": "",
+   "heat": 0.98,
+   "weight": 0.6,
+   "metrics": {
+    "points": 442.0,
+    "comments": 339.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50630809",
+    "llm_done": true
+   },
+   "id": "3e0a805d6b3e",
+   "score": 7.93,
+   "title_zh": "Ask HN：Anthropic 指控我公司蒸馏，如何证明清白？",
+   "summary_zh": "",
+   "tags": [
+    "行业动态",
+    "Anthropic",
+    "模型蒸馏"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+   "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-25T03:47:42Z",
+   "summary": "",
+   "heat": 0.867,
+   "weight": 0.6,
+   "metrics": {
+    "points": 218.0,
+    "comments": 82.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50638220",
+    "excerpt_tried": true,
+    "evidence": "Title possibly signs checks the article doesn’t have backing for. This is just a brief pro forma project update. Not much new functionality or anything to announce, last few months have mostly been bug fixes and technical debt cleanup. Most big parts of the search engine are in place, and while there are many things that could be better, we’re less likely to straight up see massive new features, at least in the immediate future. Per familiar intuition from binary searches, the closer you get to your goal the smaller and more deliberate steps you need to take in order to get even closer. It’s been a pretty good couple of months for the project. SerpApi sponsored the project with $10k a while back. Other donations and API-key sales have been going up month-over-month since this summer. The…",
+    "llm_done": true
+   },
+   "id": "c9d3bd8cd295",
+   "score": 7.58,
+   "title_zh": "Marginalia 搜索、金钱、C++、Rust、AI 等",
+   "summary_zh": "作者更新了 Marginalia 搜索引擎的进展，主要进行了 bug 修复和技术债务清理，尚未推出大规模新功能。",
+   "tags": [
+    "开源项目",
+    "搜索引擎",
+    "技术更新"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "爆肝实测四大国产AI神器！7大变态考题，逼出最野导演",
+   "url": "https://aiera.com.cn/2026/11/26/other/admin/120096/%e7%88%86%e8%82%9d%e5%ae%9e%e6%b5%8b%e5%9b%9b%e5%a4%a7%e5%9b%bd%e4%ba%a7ai%e7%a5%9e%e5%99%a8%ef%bc%817%e5%a4%a7%e5%8f%98%e6%80%81%e8%80%83%e9%a2%98%ef%bc%8c%e9%80%bc%e5%87%ba%e6%9c%80%e9%87%8e/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-26T01:27:52Z",
+   "summary": "这一周的AI视频圈，简直是神仙打架。 10月15日晚，可灵4.0全量上线，重点补强了大幅度动作和复杂运镜，单次原生生成最长拉到30秒。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "538c870c7020",
+   "score": 7.35,
+   "title_zh": "实测四大国产AI视频工具，7大考题逼出最野导演",
+   "summary_zh": "可灵4.0全量上线，支持单次原生生成最长30秒。",
+   "tags": [
+    "视频生成",
+    "国产模型",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Verifiable Social Reasoning for LLM Assistants",
+   "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+   "source": "rss",
+   "section": "news",
+   "via": "Google Research",
+   "published": "2026-11-25T17:10:27Z",
+   "summary": "",
+   "heat": 0.75,
+   "weight": 0.75,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "Zorik Gekhman, Senior Research Scientist; Amir Taubenfeld, Staff Research Engineer; Google Research We introduce an evaluation framework based on multi-agent social simulations that quantifies how well AI assistants understand social situations from users' subjective narratives. In our framework, a target agent with a hidden motive interacts with other agents including one representing the user, who then consults the evaluated assistant to infer the target’s motive, providing verifiable ground truth by construction. Large Language Models (LLMs) are widely used for everyday personal support and advice, yet evaluating their social reasoning in such consultation settings remains challenging since (1) it requires setups where the assistant learns about social situations from subjective user n…",
+    "llm_done": true
+   },
+   "id": "2ca9ef982a94",
+   "score": 7.3,
+   "title_zh": "",
+   "summary_zh": "Google Research 提出基于多智能体社会模拟的评估框架，量化 AI 助手理解用户主观叙事的能力。",
+   "tags": [
+    "论文",
+    "评估",
+    "社交推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI may soon change what it means to be a theoretical physicist",
+   "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+   "source": "rss",
+   "section": "news",
+   "via": "Ars Technica",
+   "published": "2026-11-25T12:00:28Z",
+   "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "b47f1938aec6",
+   "score": 7.05,
+   "title_zh": "",
+   "summary_zh": "前沿 AI 已经能解决以前顶级物理学家需要一整天才能解决的问题。",
+   "tags": [
+    "行业动态",
+    "AI应用"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Claude 和 ChatGPT 在蛋白质结构预测和设计上挑战 AlphaFold",
+   "url": "https://www.solidot.org/story?sid=85992",
+   "source": "rss",
+   "section": "news",
+   "via": "Solidot",
+   "published": "2026-11-25T15:26:31Z",
+   "summary": "AI 生物科技公司 Phylo 研究员 Xinming Tu 本月初使用 OpenAI、Anthropic 和 Google 的大模型测试了它们预测鲜为人知细菌蛋白质序列的能力。他让分析程序运行了整晚，第二天对结果非常吃惊。Anthropic 最新版本的Claude 表现不仅优于其它大模型，而且超过了针对蛋白质序列训练过的专门工具。他与哈佛医学院的 Leo Chen 分享的这一发现在计算生物学界引发了热议。本周二 OpenAI 宣布其最新大模型成功设计出新蛋白质，在实验室合成和测试时部分新蛋白质的行为和预期一样。该研究引发了 生物 AI 未来的讨论，部分科学家预测 Claude 和 ChatGPT 之类的通用模型在蛋白质结构预测和设计等任务上可能会超越 AlphaFold 等专用工具。也有研究人员对此提出质疑，认为大模型展现出的部分能力可能只是训练数据的机械重复。",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "0e003a90c1b3",
+   "score": 6.92,
+   "title_zh": "Claude 和 ChatGPT 在蛋白质结构预测和设计上挑战 AlphaFold",
+   "summary_zh": "Anthropic 最新版 Claude 在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI 宣布其大模型成功设计出新蛋白质。",
+   "tags": [
+    "生物AI",
+    "蛋白质",
+    "模型评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Migrating our Messages API to Rust",
+   "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+   "source": "rss",
+   "section": "news",
+   "via": "Anthropic 研究",
+   "published": "2026-11-25T00:00:00Z",
+   "summary": "",
+   "heat": 0.85,
+   "weight": 0.85,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0,
+    "excerpt_tried": true,
+    "evidence": "How we used the existing Messages API to verify the new one, with teams of Claude agents tracking down and fixing differences between the Python and Rust versions. Many problems have a generator–verifier gap: it’s often far easier to verify that a solution is correct than to come up with one. Sudoku is a classic example. It’s simple to check the solution (just count the numbers in each row, column, and box), but finding that solution can take a long time. Many ambitious Claude projects have relied on this gap: formalizing proofs in mathematics or migrating large, well-tested codebases are tasks Claude can take on as long as it has a reliable way to verify its work. But as Claude has become more capable, it’s begun to take on projects in live systems, where generating the work is easier th…",
+    "llm_done": true
+   },
+   "id": "3d7a5c0812e7",
+   "score": 6.87,
+   "title_zh": "",
+   "summary_zh": "Anthropic 使用 Claude 智能体验证新 API，利用生成器-验证器差距修复 Python 和 Rust 版本的差异。",
+   "tags": [
+    "技术",
+    "API迁移",
+    "Rust"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+   "source": "rss",
+   "section": "news",
+   "via": "Latent Space",
+   "published": "2026-11-25T22:28:01Z",
+   "summary": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f113b3a5d2f6",
+   "score": 6.72,
+   "title_zh": "",
+   "summary_zh": "OpenAI 工程师展示 AI 如何让软件生产成本降低，同时保留手工打磨的精细感。",
+   "tags": [
+    "行业动态",
+    "OpenAI"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "2240 亿参数的 Hy4 flash 模型，现在能跑在 64GB 的 Mac mini 上",
+   "url": "https://www.oschina.net/news/503813",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-25T09:03:51Z",
+   "summary": "腾讯混元在 11 月 25 日开源了 Hy4 flash 的 GGUF 量化权重和配套推理代码，工具是他们自己的压缩加速工具箱 AngelSlim。最小的版本权重约为原始的三成，官方实测在 48GB 显存设备上生成速度最高到每秒 89 个 token。 先把数字摊开。 原始权重 410.27 GiB。这个体积普通人的电脑装不下，所以官方给了几个量化版本：通用的...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "9be62e7232c9",
+   "score": 6.86,
+   "title_zh": "",
+   "summary_zh": "腾讯混元开源 Hy4 flash 的 GGUF 量化权重，官方实测在 48GB 显存设备上生成速度最高到每秒 89 个 token。",
+   "tags": [
+    "开源模型",
+    "量化",
+    "推理加速"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "LibreOffice 收紧 AI 辅助代码贡献政策",
+   "url": "https://www.oschina.net/news/503810/libreoffice-restricts-llm-use-development",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-25T08:33:26Z",
+   "summary": "11 月 24 日，文档基金会（The Document Foundation，TDF）针对 AI 辅助代码贡献发布了更严格的规则。核心有几条： 贡献者在使用大语言模型之前，必须先获得批准； 提交代码时必须披露用了什么 AI 工具、是怎么审查的； 对借助 LLM 完成的补丁，贡献者要能用自己的语言解释其中每一行被改代码的原理和作用。 还有一条容易...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "273642eaf7ff",
+   "score": 6.26,
+   "title_zh": "",
+   "summary_zh": "文档基金会发布更严格规则，要求贡献者披露 AI 工具使用情况并解释代码修改原理。",
+   "tags": [
+    "开源",
+    "AI工具",
+    "代码贡献"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "mastra-ai/mastra",
+   "url": "https://github.com/mastra-ai/mastra",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+   "heat": 0.425,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 29.0,
+    "stars": 29822.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "1589247f1bbf",
+   "score": 6.17,
+   "title_zh": "",
+   "summary_zh": "Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。",
+   "tags": [
+    "开源工具",
+    "TypeScript",
+    "AI 框架"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "tianma-if/edgeever",
+   "url": "https://github.com/tianma-if/edgeever",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "AI-native note-taking app & Evernote/Obsidian alternative. Instant all-platform sync, rich notes (tables, mind maps, diagrams, posters), web clipper & MCP. 100% free on Cloudflare or Docker.",
+   "heat": 0.397,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 23.0,
+    "stars": 3559.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "eb513fb038f2",
+   "score": 6.11,
+   "title_zh": "",
+   "summary_zh": "EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。",
+   "tags": [
+    "开源工具",
+    "笔记应用",
+    "AI 辅助"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "qianyiai/kurocat",
+   "url": "https://github.com/qianyiai/kurocat",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+   "heat": 0.756,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1005.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 4,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "a85c150d0ff2",
+   "score": 6.11,
+   "title_zh": "",
+   "summary_zh": "KuroCat 是一个开源的 3D/2D 桌面打字小黑猫与 AI 编程伴侣，支持多种 AI 模型和平台。",
+   "tags": [
+    "开源工具",
+    "桌面应用",
+    "AI 伴侣"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "NirDiamant/GenAI_Agents",
+   "url": "https://github.com/NirDiamant/GenAI_Agents",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
+   "heat": 0.361,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 17.0,
+    "stars": 25131.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "e7a4b8e7ef7b",
+   "score": 6.04,
+   "title_zh": "",
+   "summary_zh": "GenAI_Agents 仓库包含 50 多个生成式 AI 智能体教程和实现，涵盖从基础对话机器人到复杂多智能体系统。",
+   "tags": [
+    "开源工具",
+    "智能体",
+    "教程"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "facebookresearch/audiocraft",
+   "url": "https://github.com/facebookresearch/audiocraft",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.",
+   "heat": 0.354,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 16.0,
+    "stars": 23970.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "36442496d986",
+   "score": 6.03,
+   "title_zh": "",
+   "summary_zh": "Audiocraft 是一个深度学习音频处理和生成库，包含 EnCodec 音频压缩器和 MusicGen 音乐生成模型。",
+   "tags": [
+    "开源工具",
+    "音频生成",
+    "MusicGen"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Developing-Gamer/agent-sim",
+   "url": "https://github.com/Developing-Gamer/agent-sim",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "iOS simulators for AI agents, on Linux. The agent layer for x86Sim.",
+   "heat": 0.686,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 598.0
+   },
+   "extra": {
+    "language": "Rust",
+    "age_days": 4,
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "4aeaa2ec3e5e",
+   "score": 5.97,
+   "title_zh": "",
+   "summary_zh": "agent-sim 是一个在 Linux 上运行的 AI 智能体 iOS 模拟器，为 x86Sim 提供智能体层。",
+   "tags": [
+    "开源工具",
+    "模拟器",
+    "AI 智能体"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+   "url": "https://arxiv.org/abs/2611.32884",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-24T16:17:51Z",
+   "summary": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers. An outcome reward at the end of the episode scores only the final answer, so it cannot teach the agent when to commit, because a lucky guess receives the same reward as an answer backed by evidence. During training, however, the simulator can compute the exact posterior over the answer at every step and tell whether the evidence is already enough. We propose Reinforcement Learning with Verifiable Beliefs (RLVB), which rewards the agent for taking further steps while this posterior still allows several answers and for committing once the evidence is sufficient. The reward needs no judge, critic or reward model, and it never reads the belief line the agent writes before each action. We also introduce Pro Worlds, a benchmark of visual puzzles where the agent views a large world through a small window. We evaluate three vision-language models on three benchmarks, two of which are never seen in training. RLVB improves the base model in all nine settings, by 17.1% on average. Under the outcome reward, GRPO and PPO fall below the base model on average. RLVB also outperforms PPO with a process reward from an LLM judge by 9.3% on average while using 1.6 times fewer GPU-hours. The trained agent answers with sufficient evidence in 51%, 12% and 74% of the epi…",
+   "heat": 0.8,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 95.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/declare-lab/RLVB"
+     ]
+    ],
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "acda2684c9cc",
+   "score": 7.85,
+   "title_zh": "Lazy Agents：利用可验证信念强化学习",
+   "summary_zh": "针对智能体在长任务中过早下结论的懒惰行为，论文提出了可验证信念强化学习（RLVB）方法。该方法利用模拟器计算后验概率来指导智能体何时行动，在视觉谜题基准测试中显著提升了模型性能。",
+   "tags": [
+    "智能体",
+    "强化学习",
+    "推理"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+   "url": "https://arxiv.org/abs/2611.28947",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-21T17:31:05Z",
+   "summary": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a perception-action gap in which the observed state frequently becomes stale before the corresponding action is executed. To bridge this gap, we present NightWatch, a plug-and-play framework that endows any CUA with continuous, temporally grounded perception without changing the agent's model, prompt, or action space. NightWatch couples the VLM agent with NightWatch-0.8B, a lightweight System-1 model that performs streaming monitoring of the interface state and keeps the agent synchronized with the evolving environment at low computational cost and latency, thereby grounding each decision in the current state rather than an outdated snapshot and reducing both stale actions and idle waiting while preserving task success. Experiments on desktop and dynamic web environments (OSWorld-Verified and DynaCU-Bench) show that NightWatch, driven by a watcher of only 0.8B parameters, reduces non-reasoning wall-clock time by 33% and wasted time by 53% on OSWorld while keeping task success on par, raises success on DynaCU-Bench from 39.5% to 44.2% with the large VLM agent, and is mor…",
+   "heat": 0.8,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 95.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/SuJQ0722/NightWatch"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "d25c0b99747f",
+   "score": 6.94,
+   "title_zh": "",
+   "summary_zh": "为解决计算机使用代理在动态环境中感知滞后的问题，论文提出了NightWatch框架。该框架通过轻量级系统模型实时监控界面状态，减少非推理时间并提高任务成功率。",
+   "tags": [
+    "智能体",
+    "感知",
+    "推理加速"
+   ],
+   "also_in": [
+    "Hugging Face 热门论文"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Rewirable Circuits in Transformers with Loom Attention",
+   "url": "https://arxiv.org/abs/2611.30634",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-23T00:00:00Z",
+   "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-stream architecture that splits control and content between the vector and matrix streams. Across model sizes and training token budgets in language modeling and downstream tasks, LoomFormer matches Transformers trained with over 3x compute and recent residual-stream baselines (HC/mHC, MUDDFormer, AttnRes) trained with ~1.7-2.8x. For example, trained on the same 300B tokens with only 2% extra FLOPs, LoomPythia-2.8B achieves ~1.6x the average downstream gain of mHC-Pythia-2.8B over Pythia-2.8B, and matches (0-shot) or surpasses (5-shot) Pythia-12B. Code is available at https://github.com/Caiyun-AI/LoomFormer",
+   "heat": 0.783,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 86.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Caiyun-AI/LoomFormer"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "9c0fa0d320de",
+   "score": 6.76,
+   "title_zh": "Loom Attention：Transformer的可重连电路",
+   "summary_zh": "论文提出了Loom Attention机制，允许Transformer在每一步动态重连电路。实验表明，LoomFormer在语言建模和下游任务中，仅需较少计算量即可达到或超越更大模型的性能。",
+   "tags": [
+    "高效推理",
+    "注意力机制",
+    "Transformer"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "MH-RAG-DIVE: Dynamic and Cost-Efficient Multi-Hop RAG Evaluation via Tree-Cached Dialogue Simulation",
+   "url": "https://arxiv.org/abs/2611.30335",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-23T09:13:07Z",
+   "summary": "Quality assessment is essential for determining whether changes to a Retrieval-Augmented Generation system improve or maintain its performance. However, existing evaluation approaches often rely on single-turn or single-hop interactions and therefore do not capture the complexity of multi-hop, multi-turn conversations. We introduce MH-RAG-DIVE, a dynamic interactive user simulation framework designed to evaluate RAG systems in more complex multi-hop and multi-turn settings. The framework extends RAG-DIVE with a Context Discoverer, which identifies documents that can be combined to generate multi-hop questions within an ongoing conversation. To address the high computational cost of dynamic user simulation, we further introduce a Conversation Cacher, which reuses turns from previous evaluation runs while preserving the dynamic nature of the evaluation. We evaluate the framework across six distinct RAG configurations and compare its results with the original RAG-DIVE evaluation and the static, human-created CLAPNQ dataset. Our experiments show consistent performance trends across the evaluation approaches, while the more complex multi-hop and multi-turn setting exposes additional challenges for RAG systems. Furthermore, the Conversation Cacher substantially reduces token consumption, demonstrating its potential to make dynamic evaluation more cost-efficient. Finally, we apply MH-RAG-DIVE to an industrial RAG system with domain-specific data, demonstrating its applicability to…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "231e8cc0a447",
+   "score": 6.67,
+   "title_zh": "MH-RAG-DIVE：多跳RAG评估",
+   "summary_zh": "针对多跳多轮对话的复杂性，论文提出了MH-RAG-DIVE框架。该框架通过动态用户模拟和对话缓存技术，提高了RAG系统的评估效率，并展示了在工业级系统中的应用潜力。",
+   "tags": [
+    "RAG",
+    "检索增强生成",
+    "评估"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Fast 4-bit KV-Cache Decoding on Hopper GPUs: Why Existing Kernels Are Slow and How to Fix Them",
+   "url": "https://arxiv.org/abs/2611.30027",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-23T04:29:01Z",
+   "summary": "A 4-bit KV cache reads about half the bytes of FP8, but Hopper GPUs have no FP4 hardware and little instruction-issue capacity per byte of memory bandwidth, so 4-bit values must be decoded in software. On H200, vLLM's NVFP4 KV path (FlashInfer's decode) reaches 10-20% of memory bandwidth and is up to 1.7x slower than FP8. NVBit instruction counts show two causes: the kernels behind vLLM's 4-bit paths (FlashInfer NVFP4, Triton UltraQuant) execute 2-6x Hopper's issue budget per byte and serialize loading, decoding and matrix multiplies. Our Hopper-native decode kernel overlaps a TMA producer warp with two compute warpgroups, lays the cache out at write time so decoded values feed the tensor cores from registers, and swaps the matrix operands so small query groups need no padding. On H200 it reaches 67-75% of peak bandwidth at batch 32-128 and at all 11 shapes is 1.12-1.49x faster than the faster of XQA and FlashAttention-4's proposed native FP8. Inside vLLM, with an accuracy recipe (K mean removal and rotation, 4 BF16 sink tokens, BF16 layer 0), it decodes 1.12-1.64x faster per step on Llama-3.1-8B than vLLM's FlashInfer FP8 path at batch 8 and above (1.04-1.24x over FlashAttention-4's FP8), is level at batch 1, and holds 1.63x as many tokens. On one H200 under a reasoning-like request stream, the highest rate at which 99% of requests meet the latency targets is 1.23-1.32x FP8's on Llama-3.1-8B and 1.67-2.20x on Qwen2.5-72B, as the cache becomes the limit; prefill-heavy stream…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "6eb54435e7d8",
+   "score": 6.65,
+   "title_zh": "Hopper GPU上的4-bit KV-Cache解码优化",
+   "summary_zh": "论文分析了现有4-bit KV-Cache解码在Hopper GPU上的性能瓶颈，并提出了一种原生解码内核。实验显示，该优化方法在Llama-3.1-8B和Qwen2.5-72B上显著提升了解码速度。",
+   "tags": [
+    "高效推理",
+    "KV-Cache",
+    "GPU优化"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-26",
+  "start": "2026-11-26",
+  "end": "2026-11-26",
+  "title": "PenGPT：基于文本生成手写和素描的生成式 Transformer",
+  "generated_at": "2026-11-26T02:12:03Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
+  "club_period": {
+   "start": "2026-11-25",
+   "end": "2026-11-25"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 12 个 PR、提交 11 次",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 4 个有人参与开发，共新增 PR 4 个、合并 12 个，提交 11 次，新增代码 53 行、删除 62 行，4 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "homebrew-tap 合并 9 个 PR",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "Agent SIG的 homebrew-tap 仓库新增 PR 2 个、合并 9 个、提交 3 次、新增代码 1 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/homebrew-tap",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "OpenAtomClub 合并 2 个 PR",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "数字基础设施维护 SIG的 OpenAtomClub 仓库新增 PR 1 个、合并 2 个、提交 7 次、新增代码 52 行，2 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/OpenAtomClub",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "可灵4.0全量上线 支持最长30秒视频",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "快手可灵4.0全量上线，支持单次原生生成最长30秒视频，重点补强大幅度动作和复杂运镜。",
+    "url": "https://aiera.com.cn/2026/11/26/other/admin/120096/%e7%88%86%e8%82%9d%e5%ae%9e%e6%b5%8b%e5%9b%9b%e5%a4%a7%e5%9b%bd%e4%ba%a7ai%e7%a5%9e%e5%99%a8%ef%bc%817%e5%a4%a7%e5%8f%98%e6%80%81%e8%80%83%e9%a2%98%ef%bc%8c%e9%80%bc%e5%87%ba%e6%9c%80%e9%87%8e/",
+    "via": "新智元",
+    "id": "538c870c7020",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "PenGPT：基于文本生成手写和素描的生成式 Transformer",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "PenGPT 是一个小型 Transformer 模型，专注于从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。",
+    "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+    "via": "Hacker News",
+    "id": "09c2224b5dd7",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Hy4 flash模型开源",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "腾讯混元开源Hy4 flash的GGUF量化权重，官方实测在48GB显存设备上生成速度最高到每秒89个token。",
+    "url": "https://www.oschina.net/news/503813",
+    "via": "开源中国",
+    "id": "9be62e7232c9",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "Mastra：现代 TypeScript AI 应用框架",
+    "when": "11月26日消息",
+    "date": "2026-11-26",
+    "body": "Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。",
+    "url": "https://github.com/mastra-ai/mastra",
+    "via": "GitHub Trending",
+    "id": "1589247f1bbf",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "EdgeEver：AI 原生笔记应用",
+    "when": "11月26日消息",
+    "date": "2026-11-26",
+    "body": "EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。",
+    "url": "https://github.com/tianma-if/edgeever",
+    "via": "GitHub Trending",
+    "id": "eb513fb038f2",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "KuroCat：3D桌面打字小黑猫与AI编程伴侣",
+    "when": "11月26日消息",
+    "date": "2026-11-26",
+    "body": "KuroCat是一个开源的3D/2D桌面打字小黑猫与AI编程伴侣，支持多种AI模型和平台。",
+    "url": "https://github.com/qianyiai/kurocat",
+    "via": "GitHub 新项目",
+    "id": "a85c150d0ff2",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Lazy Agents：利用可验证信念强化学习",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "论文提出了可验证信念强化学习方法，利用模拟器计算后验概率指导智能体行动，提升长任务性能。",
+    "url": "https://arxiv.org/abs/2611.32884",
+    "via": "arXiv · 智能体",
+    "id": "acda2684c9cc",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "AI能解决以前顶级物理学家一天的问题",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "前沿AI已经能解决以前顶级物理学家需要一整天才能解决的问题。",
+    "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+    "via": "Ars Technica",
+    "id": "b47f1938aec6",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Claude和ChatGPT挑战AlphaFold",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "Anthropic最新版Claude在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI宣布其大模型成功设计出新蛋白质。",
+    "url": "https://www.solidot.org/story?sid=85992",
+    "via": "Solidot",
+    "id": "0e003a90c1b3",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "NightWatch：计算机使用代理主动感知框架",
+    "when": "11月26日消息",
+    "date": "2026-11-26",
+    "body": "论文提出了NightWatch框架，通过轻量级系统模型实时监控界面状态，减少感知滞后并提高任务成功率。",
+    "url": "https://arxiv.org/abs/2611.28947",
+    "via": "arXiv · 智能体",
+    "id": "d25c0b99747f",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "09c2224b5dd7": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "PenGPT：基于文本生成手写和素描的生成式 Transformer",
+    "body": "PenGPT 是一个小型 Transformer 模型，专注于从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。"
+   },
+   "041144557241": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "纽约时报警告摄影师不要更新 Photoshop",
+    "body": "纽约时报警告自由职业摄影师不要使用最新版 Photoshop，因为该版本使用了用户可能未察觉的 AI 功能。"
+   },
+   "3e0a805d6b3e": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic 指控公司蒸馏",
+    "body": "Anthropic 指控某公司进行蒸馏，用户询问如何证明清白。"
+   },
+   "c9d3bd8cd295": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Marginalia 搜索引擎更新",
+    "body": "作者更新了 Marginalia 搜索引擎的进展，主要进行了 bug 修复和技术债务清理。"
+   },
+   "538c870c7020": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "可灵4.0全量上线 支持最长30秒视频",
+    "body": "快手可灵4.0全量上线，支持单次原生生成最长30秒视频，重点补强大幅度动作和复杂运镜。"
+   },
+   "2ca9ef982a94": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Google提出多智能体社会模拟评估框架",
+    "body": "Google Research提出基于多智能体社会模拟的评估框架，量化AI助手理解用户主观叙事的能力。"
+   },
+   "b47f1938aec6": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "AI能解决以前顶级物理学家一天的问题",
+    "body": "前沿AI已经能解决以前顶级物理学家需要一整天才能解决的问题。"
+   },
+   "0e003a90c1b3": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Claude和ChatGPT挑战AlphaFold",
+    "body": "Anthropic最新版Claude在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI宣布其大模型成功设计出新蛋白质。"
+   },
+   "3d7a5c0812e7": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "Anthropic将Messages API迁移至Rust",
+    "body": "Anthropic使用Claude智能体验证新API，利用生成器-验证器差距修复Python和Rust版本的差异。"
+   },
+   "f113b3a5d2f6": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI展示AI降低软件生产成本",
+    "body": "OpenAI工程师展示AI如何让软件生产成本降低，同时保留手工打磨的精细感。"
+   },
+   "9be62e7232c9": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Hy4 flash模型开源",
+    "body": "腾讯混元开源Hy4 flash的GGUF量化权重，官方实测在48GB显存设备上生成速度最高到每秒89个token。"
+   },
+   "273642eaf7ff": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "LibreOffice收紧AI辅助代码贡献政策",
+    "body": "文档基金会发布更严格规则，要求贡献者披露AI工具使用情况并解释代码修改原理。"
+   },
+   "1589247f1bbf": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Mastra：现代 TypeScript AI 应用框架",
+    "body": "Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。"
+   },
+   "eb513fb038f2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "EdgeEver：AI 原生笔记应用",
+    "body": "EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。"
+   },
+   "a85c150d0ff2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "KuroCat：3D桌面打字小黑猫与AI编程伴侣",
+    "body": "KuroCat是一个开源的3D/2D桌面打字小黑猫与AI编程伴侣，支持多种AI模型和平台。"
+   },
+   "e7a4b8e7ef7b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "GenAI_Agents：50+生成式AI智能体教程",
+    "body": "GenAI_Agents仓库包含50多个生成式AI智能体教程和实现，涵盖从基础对话机器人到复杂多智能体系统。"
+   },
+   "36442496d986": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "Audiocraft：深度学习音频处理库",
+    "body": "Audiocraft是一个深度学习音频处理和生成库，包含EnCodec音频压缩器和MusicGen音乐生成模型。"
+   },
+   "4aeaa2ec3e5e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "agent-sim：AI智能体iOS模拟器",
+    "body": "agent-sim是一个在Linux上运行的AI智能体iOS模拟器，为x86Sim提供智能体层。"
+   },
+   "acda2684c9cc": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Lazy Agents：利用可验证信念强化学习",
+    "body": "论文提出了可验证信念强化学习方法，利用模拟器计算后验概率指导智能体行动，提升长任务性能。"
+   },
+   "d25c0b99747f": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "NightWatch：计算机使用代理主动感知框架",
+    "body": "论文提出了NightWatch框架，通过轻量级系统模型实时监控界面状态，减少感知滞后并提高任务成功率。"
+   },
+   "9c0fa0d320de": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LoomFormer提出可重连电路Transformer",
+    "body": "LoomFormer引入Loom Attention机制，允许Transformer动态重连电路，在语言建模和下游任务中仅需较少计算量即可达到或超越更大模型的性能。"
+   },
+   "231e8cc0a447": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "MH-RAG-DIVE框架提升多跳RAG评估效率",
+    "body": "MH-RAG-DIVE框架通过动态用户模拟和对话缓存技术，提高了多跳多轮对话中RAG系统的评估效率，展示了在工业级系统中的应用潜力。"
+   },
+   "6eb54435e7d8": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Hopper GPU上4-bit KV-Cache解码优化",
+    "body": "论文提出原生解码内核解决Hopper GPU上4-bit KV-Cache解码的性能瓶颈，在Llama-3.1-8B和Qwen2.5-72B上显著提升了解码速度。"
+   }
+  }
+ }
+}

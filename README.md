@@ -12,57 +12,53 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.25（周三）
+## 每日快讯 · 11.26（周四）
 
-> 今日 AI 与开源要闻 **14** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-25-kuaixun.md) · [公众号排版版](daily/2026/2026-11-25-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-25.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-26-kuaixun.md) · [公众号排版版](daily/2026/2026-11-26-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-26.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月25日 周三
-今日 AI 与开源要闻 14 条，3 分钟速读
+【每日科技快讯】11月26日 周四
+今日 AI 与开源要闻 13 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 1 个 PR、提交 4 次
-2. AtomGit-Mobile4Android 合并 1 个 PR
-3. .github 提交 3 次
+1. 开放原子开源俱乐部合并 12 个 PR、提交 11 次
+2. homebrew-tap 合并 9 个 PR
+3. OpenAtomClub 合并 2 个 PR
 
 【国内动态】
-4. 智谱发布全新架构GLM-5.4
-→ 智谱采用Loop Transformer架构发布GLM-5.4，非高峰时段最高可达200 Token/s。
+4. 可灵4.0全量上线 支持最长30秒视频
+→ 快手可灵4.0全量上线，支持单次原生生成最长30秒视频，重点补强大幅度动作和复杂运镜。
 
 【开源项目】
-5. vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…
-→ vLLM发布0.32.0版本，支持百度ERNIE 5.5 Flash Preview，提供插件部署和端到端推理加速。
-6. LangChain推出Agent Lake
-→ LangChain推出Agent Lake，用于存储和筛选智能体产生的轨迹，将其转化为修复方案和微调模型。
-7. agy-fast：Google Antigravity MCP 加速插件
-→ Google Antigravity 的非侵入式 MCP 加速插件可减少 LLM 轮次、代币配额和上传流量。
-8. pierridotite/mobile-agent-testers
-→ 在 GitHub 免费运行器上，20 个 Claude Code 智能体并行在 iOS 模拟器和 Android 模拟器中测试手机应用。
-9. Anthropic发布Python SDK v2.14.0
-→ Anthropic发布Python SDK v2.14.0，新增Google数据控制、合规审查支持，修复代理配置问题。
+5. PenGPT：基于文本生成手写和素描的生成式 Transformer
+→ PenGPT 是一个小型 Transformer 模型，专注于从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。
+6. Hy4 flash模型开源
+→ 腾讯混元开源Hy4 flash的GGUF量化权重，官方实测在48GB显存设备上生成速度最高到每秒89个token。
+7. Mastra：现代 TypeScript AI 应用框架
+→ Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。
+8. EdgeEver：AI 原生笔记应用
+→ EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。
+9. KuroCat：3D桌面打字小黑猫与AI编程伴侣
+→ KuroCat是一个开源的3D/2D桌面打字小黑猫与AI编程伴侣，支持多种AI模型和平台。
 
 【学术前沿】
-10. WeMM-Ecom：微信电商多模态内容理解
-→ WeMM-Ecom 是一套多模态大语言模型，通过两阶段预训练和混合思维后训练提升电商能力。
-11. OpenAI提出GPT-6蛋白质设计新方法
-→ OpenAI利用推理和代码设计蛋白质结构和序列，实验室测试显示在五个目标上具有结合证据。
-12. Google提出DeepCrossAttention架构
-→ Google提出DeepCrossAttention架构，通过可学习权重和深度交叉注意力动态结合层输出，防止信息稀释。
-13. Nemotron-Labs-VisualCreation：像素即代码的智能体视觉创作
-→ Nemotron-Labs-VisualCreation 框架通过像素即代码连接视觉创作能力，使用离散视觉标记和显式程序表示图像。
-
-【产业纵横】
-14. Tidal 将禁止完全 AI 生成的音乐
-→ Tidal 将于 12 月 9 日起移除完全 AI 生成的曲目，成为首个全面禁止 AI 音乐的流媒体平台。
+10. Lazy Agents：利用可验证信念强化学习
+→ 论文提出了可验证信念强化学习方法，利用模拟器计算后验概率指导智能体行动，提升长任务性能。
+11. AI能解决以前顶级物理学家一天的问题
+→ 前沿AI已经能解决以前顶级物理学家需要一整天才能解决的问题。
+12. Claude和ChatGPT挑战AlphaFold
+→ Anthropic最新版Claude在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI宣布其大模型成功设计出新蛋白质。
+13. NightWatch：计算机使用代理主动感知框架
+→ 论文提出了NightWatch框架，通过轻量级系统模型实时监控界面状态，减少感知滞后并提高任务成功率。
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-25-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-26-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -72,47 +68,43 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 1 个 PR、提交 4 次**<br>11月24日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 4 个、合并 1 个，提交 4 次，新增代码 1515 行、删除 131 行，3 位贡献者参与，其中 1 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 12 个 PR、提交 11 次**<br>11月25日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 4 个有人参与开发，共新增 PR 4 个、合并 12 个，提交 11 次，新增代码 53 行、删除 62 行，4 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月24日，Agent SIG的 AtomGit-Mobile4Android 仓库新增 PR 1 个、合并 1 个、提交 1 次、新增代码 1500 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+**homebrew-tap 合并 9 个 PR**<br>11月25日，Agent SIG的 homebrew-tap 仓库新增 PR 2 个、合并 9 个、提交 3 次、新增代码 1 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/homebrew-tap)）</sub>
 
-**.github 提交 3 次**<br>11月24日，数字基础设施维护 SIG的 .github 仓库新增 PR 1 个、提交 3 次、新增代码 15 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/.github)）</sub>
+**OpenAtomClub 合并 2 个 PR**<br>11月25日，数字基础设施维护 SIG的 OpenAtomClub 仓库新增 PR 1 个、合并 2 个、提交 7 次、新增代码 52 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/OpenAtomClub)）</sub>
 
 #### 国内动态
 
-**智谱发布全新架构GLM-5.4**<br>11月24日，智谱采用Loop Transformer架构发布GLM-5.4，非高峰时段最高可达200 Token/s。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512423.html)）</sub>
+**可灵4.0全量上线 支持最长30秒视频**<br>11月26日，快手可灵4.0全量上线，支持单次原生生成最长30秒视频，重点补强大幅度动作和复杂运镜。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/26/other/admin/120096/%e7%88%86%e8%82%9d%e5%ae%9e%e6%b5%8b%e5%9b%9b%e5%a4%a7%e5%9b%bd%e4%ba%a7ai%e7%a5%9e%e5%99%a8%ef%bc%817%e5%a4%a7%e5%8f%98%e6%80%81%e8%80%83%e9%a2%98%ef%bc%8c%e9%80%bc%e5%87%ba%e6%9c%80%e9%87%8e/)）</sub>
 
 #### 开源项目
 
-**vLLM Day-0 Support for ERNIE 5.5 Flash Preview: Plugin Deployment and E2E Infer…**<br>11月24日，vLLM发布0.32.0版本，支持百度ERNIE 5.5 Flash Preview，提供插件部署和端到端推理加速。<br><sub>（来源：[vLLM 博客](https://vllm.ai/blog/2026-11-24-ernie-5-5-flash-preview)）</sub>
+**PenGPT：基于文本生成手写和素描的生成式 Transformer**<br>11月25日，PenGPT 是一个小型 Transformer 模型，专注于从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。<br><sub>（来源：[Hacker News](https://greydanus.github.io/2026/11/12/pengpt/)）</sub>
 
-**LangChain推出Agent Lake**<br>11月25日，LangChain推出Agent Lake，用于存储和筛选智能体产生的轨迹，将其转化为修复方案和微调模型。<br><sub>（来源：[LangChain 博客](https://www.langchain.com/blog/the-agent-lake)）</sub>
+**Hy4 flash模型开源**<br>11月25日，腾讯混元开源Hy4 flash的GGUF量化权重，官方实测在48GB显存设备上生成速度最高到每秒89个token。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503813)）</sub>
 
-**agy-fast：Google Antigravity MCP 加速插件**<br>11月25日消息，Google Antigravity 的非侵入式 MCP 加速插件可减少 LLM 轮次、代币配额和上传流量。<br><sub>（来源：[GitHub 新项目](https://github.com/INK-Q/agy-fast)）</sub>
+**Mastra：现代 TypeScript AI 应用框架**<br>11月26日消息，Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。<br><sub>（来源：[GitHub Trending](https://github.com/mastra-ai/mastra)）</sub>
 
-**pierridotite/mobile-agent-testers**<br>11月25日消息，在 GitHub 免费运行器上，20 个 Claude Code 智能体并行在 iOS 模拟器和 Android 模拟器中测试手机应用。<br><sub>（来源：[GitHub 新项目](https://github.com/pierridotite/mobile-agent-testers)）</sub>
+**EdgeEver：AI 原生笔记应用**<br>11月26日消息，EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。<br><sub>（来源：[GitHub Trending](https://github.com/tianma-if/edgeever)）</sub>
 
-**Anthropic发布Python SDK v2.14.0**<br>11月25日，Anthropic发布Python SDK v2.14.0，新增Google数据控制、合规审查支持，修复代理配置问题。<br><sub>（来源：[GitHub 版本发布](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.14.0)）</sub>
+**KuroCat：3D桌面打字小黑猫与AI编程伴侣**<br>11月26日消息，KuroCat是一个开源的3D/2D桌面打字小黑猫与AI编程伴侣，支持多种AI模型和平台。<br><sub>（来源：[GitHub 新项目](https://github.com/qianyiai/kurocat)）</sub>
 
 #### 学术前沿
 
-**WeMM-Ecom：微信电商多模态内容理解**<br>11月23日，WeMM-Ecom 是一套多模态大语言模型，通过两阶段预训练和混合思维后训练提升电商能力。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.30662)）</sub>
+**Lazy Agents：利用可验证信念强化学习**<br>11月25日，论文提出了可验证信念强化学习方法，利用模拟器计算后验概率指导智能体行动，提升长任务性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.32884)）</sub>
 
-**OpenAI提出GPT-6蛋白质设计新方法**<br>11月24日，OpenAI利用推理和代码设计蛋白质结构和序列，实验室测试显示在五个目标上具有结合证据。<br><sub>（来源：[OpenAI](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)）</sub>
+**AI能解决以前顶级物理学家一天的问题**<br>11月25日，前沿AI已经能解决以前顶级物理学家需要一整天才能解决的问题。<br><sub>（来源：[Ars Technica](https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/)）</sub>
 
-**Google提出DeepCrossAttention架构**<br>11月24日，Google提出DeepCrossAttention架构，通过可学习权重和深度交叉注意力动态结合层输出，防止信息稀释。<br><sub>（来源：[Google Research](https://research.google/blog/supercharging-transformer-residual-connections/)）</sub>
+**Claude和ChatGPT挑战AlphaFold**<br>11月25日，Anthropic最新版Claude在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI宣布其大模型成功设计出新蛋白质。<br><sub>（来源：[Solidot](https://www.solidot.org/story?sid=85992)）</sub>
 
-**Nemotron-Labs-VisualCreation：像素即代码的智能体视觉创作**<br>11月24日，Nemotron-Labs-VisualCreation 框架通过像素即代码连接视觉创作能力，使用离散视觉标记和显式程序表示图像。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.31358)）</sub>
-
-#### 产业纵横
-
-**Tidal 将禁止完全 AI 生成的音乐**<br>11月25日，Tidal 将于 12 月 9 日起移除完全 AI 生成的曲目，成为首个全面禁止 AI 音乐的流媒体平台。<br><sub>（来源：[Hacker News](https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/)）</sub>
+**NightWatch：计算机使用代理主动感知框架**<br>11月26日消息，论文提出了NightWatch框架，通过轻量级系统模型实时监控界面状态，减少感知滞后并提高任务成功率。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.28947)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月24日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-25 17:51（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月25日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-26 10:12（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 
