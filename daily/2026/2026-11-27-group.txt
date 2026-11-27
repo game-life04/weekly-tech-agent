@@ -1,5 +1,5 @@
 【每日科技快讯】11月27日 周五
-今日 AI 与开源要闻 19 条，3 分钟速读
+今日 AI 与开源要闻 16 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 9 个 PR、提交 6 次
@@ -7,45 +7,37 @@
 3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-4. 国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案
-→ 作者丨 高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 Mi…
-5. AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用
-→ 还得是科班尖子生。
-6. 20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩
-→ Quickwit查询总耗时降31%，最高降87%。
-7. 前Codex负责人：在OpenAI，dots正成为干活的主要方式
-→ 11月24日凌晨，OpenAI的Tibo Sottiaux（原Codex负责人）在X上扔了颗雷。
-
-【海外动态】
-8. Anthropic CEO长文刷屏！超级智能时代的桌面APP来了
-→ 今天凌晨2点22分，Anthropic CEO Dario Amodei在X上发了一篇长帖。
-9. Former OpenAI researcher says the Riemann proof matters less than the fact that…
-→ Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far b…
+4. MiniMax MIM模型破译密码学悬案
+→ MiniMax内部模型MIM攻破多个NIST密码候选方案，破译效率提升43400倍。
+5. VAST发布Tripo H3.5 Preview
+→ VAST发布Tripo H3.5 Preview，在复杂结构还原和几何生成上显著优于竞品。
+6. TabbyML用AI Agents优化Quickwit
+→ TabbyML让20个AI Agents组成团队优化开源搜索引擎Quickwit，热查询评分降至304毫秒。
 
 【开源项目】
-10. ggml-org/llama.cpp v1.1.0
-→ 次版本更新。
-11. xorbitsai/inference v4.3.0
-→ 次版本更新。
-12. alesha-pro/llm.asm
+7. llama.cpp 发布 1.1.0 版本
+→ llama.cpp v1.1.0 新增 Inkling 2 等模型，支持 TTS 音频模型，并重构了 llama-server 的调度。
+8. xorbitsai/inference 发布 4.3.0 版本
+→ xorbitsai/inference v4.3.0 支持可选的聊天优先级提示，并允许在张量并行和多模态 vLLM 副本间共享 Xavier 快照。
+9. alesha-pro/llm.asm
 → 该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。
-13. nexu-io/opengame
+10. nexu-io/opengame
 → 该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。
-14. bendlang/bend：通过证明阻止 AI 错误的快速语言
+11. bendlang/bend：通过证明阻止 AI 错误的快速语言
 → Bend 2 是一种通过证明来阻止 AI 错误的快速语言。
 
 【学术前沿】
-15. Google 发布 Cogentic 研究论文
+12. Google 发布 Cogentic 研究论文
 → Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。
-16. Sage-Med：医疗多模态智能的扩展
+13. Sage-Med：医疗多模态智能的扩展
 → 本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。
-17. Any-Rate：基于编码位平面的半比特多精度量化
+14. Any-Rate：基于编码位平面的半比特多精度量化
 → 本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。
-18. Anthropic 发布 GRH Lean 验证精简版
+15. Anthropic 发布 GRH Lean 验证精简版
 → Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。
 
 【产业纵横】
-19. Google 要求 AI 代理使用其 MCP 服务器
+16. Google 要求 AI 代理使用其 MCP 服务器
 → Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。
 
 【活动预告】

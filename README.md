@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.27（周五）
 
-> 今日 AI 与开源要闻 **19** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-27-kuaixun.md) · [公众号排版版](daily/2026/2026-11-27-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-27.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,7 +22,7 @@
 
 ```text
 【每日科技快讯】11月27日 周五
-今日 AI 与开源要闻 19 条，3 分钟速读
+今日 AI 与开源要闻 16 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 9 个 PR、提交 6 次
@@ -30,45 +30,37 @@
 3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-4. 国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案
-→ 作者丨 高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 Mi…
-5. AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用
-→ 还得是科班尖子生。
-6. 20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩
-→ Quickwit查询总耗时降31%，最高降87%。
-7. 前Codex负责人：在OpenAI，dots正成为干活的主要方式
-→ 11月24日凌晨，OpenAI的Tibo Sottiaux（原Codex负责人）在X上扔了颗雷。
-
-【海外动态】
-8. Anthropic CEO长文刷屏！超级智能时代的桌面APP来了
-→ 今天凌晨2点22分，Anthropic CEO Dario Amodei在X上发了一篇长帖。
-9. Former OpenAI researcher says the Riemann proof matters less than the fact that…
-→ Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far b…
+4. MiniMax MIM模型破译密码学悬案
+→ MiniMax内部模型MIM攻破多个NIST密码候选方案，破译效率提升43400倍。
+5. VAST发布Tripo H3.5 Preview
+→ VAST发布Tripo H3.5 Preview，在复杂结构还原和几何生成上显著优于竞品。
+6. TabbyML用AI Agents优化Quickwit
+→ TabbyML让20个AI Agents组成团队优化开源搜索引擎Quickwit，热查询评分降至304毫秒。
 
 【开源项目】
-10. ggml-org/llama.cpp v1.1.0
-→ 次版本更新。
-11. xorbitsai/inference v4.3.0
-→ 次版本更新。
-12. alesha-pro/llm.asm
+7. llama.cpp 发布 1.1.0 版本
+→ llama.cpp v1.1.0 新增 Inkling 2 等模型，支持 TTS 音频模型，并重构了 llama-server 的调度。
+8. xorbitsai/inference 发布 4.3.0 版本
+→ xorbitsai/inference v4.3.0 支持可选的聊天优先级提示，并允许在张量并行和多模态 vLLM 副本间共享 Xavier 快照。
+9. alesha-pro/llm.asm
 → 该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。
-13. nexu-io/opengame
+10. nexu-io/opengame
 → 该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。
-14. bendlang/bend：通过证明阻止 AI 错误的快速语言
+11. bendlang/bend：通过证明阻止 AI 错误的快速语言
 → Bend 2 是一种通过证明来阻止 AI 错误的快速语言。
 
 【学术前沿】
-15. Google 发布 Cogentic 研究论文
+12. Google 发布 Cogentic 研究论文
 → Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。
-16. Sage-Med：医疗多模态智能的扩展
+13. Sage-Med：医疗多模态智能的扩展
 → 本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。
-17. Any-Rate：基于编码位平面的半比特多精度量化
+14. Any-Rate：基于编码位平面的半比特多精度量化
 → 本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。
-18. Anthropic 发布 GRH Lean 验证精简版
+15. Anthropic 发布 GRH Lean 验证精简版
 → Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。
 
 【产业纵横】
-19. Google 要求 AI 代理使用其 MCP 服务器
+16. Google 要求 AI 代理使用其 MCP 服务器
 → Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。
 
 【活动预告】
@@ -92,25 +84,17 @@
 
 #### 国内动态
 
-**国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案**<br>11月26日，作者丨 高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 Mi…<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html)）</sub>
+**MiniMax MIM模型破译密码学悬案**<br>11月26日，MiniMax内部模型MIM攻破多个NIST密码候选方案，破译效率提升43400倍。<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html)）</sub>
 
-**AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用**<br>11月26日，还得是科班尖子生。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512981.html)）</sub>
+**VAST发布Tripo H3.5 Preview**<br>11月26日，VAST发布Tripo H3.5 Preview，在复杂结构还原和几何生成上显著优于竞品。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512981.html)）</sub>
 
-**20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩**<br>11月27日，Quickwit查询总耗时降31%，最高降87%。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/513053.html)）</sub>
-
-**前Codex负责人：在OpenAI，dots正成为干活的主要方式**<br>11月27日，11月24日凌晨，OpenAI的Tibo Sottiaux（原Codex负责人）在X上扔了颗雷。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/27/other/admin/125509/%e5%89%8dcodex%e8%b4%9f%e8%b4%a3%e4%ba%ba%ef%bc%9a%e5%9c%a8openai%ef%bc%8cdots%e6%ad%a3%e6%88%90%e4%b8%ba%e5%b9%b2%e6%b4%bb%e7%9a%84%e4%b8%bb%e8%a6%81%e6%96%b9%e5%bc%8f/)）</sub>
-
-#### 海外动态
-
-**Anthropic CEO长文刷屏！超级智能时代的桌面APP来了**<br>11月27日，今天凌晨2点22分，Anthropic CEO Dario Amodei在X上发了一篇长帖。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/27/other/admin/125526/anthropic-ceo%e9%95%bf%e6%96%87%e5%88%b7%e5%b1%8f%ef%bc%81%e8%b6%85%e7%ba%a7%e6%99%ba%e8%83%bd%e6%97%b6%e4%bb%a3%e7%9a%84%e6%a1%8c%e9%9d%a2app%e6%9d%a5%e4%ba%86/)）</sub>
-
-**Former OpenAI researcher says the Riemann proof matters less than the fact that…**<br>11月27日，Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far b…<br><sub>（来源：[The Decoder](https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/)）</sub>
+**TabbyML用AI Agents优化Quickwit**<br>11月27日，TabbyML让20个AI Agents组成团队优化开源搜索引擎Quickwit，热查询评分降至304毫秒。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/513053.html)）</sub>
 
 #### 开源项目
 
-**ggml-org/llama.cpp v1.1.0**<br>11月26日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0)）</sub>
+**llama.cpp 发布 1.1.0 版本**<br>11月26日，llama.cpp v1.1.0 新增 Inkling 2 等模型，支持 TTS 音频模型，并重构了 llama-server 的调度。<br><sub>（来源：[GitHub 版本发布](https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0)）</sub>
 
-**xorbitsai/inference v4.3.0**<br>11月26日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/xorbitsai/inference/releases/tag/v4.3.0)）</sub>
+**xorbitsai/inference 发布 4.3.0 版本**<br>11月26日，xorbitsai/inference v4.3.0 支持可选的聊天优先级提示，并允许在张量并行和多模态 vLLM 副本间共享 Xavier 快照。<br><sub>（来源：[GitHub 版本发布](https://github.com/xorbitsai/inference/releases/tag/v4.3.0)）</sub>
 
 **alesha-pro/llm.asm**<br>11月27日消息，该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。<br><sub>（来源：[GitHub 新项目](https://github.com/alesha-pro/llm.asm)）</sub>
 
@@ -136,7 +120,7 @@
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月26日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-27 10:10（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月26日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-27 11:51（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 
