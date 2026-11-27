@@ -12,53 +12,69 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.26（周四）
+## 每日快讯 · 11.27（周五）
 
-> 今日 AI 与开源要闻 **13** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-26-kuaixun.md) · [公众号排版版](daily/2026/2026-11-26-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-26.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **19** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-27-kuaixun.md) · [公众号排版版](daily/2026/2026-11-27-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-27.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月26日 周四
-今日 AI 与开源要闻 13 条，3 分钟速读
+【每日科技快讯】11月27日 周五
+今日 AI 与开源要闻 19 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 12 个 PR、提交 11 次
-2. homebrew-tap 合并 9 个 PR
-3. OpenAtomClub 合并 2 个 PR
+1. 开放原子开源俱乐部合并 9 个 PR、提交 6 次
+2. TranslateProject 合并 6 个 PR
+3. AtomGit-Mobile4Android 合并 1 个 PR
 
 【国内动态】
-4. 可灵4.0全量上线 支持最长30秒视频
-→ 快手可灵4.0全量上线，支持单次原生生成最长30秒视频，重点补强大幅度动作和复杂运镜。
+4. 国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案
+→ 作者丨 高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 Mi…
+5. AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用
+→ 还得是科班尖子生。
+6. 20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩
+→ Quickwit查询总耗时降31%，最高降87%。
+7. 前Codex负责人：在OpenAI，dots正成为干活的主要方式
+→ 11月24日凌晨，OpenAI的Tibo Sottiaux（原Codex负责人）在X上扔了颗雷。
+
+【海外动态】
+8. Anthropic CEO长文刷屏！超级智能时代的桌面APP来了
+→ 今天凌晨2点22分，Anthropic CEO Dario Amodei在X上发了一篇长帖。
+9. Former OpenAI researcher says the Riemann proof matters less than the fact that…
+→ Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far b…
 
 【开源项目】
-5. PenGPT：基于文本生成手写和素描的生成式 Transformer
-→ PenGPT 是一个小型 Transformer 模型，专注于从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。
-6. Hy4 flash模型开源
-→ 腾讯混元开源Hy4 flash的GGUF量化权重，官方实测在48GB显存设备上生成速度最高到每秒89个token。
-7. Mastra：现代 TypeScript AI 应用框架
-→ Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。
-8. EdgeEver：AI 原生笔记应用
-→ EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。
-9. KuroCat：3D桌面打字小黑猫与AI编程伴侣
-→ KuroCat是一个开源的3D/2D桌面打字小黑猫与AI编程伴侣，支持多种AI模型和平台。
+10. ggml-org/llama.cpp v1.1.0
+→ 次版本更新。
+11. xorbitsai/inference v4.3.0
+→ 次版本更新。
+12. alesha-pro/llm.asm
+→ 该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。
+13. nexu-io/opengame
+→ 该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。
+14. bendlang/bend：通过证明阻止 AI 错误的快速语言
+→ Bend 2 是一种通过证明来阻止 AI 错误的快速语言。
 
 【学术前沿】
-10. Lazy Agents：利用可验证信念强化学习
-→ 论文提出了可验证信念强化学习方法，利用模拟器计算后验概率指导智能体行动，提升长任务性能。
-11. AI能解决以前顶级物理学家一天的问题
-→ 前沿AI已经能解决以前顶级物理学家需要一整天才能解决的问题。
-12. Claude和ChatGPT挑战AlphaFold
-→ Anthropic最新版Claude在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI宣布其大模型成功设计出新蛋白质。
-13. NightWatch：计算机使用代理主动感知框架
-→ 论文提出了NightWatch框架，通过轻量级系统模型实时监控界面状态，减少感知滞后并提高任务成功率。
+15. Google 发布 Cogentic 研究论文
+→ Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。
+16. Sage-Med：医疗多模态智能的扩展
+→ 本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。
+17. Any-Rate：基于编码位平面的半比特多精度量化
+→ 本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。
+18. Anthropic 发布 GRH Lean 验证精简版
+→ Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。
+
+【产业纵横】
+19. Google 要求 AI 代理使用其 MCP 服务器
+→ Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-26-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-27-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -68,43 +84,59 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 12 个 PR、提交 11 次**<br>11月25日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 4 个有人参与开发，共新增 PR 4 个、合并 12 个，提交 11 次，新增代码 53 行、删除 62 行，4 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 9 个 PR、提交 6 次**<br>11月26日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 3 个、合并 9 个，提交 6 次，新增代码 4839 行、删除 246 行，5 位贡献者参与，其中 1 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**homebrew-tap 合并 9 个 PR**<br>11月25日，Agent SIG的 homebrew-tap 仓库新增 PR 2 个、合并 9 个、提交 3 次、新增代码 1 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/homebrew-tap)）</sub>
+**TranslateProject 合并 6 个 PR**<br>11月26日，HCTT SIG的 TranslateProject 仓库新增 PR 2 个、合并 6 个、提交 2 次、新增代码 135 行，3 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/TranslateProject)）</sub>
 
-**OpenAtomClub 合并 2 个 PR**<br>11月25日，数字基础设施维护 SIG的 OpenAtomClub 仓库新增 PR 1 个、合并 2 个、提交 7 次、新增代码 52 行，2 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/OpenAtomClub)）</sub>
+**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月26日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 4613 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
 
 #### 国内动态
 
-**可灵4.0全量上线 支持最长30秒视频**<br>11月26日，快手可灵4.0全量上线，支持单次原生生成最长30秒视频，重点补强大幅度动作和复杂运镜。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/26/other/admin/120096/%e7%88%86%e8%82%9d%e5%ae%9e%e6%b5%8b%e5%9b%9b%e5%a4%a7%e5%9b%bd%e4%ba%a7ai%e7%a5%9e%e5%99%a8%ef%bc%817%e5%a4%a7%e5%8f%98%e6%80%81%e8%80%83%e9%a2%98%ef%bc%8c%e9%80%bc%e5%87%ba%e6%9c%80%e9%87%8e/)）</sub>
+**国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案**<br>11月26日，作者丨 高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 Mi…<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html)）</sub>
+
+**AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用**<br>11月26日，还得是科班尖子生。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512981.html)）</sub>
+
+**20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩**<br>11月27日，Quickwit查询总耗时降31%，最高降87%。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/513053.html)）</sub>
+
+**前Codex负责人：在OpenAI，dots正成为干活的主要方式**<br>11月27日，11月24日凌晨，OpenAI的Tibo Sottiaux（原Codex负责人）在X上扔了颗雷。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/27/other/admin/125509/%e5%89%8dcodex%e8%b4%9f%e8%b4%a3%e4%ba%ba%ef%bc%9a%e5%9c%a8openai%ef%bc%8cdots%e6%ad%a3%e6%88%90%e4%b8%ba%e5%b9%b2%e6%b4%bb%e7%9a%84%e4%b8%bb%e8%a6%81%e6%96%b9%e5%bc%8f/)）</sub>
+
+#### 海外动态
+
+**Anthropic CEO长文刷屏！超级智能时代的桌面APP来了**<br>11月27日，今天凌晨2点22分，Anthropic CEO Dario Amodei在X上发了一篇长帖。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/27/other/admin/125526/anthropic-ceo%e9%95%bf%e6%96%87%e5%88%b7%e5%b1%8f%ef%bc%81%e8%b6%85%e7%ba%a7%e6%99%ba%e8%83%bd%e6%97%b6%e4%bb%a3%e7%9a%84%e6%a1%8c%e9%9d%a2app%e6%9d%a5%e4%ba%86/)）</sub>
+
+**Former OpenAI researcher says the Riemann proof matters less than the fact that…**<br>11月27日，Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far b…<br><sub>（来源：[The Decoder](https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/)）</sub>
 
 #### 开源项目
 
-**PenGPT：基于文本生成手写和素描的生成式 Transformer**<br>11月25日，PenGPT 是一个小型 Transformer 模型，专注于从文本生成手写和素描，项目投入比例是 80% 数据、15% 速度和 5% 架构。<br><sub>（来源：[Hacker News](https://greydanus.github.io/2026/11/12/pengpt/)）</sub>
+**ggml-org/llama.cpp v1.1.0**<br>11月26日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0)）</sub>
 
-**Hy4 flash模型开源**<br>11月25日，腾讯混元开源Hy4 flash的GGUF量化权重，官方实测在48GB显存设备上生成速度最高到每秒89个token。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503813)）</sub>
+**xorbitsai/inference v4.3.0**<br>11月26日，次版本更新。<br><sub>（来源：[GitHub 版本发布](https://github.com/xorbitsai/inference/releases/tag/v4.3.0)）</sub>
 
-**Mastra：现代 TypeScript AI 应用框架**<br>11月26日消息，Mastra 是一个现代的 TypeScript 框架，用于构建 AI 驱动的应用程序和智能体。<br><sub>（来源：[GitHub Trending](https://github.com/mastra-ai/mastra)）</sub>
+**alesha-pro/llm.asm**<br>11月27日消息，该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。<br><sub>（来源：[GitHub 新项目](https://github.com/alesha-pro/llm.asm)）</sub>
 
-**EdgeEver：AI 原生笔记应用**<br>11月26日消息，EdgeEver 是一个 AI 原生笔记应用，支持 Evernote/Obsidian 替代品，提供即时多平台同步和 MCP 支持。<br><sub>（来源：[GitHub Trending](https://github.com/tianma-if/edgeever)）</sub>
+**nexu-io/opengame**<br>11月27日消息，该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。<br><sub>（来源：[GitHub 新项目](https://github.com/nexu-io/opengame)）</sub>
 
-**KuroCat：3D桌面打字小黑猫与AI编程伴侣**<br>11月26日消息，KuroCat是一个开源的3D/2D桌面打字小黑猫与AI编程伴侣，支持多种AI模型和平台。<br><sub>（来源：[GitHub 新项目](https://github.com/qianyiai/kurocat)）</sub>
+**bendlang/bend：通过证明阻止 AI 错误的快速语言**<br>11月27日消息，Bend 2 是一种通过证明来阻止 AI 错误的快速语言。<br><sub>（来源：[GitHub Trending](https://github.com/bendlang/bend)）</sub>
 
 #### 学术前沿
 
-**Lazy Agents：利用可验证信念强化学习**<br>11月25日，论文提出了可验证信念强化学习方法，利用模拟器计算后验概率指导智能体行动，提升长任务性能。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.32884)）</sub>
+**Google 发布 Cogentic 研究论文**<br>11月25日，Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。<br><sub>（来源：[Hacker News](https://github.com/google-research/google-research/tree/master/cogentic_research_papers)）</sub>
 
-**AI能解决以前顶级物理学家一天的问题**<br>11月25日，前沿AI已经能解决以前顶级物理学家需要一整天才能解决的问题。<br><sub>（来源：[Ars Technica](https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/)）</sub>
+**Sage-Med：医疗多模态智能的扩展**<br>11月25日，本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.34575)）</sub>
 
-**Claude和ChatGPT挑战AlphaFold**<br>11月25日，Anthropic最新版Claude在鲜为人知细菌蛋白质序列预测上表现优于其它大模型，OpenAI宣布其大模型成功设计出新蛋白质。<br><sub>（来源：[Solidot](https://www.solidot.org/story?sid=85992)）</sub>
+**Any-Rate：基于编码位平面的半比特多精度量化**<br>11月25日，本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.34402)）</sub>
 
-**NightWatch：计算机使用代理主动感知框架**<br>11月26日消息，论文提出了NightWatch框架，通过轻量级系统模型实时监控界面状态，减少感知滞后并提高任务成功率。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.28947)）</sub>
+**Anthropic 发布 GRH Lean 验证精简版**<br>11月26日，Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。<br><sub>（来源：[Hacker News](https://github.com/lsernau/grh-lean)）</sub>
+
+#### 产业纵横
+
+**Google 要求 AI 代理使用其 MCP 服务器**<br>11月26日，Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。<br><sub>（来源：[Hacker News](https://techstackups.com/articles/google-workspace-ai-agents-mcp/)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月25日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-26 10:12（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月26日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-27 10:10（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 

@@ -1,0 +1,1428 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T02:10:02Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 423,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 55,
+   "error": "",
+   "seconds": 2.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.6
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.7
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.6
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 19.1
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.3
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 3.3
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 52,
+   "error": "",
+   "seconds": 10.7
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 329,
+   "error": "",
+   "seconds": 24.2
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 18.9
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.7
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 25,
+   "error": "",
+   "seconds": 19.8
+  }
+ ],
+ "items": [
+  {
+   "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-25T13:33:07Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 503.0,
+    "comments": 370.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50642086",
+    "needs_review": true,
+    "llm_score": 9.0,
+    "excerpt_tried": true,
+    "evidence": "Google Research. Contribute to google-research/google-research development by creating an account on GitHub. This directory holds research papers that were produced by Cogentic . Unless otherwise noted in individual subdirectories, the contents in this directory are released under the Apache 2.0 license . See individual subdirectories and the top-level google-research repository for details. Disclaimer: This is not an official Google product.",
+    "llm_done": true
+   },
+   "id": "06e4afb07db2",
+   "score": 8.59,
+   "title_zh": "Google 发布 Cogentic 研究论文",
+   "summary_zh": "Google Research 发布了 Cogentic 研究论文，包含整数分解、离散对数等内容。",
+   "tags": [
+    "模型发布",
+    "论文",
+    "Google"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://github.com/lsernau/grh-lean",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-25T21:48:10Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 548.0,
+    "comments": 347.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50648050",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "A short Lean 4 proof of the Generalized Riemann Hypothesis - lsernau/grh-lean Research artifact. Not maintained and not accepting contributions. A Lean 4 proof of the Riemann Hypothesis and of the Generalized Riemann Hypothesis for Dirichlet L-functions, built on Mathlib and using only the axioms propext , Classical.choice and Quot.sound . The proof is based on Levent Alpöge's, with Claude ( https://alpo.ge/remark.pdf ). This repository is a shorter version, produced in collaboration with my colleagues at Anthropic, and Claude. Each folder is its own Lake project with its own README. Needs Lean v4.35.0 and Mathlib at commit 56a00585. In either folder: A build takes one to two hours on 12 cores with 24 GB of memory (about 85 minutes more if the Mathlib cache is missing). The proof has pass…",
+    "llm_done": true
+   },
+   "id": "e1359e286892",
+   "score": 8.05,
+   "title_zh": "Anthropic 发布 GRH Lean 验证精简版",
+   "summary_zh": "Anthropic 与 Claude 合作，发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。",
+   "tags": [
+    "论文",
+    "证明",
+    "Anthropic"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic CEO长文刷屏！超级智能时代的桌面APP来了",
+   "url": "https://aiera.com.cn/2026/11/27/other/admin/125526/anthropic-ceo%e9%95%bf%e6%96%87%e5%88%b7%e5%b1%8f%ef%bc%81%e8%b6%85%e7%ba%a7%e6%99%ba%e8%83%bd%e6%97%b6%e4%bb%a3%e7%9a%84%e6%a1%8c%e9%9d%a2app%e6%9d%a5%e4%ba%86/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-27T00:12:20Z",
+   "summary": "今天凌晨2点22分，Anthropic CEO Dario Amodei在X上发了一篇长帖。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0,
+    "excerpt_tried": true
+   },
+   "id": "1dbe3060c3e5",
+   "score": 7.94,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI may be in cost control mode",
+   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-26T07:33:12Z",
+   "summary": "",
+   "heat": 0.905,
+   "weight": 0.6,
+   "metrics": {
+    "points": 277.0,
+    "comments": 278.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50652527",
+    "excerpt_tried": true,
+    "evidence": "OpenAI’s recent release of Astra 6.2 and Sol 6.2 was widely panned. What happened? Based on our data, it looks like they’ve been tuned for cost savings. Specifically output tokens per task and reasoning tokens per task have dropped. Here is a chart of high-level cost change from the GPT-6 to GPT 6.2: The X axis in the above chart is the ratio of spending of the GPT model compared to opponents in our battle system for real work. The Y axis on the above chart is Elo from our leaderboard. The moves in the chart are significant, here’s the same chart with confidence intervals: Compared to opponents, Astra and Sol seem to be reasoning a lot less. Here is a chart of how much models reason compared to opponents in the same battle. Above the line means more reasoning and below means less. You can…",
+    "llm_done": true
+   },
+   "id": "d6e3540513d1",
+   "score": 7.85,
+   "title_zh": "OpenAI 可能进入成本控制模式",
+   "summary_zh": "OpenAI 的 Astra 6.2 和 Sol 6.2 发布后评价不佳，数据显示其输出和推理 token 数量下降。",
+   "tags": [
+    "行业动态",
+    "OpenAI",
+    "成本控制"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-26T09:44:23Z",
+   "summary": "",
+   "heat": 0.886,
+   "weight": 0.6,
+   "metrics": {
+    "points": 245.0,
+    "comments": 208.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50653477",
+    "excerpt_tried": true,
+    "evidence": "From February 2027, Google's terms require AI agents to reach Gmail, Drive and the rest of Workspace through Google's own MCP servers. What the rule says, what the servers can and can't do, and what to change before the deadline. On 24 November, Google made its eight Workspace MCP servers generally available and published a new clause in its API terms. From 1 February 2027, any tool that \"is or is driven by an AI Agent\" must reach Gmail, Drive, Calendar and the rest of Workspace through those servers. Read the Gmail server's tool list and you'll find that it can search your mail, read threads, create a draft and file things under labels. It can't send a message, reply, forward, or change a draft after creating it. Those tools exist, but Google's quota page says they \"require partner acces…",
+    "llm_done": true
+   },
+   "id": "dadebd14f24a",
+   "score": 7.81,
+   "title_zh": "Google 要求 AI 代理使用其 MCP 服务器",
+   "summary_zh": "Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。",
+   "tags": [
+    "行业动态",
+    "Google",
+    "AI 代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案",
+   "url": "https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html",
+   "source": "rss",
+   "section": "news",
+   "via": "雷峰网",
+   "published": "2026-11-26T02:23:00Z",
+   "summary": "作者丨 高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 MiniMax 官方展示， 其最新内部模型 MIM， 接连攻破了多个 NIST 密码 候选方案和顶会最新发表的前沿成果 。 在 TII McEliece 中直接恢复了 94 个私钥，其中 55 个为全球首次攻克。在最受关注的 破译 效率上，速度直接提升了 43400 倍。 MiniMax 的密码分析成果不仅引发了 Anthropic 团队成员的转发与关注，更被哥伦比亚大学终身教授、国际顶尖量子密码学专家 Henry Yuen 作为前沿案例引用，写入了最新学术演讲中。 图注：哥伦比亚大学教授 Henry Yuen 在最新学术演讲，将 MiniMax 的 AI 密码学分析成果作为前沿案例引用，视频直达：https://www.youtube.com/watch?v=tpTp2WVhgJU&t=558s 密码分析被业内视为检验 AI 是否能做真正科学研究的“试…",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 9.0
+   },
+   "id": "eed70e1f61e8",
+   "score": 7.57,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+   "url": "https://www.qbitai.com/2026/11/513053.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-27T01:16:10Z",
+   "summary": "Quickwit查询总耗时降31%，最高降87%",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "Quickwit查询总耗时降31%，最高降87% 但如果让 20个AI Agents组成一支工程团队 ，不告诉它们具体该改哪一行代码，让它们自己 寻找性能瓶颈、提出技术方案、设计实验， 甚至 互相审查代码 呢？ 近日，AI初创公司 TabbyML 公布了一项颇有意思的工作。他们将一支由20个AI Agents组成的系统工程团队，投入到了一个真实的开源搜索引擎Quickwit中。 更重要的是，在数据库性能基准ClickBench的数据湖类别中，经过AI优化的Quickwit，在同口径热查询评分对比中，超越了此前所有公开成绩。 这次被选中进行优化的，是TabbyML在实际业务中使用的开源搜索引擎Quickwit。 Quickwit是一款面向大规模日志和可观测性数据的搜索引擎，底层基于Rust编写的全文搜索库Tantivy，能够直接利用云端对象存储处理海量数据。 工程师不仅需要理解庞大的代码库，还要深入分析CPU、内存、数据结构、存储访问等底层机制。 而一个看似有效的优化，也可能在另一个场景下造成性能退化，甚至引入极难察觉的Bug。为了衡量AI团队的工作成果，TabbyML团队选择了数据库领域知名的性能基准ClickBench。 在包含1亿行数据的测试集上，AI团队对Quickwit支持的40条查询展开优化。最终，Quickwit的热查询geomean评分从 403毫秒下降至304毫秒 。 按同一组40条查询重算，优化后的Quickwit在热查询geomean上为 304毫秒 ，比Duckflight公开成绩的354毫秒 快了16% 。 TabbyML团队也复现了ClickHouse和Quickwit未经优化的成绩（图中第四和第五行）：Quickwit的热查询geomean为 304毫秒，ClickHouse为392毫秒 。 值得注意的是，AI并没有重新设计整个搜索引擎，而是深…"
+   },
+   "id": "87efdbf7b792",
+   "score": 7.35,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "前Codex负责人：在OpenAI，dots正成为干活的主要方式",
+   "url": "https://aiera.com.cn/2026/11/27/other/admin/125509/%e5%89%8dcodex%e8%b4%9f%e8%b4%a3%e4%ba%ba%ef%bc%9a%e5%9c%a8openai%ef%bc%8cdots%e6%ad%a3%e6%88%90%e4%b8%ba%e5%b9%b2%e6%b4%bb%e7%9a%84%e4%b8%bb%e8%a6%81%e6%96%b9%e5%bc%8f/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-27T00:11:08Z",
+   "summary": "11月24日凌晨，OpenAI的Tibo Sottiaux（原Codex负责人）在X上扔了颗雷。",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true
+   },
+   "id": "78c9ee2dc87f",
+   "score": 7.34,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+   "url": "https://www.qbitai.com/2026/11/512981.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-26T12:39:08Z",
+   "summary": "还得是科班尖子生",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "还得是科班尖子生 这位在“地狱级”群像雕塑里稳住阵脚的专业选手，就是 VAST刚发布的新一代高精度AI 3D基座模型Tripo H3.5 Preview。 相比上一代H3.1，H3.5 Preview在复杂结构还原、精细几何生成、输入输出对齐，以及不可见部位的合理推断等方面均有显著提升。 在统一输入、统一采用最高几何质量并剥离贴图与法线贴图的条件下 ，Tripo H3.5 Preview展现出了显著优于其余5款最新AI 3D旗舰模型的性能： 其中，在资深3D美术师对192组素模案例的盲评中，H3.5 Preview的生成结果拿下82次第一，占比42.8%，胜率是第二名的2.3倍。 在实际生产环境中，专业3D美术师掌握着对“一件资产是否能进入管线”的判断权，评测结果也 意味着H3.5 Preview的生成结果更符合实际生产标准。 为了衡量模型的多视图三维重建能力——尤其是将不同角度的图像整合为统一、完整且无冲突的3D结构——VAST对比了几个模型分别在单视图和四视图下的3D生成效果。 在覆盖200余个案例、结合Agent裁判与专家排序的盲测中，H3.5 Preview在22组汇总对照 （跨双评测集与单/四视图） 中无一败绩。 去除贴图后，H3.5 Preview对3D浮雕文字的识别率高达90.7%，接近输入图像的识别上限，显著高于Tripo H3.1的46.1%。 真实保真 （True Fidelity） ，细节有序 （Disciplined Detail） 。 为了摸清Tripo H3.5 Preview的真实底色，我们挑选了三类极易让AI建模露馅的高难度场景，直接看它的无贴图素模表现。 青铜双凤三足鬲上，凤凰的颈羽、翅羽与长尾覆盖在细密的回纹底板上，外围还环绕着珠点装饰。 这道题的难点在于多个层级的纹饰密集分布在同一曲面上， 模型既要识别不同纹饰的语义，又要准确表达它们…"
+   },
+   "id": "43b82ed342ca",
+   "score": 7.22,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+   "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+   "source": "rss",
+   "section": "news",
+   "via": "The Decoder",
+   "published": "2026-11-26T19:31:46Z",
+   "summary": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far beyond academia. The possible consequences, he writes, range from reshaping the global economy to threatening all life on Earth. He's also \"virtually certain\" that AI labs are sitting on \"one or more bombshells\" in cryptography. The article Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it appeared first on The Decoder .",
+   "heat": 0.5,
+   "weight": 0.5,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0
+   },
+   "id": "a564f381afed",
+   "score": 7.13,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "alesha-pro/llm.asm",
+   "url": "https://github.com/alesha-pro/llm.asm",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+   "heat": 1.0,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1575.0
+   },
+   "extra": {
+    "language": "Assembly",
+    "age_days": 1,
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "a3324cb4a5e1",
+   "score": 7.8,
+   "title_zh": "",
+   "summary_zh": "用纯 x86-64 NASM 汇编编写的 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。",
+   "tags": [
+    "开源工具",
+    "汇编",
+    "Qwen3"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "ggml-org/llama.cpp v1.1.0",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-26T09:16:47Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "## Overview llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecates the old `llama_batch` API in favour of `llama_batch_ext`. It brings a large set of TTS and audio models (Kokoro, Zonos3-Mini, tiny-voca, VoxCPM2, MiniMax-Music3, YuE2, Fish S2, Higgs v3/VibeVoice-ASR and Kyutai Hibiki), token-aware chat parsing, named tool choice, automatic per-tensor quantization targeting a bpw or size budget, a slot-scheduling refactor in `llama-server`, a redesigned Llama Chat web UI with voice messages and agent traces, and updates `ggml` to v1.1.1. ### API changes - llama.h: deprecate the old `llama_batch` API in favour of `llama_batch_ext` and `llama_process` ([#32306](https://github.com/ggml-org/llama.cpp/pull/32306), [#32356](https://github.com/ggml-org/llama.cpp/pull/32356)) - llama.h: add `llama_dflash_variant` and `llama_model_dflash_variant()` for the four DFlash draft heads ([#32016](https://github.com/ggml-org/llama.cpp/pull/32016)) - llama.h: add `llama_model_meta_arr_n()` and `llama_model_meta_arr_str()` to read GGUF string arrays ([#32397](https://github.com/ggml-org/llama.cpp/pull/32397)) - llama.h: add `target_bpw`, `target_size`, `state_file` and abort callback to `llama_model_quantize_params` ([#15550](https://github.com/ggml-org/llama.cpp/pull/15550)) - mtmd.h: add audio types for Zonos3, YuE2, MiniMax-Music3, Fish S2, Moshi, Ko…",
+    "level": "minor",
+    "llm_score": 8.0
+   },
+   "id": "133023c922a1",
+   "score": 7.57,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "nexu-io/opengame",
+   "url": "https://github.com/nexu-io/opengame",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+   "heat": 0.949,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 1031.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "age_days": 1,
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "edd6f65e374e",
+   "score": 7.1,
+   "title_zh": "",
+   "summary_zh": "Super Game Agent 提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。",
+   "tags": [
+    "开源工具",
+    "游戏",
+    "AI 代理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "xorbitsai/inference v4.3.0",
+   "url": "https://github.com/xorbitsai/inference/releases/tag/v4.3.0",
+   "source": "github_releases",
+   "section": "opensource",
+   "via": "GitHub 版本发布",
+   "published": "2026-11-26T08:29:12Z",
+   "summary": "次版本更新",
+   "heat": 0.65,
+   "weight": 0.7,
+   "metrics": {},
+   "extra": {
+    "evidence": "# What's new in 4.3.0 (2026-11-26) These are the changes in inference v4.3.0. ## New features * feat: support optional chat priority hints (#6037) by @qinxuye in https://github.com/xorbitsai/inference/pull/6037 * feat: share Xavier snapshots across tensor-parallel and multimodal vLLM replicas (#6066) by @amumu96 in https://github.com/xorbitsai/inference/pull/6066 * feat(frontend): add request error extensions and model selection links (#6086) by @maoyuehui in https://github.com/xorbitsai/inference/pull/6086 * feat: share SGLang Xavier cache across tensor-parallel, quantized and DeepSeek-V4.1 replicas (#6085) by @amumu96 in https://github.com/xorbitsai/inference/pull/6085 * feat(trt-llm): tensor-parallel replicas and shared-memory Xavier on TensorRT-LLM 1.4 (#6088) by @amumu96 in https://github.com/xorbitsai/inference/pull/6088 * feat: allow per-request Lightning for image and video generation (#6093) by @qinxuye in https://github.com/xorbitsai/inference/pull/6093 * feat(model): refresh model catalogs directly from GitHub (#6105) by @qinxuye in https://github.com/xorbitsai/inference/pull/6105 * feat(runtime): add replica policy and load reporting hooks (#6108) by @qinxuye in https://github.com/xorbitsai/inference/pull/6108 * feat(runtime): route chat by cache residency and replica load (#6113) by @qinxuye in https://github.com/xorbitsai/inference/pull/6113 * feat(runtime): load replica engines on demand and report Qwen voice scheduler load (#6116) by @qinxuye in https://githu…",
+    "level": "minor",
+    "llm_score": 7.0
+   },
+   "id": "8cb69e31490b",
+   "score": 6.96,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "bendlang/bend",
+   "url": "https://github.com/bendlang/bend",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh",
+   "heat": 0.464,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 40.0,
+    "stars": 25937.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f35b8ce94a93",
+   "score": 6.25,
+   "title_zh": "",
+   "summary_zh": "Bend 2 是一种通过证明来阻止 AI 错误的快速语言。",
+   "tags": [
+    "开源工具",
+    "编程语言",
+    "AI 安全"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "pytorch/torchtitan",
+   "url": "https://github.com/pytorch/torchtitan",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "A PyTorch native platform for training generative AI models",
+   "heat": 0.31,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 11.0,
+    "stars": 5990.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "51f8158d5b3b",
+   "score": 5.94,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "开源工具",
+    "PyTorch",
+    "训练"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "🔥 Jync v2.4.7 · 目标标识符大小写、达梦原生自增与实时同步加固",
+   "url": "https://www.oschina.net/news/503837",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-26T23:24:05Z",
+   "summary": "本版概要 v2.4.7 增加 Oracle 系目标的「保持源端标识符大小写」开关与达梦 8 原生 AUTO_INCREMENT，完善一源多目标（fan-out）的分发可用性，并集中修复日志 CDC 与轮询中会导致静默丢数据或反复重跑全量的边界。建议所有 2.4.x 用户升级。 新增 项目级「目标表名/字段名保持源端大小写」，仅 Oracle 系目标（Oracle / ...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 6.0
+   },
+   "id": "1cd225b30dca",
+   "score": 5.81,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "inclusionAI/Ling-3.2-air",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "许可证 mit",
+   "heat": 0.659,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 271.0,
+    "downloads": 1467.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/inclusionAI/Ling-3.2-air"
+     ]
+    ],
+    "llm_done": true
+   },
+   "id": "3af54407b549",
+   "score": 5.79,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [
+    "模型发布",
+    "Hugging Face",
+    "Ling-3.2-air"
+   ],
+   "also_in": [
+    "魔搭 ModelScope 热门模型"
+   ],
+   "merged_ids": []
+  },
+  {
+   "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+   "url": "https://arxiv.org/abs/2611.34575",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-25T00:00:00Z",
+   "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Across this curriculum, progressive supervised refinement and adaptive reinforcement learning yield consistent stage-wise gains, substantially advancing both specialized visual understanding and medical language capabilities. Evaluated against 77 competing models across 238 clinical tasks spanning 61 public and 13 private multi-center benchmarks in more than 40 modalities, Sage-Med-Preview achieves an average score of 58.26% on the 31 public multimodal benchmarks. It outperforms the state-of-the-art open-source medical model Hulu-Med-235B-A22B at 50.99% and the general scientific model Intern-S2-Preview at 52.24%, and approaches the advanced proprietary model G…",
+   "heat": 0.788,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 89.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/Sage-Med/Sage-Med-Preview"
+     ]
+    ],
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4764e04832ec",
+   "score": 6.88,
+   "title_zh": "Sage-Med：医疗多模态智能的扩展",
+   "summary_zh": "针对医疗多模态大模型扩展规律难以建立的问题，本文提出Sage-Med-Preview模型。通过结合特定阶段的数据筛选和渐进式训练课程，该模型在视觉理解和医疗语言能力上均有显著提升。在238项临床任务中，其平均得分达到58.26%。",
+   "tags": [
+    "多模态",
+    "医疗",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Any-Rate: Half-Bit Multi-Precision LLM Quantization with Coded Bit-Planes",
+   "url": "https://arxiv.org/abs/2611.34402",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-25T14:01:05Z",
+   "summary": "Nested multi-precision quantization derives multiple precisions from a single checkpoint by reading only the leading bits of each weight, which makes it attractive for on-device deployment under varying memory and energy budgets. However, existing methods offer only integer bits, leaving large accuracy gaps between adjacent precisions and severe degradation at 2 bits. To address this, we propose Any-Rate, which serves 2-8 bits from one checkpoint, in half-bit steps over 2-4 bits. Any-Rate restricts some bit-planes to extended Hamming codewords in 8-weight blocks (0.5 bits per weight), shares one LUT per row across precisions, and encodes all precisions jointly with a separate target for each, reducing the loss from sharing bit-planes. Across four LLMs, Any-Rate achieves state-of-the-art accuracy among multi-precision methods at 2 and 3 bits, keeping 69% of FP16 accuracy at 2 bits, and is within one point of the best at 4 bits. It decodes about as fast as existing kernels, and an LPDDR energy model estimates up to 27% less energy at equal accuracy. Code is available at https://github.com/hoonki2002/Any-Rate.",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "05c2289e4c74",
+   "score": 6.83,
+   "title_zh": "Any-Rate：基于编码位平面的半比特多精度量化",
+   "summary_zh": "为解决现有多精度量化方法精度损失大的问题，本文提出Any-Rate方法。该方法从单个检查点提供2-8比特的量化，在2-4比特范围内以半比特步进。实验表明，该方法在2比特和3比特下达到最先进精度，在2比特下保持69%的FP16精度。",
+   "tags": [
+    "量化",
+    "推理加速",
+    "高效推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+   "url": "https://arxiv.org/abs/2611.30962",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-23T16:32:01Z",
+   "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers from rollout evidence. It disentangles three objectives: benchmark evolution expands evaluation scope through cohort-calibrated difficulty and coverage growth; diagnostic evolution increases resolution through agent-conditional capability-boundary probes; and verifier evolution improves precision by translating changing requirements into state-grounded checkpoints with adversarial validation. Across multiple agents, applications, and rounds, CUA-SEE generates challenging, measurable tasks while preserving process-level evidence. Our results position adaptive evaluation as a scalable counterpart to self-evolving agents, continuously tracking what agents can do, where their boundaries lie, and how reliably progress is measured.",
+   "heat": 0.692,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 51.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "4d1421a85b89",
+   "score": 6.79,
+   "title_zh": "计算机使用智能体的自演化评估环境",
+   "summary_zh": "针对计算机使用智能体评估环境静态的问题，本文提出CUA-SEE环境。该环境通过闭环机制共同演化任务和可执行验证器，通过基准演化、诊断进化和验证器进化三个目标提升评估能力。实验表明，该环境能生成具有挑战性和可测量的任务。",
+   "tags": [
+    "智能体",
+    "评估",
+    "评测"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Mixture-of-Loops Transformer",
+   "url": "https://arxiv.org/abs/2611.34923",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-25T00:00:00Z",
+   "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel training, unlocks single-traversal Mixture-of-Loops (MoL) decoding beyond the training loop horizon. To balance efficiency and quality, we introduce U-shaped MoLT (U-MoLT), which separates memory construction from prediction readout and skips unused decoder traversals without changing predictions. In 400B-token pretraining, U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models, achieving 1.7x validation cross-entropy (CE) token efficiency at 700M while improving 3B MoE 10-domain perplexity by 0.75 and 10-task accuracy by 2.1 percentage points. In 100B-token continued pretraining of Qwen3.5-0.8B-Base, our U-MoLT adaptation lowers CE on all 11 domains over the matched baseline with…",
+   "heat": 0.729,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 63.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/hustvl/MoLT"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "ed63df2f978e",
+   "score": 6.17,
+   "title_zh": "混合循环Transformer",
+   "summary_zh": "为解决循环Transformer效率低的问题，本文提出Mixture-of-Loops Transformer（MoLT）。通过引入混合循环注意力机制，MoLT在保持表达力的同时提高了效率。在400B-token预训练中，U-MoLT在多个模型上表现出色，验证交叉熵效率提升1.7倍。",
+   "tags": [
+    "Transformer",
+    "推理加速",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?",
+   "url": "https://arxiv.org/abs/2611.33031",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 高效推理",
+   "published": "2026-11-24T17:43:09Z",
+   "summary": "We give four large language models (LLMs) of the Claude family the complete weights of a 20k-parameter CIFAR-10 CNN as text and ask them to produce a 4-bit network without tools, data or the ability to run inference. Standard round-to-nearest (RTN) quantization to 4 bit lowers the test accuracy from 81.4% to 60.4%. We design four evaluation protocols that differ in the input and task description given to the LLMs and analyze their responses. In the first two protocols the LLMs are given the float and the 4-bit RTN network and are told that the accuracy has dropped significantly. In the last two they receive only the float network and the task to quantize it, which tests whether they apply an optimization on their own or fall back to plain RTN. Our analysis shows that a frontier LLM can recover most of the lost accuracy. Given one answer per layer, Opus 5.5 raises the accuracy of the 4-bit network to 77.95% by balancing the rounding errors within each 3x3 kernel, reasoning over the integer weights without tools. This is 3.5 pp below the float network and 2.8 pp below AdaRound, which learns the rounding from calibration data. Given only the float network, the LLMs name error-cancelling corrections but do not apply them and fall back to plain RTN, at most with mildly clipped scales, which still lifts Fable 5.2's quantized network to 70.0%. We analyze in detail what the LLMs did and why it works. Code and prompts can be found at https://github.com/urbste/weight-space-programming…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "6d40af506cbc",
+   "score": 6.11,
+   "title_zh": "前沿LLM能否无工具修复量化网络？",
+   "summary_zh": "本文研究前沿大语言模型在无工具、无数据的情况下修复量化网络的能力。实验表明，Claude家族的Opus 5.5模型可以通过平衡3x3卷积核内的舍入误差，将4比特网络的准确率从60.4%提升至77.95%，接近浮点网络性能。",
+   "tags": [
+    "量化",
+    "推理",
+    "大模型"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-27",
+  "start": "2026-11-27",
+  "end": "2026-11-27",
+  "title": "Google 发布 Cogentic 研究论文",
+  "generated_at": "2026-11-27T02:10:02Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 11,
+  "club_period": {
+   "start": "2026-11-26",
+   "end": "2026-11-26"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 9 个 PR、提交 6 次",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 3 个、合并 9 个，提交 6 次，新增代码 4839 行、删除 246 行，5 位贡献者参与，其中 1 位是第一次贡献。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "TranslateProject 合并 6 个 PR",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "HCTT SIG的 TranslateProject 仓库新增 PR 2 个、合并 6 个、提交 2 次、新增代码 135 行，3 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/TranslateProject",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "AtomGit-Mobile4Android 合并 1 个 PR",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 4613 行，1 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/AtomGit-Mobile4Android",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "国产模型扎进 AI4S 深水区，几毫秒破译尘封18年密码学悬案",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "作者丨 高允毅 编辑丨岑 峰 11月20日， AI for Science 迎来了一个载入史册的日子：Anthropic 数学家联合 Claude 拿下黎曼猜想的关键突破，同一天，以复杂的数学计算著称的密码学领域，也被AI撼动。 据 Mi…",
+    "url": "https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html",
+    "via": "雷峰网",
+    "id": "eed70e1f61e8",
+    "ai": false
+   },
+   {
+    "cat": "domestic",
+    "headline": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "还得是科班尖子生。",
+    "url": "https://www.qbitai.com/2026/11/512981.html",
+    "via": "量子位",
+    "id": "43b82ed342ca",
+    "ai": false
+   },
+   {
+    "cat": "domestic",
+    "headline": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "Quickwit查询总耗时降31%，最高降87%。",
+    "url": "https://www.qbitai.com/2026/11/513053.html",
+    "via": "量子位",
+    "id": "87efdbf7b792",
+    "ai": false
+   },
+   {
+    "cat": "domestic",
+    "headline": "前Codex负责人：在OpenAI，dots正成为干活的主要方式",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "11月24日凌晨，OpenAI的Tibo Sottiaux（原Codex负责人）在X上扔了颗雷。",
+    "url": "https://aiera.com.cn/2026/11/27/other/admin/125509/%e5%89%8dcodex%e8%b4%9f%e8%b4%a3%e4%ba%ba%ef%bc%9a%e5%9c%a8openai%ef%bc%8cdots%e6%ad%a3%e6%88%90%e4%b8%ba%e5%b9%b2%e6%b4%bb%e7%9a%84%e4%b8%bb%e8%a6%81%e6%96%b9%e5%bc%8f/",
+    "via": "新智元",
+    "id": "78c9ee2dc87f",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Anthropic CEO长文刷屏！超级智能时代的桌面APP来了",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "今天凌晨2点22分，Anthropic CEO Dario Amodei在X上发了一篇长帖。",
+    "url": "https://aiera.com.cn/2026/11/27/other/admin/125526/anthropic-ceo%e9%95%bf%e6%96%87%e5%88%b7%e5%b1%8f%ef%bc%81%e8%b6%85%e7%ba%a7%e6%99%ba%e8%83%bd%e6%97%b6%e4%bb%a3%e7%9a%84%e6%a1%8c%e9%9d%a2app%e6%9d%a5%e4%ba%86/",
+    "via": "新智元",
+    "id": "1dbe3060c3e5",
+    "ai": false
+   },
+   {
+    "cat": "overseas",
+    "headline": "Former OpenAI researcher says the Riemann proof matters less than the fact that…",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "Complexity theorist and former OpenAI researcher Scott Aaronson argues that AI's recent math breakthroughs matter far b…",
+    "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+    "via": "The Decoder",
+    "id": "a564f381afed",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "ggml-org/llama.cpp v1.1.0",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "次版本更新。",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+    "via": "GitHub 版本发布",
+    "id": "133023c922a1",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "xorbitsai/inference v4.3.0",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "次版本更新。",
+    "url": "https://github.com/xorbitsai/inference/releases/tag/v4.3.0",
+    "via": "GitHub 版本发布",
+    "id": "8cb69e31490b",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "alesha-pro/llm.asm",
+    "when": "11月27日消息",
+    "date": "2026-11-27",
+    "body": "该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。",
+    "url": "https://github.com/alesha-pro/llm.asm",
+    "via": "GitHub 新项目",
+    "id": "a3324cb4a5e1",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "nexu-io/opengame",
+    "when": "11月27日消息",
+    "date": "2026-11-27",
+    "body": "该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。",
+    "url": "https://github.com/nexu-io/opengame",
+    "via": "GitHub 新项目",
+    "id": "edd6f65e374e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "bendlang/bend：通过证明阻止 AI 错误的快速语言",
+    "when": "11月27日消息",
+    "date": "2026-11-27",
+    "body": "Bend 2 是一种通过证明来阻止 AI 错误的快速语言。",
+    "url": "https://github.com/bendlang/bend",
+    "via": "GitHub Trending",
+    "id": "f35b8ce94a93",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Google 发布 Cogentic 研究论文",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。",
+    "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+    "via": "Hacker News",
+    "id": "06e4afb07db2",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Sage-Med：医疗多模态智能的扩展",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。",
+    "url": "https://arxiv.org/abs/2611.34575",
+    "via": "Hugging Face 热门论文",
+    "id": "4764e04832ec",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Any-Rate：基于编码位平面的半比特多精度量化",
+    "when": "11月25日",
+    "date": "2026-11-25",
+    "body": "本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。",
+    "url": "https://arxiv.org/abs/2611.34402",
+    "via": "arXiv · 高效推理",
+    "id": "05c2289e4c74",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "Anthropic 发布 GRH Lean 验证精简版",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。",
+    "url": "https://github.com/lsernau/grh-lean",
+    "via": "Hacker News",
+    "id": "e1359e286892",
+    "ai": true
+   },
+   {
+    "cat": "industry",
+    "headline": "Google 要求 AI 代理使用其 MCP 服务器",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。",
+    "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+    "via": "Hacker News",
+    "id": "dadebd14f24a",
+    "ai": true
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {
+   "06e4afb07db2": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Google 发布 Cogentic 研究论文",
+    "body": "Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。"
+   },
+   "e1359e286892": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Anthropic 发布 GRH Lean 验证精简版",
+    "body": "Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。"
+   },
+   "d6e3540513d1": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "OpenAI 可能进入成本控制模式",
+    "body": "OpenAI 的 Astra 6.2 和 Sol 6.2 发布后评价不佳，数据显示其输出和推理 token 数量下降。"
+   },
+   "dadebd14f24a": {
+    "v": "4f7b2f10",
+    "cat": "industry",
+    "headline": "Google 要求 AI 代理使用其 MCP 服务器",
+    "body": "Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。"
+   },
+   "a3324cb4a5e1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。"
+   },
+   "edd6f65e374e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。"
+   },
+   "f35b8ce94a93": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "bendlang/bend：通过证明阻止 AI 错误的快速语言",
+    "body": "Bend 2 是一种通过证明来阻止 AI 错误的快速语言。"
+   },
+   "51f8158d5b3b": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "该项目是一个 PyTorch 原生平台，用于训练生成式 AI 模型。"
+   },
+   "3af54407b549": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "inclusionAI/Ling-3.2-air：MIT 许可证模型",
+    "body": "该项目是一个 MIT 许可证的热门模型。"
+   },
+   "4764e04832ec": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Sage-Med：医疗多模态智能的扩展",
+    "body": "本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。"
+   },
+   "05c2289e4c74": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Any-Rate：基于编码位平面的半比特多精度量化",
+    "body": "本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。"
+   },
+   "4d1421a85b89": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "CUA-SEE：计算机使用智能体的自演化评估环境",
+    "body": "本文提出 CUA-SEE 环境，通过闭环机制共同演化任务和可执行验证器，提升评估能力。"
+   }
+  }
+ }
+}
