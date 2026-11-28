@@ -27,7 +27,7 @@
 → cli-agent-orchestrator 为 AI 编码 CLI 提供多智能体编排，支持 Claude Code 等工具。
 
 【学术前沿】
-12. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…
+12. 代码求解视觉：编码智能体比视频模型更擅长视觉推理
 → Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。
 13. Stable Gated DeltaNet-2 论文
 → Stable Gated DeltaNet-2 论文分析了线性注意力模型在长序列训练中状态不稳定的问题，提出了缓解方法。

@@ -50,7 +50,7 @@
 → cli-agent-orchestrator 为 AI 编码 CLI 提供多智能体编排，支持 Claude Code 等工具。
 
 【学术前沿】
-12. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…
+12. 代码求解视觉：编码智能体比视频模型更擅长视觉推理
 → Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。
 13. Stable Gated DeltaNet-2 论文
 → Stable Gated DeltaNet-2 论文分析了线性注意力模型在长序列训练中状态不稳定的问题，提出了缓解方法。
@@ -100,7 +100,7 @@
 
 #### 学术前沿
 
-**Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…**<br>11月26日，Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.34813)）</sub>
+**代码求解视觉：编码智能体比视频模型更擅长视觉推理**<br>11月26日，Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.34813)）</sub>
 
 **Stable Gated DeltaNet-2 论文**<br>11月28日消息，Stable Gated DeltaNet-2 论文分析了线性注意力模型在长序列训练中状态不稳定的问题，提出了缓解方法。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.34051)）</sub>
 
@@ -112,7 +112,7 @@
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月27日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-28 11:37（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月27日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-28 16:56（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 

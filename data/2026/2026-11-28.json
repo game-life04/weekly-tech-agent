@@ -981,13 +981,18 @@
     "upvotes": 59.0
    },
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "f665daa5216c",
    "score": 6.95,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "代码求解视觉：编码智能体比视频模型更擅长视觉推理",
+   "summary_zh": "本文对比了视频生成模型和代码生成智能体在视觉推理任务上的表现。实验表明，对于可以通过首帧和提示词计算的任务，代码合成比原生视觉推理更可靠。代码智能体在VBVR-Pro-Bench基准测试中取得了更高的得分。",
+   "tags": [
+    "智能体",
+    "视觉推理",
+    "代码生成"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1005,13 +1010,18 @@
     "upvotes": 128.0
    },
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "2280d2fec317",
    "score": 6.9,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "Stable Gated DeltaNet-2：理解并缓解循环状态不稳定性",
+   "summary_zh": "Gated DeltaNet-2在长上下文训练中容易出现失败。本文提出了一种改进方法，通过对称擦除和衰减调节的残差写入来确保状态传播的非扩张性。实验显示，该方法在~1.6B参数模型上实现了稳定训练，并提升了长上下文检索性能。",
+   "tags": [
+    "长上下文",
+    "线性注意力",
+    "状态稳定性"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1035,13 +1045,18 @@
       "https://github.com/OneBoxCream/DyLoMo-DiT"
      ]
     ],
-    "llm_score": 6.0
+    "llm_score": 6.0,
+    "llm_done": true
    },
    "id": "4f1599d5dfdb",
    "score": 5.97,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "DyLoMo-DiT：动态循环混合专家扩散Transformer",
+   "summary_zh": "本文提出了一种动态循环混合专家扩散Transformer，通过重复应用中间层而非增加参数来扩展模型容量。该方法在保持参数和计算预算的同时，显著降低了FID分数。在文本到图像生成任务中，DyLoMo-DiT的GenEval得分高于FLUX.1。",
+   "tags": [
+    "扩散模型",
+    "混合专家",
+    "参数效率"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1065,13 +1080,18 @@
       "https://github.com/costa-nus/LCEBench"
      ]
     ],
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "7d3a35ac0e20",
    "score": 5.92,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "重新审视LLM作为上下文工程师",
+   "summary_zh": "本文旨在探究LLM作为上下文工程师在数据中构建有效上下文的能力。研究通过建立包含不同推理模式的基准数据集，对比了多种LLM上下文工程方法。结果显示，不存在单一方法能解决所有任务，且LLM上下文工程在提升性能方面存在局限性。",
+   "tags": [
+    "长上下文",
+    "上下文工程",
+    "评测"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1089,13 +1109,18 @@
     "upvotes": 0.0
    },
    "extra": {
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "6f983cf6f035",
    "score": 5.83,
    "title_zh": "",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "推理加速",
+    "稀疏注意力",
+    "长上下文"
+   ],
    "also_in": [
     "arXiv · 高效推理"
    ],
@@ -1108,7 +1133,7 @@
   "start": "2026-11-28",
   "end": "2026-11-28",
   "title": "llama-cpp-rdna-boosts 优化 AMD 显卡推理",
-  "generated_at": "2026-11-28T03:37:25Z",
+  "generated_at": "2026-11-28T08:56:17Z",
   "models": [
    "glm-4.7-flash"
   ],
@@ -1257,7 +1282,7 @@
    },
    {
     "cat": "papers",
-    "headline": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…",
+    "headline": "代码求解视觉：编码智能体比视频模型更擅长视觉推理",
     "when": "11月26日",
     "date": "2026-11-26",
     "body": "Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。",
