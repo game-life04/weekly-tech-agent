@@ -459,13 +459,16 @@
     "discussion": "https://news.ycombinator.com/item?id=50660180",
     "llm_score": 8.0,
     "excerpt_tried": true,
-    "evidence": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit. I never really stopped self-hosting, but I became less inclined to experiment with new things. Maintaining what I already had running was enough for me. Over the last few months, however, I’ve found myself getting increasingly excited about self-hosting again. And, somewhat ironically, AI is a big reason for that. Less friction Most of my infrastructure configuration lives in Git repositories, mainly in the form of Docker Compose files, scripts, and other configuration files. This makes it possible to use AI coding agents to work on my infrastructure in much the same w…"
+    "evidence": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit. I never really stopped self-hosting, but I became less inclined to experiment with new things. Maintaining what I already had running was enough for me. Over the last few months, however, I’ve found myself getting increasingly excited about self-hosting again. And, somewhat ironically, AI is a big reason for that. Less friction Most of my infrastructure configuration lives in Git repositories, mainly in the form of Docker Compose files, scripts, and other configuration files. This makes it possible to use AI coding agents to work on my infrastructure in much the same w…",
+    "llm_done": true
    },
    "id": "b39aca2571fd",
    "score": 8.05,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "AI 让自托管再次变得有趣",
+   "summary_zh": "作者因 AI 减少了配置基础设施的摩擦，重新对自托管产生热情。",
+   "tags": [
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -486,13 +489,17 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50657265",
     "excerpt_tried": true,
-    "evidence": "Miscellaneous bits and bobs from the tech world tl;dr — I recommend using llama-cpp-rdna-boosts if you have an AMD graphics card. It’s lean, and increased my token generation from 35 to 55 tokens/second, and my prefill from 700 to 1300 tokens per second. YMMV. As of November 2026, an explosion in the number of bespoke inference engines has taken place. Many of them take inspiration from the engines that enabled much of the LLM inference up 'til now: llama.cpp, SGLang, vLLM, etc. The rationale isn’t that those options are bad, but merely that they are generalist engines, optimized for no particular hardware and with a focus on broad compatibility. Others feel the development pace of those engines have slowed down, and with the help of LLMs, they can move faster on their own. Some examples…"
+    "evidence": "Miscellaneous bits and bobs from the tech world tl;dr — I recommend using llama-cpp-rdna-boosts if you have an AMD graphics card. It’s lean, and increased my token generation from 35 to 55 tokens/second, and my prefill from 700 to 1300 tokens per second. YMMV. As of November 2026, an explosion in the number of bespoke inference engines has taken place. Many of them take inspiration from the engines that enabled much of the LLM inference up 'til now: llama.cpp, SGLang, vLLM, etc. The rationale isn’t that those options are bad, but merely that they are generalist engines, optimized for no particular hardware and with a focus on broad compatibility. Others feel the development pace of those engines have slowed down, and with the help of LLMs, they can move faster on their own. Some examples…",
+    "llm_done": true
    },
    "id": "a1d60a2f72d2",
    "score": 7.94,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "llama.cpp 的 AMD 专用分支",
+   "summary_zh": "llama-cpp-rdna-boosts 优化了 AMD 显卡推理，提升了生成速度。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -513,13 +520,16 @@
    "extra": {
     "discussion": "https://news.ycombinator.com/item?id=50669561",
     "excerpt_tried": true,
-    "evidence": "Dear Soapboxers, AI is scaring me, and not for the reason you think. Yes, the threat of increasing hacks that could melt down the global economy or… Written by a randomly drawn subscriber, read by a human, then sent to the whole list. Its writer chose to share it here. One every morning at 08:00, written by someone on the list. Join, and the next one could be yours."
+    "evidence": "Dear Soapboxers, AI is scaring me, and not for the reason you think. Yes, the threat of increasing hacks that could melt down the global economy or… Written by a randomly drawn subscriber, read by a human, then sent to the whole list. Its writer chose to share it here. One every morning at 08:00, written by someone on the list. Join, and the next one could be yours.",
+    "llm_done": true
    },
    "id": "9921ceee6fef",
    "score": 7.85,
-   "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "title_zh": "我害怕 AI",
+   "summary_zh": "订阅者分享了对 AI 的恐惧，担心其威胁全球经济。",
+   "tags": [
+    "行业动态"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -538,13 +548,16 @@
     "comments": 274.0
    },
    "extra": {
-    "discussion": "https://news.ycombinator.com/item?id=50651117"
+    "discussion": "https://news.ycombinator.com/item?id=50651117",
+    "llm_done": true
    },
    "id": "42cfffd5a574",
    "score": 7.82,
-   "title_zh": "",
+   "title_zh": "OpenAI 限制 GPT-6.2 使用",
    "summary_zh": "",
-   "tags": [],
+   "tags": [
+    "模型发布"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -732,13 +745,17 @@
    "extra": {
     "language": "Python",
     "age_days": 14,
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "b09cac1ce23d",
    "score": 7.19,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "在普通 CPU 上快速进行本地 LLM 推理，无需 GPU。",
+   "tags": [
+    "开源工具",
+    "推理加速"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -785,13 +802,17 @@
    },
    "extra": {
     "language": "Python",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "ee7b8b4d4ca0",
    "score": 6.77,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "为 AI 编码 CLI 提供多智能体编排，支持 Claude Code 等工具。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -811,13 +832,17 @@
    "extra": {
     "language": "JavaScript",
     "age_days": 4,
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "9c3be8b40052",
    "score": 6.68,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Former Cursor 工程师开发的技能，将提示词转化为形式化验证的代码。",
+   "tags": [
+    "开源工具",
+    "智能体"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -837,13 +862,17 @@
    },
    "extra": {
     "language": "Jupyter Notebook",
-    "llm_score": 8.0
+    "llm_score": 8.0,
+    "llm_done": true
    },
    "id": "dbcb12f2284e",
    "score": 6.44,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "免费在线课程，教授如何构建问答 AI 系统。",
+   "tags": [
+    "开源工具",
+    "课程"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -863,13 +892,17 @@
    },
    "extra": {
     "language": "TypeScript",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "11571c8ec0c1",
    "score": 6.17,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "Linear 和 Plane 的开源替代品，支持团队与 AI 代理协作。",
+   "tags": [
+    "开源工具",
+    "项目管理"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -889,13 +922,16 @@
    },
    "extra": {
     "language": "Jupyter Notebook",
-    "llm_score": 7.0
+    "llm_score": 7.0,
+    "llm_done": true
    },
    "id": "e1724fcfb71e",
    "score": 6.04,
    "title_zh": "",
-   "summary_zh": "",
-   "tags": [],
+   "summary_zh": "使用 AI 反思优化技术来优化提示词和代码。",
+   "tags": [
+    "开源工具"
+   ],
    "also_in": [],
    "merged_ids": []
   },
@@ -1071,14 +1107,14 @@
   "day": "2026-11-28",
   "start": "2026-11-28",
   "end": "2026-11-28",
-  "title": "opensetlabs/openset-llm",
-  "generated_at": "2026-11-28T01:58:42Z",
+  "title": "llama-cpp-rdna-boosts 优化 AMD 显卡推理",
+  "generated_at": "2026-11-28T03:37:25Z",
   "models": [
    "glm-4.7-flash"
   ],
-  "prompt": "",
-  "tries": 0,
-  "pending": 23,
+  "prompt": "4f7b2f10",
+  "tries": 1,
+  "pending": 0,
   "club_period": {
    "start": "2026-11-27",
    "end": "2026-11-27"
@@ -1133,10 +1169,10 @@
    },
    {
     "cat": "domestic",
-    "headline": "首个带跨任务空间记忆的原生基模开源",
+    "headline": "蚂蚁开源跨任务空间记忆基模",
     "when": "11月27日",
     "date": "2026-11-27",
-    "body": "首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。",
+    "body": "蚂蚁开源带跨任务空间记忆的原生基模，机器人端侧即可运行。",
     "url": "https://www.qbitai.com/2026/11/513227.html",
     "via": "量子位",
     "id": "eec1d12687d5",
@@ -1144,7 +1180,7 @@
    },
    {
     "cat": "domestic",
-    "headline": "豆包工作宣布接入剪映官方插件",
+    "headline": "豆包工作接入剪映官方插件",
     "when": "11月27日",
     "date": "2026-11-27",
     "body": "豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。",
@@ -1155,51 +1191,29 @@
    },
    {
     "cat": "domestic",
-    "headline": "Kimi 向科学家提供最高 2 万美元 API 免费额度",
+    "headline": "月之暗面向科学家提供API额度",
     "when": "11月28日",
     "date": "2026-11-28",
-    "body": "月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。",
+    "body": "月之暗面向自然科学等领域研究人员提供最高2万美元Kimi API额度。",
     "url": "https://www.solidot.org/story?sid=86015",
     "via": "Solidot",
     "id": "46293ad241d8",
     "ai": true
    },
    {
-    "cat": "overseas",
-    "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-    "when": "11月26日",
-    "date": "2026-11-26",
-    "body": "llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。",
-    "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-    "via": "Hugging Face 博客",
-    "id": "49da20359108",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "cat": "opensource",
+    "headline": "llama-cpp-rdna-boosts 优化 AMD 显卡推理",
     "when": "11月27日",
     "date": "2026-11-27",
-    "body": "在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。",
-    "url": "https://huggingface.co/blog/video-trainium3",
-    "via": "Hugging Face 博客",
-    "id": "c1d113f52f2a",
-    "ai": true
-   },
-   {
-    "cat": "overseas",
-    "headline": "Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活",
-    "when": "11月28日",
-    "date": "2026-11-28",
-    "body": "Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。",
-    "url": "https://aiera.com.cn/2026/11/28/other/admin/125660/anthropic%e6%8b%86%e7%a9%bfai%e5%81%87%e9%81%97%e5%bf%98%ef%bc%8146%e4%b8%87%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8a%a8%e5%87%a0%e5%8d%81%e4%b8%aa%ef%bc%8c%e9%bb%91%e5%ae%a2%e7%9f%a5%e8%af%86%e5%b0%b1/",
-    "via": "新智元",
-    "id": "f4260c382412",
+    "body": "llama-cpp-rdna-boosts 优化了 AMD 显卡推理，提升了生成速度。",
+    "url": "https://devnull.land/amd-specific-llama-cpp",
+    "via": "Hacker News",
+    "id": "a1d60a2f72d2",
     "ai": true
    },
    {
     "cat": "opensource",
-    "headline": "微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动",
+    "headline": "WeMM-Ecom 开源多模态模型",
     "when": "11月27日",
     "date": "2026-11-27",
     "body": "腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。",
@@ -1210,91 +1224,80 @@
    },
    {
     "cat": "opensource",
-    "headline": "opensetlabs/openset-llm",
+    "headline": "LTX-2.5 在 Trainium3 上测试",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "Hugging Face 在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。",
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "via": "Hugging Face 博客",
+    "id": "c1d113f52f2a",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "openset-llm：普通 CPU 本地 LLM 推理",
     "when": "11月28日消息",
     "date": "2026-11-28",
-    "body": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
+    "body": "openset-llm 在普通 CPU 上快速进行本地 LLM 推理，无需 GPU。",
     "url": "https://github.com/opensetlabs/openset-llm",
     "via": "GitHub 新项目",
     "id": "b09cac1ce23d",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "opensource",
     "headline": "awslabs/cli-agent-orchestrator",
     "when": "11月28日消息",
     "date": "2026-11-28",
-    "body": "Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions。",
+    "body": "cli-agent-orchestrator 为 AI 编码 CLI 提供多智能体编排，支持 Claude Code 等工具。",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
     "via": "GitHub Trending",
     "id": "ee7b8b4d4ca0",
-    "ai": false
-   },
-   {
-    "cat": "opensource",
-    "headline": "DeadInternetStudios/100x-engineer-skill",
-    "when": "11月28日消息",
-    "date": "2026-11-28",
-    "body": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code。",
-    "url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
-    "via": "GitHub 新项目",
-    "id": "9c3be8b40052",
-    "ai": false
-   },
-   {
-    "cat": "opensource",
-    "headline": "DataTalksClub/llm-zoomcamp",
-    "when": "11月28日消息",
-    "date": "2026-11-28",
-    "body": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI…",
-    "url": "https://github.com/DataTalksClub/llm-zoomcamp",
-    "via": "GitHub Trending",
-    "id": "dbcb12f2284e",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
     "headline": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…",
     "when": "11月26日",
     "date": "2026-11-26",
-    "body": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…",
+    "body": "Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。",
     "url": "https://arxiv.org/abs/2611.34813",
     "via": "arXiv · 智能体",
     "id": "f665daa5216c",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili…",
+    "headline": "Stable Gated DeltaNet-2 论文",
     "when": "11月28日消息",
     "date": "2026-11-28",
-    "body": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…",
+    "body": "Stable Gated DeltaNet-2 论文分析了线性注意力模型在长序列训练中状态不稳定的问题，提出了缓解方法。",
     "url": "https://arxiv.org/abs/2611.34051",
     "via": "Hugging Face 热门论文",
     "id": "2280d2fec317",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "papers",
-    "headline": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+    "headline": "Anthropic揭示AI假遗忘现象",
+    "when": "11月28日",
+    "date": "2026-11-28",
+    "body": "Anthropic研究发现AI存在假遗忘现象，只需微调几十个神经元即可恢复知识。",
+    "url": "https://aiera.com.cn/2026/11/28/other/admin/125660/anthropic%e6%8b%86%e7%a9%bfai%e5%81%87%e9%81%97%e5%bf%98%ef%bc%8146%e4%b8%87%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8a%a8%e5%87%a0%e5%8d%81%e4%b8%aa%ef%bc%8c%e9%bb%91%e5%ae%a2%e7%9f%a5%e8%af%86%e5%b0%b1/",
+    "via": "新智元",
+    "id": "f4260c382412",
+    "ai": true
+   },
+   {
+    "cat": "papers",
+    "headline": "DyLoMo-DiT 论文",
     "when": "11月28日消息",
     "date": "2026-11-28",
-    "body": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Exper…",
+    "body": "DyLoMo-DiT 论文提出了一种动态循环混合专家扩散 Transformer，通过复用参数来加深网络结构。",
     "url": "https://arxiv.org/abs/2611.30844",
     "via": "Hugging Face 热门论文",
     "id": "4f1599d5dfdb",
-    "ai": false
-   },
-   {
-    "cat": "papers",
-    "headline": "Revisiting LLMs as Context Engineers",
-    "when": "11月28日消息",
-    "date": "2026-11-28",
-    "body": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…",
-    "url": "https://arxiv.org/abs/2611.30494",
-    "via": "arXiv · 长上下文与检索",
-    "id": "7d3a35ac0e20",
-    "ai": false
+    "ai": true
    },
    {
     "cat": "events",
@@ -1306,6 +1309,145 @@
     "via": "会议官网"
    }
   ],
-  "written": {}
+  "written": {
+   "b39aca2571fd": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "a1d60a2f72d2": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "llama-cpp-rdna-boosts 优化 AMD 显卡推理",
+    "body": "llama-cpp-rdna-boosts 优化了 AMD 显卡推理，提升了生成速度。"
+   },
+   "9921ceee6fef": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "42cfffd5a574": {
+    "v": "4f7b2f10",
+    "cat": "skip",
+    "headline": "",
+    "body": ""
+   },
+   "eec1d12687d5": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "蚂蚁开源跨任务空间记忆基模",
+    "body": "蚂蚁开源带跨任务空间记忆的原生基模，机器人端侧即可运行。"
+   },
+   "46293ad241d8": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "月之暗面向科学家提供API额度",
+    "body": "月之暗面向自然科学等领域研究人员提供最高2万美元Kimi API额度。"
+   },
+   "b1df9905093b": {
+    "v": "4f7b2f10",
+    "cat": "domestic",
+    "headline": "豆包工作接入剪映官方插件",
+    "body": "豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。"
+   },
+   "c1d113f52f2a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "LTX-2.5 在 Trainium3 上测试",
+    "body": "Hugging Face 在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。"
+   },
+   "49da20359108": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "llama.cpp 推出 AMD 仪表盘",
+    "body": "llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。"
+   },
+   "f4260c382412": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Anthropic揭示AI假遗忘现象",
+    "body": "Anthropic研究发现AI存在假遗忘现象，只需微调几十个神经元即可恢复知识。"
+   },
+   "b09cac1ce23d": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "openset-llm：普通 CPU 本地 LLM 推理",
+    "body": "openset-llm 在普通 CPU 上快速进行本地 LLM 推理，无需 GPU。"
+   },
+   "c20b3a1fca5e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "WeMM-Ecom 开源多模态模型",
+    "body": "腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。"
+   },
+   "ee7b8b4d4ca0": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "",
+    "body": "cli-agent-orchestrator 为 AI 编码 CLI 提供多智能体编排，支持 Claude Code 等工具。"
+   },
+   "9c3be8b40052": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "100x-engineer-skill：将提示词转化为形式化验证代码",
+    "body": "100x-engineer-skill 将提示词转化为形式化验证的代码，由前 Cursor 工程师开发。"
+   },
+   "dbcb12f2284e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "llm-zoomcamp：免费在线课程",
+    "body": "llm-zoomcamp 是免费在线课程，教授如何构建问答 AI 系统。"
+   },
+   "11571c8ec0c1": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "itsaplan：Linear 和 Plane 的开源替代品",
+    "body": "itsaplan 是 Linear 和 Plane 的开源替代品，支持团队与 AI 代理协作。"
+   },
+   "e1724fcfb71e": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "gepa：使用 AI 反思优化提示词和代码",
+    "body": "gepa 使用 AI 反思优化技术来优化提示词和代码。"
+   },
+   "d6386c3f1d8a": {
+    "v": "4f7b2f10",
+    "cat": "opensource",
+    "headline": "OCRia-nano-1：image-to-text 模型",
+    "body": "OCRia-nano-1 是 image-to-text 模型。"
+   },
+   "f665daa5216c": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "",
+    "body": "Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。"
+   },
+   "2280d2fec317": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "Stable Gated DeltaNet-2 论文",
+    "body": "Stable Gated DeltaNet-2 论文分析了线性注意力模型在长序列训练中状态不稳定的问题，提出了缓解方法。"
+   },
+   "4f1599d5dfdb": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DyLoMo-DiT 论文",
+    "body": "DyLoMo-DiT 论文提出了一种动态循环混合专家扩散 Transformer，通过复用参数来加深网络结构。"
+   },
+   "7d3a35ac0e20": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "LLM 作为上下文工程师",
+    "body": "LLM 作为上下文工程师论文探讨了利用 LLM 自身来构建指令提示或元数据以高效引导模型的方法。"
+   },
+   "6f983cf6f035": {
+    "v": "4f7b2f10",
+    "cat": "papers",
+    "headline": "DisSparse 论文",
+    "body": ""
+   }
+  }
  }
 }

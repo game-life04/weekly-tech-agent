@@ -14,7 +14,7 @@
 
 ## 每日快讯 · 11.28（周六）
 
-> 今日 AI 与开源要闻 **18** 条，3 分钟速读。<br>
+> 今日 AI 与开源要闻 **15** 条，3 分钟速读。<br>
 > [单独打开](daily/2026/2026-11-28-kuaixun.md) · [公众号排版版](daily/2026/2026-11-28-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-28.md) · [往期日报](daily/README.md)
 
 <details>
@@ -22,7 +22,7 @@
 
 ```text
 【每日科技快讯】11月28日 周六
-今日 AI 与开源要闻 18 条，3 分钟速读
+今日 AI 与开源要闻 15 条，3 分钟速读
 
 【俱乐部动态】
 1. 开放原子开源俱乐部合并 3 个 PR、提交 17 次
@@ -30,42 +30,34 @@
 3. atomgit-cli 发布 v0.7.5
 
 【国内动态】
-4. 首个带跨任务空间记忆的原生基模开源
-→ 首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。
-5. 豆包工作宣布接入剪映官方插件
+4. 蚂蚁开源跨任务空间记忆基模
+→ 蚂蚁开源带跨任务空间记忆的原生基模，机器人端侧即可运行。
+5. 豆包工作接入剪映官方插件
 → 豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。
-6. Kimi 向科学家提供最高 2 万美元 API 免费额度
-→ 月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。
-
-【海外动态】
-7. Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
-→ llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。
-8. Taking Trainium3 to the Track: Generating Videos with LTX-2.5
-→ 在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。
-9. Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活
-→ Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。
+6. 月之暗面向科学家提供API额度
+→ 月之暗面向自然科学等领域研究人员提供最高2万美元Kimi API额度。
 
 【开源项目】
-10. 微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动
+7. llama-cpp-rdna-boosts 优化 AMD 显卡推理
+→ llama-cpp-rdna-boosts 优化了 AMD 显卡推理，提升了生成速度。
+8. WeMM-Ecom 开源多模态模型
 → 腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。
-11. opensetlabs/openset-llm
-→ Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.
-12. awslabs/cli-agent-orchestrator
-→ Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions。
-13. DeadInternetStudios/100x-engineer-skill
-→ 100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code。
-14. DataTalksClub/llm-zoomcamp
-→ LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI…
+9. LTX-2.5 在 Trainium3 上测试
+→ Hugging Face 在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。
+10. openset-llm：普通 CPU 本地 LLM 推理
+→ openset-llm 在普通 CPU 上快速进行本地 LLM 推理，无需 GPU。
+11. awslabs/cli-agent-orchestrator
+→ cli-agent-orchestrator 为 AI 编码 CLI 提供多智能体编排，支持 Claude Code 等工具。
 
 【学术前沿】
-15. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…
-→ Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…
-16. Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili…
-→ Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…
-17. DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers
-→ Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Exper…
-18. Revisiting LLMs as Context Engineers
-→ As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…
+12. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…
+→ Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。
+13. Stable Gated DeltaNet-2 论文
+→ Stable Gated DeltaNet-2 论文分析了线性注意力模型在长序列训练中状态不稳定的问题，提出了缓解方法。
+14. Anthropic揭示AI假遗忘现象
+→ Anthropic研究发现AI存在假遗忘现象，只需微调几十个神经元即可恢复知识。
+15. DyLoMo-DiT 论文
+→ DyLoMo-DiT 论文提出了一种动态循环混合专家扩散 Transformer，通过复用参数来加深网络结构。
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
@@ -88,47 +80,39 @@
 
 #### 国内动态
 
-**首个带跨任务空间记忆的原生基模开源**<br>11月27日，首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/513227.html)）</sub>
+**蚂蚁开源跨任务空间记忆基模**<br>11月27日，蚂蚁开源带跨任务空间记忆的原生基模，机器人端侧即可运行。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/513227.html)）</sub>
 
-**豆包工作宣布接入剪映官方插件**<br>11月27日，豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。<br><sub>（来源：[智东西](https://zhidx.com/p/615139.html)）</sub>
+**豆包工作接入剪映官方插件**<br>11月27日，豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。<br><sub>（来源：[智东西](https://zhidx.com/p/615139.html)）</sub>
 
-**Kimi 向科学家提供最高 2 万美元 API 免费额度**<br>11月28日，月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。<br><sub>（来源：[Solidot](https://www.solidot.org/story?sid=86015)）</sub>
-
-#### 海外动态
-
-**Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon**<br>11月26日，llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/ggml-org/llamacpp-amd-bench)）</sub>
-
-**Taking Trainium3 to the Track: Generating Videos with LTX-2.5**<br>11月27日，在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/video-trainium3)）</sub>
-
-**Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活**<br>11月28日，Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/28/other/admin/125660/anthropic%e6%8b%86%e7%a9%bfai%e5%81%87%e9%81%97%e5%bf%98%ef%bc%8146%e4%b8%87%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8a%a8%e5%87%a0%e5%8d%81%e4%b8%aa%ef%bc%8c%e9%bb%91%e5%ae%a2%e7%9f%a5%e8%af%86%e5%b0%b1/)）</sub>
+**月之暗面向科学家提供API额度**<br>11月28日，月之暗面向自然科学等领域研究人员提供最高2万美元Kimi API额度。<br><sub>（来源：[Solidot](https://www.solidot.org/story?sid=86015)）</sub>
 
 #### 开源项目
 
-**微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动**<br>11月27日，腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503871)）</sub>
+**llama-cpp-rdna-boosts 优化 AMD 显卡推理**<br>11月27日，llama-cpp-rdna-boosts 优化了 AMD 显卡推理，提升了生成速度。<br><sub>（来源：[Hacker News](https://devnull.land/amd-specific-llama-cpp)）</sub>
 
-**opensetlabs/openset-llm**<br>11月28日消息，Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.<br><sub>（来源：[GitHub 新项目](https://github.com/opensetlabs/openset-llm)）</sub>
+**WeMM-Ecom 开源多模态模型**<br>11月27日，腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503871)）</sub>
 
-**awslabs/cli-agent-orchestrator**<br>11月28日消息，Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions。<br><sub>（来源：[GitHub Trending](https://github.com/awslabs/cli-agent-orchestrator)）</sub>
+**LTX-2.5 在 Trainium3 上测试**<br>11月27日，Hugging Face 在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/video-trainium3)）</sub>
 
-**DeadInternetStudios/100x-engineer-skill**<br>11月28日消息，100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code。<br><sub>（来源：[GitHub 新项目](https://github.com/DeadInternetStudios/100x-engineer-skill)）</sub>
+**openset-llm：普通 CPU 本地 LLM 推理**<br>11月28日消息，openset-llm 在普通 CPU 上快速进行本地 LLM 推理，无需 GPU。<br><sub>（来源：[GitHub 新项目](https://github.com/opensetlabs/openset-llm)）</sub>
 
-**DataTalksClub/llm-zoomcamp**<br>11月28日消息，LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI…<br><sub>（来源：[GitHub Trending](https://github.com/DataTalksClub/llm-zoomcamp)）</sub>
+**awslabs/cli-agent-orchestrator**<br>11月28日消息，cli-agent-orchestrator 为 AI 编码 CLI 提供多智能体编排，支持 Claude Code 等工具。<br><sub>（来源：[GitHub Trending](https://github.com/awslabs/cli-agent-orchestrator)）</sub>
 
 #### 学术前沿
 
-**Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…**<br>11月26日，Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.34813)）</sub>
+**Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…**<br>11月26日，Solve Vision with Code 研究表明代码智能体在视觉推理任务上比视频模型表现更强。<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.34813)）</sub>
 
-**Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili…**<br>11月28日消息，Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.34051)）</sub>
+**Stable Gated DeltaNet-2 论文**<br>11月28日消息，Stable Gated DeltaNet-2 论文分析了线性注意力模型在长序列训练中状态不稳定的问题，提出了缓解方法。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.34051)）</sub>
 
-**DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers**<br>11月28日消息，Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Exper…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.30844)）</sub>
+**Anthropic揭示AI假遗忘现象**<br>11月28日，Anthropic研究发现AI存在假遗忘现象，只需微调几十个神经元即可恢复知识。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/28/other/admin/125660/anthropic%e6%8b%86%e7%a9%bfai%e5%81%87%e9%81%97%e5%bf%98%ef%bc%8146%e4%b8%87%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8a%a8%e5%87%a0%e5%8d%81%e4%b8%aa%ef%bc%8c%e9%bb%91%e5%ae%a2%e7%9f%a5%e8%af%86%e5%b0%b1/)）</sub>
 
-**Revisiting LLMs as Context Engineers**<br>11月28日消息，As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.30494)）</sub>
+**DyLoMo-DiT 论文**<br>11月28日消息，DyLoMo-DiT 论文提出了一种动态循环混合专家扩散 Transformer，通过复用参数来加深网络结构。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.30844)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月27日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-28 09:58（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月27日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-28 11:37（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 
