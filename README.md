@@ -12,61 +12,65 @@
 
 <!-- wta:latest:start -->
 
-## 每日快讯 · 11.27（周五）
+## 每日快讯 · 11.28（周六）
 
-> 今日 AI 与开源要闻 **16** 条，3 分钟速读。<br>
-> [单独打开](daily/2026/2026-11-27-kuaixun.md) · [公众号排版版](daily/2026/2026-11-27-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-27.md) · [往期日报](daily/README.md)
+> 今日 AI 与开源要闻 **18** 条，3 分钟速读。<br>
+> [单独打开](daily/2026/2026-11-28-kuaixun.md) · [公众号排版版](daily/2026/2026-11-28-kuaixun.html) · [完整日报（含热度和原题）](daily/2026/2026-11-28.md) · [往期日报](daily/README.md)
 
 <details>
 <summary>群消息文字版（点开后，点代码框右上角的按钮整段复制）</summary>
 
 ```text
-【每日科技快讯】11月27日 周五
-今日 AI 与开源要闻 16 条，3 分钟速读
+【每日科技快讯】11月28日 周六
+今日 AI 与开源要闻 18 条，3 分钟速读
 
 【俱乐部动态】
-1. 开放原子开源俱乐部合并 9 个 PR、提交 6 次
-2. TranslateProject 合并 6 个 PR
-3. AtomGit-Mobile4Android 合并 1 个 PR
+1. 开放原子开源俱乐部合并 3 个 PR、提交 17 次
+2. atomgit-cli 提交 12 次
+3. atomgit-cli 发布 v0.7.5
 
 【国内动态】
-4. MiniMax MIM模型破译密码学悬案
-→ MiniMax内部模型MIM攻破多个NIST密码候选方案，破译效率提升43400倍。
-5. VAST发布Tripo H3.5 Preview
-→ VAST发布Tripo H3.5 Preview，在复杂结构还原和几何生成上显著优于竞品。
-6. TabbyML用AI Agents优化Quickwit
-→ TabbyML让20个AI Agents组成团队优化开源搜索引擎Quickwit，热查询评分降至304毫秒。
+4. 首个带跨任务空间记忆的原生基模开源
+→ 首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。
+5. 豆包工作宣布接入剪映官方插件
+→ 豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。
+6. Kimi 向科学家提供最高 2 万美元 API 免费额度
+→ 月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。
+
+【海外动态】
+7. Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+→ llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。
+8. Taking Trainium3 to the Track: Generating Videos with LTX-2.5
+→ 在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。
+9. Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活
+→ Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。
 
 【开源项目】
-7. llama.cpp 发布 1.1.0 版本
-→ llama.cpp v1.1.0 新增 Inkling 2 等模型，支持 TTS 音频模型，并重构了 llama-server 的调度。
-8. xorbitsai/inference 发布 4.3.0 版本
-→ xorbitsai/inference v4.3.0 支持可选的聊天优先级提示，并允许在张量并行和多模态 vLLM 副本间共享 Xavier 快照。
-9. alesha-pro/llm.asm
-→ 该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。
-10. nexu-io/opengame
-→ 该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。
-11. bendlang/bend：通过证明阻止 AI 错误的快速语言
-→ Bend 2 是一种通过证明来阻止 AI 错误的快速语言。
+10. 微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动
+→ 腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。
+11. opensetlabs/openset-llm
+→ Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.
+12. awslabs/cli-agent-orchestrator
+→ Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions。
+13. DeadInternetStudios/100x-engineer-skill
+→ 100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code。
+14. DataTalksClub/llm-zoomcamp
+→ LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI…
 
 【学术前沿】
-12. Google 发布 Cogentic 研究论文
-→ Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。
-13. Sage-Med：医疗多模态智能的扩展
-→ 本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。
-14. Any-Rate：基于编码位平面的半比特多精度量化
-→ 本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。
-15. Anthropic 发布 GRH Lean 验证精简版
-→ Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。
-
-【产业纵横】
-16. Google 要求 AI 代理使用其 MCP 服务器
-→ Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。
+15. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…
+→ Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…
+16. Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili…
+→ Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…
+17. DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers
+→ Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Exper…
+18. Revisiting LLMs as Context Engineers
+→ As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…
 
 【活动预告】
 · 12月3日 EuroVis 2027 论文截稿
 
-完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-27-kuaixun.md
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-28-kuaixun.md
 标题和要点由 AI 整理，可能有误，请以原文为准。
 ```
 
@@ -76,51 +80,55 @@
 
 #### 俱乐部动态
 
-**开放原子开源俱乐部合并 9 个 PR、提交 6 次**<br>11月26日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 3 个有人参与开发，共新增 PR 3 个、合并 9 个，提交 6 次，新增代码 4839 行、删除 246 行，5 位贡献者参与，其中 1 位是第一次贡献。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
+**开放原子开源俱乐部合并 3 个 PR、提交 17 次**<br>11月27日，据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 3 个、合并 3 个，提交 17 次，新增代码 227 行、删除 69 行，3 位贡献者参与。<br><sub>（来源：[俱乐部开源仪表盘](https://osd.openatom.club/)）</sub>
 
-**TranslateProject 合并 6 个 PR**<br>11月26日，HCTT SIG的 TranslateProject 仓库新增 PR 2 个、合并 6 个、提交 2 次、新增代码 135 行，3 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/TranslateProject)）</sub>
+**atomgit-cli 提交 12 次**<br>11月27日，Agent SIG的 atomgit-cli 仓库提交 12 次、新增代码 215 行，3 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/atomgit-cli)）</sub>
 
-**AtomGit-Mobile4Android 合并 1 个 PR**<br>11月26日，Agent SIG的 AtomGit-Mobile4Android 仓库合并 1 个、提交 1 次、新增代码 4613 行，1 位贡献者参与。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/AtomGit-Mobile4Android)）</sub>
+**atomgit-cli 发布 v0.7.5**<br>11月27日，atomgit-cli 发布新版本 v0.7.5。<br><sub>（来源：[GitHub](https://github.com/hust-open-atom-club/atomgit-cli/releases/tag/v0.7.5)）</sub>
 
 #### 国内动态
 
-**MiniMax MIM模型破译密码学悬案**<br>11月26日，MiniMax内部模型MIM攻破多个NIST密码候选方案，破译效率提升43400倍。<br><sub>（来源：[雷峰网](https://www.leiphone.com/category/yanxishe/T2xmmiMAC6WbuuCM.html)）</sub>
+**首个带跨任务空间记忆的原生基模开源**<br>11月27日，首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/513227.html)）</sub>
 
-**VAST发布Tripo H3.5 Preview**<br>11月26日，VAST发布Tripo H3.5 Preview，在复杂结构还原和几何生成上显著优于竞品。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/512981.html)）</sub>
+**豆包工作宣布接入剪映官方插件**<br>11月27日，豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。<br><sub>（来源：[智东西](https://zhidx.com/p/615139.html)）</sub>
 
-**TabbyML用AI Agents优化Quickwit**<br>11月27日，TabbyML让20个AI Agents组成团队优化开源搜索引擎Quickwit，热查询评分降至304毫秒。<br><sub>（来源：[量子位](https://www.qbitai.com/2026/11/513053.html)）</sub>
+**Kimi 向科学家提供最高 2 万美元 API 免费额度**<br>11月28日，月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。<br><sub>（来源：[Solidot](https://www.solidot.org/story?sid=86015)）</sub>
+
+#### 海外动态
+
+**Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon**<br>11月26日，llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/ggml-org/llamacpp-amd-bench)）</sub>
+
+**Taking Trainium3 to the Track: Generating Videos with LTX-2.5**<br>11月27日，在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。<br><sub>（来源：[Hugging Face 博客](https://huggingface.co/blog/video-trainium3)）</sub>
+
+**Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活**<br>11月28日，Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。<br><sub>（来源：[新智元](https://aiera.com.cn/2026/11/28/other/admin/125660/anthropic%e6%8b%86%e7%a9%bfai%e5%81%87%e9%81%97%e5%bf%98%ef%bc%8146%e4%b8%87%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8a%a8%e5%87%a0%e5%8d%81%e4%b8%aa%ef%bc%8c%e9%bb%91%e5%ae%a2%e7%9f%a5%e8%af%86%e5%b0%b1/)）</sub>
 
 #### 开源项目
 
-**llama.cpp 发布 1.1.0 版本**<br>11月26日，llama.cpp v1.1.0 新增 Inkling 2 等模型，支持 TTS 音频模型，并重构了 llama-server 的调度。<br><sub>（来源：[GitHub 版本发布](https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0)）</sub>
+**微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动**<br>11月27日，腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。<br><sub>（来源：[开源中国](https://www.oschina.net/news/503871)）</sub>
 
-**xorbitsai/inference 发布 4.3.0 版本**<br>11月26日，xorbitsai/inference v4.3.0 支持可选的聊天优先级提示，并允许在张量并行和多模态 vLLM 副本间共享 Xavier 快照。<br><sub>（来源：[GitHub 版本发布](https://github.com/xorbitsai/inference/releases/tag/v4.3.0)）</sub>
+**opensetlabs/openset-llm**<br>11月28日消息，Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.<br><sub>（来源：[GitHub 新项目](https://github.com/opensetlabs/openset-llm)）</sub>
 
-**alesha-pro/llm.asm**<br>11月27日消息，该项目用纯 x86-64 NASM 汇编编写了 Qwen3-0.6B 推理、裸机启动 OS 和 Mini-GPT 训练器。<br><sub>（来源：[GitHub 新项目](https://github.com/alesha-pro/llm.asm)）</sub>
+**awslabs/cli-agent-orchestrator**<br>11月28日消息，Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions。<br><sub>（来源：[GitHub Trending](https://github.com/awslabs/cli-agent-orchestrator)）</sub>
 
-**nexu-io/opengame**<br>11月27日消息，该项目提供游戏素材，支持将编码代理转化为全栈 AI 游戏工作室。<br><sub>（来源：[GitHub 新项目](https://github.com/nexu-io/opengame)）</sub>
+**DeadInternetStudios/100x-engineer-skill**<br>11月28日消息，100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code。<br><sub>（来源：[GitHub 新项目](https://github.com/DeadInternetStudios/100x-engineer-skill)）</sub>
 
-**bendlang/bend：通过证明阻止 AI 错误的快速语言**<br>11月27日消息，Bend 2 是一种通过证明来阻止 AI 错误的快速语言。<br><sub>（来源：[GitHub Trending](https://github.com/bendlang/bend)）</sub>
+**DataTalksClub/llm-zoomcamp**<br>11月28日消息，LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI…<br><sub>（来源：[GitHub Trending](https://github.com/DataTalksClub/llm-zoomcamp)）</sub>
 
 #### 学术前沿
 
-**Google 发布 Cogentic 研究论文**<br>11月25日，Google Research 发布了包含整数分解、离散对数等内容的研究论文，内容发布在 GitHub 上。<br><sub>（来源：[Hacker News](https://github.com/google-research/google-research/tree/master/cogentic_research_papers)）</sub>
+**Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…**<br>11月26日，Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…<br><sub>（来源：[arXiv · 智能体](https://arxiv.org/abs/2611.34813)）</sub>
 
-**Sage-Med：医疗多模态智能的扩展**<br>11月25日，本文提出 Sage-Med-Preview 模型，通过结合特定阶段的数据筛选和渐进式训练课程，在视觉理解和医疗语言能力上均有显著提升。<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.34575)）</sub>
+**Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili…**<br>11月28日消息，Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.34051)）</sub>
 
-**Any-Rate：基于编码位平面的半比特多精度量化**<br>11月25日，本文提出 Any-Rate 方法，从单个检查点提供 2-8 比特的量化，在 2-4 比特范围内以半比特步进。<br><sub>（来源：[arXiv · 高效推理](https://arxiv.org/abs/2611.34402)）</sub>
+**DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers**<br>11月28日消息，Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Exper…<br><sub>（来源：[Hugging Face 热门论文](https://arxiv.org/abs/2611.30844)）</sub>
 
-**Anthropic 发布 GRH Lean 验证精简版**<br>11月26日，Anthropic 与 Claude 合作发布了黎曼猜想和广义黎曼猜想的 Lean 4 证明精简版。<br><sub>（来源：[Hacker News](https://github.com/lsernau/grh-lean)）</sub>
-
-#### 产业纵横
-
-**Google 要求 AI 代理使用其 MCP 服务器**<br>11月26日，Google 规定从 2027 年起，AI 代理必须通过其 MCP 服务器访问 Workspace 服务。<br><sub>（来源：[Hacker News](https://techstackups.com/articles/google-workspace-ai-agents-mcp/)）</sub>
+**Revisiting LLMs as Context Engineers**<br>11月28日消息，As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…<br><sub>（来源：[arXiv · 长上下文与检索](https://arxiv.org/abs/2611.30494)）</sub>
 
 ### 活动预告
 
 **EuroVis 2027 论文截稿**<br>12月3日，Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。<br><sub>（来源：[会议官网](https://eurovis27.github.io/web/)）</sub>
 
-<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月26日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-27 11:51（北京时间）自动生成。</sub>
+<sub>标题和正文由 AI 根据原文整理（glm-4.7-flash），可能有误，请以原文为准。 俱乐部动态的统计日期为11月27日，数据来自[俱乐部开源仪表盘](https://osd.openatom.club/)。 会议截稿时间来自[CCFDDL](https://ccfddl.com/)，已换算成北京时间，请以会议官网为准。 有新闻线索欢迎[提交 Issue](https://github.com/game-life04/weekly-tech-agent/issues)。 本期由[每周科技收集 Agent](https://github.com/game-life04/weekly-tech-agent)于 2026-11-28 09:58（北京时间）自动生成。</sub>
 
 ## 每周快讯 第 6 期 · 11.16–11.22
 

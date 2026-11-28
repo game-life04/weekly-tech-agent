@@ -1,0 +1,51 @@
+【每日科技快讯】11月28日 周六
+今日 AI 与开源要闻 18 条，3 分钟速读
+
+【俱乐部动态】
+1. 开放原子开源俱乐部合并 3 个 PR、提交 17 次
+2. atomgit-cli 提交 12 次
+3. atomgit-cli 发布 v0.7.5
+
+【国内动态】
+4. 首个带跨任务空间记忆的原生基模开源
+→ 首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。
+5. 豆包工作宣布接入剪映官方插件
+→ 豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。
+6. Kimi 向科学家提供最高 2 万美元 API 免费额度
+→ 月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。
+
+【海外动态】
+7. Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon
+→ llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。
+8. Taking Trainium3 to the Track: Generating Videos with LTX-2.5
+→ 在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。
+9. Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活
+→ Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。
+
+【开源项目】
+10. 微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动
+→ 腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。
+11. opensetlabs/openset-llm
+→ Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.
+12. awslabs/cli-agent-orchestrator
+→ Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions。
+13. DeadInternetStudios/100x-engineer-skill
+→ 100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code。
+14. DataTalksClub/llm-zoomcamp
+→ LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI…
+
+【学术前沿】
+15. Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…
+→ Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…
+16. Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili…
+→ Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…
+17. DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers
+→ Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Exper…
+18. Revisiting LLMs as Context Engineers
+→ As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…
+
+【活动预告】
+· 12月3日 EuroVis 2027 论文截稿
+
+完整版（含原文链接）：https://github.com/game-life04/weekly-tech-agent/blob/main/daily/2026/2026-11-28-kuaixun.md
+标题和要点由 AI 整理，可能有误，请以原文为准。

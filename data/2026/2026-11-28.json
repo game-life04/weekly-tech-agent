@@ -1,0 +1,1311 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T01:58:42Z",
+ "llm": {
+  "provider": "智谱",
+  "model": "glm-4.7-flash"
+ },
+ "candidates": 416,
+ "sources": [
+  {
+   "name": "hackernews",
+   "title": "Hacker News",
+   "group": "Hacker News",
+   "ok": true,
+   "count": 53,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:OpenAI",
+   "title": "OpenAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Anthropic",
+   "title": "Anthropic",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Anthropic 研究",
+   "title": "Anthropic 研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Meta AI",
+   "title": "Meta AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:xAI",
+   "title": "xAI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Google DeepMind",
+   "title": "Google DeepMind",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:Google AI",
+   "title": "Google AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:Google Research",
+   "title": "Google Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Mistral AI",
+   "title": "Mistral AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Hugging Face 博客",
+   "title": "Hugging Face 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Microsoft Research",
+   "title": "Microsoft Research",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.5
+  },
+  {
+   "name": "rss:Apple 机器学习研究",
+   "title": "Apple 机器学习研究",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:NVIDIA 博客",
+   "title": "NVIDIA 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:vLLM 博客",
+   "title": "vLLM 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ollama 博客",
+   "title": "Ollama 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.2
+  },
+  {
+   "name": "rss:LangChain 博客",
+   "title": "LangChain 博客",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Simon Willison",
+   "title": "Simon Willison",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Lilian Weng",
+   "title": "Lilian Weng",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:Ahead of AI",
+   "title": "Ahead of AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Interconnects",
+   "title": "Interconnects",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Import AI",
+   "title": "Import AI",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Latent Space",
+   "title": "Latent Space",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:MIT 科技评论",
+   "title": "MIT 科技评论",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:Ars Technica",
+   "title": "Ars Technica",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 0,
+   "error": "",
+   "seconds": 0.3
+  },
+  {
+   "name": "rss:The Decoder",
+   "title": "The Decoder",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.8
+  },
+  {
+   "name": "rss:TechCrunch",
+   "title": "TechCrunch",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "rss:The Verge",
+   "title": "The Verge",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.0
+  },
+  {
+   "name": "rss:新智元",
+   "title": "新智元",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 2.2
+  },
+  {
+   "name": "rss:InfoQ 中文",
+   "title": "InfoQ 中文",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 4,
+   "error": "",
+   "seconds": 1.8
+  },
+  {
+   "name": "rss:雷峰网",
+   "title": "雷峰网",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.4
+  },
+  {
+   "name": "rss:智东西",
+   "title": "智东西",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:IT之家",
+   "title": "IT之家",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "rss:36氪",
+   "title": "36氪",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:爱范儿",
+   "title": "爱范儿",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 0.9
+  },
+  {
+   "name": "rss:极客公园",
+   "title": "极客公园",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.5
+  },
+  {
+   "name": "rss:少数派",
+   "title": "少数派",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 1.0
+  },
+  {
+   "name": "rss:Solidot",
+   "title": "Solidot",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 1.2
+  },
+  {
+   "name": "rss:阮一峰周刊",
+   "title": "阮一峰周刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.4
+  },
+  {
+   "name": "rss:开源中国",
+   "title": "开源中国",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 3,
+   "error": "",
+   "seconds": 2.1
+  },
+  {
+   "name": "rss:HelloGitHub 月刊",
+   "title": "HelloGitHub 月刊",
+   "group": "RSS 订阅",
+   "ok": true,
+   "count": 1,
+   "error": "",
+   "seconds": 0.7
+  },
+  {
+   "name": "qbitai",
+   "title": "量子位",
+   "group": "量子位",
+   "ok": true,
+   "count": 5,
+   "error": "",
+   "seconds": 2.0
+  },
+  {
+   "name": "github_trending",
+   "title": "GitHub Trending",
+   "group": "GitHub Trending",
+   "ok": true,
+   "count": 51,
+   "error": "",
+   "seconds": 10.6
+  },
+  {
+   "name": "github_new",
+   "title": "GitHub 新项目",
+   "group": "GitHub 新项目",
+   "ok": true,
+   "count": 334,
+   "error": "",
+   "seconds": 23.5
+  },
+  {
+   "name": "github_releases",
+   "title": "GitHub 版本发布",
+   "group": "GitHub 版本发布",
+   "ok": true,
+   "count": 2,
+   "error": "",
+   "seconds": 18.8
+  },
+  {
+   "name": "hot_models:huggingface",
+   "title": "Hugging Face 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 0.1
+  },
+  {
+   "name": "hot_models:modelscope",
+   "title": "魔搭 ModelScope 热门模型",
+   "group": "热门模型",
+   "ok": true,
+   "count": 8,
+   "error": "",
+   "seconds": 1.4
+  },
+  {
+   "name": "papers",
+   "title": "论文",
+   "group": "论文",
+   "ok": true,
+   "count": 27,
+   "error": "",
+   "seconds": 36.1
+  }
+ ],
+ "items": [
+  {
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-26T21:47:45Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 1101.0,
+    "comments": 507.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50660180",
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "I’ve been self-hosting things for many years. There were times when I was quite enthusiastic about it, constantly trying out new software and tinkering with my infrastructure. But at some point, that enthusiasm faded a bit. I never really stopped self-hosting, but I became less inclined to experiment with new things. Maintaining what I already had running was enough for me. Over the last few months, however, I’ve found myself getting increasingly excited about self-hosting again. And, somewhat ironically, AI is a big reason for that. Less friction Most of my infrastructure configuration lives in Git repositories, mainly in the form of Docker Compose files, scripts, and other configuration files. This makes it possible to use AI coding agents to work on my infrastructure in much the same w…"
+   },
+   "id": "b39aca2571fd",
+   "score": 8.05,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-26T17:11:29Z",
+   "summary": "",
+   "heat": 0.979,
+   "weight": 0.6,
+   "metrics": {
+    "points": 438.0,
+    "comments": 106.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50657265",
+    "excerpt_tried": true,
+    "evidence": "Miscellaneous bits and bobs from the tech world tl;dr — I recommend using llama-cpp-rdna-boosts if you have an AMD graphics card. It’s lean, and increased my token generation from 35 to 55 tokens/second, and my prefill from 700 to 1300 tokens per second. YMMV. As of November 2026, an explosion in the number of bespoke inference engines has taken place. Many of them take inspiration from the engines that enabled much of the LLM inference up 'til now: llama.cpp, SGLang, vLLM, etc. The rationale isn’t that those options are bad, but merely that they are generalist engines, optimized for no particular hardware and with a focus on broad compatibility. Others feel the development pace of those engines have slowed down, and with the help of LLMs, they can move faster on their own. Some examples…"
+   },
+   "id": "a1d60a2f72d2",
+   "score": 7.94,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "I'm Scared of AI",
+   "url": "https://thesoapbox.email/archive/3",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-27T17:45:31Z",
+   "summary": "",
+   "heat": 0.855,
+   "weight": 0.6,
+   "metrics": {
+    "points": 202.0,
+    "comments": 241.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50669561",
+    "excerpt_tried": true,
+    "evidence": "Dear Soapboxers, AI is scaring me, and not for the reason you think. Yes, the threat of increasing hacks that could melt down the global economy or… Written by a randomly drawn subscriber, read by a human, then sent to the whole list. Its writer chose to share it here. One every morning at 08:00, written by someone on the list. Join, and the next one could be yours."
+   },
+   "id": "9921ceee6fef",
+   "score": 7.85,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "source": "hackernews",
+   "section": "news",
+   "via": "Hacker News",
+   "published": "2026-11-26T03:36:58Z",
+   "summary": "",
+   "heat": 1.0,
+   "weight": 0.6,
+   "metrics": {
+    "points": 508.0,
+    "comments": 274.0
+   },
+   "extra": {
+    "discussion": "https://news.ycombinator.com/item?id=50651117"
+   },
+   "id": "42cfffd5a574",
+   "score": 7.82,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+   "url": "https://www.qbitai.com/2026/11/513227.html",
+   "source": "qbitai",
+   "section": "news",
+   "via": "量子位",
+   "published": "2026-11-27T07:01:20Z",
+   "summary": "地图能随时修，记忆能跨任务用",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "excerpt_tried": true,
+    "evidence": "地图能随时修，记忆能跨任务用 地下停车场巡检两公里，哪怕每百米只偏半米，一路累积回到起点地图就错位十米；明明是同一根立柱却出现两次，后续定位导航全都乱套。 接到第一个指令，机器人走遍整个办公室，终于找到了角落里的打印机。第二回，要找的打印机明明上一次路过时就见过，机器人却毫无印象，又一次从头找起。 很明显，左边的画面里，一路累积的漂移在模型自纠偏之后，前后拍到的通道对得更齐了。右边的机器人换了任务，依旧能调用之前的三块局部空间记忆。 而且！无一例外，都是把空间记忆直接打包塞进了机器人通用大脑，也就是蚂蚁一直讲的 具身原生 。 好处也很明显， 「一回生二回熟」 ，机器人干活更高效了，还能像人一样端上铁饭碗，同一个地方能一直干下去。 就连SLAM领域的泰斗级人物、帝国理工学院教授Andrew Davison 都亲自下场点赞—— Looks impressive！ 但 缺点也有 ，这样跑实在太依赖前期准备了。。。换个地点、目标，原来的通道和点位就得跟着变。 单个RGB摄像头不停送来画面，模型同步估出相机的位置、朝向和画面中物体的深度，再把看到的空间接起来。 今年4月开源的 LingBot-Map 1.0 已经可以做到，走出去一小段，地图也能跟着往前画。 难就难在怎么把这一段和下一段接起来，还不出错。要是初始位置就估偏了，后面的画面也会沿用这个参照，误差就可能大到从轨迹和点云里看出来。 以CLoSeR为例，系统先通过地点检索找到可能的重访位置，再用这些关联做位姿图优化，把轨迹校正过来。 还是有点麻烦，而且这个方案有一大弊病： 它并不会修正模型内部的空间记忆 ，机器人继续行进时依旧会基于这份已经产生偏差的记忆做出错误判断。 顺着相机走过的轨迹看，博物馆的同一片展厅被前后拍到了好几次。在纠偏前，局部点云的观测有些错位，重新估计后，又 实时对齐 了。 这就是LingBot-Map 2.…",
+    "llm_done": true
+   },
+   "id": "eec1d12687d5",
+   "score": 7.17,
+   "title_zh": "首个带跨任务空间记忆的原生基模开源",
+   "summary_zh": "首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。",
+   "tags": [
+    "模型发布",
+    "机器人",
+    "开源"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Kimi 向科学家提供最高 2 万美元 API 免费额度",
+   "url": "https://www.solidot.org/story?sid=86015",
+   "source": "rss",
+   "section": "news",
+   "via": "Solidot",
+   "published": "2026-11-27T16:14:48Z",
+   "summary": "Kimi 大模型开发商月之暗面宣布了 Kimi for Science 项目，欢迎自然科学、工程学及相关交叉学科领域的研究人员加入。月之暗面表示，“科学始终源于人类的好奇心、严谨的探索精神，以及对未知世界的不懈追求。一个有价值的科学假设，往往需要经过大量的文献调研、数据分析和反复验证。而一次意料之外的发现，也可能成为下一项重大突破的起点。然而受限于时间、算力与人力资源，许多值得深入探索的想法，始终未能获得应有的关注与投入。我们相信 AI 能加速科学研究，拓展探索与发现的边界，帮助研究者突破时间、资源与研究方法的局限，让更多大胆而富有想象力的科学构想从可能走向现实。”月之暗面将向入选的研究人员提供最高 20,000 美元的 Kimi API 额度（约 70 亿 token），具体金额将根据研究需求及评估结果确定。",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "46293ad241d8",
+   "score": 6.94,
+   "title_zh": "Kimi 向科学家提供最高 2 万美元 API 免费额度",
+   "summary_zh": "月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。",
+   "tags": [
+    "模型发布",
+    "科研",
+    "API"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "颤抖吧剪辑师！你豆姐能直接操控剪映了！",
+   "url": "https://zhidx.com/p/615139.html",
+   "source": "rss",
+   "section": "news",
+   "via": "智东西",
+   "published": "2026-11-27T13:08:20Z",
+   "summary": "AI应用风向标（公众号：ZhidxcomAI） 作者｜毕伟豪 编辑｜漠影 智东西11月27日报道，今天， 豆包工作宣布接入剪映官方插件 ，支持通过自然语言完成视频剪辑、多轮修改和多轨编辑。 用户只需要提供素材，再用一句话描述剪辑需求，豆包工作就能 调用剪映完成相关操作 ，还可以直接打开剪映草稿进行后续调整。 此外，此次接入还支持调用剪映Hub， 将文稿、代码、脚本或商品图转化为科普动画、知识短视频、短漫剧 等内容。 为了看看这套功能究竟好不好用，智东西准备了 口播、古风短视频、纪录片、二次元动漫和长视频 等不同类型的素材，让豆包工作直接完成剪辑。 一、实测一句话剪视频：口播表现最好，古风短视频几经波折 首先，我们选择了比较常见的口播视频素材。要求豆包工作 去除口误、语气词、重复内容和多余停顿，同时添加字幕、轻快的背景音乐和适当的转场效果 。 可以看到， 整体口播视频很完整 ，添加了字幕、特效、转场等，配乐也没有抢掉本身口播的主体感。 剪辑完成后，我们可以在剪映里 看到完整的工程文件 ，能看到豆包给这段口播添加了不少素材，还使用了剪映会员的字幕功能。 随后，我们准备了5段网红古装拍摄素…",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "b1df9905093b",
+   "score": 6.9,
+   "title_zh": "豆包工作宣布接入剪映官方插件",
+   "summary_zh": "豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。",
+   "tags": [
+    "应用",
+    "视频",
+    "工具"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+   "url": "https://huggingface.co/blog/video-trainium3",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-11-27T00:00:00Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "We’re on a journey to advance and democratize artificial intelligence through open source and open science. Thanks to our partnership with AWS, we were lucky enough to get access to a Trainium3 machine ( trn3.48xlarge , 64 NeuronCores) for a month. We spent most of the month testing Hugging Face models on it, and getting more of them to work. With five days left, I allowed myself a little fun. When you have a Ferrari, every now and then you want to take it out on the track. So I asked myself: what if I tried to generate videos? I picked LTX-2.5 from Lightricks, which generates video and sound together. By the end, once the models were loaded, a 10-second clip with sound took 22 to 23 s to generate, on half of the machine. Here is the result. I had two goals. The first was to see how easy…",
+    "llm_done": true
+   },
+   "id": "c1d113f52f2a",
+   "score": 6.83,
+   "title_zh": "",
+   "summary_zh": "在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。",
+   "tags": [
+    "评测",
+    "视频生成",
+    "硬件"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "source": "rss",
+   "section": "news",
+   "via": "Hugging Face 博客",
+   "published": "2026-11-26T11:37:17Z",
+   "summary": "",
+   "heat": 0.65,
+   "weight": 0.65,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "excerpt_tried": true,
+    "evidence": "A Blog post by ggml-org on Hugging Face The llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference performs on AMD Ryzen and Radeon hardware. Local inference performance changes as models, kernels, and builds evolve. We want those changes to be easy to inspect for any AMD developer: pick a hardware, a model and a build, compare quantizations, and follow performance over time. The benchmark workflow and underlying results are public, so you can also inspect how we benchmark inference performance. You can choose Hardware , Model , and llama.cpp build in the Configuration sidebar. The current hardware choices are Radeon 8060…",
+    "llm_done": true
+   },
+   "id": "49da20359108",
+   "score": 6.74,
+   "title_zh": "",
+   "summary_zh": "llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。",
+   "tags": [
+    "评测",
+    "开源",
+    "本地推理"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活",
+   "url": "https://aiera.com.cn/2026/11/28/other/admin/125660/anthropic%e6%8b%86%e7%a9%bfai%e5%81%87%e9%81%97%e5%bf%98%ef%bc%8146%e4%b8%87%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8a%a8%e5%87%a0%e5%8d%81%e4%b8%aa%ef%bc%8c%e9%bb%91%e5%ae%a2%e7%9f%a5%e8%af%86%e5%b0%b1/",
+   "source": "rss",
+   "section": "news",
+   "via": "新智元",
+   "published": "2026-11-28T00:03:18Z",
+   "summary": "AI考试题答不出来，就等于它不会吗？ 11月25日，Anthropic晒出两篇新研究，揭开了AI「假遗忘」的真相：有的遗忘模型，46万个神经元里只要动几十个，「删掉」的黑客知识…",
+   "heat": 0.55,
+   "weight": 0.55,
+   "metrics": {},
+   "extra": {
+    "llm_score": 7.0,
+    "llm_done": true
+   },
+   "id": "f4260c382412",
+   "score": 6.74,
+   "title_zh": "Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活",
+   "summary_zh": "Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。",
+   "tags": [
+    "论文",
+    "模型机制",
+    "Anthropic"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "opensetlabs/openset-llm",
+   "url": "https://github.com/opensetlabs/openset-llm",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
+   "heat": 0.693,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 2214.0
+   },
+   "extra": {
+    "language": "Python",
+    "age_days": 14,
+    "llm_score": 8.0
+   },
+   "id": "b09cac1ce23d",
+   "score": 7.19,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动",
+   "url": "https://www.oschina.net/news/503871",
+   "source": "rss",
+   "section": "opensource",
+   "via": "开源中国",
+   "published": "2026-11-27T11:20:47Z",
+   "summary": "一袋 500g 装的咖啡豆，和两袋 250g 的组合装，外观相似、总重一样，但它们不是一个 SKU。这种差别，通用多模态模型基本看不出来。 这正是腾讯微信视觉团队做 WeMM-Ecom 的出发点。他们今天发布了开源公告，代码放在 GitHub 的 Tencent/WeMM-Ecom，权重同步上了 Hugging Face。公告里有句话说得很准：让通用大模型\"看商品...",
+   "heat": 0.45,
+   "weight": 0.45,
+   "metrics": {},
+   "extra": {
+    "llm_score": 8.0,
+    "llm_done": true
+   },
+   "id": "c20b3a1fca5e",
+   "score": 6.89,
+   "title_zh": "",
+   "summary_zh": "腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。",
+   "tags": [
+    "开源",
+    "多模态",
+    "电商"
+   ],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "awslabs/cli-agent-orchestrator",
+   "url": "https://github.com/awslabs/cli-agent-orchestrator",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions",
+   "heat": 0.425,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 29.0,
+    "stars": 1727.0
+   },
+   "extra": {
+    "language": "Python",
+    "llm_score": 8.0
+   },
+   "id": "ee7b8b4d4ca0",
+   "score": 6.77,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DeadInternetStudios/100x-engineer-skill",
+   "url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
+   "source": "github_new",
+   "section": "opensource",
+   "via": "GitHub 新项目",
+   "published": "",
+   "summary": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code",
+   "heat": 0.74,
+   "weight": 0.5,
+   "metrics": {
+    "stars": 890.0
+   },
+   "extra": {
+    "language": "JavaScript",
+    "age_days": 4,
+    "llm_score": 7.0
+   },
+   "id": "9c3be8b40052",
+   "score": 6.68,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DataTalksClub/llm-zoomcamp",
+   "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base. Register here 👇🏼",
+   "heat": 0.26,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 7.0,
+    "stars": 7775.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 8.0
+   },
+   "id": "dbcb12f2284e",
+   "score": 6.44,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "croffasia/itsaplan",
+   "url": "https://github.com/croffasia/itsaplan",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "⭐️⭐️⭐️ Open-source, self-hosted alternative to Linear and Plane. Project management and issue tracking where teams and AI agents work side by side to plan and ship products.",
+   "heat": 0.425,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 29.0,
+    "stars": 2724.0
+   },
+   "extra": {
+    "language": "TypeScript",
+    "llm_score": 7.0
+   },
+   "id": "11571c8ec0c1",
+   "score": 6.17,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "gepa-ai/gepa",
+   "url": "https://github.com/gepa-ai/gepa",
+   "source": "github_trending",
+   "section": "opensource",
+   "via": "GitHub Trending",
+   "published": "",
+   "summary": "Optimize prompts, code, and more with AI-powered Reflective Optimization",
+   "heat": 0.361,
+   "weight": 0.6,
+   "metrics": {
+    "stars_today": 17.0,
+    "stars": 7620.0
+   },
+   "extra": {
+    "language": "Jupyter Notebook",
+    "llm_score": 7.0
+   },
+   "id": "e1724fcfb71e",
+   "score": 6.04,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "llamaindex/OCRia-nano-1",
+   "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+   "source": "hot_models",
+   "section": "opensource",
+   "via": "Hugging Face 热门模型",
+   "published": "",
+   "summary": "image-to-text模型，许可证 other",
+   "heat": 0.694,
+   "weight": 0.5,
+   "metrics": {
+    "likes": 358.0,
+    "downloads": 626.0
+   },
+   "extra": {
+    "links": [
+     [
+      "国内镜像",
+      "https://hf-mirror.com/llamaindex/OCRia-nano-1"
+     ]
+    ],
+    "llm_score": 6.0,
+    "llm_done": true
+   },
+   "id": "d6386c3f1d8a",
+   "score": 5.99,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+   "url": "https://arxiv.org/abs/2611.34813",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 智能体",
+   "published": "2026-11-25T18:01:22Z",
+   "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative under the same conditions. We therefore pose the same tasks, with identical inputs, output specification and evaluator, to both media: rather than denoising pixels, a coding agent writes a program that renders the answer video, which an unmodified rule-based evaluator scores. On VBVR-Pro-Bench (Xu et al., 2026), a 500-instance suite spanning five cognitive categories with symbolic ground truth, the agent receives the same first frame and prompt as the video model, with no access to ground truth, metadata or generation models, and one attempt per instance. Three closed-model agents (Codex with gpt-6-astra, Claude Code with Fable 5.1 and Gemini CLI with Gemini 3.1 Pro) score 0.923, 0.894 and 0.893, each more than 0.22 above the strongest video model. Among 23 runnable open-weight models, the best, GLM-5, reaches 0.572, above all video models except the RL-trained one. Together, we show that for tasks whose solutions can be computed from a first frame and a prompt, program synthesis is curren…",
+   "heat": 0.717,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 59.0
+   },
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "f665daa5216c",
+   "score": 6.95,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+   "url": "https://arxiv.org/abs/2611.34051",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-25T00:00:00Z",
+   "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new writes. To resolve this, we propose , employing symmetric erasure to ensure non-expansive state propagation and decay-regulated residual writing to preserve writing flexibility. Theoretically, we establish an O(T) upper bound on recurrent state growth while retaining chunkwise parallel computation. Experiments on ~1.6B parameter models show that achieves stable training alongside improved long-context retrieval. Compared to GDN-2, it boosts the 128K average RULER score by 6.80 points in the recurrent setting and average accuracy across nine downstream tasks by 0.62 points in the hybrid setting.",
+   "heat": 0.852,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 128.0
+   },
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "2280d2fec317",
+   "score": 6.9,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+   "url": "https://arxiv.org/abs/2611.30844",
+   "source": "papers",
+   "section": "papers",
+   "via": "Hugging Face 热门论文",
+   "published": "2026-11-23T00:00:00Z",
+   "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop repeatedly applies the middle layers, while sparse experts allocate parameter capacity across tokens. This design deepens the network without adding parameters, freeing the parameter budget for other uses, such as more experts or more distinct layers. It also allocates compute dynamically, varying the number of passes across noise levels. Experiments show that DyLoMo-DiT makes more effective use of parameter and compute budgets, with further gains from assigning more passes to low-noise steps. On ImageNet 256times256, DyLoMo-DiT reduces FID by 11-24% relative to DiT and 36-56% relative to DiT-MoE at matched parameter and compute budgets. For text-to-image generation, a scaled DyLoMo-DiT achieves a higher GenEval score than FLUX.1 (0.714 vs. 0.673), with less than one tenth of its active parameters (1.05B vs. 12B).",
+   "heat": 0.754,
+   "weight": 0.6,
+   "metrics": {
+    "upvotes": 73.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/OneBoxCream/DyLoMo-DiT"
+     ]
+    ],
+    "llm_score": 6.0
+   },
+   "id": "4f1599d5dfdb",
+   "score": 5.97,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "Revisiting LLMs as Context Engineers",
+   "url": "https://arxiv.org/abs/2611.30494",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-23T11:13:05Z",
+   "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM itself as the engineer that draws generalizable instructions or experiences from offline trials as context. Although these methods resemble how humans learn from experiences, it remains unclear \\textbf{when and how} LLMs can engineer effective context from data. To answer the question, we first establish a benchmark composed of datasets with different reasoning patterns. We compared different LCE methods with different LLM families in 8B size, showing that there is no single winner for all tasks, even compared with simple baselines like chain-of-thought. Even when scaling model capabilities via more parameters or generation iterations, LCEs do not consistently boost existing performance. Across all datasets and models, the performance gains of LCEs are negatively correlated ($r=-0.5, p\\le 0.05$) with the diversity of the failure modes of reasoning trajectories. Investigating how LCEs work, we find that (1) the improvement in instruction adherence can explain some success of LCEs; (2) one major bottleneck is whether LLMs can extract effective experiences out of natively diverse failures. Through this study, we uncover the limited capabilities of LCEs in abstractin…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 4.0
+   },
+   "extra": {
+    "links": [
+     [
+      "代码",
+      "https://github.com/costa-nus/LCEBench"
+     ]
+    ],
+    "llm_score": 7.0
+   },
+   "id": "7d3a35ac0e20",
+   "score": 5.92,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [],
+   "merged_ids": []
+  },
+  {
+   "title": "DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving",
+   "url": "https://arxiv.org/abs/2611.28522",
+   "source": "papers",
+   "section": "papers",
+   "via": "arXiv · 长上下文与检索",
+   "published": "2026-11-21T03:18:37Z",
+   "summary": "Long-context LLM inference is bottlenecked by the memory demands of the key-value (KV) cache, whose size scales linearly with context length. Dynamic sparse attention reduces this bottleneck by fetching and attending only to a critical subset of tokens. The dominant primitive in dynamic sparse attention research and deployment is fixed-budget top-$k$ selection, which is favored because its deterministic block count aligns with the static memory allocation that systems like vLLM rely on. Top-$k$ uses a fixed budget regardless of how attention mass is distributed across heads, layers, and decode steps, leading to either wasted bandwidth on heads with peaky attention or dropped context on heads with diffuse attention. Top-$p$ (nucleus) selection adapts naturally to this variation but has seen limited adoption in production serving systems due to two system-level challenges: variable block counts that break deterministic block allocation and computationally expensive selection kernels that exceed the cost of attention itself. We present DisSparse, a serving system that integrates top-$p$ sparse attention into vLLM end-to-end. DisSparse decouples block selection from the scheduler's critical path, hides selection latency behind layer computation via a two-stream pipeline, and introduces a single-pass histogram-based top-$p$ kernel. We further observe intra-block sparsity, the inflation of selection budgets caused by mixing high- and low-importance tokens within fixed-size KV cach…",
+   "heat": 0.3,
+   "weight": 0.8,
+   "metrics": {
+    "upvotes": 0.0
+   },
+   "extra": {
+    "llm_score": 7.0
+   },
+   "id": "6f983cf6f035",
+   "score": 5.83,
+   "title_zh": "",
+   "summary_zh": "",
+   "tags": [],
+   "also_in": [
+    "arXiv · 高效推理"
+   ],
+   "merged_ids": []
+  }
+ ],
+ "kuaixun": {
+  "kind": "daily",
+  "day": "2026-11-28",
+  "start": "2026-11-28",
+  "end": "2026-11-28",
+  "title": "opensetlabs/openset-llm",
+  "generated_at": "2026-11-28T01:58:42Z",
+  "models": [
+   "glm-4.7-flash"
+  ],
+  "prompt": "",
+  "tries": 0,
+  "pending": 23,
+  "club_period": {
+   "start": "2026-11-27",
+   "end": "2026-11-27"
+  },
+  "sources": [
+   {
+    "name": "club",
+    "title": "俱乐部开源仪表盘",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "policy",
+    "title": "中国政府网",
+    "ok": true,
+    "error": ""
+   },
+   {
+    "name": "events",
+    "title": "CCFDDL",
+    "ok": true,
+    "error": ""
+   }
+  ],
+  "entries": [
+   {
+    "cat": "club",
+    "headline": "开放原子开源俱乐部合并 3 个 PR、提交 17 次",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "据俱乐部开源仪表盘统计，开放原子开源俱乐部跟踪的 122 个仓库中有 1 个有人参与开发，共新增 PR 3 个、合并 3 个，提交 17 次，新增代码 227 行、删除 69 行，3 位贡献者参与。",
+    "url": "https://osd.openatom.club/",
+    "via": "俱乐部开源仪表盘"
+   },
+   {
+    "cat": "club",
+    "headline": "atomgit-cli 提交 12 次",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "Agent SIG的 atomgit-cli 仓库提交 12 次、新增代码 215 行，3 位贡献者参与。",
+    "url": "https://github.com/hust-open-atom-club/atomgit-cli",
+    "via": "GitHub"
+   },
+   {
+    "cat": "club",
+    "headline": "atomgit-cli 发布 v0.7.5",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "atomgit-cli 发布新版本 v0.7.5。",
+    "url": "https://github.com/hust-open-atom-club/atomgit-cli/releases/tag/v0.7.5",
+    "via": "GitHub"
+   },
+   {
+    "cat": "domestic",
+    "headline": "首个带跨任务空间记忆的原生基模开源",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "首个带跨任务空间记忆的原生基模开源，机器人端侧就能跑。",
+    "url": "https://www.qbitai.com/2026/11/513227.html",
+    "via": "量子位",
+    "id": "eec1d12687d5",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "豆包工作宣布接入剪映官方插件",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "豆包工作宣布接入剪映官方插件，支持通过自然语言完成视频剪辑。",
+    "url": "https://zhidx.com/p/615139.html",
+    "via": "智东西",
+    "id": "b1df9905093b",
+    "ai": true
+   },
+   {
+    "cat": "domestic",
+    "headline": "Kimi 向科学家提供最高 2 万美元 API 免费额度",
+    "when": "11月28日",
+    "date": "2026-11-28",
+    "body": "月之暗面向自然科学等领域研究人员提供最高 2 万美元 Kimi API 额度。",
+    "url": "https://www.solidot.org/story?sid=86015",
+    "via": "Solidot",
+    "id": "46293ad241d8",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "llama.cpp × AMD Benchmark 仪表盘上线，可追踪本地推理性能。",
+    "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "via": "Hugging Face 博客",
+    "id": "49da20359108",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "在 AWS Trainium3 机器上测试 LTX-2.5 视频生成模型。",
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "via": "Hugging Face 博客",
+    "id": "c1d113f52f2a",
+    "ai": true
+   },
+   {
+    "cat": "overseas",
+    "headline": "Anthropic拆穿AI假遗忘！46万神经元动几十个，黑客知识就复活",
+    "when": "11月28日",
+    "date": "2026-11-28",
+    "body": "Anthropic 研究发现 AI 的“假遗忘”现象，只需微调几十个神经元即可恢复知识。",
+    "url": "https://aiera.com.cn/2026/11/28/other/admin/125660/anthropic%e6%8b%86%e7%a9%bfai%e5%81%87%e9%81%97%e5%bf%98%ef%bc%8146%e4%b8%87%e7%a5%9e%e7%bb%8f%e5%85%83%e5%8a%a8%e5%87%a0%e5%8d%81%e4%b8%aa%ef%bc%8c%e9%bb%91%e5%ae%a2%e7%9f%a5%e8%af%86%e5%b0%b1/",
+    "via": "新智元",
+    "id": "f4260c382412",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动",
+    "when": "11月27日",
+    "date": "2026-11-27",
+    "body": "腾讯微信视觉团队开源 WeMM-Ecom 多模态基础模型，提升电商场景识别能力。",
+    "url": "https://www.oschina.net/news/503871",
+    "via": "开源中国",
+    "id": "c20b3a1fca5e",
+    "ai": true
+   },
+   {
+    "cat": "opensource",
+    "headline": "opensetlabs/openset-llm",
+    "when": "11月28日消息",
+    "date": "2026-11-28",
+    "body": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
+    "url": "https://github.com/opensetlabs/openset-llm",
+    "via": "GitHub 新项目",
+    "id": "b09cac1ce23d",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "awslabs/cli-agent-orchestrator",
+    "when": "11月28日消息",
+    "date": "2026-11-28",
+    "body": "Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions。",
+    "url": "https://github.com/awslabs/cli-agent-orchestrator",
+    "via": "GitHub Trending",
+    "id": "ee7b8b4d4ca0",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "DeadInternetStudios/100x-engineer-skill",
+    "when": "11月28日消息",
+    "date": "2026-11-28",
+    "body": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code。",
+    "url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
+    "via": "GitHub 新项目",
+    "id": "9c3be8b40052",
+    "ai": false
+   },
+   {
+    "cat": "opensource",
+    "headline": "DataTalksClub/llm-zoomcamp",
+    "when": "11月28日消息",
+    "date": "2026-11-28",
+    "body": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI…",
+    "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+    "via": "GitHub Trending",
+    "id": "dbcb12f2284e",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video…",
+    "when": "11月26日",
+    "date": "2026-11-26",
+    "body": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prom…",
+    "url": "https://arxiv.org/abs/2611.34813",
+    "via": "arXiv · 智能体",
+    "id": "f665daa5216c",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili…",
+    "when": "11月28日消息",
+    "date": "2026-11-28",
+    "body": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent…",
+    "url": "https://arxiv.org/abs/2611.34051",
+    "via": "Hugging Face 热门论文",
+    "id": "2280d2fec317",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+    "when": "11月28日消息",
+    "date": "2026-11-28",
+    "body": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Exper…",
+    "url": "https://arxiv.org/abs/2611.30844",
+    "via": "Hugging Face 热门论文",
+    "id": "4f1599d5dfdb",
+    "ai": false
+   },
+   {
+    "cat": "papers",
+    "headline": "Revisiting LLMs as Context Engineers",
+    "when": "11月28日消息",
+    "date": "2026-11-28",
+    "body": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method t…",
+    "url": "https://arxiv.org/abs/2611.30494",
+    "via": "arXiv · 长上下文与检索",
+    "id": "7d3a35ac0e20",
+    "ai": false
+   },
+   {
+    "cat": "events",
+    "headline": "EuroVis 2027 论文截稿",
+    "when": "12月3日",
+    "date": "2026-12-03",
+    "body": "Eurographics Conference on Visualization（EuroVis 2027，CCF-B 类，图形学与多媒体）Full papers的论文提交截止时间为北京时间12月3日 19:59，摘要截止时间为11月24日 19:59。会议将于 May 31-June 4, 2027 在 Stuttgart, Germany 举行。",
+    "url": "https://eurovis27.github.io/web/",
+    "via": "会议官网"
+   }
+  ],
+  "written": {}
+ }
+}
